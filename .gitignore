@@ -1,0 +1,11 @@
+# Claude Code
+.claude/
+
+# Extracted assets (large, generated)
+Extracted/
+
+# Game asset archives (large, read-only source)
+Paks/
+
+# Tools (pre-built binaries, not source)
+tools/
