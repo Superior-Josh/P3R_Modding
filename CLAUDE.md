@@ -35,6 +35,7 @@ P3R_Modding/
 │   ├── SYSTEM_ARCHITECTURE.md         ← 系统架构设计
 │   ├── DEVELOPMENT_PLAN.md            ← Sprint 开发计划
 │   ├── P3R_ASSET_ANALYSIS.md          ← 资产分析报告
+│   ├── DEVELOPER_GUIDE.md             ← 开发环境指南
 │   └── amicitia/
 │       ├── README.md                  ← 37 个参考页面索引
 │       ├── DATA_MAPPING.md            ← Wiki ↔ 游戏文件精确映射 ★
@@ -49,6 +50,7 @@ P3R_Modding/
 │   ├── scripts/
 │   │   ├── Config.ps1                 ← 共享配置 (路径/密钥/别名/注册表)
 │   │   ├── modify-and-repack.ps1      ← 全流程编排脚本
+│   │   ├── verify-templates.ps1       ← 模板库验证
 │   │   └── tools/                     ← Claude Code 工具脚本 (Sprint 2)
 │   │       ├── search-datatable.ps1   ← 数据表定位
 │   │       ├── search-wiki.ps1        ← Wiki 搜索
@@ -255,3 +257,4 @@ P3R_Modding/
 | `docs/SYSTEM_ARCHITECTURE.md` | 分层架构、模块设计、数据流、接口定义、安全架构、技术选型 |
 | `docs/DEVELOPMENT_PLAN.md` | Sprint 分解、任务依赖、工时估算、风险缓冲、里程碑日历 |
 | `docs/P3R_ASSET_ANALYSIS.md` | 资产结构分析、DataTable 索引、IoStore/PAK 分片详情、Mod 制作速查 |
+| `docs/DEVELOPER_GUIDE.md` | 开发环境搭建、模板导出指南、调试排查、日常开发工作流 |

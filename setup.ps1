@@ -250,9 +250,14 @@ function Final-Check {
     $tplDir = Join-Path $ProjectRoot "tools\templates"
     $tplCount = (Get-ChildItem $tplDir -Filter "*.uasset" -ErrorAction SilentlyContinue | Measure-Object).Count
     if ($tplCount -eq 0) {
-        $warnings += "模板库为空。需要从 FModel GUI 导出传统格式模板 (见 docs/SYSTEM_ARCHITECTURE.md)"
+        $warnings += "模板库为空。需要从 FModel GUI 导出传统格式模板 (见 docs/DEVELOPER_GUIDE.md §六)"
     } else {
-        Write-Host "  模板库:   $tplCount 种 DataTable 类型" -ForegroundColor Green
+        Write-Host "  模板库:   $tplCount 个 .uasset (需要 $($tplCount/2) 对 .uasset+.uexp)" -ForegroundColor Green
+        # 检查是否运行了验证
+        $verifyScript = Join-Path $ProjectRoot "tools\scripts\verify-templates.ps1"
+        if (Test-Path $verifyScript) {
+            Write-Host "  验证脚本: tools\scripts\verify-templates.ps1 (运行以验证模板完整性)" -ForegroundColor Green
+        }
     }
 
     # 检查 UnrealPak Crypto.json
@@ -303,7 +308,8 @@ function Final-Check {
 
     if ($tplCount -eq 0) {
         Write-Host "  1. 📋 导出模板: 用 FModel GUI 导出传统格式 .uasset+.uexp" -ForegroundColor White
-        Write-Host "     详见 docs/SYSTEM_ARCHITECTURE.md → 写回引擎详细设计" -ForegroundColor DarkGray
+        Write-Host "     详见 docs/DEVELOPER_GUIDE.md → 模板导出指南 (第六节)" -ForegroundColor DarkGray
+        Write-Host "     完成后运行: .\tools\scripts\verify-templates.ps1" -ForegroundColor DarkGray
     }
 
     if ($jsonCount -gt 0 -and $tplCount -gt 0) {

@@ -36,6 +36,9 @@ tools/templates/*.uasset
 tools/templates/*.uexp
 tools/templates/*.umap
 
+# ── 模板验证报告 (生成文件, 不提交) ─────────────────────────
+tools/templates/verification_report.json
+
 # ── 操作系统文件 ─────────────────────────────────────────
 Thumbs.db
 Desktop.ini

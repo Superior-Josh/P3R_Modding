@@ -39,11 +39,12 @@ Sprint 4  ██ 扩展与验证 (16h)            ← 覆盖 + 确认
 
 ### 交付物
 
-- [x] `tools/templates/` 目录，含 18 种 .uasset+.uexp 模板
+- [ ] `tools/templates/` 目录，含 18 种 .uasset+.uexp 模板 ← **待人工 T0.1 FModel 导出**
 - [x] `tools/templates/template_index.json` 模板索引
 - [x] `setup.ps1` 项目初始化脚本
 - [x] `docs/DEVELOPER_GUIDE.md` 开发指南
-- [x] 模板往返验证报告（18/18 通过）
+- [x] `tools/scripts/verify-templates.ps1` 模板验证脚本
+- [ ] 模板往返验证报告（18/18 通过）← **依赖 T0.1**
 
 ### 任务依赖图
 
