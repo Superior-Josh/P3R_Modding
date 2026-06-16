@@ -16,3 +16,8 @@ tools/UnrealPakTool/
 tools/P3RDataTools/bin/
 tools/P3RDataTools/obj/
 tools/P3RDataTools/publish/
+
+# Temp/test mod output
+tools/Output/mod_*/
+tools/Output/.data/
+tools/Output/Logs/
