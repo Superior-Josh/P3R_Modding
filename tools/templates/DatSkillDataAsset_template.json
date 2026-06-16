@@ -1,0 +1,5134 @@
+{
+  "Type": "DatSkillTable",
+  "Name": "DatSkillDataAsset",
+  "Class": "UScriptClass'DatSkillTable'",
+  "Properties": {
+    "Data": [
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 9
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 11,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 11,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 10,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 10,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 12,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 12,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 13,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 13,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 14,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 14,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 15,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 15,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 7
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 2
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 14,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 11,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 14,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 4
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 14,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 15,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 10,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 13,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 2,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 0,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 18,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 7,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 3,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 4,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 5,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 6,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 8,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 9,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 17,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": 16,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 1
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 1
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 9
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 1
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 2
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 8
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 9
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 5
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 9
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 3
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 6
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 7
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 4
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 1,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      },
+      {
+        "attr": -1,
+        "type": 0,
+        "targetLv": 0
+      }
+    ]
+  }
+}

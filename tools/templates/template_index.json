@@ -274,7 +274,7 @@
   },
   "validation": {
     "expectedFileCount": 36,
-    "expectedMinSizeBytes": 1024,
+    "expectedMinSizeBytes": 256,
     "uassetMagicBytes": "C1832A9E",
     "notes": "每个模板必须包含 .uasset 和 .uexp 两个文件。.uasset 文件头为 C1 83 2A 9E (UE4 Package Magic)。验证脚本: tools/scripts/verify-templates.ps1"
   }

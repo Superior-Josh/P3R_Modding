@@ -1,0 +1,4617 @@
+{
+  "Type": "MaterialItemListTable",
+  "Name": "DatItemMaterialDataAsset",
+  "Class": "UScriptClass'MaterialItemListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "ItemDef": "IT_MAT_BLANK",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 0,
+        "Price": 0,
+        "SellPrice": 0,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ01",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ02",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ03",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ04",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ05",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ06",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ07",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ08",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ09",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ10",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ11",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ12",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ13",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ14",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ15",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ16",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 40,
+        "SellPrice": 10,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ17",
+        "SortNum": 549,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ18",
+        "SortNum": 548,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20000,
+        "SellPrice": 5000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ19",
+        "SortNum": 547,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 48000,
+        "SellPrice": 12000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ20",
+        "SortNum": 546,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 88000,
+        "SellPrice": 22000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ21",
+        "SortNum": 545,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 140000,
+        "SellPrice": 35000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ22",
+        "SortNum": 544,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 280000,
+        "SellPrice": 70000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ23",
+        "SortNum": 599,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400000,
+        "SellPrice": 100000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ24",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ25",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ26",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ27",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ28",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ29",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_REQ30",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET01",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 240000,
+        "SellPrice": 60000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET02",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1600000,
+        "SellPrice": 400000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET03",
+        "SortNum": 699,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 8000,
+        "SellPrice": 2000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET04",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 48000,
+        "SellPrice": 12000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET05",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 80000,
+        "SellPrice": 20000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET06",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 112000,
+        "SellPrice": 28000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET07",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 160000,
+        "SellPrice": 40000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET08",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 608000,
+        "SellPrice": 152000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET09",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 800000,
+        "SellPrice": 200000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET10",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1280000,
+        "SellPrice": 320000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET11",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 16000000,
+        "SellPrice": 4000000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET12",
+        "SortNum": 529,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4000,
+        "SellPrice": 1000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET13",
+        "SortNum": 528,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET14",
+        "SortNum": 527,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 28000,
+        "SellPrice": 7000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET15",
+        "SortNum": 526,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 44000,
+        "SellPrice": 11000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET16",
+        "SortNum": 525,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 72000,
+        "SellPrice": 18000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET17",
+        "SortNum": 524,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120000,
+        "SellPrice": 30000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET18",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 32000,
+        "SellPrice": 8000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET19",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET20",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET21",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 242000,
+        "SellPrice": 60500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET22",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET23",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET24",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 11200,
+        "SellPrice": 2800,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET25",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET26",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET27",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 190000,
+        "SellPrice": 47500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET28",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 250000,
+        "SellPrice": 62500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET29",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_GET30",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100,
+        "SellPrice": 30,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_AMETHYST_",
+        "SortNum": 997,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_AQUAMARIN",
+        "SortNum": 996,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_EMERALD__",
+        "SortNum": 992,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ONYX_____",
+        "SortNum": 995,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_OPAL_____",
+        "SortNum": 991,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 50000,
+        "SellPrice": 12500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_GARNET___",
+        "SortNum": 990,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 15000,
+        "SellPrice": 3750,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_SAPPHIRE_",
+        "SortNum": 994,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_DIAMOND__",
+        "SortNum": 988,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 50000,
+        "SellPrice": 12500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_TURQUOISE",
+        "SortNum": 998,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 3000,
+        "SellPrice": 750,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_TOPAZ____",
+        "SortNum": 993,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_PEARL____",
+        "SortNum": 989,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 50000,
+        "SellPrice": 12500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_RUBY_____",
+        "SortNum": 987,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 100000,
+        "SellPrice": 25000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_MALACHITE",
+        "SortNum": 999,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 3000,
+        "SellPrice": 750,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_KOHAKU___",
+        "SortNum": 954,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_STONE_15_",
+        "SortNum": 959,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 25000,
+        "SellPrice": 6250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_STONE_16_",
+        "SortNum": 958,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 50000,
+        "SellPrice": 12500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_STONE_17_",
+        "SortNum": 957,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 200000,
+        "SellPrice": 50000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_STONE_18_",
+        "SortNum": 956,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_STONE_19_",
+        "SortNum": 955,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_STONE_20_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_01",
+        "SortNum": 899,
+        "ItemType": 2097152,
+        "Rarity": 1,
+        "Price": 300000,
+        "SellPrice": 75000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_02",
+        "SortNum": 897,
+        "ItemType": 2097152,
+        "Rarity": 2,
+        "Price": 300000,
+        "SellPrice": 75000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_03",
+        "SortNum": 896,
+        "ItemType": 2097152,
+        "Rarity": 3,
+        "Price": 300000,
+        "SellPrice": 75000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_04",
+        "SortNum": 889,
+        "ItemType": 2097152,
+        "Rarity": 1,
+        "Price": 300000,
+        "SellPrice": 75000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_05",
+        "SortNum": 888,
+        "ItemType": 2097152,
+        "Rarity": 2,
+        "Price": 300000,
+        "SellPrice": 75000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_06",
+        "SortNum": 887,
+        "ItemType": 2097152,
+        "Rarity": 3,
+        "Price": 300000,
+        "SellPrice": 75000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_07",
+        "SortNum": 879,
+        "ItemType": 2097152,
+        "Rarity": 1,
+        "Price": 1000000,
+        "SellPrice": 250000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_08",
+        "SortNum": 878,
+        "ItemType": 2097152,
+        "Rarity": 2,
+        "Price": 300000,
+        "SellPrice": 75000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_09",
+        "SortNum": 877,
+        "ItemType": 2097152,
+        "Rarity": 3,
+        "Price": 1000000,
+        "SellPrice": 250000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_10",
+        "SortNum": 868,
+        "ItemType": 2097152,
+        "Rarity": 2,
+        "Price": 12000,
+        "SellPrice": 3000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_11",
+        "SortNum": 866,
+        "ItemType": 2097152,
+        "Rarity": 3,
+        "Price": 16000,
+        "SellPrice": 4000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_12",
+        "SortNum": 859,
+        "ItemType": 2097152,
+        "Rarity": 4,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_13",
+        "SortNum": 858,
+        "ItemType": 2097152,
+        "Rarity": 4,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_14",
+        "SortNum": 898,
+        "ItemType": 2097152,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_15",
+        "SortNum": 869,
+        "ItemType": 2097152,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_16",
+        "SortNum": 867,
+        "ItemType": 2097152,
+        "Rarity": 3,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_17",
+        "SortNum": 857,
+        "ItemType": 2097152,
+        "Rarity": 4,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_18",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_19",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_WEAPON_20",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_01",
+        "SortNum": 796,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_02",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_03",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_04",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_05",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_06",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_07",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 34000,
+        "SellPrice": 8500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_08",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_09",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_10",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_11",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_12",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_13",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_14",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_15",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_16",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_17",
+        "SortNum": 795,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_18",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_19",
+        "SortNum": 794,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_20",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_21",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_22",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_23",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_24",
+        "SortNum": 793,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_25",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_26",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_27",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 10000,
+        "SellPrice": 2500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_28",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 500000,
+        "SellPrice": 125000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_29",
+        "SortNum": 791,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 500000,
+        "SellPrice": 125000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_30",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 500000,
+        "SellPrice": 125000,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_MAYA_",
+        "SortNum": 499,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_MAYA_",
+        "SortNum": 498,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 480,
+        "SellPrice": 120,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_MAYA_",
+        "SortNum": 497,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 800,
+        "SellPrice": 200,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_MAYA_",
+        "SortNum": 496,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1040,
+        "SellPrice": 260,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPH_MAYA_",
+        "SortNum": 495,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1240,
+        "SellPrice": 310,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_MAYA_",
+        "SortNum": 494,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1960,
+        "SellPrice": 490,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_MAYA_",
+        "SortNum": 493,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2400,
+        "SellPrice": 600,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_MAYA_",
+        "SortNum": 492,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5400,
+        "SellPrice": 1350,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_MAYA_",
+        "SortNum": 491,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4240,
+        "SellPrice": 1060,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_MAYA_",
+        "SortNum": 490,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3720,
+        "SellPrice": 930,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_MAYA_",
+        "SortNum": 489,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3000,
+        "SellPrice": 750,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_MAYA_",
+        "SortNum": 488,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5600,
+        "SellPrice": 1400,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_HND01",
+        "SortNum": 479,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 600,
+        "SellPrice": 150,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_HND02",
+        "SortNum": 478,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1160,
+        "SellPrice": 290,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_HND03",
+        "SortNum": 477,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1520,
+        "SellPrice": 380,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_HND04",
+        "SortNum": 476,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2720,
+        "SellPrice": 680,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_TBL01",
+        "SortNum": 474,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 920,
+        "SellPrice": 230,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_TBL02",
+        "SortNum": 473,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1360,
+        "SellPrice": 340,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_TBL03",
+        "SortNum": 472,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4480,
+        "SellPrice": 1120,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_TBL04",
+        "SortNum": 471,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5800,
+        "SellPrice": 1450,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_MAG01",
+        "SortNum": 469,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3280,
+        "SellPrice": 820,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_MAG02",
+        "SortNum": 468,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3920,
+        "SellPrice": 980,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_MAG03",
+        "SortNum": 467,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5360,
+        "SellPrice": 1340,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_MAG_MAG04",
+        "SortNum": 466,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7200,
+        "SellPrice": 1800,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_TIA01",
+        "SortNum": 464,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 520,
+        "SellPrice": 130,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_TIA02",
+        "SortNum": 463,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1000,
+        "SellPrice": 250,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_TIA03",
+        "SortNum": 461,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2560,
+        "SellPrice": 640,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_TIA04",
+        "SortNum": 462,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3000,
+        "SellPrice": 750,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_BIB01",
+        "SortNum": 459,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1040,
+        "SellPrice": 260,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_BIB02",
+        "SortNum": 458,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1320,
+        "SellPrice": 330,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_BIB03",
+        "SortNum": 457,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1600,
+        "SellPrice": 400,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_BIB04",
+        "SortNum": 456,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4920,
+        "SellPrice": 1230,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_MLA01",
+        "SortNum": 454,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3040,
+        "SellPrice": 760,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_MLA02",
+        "SortNum": 453,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3520,
+        "SellPrice": 880,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_MLA03",
+        "SortNum": 452,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4800,
+        "SellPrice": 1200,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_PRS_MLA04",
+        "SortNum": 451,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7480,
+        "SellPrice": 1870,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_EGL01",
+        "SortNum": 449,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1240,
+        "SellPrice": 310,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_EGL02",
+        "SortNum": 448,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1440,
+        "SellPrice": 360,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_EGL03",
+        "SortNum": 447,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1800,
+        "SellPrice": 450,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_EGL04",
+        "SortNum": 446,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6400,
+        "SellPrice": 1600,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_STU01",
+        "SortNum": 444,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1480,
+        "SellPrice": 370,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_STU02",
+        "SortNum": 443,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2800,
+        "SellPrice": 700,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_STU03",
+        "SortNum": 442,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3360,
+        "SellPrice": 840,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_STU04",
+        "SortNum": 441,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4200,
+        "SellPrice": 1050,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_VNS01",
+        "SortNum": 439,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3480,
+        "SellPrice": 870,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_VNS02",
+        "SortNum": 438,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3840,
+        "SellPrice": 960,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_VNS03",
+        "SortNum": 437,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4800,
+        "SellPrice": 1200,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPS_VNS04",
+        "SortNum": 436,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 8000,
+        "SellPrice": 2000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_BTL01",
+        "SortNum": 434,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 880,
+        "SellPrice": 220,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_BTL02",
+        "SortNum": 433,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1640,
+        "SellPrice": 410,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_BTL03",
+        "SortNum": 432,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1680,
+        "SellPrice": 420,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_BTL04",
+        "SortNum": 431,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6400,
+        "SellPrice": 1600,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_ARC01",
+        "SortNum": 429,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2160,
+        "SellPrice": 540,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_ARC02",
+        "SortNum": 428,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3280,
+        "SellPrice": 820,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_ARC03",
+        "SortNum": 427,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5080,
+        "SellPrice": 1270,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_ARC04",
+        "SortNum": 426,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5400,
+        "SellPrice": 1350,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_CTL01",
+        "SortNum": 424,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4000,
+        "SellPrice": 1000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_CTL02",
+        "SortNum": 423,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_CTL03",
+        "SortNum": 422,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6600,
+        "SellPrice": 1650,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_EPR_CTL04",
+        "SortNum": 421,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6800,
+        "SellPrice": 1700,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPH_BRS01",
+        "SortNum": 419,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 800,
+        "SellPrice": 200,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPH_BRS02",
+        "SortNum": 418,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1520,
+        "SellPrice": 380,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPH_BRS03",
+        "SortNum": 417,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2600,
+        "SellPrice": 650,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPH_BRS04",
+        "SortNum": 416,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3880,
+        "SellPrice": 970,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPT_TRI01",
+        "SortNum": 414,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1160,
+        "SellPrice": 290,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPT_TRI02",
+        "SortNum": 413,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2000,
+        "SellPrice": 500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPT_TRI03",
+        "SortNum": 412,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4280,
+        "SellPrice": 1070,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPT_TRI04",
+        "SortNum": 411,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4920,
+        "SellPrice": 1230,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPT_EXP01",
+        "SortNum": 409,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2520,
+        "SellPrice": 630,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPT_EXP02",
+        "SortNum": 408,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4400,
+        "SellPrice": 1100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPT_EXP03",
+        "SortNum": 407,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6280,
+        "SellPrice": 1570,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HPT_EXP04",
+        "SortNum": 406,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6440,
+        "SellPrice": 1610,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_ERS01",
+        "SortNum": 404,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 640,
+        "SellPrice": 160,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_ERS02",
+        "SortNum": 403,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1400,
+        "SellPrice": 350,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_ERS03",
+        "SortNum": 402,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1720,
+        "SellPrice": 430,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_ERS04",
+        "SortNum": 401,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4760,
+        "SellPrice": 1190,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_HBD01",
+        "SortNum": 399,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2080,
+        "SellPrice": 520,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_HBD02",
+        "SortNum": 398,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4880,
+        "SellPrice": 1220,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_HBD03",
+        "SortNum": 397,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5760,
+        "SellPrice": 1440,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_HBD04",
+        "SortNum": 396,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5800,
+        "SellPrice": 1450,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_LVS01",
+        "SortNum": 394,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1360,
+        "SellPrice": 340,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_LVS02",
+        "SortNum": 393,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1560,
+        "SellPrice": 390,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_LVS03",
+        "SortNum": 392,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5600,
+        "SellPrice": 1400,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_LOV_LVS04",
+        "SortNum": 391,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6520,
+        "SellPrice": 1630,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_FOT01",
+        "SortNum": 389,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1920,
+        "SellPrice": 480,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_FOT02",
+        "SortNum": 388,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2040,
+        "SellPrice": 510,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_FOT03",
+        "SortNum": 387,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3240,
+        "SellPrice": 810,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_FOT04",
+        "SortNum": 386,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4760,
+        "SellPrice": 1190,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_GDN01",
+        "SortNum": 384,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2440,
+        "SellPrice": 610,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_GDN02",
+        "SortNum": 383,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3120,
+        "SellPrice": 780,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_GDN03",
+        "SortNum": 382,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5600,
+        "SellPrice": 1400,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_GDN04",
+        "SortNum": 381,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6200,
+        "SellPrice": 1550,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_BRL01",
+        "SortNum": 379,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3360,
+        "SellPrice": 840,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_BRL02",
+        "SortNum": 378,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4600,
+        "SellPrice": 1150,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_BRL03",
+        "SortNum": 377,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7320,
+        "SellPrice": 1830,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CRT_BRL04",
+        "SortNum": 376,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7560,
+        "SellPrice": 1890,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_SRD01",
+        "SortNum": 374,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2120,
+        "SellPrice": 530,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_SRD02",
+        "SortNum": 373,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4040,
+        "SellPrice": 1010,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_SRD03",
+        "SortNum": 372,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5120,
+        "SellPrice": 1280,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_SRD04",
+        "SortNum": 371,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6040,
+        "SellPrice": 1510,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_BAL01",
+        "SortNum": 369,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 880,
+        "SellPrice": 220,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_BAL02",
+        "SortNum": 368,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1120,
+        "SellPrice": 280,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_BAL03",
+        "SortNum": 367,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 8000,
+        "SellPrice": 2000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_BAL04",
+        "SortNum": 366,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5840,
+        "SellPrice": 1460,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_GSD01",
+        "SortNum": 364,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3880,
+        "SellPrice": 970,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_GSD02",
+        "SortNum": 363,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5520,
+        "SellPrice": 1380,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_GSD03",
+        "SortNum": 362,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7680,
+        "SellPrice": 1920,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_JST_GSD04",
+        "SortNum": 361,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7820,
+        "SellPrice": 1960,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_REV01",
+        "SortNum": 359,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 960,
+        "SellPrice": 240,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_REV02",
+        "SortNum": 358,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1160,
+        "SellPrice": 290,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_REV03",
+        "SortNum": 357,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2200,
+        "SellPrice": 550,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_REV04",
+        "SortNum": 356,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5520,
+        "SellPrice": 1380,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_PTM01",
+        "SortNum": 354,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1160,
+        "SellPrice": 290,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_PTM02",
+        "SortNum": 353,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1560,
+        "SellPrice": 390,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_PTM03",
+        "SortNum": 352,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2800,
+        "SellPrice": 700,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_PTM04",
+        "SortNum": 351,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3700,
+        "SellPrice": 930,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_SCH01",
+        "SortNum": 349,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3080,
+        "SellPrice": 770,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_SCH02",
+        "SortNum": 348,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4520,
+        "SellPrice": 1130,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_SCH03",
+        "SortNum": 347,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6680,
+        "SellPrice": 1670,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HEM_SCH04",
+        "SortNum": 346,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6820,
+        "SellPrice": 1710,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_BDS01",
+        "SortNum": 344,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1200,
+        "SellPrice": 300,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_BDS02",
+        "SortNum": 343,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5320,
+        "SellPrice": 1330,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_BDS03",
+        "SortNum": 342,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3600,
+        "SellPrice": 900,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_BDS04",
+        "SortNum": 341,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7120,
+        "SellPrice": 1780,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_MDS01",
+        "SortNum": 339,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2280,
+        "SellPrice": 570,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_MDS02",
+        "SortNum": 338,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_MDS03",
+        "SortNum": 337,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5800,
+        "SellPrice": 1450,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_MDS04",
+        "SortNum": 336,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6000,
+        "SellPrice": 1500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_SND01",
+        "SortNum": 334,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3600,
+        "SellPrice": 900,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_SND02",
+        "SortNum": 333,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5000,
+        "SellPrice": 1250,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_SND03",
+        "SortNum": 332,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6080,
+        "SellPrice": 1520,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_FOR_SND04",
+        "SortNum": 331,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7120,
+        "SellPrice": 1780,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_SAM01",
+        "SortNum": 329,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3760,
+        "SellPrice": 940,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_SAM02",
+        "SortNum": 328,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4000,
+        "SellPrice": 1000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_SAM03",
+        "SortNum": 327,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5720,
+        "SellPrice": 1430,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_SAM04",
+        "SortNum": 326,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 9000,
+        "SellPrice": 2250,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_RES01",
+        "SortNum": 324,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1360,
+        "SellPrice": 340,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_RES02",
+        "SortNum": 323,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1600,
+        "SellPrice": 400,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_RES03",
+        "SortNum": 322,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2400,
+        "SellPrice": 600,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_RES04",
+        "SortNum": 321,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3200,
+        "SellPrice": 800,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_AML01",
+        "SortNum": 319,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1200,
+        "SellPrice": 300,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_AML02",
+        "SortNum": 318,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1800,
+        "SellPrice": 450,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_AML03",
+        "SortNum": 317,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4640,
+        "SellPrice": 1160,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_STR_AML04",
+        "SortNum": 316,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5200,
+        "SellPrice": 1300,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_MNO01",
+        "SortNum": 314,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2880,
+        "SellPrice": 720,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_MNO02",
+        "SortNum": 313,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4120,
+        "SellPrice": 1030,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_MNO03",
+        "SortNum": 312,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5440,
+        "SellPrice": 1360,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_MNO04",
+        "SortNum": 311,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6760,
+        "SellPrice": 1690,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_HEK01",
+        "SortNum": 309,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2960,
+        "SellPrice": 740,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_HEK02",
+        "SortNum": 308,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5200,
+        "SellPrice": 1300,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_HEK03",
+        "SortNum": 307,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7040,
+        "SellPrice": 1760,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_HEK04",
+        "SortNum": 306,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7620,
+        "SellPrice": 1910,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_KPR01",
+        "SortNum": 304,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4400,
+        "SellPrice": 1100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_KPR02",
+        "SortNum": 303,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 5800,
+        "SellPrice": 1450,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_KPR03",
+        "SortNum": 302,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6960,
+        "SellPrice": 1740,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HNG_KPR04",
+        "SortNum": 301,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 7320,
+        "SellPrice": 1830,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_PAN01",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2000,
+        "SellPrice": 500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_PAN02",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2000,
+        "SellPrice": 500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_PAN03",
+        "SortNum": 509,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3200,
+        "SellPrice": 800,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_PAN04",
+        "SortNum": 508,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6800,
+        "SellPrice": 1700,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_PAN05",
+        "SortNum": 507,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 14000,
+        "SellPrice": 3500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_CAS_PAN06",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6000,
+        "SellPrice": 1500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TBL_A_F01",
+        "SortNum": 299,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 280,
+        "SellPrice": 70,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TBL_A_F02",
+        "SortNum": 298,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 320,
+        "SellPrice": 80,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TBL_A_F03",
+        "SortNum": 297,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TBL_A_F04",
+        "SortNum": 296,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 560,
+        "SellPrice": 140,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TBL_A_F05",
+        "SortNum": 295,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 600,
+        "SellPrice": 150,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TBL_A_F06",
+        "SortNum": 294,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120,
+        "SellPrice": 30,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TBL_A_F07",
+        "SortNum": 293,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4000,
+        "SellPrice": 1000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TBL_A_F08",
+        "SortNum": 292,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TBL_A_F09",
+        "SortNum": 291,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_A_F01",
+        "SortNum": 289,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 440,
+        "SellPrice": 110,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_A_F02",
+        "SortNum": 288,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 480,
+        "SellPrice": 120,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_A_F03",
+        "SortNum": 287,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_A_F04",
+        "SortNum": 286,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 800,
+        "SellPrice": 200,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_A_F05",
+        "SortNum": 285,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 880,
+        "SellPrice": 220,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_A_F06",
+        "SortNum": 284,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120,
+        "SellPrice": 30,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_A_F07",
+        "SortNum": 283,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 6800,
+        "SellPrice": 1700,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_A_F08",
+        "SortNum": 282,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_A_F09",
+        "SortNum": 281,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_B_F01",
+        "SortNum": 279,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 800,
+        "SellPrice": 200,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_B_F02",
+        "SortNum": 278,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 880,
+        "SellPrice": 220,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_B_F03",
+        "SortNum": 277,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_B_F04",
+        "SortNum": 276,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1400,
+        "SellPrice": 350,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_B_F05",
+        "SortNum": 275,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1440,
+        "SellPrice": 360,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_B_F06",
+        "SortNum": 274,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120,
+        "SellPrice": 30,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_B_F07",
+        "SortNum": 273,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 9600,
+        "SellPrice": 2400,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_B_F08",
+        "SortNum": 272,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ARC_B_F09",
+        "SortNum": 271,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_A_F01",
+        "SortNum": 269,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1160,
+        "SellPrice": 290,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_A_F02",
+        "SortNum": 268,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1200,
+        "SellPrice": 300,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_A_F03",
+        "SortNum": 267,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_A_F04",
+        "SortNum": 266,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1840,
+        "SellPrice": 460,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_A_F05",
+        "SortNum": 265,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1880,
+        "SellPrice": 470,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_A_F06",
+        "SortNum": 264,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120,
+        "SellPrice": 30,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_A_F07",
+        "SortNum": 263,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 12800,
+        "SellPrice": 3200,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_A_F08",
+        "SortNum": 262,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_A_F09",
+        "SortNum": 261,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_B_F01",
+        "SortNum": 259,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1440,
+        "SellPrice": 360,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_B_F02",
+        "SortNum": 258,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1480,
+        "SellPrice": 370,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_B_F03",
+        "SortNum": 257,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_B_F04",
+        "SortNum": 256,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2040,
+        "SellPrice": 510,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_B_F05",
+        "SortNum": 255,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2080,
+        "SellPrice": 520,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_B_F06",
+        "SortNum": 254,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120,
+        "SellPrice": 30,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_B_F07",
+        "SortNum": 253,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 18000,
+        "SellPrice": 4500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_B_F08",
+        "SortNum": 252,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_YBZ_B_F09",
+        "SortNum": 251,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_A_F01",
+        "SortNum": 249,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1960,
+        "SellPrice": 490,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_A_F02",
+        "SortNum": 248,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2000,
+        "SellPrice": 500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_A_F03",
+        "SortNum": 247,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_A_F04",
+        "SortNum": 246,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2720,
+        "SellPrice": 680,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_A_F05",
+        "SortNum": 245,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2760,
+        "SellPrice": 690,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_A_F06",
+        "SortNum": 244,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120,
+        "SellPrice": 30,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_A_F07",
+        "SortNum": 243,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 24000,
+        "SellPrice": 6000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_A_F08",
+        "SortNum": 242,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_A_F09",
+        "SortNum": 241,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_B_F01",
+        "SortNum": 239,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2160,
+        "SellPrice": 540,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_B_F02",
+        "SortNum": 238,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2200,
+        "SellPrice": 550,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_B_F03",
+        "SortNum": 237,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_B_F04",
+        "SortNum": 236,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2960,
+        "SellPrice": 740,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_B_F05",
+        "SortNum": 235,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3000,
+        "SellPrice": 750,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_B_F06",
+        "SortNum": 234,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120,
+        "SellPrice": 30,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_B_F07",
+        "SortNum": 233,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 30800,
+        "SellPrice": 7700,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_B_F08",
+        "SortNum": 232,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_TIA_B_F09",
+        "SortNum": 231,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_A_F01",
+        "SortNum": 229,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2440,
+        "SellPrice": 610,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_A_F02",
+        "SortNum": 228,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2480,
+        "SellPrice": 620,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_A_F03",
+        "SortNum": 227,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_A_F04",
+        "SortNum": 226,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3480,
+        "SellPrice": 870,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_A_F05",
+        "SortNum": 225,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3520,
+        "SellPrice": 880,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_A_F06",
+        "SortNum": 224,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3520,
+        "SellPrice": 880,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_A_F07",
+        "SortNum": 223,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 38000,
+        "SellPrice": 9500,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_A_F08",
+        "SortNum": 222,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_A_F09",
+        "SortNum": 221,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_B_F01",
+        "SortNum": 219,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2760,
+        "SellPrice": 690,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_B_F02",
+        "SortNum": 218,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 2800,
+        "SellPrice": 700,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_B_F03",
+        "SortNum": 217,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_B_F04",
+        "SortNum": 216,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3800,
+        "SellPrice": 950,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_B_F05",
+        "SortNum": 215,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3840,
+        "SellPrice": 960,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_B_F06",
+        "SortNum": 214,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120,
+        "SellPrice": 30,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_B_F07",
+        "SortNum": 213,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 48000,
+        "SellPrice": 12000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_B_F08",
+        "SortNum": 212,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_HRB_B_F09",
+        "SortNum": 211,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ADM_A_F01",
+        "SortNum": 209,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3160,
+        "SellPrice": 790,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ADM_A_F02",
+        "SortNum": 208,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 3200,
+        "SellPrice": 800,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ADM_A_F03",
+        "SortNum": 207,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 20,
+        "SellPrice": 10,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ADM_A_F04",
+        "SortNum": 206,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4480,
+        "SellPrice": 1120,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ADM_A_F05",
+        "SortNum": 205,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 4520,
+        "SellPrice": 1130,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ADM_A_F06",
+        "SortNum": 204,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 120,
+        "SellPrice": 30,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ADM_A_F07",
+        "SortNum": 203,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 60000,
+        "SellPrice": 15000,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ADM_A_F08",
+        "SortNum": 202,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ADM_A_F09",
+        "SortNum": 201,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 400,
+        "SellPrice": 100,
+        "GetFLG": 0
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x17F_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x180_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x181_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x182_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x183_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x184_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x185_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x186_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x187_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x188_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x189_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x18A_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x18B_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x18C_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x18D_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x18E_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x18F_",
+        "SortNum": 0,
+        "ItemType": 65536,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_31",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_32",
+        "SortNum": 790,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_33",
+        "SortNum": 789,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_34",
+        "SortNum": 788,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_35",
+        "SortNum": 787,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_36",
+        "SortNum": 786,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_37",
+        "SortNum": 792,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_38",
+        "SortNum": 784,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_39",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_40",
+        "SortNum": 785,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_41",
+        "SortNum": 0,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_42",
+        "SortNum": 782,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_43",
+        "SortNum": 781,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_44",
+        "SortNum": 780,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_45",
+        "SortNum": 779,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_46",
+        "SortNum": 772,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_47",
+        "SortNum": 777,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_48",
+        "SortNum": 775,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_49",
+        "SortNum": 774,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_50",
+        "SortNum": 773,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_51",
+        "SortNum": 776,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_52",
+        "SortNum": 771,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_53",
+        "SortNum": 770,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_54",
+        "SortNum": 768,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_55",
+        "SortNum": 767,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_56",
+        "SortNum": 766,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_57",
+        "SortNum": 765,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_58",
+        "SortNum": 764,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_59",
+        "SortNum": 763,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_60",
+        "SortNum": 762,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_61",
+        "SortNum": 761,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_62",
+        "SortNum": 760,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_63",
+        "SortNum": 759,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_64",
+        "SortNum": 758,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_65",
+        "SortNum": 757,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_66",
+        "SortNum": 769,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_67",
+        "SortNum": 783,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_68",
+        "SortNum": 778,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_69",
+        "SortNum": 799,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 25000,
+        "SellPrice": 6250,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_70",
+        "SortNum": 798,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 75000,
+        "SellPrice": 18750,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ZYUTAI_71",
+        "SortNum": 797,
+        "ItemType": 4194304,
+        "Rarity": 1,
+        "Price": 250000,
+        "SellPrice": 62500,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1B9_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1BA_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1BB_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1BC_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1BD_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1BE_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1BF_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C0_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C1_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C2_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C3_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C4_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C5_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C6_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C7_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C8_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1C9_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1CA_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1CB_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1CC_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1CD_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1CE_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1CF_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D0_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D1_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D2_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D3_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D4_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D5_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D6_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D7_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D8_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1D9_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1DA_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1DB_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1DC_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1DD_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1DE_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1DF_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E0_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E1_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E2_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E3_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E4_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E5_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E6_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E7_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E8_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1E9_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1EA_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1EB_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1EC_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1ED_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1EE_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1EF_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F0_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F1_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F2_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F3_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F4_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F5_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F6_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F7_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F8_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1F9_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1FA_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1FB_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1FC_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1FD_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1FE_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      },
+      {
+        "ItemDef": "IT_MAT_ID_0x1FF_",
+        "SortNum": 0,
+        "ItemType": 32768,
+        "Rarity": 1,
+        "Price": 1,
+        "SellPrice": 0,
+        "GetFLG": 2
+      }
+    ]
+  }
+}

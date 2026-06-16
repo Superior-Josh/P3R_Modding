@@ -106,6 +106,7 @@ P3R_Modding/
 |------|------|------|
 | `read <vpath> [out.json]` | 导出 DataTable 为 JSON | `read "P3R/Content/.../DatSkillNormalDataAsset.uasset" skills.json` |
 | `batch <filter> <dir>` | 批量导出 | `batch "Xrd777/Battle/Tables" .\json\Battle\` |
+| `create-template <vpath> <outDir>` | **生成传统格式模板** (Sprint 0) | `create-template "P3R/.../Skills.uasset" .\templates\` |
 | `quick <vpath> <jsonPath> <value> <dir>` | 修改单属性 + manifest | `quick "P3R/.../Skills.uasset" "Properties.Data[0].Power" 999 .\mod\` |
 | `modify <vpath> <jsonFile> <dir>` | 应用 JSON 修改 + manifest | `modify "P3R/.../Skills.uasset" modified.json .\mod\` |
 | `create <vpath> <jsonFile> <dir>` | **模板法写回 → .uasset+.uexp** (Sprint 1) | `create "P3R/.../Skills.uasset" modified.json .\mod\` |
@@ -151,7 +152,7 @@ P3R_Modding/
 
 - **Xrd777 > Astrea**：同名资产以 Xrd777 为准
 - **IoStore .uasset 文件头全为零**：无法直接用 UAssetAPI 编辑，需通过 CUE4Parse 读取
-- **写回方案**：模板法 — 用传统格式模板 + UAssetAPI 修改 (见 `docs/SYSTEM_ARCHITECTURE.md`)
+- **写回方案**：模板法 — P3RDataTools `create-template` 自动生成传统格式模板 + UAssetAPI 修改 (见 `docs/SYSTEM_ARCHITECTURE.md`)
 
 ## 工具链详情
 

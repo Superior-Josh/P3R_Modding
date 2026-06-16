@@ -1,0 +1,4649 @@
+{
+  "Type": "DatPersonaTable",
+  "Name": "DatPersonaDataAsset",
+  "Class": "UScriptClass'DatPersonaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 48,
+        "race": 7,
+        "level": 1,
+        "params": 2,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 49,
+        "race": 7,
+        "level": 1,
+        "params": 2,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 48,
+        "race": 2,
+        "level": 1,
+        "params": 1,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 49,
+        "race": 2,
+        "level": 1,
+        "params": 1,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 48,
+        "race": 5,
+        "level": 14,
+        "params": 7,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 49,
+        "race": 5,
+        "level": 1,
+        "params": 2,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 48,
+        "race": 4,
+        "level": 20,
+        "params": 11,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 49,
+        "race": 4,
+        "level": 1,
+        "params": 2,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 48,
+        "race": 3,
+        "level": 18,
+        "params": 12,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 49,
+        "race": 3,
+        "level": 1,
+        "params": 2,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 48,
+        "race": 8,
+        "level": 27,
+        "params": 13,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 49,
+        "race": 8,
+        "level": 1,
+        "params": 2,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 48,
+        "race": 9,
+        "level": 37,
+        "params": 23,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 49,
+        "race": 9,
+        "level": 1,
+        "params": 2,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 48,
+        "race": 6,
+        "level": 39,
+        "params": 17,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 48,
+        "race": 12,
+        "level": 35,
+        "params": 19,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 9,
+        "level": 10,
+        "params": 6,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 20,
+        "level": 85,
+        "params": 54,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 12,
+        "level": 72,
+        "params": 35,
+        "breakage": 0,
+        "succession": 15,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 13,
+        "level": 73,
+        "params": 32,
+        "breakage": 0,
+        "succession": 30,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 11,
+        "level": 56,
+        "params": 40,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 22,
+        "level": 73,
+        "params": 42,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 21,
+        "level": 40,
+        "params": 26,
+        "breakage": 0,
+        "succession": 27,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 16,
+        "level": 76,
+        "params": 46,
+        "breakage": 0,
+        "succession": 11,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 3,
+        "level": 2,
+        "params": 2,
+        "breakage": 0,
+        "succession": 21,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 10,
+        "level": 68,
+        "params": 36,
+        "breakage": 0,
+        "succession": 18,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 8,
+        "level": 6,
+        "params": 5,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 14,
+        "level": 68,
+        "params": 44,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 4,
+        "level": 84,
+        "params": 51,
+        "breakage": 0,
+        "succession": 30,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 13,
+        "level": 10,
+        "params": 11,
+        "breakage": 0,
+        "succession": 29,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 16,
+        "level": 37,
+        "params": 28,
+        "breakage": 0,
+        "succession": 29,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 9,
+        "level": 32,
+        "params": 22,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 13,
+        "level": 38,
+        "params": 17,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 12,
+        "level": 10,
+        "params": 5,
+        "breakage": 0,
+        "succession": 14,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 20,
+        "level": 78,
+        "params": 42,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 22,
+        "level": 57,
+        "params": 30,
+        "breakage": 0,
+        "succession": 15,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 17,
+        "level": 31,
+        "params": 15,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 9,
+        "level": 4,
+        "params": 3,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 15,
+        "level": 44,
+        "params": 19,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 5,
+        "level": 74,
+        "params": 49,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 1,
+        "level": 41,
+        "params": 22,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 8,
+        "level": 31,
+        "params": 19,
+        "breakage": 0,
+        "succession": 26,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 5,
+        "level": 16,
+        "params": 8,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 6,
+        "level": 7,
+        "params": 6,
+        "breakage": 0,
+        "succession": 17,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 13,
+        "level": 27,
+        "params": 15,
+        "breakage": 0,
+        "succession": 20,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 1,
+        "level": 1,
+        "params": 2,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 1,
+        "level": 91,
+        "params": 63,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 2,
+        "level": 39,
+        "params": 19,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 10,
+        "level": 8,
+        "params": 4,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 12,
+        "level": 63,
+        "params": 34,
+        "breakage": 0,
+        "succession": 26,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 18,
+        "level": 51,
+        "params": 40,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 2,
+        "level": 19,
+        "params": 11,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 4,
+        "level": 62,
+        "params": 37,
+        "breakage": 0,
+        "succession": 17,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 18,
+        "level": 64,
+        "params": 36,
+        "breakage": 0,
+        "succession": 16,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 3,
+        "level": 41,
+        "params": 28,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 18,
+        "level": 42,
+        "params": 32,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 3,
+        "level": 61,
+        "params": 39,
+        "breakage": 0,
+        "succession": 27,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 8,
+        "level": 9,
+        "params": 6,
+        "breakage": 0,
+        "succession": 20,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 7,
+        "level": 67,
+        "params": 45,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 19,
+        "level": 39,
+        "params": 20,
+        "breakage": 0,
+        "succession": 13,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 5,
+        "level": 34,
+        "params": 20,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 7,
+        "level": 28,
+        "params": 17,
+        "breakage": 0,
+        "succession": 27,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 17,
+        "level": 40,
+        "params": 21,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 10,
+        "level": 61,
+        "params": 20,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 11,
+        "level": 28,
+        "params": 22,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 10,
+        "level": 46,
+        "params": 25,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 19,
+        "level": 14,
+        "params": 6,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 11,
+        "level": 37,
+        "params": 26,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 20,
+        "level": 45,
+        "params": 25,
+        "breakage": 0,
+        "succession": 16,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 15,
+        "level": 30,
+        "params": 20,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 8,
+        "level": 52,
+        "params": 29,
+        "breakage": 0,
+        "succession": 23,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 6,
+        "level": 71,
+        "params": 40,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 7,
+        "level": 36,
+        "params": 28,
+        "breakage": 0,
+        "succession": 30,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 16,
+        "level": 47,
+        "params": 27,
+        "breakage": 0,
+        "succession": 29,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 21,
+        "level": 82,
+        "params": 53,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 2,
+        "level": 29,
+        "params": 20,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 18,
+        "level": 76,
+        "params": 41,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 14,
+        "level": 41,
+        "params": 25,
+        "breakage": 0,
+        "succession": 13,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 3,
+        "level": 32,
+        "params": 22,
+        "breakage": 0,
+        "succession": 30,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 20,
+        "level": 35,
+        "params": 21,
+        "breakage": 0,
+        "succession": 27,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 19,
+        "level": 80,
+        "params": 49,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 11,
+        "level": 20,
+        "params": 20,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 12,
+        "level": 54,
+        "params": 25,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 6,
+        "level": 23,
+        "params": 11,
+        "breakage": 0,
+        "succession": 14,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 17,
+        "level": 82,
+        "params": 55,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 8,
+        "level": 45,
+        "params": 28,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 12,
+        "level": 29,
+        "params": 17,
+        "breakage": 0,
+        "succession": 24,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 1,
+        "level": 37,
+        "params": 20,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 20,
+        "level": 55,
+        "params": 28,
+        "breakage": 0,
+        "succession": 3,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 2,
+        "level": 8,
+        "params": 4,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 2,
+        "level": 15,
+        "params": 11,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 17,
+        "level": 86,
+        "params": 60,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 7,
+        "level": 5,
+        "params": 5,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 3,
+        "level": 75,
+        "params": 42,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 4,
+        "level": 68,
+        "params": 40,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 15,
+        "level": 55,
+        "params": 31,
+        "breakage": 0,
+        "succession": 15,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 1,
+        "level": 77,
+        "params": 55,
+        "breakage": 0,
+        "succession": 19,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 1,
+        "level": 12,
+        "params": 7,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 2,
+        "level": 60,
+        "params": 34,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 17,
+        "level": 67,
+        "params": 41,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 15,
+        "level": 38,
+        "params": 18,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 18,
+        "level": 29,
+        "params": 15,
+        "breakage": 0,
+        "succession": 14,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 19,
+        "level": 62,
+        "params": 35,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 8,
+        "level": 14,
+        "params": 10,
+        "breakage": 0,
+        "succession": 22,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 9,
+        "level": 52,
+        "params": 33,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 10,
+        "level": 38,
+        "params": 18,
+        "breakage": 0,
+        "succession": 26,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 6,
+        "level": 59,
+        "params": 42,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 5,
+        "level": 23,
+        "params": 14,
+        "breakage": 0,
+        "succession": 22,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 13,
+        "level": 20,
+        "params": 10,
+        "breakage": 0,
+        "succession": 19,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 14,
+        "level": 78,
+        "params": 40,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 7,
+        "level": 13,
+        "params": 5,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 19,
+        "level": 56,
+        "params": 32,
+        "breakage": 0,
+        "succession": 10,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 19,
+        "level": 49,
+        "params": 33,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 7,
+        "level": 49,
+        "params": 36,
+        "breakage": 0,
+        "succession": 27,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 1,
+        "level": 54,
+        "params": 35,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 6,
+        "level": 40,
+        "params": 25,
+        "breakage": 0,
+        "succession": 27,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 8,
+        "level": 64,
+        "params": 35,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 9,
+        "level": 42,
+        "params": 26,
+        "breakage": 0,
+        "succession": 16,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 21,
+        "level": 59,
+        "params": 33,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 10,
+        "level": 17,
+        "params": 9,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 5,
+        "level": 43,
+        "params": 23,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 7,
+        "level": 23,
+        "params": 20,
+        "breakage": 0,
+        "succession": 29,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 22,
+        "level": 47,
+        "params": 28,
+        "breakage": 0,
+        "succession": 13,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 15,
+        "level": 12,
+        "params": 8,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 18,
+        "level": 17,
+        "params": 8,
+        "breakage": 0,
+        "succession": 18,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 2,
+        "level": 3,
+        "params": 2,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 10,
+        "level": 52,
+        "params": 37,
+        "breakage": 0,
+        "succession": 29,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 11,
+        "level": 65,
+        "params": 40,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 19,
+        "level": 72,
+        "params": 41,
+        "breakage": 0,
+        "succession": 10,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 3,
+        "level": 48,
+        "params": 31,
+        "breakage": 0,
+        "succession": 27,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 3,
+        "level": 20,
+        "params": 13,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 16,
+        "level": 56,
+        "params": 34,
+        "breakage": 0,
+        "succession": 12,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 12,
+        "level": 36,
+        "params": 22,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 16,
+        "level": 30,
+        "params": 19,
+        "breakage": 0,
+        "succession": 13,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 4,
+        "level": 48,
+        "params": 33,
+        "breakage": 0,
+        "succession": 30,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 5,
+        "level": 63,
+        "params": 32,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 9,
+        "level": 25,
+        "params": 15,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 7,
+        "level": 2,
+        "params": 3,
+        "breakage": 0,
+        "succession": 30,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 14,
+        "level": 15,
+        "params": 7,
+        "breakage": 0,
+        "succession": 10,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 17,
+        "level": 60,
+        "params": 30,
+        "breakage": 0,
+        "succession": 15,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 15,
+        "level": 63,
+        "params": 30,
+        "breakage": 0,
+        "succession": 14,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 11,
+        "level": 15,
+        "params": 11,
+        "breakage": 0,
+        "succession": 27,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 5,
+        "level": 7,
+        "params": 4,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 2,
+        "level": 74,
+        "params": 35,
+        "breakage": 0,
+        "succession": 26,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 6,
+        "level": 33,
+        "params": 16,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 9,
+        "level": 16,
+        "params": 12,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 14,
+        "level": 23,
+        "params": 11,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 13,
+        "level": 47,
+        "params": 25,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 6,
+        "level": 13,
+        "params": 6,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 13,
+        "level": 65,
+        "params": 22,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 16,
+        "level": 81,
+        "params": 52,
+        "breakage": 0,
+        "succession": 10,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 5,
+        "level": 53,
+        "params": 29,
+        "breakage": 0,
+        "succession": 10,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 18,
+        "level": 70,
+        "params": 41,
+        "breakage": 0,
+        "succession": 16,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 20,
+        "level": 67,
+        "params": 40,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 12,
+        "level": 46,
+        "params": 25,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 17,
+        "level": 75,
+        "params": 39,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 4,
+        "level": 77,
+        "params": 42,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 17,
+        "level": 79,
+        "params": 48,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 13,
+        "level": 57,
+        "params": 28,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 12,
+        "level": 22,
+        "params": 10,
+        "breakage": 0,
+        "succession": 10,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 21,
+        "level": 70,
+        "params": 42,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 6,
+        "level": 48,
+        "params": 26,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 15,
+        "level": 22,
+        "params": 15,
+        "breakage": 0,
+        "succession": 16,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 8,
+        "level": 24,
+        "params": 15,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 21,
+        "level": 91,
+        "params": 59,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 22,
+        "level": 87,
+        "params": 53,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 9,
+        "level": 66,
+        "params": 31,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 16,
+        "level": 18,
+        "params": 22,
+        "breakage": 0,
+        "succession": 29,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 10,
+        "level": 31,
+        "params": 22,
+        "breakage": 0,
+        "succession": 29,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 14,
+        "level": 58,
+        "params": 33,
+        "breakage": 0,
+        "succession": 13,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 4,
+        "level": 32,
+        "params": 18,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 20,
+        "level": 24,
+        "params": 13,
+        "breakage": 0,
+        "succession": 15,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 19,
+        "level": 25,
+        "params": 14,
+        "breakage": 0,
+        "succession": 1,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 3,
+        "level": 11,
+        "params": 7,
+        "breakage": 0,
+        "succession": 30,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 24,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 15,
+        "level": 71,
+        "params": 38,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 12,
+        "level": 15,
+        "params": 6,
+        "breakage": 0,
+        "succession": 22,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 11,
+        "level": 73,
+        "params": 52,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 11,
+        "level": 44,
+        "params": 29,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 7,
+        "level": 60,
+        "params": 40,
+        "breakage": 0,
+        "succession": 16,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 10,
+        "level": 25,
+        "params": 17,
+        "breakage": 0,
+        "succession": 2,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 2,
+        "level": 50,
+        "params": 30,
+        "breakage": 0,
+        "succession": 11,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 4,
+        "level": 21,
+        "params": 14,
+        "breakage": 0,
+        "succession": 30,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 16,
+        "level": 65,
+        "params": 35,
+        "breakage": 0,
+        "succession": 29,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 16,
+        "level": 8,
+        "params": 7,
+        "breakage": 0,
+        "succession": 13,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 2,
+        "race": 21,
+        "level": 89,
+        "params": 55,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 18,
+        "level": 88,
+        "params": 58,
+        "breakage": 0,
+        "succession": 15,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 1,
+        "level": 26,
+        "params": 20,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 14,
+        "level": 33,
+        "params": 18,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 100,
+        "message": 0
+      },
+      {
+        "flag": 0,
+        "race": 1,
+        "level": 69,
+        "params": 28,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 42,
+        "race": 24,
+        "level": 0,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 2,
+        "level": 99,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 1,
+        "level": 99,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 8,
+        "level": 99,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 17,
+        "level": 99,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 22,
+        "level": 99,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 14,
+        "level": 99,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 1,
+        "level": 99,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 17,
+        "level": 99,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 40,
+        "race": 7,
+        "level": 99,
+        "params": 99,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 514,
+        "race": 1,
+        "level": 23,
+        "params": 11,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 8,
+        "level": 18,
+        "params": 11,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 2,
+        "level": 22,
+        "params": 15,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 7,
+        "level": 19,
+        "params": 12,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 5,
+        "level": 27,
+        "params": 13,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 3,
+        "level": 28,
+        "params": 15,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 4,
+        "level": 36,
+        "params": 20,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 9,
+        "level": 37,
+        "params": 20,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 18,
+        "level": 36,
+        "params": 20,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 514,
+        "race": 1,
+        "level": 89,
+        "params": 56,
+        "breakage": 0,
+        "succession": 31,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 8,
+        "level": 40,
+        "params": 20,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 2,
+        "level": 43,
+        "params": 27,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 7,
+        "level": 42,
+        "params": 26,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 5,
+        "level": 47,
+        "params": 23,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 3,
+        "level": 53,
+        "params": 23,
+        "breakage": 0,
+        "succession": 6,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 4,
+        "level": 54,
+        "params": 31,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 9,
+        "level": 60,
+        "params": 33,
+        "breakage": 0,
+        "succession": 8,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 18,
+        "level": 58,
+        "params": 33,
+        "breakage": 0,
+        "succession": 9,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 1,
+        "level": 46,
+        "params": 28,
+        "breakage": 0,
+        "succession": 7,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 17,
+        "level": 50,
+        "params": 17,
+        "breakage": 0,
+        "succession": 5,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 512,
+        "race": 19,
+        "level": 34,
+        "params": 11,
+        "breakage": 0,
+        "succession": 4,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      },
+      {
+        "flag": 8,
+        "race": 1,
+        "level": 0,
+        "params": 0,
+        "breakage": 0,
+        "succession": 0,
+        "conception": 0,
+        "message": 0
+      }
+    ]
+  }
+}

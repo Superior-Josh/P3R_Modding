@@ -4,6 +4,7 @@ using CUE4Parse.UE4.Objects.Core.Misc;
 using CUE4Parse.Encryption.Aes;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using P3RDataTools;
 
 if (args.Length < 2)
 {
@@ -17,10 +18,14 @@ if (args.Length < 2)
     Console.WriteLine("  modify  <virtualPath> <jsonFile> <outDir>   Apply JSON changes → new .uasset");
     Console.WriteLine("  quick   <virtualPath> <rowProperty> <value> <outDir>  Quick single-value modify");
     Console.WriteLine();
+    Console.WriteLine("TEMPLATE commands:");
+    Console.WriteLine("  create-template <virtualPath> <outDir>    Create traditional-format .uasset+.uexp template from IoStore");
+    Console.WriteLine();
     Console.WriteLine("Examples:");
     Console.WriteLine("  P3RDataTools read \"P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset\" skills.json");
     Console.WriteLine("  P3RDataTools modify \"P3R/Content/.../DatSkillNormalDataAsset.uasset\" modified.json .\\mod\\");
     Console.WriteLine("  P3RDataTools quick \"P3R/Content/.../DatSkillNormalDataAsset.uasset\" \"Data[0].Power\" 999 .\\mod\\");
+    Console.WriteLine("  P3RDataTools create-template \"P3R/Content/.../DatSkillNormalDataAsset.uasset\" .\\templates\\");
     return 1;
 }
 
@@ -49,6 +54,13 @@ try
                 var provider = CreateProvider(gameDir, aesKey);
                 var outDir = command == "modify" ? (args.Length > 3 ? args[3] : "./mod") : (args.Length > 4 ? args[4] : "./mod");
                 ModifyAsset(provider, input, args[2], args.Length > 3 ? args[3] : null, outDir, command == "quick");
+                break;
+            }
+        case "create-template":
+            {
+                var provider = CreateProvider(gameDir, aesKey);
+                var outDir = args.Length > 2 ? args[2] : "./templates";
+                CreateTemplate(provider, input, outDir);
                 break;
             }
         default:
@@ -217,4 +229,45 @@ void CreateUassetFromJson(JToken jsonData, string exportType, string outDir, str
     Console.WriteLine("P3R uses IoStore format exclusively for game DataTables.");
     Console.WriteLine("To create the .uasset: use FModel GUI to re-export the original asset");
     Console.WriteLine("in traditional format, then use UAssetGUI to merge changes.");
+}
+
+void CreateTemplate(DefaultFileProvider provider, string virtualPath, string outDir)
+{
+    Directory.CreateDirectory(outDir);
+
+    Console.Error.WriteLine($"Reading IoStore DataTable: {virtualPath}");
+    var exports = provider.LoadAllObjects(virtualPath).ToList();
+    if (!exports.Any())
+    {
+        Console.Error.WriteLine("No exports found");
+        return;
+    }
+
+    var originalObj = exports[0];
+    var assetName = originalObj.Name;
+
+    // Serialize the full object to JSON (preserves all type info)
+    var json = JToken.Parse(JsonConvert.SerializeObject(originalObj, new JsonSerializerSettings
+    {
+        ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+        MaxDepth = 8,
+        Error = (_, e) => e.ErrorContext.Handled = true
+    }));
+
+    // Save the JSON for reference
+    var jsonPath = Path.Combine(outDir, $"{assetName}_template.json");
+    File.WriteAllText(jsonPath, json.ToString(Formatting.Indented));
+    Console.Error.WriteLine($"JSON saved: {jsonPath}");
+
+    // Create traditional format .uasset+.uexp from JSON
+    try
+    {
+        TemplateCreator.CreateFromJson(json, outDir, assetName);
+    }
+    catch (Exception ex)
+    {
+        Console.Error.WriteLine($"Template creation failed: {ex}");
+        Console.Error.WriteLine("Falling back to JSON-only output.");
+        Console.Error.WriteLine("You can manually convert using UAssetGUI.");
+    }
 }

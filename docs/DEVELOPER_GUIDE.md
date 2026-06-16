@@ -187,52 +187,51 @@ code --diff skills_original.json skills_modified.json
 
 ---
 
-## 六、模板导出指南 (Sprint 0 T0.1)
+## 六、模板生成指南 (Sprint 0 T0.1)
 
-> ⚠️ 这是一次性手动操作，完成后模板库可复用。
+> P3RDataTools `create-template` 命令自动从 IoStore 读取 DataTable 并生成传统格式 .uasset+.uexp 模板。
+> 无需 FModel GUI 手动操作。
 
-### 步骤
+### 生成单个模板
 
-1. **启动 FModel**
-   ```powershell
-   .\tools\FModel.exe
-   ```
+```powershell
+# 加载配置
+. .\tools\scripts\Config.ps1
 
-2. **加载 IoStore 容器**
-   - Directory → Select Folder → 选择 `Paks/` 目录
-   - 等待扫描完成（约 30 秒）
+# 从 IoStore 生成传统格式模板
+& $DataTools create-template "P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset" .\tools\templates\
+```
 
-3. **找到目标 DataTable**
-   - 在左侧树中导航：`P3R/Content/Xrd777/` → 选择目录：
-     - `Battle/Tables/` — 技能、Persona、敌人
-     - `UI/Tables/` — 道具、武器、防具
-   - 点击 .uasset 文件
+### 批量生成全部 18 种
 
-4. **导出传统格式**
-   - 右键 .uasset → **Export Folder's Packages Raw**
-   - ⚠ **不是** "Export Data"（会导出 JSON）
-   - ⚠ **不是** "Save Package"（会保存 IoStore 格式）
-   - 保存为 `<AssetName>.uasset`（自动生成伴随 .uexp）
+```powershell
+. .\tools\scripts\Config.ps1
+foreach ($vpath in $DataTables.Values) {
+    & $DataTools create-template $vpath "$TemplatesDir"
+}
+# 加上扩展模板
+& $DataTools create-template "P3R/Content/Xrd777/UI/Tables/DatItemMaterialDataAsset.uasset" "$TemplatesDir"
+& $DataTools create-template "P3R/Content/Xrd777/UI/Tables/DatItemCostumeDataAsset.uasset" "$TemplatesDir"
+& $DataTools create-template "P3R/Content/Xrd777/UI/Tables/DatItemShoesDataAsset.uasset" "$TemplatesDir"
+```
 
-5. **存入模板库**
-   ```
-   tools/templates/
-   ├── DatSkillNormalDataAsset.uasset
-   ├── DatSkillNormalDataAsset.uexp
-   ├── DatSkillDataAsset.uasset
-   ├── DatSkillDataAsset.uexp
-   ├── DatPersonaDataAsset.uasset
-   ├── DatPersonaDataAsset.uexp
-   ├── ... (共 18 对, 36 个文件)
-   └── template_index.json        ← 已存在 (不要覆盖)
-   ```
+### 验证模板
 
-6. **验证模板**
-   ```powershell
-   .\tools\scripts\verify-templates.ps1
-   ```
+```powershell
+.\tools\scripts\verify-templates.ps1
+# 预期输出: Total: 18 | Pass: 18 | Warn: 0 | Fail: 0
+```
 
-### 需要的 18 种模板
+### 工作原理
+
+`create-template` 命令：
+1. CUE4Parse 从 IoStore (.utoc/.ucas) 读取 DataTable → JSON
+2. TemplateCreator 将 JSON 转为 UE4 传统 Package 二进制格式
+3. 直接写入 .uasset (Package Header + NameMap + ImportMap + ExportMap) 和 .uexp (行数据)
+
+输出文件 Magic bytes = `C1 83 2A 9E` (UE4 Package Magic)，可由 UAssetAPI 加载修改。
+
+### 模板列表（18 种）
 
 | # | 资产名 | FModel 路径 |
 |---|--------|-------------|
