@@ -1,0 +1,3 @@
+# 此目录存放传统格式 .uasset+.uexp 模板
+# 从 FModel GUI 导出，每种 DataTable 类型一对文件
+# 详见 ../../docs/P3R_AI_AGENT_PLAN.md

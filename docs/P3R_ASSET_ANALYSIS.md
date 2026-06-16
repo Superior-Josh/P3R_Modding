@@ -406,47 +406,43 @@ IoStore/
 
 ## 五、Mod 制作关键路径速查
 
-### DataTable 修改流程
+### DataTable 修改流程（P3RDataTools 自动化路径）
 
+```powershell
+# 1. 加载配置
+. .\tools\scripts\Config.ps1
+
+# 2. 读取原始表
+& $DataTools read "P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset" skills.json
+
+# 3. 编辑 JSON → 模板法写回 + 打包
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills -ModScript .\my-changes.ps1 -ModName "MyMod"
+
+# 或手动:
+P3RDataTools.exe create <vPath> <modified.json> <outDir>
+UnrealPak.exe "MyMod_P.pak" -Create="manifest.txt" -compress
 ```
-1. FModel 定位 DataTable .uasset
-2. 右键 → Export Data → JSON
-3. 文本编辑器修改 JSON 数值
-4. UAssetGUI 导回 JSON → 保存 .uasset + .uexp
-5. 创建 manifest.txt → UnrealPak 打包 → _P.pak
-```
+
+详见 [CLAUDE.md](../CLAUDE.md) 和 [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md)。
 
 ### 常用 DataTable 快速路径
 
-```
-角色/Persona:
-  IoStore/P3R/Content/Xrd777/Battle/Tables/DatPersonaDataAsset.uasset
-  IoStore/P3R/Content/Xrd777/Battle/Tables/DatPersonaGrowthDataAsset.uasset
-
-技能:
-  IoStore/P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset
-
-敌人:
-  IoStore/P3R/Content/Xrd777/Battle/Tables/DatEnemyDataAsset.uasset
-
-道具:
-  IoStore/P3R/Content/Xrd777/UI/Tables/DatItemCommonDataAsset.uasset
-
-社群:
-  IoStore/P3R/Content/Xrd777/Community/Coefficient/
-
-文本:
-  IoStore/P3R/Content/L10N/zh-Hans/
-
-BGM/音频:
-  IoStore/P3R/Content/Xrd777/CriData/CueSheet/
-```
+| 类别 | 虚拟路径 |
+|------|---------|
+| 角色/Persona | `Xrd777/Battle/Tables/DatPersonaDataAsset.uasset` |
+| Persona 成长 | `Xrd777/Battle/Tables/DatPersonaGrowthDataAsset.uasset` |
+| 技能数值 | `Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset` |
+| 敌人 | `Xrd777/Battle/Tables/DatEnemyDataAsset.uasset` |
+| 道具 | `Xrd777/UI/Tables/DatItemCommonDataAsset.uasset` |
+| 社群 | `Xrd777/Community/Coefficient/` |
+| 文本 | `L10N/zh-Hans/` |
+| BGM/音频 | `Xrd777/CriData/CueSheet/` |
 
 ### 打包命令
 
 ```powershell
-UnrealPak.exe "MyMod_P.pak" -Create="manifest.txt" -compress
-# 输出放到游戏 Content/Paks/ 目录
+# 在 tools/UnrealPakTool/ 目录下执行
+.\UnrealPak.exe "MyMod_P.pak" -Create="manifest.txt" -compress
 ```
 
 ### manifest.txt 格式
@@ -455,6 +451,8 @@ UnrealPak.exe "MyMod_P.pak" -Create="manifest.txt" -compress
 "相对路径/文件.uasset" "../../../目标挂载路径/文件.uasset"
 "相对路径/文件.uexp"   "../../../目标挂载路径/文件.uexp"
 ```
+
+> **注意**: P3R 使用 UE 4.27 IoStore 格式，Mod PAK 以传统格式打包，`_P` 后缀 = 最高优先级，游戏同时从 IoStore 和 PAK 加载，Mod PAK 中的传统格式资产可覆盖 IoStore 中的同名资产。
 
 ---
 

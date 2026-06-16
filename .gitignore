@@ -1,23 +1,49 @@
-# Claude Code
+# ============================================================
+# P3R Modding AI Agent — .gitignore
+# ============================================================
+
+# ── Claude Code ───────────────────────────────────────────
 .claude/
 
-# Extracted assets (large, generated)
-Extracted/
+# ── 环境变量 (含本地路径, 不提交) ──────────────────────────
+.env
+*.local
 
-# Game asset archives (large, read-only source)
+# ── 游戏资产容器 (大型只读源, 不提交) ──────────────────────
 Paks/
 
-# Binary tools (pre-built executables, not source)
+# ── 提取的资产 (生成文件, 不提交) ──────────────────────────
+Extracted/
+
+# ── 预编译二进制工具 (非源码, 不提交) ──────────────────────
 tools/FModel.exe
 tools/UAssetGUI/
 tools/UnrealPakTool/
 
-# Build output
+# ── P3RDataTools 构建产物 ─────────────────────────────────
 tools/P3RDataTools/bin/
 tools/P3RDataTools/obj/
 tools/P3RDataTools/publish/
 
-# Temp/test mod output
-tools/Output/mod_*/
+# ── Mod 产物 (生成文件, 不提交) ────────────────────────────
+tools/Output/mod/
+tools/Output/.backup/
 tools/Output/.data/
 tools/Output/Logs/
+
+# ── 模板文件 (二进制 UE4 资产, 不提交) ─────────────────────
+tools/templates/*.uasset
+tools/templates/*.uexp
+tools/templates/*.umap
+
+# ── 操作系统文件 ─────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── 编辑器文件 ───────────────────────────────────────────
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
