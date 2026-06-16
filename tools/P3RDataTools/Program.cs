@@ -199,25 +199,22 @@ void ModifyAsset(DefaultFileProvider provider, string virtualPath, string jsonOr
 
 void CreateUassetFromJson(JToken jsonData, string exportType, string outDir, string assetName, string originalVPath)
 {
-    // Save modified JSON and generate manifest/packaging instructions
-    var modJsonPath = Path.Combine(outDir, assetName + "_modified.json");
-    File.WriteAllText(modJsonPath, jsonData.ToString(Formatting.Indented));
+    // Save modified JSON, schema, and manifest for manual/scripted .uasset creation
+    var modPath = Path.Combine(outDir, assetName + "_modified.json");
+    File.WriteAllText(modPath, jsonData.ToString(Formatting.Indented));
 
     var manifestPath = Path.Combine(outDir, "manifest.txt");
     var mountPath = $"../../../{originalVPath}";
-    File.WriteAllText(manifestPath,
-        $"\"{assetName}.uasset\" \"{mountPath}\"\n" +
-        $"\"{assetName}.uexp\" \"{mountPath.Replace(".uasset", ".uexp")}\"\n");
+    var manifestContent = $"\"{assetName}.uasset\" \"{mountPath}\"\n" +
+                          $"\"{assetName}.uexp\" \"{mountPath.Replace(".uasset", ".uexp")}\"\n";
+    File.WriteAllText(manifestPath, manifestContent);
 
-    Console.WriteLine($"Modified JSON: {modJsonPath}");
+    Console.WriteLine($"Modified JSON: {modPath}");
     Console.WriteLine($"Manifest: {manifestPath}");
+    Console.WriteLine($"Mount path: {mountPath}");
     Console.WriteLine();
-    Console.WriteLine("Next steps to create .uasset+.uexp from JSON:");
-    Console.WriteLine($"  1. Open UAssetGUI and load any valid traditional .uasset as template");
-    Console.WriteLine($"  2. Export it: UAssetGUI tojson template.uasset template.json VER_UE4_27");
-    Console.WriteLine($"  3. Merge modified data from: {modJsonPath}");
-    Console.WriteLine($"  4. Import back: UAssetGUI fromjson template.json \"{Path.Combine(outDir, assetName + ".uasset")}\"");
-    Console.WriteLine($"  5. The paired .uexp will be created automatically");
-    Console.WriteLine();
-    Console.WriteLine($"Then pack with: UnrealPak.exe \"../MyMod_P.pak\" -Create=\"{manifestPath}\" -compress");
+    Console.WriteLine("NOTE: .uasset+.uexp creation requires a traditional UE package template.");
+    Console.WriteLine("P3R uses IoStore format exclusively for game DataTables.");
+    Console.WriteLine("To create the .uasset: use FModel GUI to re-export the original asset");
+    Console.WriteLine("in traditional format, then use UAssetGUI to merge changes.");
 }
