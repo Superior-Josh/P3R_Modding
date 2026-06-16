@@ -1,0 +1,39 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_108_101_001",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "UP",
+        "SprType": 1,
+        "SprNo": 11,
+        "X": 161.0,
+        "Y": -67.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "上り階段",
+        "SprType": 0,
+        "SprNo": 44,
+        "X": 104.0,
+        "Y": -97.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "お土産店",
+        "SprType": 0,
+        "SprNo": 43,
+        "X": 57.0,
+        "Y": 64.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

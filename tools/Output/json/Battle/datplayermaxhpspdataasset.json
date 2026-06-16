@@ -1,0 +1,4761 @@
+{
+  "Type": "DatPlayerMaxHPSPTable",
+  "Name": "DatPlayerMaxHPSPDataAsset",
+  "Class": "UScriptClass'DatPlayerMaxHPSPTable'",
+  "Properties": {
+    "Data": [
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 110,
+            "maxSP": 100
+          },
+          {
+            "maxHP": 60,
+            "maxSP": 41
+          },
+          {
+            "maxHP": 51,
+            "maxSP": 45
+          },
+          {
+            "maxHP": 70,
+            "maxSP": 36
+          },
+          {
+            "maxHP": 65,
+            "maxSP": 40
+          },
+          {
+            "maxHP": 63,
+            "maxSP": 40
+          },
+          {
+            "maxHP": 40,
+            "maxSP": 40
+          },
+          {
+            "maxHP": 75,
+            "maxSP": 30
+          },
+          {
+            "maxHP": 57,
+            "maxSP": 20
+          },
+          {
+            "maxHP": 72,
+            "maxSP": 30
+          },
+          {
+            "maxHP": 63,
+            "maxSP": 44
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 110,
+            "maxSP": 100
+          },
+          {
+            "maxHP": 72,
+            "maxSP": 50
+          },
+          {
+            "maxHP": 63,
+            "maxSP": 53
+          },
+          {
+            "maxHP": 83,
+            "maxSP": 44
+          },
+          {
+            "maxHP": 80,
+            "maxSP": 52
+          },
+          {
+            "maxHP": 76,
+            "maxSP": 50
+          },
+          {
+            "maxHP": 54,
+            "maxSP": 50
+          },
+          {
+            "maxHP": 87,
+            "maxSP": 37
+          },
+          {
+            "maxHP": 69,
+            "maxSP": 27
+          },
+          {
+            "maxHP": 84,
+            "maxSP": 40
+          },
+          {
+            "maxHP": 75,
+            "maxSP": 52
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 83,
+            "maxSP": 57
+          },
+          {
+            "maxHP": 74,
+            "maxSP": 61
+          },
+          {
+            "maxHP": 95,
+            "maxSP": 52
+          },
+          {
+            "maxHP": 93,
+            "maxSP": 60
+          },
+          {
+            "maxHP": 86,
+            "maxSP": 58
+          },
+          {
+            "maxHP": 66,
+            "maxSP": 60
+          },
+          {
+            "maxHP": 97,
+            "maxSP": 44
+          },
+          {
+            "maxHP": 80,
+            "maxSP": 34
+          },
+          {
+            "maxHP": 95,
+            "maxSP": 49
+          },
+          {
+            "maxHP": 86,
+            "maxSP": 59
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 93,
+            "maxSP": 64
+          },
+          {
+            "maxHP": 84,
+            "maxSP": 69
+          },
+          {
+            "maxHP": 106,
+            "maxSP": 59
+          },
+          {
+            "maxHP": 105,
+            "maxSP": 68
+          },
+          {
+            "maxHP": 96,
+            "maxSP": 66
+          },
+          {
+            "maxHP": 76,
+            "maxSP": 69
+          },
+          {
+            "maxHP": 107,
+            "maxSP": 51
+          },
+          {
+            "maxHP": 90,
+            "maxSP": 40
+          },
+          {
+            "maxHP": 106,
+            "maxSP": 57
+          },
+          {
+            "maxHP": 97,
+            "maxSP": 65
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 103,
+            "maxSP": 70
+          },
+          {
+            "maxHP": 94,
+            "maxSP": 76
+          },
+          {
+            "maxHP": 116,
+            "maxSP": 66
+          },
+          {
+            "maxHP": 116,
+            "maxSP": 75
+          },
+          {
+            "maxHP": 106,
+            "maxSP": 74
+          },
+          {
+            "maxHP": 86,
+            "maxSP": 78
+          },
+          {
+            "maxHP": 117,
+            "maxSP": 57
+          },
+          {
+            "maxHP": 100,
+            "maxSP": 46
+          },
+          {
+            "maxHP": 117,
+            "maxSP": 64
+          },
+          {
+            "maxHP": 108,
+            "maxSP": 71
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 113,
+            "maxSP": 77
+          },
+          {
+            "maxHP": 104,
+            "maxSP": 83
+          },
+          {
+            "maxHP": 126,
+            "maxSP": 72
+          },
+          {
+            "maxHP": 127,
+            "maxSP": 82
+          },
+          {
+            "maxHP": 116,
+            "maxSP": 81
+          },
+          {
+            "maxHP": 96,
+            "maxSP": 86
+          },
+          {
+            "maxHP": 127,
+            "maxSP": 63
+          },
+          {
+            "maxHP": 110,
+            "maxSP": 52
+          },
+          {
+            "maxHP": 127,
+            "maxSP": 71
+          },
+          {
+            "maxHP": 119,
+            "maxSP": 77
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 122,
+            "maxSP": 83
+          },
+          {
+            "maxHP": 113,
+            "maxSP": 90
+          },
+          {
+            "maxHP": 135,
+            "maxSP": 78
+          },
+          {
+            "maxHP": 137,
+            "maxSP": 88
+          },
+          {
+            "maxHP": 125,
+            "maxSP": 88
+          },
+          {
+            "maxHP": 105,
+            "maxSP": 94
+          },
+          {
+            "maxHP": 136,
+            "maxSP": 69
+          },
+          {
+            "maxHP": 120,
+            "maxSP": 58
+          },
+          {
+            "maxHP": 137,
+            "maxSP": 78
+          },
+          {
+            "maxHP": 129,
+            "maxSP": 83
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 131,
+            "maxSP": 90
+          },
+          {
+            "maxHP": 122,
+            "maxSP": 97
+          },
+          {
+            "maxHP": 144,
+            "maxSP": 84
+          },
+          {
+            "maxHP": 147,
+            "maxSP": 94
+          },
+          {
+            "maxHP": 134,
+            "maxSP": 95
+          },
+          {
+            "maxHP": 114,
+            "maxSP": 102
+          },
+          {
+            "maxHP": 145,
+            "maxSP": 75
+          },
+          {
+            "maxHP": 129,
+            "maxSP": 64
+          },
+          {
+            "maxHP": 146,
+            "maxSP": 85
+          },
+          {
+            "maxHP": 139,
+            "maxSP": 88
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 140,
+            "maxSP": 95
+          },
+          {
+            "maxHP": 131,
+            "maxSP": 104
+          },
+          {
+            "maxHP": 153,
+            "maxSP": 90
+          },
+          {
+            "maxHP": 157,
+            "maxSP": 100
+          },
+          {
+            "maxHP": 142,
+            "maxSP": 102
+          },
+          {
+            "maxHP": 121,
+            "maxSP": 110
+          },
+          {
+            "maxHP": 153,
+            "maxSP": 80
+          },
+          {
+            "maxHP": 137,
+            "maxSP": 69
+          },
+          {
+            "maxHP": 155,
+            "maxSP": 91
+          },
+          {
+            "maxHP": 148,
+            "maxSP": 93
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 149,
+            "maxSP": 101
+          },
+          {
+            "maxHP": 139,
+            "maxSP": 111
+          },
+          {
+            "maxHP": 161,
+            "maxSP": 95
+          },
+          {
+            "maxHP": 167,
+            "maxSP": 106
+          },
+          {
+            "maxHP": 150,
+            "maxSP": 108
+          },
+          {
+            "maxHP": 128,
+            "maxSP": 117
+          },
+          {
+            "maxHP": 161,
+            "maxSP": 85
+          },
+          {
+            "maxHP": 145,
+            "maxSP": 74
+          },
+          {
+            "maxHP": 164,
+            "maxSP": 97
+          },
+          {
+            "maxHP": 157,
+            "maxSP": 98
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 157,
+            "maxSP": 106
+          },
+          {
+            "maxHP": 147,
+            "maxSP": 117
+          },
+          {
+            "maxHP": 169,
+            "maxSP": 99
+          },
+          {
+            "maxHP": 177,
+            "maxSP": 112
+          },
+          {
+            "maxHP": 158,
+            "maxSP": 114
+          },
+          {
+            "maxHP": 135,
+            "maxSP": 124
+          },
+          {
+            "maxHP": 169,
+            "maxSP": 90
+          },
+          {
+            "maxHP": 153,
+            "maxSP": 79
+          },
+          {
+            "maxHP": 173,
+            "maxSP": 103
+          },
+          {
+            "maxHP": 166,
+            "maxSP": 102
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 165,
+            "maxSP": 112
+          },
+          {
+            "maxHP": 154,
+            "maxSP": 123
+          },
+          {
+            "maxHP": 177,
+            "maxSP": 104
+          },
+          {
+            "maxHP": 187,
+            "maxSP": 117
+          },
+          {
+            "maxHP": 165,
+            "maxSP": 120
+          },
+          {
+            "maxHP": 142,
+            "maxSP": 130
+          },
+          {
+            "maxHP": 177,
+            "maxSP": 95
+          },
+          {
+            "maxHP": 160,
+            "maxSP": 84
+          },
+          {
+            "maxHP": 182,
+            "maxSP": 108
+          },
+          {
+            "maxHP": 175,
+            "maxSP": 106
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 173,
+            "maxSP": 117
+          },
+          {
+            "maxHP": 161,
+            "maxSP": 129
+          },
+          {
+            "maxHP": 184,
+            "maxSP": 108
+          },
+          {
+            "maxHP": 196,
+            "maxSP": 122
+          },
+          {
+            "maxHP": 172,
+            "maxSP": 126
+          },
+          {
+            "maxHP": 149,
+            "maxSP": 136
+          },
+          {
+            "maxHP": 185,
+            "maxSP": 100
+          },
+          {
+            "maxHP": 167,
+            "maxSP": 89
+          },
+          {
+            "maxHP": 191,
+            "maxSP": 113
+          },
+          {
+            "maxHP": 184,
+            "maxSP": 110
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 181,
+            "maxSP": 122
+          },
+          {
+            "maxHP": 168,
+            "maxSP": 135
+          },
+          {
+            "maxHP": 191,
+            "maxSP": 113
+          },
+          {
+            "maxHP": 205,
+            "maxSP": 127
+          },
+          {
+            "maxHP": 179,
+            "maxSP": 132
+          },
+          {
+            "maxHP": 156,
+            "maxSP": 142
+          },
+          {
+            "maxHP": 192,
+            "maxSP": 105
+          },
+          {
+            "maxHP": 174,
+            "maxSP": 94
+          },
+          {
+            "maxHP": 200,
+            "maxSP": 118
+          },
+          {
+            "maxHP": 193,
+            "maxSP": 114
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 189,
+            "maxSP": 127
+          },
+          {
+            "maxHP": 174,
+            "maxSP": 141
+          },
+          {
+            "maxHP": 198,
+            "maxSP": 117
+          },
+          {
+            "maxHP": 214,
+            "maxSP": 132
+          },
+          {
+            "maxHP": 185,
+            "maxSP": 138
+          },
+          {
+            "maxHP": 162,
+            "maxSP": 147
+          },
+          {
+            "maxHP": 199,
+            "maxSP": 109
+          },
+          {
+            "maxHP": 180,
+            "maxSP": 99
+          },
+          {
+            "maxHP": 209,
+            "maxSP": 123
+          },
+          {
+            "maxHP": 201,
+            "maxSP": 117
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 197,
+            "maxSP": 131
+          },
+          {
+            "maxHP": 180,
+            "maxSP": 147
+          },
+          {
+            "maxHP": 205,
+            "maxSP": 122
+          },
+          {
+            "maxHP": 223,
+            "maxSP": 137
+          },
+          {
+            "maxHP": 191,
+            "maxSP": 144
+          },
+          {
+            "maxHP": 168,
+            "maxSP": 151
+          },
+          {
+            "maxHP": 206,
+            "maxSP": 113
+          },
+          {
+            "maxHP": 186,
+            "maxSP": 104
+          },
+          {
+            "maxHP": 217,
+            "maxSP": 128
+          },
+          {
+            "maxHP": 209,
+            "maxSP": 121
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 205,
+            "maxSP": 136
+          },
+          {
+            "maxHP": 186,
+            "maxSP": 152
+          },
+          {
+            "maxHP": 212,
+            "maxSP": 126
+          },
+          {
+            "maxHP": 232,
+            "maxSP": 141
+          },
+          {
+            "maxHP": 197,
+            "maxSP": 150
+          },
+          {
+            "maxHP": 173,
+            "maxSP": 156
+          },
+          {
+            "maxHP": 213,
+            "maxSP": 117
+          },
+          {
+            "maxHP": 192,
+            "maxSP": 108
+          },
+          {
+            "maxHP": 225,
+            "maxSP": 133
+          },
+          {
+            "maxHP": 217,
+            "maxSP": 124
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 212,
+            "maxSP": 142
+          },
+          {
+            "maxHP": 192,
+            "maxSP": 157
+          },
+          {
+            "maxHP": 219,
+            "maxSP": 131
+          },
+          {
+            "maxHP": 240,
+            "maxSP": 145
+          },
+          {
+            "maxHP": 203,
+            "maxSP": 156
+          },
+          {
+            "maxHP": 178,
+            "maxSP": 160
+          },
+          {
+            "maxHP": 220,
+            "maxSP": 121
+          },
+          {
+            "maxHP": 198,
+            "maxSP": 112
+          },
+          {
+            "maxHP": 233,
+            "maxSP": 138
+          },
+          {
+            "maxHP": 225,
+            "maxSP": 128
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 218,
+            "maxSP": 145
+          },
+          {
+            "maxHP": 198,
+            "maxSP": 162
+          },
+          {
+            "maxHP": 226,
+            "maxSP": 135
+          },
+          {
+            "maxHP": 248,
+            "maxSP": 149
+          },
+          {
+            "maxHP": 209,
+            "maxSP": 161
+          },
+          {
+            "maxHP": 183,
+            "maxSP": 165
+          },
+          {
+            "maxHP": 227,
+            "maxSP": 125
+          },
+          {
+            "maxHP": 204,
+            "maxSP": 116
+          },
+          {
+            "maxHP": 241,
+            "maxSP": 143
+          },
+          {
+            "maxHP": 233,
+            "maxSP": 131
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 225,
+            "maxSP": 150
+          },
+          {
+            "maxHP": 204,
+            "maxSP": 167
+          },
+          {
+            "maxHP": 233,
+            "maxSP": 140
+          },
+          {
+            "maxHP": 256,
+            "maxSP": 153
+          },
+          {
+            "maxHP": 215,
+            "maxSP": 167
+          },
+          {
+            "maxHP": 188,
+            "maxSP": 169
+          },
+          {
+            "maxHP": 234,
+            "maxSP": 128
+          },
+          {
+            "maxHP": 210,
+            "maxSP": 120
+          },
+          {
+            "maxHP": 249,
+            "maxSP": 147
+          },
+          {
+            "maxHP": 241,
+            "maxSP": 134
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 231,
+            "maxSP": 154
+          },
+          {
+            "maxHP": 210,
+            "maxSP": 172
+          },
+          {
+            "maxHP": 239,
+            "maxSP": 144
+          },
+          {
+            "maxHP": 263,
+            "maxSP": 157
+          },
+          {
+            "maxHP": 221,
+            "maxSP": 172
+          },
+          {
+            "maxHP": 193,
+            "maxSP": 174
+          },
+          {
+            "maxHP": 241,
+            "maxSP": 131
+          },
+          {
+            "maxHP": 216,
+            "maxSP": 124
+          },
+          {
+            "maxHP": 257,
+            "maxSP": 151
+          },
+          {
+            "maxHP": 249,
+            "maxSP": 137
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 238,
+            "maxSP": 159
+          },
+          {
+            "maxHP": 215,
+            "maxSP": 177
+          },
+          {
+            "maxHP": 245,
+            "maxSP": 147
+          },
+          {
+            "maxHP": 270,
+            "maxSP": 161
+          },
+          {
+            "maxHP": 227,
+            "maxSP": 178
+          },
+          {
+            "maxHP": 198,
+            "maxSP": 178
+          },
+          {
+            "maxHP": 247,
+            "maxSP": 134
+          },
+          {
+            "maxHP": 222,
+            "maxSP": 128
+          },
+          {
+            "maxHP": 265,
+            "maxSP": 155
+          },
+          {
+            "maxHP": 257,
+            "maxSP": 140
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 244,
+            "maxSP": 164
+          },
+          {
+            "maxHP": 220,
+            "maxSP": 182
+          },
+          {
+            "maxHP": 251,
+            "maxSP": 151
+          },
+          {
+            "maxHP": 277,
+            "maxSP": 164
+          },
+          {
+            "maxHP": 233,
+            "maxSP": 183
+          },
+          {
+            "maxHP": 203,
+            "maxSP": 183
+          },
+          {
+            "maxHP": 253,
+            "maxSP": 137
+          },
+          {
+            "maxHP": 228,
+            "maxSP": 132
+          },
+          {
+            "maxHP": 272,
+            "maxSP": 159
+          },
+          {
+            "maxHP": 265,
+            "maxSP": 143
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 251,
+            "maxSP": 167
+          },
+          {
+            "maxHP": 225,
+            "maxSP": 187
+          },
+          {
+            "maxHP": 257,
+            "maxSP": 154
+          },
+          {
+            "maxHP": 284,
+            "maxSP": 167
+          },
+          {
+            "maxHP": 238,
+            "maxSP": 189
+          },
+          {
+            "maxHP": 207,
+            "maxSP": 187
+          },
+          {
+            "maxHP": 259,
+            "maxSP": 140
+          },
+          {
+            "maxHP": 233,
+            "maxSP": 136
+          },
+          {
+            "maxHP": 279,
+            "maxSP": 163
+          },
+          {
+            "maxHP": 272,
+            "maxSP": 146
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 257,
+            "maxSP": 172
+          },
+          {
+            "maxHP": 230,
+            "maxSP": 192
+          },
+          {
+            "maxHP": 263,
+            "maxSP": 158
+          },
+          {
+            "maxHP": 291,
+            "maxSP": 170
+          },
+          {
+            "maxHP": 244,
+            "maxSP": 194
+          },
+          {
+            "maxHP": 211,
+            "maxSP": 192
+          },
+          {
+            "maxHP": 265,
+            "maxSP": 143
+          },
+          {
+            "maxHP": 238,
+            "maxSP": 140
+          },
+          {
+            "maxHP": 286,
+            "maxSP": 167
+          },
+          {
+            "maxHP": 280,
+            "maxSP": 149
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 263,
+            "maxSP": 175
+          },
+          {
+            "maxHP": 235,
+            "maxSP": 197
+          },
+          {
+            "maxHP": 269,
+            "maxSP": 161
+          },
+          {
+            "maxHP": 297,
+            "maxSP": 173
+          },
+          {
+            "maxHP": 249,
+            "maxSP": 200
+          },
+          {
+            "maxHP": 215,
+            "maxSP": 196
+          },
+          {
+            "maxHP": 271,
+            "maxSP": 146
+          },
+          {
+            "maxHP": 243,
+            "maxSP": 144
+          },
+          {
+            "maxHP": 293,
+            "maxSP": 171
+          },
+          {
+            "maxHP": 287,
+            "maxSP": 152
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 269,
+            "maxSP": 180
+          },
+          {
+            "maxHP": 240,
+            "maxSP": 202
+          },
+          {
+            "maxHP": 275,
+            "maxSP": 165
+          },
+          {
+            "maxHP": 303,
+            "maxSP": 176
+          },
+          {
+            "maxHP": 255,
+            "maxSP": 205
+          },
+          {
+            "maxHP": 219,
+            "maxSP": 201
+          },
+          {
+            "maxHP": 277,
+            "maxSP": 149
+          },
+          {
+            "maxHP": 248,
+            "maxSP": 148
+          },
+          {
+            "maxHP": 300,
+            "maxSP": 175
+          },
+          {
+            "maxHP": 295,
+            "maxSP": 154
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 275,
+            "maxSP": 183
+          },
+          {
+            "maxHP": 245,
+            "maxSP": 207
+          },
+          {
+            "maxHP": 281,
+            "maxSP": 168
+          },
+          {
+            "maxHP": 309,
+            "maxSP": 179
+          },
+          {
+            "maxHP": 260,
+            "maxSP": 210
+          },
+          {
+            "maxHP": 223,
+            "maxSP": 205
+          },
+          {
+            "maxHP": 283,
+            "maxSP": 152
+          },
+          {
+            "maxHP": 253,
+            "maxSP": 152
+          },
+          {
+            "maxHP": 307,
+            "maxSP": 179
+          },
+          {
+            "maxHP": 302,
+            "maxSP": 156
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 280,
+            "maxSP": 187
+          },
+          {
+            "maxHP": 249,
+            "maxSP": 212
+          },
+          {
+            "maxHP": 287,
+            "maxSP": 170
+          },
+          {
+            "maxHP": 315,
+            "maxSP": 182
+          },
+          {
+            "maxHP": 265,
+            "maxSP": 215
+          },
+          {
+            "maxHP": 226,
+            "maxSP": 209
+          },
+          {
+            "maxHP": 288,
+            "maxSP": 155
+          },
+          {
+            "maxHP": 258,
+            "maxSP": 156
+          },
+          {
+            "maxHP": 313,
+            "maxSP": 183
+          },
+          {
+            "maxHP": 310,
+            "maxSP": 158
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 285,
+            "maxSP": 192
+          },
+          {
+            "maxHP": 253,
+            "maxSP": 216
+          },
+          {
+            "maxHP": 293,
+            "maxSP": 173
+          },
+          {
+            "maxHP": 321,
+            "maxSP": 185
+          },
+          {
+            "maxHP": 270,
+            "maxSP": 220
+          },
+          {
+            "maxHP": 229,
+            "maxSP": 213
+          },
+          {
+            "maxHP": 293,
+            "maxSP": 158
+          },
+          {
+            "maxHP": 263,
+            "maxSP": 160
+          },
+          {
+            "maxHP": 319,
+            "maxSP": 187
+          },
+          {
+            "maxHP": 317,
+            "maxSP": 160
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 290,
+            "maxSP": 195
+          },
+          {
+            "maxHP": 257,
+            "maxSP": 221
+          },
+          {
+            "maxHP": 298,
+            "maxSP": 175
+          },
+          {
+            "maxHP": 327,
+            "maxSP": 188
+          },
+          {
+            "maxHP": 275,
+            "maxSP": 225
+          },
+          {
+            "maxHP": 232,
+            "maxSP": 217
+          },
+          {
+            "maxHP": 298,
+            "maxSP": 161
+          },
+          {
+            "maxHP": 268,
+            "maxSP": 163
+          },
+          {
+            "maxHP": 325,
+            "maxSP": 191
+          },
+          {
+            "maxHP": 324,
+            "maxSP": 162
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 295,
+            "maxSP": 199
+          },
+          {
+            "maxHP": 261,
+            "maxSP": 225
+          },
+          {
+            "maxHP": 303,
+            "maxSP": 177
+          },
+          {
+            "maxHP": 332,
+            "maxSP": 191
+          },
+          {
+            "maxHP": 279,
+            "maxSP": 230
+          },
+          {
+            "maxHP": 235,
+            "maxSP": 220
+          },
+          {
+            "maxHP": 303,
+            "maxSP": 164
+          },
+          {
+            "maxHP": 273,
+            "maxSP": 166
+          },
+          {
+            "maxHP": 331,
+            "maxSP": 195
+          },
+          {
+            "maxHP": 331,
+            "maxSP": 164
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 300,
+            "maxSP": 202
+          },
+          {
+            "maxHP": 265,
+            "maxSP": 230
+          },
+          {
+            "maxHP": 308,
+            "maxSP": 180
+          },
+          {
+            "maxHP": 337,
+            "maxSP": 194
+          },
+          {
+            "maxHP": 284,
+            "maxSP": 235
+          },
+          {
+            "maxHP": 238,
+            "maxSP": 224
+          },
+          {
+            "maxHP": 308,
+            "maxSP": 167
+          },
+          {
+            "maxHP": 278,
+            "maxSP": 169
+          },
+          {
+            "maxHP": 337,
+            "maxSP": 199
+          },
+          {
+            "maxHP": 338,
+            "maxSP": 166
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 304,
+            "maxSP": 206
+          },
+          {
+            "maxHP": 269,
+            "maxSP": 234
+          },
+          {
+            "maxHP": 313,
+            "maxSP": 182
+          },
+          {
+            "maxHP": 342,
+            "maxSP": 197
+          },
+          {
+            "maxHP": 288,
+            "maxSP": 239
+          },
+          {
+            "maxHP": 241,
+            "maxSP": 227
+          },
+          {
+            "maxHP": 313,
+            "maxSP": 170
+          },
+          {
+            "maxHP": 283,
+            "maxSP": 172
+          },
+          {
+            "maxHP": 343,
+            "maxSP": 203
+          },
+          {
+            "maxHP": 345,
+            "maxSP": 168
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 309,
+            "maxSP": 210
+          },
+          {
+            "maxHP": 273,
+            "maxSP": 239
+          },
+          {
+            "maxHP": 318,
+            "maxSP": 184
+          },
+          {
+            "maxHP": 347,
+            "maxSP": 200
+          },
+          {
+            "maxHP": 293,
+            "maxSP": 244
+          },
+          {
+            "maxHP": 244,
+            "maxSP": 231
+          },
+          {
+            "maxHP": 318,
+            "maxSP": 173
+          },
+          {
+            "maxHP": 287,
+            "maxSP": 175
+          },
+          {
+            "maxHP": 349,
+            "maxSP": 207
+          },
+          {
+            "maxHP": 352,
+            "maxSP": 170
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 313,
+            "maxSP": 214
+          },
+          {
+            "maxHP": 277,
+            "maxSP": 243
+          },
+          {
+            "maxHP": 323,
+            "maxSP": 187
+          },
+          {
+            "maxHP": 352,
+            "maxSP": 203
+          },
+          {
+            "maxHP": 297,
+            "maxSP": 248
+          },
+          {
+            "maxHP": 247,
+            "maxSP": 234
+          },
+          {
+            "maxHP": 323,
+            "maxSP": 176
+          },
+          {
+            "maxHP": 291,
+            "maxSP": 178
+          },
+          {
+            "maxHP": 355,
+            "maxSP": 211
+          },
+          {
+            "maxHP": 359,
+            "maxSP": 172
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 318,
+            "maxSP": 218
+          },
+          {
+            "maxHP": 281,
+            "maxSP": 248
+          },
+          {
+            "maxHP": 328,
+            "maxSP": 189
+          },
+          {
+            "maxHP": 357,
+            "maxSP": 206
+          },
+          {
+            "maxHP": 302,
+            "maxSP": 253
+          },
+          {
+            "maxHP": 250,
+            "maxSP": 238
+          },
+          {
+            "maxHP": 328,
+            "maxSP": 178
+          },
+          {
+            "maxHP": 295,
+            "maxSP": 181
+          },
+          {
+            "maxHP": 361,
+            "maxSP": 214
+          },
+          {
+            "maxHP": 366,
+            "maxSP": 174
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 322,
+            "maxSP": 220
+          },
+          {
+            "maxHP": 285,
+            "maxSP": 252
+          },
+          {
+            "maxHP": 333,
+            "maxSP": 191
+          },
+          {
+            "maxHP": 362,
+            "maxSP": 209
+          },
+          {
+            "maxHP": 306,
+            "maxSP": 257
+          },
+          {
+            "maxHP": 253,
+            "maxSP": 241
+          },
+          {
+            "maxHP": 333,
+            "maxSP": 181
+          },
+          {
+            "maxHP": 299,
+            "maxSP": 184
+          },
+          {
+            "maxHP": 367,
+            "maxSP": 217
+          },
+          {
+            "maxHP": 373,
+            "maxSP": 176
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 327,
+            "maxSP": 224
+          },
+          {
+            "maxHP": 289,
+            "maxSP": 257
+          },
+          {
+            "maxHP": 338,
+            "maxSP": 194
+          },
+          {
+            "maxHP": 367,
+            "maxSP": 212
+          },
+          {
+            "maxHP": 311,
+            "maxSP": 262
+          },
+          {
+            "maxHP": 256,
+            "maxSP": 245
+          },
+          {
+            "maxHP": 338,
+            "maxSP": 183
+          },
+          {
+            "maxHP": 303,
+            "maxSP": 187
+          },
+          {
+            "maxHP": 373,
+            "maxSP": 220
+          },
+          {
+            "maxHP": 380,
+            "maxSP": 178
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 331,
+            "maxSP": 228
+          },
+          {
+            "maxHP": 293,
+            "maxSP": 261
+          },
+          {
+            "maxHP": 343,
+            "maxSP": 196
+          },
+          {
+            "maxHP": 371,
+            "maxSP": 215
+          },
+          {
+            "maxHP": 315,
+            "maxSP": 266
+          },
+          {
+            "maxHP": 259,
+            "maxSP": 248
+          },
+          {
+            "maxHP": 343,
+            "maxSP": 186
+          },
+          {
+            "maxHP": 307,
+            "maxSP": 189
+          },
+          {
+            "maxHP": 378,
+            "maxSP": 223
+          },
+          {
+            "maxHP": 386,
+            "maxSP": 180
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 336,
+            "maxSP": 231
+          },
+          {
+            "maxHP": 297,
+            "maxSP": 266
+          },
+          {
+            "maxHP": 348,
+            "maxSP": 198
+          },
+          {
+            "maxHP": 375,
+            "maxSP": 218
+          },
+          {
+            "maxHP": 320,
+            "maxSP": 271
+          },
+          {
+            "maxHP": 262,
+            "maxSP": 251
+          },
+          {
+            "maxHP": 348,
+            "maxSP": 188
+          },
+          {
+            "maxHP": 311,
+            "maxSP": 192
+          },
+          {
+            "maxHP": 383,
+            "maxSP": 226
+          },
+          {
+            "maxHP": 392,
+            "maxSP": 182
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 340,
+            "maxSP": 235
+          },
+          {
+            "maxHP": 301,
+            "maxSP": 270
+          },
+          {
+            "maxHP": 353,
+            "maxSP": 201
+          },
+          {
+            "maxHP": 379,
+            "maxSP": 221
+          },
+          {
+            "maxHP": 324,
+            "maxSP": 275
+          },
+          {
+            "maxHP": 265,
+            "maxSP": 254
+          },
+          {
+            "maxHP": 353,
+            "maxSP": 191
+          },
+          {
+            "maxHP": 315,
+            "maxSP": 195
+          },
+          {
+            "maxHP": 388,
+            "maxSP": 229
+          },
+          {
+            "maxHP": 398,
+            "maxSP": 184
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 345,
+            "maxSP": 239
+          },
+          {
+            "maxHP": 304,
+            "maxSP": 275
+          },
+          {
+            "maxHP": 358,
+            "maxSP": 203
+          },
+          {
+            "maxHP": 383,
+            "maxSP": 224
+          },
+          {
+            "maxHP": 328,
+            "maxSP": 280
+          },
+          {
+            "maxHP": 268,
+            "maxSP": 257
+          },
+          {
+            "maxHP": 358,
+            "maxSP": 193
+          },
+          {
+            "maxHP": 319,
+            "maxSP": 197
+          },
+          {
+            "maxHP": 393,
+            "maxSP": 232
+          },
+          {
+            "maxHP": 404,
+            "maxSP": 186
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 349,
+            "maxSP": 242
+          },
+          {
+            "maxHP": 308,
+            "maxSP": 279
+          },
+          {
+            "maxHP": 363,
+            "maxSP": 205
+          },
+          {
+            "maxHP": 387,
+            "maxSP": 227
+          },
+          {
+            "maxHP": 332,
+            "maxSP": 284
+          },
+          {
+            "maxHP": 270,
+            "maxSP": 260
+          },
+          {
+            "maxHP": 363,
+            "maxSP": 196
+          },
+          {
+            "maxHP": 323,
+            "maxSP": 200
+          },
+          {
+            "maxHP": 398,
+            "maxSP": 235
+          },
+          {
+            "maxHP": 410,
+            "maxSP": 188
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 354,
+            "maxSP": 245
+          },
+          {
+            "maxHP": 311,
+            "maxSP": 284
+          },
+          {
+            "maxHP": 368,
+            "maxSP": 208
+          },
+          {
+            "maxHP": 391,
+            "maxSP": 230
+          },
+          {
+            "maxHP": 336,
+            "maxSP": 289
+          },
+          {
+            "maxHP": 272,
+            "maxSP": 263
+          },
+          {
+            "maxHP": 368,
+            "maxSP": 198
+          },
+          {
+            "maxHP": 327,
+            "maxSP": 203
+          },
+          {
+            "maxHP": 403,
+            "maxSP": 238
+          },
+          {
+            "maxHP": 416,
+            "maxSP": 189
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 358,
+            "maxSP": 249
+          },
+          {
+            "maxHP": 315,
+            "maxSP": 288
+          },
+          {
+            "maxHP": 373,
+            "maxSP": 210
+          },
+          {
+            "maxHP": 395,
+            "maxSP": 233
+          },
+          {
+            "maxHP": 340,
+            "maxSP": 293
+          },
+          {
+            "maxHP": 274,
+            "maxSP": 266
+          },
+          {
+            "maxHP": 373,
+            "maxSP": 201
+          },
+          {
+            "maxHP": 331,
+            "maxSP": 205
+          },
+          {
+            "maxHP": 408,
+            "maxSP": 241
+          },
+          {
+            "maxHP": 422,
+            "maxSP": 190
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 363,
+            "maxSP": 252
+          },
+          {
+            "maxHP": 318,
+            "maxSP": 292
+          },
+          {
+            "maxHP": 378,
+            "maxSP": 212
+          },
+          {
+            "maxHP": 399,
+            "maxSP": 236
+          },
+          {
+            "maxHP": 344,
+            "maxSP": 297
+          },
+          {
+            "maxHP": 276,
+            "maxSP": 269
+          },
+          {
+            "maxHP": 377,
+            "maxSP": 203
+          },
+          {
+            "maxHP": 335,
+            "maxSP": 208
+          },
+          {
+            "maxHP": 413,
+            "maxSP": 244
+          },
+          {
+            "maxHP": 428,
+            "maxSP": 192
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 367,
+            "maxSP": 255
+          },
+          {
+            "maxHP": 322,
+            "maxSP": 296
+          },
+          {
+            "maxHP": 383,
+            "maxSP": 215
+          },
+          {
+            "maxHP": 403,
+            "maxSP": 239
+          },
+          {
+            "maxHP": 348,
+            "maxSP": 301
+          },
+          {
+            "maxHP": 278,
+            "maxSP": 272
+          },
+          {
+            "maxHP": 382,
+            "maxSP": 206
+          },
+          {
+            "maxHP": 339,
+            "maxSP": 211
+          },
+          {
+            "maxHP": 418,
+            "maxSP": 247
+          },
+          {
+            "maxHP": 434,
+            "maxSP": 193
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 372,
+            "maxSP": 258
+          },
+          {
+            "maxHP": 325,
+            "maxSP": 300
+          },
+          {
+            "maxHP": 388,
+            "maxSP": 217
+          },
+          {
+            "maxHP": 407,
+            "maxSP": 242
+          },
+          {
+            "maxHP": 352,
+            "maxSP": 305
+          },
+          {
+            "maxHP": 280,
+            "maxSP": 275
+          },
+          {
+            "maxHP": 386,
+            "maxSP": 208
+          },
+          {
+            "maxHP": 343,
+            "maxSP": 213
+          },
+          {
+            "maxHP": 423,
+            "maxSP": 250
+          },
+          {
+            "maxHP": 440,
+            "maxSP": 194
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 376,
+            "maxSP": 262
+          },
+          {
+            "maxHP": 328,
+            "maxSP": 304
+          },
+          {
+            "maxHP": 393,
+            "maxSP": 219
+          },
+          {
+            "maxHP": 411,
+            "maxSP": 245
+          },
+          {
+            "maxHP": 356,
+            "maxSP": 309
+          },
+          {
+            "maxHP": 282,
+            "maxSP": 278
+          },
+          {
+            "maxHP": 391,
+            "maxSP": 210
+          },
+          {
+            "maxHP": 347,
+            "maxSP": 216
+          },
+          {
+            "maxHP": 428,
+            "maxSP": 253
+          },
+          {
+            "maxHP": 446,
+            "maxSP": 196
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 381,
+            "maxSP": 265
+          },
+          {
+            "maxHP": 331,
+            "maxSP": 308
+          },
+          {
+            "maxHP": 398,
+            "maxSP": 221
+          },
+          {
+            "maxHP": 415,
+            "maxSP": 248
+          },
+          {
+            "maxHP": 360,
+            "maxSP": 313
+          },
+          {
+            "maxHP": 284,
+            "maxSP": 281
+          },
+          {
+            "maxHP": 395,
+            "maxSP": 212
+          },
+          {
+            "maxHP": 350,
+            "maxSP": 219
+          },
+          {
+            "maxHP": 433,
+            "maxSP": 256
+          },
+          {
+            "maxHP": 452,
+            "maxSP": 197
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 385,
+            "maxSP": 268
+          },
+          {
+            "maxHP": 334,
+            "maxSP": 312
+          },
+          {
+            "maxHP": 403,
+            "maxSP": 223
+          },
+          {
+            "maxHP": 419,
+            "maxSP": 251
+          },
+          {
+            "maxHP": 364,
+            "maxSP": 317
+          },
+          {
+            "maxHP": 286,
+            "maxSP": 284
+          },
+          {
+            "maxHP": 400,
+            "maxSP": 214
+          },
+          {
+            "maxHP": 353,
+            "maxSP": 221
+          },
+          {
+            "maxHP": 438,
+            "maxSP": 259
+          },
+          {
+            "maxHP": 458,
+            "maxSP": 198
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 390,
+            "maxSP": 271
+          },
+          {
+            "maxHP": 337,
+            "maxSP": 316
+          },
+          {
+            "maxHP": 408,
+            "maxSP": 225
+          },
+          {
+            "maxHP": 423,
+            "maxSP": 253
+          },
+          {
+            "maxHP": 367,
+            "maxSP": 321
+          },
+          {
+            "maxHP": 288,
+            "maxSP": 287
+          },
+          {
+            "maxHP": 404,
+            "maxSP": 216
+          },
+          {
+            "maxHP": 356,
+            "maxSP": 224
+          },
+          {
+            "maxHP": 443,
+            "maxSP": 262
+          },
+          {
+            "maxHP": 464,
+            "maxSP": 200
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 394,
+            "maxSP": 275
+          },
+          {
+            "maxHP": 340,
+            "maxSP": 320
+          },
+          {
+            "maxHP": 413,
+            "maxSP": 227
+          },
+          {
+            "maxHP": 427,
+            "maxSP": 255
+          },
+          {
+            "maxHP": 371,
+            "maxSP": 325
+          },
+          {
+            "maxHP": 290,
+            "maxSP": 290
+          },
+          {
+            "maxHP": 409,
+            "maxSP": 218
+          },
+          {
+            "maxHP": 359,
+            "maxSP": 227
+          },
+          {
+            "maxHP": 448,
+            "maxSP": 265
+          },
+          {
+            "maxHP": 470,
+            "maxSP": 201
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 399,
+            "maxSP": 277
+          },
+          {
+            "maxHP": 343,
+            "maxSP": 324
+          },
+          {
+            "maxHP": 418,
+            "maxSP": 229
+          },
+          {
+            "maxHP": 431,
+            "maxSP": 258
+          },
+          {
+            "maxHP": 374,
+            "maxSP": 329
+          },
+          {
+            "maxHP": 292,
+            "maxSP": 293
+          },
+          {
+            "maxHP": 413,
+            "maxSP": 220
+          },
+          {
+            "maxHP": 362,
+            "maxSP": 229
+          },
+          {
+            "maxHP": 453,
+            "maxSP": 268
+          },
+          {
+            "maxHP": 476,
+            "maxSP": 202
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 403,
+            "maxSP": 281
+          },
+          {
+            "maxHP": 346,
+            "maxSP": 328
+          },
+          {
+            "maxHP": 423,
+            "maxSP": 231
+          },
+          {
+            "maxHP": 435,
+            "maxSP": 260
+          },
+          {
+            "maxHP": 378,
+            "maxSP": 333
+          },
+          {
+            "maxHP": 294,
+            "maxSP": 296
+          },
+          {
+            "maxHP": 418,
+            "maxSP": 222
+          },
+          {
+            "maxHP": 365,
+            "maxSP": 232
+          },
+          {
+            "maxHP": 458,
+            "maxSP": 271
+          },
+          {
+            "maxHP": 482,
+            "maxSP": 204
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 407,
+            "maxSP": 283
+          },
+          {
+            "maxHP": 349,
+            "maxSP": 332
+          },
+          {
+            "maxHP": 428,
+            "maxSP": 233
+          },
+          {
+            "maxHP": 439,
+            "maxSP": 262
+          },
+          {
+            "maxHP": 381,
+            "maxSP": 336
+          },
+          {
+            "maxHP": 296,
+            "maxSP": 299
+          },
+          {
+            "maxHP": 422,
+            "maxSP": 224
+          },
+          {
+            "maxHP": 368,
+            "maxSP": 235
+          },
+          {
+            "maxHP": 463,
+            "maxSP": 274
+          },
+          {
+            "maxHP": 488,
+            "maxSP": 205
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 411,
+            "maxSP": 287
+          },
+          {
+            "maxHP": 352,
+            "maxSP": 336
+          },
+          {
+            "maxHP": 433,
+            "maxSP": 235
+          },
+          {
+            "maxHP": 443,
+            "maxSP": 265
+          },
+          {
+            "maxHP": 385,
+            "maxSP": 340
+          },
+          {
+            "maxHP": 298,
+            "maxSP": 302
+          },
+          {
+            "maxHP": 427,
+            "maxSP": 226
+          },
+          {
+            "maxHP": 371,
+            "maxSP": 237
+          },
+          {
+            "maxHP": 468,
+            "maxSP": 277
+          },
+          {
+            "maxHP": 494,
+            "maxSP": 206
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 415,
+            "maxSP": 290
+          },
+          {
+            "maxHP": 355,
+            "maxSP": 339
+          },
+          {
+            "maxHP": 438,
+            "maxSP": 237
+          },
+          {
+            "maxHP": 447,
+            "maxSP": 267
+          },
+          {
+            "maxHP": 388,
+            "maxSP": 343
+          },
+          {
+            "maxHP": 300,
+            "maxSP": 305
+          },
+          {
+            "maxHP": 431,
+            "maxSP": 228
+          },
+          {
+            "maxHP": 374,
+            "maxSP": 240
+          },
+          {
+            "maxHP": 473,
+            "maxSP": 280
+          },
+          {
+            "maxHP": 500,
+            "maxSP": 208
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 419,
+            "maxSP": 293
+          },
+          {
+            "maxHP": 358,
+            "maxSP": 342
+          },
+          {
+            "maxHP": 443,
+            "maxSP": 239
+          },
+          {
+            "maxHP": 451,
+            "maxSP": 269
+          },
+          {
+            "maxHP": 392,
+            "maxSP": 347
+          },
+          {
+            "maxHP": 302,
+            "maxSP": 308
+          },
+          {
+            "maxHP": 436,
+            "maxSP": 230
+          },
+          {
+            "maxHP": 377,
+            "maxSP": 243
+          },
+          {
+            "maxHP": 478,
+            "maxSP": 283
+          },
+          {
+            "maxHP": 506,
+            "maxSP": 209
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 423,
+            "maxSP": 296
+          },
+          {
+            "maxHP": 361,
+            "maxSP": 345
+          },
+          {
+            "maxHP": 449,
+            "maxSP": 241
+          },
+          {
+            "maxHP": 455,
+            "maxSP": 272
+          },
+          {
+            "maxHP": 395,
+            "maxSP": 350
+          },
+          {
+            "maxHP": 304,
+            "maxSP": 311
+          },
+          {
+            "maxHP": 440,
+            "maxSP": 232
+          },
+          {
+            "maxHP": 380,
+            "maxSP": 245
+          },
+          {
+            "maxHP": 483,
+            "maxSP": 286
+          },
+          {
+            "maxHP": 512,
+            "maxSP": 210
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 427,
+            "maxSP": 298
+          },
+          {
+            "maxHP": 364,
+            "maxSP": 348
+          },
+          {
+            "maxHP": 455,
+            "maxSP": 243
+          },
+          {
+            "maxHP": 459,
+            "maxSP": 274
+          },
+          {
+            "maxHP": 399,
+            "maxSP": 354
+          },
+          {
+            "maxHP": 306,
+            "maxSP": 314
+          },
+          {
+            "maxHP": 445,
+            "maxSP": 234
+          },
+          {
+            "maxHP": 383,
+            "maxSP": 248
+          },
+          {
+            "maxHP": 488,
+            "maxSP": 289
+          },
+          {
+            "maxHP": 518,
+            "maxSP": 212
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 431,
+            "maxSP": 302
+          },
+          {
+            "maxHP": 367,
+            "maxSP": 351
+          },
+          {
+            "maxHP": 461,
+            "maxSP": 245
+          },
+          {
+            "maxHP": 463,
+            "maxSP": 276
+          },
+          {
+            "maxHP": 402,
+            "maxSP": 357
+          },
+          {
+            "maxHP": 308,
+            "maxSP": 317
+          },
+          {
+            "maxHP": 449,
+            "maxSP": 236
+          },
+          {
+            "maxHP": 386,
+            "maxSP": 251
+          },
+          {
+            "maxHP": 493,
+            "maxSP": 292
+          },
+          {
+            "maxHP": 524,
+            "maxSP": 213
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 435,
+            "maxSP": 305
+          },
+          {
+            "maxHP": 370,
+            "maxSP": 354
+          },
+          {
+            "maxHP": 467,
+            "maxSP": 247
+          },
+          {
+            "maxHP": 467,
+            "maxSP": 279
+          },
+          {
+            "maxHP": 406,
+            "maxSP": 361
+          },
+          {
+            "maxHP": 310,
+            "maxSP": 320
+          },
+          {
+            "maxHP": 454,
+            "maxSP": 238
+          },
+          {
+            "maxHP": 389,
+            "maxSP": 253
+          },
+          {
+            "maxHP": 498,
+            "maxSP": 295
+          },
+          {
+            "maxHP": 530,
+            "maxSP": 214
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 439,
+            "maxSP": 307
+          },
+          {
+            "maxHP": 373,
+            "maxSP": 357
+          },
+          {
+            "maxHP": 473,
+            "maxSP": 249
+          },
+          {
+            "maxHP": 471,
+            "maxSP": 281
+          },
+          {
+            "maxHP": 409,
+            "maxSP": 364
+          },
+          {
+            "maxHP": 312,
+            "maxSP": 323
+          },
+          {
+            "maxHP": 458,
+            "maxSP": 240
+          },
+          {
+            "maxHP": 392,
+            "maxSP": 256
+          },
+          {
+            "maxHP": 503,
+            "maxSP": 298
+          },
+          {
+            "maxHP": 536,
+            "maxSP": 215
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 443,
+            "maxSP": 311
+          },
+          {
+            "maxHP": 375,
+            "maxSP": 360
+          },
+          {
+            "maxHP": 479,
+            "maxSP": 251
+          },
+          {
+            "maxHP": 475,
+            "maxSP": 283
+          },
+          {
+            "maxHP": 413,
+            "maxSP": 368
+          },
+          {
+            "maxHP": 314,
+            "maxSP": 326
+          },
+          {
+            "maxHP": 463,
+            "maxSP": 242
+          },
+          {
+            "maxHP": 395,
+            "maxSP": 259
+          },
+          {
+            "maxHP": 508,
+            "maxSP": 301
+          },
+          {
+            "maxHP": 542,
+            "maxSP": 216
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 447,
+            "maxSP": 314
+          },
+          {
+            "maxHP": 378,
+            "maxSP": 363
+          },
+          {
+            "maxHP": 485,
+            "maxSP": 253
+          },
+          {
+            "maxHP": 479,
+            "maxSP": 285
+          },
+          {
+            "maxHP": 416,
+            "maxSP": 371
+          },
+          {
+            "maxHP": 316,
+            "maxSP": 329
+          },
+          {
+            "maxHP": 467,
+            "maxSP": 244
+          },
+          {
+            "maxHP": 398,
+            "maxSP": 261
+          },
+          {
+            "maxHP": 512,
+            "maxSP": 304
+          },
+          {
+            "maxHP": 548,
+            "maxSP": 217
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 451,
+            "maxSP": 316
+          },
+          {
+            "maxHP": 380,
+            "maxSP": 366
+          },
+          {
+            "maxHP": 491,
+            "maxSP": 255
+          },
+          {
+            "maxHP": 483,
+            "maxSP": 287
+          },
+          {
+            "maxHP": 420,
+            "maxSP": 375
+          },
+          {
+            "maxHP": 318,
+            "maxSP": 332
+          },
+          {
+            "maxHP": 471,
+            "maxSP": 246
+          },
+          {
+            "maxHP": 401,
+            "maxSP": 264
+          },
+          {
+            "maxHP": 517,
+            "maxSP": 307
+          },
+          {
+            "maxHP": 554,
+            "maxSP": 218
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 455,
+            "maxSP": 319
+          },
+          {
+            "maxHP": 383,
+            "maxSP": 369
+          },
+          {
+            "maxHP": 497,
+            "maxSP": 257
+          },
+          {
+            "maxHP": 487,
+            "maxSP": 289
+          },
+          {
+            "maxHP": 423,
+            "maxSP": 378
+          },
+          {
+            "maxHP": 320,
+            "maxSP": 335
+          },
+          {
+            "maxHP": 475,
+            "maxSP": 248
+          },
+          {
+            "maxHP": 404,
+            "maxSP": 267
+          },
+          {
+            "maxHP": 521,
+            "maxSP": 310
+          },
+          {
+            "maxHP": 560,
+            "maxSP": 219
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 458,
+            "maxSP": 323
+          },
+          {
+            "maxHP": 385,
+            "maxSP": 372
+          },
+          {
+            "maxHP": 503,
+            "maxSP": 258
+          },
+          {
+            "maxHP": 491,
+            "maxSP": 291
+          },
+          {
+            "maxHP": 426,
+            "maxSP": 382
+          },
+          {
+            "maxHP": 322,
+            "maxSP": 337
+          },
+          {
+            "maxHP": 479,
+            "maxSP": 251
+          },
+          {
+            "maxHP": 407,
+            "maxSP": 269
+          },
+          {
+            "maxHP": 526,
+            "maxSP": 313
+          },
+          {
+            "maxHP": 566,
+            "maxSP": 220
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 462,
+            "maxSP": 325
+          },
+          {
+            "maxHP": 388,
+            "maxSP": 375
+          },
+          {
+            "maxHP": 509,
+            "maxSP": 260
+          },
+          {
+            "maxHP": 495,
+            "maxSP": 293
+          },
+          {
+            "maxHP": 429,
+            "maxSP": 385
+          },
+          {
+            "maxHP": 323,
+            "maxSP": 339
+          },
+          {
+            "maxHP": 483,
+            "maxSP": 254
+          },
+          {
+            "maxHP": 410,
+            "maxSP": 272
+          },
+          {
+            "maxHP": 530,
+            "maxSP": 316
+          },
+          {
+            "maxHP": 572,
+            "maxSP": 221
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 465,
+            "maxSP": 328
+          },
+          {
+            "maxHP": 390,
+            "maxSP": 378
+          },
+          {
+            "maxHP": 514,
+            "maxSP": 262
+          },
+          {
+            "maxHP": 499,
+            "maxSP": 295
+          },
+          {
+            "maxHP": 432,
+            "maxSP": 389
+          },
+          {
+            "maxHP": 324,
+            "maxSP": 341
+          },
+          {
+            "maxHP": 487,
+            "maxSP": 258
+          },
+          {
+            "maxHP": 413,
+            "maxSP": 275
+          },
+          {
+            "maxHP": 535,
+            "maxSP": 319
+          },
+          {
+            "maxHP": 578,
+            "maxSP": 222
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 469,
+            "maxSP": 330
+          },
+          {
+            "maxHP": 393,
+            "maxSP": 381
+          },
+          {
+            "maxHP": 520,
+            "maxSP": 263
+          },
+          {
+            "maxHP": 503,
+            "maxSP": 297
+          },
+          {
+            "maxHP": 435,
+            "maxSP": 392
+          },
+          {
+            "maxHP": 325,
+            "maxSP": 343
+          },
+          {
+            "maxHP": 491,
+            "maxSP": 261
+          },
+          {
+            "maxHP": 416,
+            "maxSP": 277
+          },
+          {
+            "maxHP": 539,
+            "maxSP": 321
+          },
+          {
+            "maxHP": 584,
+            "maxSP": 223
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 472,
+            "maxSP": 333
+          },
+          {
+            "maxHP": 395,
+            "maxSP": 384
+          },
+          {
+            "maxHP": 525,
+            "maxSP": 265
+          },
+          {
+            "maxHP": 507,
+            "maxSP": 299
+          },
+          {
+            "maxHP": 438,
+            "maxSP": 396
+          },
+          {
+            "maxHP": 326,
+            "maxSP": 345
+          },
+          {
+            "maxHP": 495,
+            "maxSP": 264
+          },
+          {
+            "maxHP": 419,
+            "maxSP": 280
+          },
+          {
+            "maxHP": 544,
+            "maxSP": 324
+          },
+          {
+            "maxHP": 590,
+            "maxSP": 224
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 476,
+            "maxSP": 337
+          },
+          {
+            "maxHP": 397,
+            "maxSP": 387
+          },
+          {
+            "maxHP": 531,
+            "maxSP": 267
+          },
+          {
+            "maxHP": 511,
+            "maxSP": 301
+          },
+          {
+            "maxHP": 441,
+            "maxSP": 399
+          },
+          {
+            "maxHP": 327,
+            "maxSP": 347
+          },
+          {
+            "maxHP": 499,
+            "maxSP": 268
+          },
+          {
+            "maxHP": 422,
+            "maxSP": 283
+          },
+          {
+            "maxHP": 548,
+            "maxSP": 327
+          },
+          {
+            "maxHP": 596,
+            "maxSP": 225
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 479,
+            "maxSP": 339
+          },
+          {
+            "maxHP": 399,
+            "maxSP": 390
+          },
+          {
+            "maxHP": 536,
+            "maxSP": 268
+          },
+          {
+            "maxHP": 515,
+            "maxSP": 303
+          },
+          {
+            "maxHP": 444,
+            "maxSP": 403
+          },
+          {
+            "maxHP": 328,
+            "maxSP": 349
+          },
+          {
+            "maxHP": 503,
+            "maxSP": 271
+          },
+          {
+            "maxHP": 425,
+            "maxSP": 285
+          },
+          {
+            "maxHP": 553,
+            "maxSP": 329
+          },
+          {
+            "maxHP": 602,
+            "maxSP": 226
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 483,
+            "maxSP": 342
+          },
+          {
+            "maxHP": 401,
+            "maxSP": 393
+          },
+          {
+            "maxHP": 542,
+            "maxSP": 270
+          },
+          {
+            "maxHP": 519,
+            "maxSP": 305
+          },
+          {
+            "maxHP": 447,
+            "maxSP": 406
+          },
+          {
+            "maxHP": 329,
+            "maxSP": 351
+          },
+          {
+            "maxHP": 507,
+            "maxSP": 274
+          },
+          {
+            "maxHP": 428,
+            "maxSP": 288
+          },
+          {
+            "maxHP": 557,
+            "maxSP": 332
+          },
+          {
+            "maxHP": 608,
+            "maxSP": 227
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 486,
+            "maxSP": 345
+          },
+          {
+            "maxHP": 403,
+            "maxSP": 396
+          },
+          {
+            "maxHP": 547,
+            "maxSP": 272
+          },
+          {
+            "maxHP": 523,
+            "maxSP": 307
+          },
+          {
+            "maxHP": 450,
+            "maxSP": 410
+          },
+          {
+            "maxHP": 330,
+            "maxSP": 353
+          },
+          {
+            "maxHP": 511,
+            "maxSP": 278
+          },
+          {
+            "maxHP": 431,
+            "maxSP": 291
+          },
+          {
+            "maxHP": 562,
+            "maxSP": 335
+          },
+          {
+            "maxHP": 614,
+            "maxSP": 228
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 490,
+            "maxSP": 347
+          },
+          {
+            "maxHP": 405,
+            "maxSP": 399
+          },
+          {
+            "maxHP": 553,
+            "maxSP": 273
+          },
+          {
+            "maxHP": 527,
+            "maxSP": 309
+          },
+          {
+            "maxHP": 453,
+            "maxSP": 413
+          },
+          {
+            "maxHP": 331,
+            "maxSP": 355
+          },
+          {
+            "maxHP": 515,
+            "maxSP": 281
+          },
+          {
+            "maxHP": 434,
+            "maxSP": 293
+          },
+          {
+            "maxHP": 566,
+            "maxSP": 337
+          },
+          {
+            "maxHP": 620,
+            "maxSP": 229
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 493,
+            "maxSP": 350
+          },
+          {
+            "maxHP": 407,
+            "maxSP": 402
+          },
+          {
+            "maxHP": 558,
+            "maxSP": 275
+          },
+          {
+            "maxHP": 531,
+            "maxSP": 311
+          },
+          {
+            "maxHP": 456,
+            "maxSP": 417
+          },
+          {
+            "maxHP": 332,
+            "maxSP": 357
+          },
+          {
+            "maxHP": 519,
+            "maxSP": 284
+          },
+          {
+            "maxHP": 437,
+            "maxSP": 296
+          },
+          {
+            "maxHP": 571,
+            "maxSP": 340
+          },
+          {
+            "maxHP": 625,
+            "maxSP": 230
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 496,
+            "maxSP": 352
+          },
+          {
+            "maxHP": 409,
+            "maxSP": 405
+          },
+          {
+            "maxHP": 564,
+            "maxSP": 277
+          },
+          {
+            "maxHP": 535,
+            "maxSP": 313
+          },
+          {
+            "maxHP": 459,
+            "maxSP": 420
+          },
+          {
+            "maxHP": 333,
+            "maxSP": 359
+          },
+          {
+            "maxHP": 523,
+            "maxSP": 287
+          },
+          {
+            "maxHP": 440,
+            "maxSP": 299
+          },
+          {
+            "maxHP": 575,
+            "maxSP": 343
+          },
+          {
+            "maxHP": 630,
+            "maxSP": 231
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 499,
+            "maxSP": 355
+          },
+          {
+            "maxHP": 411,
+            "maxSP": 408
+          },
+          {
+            "maxHP": 569,
+            "maxSP": 278
+          },
+          {
+            "maxHP": 539,
+            "maxSP": 315
+          },
+          {
+            "maxHP": 462,
+            "maxSP": 423
+          },
+          {
+            "maxHP": 334,
+            "maxSP": 361
+          },
+          {
+            "maxHP": 527,
+            "maxSP": 290
+          },
+          {
+            "maxHP": 443,
+            "maxSP": 302
+          },
+          {
+            "maxHP": 580,
+            "maxSP": 345
+          },
+          {
+            "maxHP": 635,
+            "maxSP": 232
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 502,
+            "maxSP": 358
+          },
+          {
+            "maxHP": 413,
+            "maxSP": 411
+          },
+          {
+            "maxHP": 573,
+            "maxSP": 280
+          },
+          {
+            "maxHP": 543,
+            "maxSP": 317
+          },
+          {
+            "maxHP": 465,
+            "maxSP": 426
+          },
+          {
+            "maxHP": 335,
+            "maxSP": 363
+          },
+          {
+            "maxHP": 531,
+            "maxSP": 293
+          },
+          {
+            "maxHP": 446,
+            "maxSP": 305
+          },
+          {
+            "maxHP": 584,
+            "maxSP": 348
+          },
+          {
+            "maxHP": 640,
+            "maxSP": 233
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 505,
+            "maxSP": 362
+          },
+          {
+            "maxHP": 415,
+            "maxSP": 414
+          },
+          {
+            "maxHP": 577,
+            "maxSP": 282
+          },
+          {
+            "maxHP": 547,
+            "maxSP": 319
+          },
+          {
+            "maxHP": 468,
+            "maxSP": 429
+          },
+          {
+            "maxHP": 336,
+            "maxSP": 365
+          },
+          {
+            "maxHP": 535,
+            "maxSP": 296
+          },
+          {
+            "maxHP": 449,
+            "maxSP": 308
+          },
+          {
+            "maxHP": 589,
+            "maxSP": 351
+          },
+          {
+            "maxHP": 645,
+            "maxSP": 234
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 508,
+            "maxSP": 364
+          },
+          {
+            "maxHP": 417,
+            "maxSP": 417
+          },
+          {
+            "maxHP": 581,
+            "maxSP": 283
+          },
+          {
+            "maxHP": 551,
+            "maxSP": 321
+          },
+          {
+            "maxHP": 471,
+            "maxSP": 432
+          },
+          {
+            "maxHP": 337,
+            "maxSP": 367
+          },
+          {
+            "maxHP": 539,
+            "maxSP": 298
+          },
+          {
+            "maxHP": 451,
+            "maxSP": 311
+          },
+          {
+            "maxHP": 593,
+            "maxSP": 353
+          },
+          {
+            "maxHP": 650,
+            "maxSP": 235
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 511,
+            "maxSP": 367
+          },
+          {
+            "maxHP": 419,
+            "maxSP": 420
+          },
+          {
+            "maxHP": 585,
+            "maxSP": 285
+          },
+          {
+            "maxHP": 555,
+            "maxSP": 323
+          },
+          {
+            "maxHP": 474,
+            "maxSP": 435
+          },
+          {
+            "maxHP": 338,
+            "maxSP": 369
+          },
+          {
+            "maxHP": 543,
+            "maxSP": 301
+          },
+          {
+            "maxHP": 454,
+            "maxSP": 314
+          },
+          {
+            "maxHP": 598,
+            "maxSP": 356
+          },
+          {
+            "maxHP": 655,
+            "maxSP": 236
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 514,
+            "maxSP": 369
+          },
+          {
+            "maxHP": 421,
+            "maxSP": 423
+          },
+          {
+            "maxHP": 589,
+            "maxSP": 287
+          },
+          {
+            "maxHP": 559,
+            "maxSP": 325
+          },
+          {
+            "maxHP": 477,
+            "maxSP": 438
+          },
+          {
+            "maxHP": 339,
+            "maxSP": 371
+          },
+          {
+            "maxHP": 547,
+            "maxSP": 303
+          },
+          {
+            "maxHP": 456,
+            "maxSP": 317
+          },
+          {
+            "maxHP": 602,
+            "maxSP": 359
+          },
+          {
+            "maxHP": 660,
+            "maxSP": 237
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 517,
+            "maxSP": 372
+          },
+          {
+            "maxHP": 423,
+            "maxSP": 426
+          },
+          {
+            "maxHP": 593,
+            "maxSP": 288
+          },
+          {
+            "maxHP": 563,
+            "maxSP": 327
+          },
+          {
+            "maxHP": 480,
+            "maxSP": 441
+          },
+          {
+            "maxHP": 340,
+            "maxSP": 373
+          },
+          {
+            "maxHP": 551,
+            "maxSP": 306
+          },
+          {
+            "maxHP": 459,
+            "maxSP": 320
+          },
+          {
+            "maxHP": 607,
+            "maxSP": 361
+          },
+          {
+            "maxHP": 665,
+            "maxSP": 238
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 520,
+            "maxSP": 375
+          },
+          {
+            "maxHP": 425,
+            "maxSP": 429
+          },
+          {
+            "maxHP": 597,
+            "maxSP": 290
+          },
+          {
+            "maxHP": 567,
+            "maxSP": 329
+          },
+          {
+            "maxHP": 483,
+            "maxSP": 444
+          },
+          {
+            "maxHP": 341,
+            "maxSP": 375
+          },
+          {
+            "maxHP": 555,
+            "maxSP": 308
+          },
+          {
+            "maxHP": 461,
+            "maxSP": 323
+          },
+          {
+            "maxHP": 611,
+            "maxSP": 364
+          },
+          {
+            "maxHP": 670,
+            "maxSP": 239
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 523,
+            "maxSP": 377
+          },
+          {
+            "maxHP": 427,
+            "maxSP": 432
+          },
+          {
+            "maxHP": 601,
+            "maxSP": 292
+          },
+          {
+            "maxHP": 571,
+            "maxSP": 331
+          },
+          {
+            "maxHP": 486,
+            "maxSP": 447
+          },
+          {
+            "maxHP": 342,
+            "maxSP": 377
+          },
+          {
+            "maxHP": 559,
+            "maxSP": 311
+          },
+          {
+            "maxHP": 464,
+            "maxSP": 326
+          },
+          {
+            "maxHP": 616,
+            "maxSP": 367
+          },
+          {
+            "maxHP": 675,
+            "maxSP": 240
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 526,
+            "maxSP": 380
+          },
+          {
+            "maxHP": 429,
+            "maxSP": 435
+          },
+          {
+            "maxHP": 605,
+            "maxSP": 293
+          },
+          {
+            "maxHP": 575,
+            "maxSP": 333
+          },
+          {
+            "maxHP": 489,
+            "maxSP": 450
+          },
+          {
+            "maxHP": 343,
+            "maxSP": 378
+          },
+          {
+            "maxHP": 563,
+            "maxSP": 313
+          },
+          {
+            "maxHP": 466,
+            "maxSP": 329
+          },
+          {
+            "maxHP": 620,
+            "maxSP": 369
+          },
+          {
+            "maxHP": 680,
+            "maxSP": 241
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 529,
+            "maxSP": 383
+          },
+          {
+            "maxHP": 431,
+            "maxSP": 438
+          },
+          {
+            "maxHP": 609,
+            "maxSP": 295
+          },
+          {
+            "maxHP": 579,
+            "maxSP": 335
+          },
+          {
+            "maxHP": 492,
+            "maxSP": 453
+          },
+          {
+            "maxHP": 344,
+            "maxSP": 380
+          },
+          {
+            "maxHP": 567,
+            "maxSP": 316
+          },
+          {
+            "maxHP": 469,
+            "maxSP": 332
+          },
+          {
+            "maxHP": 624,
+            "maxSP": 372
+          },
+          {
+            "maxHP": 685,
+            "maxSP": 242
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 532,
+            "maxSP": 384
+          },
+          {
+            "maxHP": 433,
+            "maxSP": 440
+          },
+          {
+            "maxHP": 612,
+            "maxSP": 297
+          },
+          {
+            "maxHP": 583,
+            "maxSP": 337
+          },
+          {
+            "maxHP": 495,
+            "maxSP": 456
+          },
+          {
+            "maxHP": 345,
+            "maxSP": 381
+          },
+          {
+            "maxHP": 571,
+            "maxSP": 318
+          },
+          {
+            "maxHP": 471,
+            "maxSP": 335
+          },
+          {
+            "maxHP": 628,
+            "maxSP": 375
+          },
+          {
+            "maxHP": 690,
+            "maxSP": 243
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 535,
+            "maxSP": 387
+          },
+          {
+            "maxHP": 435,
+            "maxSP": 442
+          },
+          {
+            "maxHP": 616,
+            "maxSP": 298
+          },
+          {
+            "maxHP": 587,
+            "maxSP": 339
+          },
+          {
+            "maxHP": 498,
+            "maxSP": 459
+          },
+          {
+            "maxHP": 346,
+            "maxSP": 383
+          },
+          {
+            "maxHP": 575,
+            "maxSP": 321
+          },
+          {
+            "maxHP": 474,
+            "maxSP": 338
+          },
+          {
+            "maxHP": 632,
+            "maxSP": 377
+          },
+          {
+            "maxHP": 695,
+            "maxSP": 244
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 538,
+            "maxSP": 389
+          },
+          {
+            "maxHP": 437,
+            "maxSP": 444
+          },
+          {
+            "maxHP": 619,
+            "maxSP": 300
+          },
+          {
+            "maxHP": 591,
+            "maxSP": 341
+          },
+          {
+            "maxHP": 501,
+            "maxSP": 462
+          },
+          {
+            "maxHP": 347,
+            "maxSP": 384
+          },
+          {
+            "maxHP": 579,
+            "maxSP": 323
+          },
+          {
+            "maxHP": 476,
+            "maxSP": 341
+          },
+          {
+            "maxHP": 636,
+            "maxSP": 380
+          },
+          {
+            "maxHP": 700,
+            "maxSP": 245
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 541,
+            "maxSP": 392
+          },
+          {
+            "maxHP": 439,
+            "maxSP": 446
+          },
+          {
+            "maxHP": 623,
+            "maxSP": 302
+          },
+          {
+            "maxHP": 595,
+            "maxSP": 343
+          },
+          {
+            "maxHP": 504,
+            "maxSP": 465
+          },
+          {
+            "maxHP": 348,
+            "maxSP": 386
+          },
+          {
+            "maxHP": 583,
+            "maxSP": 326
+          },
+          {
+            "maxHP": 479,
+            "maxSP": 344
+          },
+          {
+            "maxHP": 640,
+            "maxSP": 383
+          },
+          {
+            "maxHP": 705,
+            "maxSP": 246
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 544,
+            "maxSP": 395
+          },
+          {
+            "maxHP": 441,
+            "maxSP": 448
+          },
+          {
+            "maxHP": 626,
+            "maxSP": 303
+          },
+          {
+            "maxHP": 599,
+            "maxSP": 345
+          },
+          {
+            "maxHP": 507,
+            "maxSP": 468
+          },
+          {
+            "maxHP": 349,
+            "maxSP": 387
+          },
+          {
+            "maxHP": 587,
+            "maxSP": 328
+          },
+          {
+            "maxHP": 481,
+            "maxSP": 348
+          },
+          {
+            "maxHP": 644,
+            "maxSP": 385
+          },
+          {
+            "maxHP": 710,
+            "maxSP": 247
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 547,
+            "maxSP": 397
+          },
+          {
+            "maxHP": 443,
+            "maxSP": 450
+          },
+          {
+            "maxHP": 630,
+            "maxSP": 305
+          },
+          {
+            "maxHP": 603,
+            "maxSP": 347
+          },
+          {
+            "maxHP": 510,
+            "maxSP": 471
+          },
+          {
+            "maxHP": 350,
+            "maxSP": 389
+          },
+          {
+            "maxHP": 591,
+            "maxSP": 331
+          },
+          {
+            "maxHP": 484,
+            "maxSP": 352
+          },
+          {
+            "maxHP": 648,
+            "maxSP": 388
+          },
+          {
+            "maxHP": 715,
+            "maxSP": 248
+          }
+        ]
+      },
+      {
+        "EachPlayerData": [
+          {
+            "maxHP": 1,
+            "maxSP": 1
+          },
+          {
+            "maxHP": 550,
+            "maxSP": 400
+          },
+          {
+            "maxHP": 445,
+            "maxSP": 452
+          },
+          {
+            "maxHP": 633,
+            "maxSP": 307
+          },
+          {
+            "maxHP": 607,
+            "maxSP": 349
+          },
+          {
+            "maxHP": 513,
+            "maxSP": 474
+          },
+          {
+            "maxHP": 351,
+            "maxSP": 390
+          },
+          {
+            "maxHP": 595,
+            "maxSP": 333
+          },
+          {
+            "maxHP": 486,
+            "maxSP": 356
+          },
+          {
+            "maxHP": 652,
+            "maxSP": 391
+          },
+          {
+            "maxHP": 720,
+            "maxSP": 249
+          }
+        ]
+      }
+    ]
+  }
+}

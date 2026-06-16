@@ -1,0 +1,384 @@
+{
+  "Type": "SuggestionTextListTable",
+  "Name": "DatSuggestionTextDataAsset",
+  "Class": "UScriptClass'SuggestionTextListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "TextLabel": "TEST_TEXT_A",
+        "Text": "[임시]ARa3한 마를 구하자",
+        "Comment": "テストのテキストです"
+      },
+      {
+        "TextLabel": "TEST_TEXT_B",
+        "Text": "[임시]한자 히라가나 123을 알아보자",
+        "Comment": "テストのテキストです"
+      },
+      {
+        "TextLabel": "TEST_TEXT_C",
+        "Text": "[임시]상기는 폰트 테스트입니다",
+        "Comment": "テストのテキストです"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0470_M",
+        "Text": "교무실로 간다",
+        "Comment": "[日常班]4/7初登校キーフリー"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0421_1_M",
+        "Text": "폴로니안 몰로 간다",
+        "Comment": "[日常班]4/22交番キーフリー①"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0421_2_M",
+        "Text": "사나다에게 간다",
+        "Comment": "[日常班]4/22交番キーフリー②"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0421_2A_S",
+        "Text": "폴로니안 몰로 간다",
+        "Comment": "[日常班]4/22交番キーフリー②-a"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0421_2B_S",
+        "Text": "파출소로 간다",
+        "Comment": "[日常班]4/22交番キーフリー②-b"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0606_M",
+        "Text": "뒷골목으로 간다",
+        "Comment": "[日常班]6/6たまり場キーフリー"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0608_M",
+        "Text": "야마기시 후카를 구출하러 간다",
+        "Comment": "[日常班]6/8風花救出_夜学校キーフリー"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0608_A_S",
+        "Text": "교무실에 열쇠를 가지러 간다",
+        "Comment": "[日常班]6/8風花救出_夜学校キーフリー-a"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0608_B_S",
+        "Text": "현관홀로 간다",
+        "Comment": "[日常班]6/8風花救出_夜学校キーフリー-b"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0721_A_M",
+        "Text": "불장난 작전을 결행한다",
+        "Comment": "[日常班]7/21ナンパキーフリー"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0721_B_M",
+        "Text": "소녀를 뒤쫓는다",
+        "Comment": "[日常班]7/21森の中キーフリー"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_1117_M",
+        "Text": "수학여행을 만끽한다",
+        "Comment": "[日常班]11/17~11/19 修学旅行キーフリー"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_1117_S",
+        "Text": "방으로 돌아간다",
+        "Comment": "[日常班]11/17~11/18 修学旅行キーフリー"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_1119_A_S",
+        "Text": "준페이를 찾는다",
+        "Comment": "[日常班]11/19 修学旅行キーフリー-a"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_1119_B_S",
+        "Text": "방에서 입욕 준비를 한다",
+        "Comment": "[日常班]11/19 修学旅行キーフリー-b"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_1119_M",
+        "Text": "살아서 돌아간다",
+        "Comment": "[日常班]11/19 温泉覗きキーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0409_M",
+        "Text": "위쪽으로 도망친다",
+        "Comment": "[ダンジョン班]4/9寮内逃走キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0420_1_M",
+        "Text": "섀도를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]4/20初回タルタロスキーフリー1"
+      },
+      {
+        "TextLabel": "DNG_KF_0420_1_S",
+        "Text": "보물 상자를 조사한다",
+        "Comment": "[ダンジョン班]4/20初回タルタロスキーフリー1"
+      },
+      {
+        "TextLabel": "DNG_KF_0420_2_M",
+        "Text": "귀환 장치를 사용한다",
+        "Comment": "[ダンジョン班]4/20初回タルタロスキーフリー2"
+      },
+      {
+        "TextLabel": "DNG_KF_0420_2_S",
+        "Text": "특수한 상자를 연다",
+        "Comment": "[ダンジョン班]4/20初回タルタロスキーフリー2"
+      },
+      {
+        "TextLabel": "DNG_KF_0509_M",
+        "Text": "대형 섀도를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]5/9モノレールキーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0509_A_S",
+        "Text": "준페이를 뒤쫓는다",
+        "Comment": "[ダンジョン班]5/9モノレールキーフリー-a"
+      },
+      {
+        "TextLabel": "DNG_KF_0509_B_S",
+        "Text": "선두 차량으로 향한다",
+        "Comment": "[ダンジョン班]5/9モノレールキーフリー-b"
+      },
+      {
+        "TextLabel": "DNG_KF_0608_M",
+        "Text": "야마기시 후카를 구출한다",
+        "Comment": "[ダンジョン班]6/8風花救出キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0608_S",
+        "Text": "사나다 일행과 합류한다",
+        "Comment": "[ダンジョン班]6/8風花救出キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0613_1_M",
+        "Text": "플로어의 섀도를 전부 쓰러뜨린다",
+        "Comment": "[ダンジョン班]6/13テウルギア獲得キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0613_1_S",
+        "Text": "넷 남음",
+        "Comment": "[ダンジョン班]6/13テウルギア獲得キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0613_2_S",
+        "Text": "셋 남음",
+        "Comment": "[ダンジョン班]6/13テウルギア獲得キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0613_3_S",
+        "Text": "둘 남음",
+        "Comment": "[ダンジョン班]6/13テウルギア獲得キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0613_4_S",
+        "Text": "하나 남음",
+        "Comment": "[ダンジョン班]6/13テウルギア獲得キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0613_2_M",
+        "Text": "위층으로 간다",
+        "Comment": "[ダンジョン班]6/13テウルギア獲得キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_1_M",
+        "Text": "3층에 있는 섀도를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー1"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_2A_M",
+        "Text": "귀환한다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー2"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_2B_M",
+        "Text": "또 하나의 섀도를 찾는다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー2"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_2_S",
+        "Text": "방 안을 조사한다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー2"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_3_M",
+        "Text": "또 하나의 섀도를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー3"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_3_S",
+        "Text": "2층에서 동료와 합류한다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー3"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_4_M",
+        "Text": "법황의 방에 펼쳐진 결계를 해제한다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー4"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_4A_S",
+        "Text": "204호실의 거울을 조사한다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー4-a"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_4B_S",
+        "Text": "205호실의 거울을 조사한다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー4-b"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_4C_S",
+        "Text": "205호실의 거울을 부순다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー4-c"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_4D_S",
+        "Text": "3층의 비치지 않는 거울을 부순다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー4-d"
+      },
+      {
+        "TextLabel": "DNG_KF_0707_5_M",
+        "Text": "법황의 방에서 섀도를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]7/7ラブホテルキーフリー5"
+      },
+      {
+        "TextLabel": "DNG_KF_0806_M",
+        "Text": "대형 섀도를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]8/6旧陸軍施設キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0806_S",
+        "Text": "타깃을 쫓는다",
+        "Comment": "[ダンジョン班]8/6旧陸軍施設キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0905_M",
+        "Text": "대형 섀도를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]9/5ポロニアンモールキーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_1004_M",
+        "Text": "대형 섀도를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]10/4巌戸台駅前商店街キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_1103_M",
+        "Text": "마지막 대형 섀도를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]11/3ムーンライトブリッジキーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_1103_S",
+        "Text": "스트레가와 결판을 낸다",
+        "Comment": "[ダンジョン班]11/3ムーンライトブリッジキーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_1122_M",
+        "Text": "치도리에게 간다",
+        "Comment": "[ダンジョン班]11/22チドリ戦準備キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0131_M",
+        "Text": "닉스에 맞선다",
+        "Comment": "[ダンジョン班]1/31タルタロス最終日キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0131_A_S",
+        "Text": "스트레가를 쓰러뜨린다",
+        "Comment": "[ダンジョン班]1/31タルタロス最終日キーフリー-a"
+      },
+      {
+        "TextLabel": "DNG_KF_0409_0_M",
+        "Text": "안전한 장소로 도망친다",
+        "Comment": "[ダンジョン班]4/9寮内逃走キーフリー"
+      },
+      {
+        "TextLabel": "DNG_INFO_MAIN_M",
+        "Text": "플로어를 탐색한다",
+        "Comment": "タルタロスの探索情報：親"
+      },
+      {
+        "TextLabel": "DNG_ACCIDENT_RBOX_S",
+        "Text": "귀중한 보물 상자를 찾는다",
+        "Comment": "タルタロスの探索情報：レア宝箱"
+      },
+      {
+        "TextLabel": "DNG_ACCIDENT_MBOX_S",
+        "Text": "잠긴 보물 상자를 찾는다",
+        "Comment": "タルタロスの探索情報：メダル宝箱"
+      },
+      {
+        "TextLabel": "DNG_ACCIDENT_RENEMY_S",
+        "Text": "레어 섀도를 찾는다",
+        "Comment": "タルタロスの探索情報：レア敵"
+      },
+      {
+        "TextLabel": "DNG_INFO_DOOR_S",
+        "Text": "모나드의 문을 찾는다",
+        "Comment": "タルタロスの探索情報：モナドの扉"
+      },
+      {
+        "TextLabel": "DNG_INFO_BIGRARE_S",
+        "Text": "거대 레어 섀도를 찾는다",
+        "Comment": "タルタロスの探索情報：巨大レア"
+      },
+      {
+        "TextLabel": "DNG_INFO_REAPER_S",
+        "Text": "거둬들이는 자를 조심한다",
+        "Comment": "タルタロスの探索情報：刈り取る者"
+      },
+      {
+        "TextLabel": "DNG_INFO_GATEKEEPER_S",
+        "Text": "앞길을 가로막는 적을 쓰러뜨린다",
+        "Comment": "タルタロスの探索情報：ゲートキーパー"
+      },
+      {
+        "TextLabel": "DNG_INFO_RAREFLOOR_S",
+        "Text": "레어 섀도를 찾는다",
+        "Comment": "タルタロスの探索情報：レアフロア"
+      },
+      {
+        "TextLabel": "DNG_INFO_STRONGFLOOR_S",
+        "Text": "강적을 조심한다",
+        "Comment": "タルタロスの探索情報：強敵フロア"
+      },
+      {
+        "TextLabel": "DNG_INFO_MISNPC_S",
+        "Text": "헤매는 사람을 찾는다",
+        "Comment": "タルタロスの探索情報：失踪者"
+      },
+      {
+        "TextLabel": "DNG_INFO_BUGENEMY_S",
+        "Text": "이상한 적을 조심한다",
+        "Comment": "タルタロスの探索情報：状態変化"
+      },
+      {
+        "TextLabel": "DNG_INFO_DARKZONE_S",
+        "Text": "어둠을 조심한다",
+        "Comment": "タルタロスの探索情報：ダークゾーン"
+      },
+      {
+        "TextLabel": "DAYLY_KFEV_0510_M",
+        "Text": "벨벳 룸에 간다",
+        "Comment": "[日常班]5/10依頼解禁キーフリー"
+      },
+      {
+        "TextLabel": "DAYLY_KF_0418_M",
+        "Text": "4층으로 간다",
+        "Comment": "[日常班]4/18作戦室キーフリー"
+      },
+      {
+        "TextLabel": "DNG_KF_0131_B_S",
+        "Text": "타카야와 결판을 낸다",
+        "Comment": "[ダンジョン班]1/31タルタロス最終日キーフリー-b"
+      },
+      {
+        "TextLabel": "DAYLY_KF_0407_M",
+        "Text": "기숙사로 돌아간다",
+        "Comment": "[日常班]4/7下校キーフリー"
+      },
+      {
+        "TextLabel": "DAYLY_KF_0614_M",
+        "Text": "골동품상으로 간다",
+        "Comment": "[日常班]6/14下校キーフリー"
+      }
+    ]
+  }
+}

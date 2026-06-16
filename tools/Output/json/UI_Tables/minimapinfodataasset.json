@@ -1,0 +1,303 @@
+{
+  "Type": "MiniMapInfoDataAsset",
+  "Name": "MiniMapInfoDataAsset",
+  "Class": "UScriptClass'MiniMapInfoDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "FieldID": "999_999_001",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "102_101_000",
+        "Scale": 1.3,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 1.3
+      },
+      {
+        "FieldID": "102_102_001",
+        "Scale": 1.3,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 1.3
+      },
+      {
+        "FieldID": "102_102_002",
+        "Scale": 1.3,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 1.3
+      },
+      {
+        "FieldID": "102_102_003",
+        "Scale": 1.3,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 1.3
+      },
+      {
+        "FieldID": "102_102_004",
+        "Scale": 1.3,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 1.3
+      },
+      {
+        "FieldID": "102_102_005",
+        "Scale": 1.3,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 1.3
+      },
+      {
+        "FieldID": "102_121_000",
+        "Scale": 2.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 2.0
+      },
+      {
+        "FieldID": "102_125_000",
+        "Scale": 2.0,
+        "DegreeAngle": 90.0,
+        "Hide": false,
+        "VLScale": 2.0
+      },
+      {
+        "FieldID": "102_141_000",
+        "Scale": 2.0,
+        "DegreeAngle": 90.0,
+        "Hide": false,
+        "VLScale": 2.0
+      },
+      {
+        "FieldID": "102_151_000",
+        "Scale": 1.3,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 1.3
+      },
+      {
+        "FieldID": "104_101_000",
+        "Scale": 1.0,
+        "DegreeAngle": 180.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "201_102_000",
+        "Scale": 1.0,
+        "DegreeAngle": 0.0,
+        "Hide": true,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "150_109_000",
+        "Scale": 1.0,
+        "DegreeAngle": 0.0,
+        "Hide": true,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "201_103_000",
+        "Scale": 1.0,
+        "DegreeAngle": 0.0,
+        "Hide": true,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "108_106_000",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "108_107_000",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "108_111_000",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "108_112_000",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "302_101_000",
+        "Scale": 1.0,
+        "DegreeAngle": -60.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "302_102_001",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "302_102_002",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "302_102_003",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "302_102_004",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "302_102_005",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "304_104_000",
+        "Scale": 1.0,
+        "DegreeAngle": 90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "304_108_000",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "304_110_000",
+        "Scale": 1.0,
+        "DegreeAngle": 90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "304_111_000",
+        "Scale": 1.0,
+        "DegreeAngle": 90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "304_112_000",
+        "Scale": 1.0,
+        "DegreeAngle": -90.0,
+        "Hide": false,
+        "VLScale": 0.0
+      },
+      {
+        "FieldID": "202_101_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "203_101_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "203_102_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "204_101_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "204_102_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "205_101_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "205_102_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "206_101_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "206_102_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "207_101_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "207_102_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      },
+      {
+        "FieldID": "207_103_000",
+        "Scale": 0.7,
+        "DegreeAngle": 0.0,
+        "Hide": false,
+        "VLScale": 0.5
+      }
+    ]
+  }
+}

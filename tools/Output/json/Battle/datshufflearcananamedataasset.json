@@ -1,0 +1,225 @@
+{
+  "Type": "DatShuffleArcanaNameTable",
+  "Name": "DatShuffleArcanaNameDataAsset",
+  "Class": "UScriptClass'DatShuffleArcanaNameTable'",
+  "Properties": {
+    "Data": [
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "8273D96C4EC3316EC036A48D9768D2FC",
+          "SourceString": "미사용",
+          "LocalizedString": "미사용"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "B9C5423B47384E2720B7BFB207F7369F",
+          "SourceString": "페르소나",
+          "LocalizedString": "페르소나"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "2E4A107B4AE6E8C23F8FF5939DA2213F",
+          "SourceString": "소드",
+          "LocalizedString": "소드"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "3AA4074845600F9DAE8ADFB7C68F80DE",
+          "SourceString": "코인",
+          "LocalizedString": "코인"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "E470134447F26526981E44ABC2D92F22",
+          "SourceString": "컵",
+          "LocalizedString": "컵"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "112CC78F42011F87A8F5799EF3EB31EB",
+          "SourceString": "완드",
+          "LocalizedString": "완드"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "24417A8A43AEA066CFF671A153D87A8A",
+          "SourceString": "광대",
+          "LocalizedString": "광대"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "59F9D0FE42EE748941FB8D928CF5A2E0",
+          "SourceString": "마술사",
+          "LocalizedString": "마술사"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "CEC034314EAEFE83DA8FD6B3E2748559",
+          "SourceString": "여법황",
+          "LocalizedString": "여법황"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "91C71F9849B86717BD6986B739729BE6",
+          "SourceString": "여황제",
+          "LocalizedString": "여황제"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "BCADEF3F432E97C6A8D4F2B9FA4E6D75",
+          "SourceString": "황제",
+          "LocalizedString": "황제"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "314D35D847C2DACE5BE1BD8D89A2FBD6",
+          "SourceString": "법황",
+          "LocalizedString": "법황"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "F9157C0A4A65CE8AC9EF9782AE1682BF",
+          "SourceString": "연인",
+          "LocalizedString": "연인"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "D32E89704F6F56B3CBE84BB95649015D",
+          "SourceString": "전차",
+          "LocalizedString": "전차"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "CA17623C4D157B91736E7ABB94CDD8B7",
+          "SourceString": "정의",
+          "LocalizedString": "정의"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "FEC623724E9B5A8CC8EFD29CB026B825",
+          "SourceString": "은둔자",
+          "LocalizedString": "은둔자"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "7FCCED454B2C85229824B0AEDC5449D4",
+          "SourceString": "운명",
+          "LocalizedString": "운명"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "410CEE4D465D74BEE10B8A8E01A7432A",
+          "SourceString": "힘",
+          "LocalizedString": "힘"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "46355F8642C6A0765CCF399D642D5C23",
+          "SourceString": "사형수",
+          "LocalizedString": "사형수"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "A6592A994129B93A76E277B7A68D01FA",
+          "SourceString": "사신",
+          "LocalizedString": "사신"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "17E7EF654631EE4562DA9EB58BD269F6",
+          "SourceString": "절제",
+          "LocalizedString": "절제"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "6C297DBD44D942651C3F568D6BBC3191",
+          "SourceString": "악마",
+          "LocalizedString": "악마"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "527C67A14B18C5A88F18D8B796F30BAD",
+          "SourceString": "탑",
+          "LocalizedString": "탑"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "B8BE4C0B44259FE2A404C0A1E9DC0730",
+          "SourceString": "별",
+          "LocalizedString": "별"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "F5F25B59407B829BC51D96A42FD86C1F",
+          "SourceString": "달",
+          "LocalizedString": "달"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "AFAA1237470051305A07909A7326E4D9",
+          "SourceString": "태양",
+          "LocalizedString": "태양"
+        }
+      },
+      {
+        "Name": {
+          "Namespace": "DT_DatShuffleArcanaName",
+          "Key": "FA833A404A61D06E1429B68570FBBFF8",
+          "SourceString": "심판",
+          "LocalizedString": "심판"
+        }
+      }
+    ]
+  }
+}

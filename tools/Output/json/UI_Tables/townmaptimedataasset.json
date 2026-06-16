@@ -1,0 +1,75 @@
+{
+  "Type": "TownMapTimeDataAsset",
+  "Name": "TownMapTimeDataAsset",
+  "Class": "UScriptClass'TownMapTimeDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "TownName": "月光館学園",
+        "Noon": true,
+        "NoonVisibleFlag": "",
+        "NoonHideFlag1": "SYS_HOLIDAY",
+        "NoonHideFlag2": "",
+        "Night": false,
+        "NightVisibleFlag": "",
+        "NightHideFlag1": "",
+        "NightHideFlag2": ""
+      },
+      {
+        "TownName": "学生寮",
+        "Noon": true,
+        "NoonVisibleFlag": "",
+        "NoonHideFlag1": "",
+        "NoonHideFlag2": "",
+        "Night": true,
+        "NightVisibleFlag": "",
+        "NightHideFlag1": "",
+        "NightHideFlag2": ""
+      },
+      {
+        "TownName": "ポロニアンモール",
+        "Noon": true,
+        "NoonVisibleFlag": "",
+        "NoonHideFlag1": "",
+        "NoonHideFlag2": "",
+        "Night": true,
+        "NightVisibleFlag": "",
+        "NightHideFlag1": "",
+        "NightHideFlag2": ""
+      },
+      {
+        "TownName": "ポートアイランド",
+        "Noon": true,
+        "NoonVisibleFlag": "",
+        "NoonHideFlag1": "",
+        "NoonHideFlag2": "",
+        "Night": false,
+        "NightVisibleFlag": "",
+        "NightHideFlag1": "",
+        "NightHideFlag2": ""
+      },
+      {
+        "TownName": "巌戸台商業街",
+        "Noon": true,
+        "NoonVisibleFlag": "",
+        "NoonHideFlag1": "",
+        "NoonHideFlag2": "",
+        "Night": true,
+        "NightVisibleFlag": "",
+        "NightHideFlag1": "",
+        "NightHideFlag2": ""
+      },
+      {
+        "TownName": "長鳴神社",
+        "Noon": true,
+        "NoonVisibleFlag": "",
+        "NoonHideFlag1": "",
+        "NoonHideFlag2": "",
+        "Night": false,
+        "NightVisibleFlag": "",
+        "NightHideFlag1": "",
+        "NightHideFlag2": ""
+      }
+    ]
+  }
+}

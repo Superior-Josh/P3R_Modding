@@ -1,0 +1,49 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_106_101_001",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "矢印",
+        "SprType": 0,
+        "SprNo": 0,
+        "X": 19.0,
+        "Y": 82.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "稲荷",
+        "SprType": 0,
+        "SprNo": 32,
+        "X": -36.0,
+        "Y": -68.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "賽銭箱",
+        "SprType": 0,
+        "SprNo": 31,
+        "X": 18.0,
+        "Y": -48.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "おみくじ",
+        "SprType": 0,
+        "SprNo": 30,
+        "X": 73.0,
+        "Y": -68.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

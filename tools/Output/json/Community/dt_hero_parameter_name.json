@@ -1,0 +1,153 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_Hero_Parameter_Name",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'HeroParameterNameRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "카테고리명": {
+      "Brain": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "카테고리명_Brain",
+        "SourceString": "학력",
+        "LocalizedString": "학력"
+      },
+      "Charm": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "카테고리명_Charm",
+        "SourceString": "매력",
+        "LocalizedString": "매력"
+      },
+      "Courage": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "카테고리명_Courage",
+        "SourceString": "용기",
+        "LocalizedString": "용기"
+      }
+    },
+    "Level1": {
+      "Brain": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level1_Brain",
+        "SourceString": "분발해야 함",
+        "LocalizedString": "분발해야 함"
+      },
+      "Charm": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level1_Charm",
+        "SourceString": "없다시피 함",
+        "LocalizedString": "없다시피 함"
+      },
+      "Courage": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level1_Courage",
+        "SourceString": "영 부족함",
+        "LocalizedString": "영 부족함"
+      }
+    },
+    "Level2": {
+      "Brain": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level2_Brain",
+        "SourceString": "못하지는 않음",
+        "LocalizedString": "못하지는 않음"
+      },
+      "Charm": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level2_Charm",
+        "SourceString": "긁지 않은 복권",
+        "LocalizedString": "긁지 않은 복권"
+      },
+      "Courage": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level2_Courage",
+        "SourceString": "없지는 않음",
+        "LocalizedString": "없지는 않음"
+      }
+    },
+    "Level3": {
+      "Brain": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level3_Brain",
+        "SourceString": "그럭저럭 잘함",
+        "LocalizedString": "그럭저럭 잘함"
+      },
+      "Charm": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level3_Charm",
+        "SourceString": "그런대로 있음",
+        "LocalizedString": "그런대로 있음"
+      },
+      "Courage": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level3_Courage",
+        "SourceString": "할 때는 함",
+        "LocalizedString": "할 때는 함"
+      }
+    },
+    "Level4": {
+      "Brain": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level4_Brain",
+        "SourceString": "제법 우수함",
+        "LocalizedString": "제법 우수함"
+      },
+      "Charm": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level4_Charm",
+        "SourceString": "눈부심",
+        "LocalizedString": "눈부심"
+      },
+      "Courage": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level4_Courage",
+        "SourceString": "믿음직함",
+        "LocalizedString": "믿음직함"
+      }
+    },
+    "Level5": {
+      "Brain": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level5_Brain",
+        "SourceString": "상당한 수재",
+        "LocalizedString": "상당한 수재"
+      },
+      "Charm": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level5_Charm",
+        "SourceString": "오라를 발산함",
+        "LocalizedString": "오라를 발산함"
+      },
+      "Courage": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level5_Courage",
+        "SourceString": "배짱이 두둑함",
+        "LocalizedString": "배짱이 두둑함"
+      }
+    },
+    "Level6": {
+      "Brain": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level6_Brain",
+        "SourceString": "천재",
+        "LocalizedString": "천재"
+      },
+      "Charm": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level6_Charm",
+        "SourceString": "카리스마",
+        "LocalizedString": "카리스마"
+      },
+      "Courage": {
+        "Namespace": "DT_Hero_Parameter_Name",
+        "Key": "Level6_Courage",
+        "SourceString": "사나이",
+        "LocalizedString": "사나이"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "Type": "DatBtlMixraidReleaseTable",
+  "Name": "DatBtlMixraidReleaseDataAsset",
+  "Class": "UScriptClass'DatBtlMixraidReleaseTable'",
+  "Properties": {
+    "Data": [
+      {
+        "PersonaAID": 64,
+        "PersonaBID": 43,
+        "Flag": 805306633,
+        "Skill": 260
+      },
+      {
+        "PersonaAID": 108,
+        "PersonaBID": 109,
+        "Flag": 805306634,
+        "Skill": 261
+      },
+      {
+        "PersonaAID": 79,
+        "PersonaBID": 106,
+        "Flag": 805306635,
+        "Skill": 262
+      },
+      {
+        "PersonaAID": 133,
+        "PersonaBID": 161,
+        "Flag": 805306636,
+        "Skill": 263
+      },
+      {
+        "PersonaAID": 182,
+        "PersonaBID": 101,
+        "Flag": 805306637,
+        "Skill": 264
+      },
+      {
+        "PersonaAID": 208,
+        "PersonaBID": 115,
+        "Flag": 805306638,
+        "Skill": 265
+      },
+      {
+        "PersonaAID": 205,
+        "PersonaBID": 93,
+        "Flag": 805306639,
+        "Skill": 266
+      }
+    ]
+  }
+}

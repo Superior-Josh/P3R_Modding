@@ -1,0 +1,49 @@
+{
+  "Type": "DatShuffleLoversArcanaTable",
+  "Name": "DatShuffleLoversArcanaDataAsset",
+  "Class": "UScriptClass'DatShuffleLoversArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "CommuBonus": 130,
+        "LoversBonus": 230
+      },
+      {
+        "CommuBonus": 200,
+        "LoversBonus": 300
+      },
+      {
+        "CommuBonus": 250,
+        "LoversBonus": 350
+      },
+      {
+        "CommuBonus": 300,
+        "LoversBonus": 400
+      },
+      {
+        "CommuBonus": 350,
+        "LoversBonus": 450
+      },
+      {
+        "CommuBonus": 400,
+        "LoversBonus": 500
+      },
+      {
+        "CommuBonus": 430,
+        "LoversBonus": 530
+      },
+      {
+        "CommuBonus": 480,
+        "LoversBonus": 580
+      },
+      {
+        "CommuBonus": 500,
+        "LoversBonus": 600
+      },
+      {
+        "CommuBonus": 500,
+        "LoversBonus": 600
+      }
+    ]
+  }
+}

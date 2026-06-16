@@ -1,0 +1,1289 @@
+{
+  "Type": "EvitemItemListTable",
+  "Name": "DatItemEvitemDataAsset",
+  "Class": "UScriptClass'EvitemItemListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "ItemDef": "IT_EVI_BLANK",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_VELVETKEY",
+        "SortNum": 599,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_KAKINOHA_",
+        "SortNum": 819,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_MANNENHIT",
+        "SortNum": 818,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_HATKIN___",
+        "SortNum": 598,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_ONLINEGAM",
+        "SortNum": 817,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_HUKUGAKU_",
+        "SortNum": 806,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_KYUUGAKU_",
+        "SortNum": 805,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_GYMKEY___",
+        "SortNum": 816,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_LUNATIC__",
+        "SortNum": 597,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_TAKAYA_EV",
+        "SortNum": 815,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_MAGIC",
+        "SortNum": 899,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_POPES",
+        "SortNum": 898,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_EMPRE",
+        "SortNum": 897,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_EMPER",
+        "SortNum": 896,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_HIERO",
+        "SortNum": 895,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_LOVER",
+        "SortNum": 894,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_CHARI",
+        "SortNum": 893,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_JUSTI",
+        "SortNum": 892,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_HERMI",
+        "SortNum": 891,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_FORTU",
+        "SortNum": 890,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_STREN",
+        "SortNum": 889,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_HANGE",
+        "SortNum": 888,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_TEMPE",
+        "SortNum": 887,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_DEVIL",
+        "SortNum": 886,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_TOWER",
+        "SortNum": 885,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_STAR_",
+        "SortNum": 884,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_MOON_",
+        "SortNum": 883,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_SUN__",
+        "SortNum": 882,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_THEAE",
+        "SortNum": 881,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_FOOL_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_DEATH",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_UNIVE",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER01",
+        "SortNum": 839,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER02",
+        "SortNum": 838,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER03",
+        "SortNum": 837,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER04",
+        "SortNum": 836,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER05",
+        "SortNum": 835,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER06",
+        "SortNum": 834,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER07",
+        "SortNum": 833,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER08",
+        "SortNum": 832,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER09",
+        "SortNum": 831,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER10",
+        "SortNum": 830,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER11",
+        "SortNum": 829,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER12",
+        "SortNum": 828,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER13",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER14",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER15",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER16",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER17",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER18",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER19",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_PER20",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC01",
+        "SortNum": 699,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC02",
+        "SortNum": 698,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC03",
+        "SortNum": 697,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC04",
+        "SortNum": 696,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC05",
+        "SortNum": 695,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC06",
+        "SortNum": 694,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC07",
+        "SortNum": 693,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC08",
+        "SortNum": 692,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC09",
+        "SortNum": 691,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC10",
+        "SortNum": 690,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC11",
+        "SortNum": 689,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC12",
+        "SortNum": 688,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC13",
+        "SortNum": 687,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC14",
+        "SortNum": 686,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_DOC15",
+        "SortNum": 685,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET01",
+        "SortNum": 799,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET02",
+        "SortNum": 798,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET03",
+        "SortNum": 797,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET04",
+        "SortNum": 796,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET05",
+        "SortNum": 795,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET06",
+        "SortNum": 794,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET07",
+        "SortNum": 793,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET08",
+        "SortNum": 792,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET09",
+        "SortNum": 791,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET10",
+        "SortNum": 790,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET11",
+        "SortNum": 789,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET12",
+        "SortNum": 788,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET13",
+        "SortNum": 787,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET14",
+        "SortNum": 786,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET15",
+        "SortNum": 785,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET16",
+        "SortNum": 784,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET17",
+        "SortNum": 783,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET18",
+        "SortNum": 782,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET19",
+        "SortNum": 781,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET20",
+        "SortNum": 780,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET21",
+        "SortNum": 779,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET22",
+        "SortNum": 778,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET23",
+        "SortNum": 777,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET24",
+        "SortNum": 776,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET25",
+        "SortNum": 775,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET26",
+        "SortNum": 774,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET27",
+        "SortNum": 773,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET28",
+        "SortNum": 772,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET29",
+        "SortNum": 771,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_REQ_GET30",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_JUN__",
+        "SortNum": 859,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_SAN__",
+        "SortNum": 858,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_KOR__",
+        "SortNum": 857,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_AMA__",
+        "SortNum": 856,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_ARA__",
+        "SortNum": 855,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CMM_MOT__",
+        "SortNum": 854,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x05F_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x060_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x061_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x062_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x06C_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x06D_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_FOOL_",
+        "SortNum": 679,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_MAGIC",
+        "SortNum": 678,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_PRIES",
+        "SortNum": 677,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_EMPRE",
+        "SortNum": 676,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_EMPER",
+        "SortNum": 675,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_HIERO",
+        "SortNum": 674,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_LOVER",
+        "SortNum": 673,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_CHARI",
+        "SortNum": 672,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_JUSTI",
+        "SortNum": 671,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_HERMI",
+        "SortNum": 670,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_FORTU",
+        "SortNum": 669,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_POWER",
+        "SortNum": 668,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_HANGE",
+        "SortNum": 667,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x07B_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x07C_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x07D_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x07E_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x07F_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x080_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x081_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_TEMPE",
+        "SortNum": 666,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_DEVIL",
+        "SortNum": 665,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_TOWER",
+        "SortNum": 664,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_STAR_",
+        "SortNum": 663,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_MOON_",
+        "SortNum": 662,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_SUN__",
+        "SortNum": 661,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_CRD_JUDGE",
+        "SortNum": 660,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x089_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x08A_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x08B_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_MAJOR_UP1",
+        "SortNum": 649,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_MAJOR_UP2",
+        "SortNum": 648,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_MAJOR_UP3",
+        "SortNum": 647,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_MAJOR_UP4",
+        "SortNum": 646,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_MAJOR_UP5",
+        "SortNum": 645,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_MAJOR_UP6",
+        "SortNum": 644,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_MAJOR_UP7",
+        "SortNum": 643,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_MAJOR_UP8",
+        "SortNum": 642,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x094_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x095_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x096_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x097_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x098_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x099_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x09A_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x09B_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x09C_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x09D_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x09E_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x09F_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_VGIRLCOS1",
+        "SortNum": 629,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_VGIRLCOS2",
+        "SortNum": 628,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_VGIRLCOS3",
+        "SortNum": 627,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_VGIRLCOS4",
+        "SortNum": 626,
+        "ItemType": 16384
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0A4_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0A5_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0A6_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0A7_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0A8_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0A9_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0AA_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0AB_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0AC_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0AD_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0AE_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0AF_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B0_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B1_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B2_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B3_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B4_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B5_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B6_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B7_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B8_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0B9_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0BA_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0BB_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0BC_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0BD_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0BE_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0BF_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C0_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C1_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C2_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C3_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C4_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C5_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C6_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C7_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C8_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0C9_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0CA_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0CB_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0CC_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0CD_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0CE_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0CF_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D0_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D1_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D2_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D3_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D4_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D5_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D6_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D7_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D8_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0D9_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0DA_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0DB_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0DC_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0DD_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0DE_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0DF_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E0_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E1_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E2_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E3_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E4_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E5_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E6_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E7_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E8_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0E9_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0EA_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0EB_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0EC_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0ED_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0EE_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0EF_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F0_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F1_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F2_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F3_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F4_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F5_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F6_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F7_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F8_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0F9_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0FA_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0FB_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0FC_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0FD_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0FE_",
+        "SortNum": 0,
+        "ItemType": 0
+      },
+      {
+        "ItemDef": "IT_EVI_ID_0x0FF_",
+        "SortNum": 0,
+        "ItemType": 0
+      }
+    ]
+  }
+}

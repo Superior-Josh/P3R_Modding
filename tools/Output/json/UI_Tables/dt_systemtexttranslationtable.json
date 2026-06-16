@@ -1,0 +1,2101 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_SystemTextTranslationTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'WordTranslationTable'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "0": {
+      "Name": "PEACEFUL",
+      "Ext": false,
+      "LangBits": 259,
+      "Index": 2000
+    },
+    "1": {
+      "Name": "EASY",
+      "Ext": false,
+      "LangBits": 259,
+      "Index": 2001
+    },
+    "2": {
+      "Name": "NORMAL",
+      "Ext": false,
+      "LangBits": 3383,
+      "Index": 2002
+    },
+    "3": {
+      "Name": "HARD",
+      "Ext": false,
+      "LangBits": 259,
+      "Index": 2003
+    },
+    "4": {
+      "Name": "LUNATIC",
+      "Ext": false,
+      "LangBits": 259,
+      "Index": 2004
+    },
+    "5": {
+      "Name": "(日)",
+      "Ext": false,
+      "LangBits": 129,
+      "Index": 110
+    },
+    "6": {
+      "Name": "(月)",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 111
+    },
+    "7": {
+      "Name": "(火)",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 112
+    },
+    "8": {
+      "Name": "(水)",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 113
+    },
+    "9": {
+      "Name": "(木)",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 114
+    },
+    "10": {
+      "Name": "(金)",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 115
+    },
+    "11": {
+      "Name": "(土)",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 116
+    },
+    "12": {
+      "Name": "早朝",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 120
+    },
+    "13": {
+      "Name": "朝",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 121
+    },
+    "14": {
+      "Name": "午前",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 122
+    },
+    "15": {
+      "Name": "昼休み",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 123
+    },
+    "16": {
+      "Name": "午後",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 124
+    },
+    "17": {
+      "Name": "放課後",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 125
+    },
+    "18": {
+      "Name": "昼間",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 126
+    },
+    "19": {
+      "Name": "夜",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 127
+    },
+    "20": {
+      "Name": "影時間",
+      "Ext": false,
+      "LangBits": 129,
+      "Index": 128
+    },
+    "21": {
+      "Name": "深夜",
+      "Ext": false,
+      "LangBits": 193,
+      "Index": 129
+    },
+    "22": {
+      "Name": "新月",
+      "Ext": false,
+      "LangBits": 193,
+      "Index": 150
+    },
+    "23": {
+      "Name": "上弦",
+      "Ext": false,
+      "LangBits": 65,
+      "Index": 151
+    },
+    "24": {
+      "Name": "満月",
+      "Ext": false,
+      "LangBits": 1,
+      "Index": 152
+    },
+    "25": {
+      "Name": "下弦",
+      "Ext": false,
+      "LangBits": 65,
+      "Index": 153
+    },
+    "26": {
+      "Name": "MERCILESS",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 2004
+    },
+    "27": {
+      "Name": "(Su)",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 110
+    },
+    "28": {
+      "Name": "(Mo)",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 111
+    },
+    "29": {
+      "Name": "(Tu)",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 112
+    },
+    "30": {
+      "Name": "(We)",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 113
+    },
+    "31": {
+      "Name": "(Th)",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 114
+    },
+    "32": {
+      "Name": "(Fr)",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 115
+    },
+    "33": {
+      "Name": "(Sa)",
+      "Ext": false,
+      "LangBits": 10,
+      "Index": 116
+    },
+    "34": {
+      "Name": "Early Morning",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 120
+    },
+    "35": {
+      "Name": "Morning",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 121
+    },
+    "36": {
+      "Name": "Late Morning",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 122
+    },
+    "37": {
+      "Name": "Late Night",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 129
+    },
+    "38": {
+      "Name": "Lunchtime",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 123
+    },
+    "39": {
+      "Name": "Afternoon",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 124
+    },
+    "40": {
+      "Name": "After School",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 125
+    },
+    "41": {
+      "Name": "Daytime",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 126
+    },
+    "42": {
+      "Name": "Evening",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 127
+    },
+    "43": {
+      "Name": "Dark Hour",
+      "Ext": false,
+      "LangBits": 18,
+      "Index": 128
+    },
+    "44": {
+      "Name": "New Moon",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 150
+    },
+    "45": {
+      "Name": "Crescent Moon",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 151
+    },
+    "46": {
+      "Name": "Full Moon",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 152
+    },
+    "47": {
+      "Name": "Last Quarter",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 153
+    },
+    "48": {
+      "Name": "PAISIBLE",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 2000
+    },
+    "49": {
+      "Name": "FACILE",
+      "Ext": false,
+      "LangBits": 12,
+      "Index": 2001
+    },
+    "50": {
+      "Name": "DIFFICILE",
+      "Ext": false,
+      "LangBits": 12,
+      "Index": 2003
+    },
+    "51": {
+      "Name": "SANS PITIÉ",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 2004
+    },
+    "52": {
+      "Name": "(Dim)",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 110
+    },
+    "53": {
+      "Name": "(Lun)",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 111
+    },
+    "54": {
+      "Name": "(Mar)",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 112
+    },
+    "55": {
+      "Name": "(Mer)",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 113
+    },
+    "56": {
+      "Name": "(Jeu)",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 114
+    },
+    "57": {
+      "Name": "(Ven)",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 115
+    },
+    "58": {
+      "Name": "(Sam)",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 116
+    },
+    "59": {
+      "Name": "Tôt le matin",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 120
+    },
+    "60": {
+      "Name": "Matin",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 121
+    },
+    "61": {
+      "Name": "Fin de matinée",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 122
+    },
+    "62": {
+      "Name": "Midi",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 123
+    },
+    "63": {
+      "Name": "Après-midi",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 124
+    },
+    "64": {
+      "Name": "Après les cours",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 125
+    },
+    "65": {
+      "Name": "Journée",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 126
+    },
+    "66": {
+      "Name": "Soir",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 127
+    },
+    "67": {
+      "Name": "Heure sombre",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 128
+    },
+    "68": {
+      "Name": "Tard le soir",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 129
+    },
+    "69": {
+      "Name": "Nouvelle lune",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 150
+    },
+    "70": {
+      "Name": "Lune croissante",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 151
+    },
+    "71": {
+      "Name": "Pleine lune",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 152
+    },
+    "72": {
+      "Name": "Dernier quartier",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 153
+    },
+    "73": {
+      "Name": "PACIFICA",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 2000
+    },
+    "74": {
+      "Name": "NORMALE",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 2002
+    },
+    "75": {
+      "Name": "SPIETATA",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 2004
+    },
+    "76": {
+      "Name": "(Do)",
+      "Ext": false,
+      "LangBits": 40,
+      "Index": 110
+    },
+    "77": {
+      "Name": "(Lu)",
+      "Ext": false,
+      "LangBits": 40,
+      "Index": 111
+    },
+    "78": {
+      "Name": "(Ma)",
+      "Ext": false,
+      "LangBits": 40,
+      "Index": 112
+    },
+    "79": {
+      "Name": "(Me)",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 113
+    },
+    "80": {
+      "Name": "(Gi)",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 114
+    },
+    "81": {
+      "Name": "(Ve)",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 115
+    },
+    "82": {
+      "Name": "Mattina",
+      "Ext": true,
+      "LangBits": 8,
+      "Index": 121
+    },
+    "83": {
+      "Name": "Mattina presto",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 120
+    },
+    "84": {
+      "Name": "Tarda mattina",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 122
+    },
+    "85": {
+      "Name": "Tarda notte",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 129
+    },
+    "86": {
+      "Name": "Pranzo",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 123
+    },
+    "87": {
+      "Name": "Pomeriggio",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 124
+    },
+    "88": {
+      "Name": "Dopo scuola",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 125
+    },
+    "89": {
+      "Name": "Giorno",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 126
+    },
+    "90": {
+      "Name": "Sera",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 127
+    },
+    "91": {
+      "Name": "Ora Buia",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 128
+    },
+    "92": {
+      "Name": "Luna nuova",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 150
+    },
+    "93": {
+      "Name": "Luna crescente",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 151
+    },
+    "94": {
+      "Name": "Luna piena",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 152
+    },
+    "95": {
+      "Name": "Luna calante",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 153
+    },
+    "96": {
+      "Name": "Luna nueva",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 150
+    },
+    "97": {
+      "Name": "Luna creciente",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 151
+    },
+    "98": {
+      "Name": "Luna llena",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 152
+    },
+    "99": {
+      "Name": "FRIEDLICH",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 2000
+    },
+    "100": {
+      "Name": "LEICHT",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 2001
+    },
+    "101": {
+      "Name": "SCHWER",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 2003
+    },
+    "102": {
+      "Name": "GNADENLOS",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 2004
+    },
+    "103": {
+      "Name": "(So.)",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 110
+    },
+    "104": {
+      "Name": "(Mo.)",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 111
+    },
+    "105": {
+      "Name": "(Di.)",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 112
+    },
+    "106": {
+      "Name": "(Mi.)",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 113
+    },
+    "107": {
+      "Name": "(Do.)",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 114
+    },
+    "108": {
+      "Name": "(Fr.)",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 115
+    },
+    "109": {
+      "Name": "(Sa.)",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 116
+    },
+    "110": {
+      "Name": "Früher Morgen",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 120
+    },
+    "111": {
+      "Name": "Morgen",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 121
+    },
+    "112": {
+      "Name": "Vormittag",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 122
+    },
+    "113": {
+      "Name": "Mittag",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 123
+    },
+    "114": {
+      "Name": "Nachmittag",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 124
+    },
+    "115": {
+      "Name": "Nach der Schule",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 125
+    },
+    "116": {
+      "Name": "Tag",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 126
+    },
+    "117": {
+      "Name": "Abend",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 127
+    },
+    "118": {
+      "Name": "Später Abend",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 129
+    },
+    "119": {
+      "Name": "Neumond",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 150
+    },
+    "120": {
+      "Name": "Sichelmond",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 151
+    },
+    "121": {
+      "Name": "Vollmond",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 152
+    },
+    "122": {
+      "Name": "Letztes Viertel",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 153
+    },
+    "123": {
+      "Name": "RELAJADO",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 2000
+    },
+    "124": {
+      "Name": "FÁCIL",
+      "Ext": false,
+      "LangBits": 1056,
+      "Index": 2001
+    },
+    "125": {
+      "Name": "DIFÍCIL",
+      "Ext": false,
+      "LangBits": 1056,
+      "Index": 2003
+    },
+    "126": {
+      "Name": "DESPIADADO",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 2004
+    },
+    "127": {
+      "Name": "(Mi)",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 113
+    },
+    "128": {
+      "Name": "(Ju)",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 114
+    },
+    "129": {
+      "Name": "(Vi)",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 115
+    },
+    "130": {
+      "Name": "(Sá)",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 116
+    },
+    "131": {
+      "Name": "Mañana",
+      "Ext": true,
+      "LangBits": 32,
+      "Index": 121
+    },
+    "132": {
+      "Name": "Mañana temprano",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 120
+    },
+    "133": {
+      "Name": "Media mañana",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 122
+    },
+    "134": {
+      "Name": "Hora de comer",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 123
+    },
+    "135": {
+      "Name": "Hora Oscura",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 128
+    },
+    "136": {
+      "Name": "Hora do almoço",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 123
+    },
+    "137": {
+      "Name": "Hora Sombria",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 128
+    },
+    "138": {
+      "Name": "Tarde",
+      "Ext": true,
+      "LangBits": 1056,
+      "Index": 124
+    },
+    "139": {
+      "Name": "Tarde da noite",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 129
+    },
+    "140": {
+      "Name": "Después de clase",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 125
+    },
+    "141": {
+      "Name": "De día",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 126
+    },
+    "142": {
+      "Name": "Noche",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 127
+    },
+    "143": {
+      "Name": "Cerca de medianoche",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 129
+    },
+    "144": {
+      "Name": "Cuarto menguante",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 153
+    },
+    "145": {
+      "Name": "ＰＥＡＣＥＦＵＬ",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 2000
+    },
+    "146": {
+      "Name": "ＥＡＳＹ",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 2001
+    },
+    "147": {
+      "Name": "ＮＯＲＭＡＬ",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 2002
+    },
+    "148": {
+      "Name": "ＨＡＲＤ",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 2003
+    },
+    "149": {
+      "Name": "ＬＵＮＡＴＩＣ",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 2004
+    },
+    "150": {
+      "Name": "（日）",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 110
+    },
+    "151": {
+      "Name": "（一）",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 111
+    },
+    "152": {
+      "Name": "（二）",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 112
+    },
+    "153": {
+      "Name": "（三）",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 113
+    },
+    "154": {
+      "Name": "（四）",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 114
+    },
+    "155": {
+      "Name": "（五）",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 115
+    },
+    "156": {
+      "Name": "（六）",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 116
+    },
+    "157": {
+      "Name": "清晨",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 120
+    },
+    "158": {
+      "Name": "早晨",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 121
+    },
+    "159": {
+      "Name": "上午",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 122
+    },
+    "160": {
+      "Name": "午休",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 123
+    },
+    "161": {
+      "Name": "下午",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 124
+    },
+    "162": {
+      "Name": "放学后",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 125
+    },
+    "163": {
+      "Name": "白天",
+      "Ext": false,
+      "LangBits": 192,
+      "Index": 126
+    },
+    "164": {
+      "Name": "夜晚",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 127
+    },
+    "165": {
+      "Name": "影时间",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 128
+    },
+    "166": {
+      "Name": "满月",
+      "Ext": false,
+      "LangBits": 64,
+      "Index": 152
+    },
+    "167": {
+      "Name": "(一)",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 111
+    },
+    "168": {
+      "Name": "(二)",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 112
+    },
+    "169": {
+      "Name": "(三)",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 113
+    },
+    "170": {
+      "Name": "(四)",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 114
+    },
+    "171": {
+      "Name": "(五)",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 115
+    },
+    "172": {
+      "Name": "(六)",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 116
+    },
+    "173": {
+      "Name": "放學後",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 125
+    },
+    "174": {
+      "Name": "夜間",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 127
+    },
+    "175": {
+      "Name": "上弦月",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 151
+    },
+    "176": {
+      "Name": "滿月",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 152
+    },
+    "177": {
+      "Name": "下弦月",
+      "Ext": false,
+      "LangBits": 128,
+      "Index": 153
+    },
+    "178": {
+      "Name": "(일)",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 110
+    },
+    "179": {
+      "Name": "(월)",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 111
+    },
+    "180": {
+      "Name": "(화)",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 112
+    },
+    "181": {
+      "Name": "(수)",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 113
+    },
+    "182": {
+      "Name": "(목)",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 114
+    },
+    "183": {
+      "Name": "(금)",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 115
+    },
+    "184": {
+      "Name": "(토)",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 116
+    },
+    "185": {
+      "Name": "새벽녘",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 120
+    },
+    "186": {
+      "Name": "아침",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 121
+    },
+    "187": {
+      "Name": "오전",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 122
+    },
+    "188": {
+      "Name": "점심시간",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 123
+    },
+    "189": {
+      "Name": "오후",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 124
+    },
+    "190": {
+      "Name": "방과 후",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 125
+    },
+    "191": {
+      "Name": "낮",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 126
+    },
+    "192": {
+      "Name": "밤",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 127
+    },
+    "193": {
+      "Name": "섀도 타임",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 128
+    },
+    "194": {
+      "Name": "심야",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 129
+    },
+    "195": {
+      "Name": "초승달",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 150
+    },
+    "196": {
+      "Name": "상현달",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 151
+    },
+    "197": {
+      "Name": "보름달",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 152
+    },
+    "198": {
+      "Name": "하현달",
+      "Ext": false,
+      "LangBits": 256,
+      "Index": 153
+    },
+    "199": {
+      "Name": "БЕЗМЯТЕЖНО",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2000
+    },
+    "200": {
+      "Name": "ЛЕГКО",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2001
+    },
+    "201": {
+      "Name": "НОРМАЛЬНО",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2002
+    },
+    "202": {
+      "Name": "СЛОЖНО",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2003
+    },
+    "203": {
+      "Name": "БЕЗ ПОЩАДЫ",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2004
+    },
+    "204": {
+      "Name": "(Вс)",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 110
+    },
+    "205": {
+      "Name": "(Пн)",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 111
+    },
+    "206": {
+      "Name": "(Вт)",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 112
+    },
+    "207": {
+      "Name": "(Ср)",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 113
+    },
+    "208": {
+      "Name": "(Чт)",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 114
+    },
+    "209": {
+      "Name": "(Пт)",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 115
+    },
+    "210": {
+      "Name": "(Сб)",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 116
+    },
+    "211": {
+      "Name": "Раннее утро",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 120
+    },
+    "212": {
+      "Name": "Утро",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 121
+    },
+    "213": {
+      "Name": "Позднее утро",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 122
+    },
+    "214": {
+      "Name": "Обед",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 123
+    },
+    "215": {
+      "Name": "После обеда",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 124
+    },
+    "216": {
+      "Name": "После школы",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 125
+    },
+    "217": {
+      "Name": "День",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 126
+    },
+    "218": {
+      "Name": "Вечер",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 127
+    },
+    "219": {
+      "Name": "Темный час",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 128
+    },
+    "220": {
+      "Name": "Поздний вечер",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 129
+    },
+    "221": {
+      "Name": "Новолуние",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 150
+    },
+    "222": {
+      "Name": "Растущая луна",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 151
+    },
+    "223": {
+      "Name": "Полнолуние",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 152
+    },
+    "224": {
+      "Name": "Убывающая луна",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 153
+    },
+    "225": {
+      "Name": "PACÍFICA",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 2000
+    },
+    "226": {
+      "Name": "IMPLACÁVEL",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 2004
+    },
+    "227": {
+      "Name": "(Dom.)",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 110
+    },
+    "228": {
+      "Name": "(Seg.)",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 111
+    },
+    "229": {
+      "Name": "(Ter.)",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 112
+    },
+    "230": {
+      "Name": "(Qua.)",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 113
+    },
+    "231": {
+      "Name": "(Qui.)",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 114
+    },
+    "232": {
+      "Name": "(Sex.)",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 115
+    },
+    "233": {
+      "Name": "(Sáb.)",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 116
+    },
+    "234": {
+      "Name": "Manhã",
+      "Ext": true,
+      "LangBits": 1024,
+      "Index": 121
+    },
+    "235": {
+      "Name": "Manhã cedo",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 120
+    },
+    "236": {
+      "Name": "Fim da manhã",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 122
+    },
+    "237": {
+      "Name": "Depois da aula",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 125
+    },
+    "238": {
+      "Name": "Dia",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 126
+    },
+    "239": {
+      "Name": "Anoitecer",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 127
+    },
+    "240": {
+      "Name": "Lua nova",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 150
+    },
+    "241": {
+      "Name": "Lua crescente",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 151
+    },
+    "242": {
+      "Name": "Lua cheia",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 152
+    },
+    "243": {
+      "Name": "Lua minguante",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 153
+    },
+    "244": {
+      "Name": "BARIŞÇIL",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 2000
+    },
+    "245": {
+      "Name": "KOLAY",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 2001
+    },
+    "246": {
+      "Name": "ZOR",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 2003
+    },
+    "247": {
+      "Name": "ACIMASIZ",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 2004
+    },
+    "248": {
+      "Name": "(Paz)",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 110
+    },
+    "249": {
+      "Name": "(Pzt)",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 111
+    },
+    "250": {
+      "Name": "(Sal)",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 112
+    },
+    "251": {
+      "Name": "(Çar)",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 113
+    },
+    "252": {
+      "Name": "(Per)",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 114
+    },
+    "253": {
+      "Name": "(Cum)",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 115
+    },
+    "254": {
+      "Name": "(Cmt)",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 116
+    },
+    "255": {
+      "Name": "Seher Vakti",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 120
+    },
+    "256": {
+      "Name": "Sabah",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 121
+    },
+    "257": {
+      "Name": "Kuşluk",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 122
+    },
+    "258": {
+      "Name": "Öğle Yemeği Vakti",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 123
+    },
+    "259": {
+      "Name": "Öğleden Sonra",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 124
+    },
+    "260": {
+      "Name": "Okuldan Sonra",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 125
+    },
+    "261": {
+      "Name": "Gündüz",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 126
+    },
+    "262": {
+      "Name": "Akşam",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 127
+    },
+    "263": {
+      "Name": "Karanlık Saat",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 128
+    },
+    "264": {
+      "Name": "Gece Yarısı",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 129
+    },
+    "265": {
+      "Name": "Yeni Ay",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 150
+    },
+    "266": {
+      "Name": "Hilal",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 151
+    },
+    "267": {
+      "Name": "Dolunay",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 152
+    },
+    "268": {
+      "Name": "Son Dördün",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 153
+    },
+    "269": {
+      "Name": "RELAKSUJĄCY",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2000
+    },
+    "270": {
+      "Name": "ŁATWY",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2001
+    },
+    "271": {
+      "Name": "NORMALNY",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2002
+    },
+    "272": {
+      "Name": "TRUDNY",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2003
+    },
+    "273": {
+      "Name": "BEZLITOSNY",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2004
+    },
+    "274": {
+      "Name": "(Nie)",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 110
+    },
+    "275": {
+      "Name": "(Pon)",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 111
+    },
+    "276": {
+      "Name": "(Wt)",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 112
+    },
+    "277": {
+      "Name": "(Śr)",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 113
+    },
+    "278": {
+      "Name": "(Czw)",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 114
+    },
+    "279": {
+      "Name": "(Pt)",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 115
+    },
+    "280": {
+      "Name": "(Sob)",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 116
+    },
+    "281": {
+      "Name": "Wczesny ranek",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 120
+    },
+    "282": {
+      "Name": "Ranek",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 121
+    },
+    "283": {
+      "Name": "Późny ranek",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 122
+    },
+    "284": {
+      "Name": "Pora lunchu",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 123
+    },
+    "285": {
+      "Name": "Popołudnie",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 124
+    },
+    "286": {
+      "Name": "Po szkole",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 125
+    },
+    "287": {
+      "Name": "Dzień",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 126
+    },
+    "288": {
+      "Name": "Wieczór",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 127
+    },
+    "289": {
+      "Name": "Godzina Mroku",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 128
+    },
+    "290": {
+      "Name": "Późna noc",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 129
+    },
+    "291": {
+      "Name": "Nów",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 150
+    },
+    "292": {
+      "Name": "Pierwsza kwadra",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 151
+    },
+    "293": {
+      "Name": "Pełnia",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 152
+    },
+    "294": {
+      "Name": "Ostatnia kwadra",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 153
+    },
+    "295": {
+      "Name": "Peaceful",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 2000
+    },
+    "296": {
+      "Name": "Easy",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 2001
+    },
+    "297": {
+      "Name": "Normal",
+      "Ext": false,
+      "LangBits": 3126,
+      "Index": 2002
+    },
+    "298": {
+      "Name": "Hard",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 2003
+    },
+    "299": {
+      "Name": "Merciless",
+      "Ext": false,
+      "LangBits": 2,
+      "Index": 2004
+    },
+    "300": {
+      "Name": "TRANQUILLE",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 2000
+    },
+    "301": {
+      "Name": "MANIAQUE",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 2004
+    },
+    "302": {
+      "Name": "SERENO",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 2000
+    },
+    "303": {
+      "Name": "FOLLE",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 2004
+    },
+    "304": {
+      "Name": "Ultimo quadrimestre",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 153
+    },
+    "305": {
+      "Name": "Verrückt",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 2004
+    },
+    "306": {
+      "Name": "LUNÁTICO",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 2004
+    },
+    "307": {
+      "Name": "Día",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 126
+    },
+    "308": {
+      "Name": "DELIRANTE",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 2004
+    },
+    "309": {
+      "Name": "(Quar.)",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 113
+    },
+    "310": {
+      "Name": "ÇILGIN",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 2004
+    },
+    "311": {
+      "Name": "SZALEŃCZY",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2004
+    },
+    "312": {
+      "Name": "(Pią)",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 115
+    },
+    "313": {
+      "Name": "Półksiężyc",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 151
+    },
+    "314": {
+      "Name": "Tranquille",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 2000
+    },
+    "315": {
+      "Name": "Facile",
+      "Ext": false,
+      "LangBits": 12,
+      "Index": 2001
+    },
+    "316": {
+      "Name": "Difficile",
+      "Ext": false,
+      "LangBits": 12,
+      "Index": 2003
+    },
+    "317": {
+      "Name": "Impossible",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 2004
+    },
+    "318": {
+      "Name": "Normale",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 2002
+    },
+    "319": {
+      "Name": "Spietata",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 2004
+    },
+    "320": {
+      "Name": "Friedlich",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 2000
+    },
+    "321": {
+      "Name": "Leicht",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 2001
+    },
+    "322": {
+      "Name": "Schwer",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 2003
+    },
+    "323": {
+      "Name": "Gnadenlos",
+      "Ext": false,
+      "LangBits": 16,
+      "Index": 2004
+    },
+    "324": {
+      "Name": "Pacífico",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 2000
+    },
+    "325": {
+      "Name": "Fácil",
+      "Ext": false,
+      "LangBits": 1056,
+      "Index": 2001
+    },
+    "326": {
+      "Name": "Difícil",
+      "Ext": false,
+      "LangBits": 1056,
+      "Index": 2003
+    },
+    "327": {
+      "Name": "Despiadada",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 2004
+    },
+    "328": {
+      "Name": "Безмятежно",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2000
+    },
+    "329": {
+      "Name": "Легко",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2001
+    },
+    "330": {
+      "Name": "Нормально",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2002
+    },
+    "331": {
+      "Name": "Сложно",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2003
+    },
+    "332": {
+      "Name": "Без пощады",
+      "Ext": false,
+      "LangBits": 512,
+      "Index": 2004
+    },
+    "333": {
+      "Name": "Pacífica",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 2000
+    },
+    "334": {
+      "Name": "Implacável",
+      "Ext": false,
+      "LangBits": 1024,
+      "Index": 2004
+    },
+    "335": {
+      "Name": "Barışçıl",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 2000
+    },
+    "336": {
+      "Name": "Kolay",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 2001
+    },
+    "337": {
+      "Name": "Zor",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 2003
+    },
+    "338": {
+      "Name": "Acımasız",
+      "Ext": false,
+      "LangBits": 2048,
+      "Index": 2004
+    },
+    "339": {
+      "Name": "Łatwy",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2001
+    },
+    "340": {
+      "Name": "Normalny",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2002
+    },
+    "341": {
+      "Name": "Trudny",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2003
+    },
+    "342": {
+      "Name": "Sans pitié",
+      "Ext": false,
+      "LangBits": 4,
+      "Index": 2004
+    },
+    "343": {
+      "Name": "Relaksujący",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2000
+    },
+    "344": {
+      "Name": "Bezlitosny",
+      "Ext": false,
+      "LangBits": 4096,
+      "Index": 2004
+    },
+    "345": {
+      "Name": "Sereno",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 2000
+    },
+    "346": {
+      "Name": "Spietato",
+      "Ext": false,
+      "LangBits": 8,
+      "Index": 2004
+    },
+    "347": {
+      "Name": "Relajado",
+      "Ext": false,
+      "LangBits": 32,
+      "Index": 2000
+    }
+  }
+}

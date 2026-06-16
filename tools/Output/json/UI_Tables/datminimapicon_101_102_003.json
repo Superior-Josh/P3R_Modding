@@ -1,0 +1,99 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_101_102_003",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "DOWN",
+        "SprType": 1,
+        "SprNo": 12,
+        "X": -214.0,
+        "Y": -73.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "下り階段",
+        "SprType": 0,
+        "SprNo": 45,
+        "X": -144.0,
+        "Y": -19.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "UP",
+        "SprType": 1,
+        "SprNo": 11,
+        "X": 179.0,
+        "Y": -51.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "上り階段",
+        "SprType": 0,
+        "SprNo": 44,
+        "X": 239.0,
+        "Y": -36.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "DOWN",
+        "SprType": 1,
+        "SprNo": 12,
+        "X": 179.0,
+        "Y": 14.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "下り階段",
+        "SprType": 0,
+        "SprNo": 45,
+        "X": 178.0,
+        "Y": -7.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "男子トイレ",
+        "SprType": 0,
+        "SprNo": 20,
+        "X": -173.0,
+        "Y": 78.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "生徒会室",
+        "SprType": 0,
+        "SprNo": 19,
+        "X": -54.0,
+        "Y": -25.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "2-F教室",
+        "SprType": 0,
+        "SprNo": 18,
+        "X": 54.0,
+        "Y": 78.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

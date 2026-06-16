@@ -1,0 +1,960 @@
+{
+  "Type": "SimpleShopDataAsset",
+  "Name": "SimpleShopDataAsset",
+  "Class": "UScriptClass'SimpleShopDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "Data": []
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16499,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16500,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16501,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16502,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16658,
+            "SellWeekFlag": 127,
+            "LiftMonth": 5,
+            "LiftDays": 26,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16659,
+            "SellWeekFlag": 127,
+            "LiftMonth": 6,
+            "LiftDays": 18,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16660,
+            "SellWeekFlag": 127,
+            "LiftMonth": 8,
+            "LiftDays": 8,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16661,
+            "SellWeekFlag": 127,
+            "LiftMonth": 10,
+            "LiftDays": 6,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 232
+          },
+          {
+            "ItemID": 16662,
+            "SellWeekFlag": 127,
+            "LiftMonth": 12,
+            "LiftDays": 4,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16523,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 6
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16395,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16394,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16397,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16396,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16398,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16399,
+            "SellWeekFlag": 32,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 95,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16513,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16696,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 231
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16393,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16426,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16427,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16428,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 2,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16429,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16430,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16431,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16432,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16433,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16437,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16435,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16436,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16434,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 2,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16426,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16427,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16428,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 2,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16693,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 230
+          },
+          {
+            "ItemID": 16694,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 230
+          },
+          {
+            "ItemID": 16695,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 2,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 230
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16400,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16401,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16402,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16403,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16438,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16439,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16440,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16438,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16439,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16440,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 3,
+            "ResetWeekFlag": 1,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16684,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16685,
+            "SellWeekFlag": 2,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 2,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16686,
+            "SellWeekFlag": 8,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 8,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16687,
+            "SellWeekFlag": 32,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 32,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16688,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 536871167
+          },
+          {
+            "ItemID": 16689,
+            "SellWeekFlag": 127,
+            "LiftMonth": 6,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 536871168
+          },
+          {
+            "ItemID": 16690,
+            "SellWeekFlag": 127,
+            "LiftMonth": 9,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 536871169
+          },
+          {
+            "ItemID": 16691,
+            "SellWeekFlag": 127,
+            "LiftMonth": 12,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 536871170
+          },
+          {
+            "ItemID": 16692,
+            "SellWeekFlag": 127,
+            "LiftMonth": 1,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 536871170
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16734,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16735,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16736,
+            "SellWeekFlag": 127,
+            "LiftMonth": 9,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16738,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16739,
+            "SellWeekFlag": 127,
+            "LiftMonth": 9,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16740,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16741,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16742,
+            "SellWeekFlag": 127,
+            "LiftMonth": 9,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16745,
+            "SellWeekFlag": 127,
+            "LiftMonth": 10,
+            "LiftDays": 5,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16746,
+            "SellWeekFlag": 127,
+            "LiftMonth": 9,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16747,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16748,
+            "SellWeekFlag": 127,
+            "LiftMonth": 10,
+            "LiftDays": 5,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16749,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16750,
+            "SellWeekFlag": 127,
+            "LiftMonth": 10,
+            "LiftDays": 5,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16751,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16758,
+            "SellWeekFlag": 127,
+            "LiftMonth": 7,
+            "LiftDays": 9,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16759,
+            "SellWeekFlag": 127,
+            "LiftMonth": 9,
+            "LiftDays": 10,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 286
+          },
+          {
+            "ItemID": 16760,
+            "SellWeekFlag": 127,
+            "LiftMonth": 9,
+            "LiftDays": 10,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 286
+          },
+          {
+            "ItemID": 16744,
+            "SellWeekFlag": 127,
+            "LiftMonth": 11,
+            "LiftDays": 4,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 286
+          },
+          {
+            "ItemID": 16752,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16753,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16754,
+            "SellWeekFlag": 127,
+            "LiftMonth": 10,
+            "LiftDays": 6,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16755,
+            "SellWeekFlag": 127,
+            "LiftMonth": 11,
+            "LiftDays": 11,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 16756,
+            "SellWeekFlag": 127,
+            "LiftMonth": 6,
+            "LiftDays": 23,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 536871416
+          },
+          {
+            "ItemID": 16757,
+            "SellWeekFlag": 127,
+            "LiftMonth": 1,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 12413,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 12433,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 12560,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 12559,
+            "SellWeekFlag": 127,
+            "LiftMonth": 4,
+            "LiftDays": 1,
+            "Stock": 1,
+            "ResetWeekFlag": 0,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 24649,
+            "SellWeekFlag": 127,
+            "LiftMonth": 7,
+            "LiftDays": 18,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 24645,
+            "SellWeekFlag": 127,
+            "LiftMonth": 7,
+            "LiftDays": 18,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 24637,
+            "SellWeekFlag": 127,
+            "LiftMonth": 8,
+            "LiftDays": 8,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 24640,
+            "SellWeekFlag": 127,
+            "LiftMonth": 8,
+            "LiftDays": 8,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 24646,
+            "SellWeekFlag": 127,
+            "LiftMonth": 10,
+            "LiftDays": 6,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 24639,
+            "SellWeekFlag": 127,
+            "LiftMonth": 10,
+            "LiftDays": 6,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 24642,
+            "SellWeekFlag": 127,
+            "LiftMonth": 12,
+            "LiftDays": 10,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 0
+          },
+          {
+            "ItemID": 24641,
+            "SellWeekFlag": 127,
+            "LiftMonth": 1,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 536872489
+          },
+          {
+            "ItemID": 24644,
+            "SellWeekFlag": 127,
+            "LiftMonth": 1,
+            "LiftDays": 1,
+            "Stock": 99,
+            "ResetWeekFlag": 127,
+            "OpenFlag": 536872489
+          }
+        ]
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      },
+      {
+        "Data": []
+      }
+    ]
+  }
+}

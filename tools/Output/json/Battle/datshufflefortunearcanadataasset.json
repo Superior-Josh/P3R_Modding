@@ -1,0 +1,15 @@
+{
+  "Type": "DatShuffleCommonItemdropArcanaTable",
+  "Name": "DatShuffleFortuneArcanaDataAsset",
+  "Class": "UScriptClass'DatShuffleCommonItemdropArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 1
+      }
+    ]
+  }
+}

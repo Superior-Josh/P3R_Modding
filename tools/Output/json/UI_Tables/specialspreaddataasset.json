@@ -1,0 +1,124 @@
+{
+  "Type": "SpecialSpreadDataAsset",
+  "Name": "SpecialSpreadDataAsset",
+  "Class": "UScriptClass'SpecialSpreadDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "ResultID": 0,
+        "SourceID": 0,
+        "Index": 0
+      },
+      {
+        "ResultID": 103,
+        "SourceID": 0,
+        "Index": 1
+      },
+      {
+        "ResultID": 183,
+        "SourceID": 0,
+        "Index": 2
+      },
+      {
+        "ResultID": 160,
+        "SourceID": 0,
+        "Index": 3
+      },
+      {
+        "ResultID": 165,
+        "SourceID": 0,
+        "Index": 4
+      },
+      {
+        "ResultID": 300,
+        "SourceID": 0,
+        "Index": 5
+      },
+      {
+        "ResultID": 163,
+        "SourceID": 0,
+        "Index": 6
+      },
+      {
+        "ResultID": 106,
+        "SourceID": 0,
+        "Index": 7
+      },
+      {
+        "ResultID": 148,
+        "SourceID": 0,
+        "Index": 8
+      },
+      {
+        "ResultID": 177,
+        "SourceID": 0,
+        "Index": 9
+      },
+      {
+        "ResultID": 146,
+        "SourceID": 0,
+        "Index": 10
+      },
+      {
+        "ResultID": 46,
+        "SourceID": 0,
+        "Index": 11
+      },
+      {
+        "ResultID": 90,
+        "SourceID": 0,
+        "Index": 12
+      },
+      {
+        "ResultID": 174,
+        "SourceID": 0,
+        "Index": 13
+      },
+      {
+        "ResultID": 115,
+        "SourceID": 0,
+        "Index": 14
+      },
+      {
+        "ResultID": 128,
+        "SourceID": 46,
+        "Index": 15
+      },
+      {
+        "ResultID": 176,
+        "SourceID": 0,
+        "Index": 16
+      },
+      {
+        "ResultID": 169,
+        "SourceID": 42,
+        "Index": 17
+      },
+      {
+        "ResultID": 36,
+        "SourceID": 53,
+        "Index": 18
+      },
+      {
+        "ResultID": 184,
+        "SourceID": 0,
+        "Index": 19
+      },
+      {
+        "ResultID": 204,
+        "SourceID": 0,
+        "Index": 20
+      },
+      {
+        "ResultID": 65,
+        "SourceID": 183,
+        "Index": 21
+      },
+      {
+        "ResultID": 309,
+        "SourceID": 204,
+        "Index": 22
+      }
+    ]
+  }
+}

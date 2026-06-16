@@ -1,0 +1,29 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_GeneralCoefficient",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'GeneralCoefficientRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "同属性ペルソナ所持": {
+      "Flag": "CMM_POINTBONUS_ARCANA",
+      "Coefficient": 1.51
+    },
+    "テスト結果１位": {
+      "Flag": "EVT_EXAM_RESULT_TOP",
+      "Coefficient": 1.51
+    },
+    "テスト結果上位": {
+      "Flag": "EVT_EXAM_RESULT_GOOD",
+      "Coefficient": 1.21
+    },
+    "魅力MAX": {
+      "Flag": "CMM_POINTBONUS_CHARM",
+      "Coefficient": 1.51
+    }
+  }
+}

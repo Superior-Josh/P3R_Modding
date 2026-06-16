@@ -1,0 +1,725 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_LanguageGuessTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'NameNumberPairTable'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "0": {
+      "Name": "PEACEFUL",
+      "Number": 259
+    },
+    "1": {
+      "Name": "EASY",
+      "Number": 259
+    },
+    "2": {
+      "Name": "NORMAL",
+      "Number": 3383
+    },
+    "3": {
+      "Name": "HARD",
+      "Number": 259
+    },
+    "4": {
+      "Name": "LUNATIC",
+      "Number": 259
+    },
+    "5": {
+      "Name": "(日)",
+      "Number": 129
+    },
+    "6": {
+      "Name": "(月)",
+      "Number": 1
+    },
+    "7": {
+      "Name": "(火)",
+      "Number": 1
+    },
+    "8": {
+      "Name": "(水)",
+      "Number": 1
+    },
+    "9": {
+      "Name": "(木)",
+      "Number": 1
+    },
+    "10": {
+      "Name": "(金)",
+      "Number": 1
+    },
+    "11": {
+      "Name": "(土)",
+      "Number": 1
+    },
+    "12": {
+      "Name": "(Su)",
+      "Number": 2
+    },
+    "13": {
+      "Name": "(Mo)",
+      "Number": 2
+    },
+    "14": {
+      "Name": "(Tu)",
+      "Number": 2
+    },
+    "15": {
+      "Name": "(We)",
+      "Number": 2
+    },
+    "16": {
+      "Name": "(Th)",
+      "Number": 2
+    },
+    "17": {
+      "Name": "(Fr)",
+      "Number": 2
+    },
+    "18": {
+      "Name": "(Sa)",
+      "Number": 10
+    },
+    "19": {
+      "Name": "TRANQUILLE",
+      "Number": 4
+    },
+    "20": {
+      "Name": "FACILE",
+      "Number": 12
+    },
+    "21": {
+      "Name": "DIFFICILE",
+      "Number": 12
+    },
+    "22": {
+      "Name": "MANIAQUE",
+      "Number": 4
+    },
+    "23": {
+      "Name": "(Dim)",
+      "Number": 4
+    },
+    "24": {
+      "Name": "(Lun)",
+      "Number": 4
+    },
+    "25": {
+      "Name": "(Mar)",
+      "Number": 4
+    },
+    "26": {
+      "Name": "(Mer)",
+      "Number": 4
+    },
+    "27": {
+      "Name": "(Jeu)",
+      "Number": 4
+    },
+    "28": {
+      "Name": "(Ven)",
+      "Number": 4
+    },
+    "29": {
+      "Name": "(Sam)",
+      "Number": 4
+    },
+    "30": {
+      "Name": "SERENO",
+      "Number": 8
+    },
+    "31": {
+      "Name": "NORMALE",
+      "Number": 8
+    },
+    "32": {
+      "Name": "FOLLE",
+      "Number": 8
+    },
+    "33": {
+      "Name": "(Do)",
+      "Number": 40
+    },
+    "34": {
+      "Name": "(Lu)",
+      "Number": 40
+    },
+    "35": {
+      "Name": "(Ma)",
+      "Number": 40
+    },
+    "36": {
+      "Name": "(Me)",
+      "Number": 8
+    },
+    "37": {
+      "Name": "(Gi)",
+      "Number": 8
+    },
+    "38": {
+      "Name": "(Ve)",
+      "Number": 8
+    },
+    "39": {
+      "Name": "FRIEDLICH",
+      "Number": 16
+    },
+    "40": {
+      "Name": "LEICHT",
+      "Number": 16
+    },
+    "41": {
+      "Name": "SCHWER",
+      "Number": 16
+    },
+    "42": {
+      "Name": "Verrückt",
+      "Number": 16
+    },
+    "43": {
+      "Name": "(So.)",
+      "Number": 16
+    },
+    "44": {
+      "Name": "(Mo.)",
+      "Number": 16
+    },
+    "45": {
+      "Name": "(Di.)",
+      "Number": 16
+    },
+    "46": {
+      "Name": "(Mi.)",
+      "Number": 16
+    },
+    "47": {
+      "Name": "(Do.)",
+      "Number": 16
+    },
+    "48": {
+      "Name": "(Fr.)",
+      "Number": 16
+    },
+    "49": {
+      "Name": "(Sa.)",
+      "Number": 16
+    },
+    "50": {
+      "Name": "RELAJADO",
+      "Number": 32
+    },
+    "51": {
+      "Name": "FÁCIL",
+      "Number": 1056
+    },
+    "52": {
+      "Name": "DIFÍCIL",
+      "Number": 1056
+    },
+    "53": {
+      "Name": "LUNÁTICO",
+      "Number": 32
+    },
+    "54": {
+      "Name": "(Mi)",
+      "Number": 32
+    },
+    "55": {
+      "Name": "(Ju)",
+      "Number": 32
+    },
+    "56": {
+      "Name": "(Vi)",
+      "Number": 32
+    },
+    "57": {
+      "Name": "(Sá)",
+      "Number": 32
+    },
+    "58": {
+      "Name": "ＰＥＡＣＥＦＵＬ",
+      "Number": 192
+    },
+    "59": {
+      "Name": "ＥＡＳＹ",
+      "Number": 192
+    },
+    "60": {
+      "Name": "ＮＯＲＭＡＬ",
+      "Number": 192
+    },
+    "61": {
+      "Name": "ＨＡＲＤ",
+      "Number": 192
+    },
+    "62": {
+      "Name": "ＬＵＮＡＴＩＣ",
+      "Number": 192
+    },
+    "63": {
+      "Name": "（日）",
+      "Number": 64
+    },
+    "64": {
+      "Name": "（一）",
+      "Number": 64
+    },
+    "65": {
+      "Name": "（二）",
+      "Number": 64
+    },
+    "66": {
+      "Name": "（三）",
+      "Number": 64
+    },
+    "67": {
+      "Name": "（四）",
+      "Number": 64
+    },
+    "68": {
+      "Name": "（五）",
+      "Number": 64
+    },
+    "69": {
+      "Name": "（六）",
+      "Number": 64
+    },
+    "70": {
+      "Name": "(一)",
+      "Number": 128
+    },
+    "71": {
+      "Name": "(二)",
+      "Number": 128
+    },
+    "72": {
+      "Name": "(三)",
+      "Number": 128
+    },
+    "73": {
+      "Name": "(四)",
+      "Number": 128
+    },
+    "74": {
+      "Name": "(五)",
+      "Number": 128
+    },
+    "75": {
+      "Name": "(六)",
+      "Number": 128
+    },
+    "76": {
+      "Name": "(일)",
+      "Number": 256
+    },
+    "77": {
+      "Name": "(월)",
+      "Number": 256
+    },
+    "78": {
+      "Name": "(화)",
+      "Number": 256
+    },
+    "79": {
+      "Name": "(수)",
+      "Number": 256
+    },
+    "80": {
+      "Name": "(목)",
+      "Number": 256
+    },
+    "81": {
+      "Name": "(금)",
+      "Number": 256
+    },
+    "82": {
+      "Name": "(토)",
+      "Number": 256
+    },
+    "83": {
+      "Name": "БЕЗМЯТЕЖНО",
+      "Number": 512
+    },
+    "84": {
+      "Name": "ЛЕГКО",
+      "Number": 512
+    },
+    "85": {
+      "Name": "НОРМАЛЬНО",
+      "Number": 512
+    },
+    "86": {
+      "Name": "СЛОЖНО",
+      "Number": 512
+    },
+    "87": {
+      "Name": "БЕЗ ПОЩАДЫ",
+      "Number": 512
+    },
+    "88": {
+      "Name": "(Вс)",
+      "Number": 512
+    },
+    "89": {
+      "Name": "(Пн)",
+      "Number": 512
+    },
+    "90": {
+      "Name": "(Вт)",
+      "Number": 512
+    },
+    "91": {
+      "Name": "(Ср)",
+      "Number": 512
+    },
+    "92": {
+      "Name": "(Чт)",
+      "Number": 512
+    },
+    "93": {
+      "Name": "(Пт)",
+      "Number": 512
+    },
+    "94": {
+      "Name": "(Сб)",
+      "Number": 512
+    },
+    "95": {
+      "Name": "PACÍFICA",
+      "Number": 1024
+    },
+    "96": {
+      "Name": "DELIRANTE",
+      "Number": 1024
+    },
+    "97": {
+      "Name": "(Dom.)",
+      "Number": 1024
+    },
+    "98": {
+      "Name": "(Seg.)",
+      "Number": 1024
+    },
+    "99": {
+      "Name": "(Ter.)",
+      "Number": 1024
+    },
+    "100": {
+      "Name": "(Quar.)",
+      "Number": 1024
+    },
+    "101": {
+      "Name": "(Qui.)",
+      "Number": 1024
+    },
+    "102": {
+      "Name": "(Sex.)",
+      "Number": 1024
+    },
+    "103": {
+      "Name": "(Sáb.)",
+      "Number": 1024
+    },
+    "104": {
+      "Name": "BARIŞÇIL",
+      "Number": 2048
+    },
+    "105": {
+      "Name": "KOLAY",
+      "Number": 2048
+    },
+    "106": {
+      "Name": "ZOR",
+      "Number": 2048
+    },
+    "107": {
+      "Name": "ÇILGIN",
+      "Number": 2048
+    },
+    "108": {
+      "Name": "(Paz)",
+      "Number": 2048
+    },
+    "109": {
+      "Name": "(Pzt)",
+      "Number": 2048
+    },
+    "110": {
+      "Name": "(Sal)",
+      "Number": 2048
+    },
+    "111": {
+      "Name": "(Çar)",
+      "Number": 2048
+    },
+    "112": {
+      "Name": "(Per)",
+      "Number": 2048
+    },
+    "113": {
+      "Name": "(Cum)",
+      "Number": 2048
+    },
+    "114": {
+      "Name": "(Cmt)",
+      "Number": 2048
+    },
+    "115": {
+      "Name": "RELAKSUJĄCY",
+      "Number": 4096
+    },
+    "116": {
+      "Name": "ŁATWY",
+      "Number": 4096
+    },
+    "117": {
+      "Name": "NORMALNY",
+      "Number": 4096
+    },
+    "118": {
+      "Name": "TRUDNY",
+      "Number": 4096
+    },
+    "119": {
+      "Name": "SZALEŃCZY",
+      "Number": 4096
+    },
+    "120": {
+      "Name": "(Nie)",
+      "Number": 4096
+    },
+    "121": {
+      "Name": "(Pon)",
+      "Number": 4096
+    },
+    "122": {
+      "Name": "(Wt)",
+      "Number": 4096
+    },
+    "123": {
+      "Name": "(Śr)",
+      "Number": 4096
+    },
+    "124": {
+      "Name": "(Czw)",
+      "Number": 4096
+    },
+    "125": {
+      "Name": "(Pią)",
+      "Number": 4096
+    },
+    "126": {
+      "Name": "(Sob)",
+      "Number": 4096
+    },
+    "127": {
+      "Name": "MERCILESS",
+      "Number": 2
+    },
+    "128": {
+      "Name": "PAISIBLE",
+      "Number": 4
+    },
+    "129": {
+      "Name": "SANS PITIÉ",
+      "Number": 4
+    },
+    "130": {
+      "Name": "PACIFICA",
+      "Number": 8
+    },
+    "131": {
+      "Name": "SPIETATA",
+      "Number": 8
+    },
+    "132": {
+      "Name": "GNADENLOS",
+      "Number": 16
+    },
+    "133": {
+      "Name": "DESPIADADO",
+      "Number": 32
+    },
+    "134": {
+      "Name": "IMPLACÁVEL",
+      "Number": 1024
+    },
+    "135": {
+      "Name": "(Qua.)",
+      "Number": 1024
+    },
+    "136": {
+      "Name": "ACIMASIZ",
+      "Number": 2048
+    },
+    "137": {
+      "Name": "BEZLITOSNY",
+      "Number": 4096
+    },
+    "138": {
+      "Name": "(Pt)",
+      "Number": 4096
+    },
+    "139": {
+      "Name": "Peaceful",
+      "Number": 2
+    },
+    "140": {
+      "Name": "Easy",
+      "Number": 2
+    },
+    "141": {
+      "Name": "Normal",
+      "Number": 3126
+    },
+    "142": {
+      "Name": "Hard",
+      "Number": 2
+    },
+    "143": {
+      "Name": "Merciless",
+      "Number": 2
+    },
+    "144": {
+      "Name": "Tranquille",
+      "Number": 4
+    },
+    "145": {
+      "Name": "Facile",
+      "Number": 12
+    },
+    "146": {
+      "Name": "Difficile",
+      "Number": 12
+    },
+    "147": {
+      "Name": "Impossible",
+      "Number": 4
+    },
+    "148": {
+      "Name": "Normale",
+      "Number": 8
+    },
+    "149": {
+      "Name": "Spietata",
+      "Number": 8
+    },
+    "150": {
+      "Name": "Friedlich",
+      "Number": 16
+    },
+    "151": {
+      "Name": "Leicht",
+      "Number": 16
+    },
+    "152": {
+      "Name": "Schwer",
+      "Number": 16
+    },
+    "153": {
+      "Name": "Gnadenlos",
+      "Number": 16
+    },
+    "154": {
+      "Name": "Pacífico",
+      "Number": 32
+    },
+    "155": {
+      "Name": "Fácil",
+      "Number": 1056
+    },
+    "156": {
+      "Name": "Difícil",
+      "Number": 1056
+    },
+    "157": {
+      "Name": "Despiadada",
+      "Number": 32
+    },
+    "158": {
+      "Name": "Безмятежно",
+      "Number": 512
+    },
+    "159": {
+      "Name": "Легко",
+      "Number": 512
+    },
+    "160": {
+      "Name": "Нормально",
+      "Number": 512
+    },
+    "161": {
+      "Name": "Сложно",
+      "Number": 512
+    },
+    "162": {
+      "Name": "Без пощады",
+      "Number": 512
+    },
+    "163": {
+      "Name": "Pacífica",
+      "Number": 1024
+    },
+    "164": {
+      "Name": "Implacável",
+      "Number": 1024
+    },
+    "165": {
+      "Name": "Barışçıl",
+      "Number": 2048
+    },
+    "166": {
+      "Name": "Kolay",
+      "Number": 2048
+    },
+    "167": {
+      "Name": "Zor",
+      "Number": 2048
+    },
+    "168": {
+      "Name": "Acımasız",
+      "Number": 2048
+    },
+    "169": {
+      "Name": "Łatwy",
+      "Number": 4096
+    },
+    "170": {
+      "Name": "Normalny",
+      "Number": 4096
+    },
+    "171": {
+      "Name": "Trudny",
+      "Number": 4096
+    },
+    "172": {
+      "Name": "Sans pitié",
+      "Number": 4
+    },
+    "173": {
+      "Name": "Relaksujący",
+      "Number": 4096
+    },
+    "174": {
+      "Name": "Bezlitosny",
+      "Number": 4096
+    },
+    "175": {
+      "Name": "Sereno",
+      "Number": 8
+    },
+    "176": {
+      "Name": "Spietato",
+      "Number": 8
+    },
+    "177": {
+      "Name": "Relajado",
+      "Number": 32
+    }
+  }
+}

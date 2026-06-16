@@ -1,0 +1,99 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_304_109_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "DOWN",
+        "SprType": 1,
+        "SprNo": 12,
+        "X": 52.0,
+        "Y": -180.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "UP",
+        "SprType": 1,
+        "SprNo": 11,
+        "X": -102.0,
+        "Y": 105.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "下り階段",
+        "SprType": 0,
+        "SprNo": 45,
+        "X": 51.0,
+        "Y": -119.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "上り階段",
+        "SprType": 0,
+        "SprNo": 44,
+        "X": -50.0,
+        "Y": 97.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "侵入負荷",
+        "SprType": 1,
+        "SprNo": 16,
+        "X": 117.0,
+        "Y": -73.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_201_CHECKED",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "侵入負荷",
+        "SprType": 1,
+        "SprNo": 16,
+        "X": -15.0,
+        "Y": -73.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_202_CHECKED",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "侵入負荷",
+        "SprType": 1,
+        "SprNo": 16,
+        "X": -73.0,
+        "Y": -21.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_203_CHECKED",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": 0.0,
+        "Y": 0.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_2F_MISS_FLOOR_ICON_ON",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": 120.0,
+        "Y": 40.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_GOAL_IS_BREAK_2F",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

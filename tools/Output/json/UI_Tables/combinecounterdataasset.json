@@ -1,0 +1,81 @@
+{
+  "Type": "CombineCounterDataAsset",
+  "Name": "CombineCounterDataAsset",
+  "Class": "UScriptClass'CombineCounterDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "Num": 0,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 0,
+        "AccidentRate": 0
+      },
+      {
+        "Num": 0,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 0,
+        "AccidentRate": 0
+      },
+      {
+        "Num": 1,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 100
+      },
+      {
+        "Num": 2,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 100
+      },
+      {
+        "Num": 5,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 125,
+        "AccidentRate": 100
+      },
+      {
+        "Num": 10,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 150,
+        "AccidentRate": 100
+      },
+      {
+        "Num": 15,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 200,
+        "AccidentRate": 100
+      },
+      {
+        "Num": 20,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 250,
+        "AccidentRate": 150
+      },
+      {
+        "Num": 25,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 300,
+        "AccidentRate": 150
+      },
+      {
+        "Num": 30,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 400,
+        "AccidentRate": 200
+      },
+      {
+        "Num": 40,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 500,
+        "AccidentRate": 200
+      },
+      {
+        "Num": 50,
+        "ConceptionRate": 100,
+        "SkillChangeRate": 500,
+        "AccidentRate": 200
+      }
+    ]
+  }
+}

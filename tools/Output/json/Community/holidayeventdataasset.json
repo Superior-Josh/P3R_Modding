@@ -1,0 +1,453 @@
+{
+  "Type": "HolidayEventDataAsset",
+  "Name": "HolidayEventDataAsset",
+  "Class": "UScriptClass'HolidayEventDataAsset'",
+  "Properties": {
+    "Tables": [
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": [
+          {
+            "Major": 101,
+            "Minor": 310
+          },
+          {
+            "Major": 101,
+            "Minor": 320
+          },
+          {
+            "Major": 101,
+            "Minor": 330
+          },
+          {
+            "Major": 101,
+            "Minor": 340
+          },
+          {
+            "Major": 101,
+            "Minor": 350
+          },
+          {
+            "Major": 101,
+            "Minor": 360
+          },
+          {
+            "Major": 101,
+            "Minor": 370
+          },
+          {
+            "Major": 101,
+            "Minor": 380
+          },
+          {
+            "Major": 101,
+            "Minor": 390
+          },
+          {
+            "Major": 101,
+            "Minor": 390
+          }
+        ]
+      },
+      {
+        "Datas": [
+          {
+            "Major": 6,
+            "Minor": 310
+          },
+          {
+            "Major": 6,
+            "Minor": 320
+          },
+          {
+            "Major": 6,
+            "Minor": 330
+          },
+          {
+            "Major": 6,
+            "Minor": 340
+          },
+          {
+            "Major": 6,
+            "Minor": 350
+          },
+          {
+            "Major": 6,
+            "Minor": 360
+          },
+          {
+            "Major": 6,
+            "Minor": 370
+          },
+          {
+            "Major": 6,
+            "Minor": 380
+          },
+          {
+            "Major": 6,
+            "Minor": 390
+          },
+          {
+            "Major": 6,
+            "Minor": 400
+          }
+        ]
+      },
+      {
+        "Datas": [
+          {
+            "Major": 5,
+            "Minor": 310
+          },
+          {
+            "Major": 5,
+            "Minor": 320
+          },
+          {
+            "Major": 5,
+            "Minor": 330
+          },
+          {
+            "Major": 5,
+            "Minor": 340
+          },
+          {
+            "Major": 5,
+            "Minor": 350
+          },
+          {
+            "Major": 5,
+            "Minor": 360
+          },
+          {
+            "Major": 5,
+            "Minor": 370
+          },
+          {
+            "Major": 5,
+            "Minor": 380
+          },
+          {
+            "Major": 5,
+            "Minor": 390
+          },
+          {
+            "Major": 5,
+            "Minor": 400
+          }
+        ]
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": [
+          {
+            "Major": 2,
+            "Minor": 320
+          },
+          {
+            "Major": 2,
+            "Minor": 320
+          },
+          {
+            "Major": 2,
+            "Minor": 330
+          },
+          {
+            "Major": 2,
+            "Minor": 340
+          },
+          {
+            "Major": 2,
+            "Minor": 320
+          },
+          {
+            "Major": 2,
+            "Minor": 360
+          },
+          {
+            "Major": 2,
+            "Minor": 370
+          },
+          {
+            "Major": 2,
+            "Minor": 380
+          },
+          {
+            "Major": 2,
+            "Minor": 390
+          },
+          {
+            "Major": 2,
+            "Minor": 390
+          }
+        ]
+      },
+      {
+        "Datas": [
+          {
+            "Major": 105,
+            "Minor": 320
+          },
+          {
+            "Major": 105,
+            "Minor": 320
+          },
+          {
+            "Major": 105,
+            "Minor": 330
+          },
+          {
+            "Major": 105,
+            "Minor": 340
+          },
+          {
+            "Major": 105,
+            "Minor": 350
+          },
+          {
+            "Major": 105,
+            "Minor": 360
+          },
+          {
+            "Major": 105,
+            "Minor": 370
+          },
+          {
+            "Major": 105,
+            "Minor": 380
+          },
+          {
+            "Major": 105,
+            "Minor": 390
+          },
+          {
+            "Major": 105,
+            "Minor": 390
+          }
+        ]
+      },
+      {
+        "Datas": [
+          {
+            "Major": 109,
+            "Minor": 320
+          },
+          {
+            "Major": 109,
+            "Minor": 320
+          },
+          {
+            "Major": 109,
+            "Minor": 330
+          },
+          {
+            "Major": 109,
+            "Minor": 340
+          },
+          {
+            "Major": 109,
+            "Minor": 350
+          },
+          {
+            "Major": 109,
+            "Minor": 360
+          },
+          {
+            "Major": 109,
+            "Minor": 370
+          },
+          {
+            "Major": 109,
+            "Minor": 380
+          },
+          {
+            "Major": 109,
+            "Minor": 390
+          },
+          {
+            "Major": 109,
+            "Minor": 390
+          }
+        ]
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": [
+          {
+            "Major": 108,
+            "Minor": 320
+          },
+          {
+            "Major": 108,
+            "Minor": 320
+          },
+          {
+            "Major": 108,
+            "Minor": 330
+          },
+          {
+            "Major": 108,
+            "Minor": 340
+          },
+          {
+            "Major": 108,
+            "Minor": 350
+          },
+          {
+            "Major": 108,
+            "Minor": 360
+          },
+          {
+            "Major": 108,
+            "Minor": 370
+          },
+          {
+            "Major": 108,
+            "Minor": 380
+          },
+          {
+            "Major": 108,
+            "Minor": 390
+          },
+          {
+            "Major": 108,
+            "Minor": 390
+          }
+        ]
+      },
+      {
+        "Datas": [
+          {
+            "Major": 106,
+            "Minor": 320
+          },
+          {
+            "Major": 106,
+            "Minor": 320
+          },
+          {
+            "Major": 106,
+            "Minor": 330
+          },
+          {
+            "Major": 106,
+            "Minor": 340
+          },
+          {
+            "Major": 106,
+            "Minor": 350
+          },
+          {
+            "Major": 106,
+            "Minor": 360
+          },
+          {
+            "Major": 106,
+            "Minor": 370
+          },
+          {
+            "Major": 106,
+            "Minor": 380
+          },
+          {
+            "Major": 106,
+            "Minor": 390
+          },
+          {
+            "Major": 106,
+            "Minor": 390
+          }
+        ]
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": [
+          {
+            "Major": 112,
+            "Minor": 320
+          },
+          {
+            "Major": 112,
+            "Minor": 320
+          },
+          {
+            "Major": 112,
+            "Minor": 330
+          },
+          {
+            "Major": 112,
+            "Minor": 340
+          },
+          {
+            "Major": 112,
+            "Minor": 350
+          },
+          {
+            "Major": 112,
+            "Minor": 360
+          },
+          {
+            "Major": 112,
+            "Minor": 370
+          },
+          {
+            "Major": 112,
+            "Minor": 380
+          },
+          {
+            "Major": 112,
+            "Minor": 390
+          },
+          {
+            "Major": 112,
+            "Minor": 390
+          }
+        ]
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      },
+      {
+        "Datas": []
+      }
+    ]
+  }
+}

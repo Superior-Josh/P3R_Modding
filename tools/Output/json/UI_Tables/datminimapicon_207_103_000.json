@@ -1,0 +1,39 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_207_103_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "UP",
+        "SprType": 1,
+        "SprNo": 11,
+        "X": 0.0,
+        "Y": -816.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "上り階段",
+        "SprType": 0,
+        "SprNo": 44,
+        "X": 0.0,
+        "Y": -715.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "転送装置",
+        "SprType": 1,
+        "SprNo": 4,
+        "X": 53.0,
+        "Y": 303.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

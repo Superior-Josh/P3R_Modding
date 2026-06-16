@@ -1,0 +1,45 @@
+{
+  "Type": "DatShuffleCommonCoefficientArcanaTable",
+  "Name": "DatShuffleFoolArcanaDataAsset",
+  "Class": "UScriptClass'DatShuffleCommonCoefficientArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      },
+      {
+        "value": 1.1
+      }
+    ]
+  }
+}

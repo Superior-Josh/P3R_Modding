@@ -1,0 +1,63 @@
+{
+  "Type": "GenSelItemDefineDataAsset",
+  "Name": "GenSelItemDefineDataAsset",
+  "Class": "UScriptClass'GenSelItemDefineDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "DefineValue": 0,
+        "DefineName": "SEL_GENERIC_ITEM_BLANK",
+        "TitleText": "블랭크",
+        "CommentText": "블랭크"
+      },
+      {
+        "DefineValue": 1,
+        "DefineName": "SEL_GENERIC_ITEM_GIFT",
+        "TitleText": "선물",
+        "CommentText": "무엇을 줄까?"
+      },
+      {
+        "DefineValue": 2,
+        "DefineName": "SEL_GENERIC_ITEM_ROOFTOP_GARDEN",
+        "TitleText": "옥상 텃밭",
+        "CommentText": "무엇을 심을까?"
+      },
+      {
+        "DefineValue": 3,
+        "DefineName": "SEL_GENERIC_ITEM_SKILLCARD_PHYSICAL",
+        "TitleText": "스킬 카드 복제",
+        "CommentText": "어느 것으로 할까?"
+      },
+      {
+        "DefineValue": 4,
+        "DefineName": "SEL_GENERIC_ITEM_SKILLCARD_MAGICAL",
+        "TitleText": "스킬 카드 복제",
+        "CommentText": "어느 것으로 할까?"
+      },
+      {
+        "DefineValue": 5,
+        "DefineName": "SEL_GENERIC_ITEM_SKILLCARD_SUPPORT",
+        "TitleText": "스킬 카드 복제",
+        "CommentText": "어느 것으로 할까?"
+      },
+      {
+        "DefineValue": 6,
+        "DefineName": "SEL_GENERIC_ITEM_SKILLCARD_AUTO",
+        "TitleText": "스킬 카드 복제",
+        "CommentText": "어느 것으로 할까?"
+      },
+      {
+        "DefineValue": 7,
+        "DefineName": "SEL_GENERIC_ITEM_WEB_PC",
+        "TitleText": "컴퓨터",
+        "CommentText": "무엇으로 할까?"
+      },
+      {
+        "DefineValue": 8,
+        "DefineName": "SEL_GENERIC_ITEM_SOUVENIR",
+        "TitleText": "기념품",
+        "CommentText": "무엇을 건넬까?"
+      }
+    ]
+  }
+}

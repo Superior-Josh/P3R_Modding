@@ -1,0 +1,61 @@
+{
+  "Type": "UIPoetryRippleDataAsset",
+  "Name": "UIPoetryRippleDataAsset",
+  "Class": "UScriptClass'UIPoetryRippleDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "posX": 407.0,
+        "posY": 210.0
+      },
+      {
+        "posX": 735.0,
+        "posY": 316.0
+      },
+      {
+        "posX": 1450.0,
+        "posY": 420.0
+      },
+      {
+        "posX": 350.0,
+        "posY": 560.0
+      },
+      {
+        "posX": 1554.0,
+        "posY": 766.0
+      },
+      {
+        "posX": 355.0,
+        "posY": 231.0
+      },
+      {
+        "posX": 1459.0,
+        "posY": 288.0
+      },
+      {
+        "posX": 860.0,
+        "posY": 380.0
+      },
+      {
+        "posX": 5000.0,
+        "posY": 5000.0
+      },
+      {
+        "posX": 1505.0,
+        "posY": 505.0
+      },
+      {
+        "posX": 287.0,
+        "posY": 608.0
+      },
+      {
+        "posX": 490.0,
+        "posY": 767.0
+      },
+      {
+        "posX": 1438.0,
+        "posY": 830.0
+      }
+    ]
+  }
+}

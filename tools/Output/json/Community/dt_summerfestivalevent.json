@@ -1,0 +1,188 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_SummerFestivalEvent",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'SummerFestivalEventRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "00ブランク": {
+      "MailID": -1,
+      "Major": 600,
+      "Minor": 580,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "01愚者": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "02魔術師": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "03女教皇": {
+      "MailID": 28,
+      "Major": 6,
+      "Minor": 570,
+      "OnFlag": "CMM_02POPESS_____OPEN",
+      "OffFlag": "FLG_NULL"
+    },
+    "04女帝": {
+      "MailID": 44,
+      "Major": 600,
+      "Minor": 590,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "05皇帝": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "06法王": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "07恋愛": {
+      "MailID": 92,
+      "Major": 2,
+      "Minor": 570,
+      "OnFlag": "CMM_06LOVERS_____OPEN",
+      "OffFlag": "CMM_06LOVERS_____REVERSE"
+    },
+    "08戦車": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "09正義": {
+      "MailID": 124,
+      "Major": 109,
+      "Minor": 570,
+      "OnFlag": "CMM_08JUSTICE____OPEN",
+      "OffFlag": "CMM_08JUSTICE____REVERSE"
+    },
+    "10隠者": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "11運命": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "12剛毅": {
+      "MailID": 172,
+      "Major": 106,
+      "Minor": 570,
+      "OnFlag": "CMM_11STRENGTH___OPEN",
+      "OffFlag": "FLG_NULL"
+    },
+    "13刑死者": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "14死神": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "15節制": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "16悪魔": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "17塔": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "18星": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "19月": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "20太陽": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "21審判": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "22永劫": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "23その他": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    },
+    "24世界": {
+      "MailID": -1,
+      "Major": -1,
+      "Minor": -1,
+      "OnFlag": "FLG_NULL",
+      "OffFlag": "FLG_NULL"
+    }
+  }
+}

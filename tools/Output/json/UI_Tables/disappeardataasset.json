@@ -1,0 +1,369 @@
+{
+  "Type": "DisappearDataAsset",
+  "Name": "DisappearDataAsset",
+  "Class": "UScriptClass'DisappearDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "Key": "1",
+        "Value": {
+          "StartMonth": 6,
+          "StartDays": 18,
+          "LimitMonth": 7,
+          "LimitDays": 6,
+          "ActiveFlag": 536871010,
+          "SuccessFlag": 536871011,
+          "FailedFlag": 536871090,
+          "NpcFlag": 536871012,
+          "InfoOnFlag": 536874624,
+          "AwardFlag": 536871013,
+          "AwardItemID": 28794,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "2",
+        "Value": {
+          "StartMonth": 6,
+          "StartDays": 26,
+          "LimitMonth": 7,
+          "LimitDays": 6,
+          "ActiveFlag": 536871014,
+          "SuccessFlag": 536871015,
+          "FailedFlag": 536871091,
+          "NpcFlag": 536871016,
+          "InfoOnFlag": 536874625,
+          "AwardFlag": 536871017,
+          "AwardItemID": 0,
+          "AwardItemNum": 0,
+          "AwardMoney": 40000
+        }
+      },
+      {
+        "Key": "3",
+        "Value": {
+          "StartMonth": 6,
+          "StartDays": 26,
+          "LimitMonth": 7,
+          "LimitDays": 6,
+          "ActiveFlag": 536871018,
+          "SuccessFlag": 536871019,
+          "FailedFlag": 536871092,
+          "NpcFlag": 536871020,
+          "InfoOnFlag": 536874626,
+          "AwardFlag": 536871021,
+          "AwardItemID": 24651,
+          "AwardItemNum": 2,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "4",
+        "Value": {
+          "StartMonth": 8,
+          "StartDays": 3,
+          "LimitMonth": 8,
+          "LimitDays": 5,
+          "ActiveFlag": 536871022,
+          "SuccessFlag": 536871023,
+          "FailedFlag": 536871093,
+          "NpcFlag": 536871024,
+          "InfoOnFlag": 536874627,
+          "AwardFlag": 536871025,
+          "AwardItemID": 24639,
+          "AwardItemNum": 4,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "5",
+        "Value": {
+          "StartMonth": 8,
+          "StartDays": 3,
+          "LimitMonth": 8,
+          "LimitDays": 5,
+          "ActiveFlag": 536871026,
+          "SuccessFlag": 536871027,
+          "FailedFlag": 536871094,
+          "NpcFlag": 536871028,
+          "InfoOnFlag": 536874628,
+          "AwardFlag": 536871029,
+          "AwardItemID": 28980,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "6",
+        "Value": {
+          "StartMonth": 8,
+          "StartDays": 19,
+          "LimitMonth": 9,
+          "LimitDays": 4,
+          "ActiveFlag": 536871030,
+          "SuccessFlag": 536871031,
+          "FailedFlag": 536871095,
+          "NpcFlag": 536871032,
+          "InfoOnFlag": 536874629,
+          "AwardFlag": 536871033,
+          "AwardItemID": 28939,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "7",
+        "Value": {
+          "StartMonth": 8,
+          "StartDays": 29,
+          "LimitMonth": 9,
+          "LimitDays": 4,
+          "ActiveFlag": 536871034,
+          "SuccessFlag": 536871035,
+          "FailedFlag": 536871096,
+          "NpcFlag": 536871036,
+          "InfoOnFlag": 536874630,
+          "AwardFlag": 536871037,
+          "AwardItemID": 24649,
+          "AwardItemNum": 20,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "8",
+        "Value": {
+          "StartMonth": 9,
+          "StartDays": 3,
+          "LimitMonth": 9,
+          "LimitDays": 4,
+          "ActiveFlag": 536871038,
+          "SuccessFlag": 536871039,
+          "FailedFlag": 536871097,
+          "NpcFlag": 536871040,
+          "InfoOnFlag": 536874631,
+          "AwardFlag": 536871041,
+          "AwardItemID": 28782,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "9",
+        "Value": {
+          "StartMonth": 9,
+          "StartDays": 12,
+          "LimitMonth": 10,
+          "LimitDays": 3,
+          "ActiveFlag": 536871042,
+          "SuccessFlag": 536871043,
+          "FailedFlag": 536871098,
+          "NpcFlag": 536871044,
+          "InfoOnFlag": 536874632,
+          "AwardFlag": 536871045,
+          "AwardItemID": 16551,
+          "AwardItemNum": 4,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "10",
+        "Value": {
+          "StartMonth": 9,
+          "StartDays": 22,
+          "LimitMonth": 10,
+          "LimitDays": 3,
+          "ActiveFlag": 536871046,
+          "SuccessFlag": 536871047,
+          "FailedFlag": 536871099,
+          "NpcFlag": 536871048,
+          "InfoOnFlag": 536874633,
+          "AwardFlag": 536871049,
+          "AwardItemID": 12431,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "11",
+        "Value": {
+          "StartMonth": 9,
+          "StartDays": 22,
+          "LimitMonth": 10,
+          "LimitDays": 3,
+          "ActiveFlag": 536871050,
+          "SuccessFlag": 536871051,
+          "FailedFlag": 536871100,
+          "NpcFlag": 536871052,
+          "InfoOnFlag": 536874634,
+          "AwardFlag": 536871053,
+          "AwardItemID": 0,
+          "AwardItemNum": 0,
+          "AwardMoney": 100000
+        }
+      },
+      {
+        "Key": "12",
+        "Value": {
+          "StartMonth": 10,
+          "StartDays": 21,
+          "LimitMonth": 11,
+          "LimitDays": 2,
+          "ActiveFlag": 536871054,
+          "SuccessFlag": 536871055,
+          "FailedFlag": 536871101,
+          "NpcFlag": 536871056,
+          "InfoOnFlag": 536874635,
+          "AwardFlag": 536871057,
+          "AwardItemID": 12403,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "13",
+        "Value": {
+          "StartMonth": 10,
+          "StartDays": 21,
+          "LimitMonth": 11,
+          "LimitDays": 2,
+          "ActiveFlag": 536871058,
+          "SuccessFlag": 536871059,
+          "FailedFlag": 536871102,
+          "NpcFlag": 536871060,
+          "InfoOnFlag": 536874636,
+          "AwardFlag": 536871061,
+          "AwardItemID": 12390,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "14",
+        "Value": {
+          "StartMonth": 10,
+          "StartDays": 30,
+          "LimitMonth": 11,
+          "LimitDays": 2,
+          "ActiveFlag": 536871062,
+          "SuccessFlag": 536871063,
+          "FailedFlag": 536871103,
+          "NpcFlag": 536871064,
+          "InfoOnFlag": 536874637,
+          "AwardFlag": 536871065,
+          "AwardItemID": 12433,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "15",
+        "Value": {
+          "StartMonth": 11,
+          "StartDays": 28,
+          "LimitMonth": 12,
+          "LimitDays": 1,
+          "ActiveFlag": 536871066,
+          "SuccessFlag": 536871067,
+          "FailedFlag": 536871104,
+          "NpcFlag": 536871068,
+          "InfoOnFlag": 536874638,
+          "AwardFlag": 536871069,
+          "AwardItemID": 12418,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "16",
+        "Value": {
+          "StartMonth": 11,
+          "StartDays": 28,
+          "LimitMonth": 12,
+          "LimitDays": 1,
+          "ActiveFlag": 536871070,
+          "SuccessFlag": 536871071,
+          "FailedFlag": 536871105,
+          "NpcFlag": 536871072,
+          "InfoOnFlag": 536874639,
+          "AwardFlag": 536871073,
+          "AwardItemID": 24644,
+          "AwardItemNum": 3,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "17",
+        "Value": {
+          "StartMonth": 12,
+          "StartDays": 22,
+          "LimitMonth": 12,
+          "LimitDays": 30,
+          "ActiveFlag": 536871074,
+          "SuccessFlag": 536871075,
+          "FailedFlag": 536871106,
+          "NpcFlag": 536871076,
+          "InfoOnFlag": 536874640,
+          "AwardFlag": 536871077,
+          "AwardItemID": 24622,
+          "AwardItemNum": 2,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "18",
+        "Value": {
+          "StartMonth": 12,
+          "StartDays": 22,
+          "LimitMonth": 12,
+          "LimitDays": 30,
+          "ActiveFlag": 536871078,
+          "SuccessFlag": 536871079,
+          "FailedFlag": 536871107,
+          "NpcFlag": 536871080,
+          "InfoOnFlag": 536874641,
+          "AwardFlag": 536871081,
+          "AwardItemID": 24648,
+          "AwardItemNum": 3,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "19",
+        "Value": {
+          "StartMonth": 1,
+          "StartDays": 15,
+          "LimitMonth": 1,
+          "LimitDays": 30,
+          "ActiveFlag": 536871082,
+          "SuccessFlag": 536871083,
+          "FailedFlag": 536871108,
+          "NpcFlag": 536871084,
+          "InfoOnFlag": 536874642,
+          "AwardFlag": 536871085,
+          "AwardItemID": 16425,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      },
+      {
+        "Key": "20",
+        "Value": {
+          "StartMonth": 1,
+          "StartDays": 15,
+          "LimitMonth": 1,
+          "LimitDays": 30,
+          "ActiveFlag": 536871086,
+          "SuccessFlag": 536871087,
+          "FailedFlag": 536871109,
+          "NpcFlag": 536871088,
+          "InfoOnFlag": 536874643,
+          "AwardFlag": 536871089,
+          "AwardItemID": 28784,
+          "AwardItemNum": 1,
+          "AwardMoney": 0
+        }
+      }
+    ]
+  }
+}

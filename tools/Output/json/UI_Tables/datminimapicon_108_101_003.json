@@ -1,0 +1,39 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_108_101_003",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "DOWN",
+        "SprType": 1,
+        "SprNo": 12,
+        "X": 195.0,
+        "Y": -131.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "下り階段",
+        "SprType": 0,
+        "SprNo": 45,
+        "X": 91.0,
+        "Y": -95.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "自動販売機",
+        "SprType": 0,
+        "SprNo": 22,
+        "X": 50.0,
+        "Y": -10.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

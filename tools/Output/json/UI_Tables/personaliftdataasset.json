@@ -1,0 +1,379 @@
+{
+  "Type": "PersonaLiftDataAsset",
+  "Name": "PersonaLiftDataAsset",
+  "Class": "UScriptClass'PersonaLiftDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "PersonaID": 0,
+        "OrFlag": 0,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 115,
+        "OrFlag": 0,
+        "AndFlag": 268436288
+      },
+      {
+        "PersonaID": 115,
+        "OrFlag": 0,
+        "AndFlag": 1073741989
+      },
+      {
+        "PersonaID": 162,
+        "OrFlag": 268436289,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 112,
+        "OrFlag": 268436290,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 47,
+        "OrFlag": 268436291,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 58,
+        "OrFlag": 268436292,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 90,
+        "OrFlag": 0,
+        "AndFlag": 268436293
+      },
+      {
+        "PersonaID": 90,
+        "OrFlag": 0,
+        "AndFlag": 1073741989
+      },
+      {
+        "PersonaID": 77,
+        "OrFlag": 268436294,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 135,
+        "OrFlag": 268436295,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 185,
+        "OrFlag": 268436296,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 44,
+        "OrFlag": 268436297,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 196,
+        "OrFlag": 268436298,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 37,
+        "OrFlag": 268436299,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 38,
+        "OrFlag": 268436300,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 128,
+        "OrFlag": 0,
+        "AndFlag": 268436301
+      },
+      {
+        "PersonaID": 128,
+        "OrFlag": 0,
+        "AndFlag": 1073741989
+      },
+      {
+        "PersonaID": 194,
+        "OrFlag": 268436302,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 169,
+        "OrFlag": 0,
+        "AndFlag": 268436303
+      },
+      {
+        "PersonaID": 169,
+        "OrFlag": 0,
+        "AndFlag": 1073741989
+      },
+      {
+        "PersonaID": 110,
+        "OrFlag": 268436304,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 205,
+        "OrFlag": 268436305,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 99,
+        "OrFlag": 268436306,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 36,
+        "OrFlag": 0,
+        "AndFlag": 268436307
+      },
+      {
+        "PersonaID": 36,
+        "OrFlag": 0,
+        "AndFlag": 1073741989
+      },
+      {
+        "PersonaID": 183,
+        "OrFlag": 268436308,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 184,
+        "OrFlag": 0,
+        "AndFlag": 268436309
+      },
+      {
+        "PersonaID": 184,
+        "OrFlag": 0,
+        "AndFlag": 1073741989
+      },
+      {
+        "PersonaID": 65,
+        "OrFlag": 0,
+        "AndFlag": 1044
+      },
+      {
+        "PersonaID": 65,
+        "OrFlag": 0,
+        "AndFlag": 1073741989
+      },
+      {
+        "PersonaID": 70,
+        "OrFlag": 1039,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 187,
+        "OrFlag": 1033,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 79,
+        "OrFlag": 1034,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 134,
+        "OrFlag": 1040,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 145,
+        "OrFlag": 1036,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 133,
+        "OrFlag": 1035,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 202,
+        "OrFlag": 1037,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 171,
+        "OrFlag": 1042,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 176,
+        "OrFlag": 0,
+        "AndFlag": 1038
+      },
+      {
+        "PersonaID": 176,
+        "OrFlag": 0,
+        "AndFlag": 1073741989
+      },
+      {
+        "PersonaID": 204,
+        "OrFlag": 0,
+        "AndFlag": 1041
+      },
+      {
+        "PersonaID": 204,
+        "OrFlag": 0,
+        "AndFlag": 1073741989
+      },
+      {
+        "PersonaID": 117,
+        "OrFlag": 1098,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 172,
+        "OrFlag": 1099,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 159,
+        "OrFlag": 1100,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 179,
+        "OrFlag": 1101,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 168,
+        "OrFlag": 1102,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 95,
+        "OrFlag": 1103,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 177,
+        "OrFlag": 1073741989,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 146,
+        "OrFlag": 1073741989,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 46,
+        "OrFlag": 1073741989,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 174,
+        "OrFlag": 1073741989,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 300,
+        "OrFlag": 1342177442,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 301,
+        "OrFlag": 1342177442,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 302,
+        "OrFlag": 1342177442,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 303,
+        "OrFlag": 1342177442,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 304,
+        "OrFlag": 1342177442,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 305,
+        "OrFlag": 1342177442,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 306,
+        "OrFlag": 1342177442,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 307,
+        "OrFlag": 1342177442,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 308,
+        "OrFlag": 1342177442,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 309,
+        "OrFlag": 1342177443,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 310,
+        "OrFlag": 1342177443,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 311,
+        "OrFlag": 1342177443,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 312,
+        "OrFlag": 1342177443,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 313,
+        "OrFlag": 1342177443,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 314,
+        "OrFlag": 1342177443,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 315,
+        "OrFlag": 1342177443,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 316,
+        "OrFlag": 1342177443,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 317,
+        "OrFlag": 1342177443,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 318,
+        "OrFlag": 1342177444,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 319,
+        "OrFlag": 1342177444,
+        "AndFlag": 0
+      },
+      {
+        "PersonaID": 320,
+        "OrFlag": 1342177444,
+        "AndFlag": 0
+      }
+    ]
+  }
+}

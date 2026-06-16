@@ -1,0 +1,29 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_103_111_002",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "DOWN",
+        "SprType": 1,
+        "SprNo": 12,
+        "X": 80.0,
+        "Y": 70.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "下り階段",
+        "SprType": 0,
+        "SprNo": 45,
+        "X": -18.0,
+        "Y": 60.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

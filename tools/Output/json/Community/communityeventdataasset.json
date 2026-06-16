@@ -1,0 +1,6532 @@
+{
+  "Type": "CommunityEventDataAsset",
+  "Name": "CommunityEventDataAsset",
+  "Class": "UScriptClass'CommunityEventDataAsset'",
+  "Properties": {
+    "Tables": [
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 2,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 3,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 4,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 5,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 6,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 7,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 8,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 9,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 10,
+            "Major": 0,
+            "Minor": 0
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 101,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 101,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 101,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 101,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 101,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 101,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 101,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 101,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 101,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 101,
+            "Minor": 510
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 101,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 101,
+            "Minor": 15,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 101,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 101,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 101,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 101,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 15,
+            "Major": 101,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 15,
+            "Major": 101,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 22,
+            "Major": 101,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 101,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 101,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 6,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 6,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 6,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 6,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 6,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 6,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 6,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 6,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 6,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 6,
+            "Minor": 520
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 6,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 6,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 6,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 6,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 6,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 22,
+            "Major": 6,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 30,
+            "Major": 6,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 30,
+            "Major": 6,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 35,
+            "Major": 6,
+            "Minor": 180,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 40,
+            "Major": 6,
+            "Minor": 190,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 55,
+            "Major": 6,
+            "Minor": 200,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 35,
+            "Major": 6,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435798,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 40,
+            "Major": 6,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435798,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 55,
+            "Major": 6,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435792,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 5,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 5,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 5,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 5,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 5,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 5,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 5,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 5,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 5,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 5,
+            "Minor": 520
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 5,
+            "Minor": 10,
+            "Brain": 6,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 5,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 5,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 22,
+            "Major": 5,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 22,
+            "Major": 5,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 22,
+            "Major": 5,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 22,
+            "Major": 5,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 22,
+            "Major": 5,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 5,
+            "Minor": 190,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 5,
+            "Minor": 200,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 5,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435799,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 5,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435793,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 102,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 102,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 102,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 102,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 102,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 102,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 102,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 102,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 102,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 102,
+            "Minor": 520
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 102,
+            "Minor": 17,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 102,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 102,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 102,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 102,
+            "Minor": 45,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 102,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 15,
+            "Major": 102,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 15,
+            "Major": 102,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 15,
+            "Major": 102,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 15,
+            "Major": 102,
+            "Minor": 85,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 102,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 102,
+            "Minor": 95,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 102,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 103,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 103,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 103,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 103,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 103,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 103,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 103,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 103,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 103,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 103,
+            "Minor": 520
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 103,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 103,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 103,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 20,
+            "Major": 103,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 20,
+            "Major": 103,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 20,
+            "Major": 103,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 20,
+            "Major": 103,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 20,
+            "Major": 103,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 20,
+            "Major": 103,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 30,
+            "Major": 103,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 2,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 2,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 2,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 2,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 2,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 2,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 2,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 2,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 2,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 2,
+            "Minor": 520
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 2,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 6,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 2,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 2,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 2,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 22,
+            "Major": 2,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 22,
+            "Major": 2,
+            "Minor": 55,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 2,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 35,
+            "Major": 2,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 35,
+            "Major": 2,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 40,
+            "Major": 2,
+            "Minor": 190,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 55,
+            "Major": 2,
+            "Minor": 200,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 40,
+            "Major": 2,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435800,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 55,
+            "Major": 2,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435794,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 105,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 105,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 105,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 105,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 105,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 105,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 105,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 105,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 105,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 105,
+            "Minor": 520
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 105,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 105,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 105,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 105,
+            "Minor": 35,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 105,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 105,
+            "Minor": 45,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 105,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 105,
+            "Minor": 55,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 15,
+            "Major": 105,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 15,
+            "Major": 105,
+            "Minor": 65,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 15,
+            "Major": 105,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 15,
+            "Major": 105,
+            "Minor": 75,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 22,
+            "Major": 105,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 22,
+            "Major": 105,
+            "Minor": 85,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 105,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 105,
+            "Minor": 95,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 105,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 105,
+            "Minor": 105,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 105,
+            "Minor": 107,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 109,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 109,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 109,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 109,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 109,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 109,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 109,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 109,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 109,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 109,
+            "Minor": 520
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 109,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 109,
+            "Minor": 15,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 109,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 109,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 22,
+            "Major": 109,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 22,
+            "Major": 109,
+            "Minor": 45,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 22,
+            "Major": 109,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 22,
+            "Major": 109,
+            "Minor": 55,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435801,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 22,
+            "Major": 109,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 22,
+            "Major": 109,
+            "Minor": 65,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 85,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 93,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 95,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 197,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 40,
+            "Major": 109,
+            "Minor": 200,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435801,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 93,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435801,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 95,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435801,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 109,
+            "Minor": 97,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435801,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 40,
+            "Major": 109,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435795,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 107,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 107,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 107,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 107,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 107,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 107,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 107,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 107,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 107,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 107,
+            "Minor": 510
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 107,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 107,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 107,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 20,
+            "Major": 107,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 20,
+            "Major": 107,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 20,
+            "Major": 107,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 20,
+            "Major": 107,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 20,
+            "Major": 107,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 20,
+            "Major": 107,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 20,
+            "Major": 107,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 108,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 108,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 108,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 108,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 108,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 108,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 108,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 108,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 108,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 108,
+            "Minor": 520
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 108,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 108,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 108,
+            "Minor": 25,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 108,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 108,
+            "Minor": 35,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 108,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 108,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 108,
+            "Minor": 55,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 15,
+            "Major": 108,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 15,
+            "Major": 108,
+            "Minor": 65,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 15,
+            "Major": 108,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 15,
+            "Major": 108,
+            "Minor": 75,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 15,
+            "Major": 108,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 15,
+            "Major": 108,
+            "Minor": 85,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 108,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 108,
+            "Minor": 95,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 108,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 108,
+            "Minor": 105,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 106,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 106,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 106,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 106,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 106,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 106,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 106,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 106,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 106,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 106,
+            "Minor": 520
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 106,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 106,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 106,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 106,
+            "Minor": 35,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 106,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 106,
+            "Minor": 45,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 106,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 22,
+            "Major": 106,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 22,
+            "Major": 106,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 35,
+            "Major": 106,
+            "Minor": 180,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 40,
+            "Major": 106,
+            "Minor": 190,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 40,
+            "Major": 106,
+            "Minor": 200,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 35,
+            "Major": 106,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435802,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 40,
+            "Major": 106,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435802,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 40,
+            "Major": 106,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435796,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 110,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 110,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 110,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 110,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 110,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 110,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 110,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 110,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 110,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 110,
+            "Minor": 510
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 110,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 110,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 110,
+            "Minor": 25,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 110,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 110,
+            "Minor": 35,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 20,
+            "Major": 110,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 20,
+            "Major": 110,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 20,
+            "Major": 110,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 30,
+            "Major": 110,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 30,
+            "Major": 110,
+            "Minor": 73,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268436042,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 30,
+            "Major": 110,
+            "Minor": 75,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 15,
+            "Major": 110,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 15,
+            "Major": 110,
+            "Minor": 85,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 110,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 110,
+            "Minor": 95,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 30,
+            "Major": 110,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 112,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 112,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 112,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 112,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 112,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 112,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 112,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 112,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 112,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 112,
+            "Minor": 510
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 112,
+            "Minor": 10,
+            "Brain": 2,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 112,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 112,
+            "Minor": 25,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 112,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 112,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 112,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 112,
+            "Minor": 55,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 15,
+            "Major": 112,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 15,
+            "Major": 112,
+            "Minor": 65,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 15,
+            "Major": 112,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 10,
+            "Major": 112,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 112,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 22,
+            "Major": 112,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 114,
+            "Minor": 10
+          },
+          {
+            "Rank": 2,
+            "Major": 114,
+            "Minor": 20
+          },
+          {
+            "Rank": 3,
+            "Major": 114,
+            "Minor": 30
+          },
+          {
+            "Rank": 4,
+            "Major": 114,
+            "Minor": 40
+          },
+          {
+            "Rank": 5,
+            "Major": 114,
+            "Minor": 50
+          },
+          {
+            "Rank": 6,
+            "Major": 114,
+            "Minor": 60
+          },
+          {
+            "Rank": 7,
+            "Major": 114,
+            "Minor": 70
+          },
+          {
+            "Rank": 8,
+            "Major": 114,
+            "Minor": 80
+          },
+          {
+            "Rank": 9,
+            "Major": 114,
+            "Minor": 90
+          },
+          {
+            "Rank": 10,
+            "Major": 114,
+            "Minor": 100
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 4,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 113,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 114,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 114,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 114,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 114,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 114,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 114,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 114,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 114,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 114,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 114,
+            "Minor": 510
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 114,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 3,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 114,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 114,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 25,
+            "Major": 114,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 25,
+            "Major": 114,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 25,
+            "Major": 114,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 30,
+            "Major": 114,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 30,
+            "Major": 114,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 40,
+            "Major": 114,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 40,
+            "Major": 114,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 115,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 115,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 115,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 115,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 115,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 115,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 115,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 115,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 115,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 115,
+            "Minor": 510
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 115,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 4,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 115,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 115,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 20,
+            "Major": 115,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 20,
+            "Major": 115,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 20,
+            "Major": 115,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 20,
+            "Major": 115,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 30,
+            "Major": 115,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 30,
+            "Major": 115,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 30,
+            "Major": 115,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 30,
+            "Major": 115,
+            "Minor": 105,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 116,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 116,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 116,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 116,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 116,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 116,
+            "Minor": 510
+          },
+          {
+            "Rank": 7,
+            "Major": 116,
+            "Minor": 510
+          },
+          {
+            "Rank": 8,
+            "Major": 116,
+            "Minor": 510
+          },
+          {
+            "Rank": 9,
+            "Major": 116,
+            "Minor": 510
+          },
+          {
+            "Rank": 10,
+            "Major": 116,
+            "Minor": 510
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 116,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 2,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 116,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 116,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 15,
+            "Major": 116,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 15,
+            "Major": 116,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 22,
+            "Major": 116,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 22,
+            "Major": 116,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 22,
+            "Major": 116,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 116,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 22,
+            "Major": 116,
+            "Minor": 95,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 15,
+            "Major": 116,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 15,
+            "Major": 116,
+            "Minor": 105,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 116,
+            "Minor": 10
+          },
+          {
+            "Rank": 2,
+            "Major": 116,
+            "Minor": 20
+          },
+          {
+            "Rank": 3,
+            "Major": 116,
+            "Minor": 30
+          },
+          {
+            "Rank": 4,
+            "Major": 116,
+            "Minor": 40
+          },
+          {
+            "Rank": 5,
+            "Major": 116,
+            "Minor": 50
+          },
+          {
+            "Rank": 6,
+            "Major": 116,
+            "Minor": 60
+          },
+          {
+            "Rank": 7,
+            "Major": 116,
+            "Minor": 70
+          },
+          {
+            "Rank": 8,
+            "Major": 116,
+            "Minor": 80
+          },
+          {
+            "Rank": 9,
+            "Major": 116,
+            "Minor": 90
+          },
+          {
+            "Rank": 10,
+            "Major": 116,
+            "Minor": 100
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 10,
+            "Brain": 4,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 117,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 7,
+            "Minor": 510
+          },
+          {
+            "Rank": 2,
+            "Major": 7,
+            "Minor": 510
+          },
+          {
+            "Rank": 3,
+            "Major": 7,
+            "Minor": 510
+          },
+          {
+            "Rank": 4,
+            "Major": 7,
+            "Minor": 510
+          },
+          {
+            "Rank": 5,
+            "Major": 7,
+            "Minor": 510
+          },
+          {
+            "Rank": 6,
+            "Major": 7,
+            "Minor": 515
+          },
+          {
+            "Rank": 7,
+            "Major": 7,
+            "Minor": 515
+          },
+          {
+            "Rank": 8,
+            "Major": 7,
+            "Minor": 515
+          },
+          {
+            "Rank": 9,
+            "Major": 7,
+            "Minor": 515
+          },
+          {
+            "Rank": 10,
+            "Major": 7,
+            "Minor": 515
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 10,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 20,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 30,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 40,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 43,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 45,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 47,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 50,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 55,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 60,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 65,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 70,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 80,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 190,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 30,
+            "Major": 7,
+            "Minor": 200,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 7,
+            "Minor": 90,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435803,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 30,
+            "Major": 7,
+            "Minor": 100,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 268435797,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 2,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 3,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 4,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 5,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 6,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 7,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 8,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 9,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 10,
+            "Major": 0,
+            "Minor": 0
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      },
+      {
+        "NotRankUpTable": [
+          {
+            "Rank": 0,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 1,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 2,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 3,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 4,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 5,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 6,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 7,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 8,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 9,
+            "Major": 0,
+            "Minor": 0
+          },
+          {
+            "Rank": 10,
+            "Major": 0,
+            "Minor": 0
+          }
+        ],
+        "RankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 1,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 2,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 3,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 4,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 5,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 6,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 7,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 8,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ],
+        "LoverRankUpTable": [
+          {
+            "Rank": 0,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 9,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          },
+          {
+            "Rank": 10,
+            "Point": 0,
+            "Major": 0,
+            "Minor": 0,
+            "Brain": 0,
+            "Charm": 0,
+            "Courage": 0,
+            "Flag0": 0,
+            "Flag1": 0,
+            "Flag2": 0,
+            "Flag3": 0
+          }
+        ]
+      }
+    ]
+  }
+}

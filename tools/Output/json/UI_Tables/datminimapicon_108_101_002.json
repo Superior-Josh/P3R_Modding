@@ -1,0 +1,69 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_108_101_002",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "DOWN",
+        "SprType": 1,
+        "SprNo": 12,
+        "X": 195.0,
+        "Y": -130.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "UP",
+        "SprType": 1,
+        "SprNo": 11,
+        "X": 163.0,
+        "Y": -67.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "下り階段",
+        "SprType": 0,
+        "SprNo": 45,
+        "X": 91.0,
+        "Y": -95.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "上り階段",
+        "SprType": 0,
+        "SprNo": 44,
+        "X": 105.0,
+        "Y": -74.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "自動販売機",
+        "SprType": 0,
+        "SprNo": 22,
+        "X": 50.0,
+        "Y": -10.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "自室",
+        "SprType": 0,
+        "SprNo": 33,
+        "X": -84.0,
+        "Y": -85.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "Type": "BustupAnimDataAsset",
+  "Name": "BustupAnimDataAsset",
+  "Class": "UScriptClass'BustupAnimDataAsset'",
+  "Properties": {
+    "EyeAnim": [
+      {
+        "Type": 0,
+        "Duration": 3.3333335,
+        "Random": 0.0
+      },
+      {
+        "Type": 1,
+        "Duration": 0.06666667,
+        "Random": 0.0
+      },
+      {
+        "Type": 2,
+        "Duration": 0.06666667,
+        "Random": 0.0
+      },
+      {
+        "Type": 1,
+        "Duration": 0.06666667,
+        "Random": 0.0
+      },
+      {
+        "Type": 0,
+        "Duration": 0.26666668,
+        "Random": 0.0
+      },
+      {
+        "Type": 1,
+        "Duration": 0.06666667,
+        "Random": 0.0
+      },
+      {
+        "Type": 2,
+        "Duration": 0.06666667,
+        "Random": 0.0
+      },
+      {
+        "Type": 0,
+        "Duration": 2.6666667,
+        "Random": 0.0
+      }
+    ],
+    "MouthAnim": [
+      {
+        "Anim": [
+          {
+            "Type": 1,
+            "Duration": 0.10000001,
+            "Random": 0.06666667
+          },
+          {
+            "Type": 2,
+            "Duration": 0.10000001,
+            "Random": 0.06666667
+          },
+          {
+            "Type": 1,
+            "Duration": 0.10000001,
+            "Random": 0.06666667
+          },
+          {
+            "Type": 0,
+            "Duration": 0.10000001,
+            "Random": 0.16666667
+          }
+        ]
+      },
+      {
+        "Anim": [
+          {
+            "Type": 1,
+            "Duration": 0.10000001,
+            "Random": 0.06666667
+          },
+          {
+            "Type": 2,
+            "Duration": 0.10000001,
+            "Random": 0.06666667
+          },
+          {
+            "Type": 1,
+            "Duration": 0.10000001,
+            "Random": 0.06666667
+          },
+          {
+            "Type": 2,
+            "Duration": 0.10000001,
+            "Random": 0.06666667
+          },
+          {
+            "Type": 1,
+            "Duration": 0.10000001,
+            "Random": 0.06666667
+          },
+          {
+            "Type": 0,
+            "Duration": 0.10000001,
+            "Random": 0.16666667
+          }
+        ]
+      }
+    ]
+  }
+}

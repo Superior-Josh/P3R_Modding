@@ -1,0 +1,329 @@
+{
+  "Type": "DatShuffleCupArcanaTable",
+  "Name": "DatShuffleCupArcanaDataAsset",
+  "Class": "UScriptClass'DatShuffleCupArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "RankID": 0,
+        "EffectID": 5,
+        "Prob": 5
+      },
+      {
+        "RankID": 0,
+        "EffectID": 6,
+        "Prob": 5
+      },
+      {
+        "RankID": 0,
+        "EffectID": 7,
+        "Prob": 5
+      },
+      {
+        "RankID": 0,
+        "EffectID": 17,
+        "Prob": 85
+      },
+      {
+        "RankID": 1,
+        "EffectID": 5,
+        "Prob": 10
+      },
+      {
+        "RankID": 1,
+        "EffectID": 6,
+        "Prob": 10
+      },
+      {
+        "RankID": 1,
+        "EffectID": 7,
+        "Prob": 10
+      },
+      {
+        "RankID": 1,
+        "EffectID": 17,
+        "Prob": 50
+      },
+      {
+        "RankID": 1,
+        "EffectID": 19,
+        "Prob": 20
+      },
+      {
+        "RankID": 2,
+        "EffectID": 4,
+        "Prob": 15
+      },
+      {
+        "RankID": 2,
+        "EffectID": 18,
+        "Prob": 20
+      },
+      {
+        "RankID": 2,
+        "EffectID": 19,
+        "Prob": 65
+      },
+      {
+        "RankID": 3,
+        "EffectID": 4,
+        "Prob": 10
+      },
+      {
+        "RankID": 3,
+        "EffectID": 18,
+        "Prob": 30
+      },
+      {
+        "RankID": 3,
+        "EffectID": 19,
+        "Prob": 55
+      },
+      {
+        "RankID": 3,
+        "EffectID": 20,
+        "Prob": 5
+      },
+      {
+        "RankID": 4,
+        "EffectID": 8,
+        "Prob": 40
+      },
+      {
+        "RankID": 4,
+        "EffectID": 18,
+        "Prob": 20
+      },
+      {
+        "RankID": 4,
+        "EffectID": 19,
+        "Prob": 30
+      },
+      {
+        "RankID": 4,
+        "EffectID": 20,
+        "Prob": 10
+      },
+      {
+        "RankID": 5,
+        "EffectID": 8,
+        "Prob": 20
+      },
+      {
+        "RankID": 5,
+        "EffectID": 9,
+        "Prob": 35
+      },
+      {
+        "RankID": 5,
+        "EffectID": 10,
+        "Prob": 20
+      },
+      {
+        "RankID": 5,
+        "EffectID": 19,
+        "Prob": 20
+      },
+      {
+        "RankID": 5,
+        "EffectID": 20,
+        "Prob": 5
+      },
+      {
+        "RankID": 6,
+        "EffectID": 19,
+        "Prob": 35
+      },
+      {
+        "RankID": 6,
+        "EffectID": 20,
+        "Prob": 15
+      },
+      {
+        "RankID": 6,
+        "EffectID": 8,
+        "Prob": 10
+      },
+      {
+        "RankID": 6,
+        "EffectID": 9,
+        "Prob": 20
+      },
+      {
+        "RankID": 6,
+        "EffectID": 10,
+        "Prob": 20
+      },
+      {
+        "RankID": 7,
+        "EffectID": 17,
+        "Prob": 25
+      },
+      {
+        "RankID": 7,
+        "EffectID": 18,
+        "Prob": 10
+      },
+      {
+        "RankID": 7,
+        "EffectID": 19,
+        "Prob": 20
+      },
+      {
+        "RankID": 7,
+        "EffectID": 9,
+        "Prob": 10
+      },
+      {
+        "RankID": 7,
+        "EffectID": 10,
+        "Prob": 5
+      },
+      {
+        "RankID": 7,
+        "EffectID": 11,
+        "Prob": 30
+      },
+      {
+        "RankID": 8,
+        "EffectID": 19,
+        "Prob": 15
+      },
+      {
+        "RankID": 8,
+        "EffectID": 20,
+        "Prob": 5
+      },
+      {
+        "RankID": 8,
+        "EffectID": 11,
+        "Prob": 35
+      },
+      {
+        "RankID": 8,
+        "EffectID": 12,
+        "Prob": 40
+      },
+      {
+        "RankID": 8,
+        "EffectID": 10,
+        "Prob": 5
+      },
+      {
+        "RankID": 9,
+        "EffectID": 19,
+        "Prob": 30
+      },
+      {
+        "RankID": 9,
+        "EffectID": 20,
+        "Prob": 5
+      },
+      {
+        "RankID": 9,
+        "EffectID": 11,
+        "Prob": 20
+      },
+      {
+        "RankID": 9,
+        "EffectID": 12,
+        "Prob": 20
+      },
+      {
+        "RankID": 9,
+        "EffectID": 13,
+        "Prob": 14
+      },
+      {
+        "RankID": 9,
+        "EffectID": 10,
+        "Prob": 10
+      },
+      {
+        "RankID": 9,
+        "EffectID": 15,
+        "Prob": 1
+      },
+      {
+        "RankID": 10,
+        "EffectID": 19,
+        "Prob": 20
+      },
+      {
+        "RankID": 10,
+        "EffectID": 20,
+        "Prob": 10
+      },
+      {
+        "RankID": 10,
+        "EffectID": 10,
+        "Prob": 10
+      },
+      {
+        "RankID": 10,
+        "EffectID": 15,
+        "Prob": 2
+      },
+      {
+        "RankID": 10,
+        "EffectID": 13,
+        "Prob": 20
+      },
+      {
+        "RankID": 10,
+        "EffectID": 14,
+        "Prob": 38
+      },
+      {
+        "RankID": 11,
+        "EffectID": 14,
+        "Prob": 25
+      },
+      {
+        "RankID": 11,
+        "EffectID": 10,
+        "Prob": 18
+      },
+      {
+        "RankID": 11,
+        "EffectID": 15,
+        "Prob": 2
+      },
+      {
+        "RankID": 11,
+        "EffectID": 19,
+        "Prob": 20
+      },
+      {
+        "RankID": 11,
+        "EffectID": 20,
+        "Prob": 15
+      },
+      {
+        "RankID": 11,
+        "EffectID": 16,
+        "Prob": 20
+      },
+      {
+        "RankID": 12,
+        "EffectID": 16,
+        "Prob": 15
+      },
+      {
+        "RankID": 12,
+        "EffectID": 15,
+        "Prob": 15
+      },
+      {
+        "RankID": 12,
+        "EffectID": 19,
+        "Prob": 25
+      },
+      {
+        "RankID": 12,
+        "EffectID": 20,
+        "Prob": 45
+      }
+    ]
+  }
+}

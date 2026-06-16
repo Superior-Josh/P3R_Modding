@@ -1,0 +1,937 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_DictionaryTable_Name",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'DatNameTable'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "0": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "0_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "0_Comment",
+        "SourceString": "未使用",
+        "LocalizedString": "未使用"
+      }
+    },
+    "1": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "1_Name",
+        "SourceString": "인공섬 계획 문서 01",
+        "LocalizedString": "인공섬 계획 문서 01"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "1_Comment",
+        "SourceString": "タルタロス16F　（最短04/22）",
+        "LocalizedString": "タルタロス16F　（最短04/22）"
+      }
+    },
+    "2": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "2_Name",
+        "SourceString": "인공섬 계획 문서 02",
+        "LocalizedString": "인공섬 계획 문서 02"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "2_Comment",
+        "SourceString": "モノレール戦後タルタロス40F　（最短05/11）",
+        "LocalizedString": "モノレール戦後タルタロス40F　（最短05/11）"
+      }
+    },
+    "3": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "3_Name",
+        "SourceString": "인공섬 계획 문서 03",
+        "LocalizedString": "인공섬 계획 문서 03"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "3_Comment",
+        "SourceString": "風花救出戦後タルタロス64F　（最短06/13）",
+        "LocalizedString": "風花救出戦後タルタロス64F　（最短06/13）"
+      }
+    },
+    "4": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "4_Name",
+        "SourceString": "인공섬 계획 문서 04",
+        "LocalizedString": "인공섬 계획 문서 04"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "4_Comment",
+        "SourceString": "ハイエロファント戦後タルタロス89F　（最短07/09）",
+        "LocalizedString": "ハイエロファント戦後タルタロス89F　（最短07/09）"
+      }
+    },
+    "5": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "5_Name",
+        "SourceString": "인공섬 계획 문서 05",
+        "LocalizedString": "인공섬 계획 문서 05"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "5_Comment",
+        "SourceString": "地下施設戦後タルタロス114F　（最短08/08）",
+        "LocalizedString": "地下施設戦後タルタロス114F　（最短08/08）"
+      }
+    },
+    "6": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "6_Name",
+        "SourceString": "인공섬 계획 문서 06",
+        "LocalizedString": "인공섬 계획 문서 06"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "6_Comment",
+        "SourceString": "エスカペイド戦後タルタロス139F　（最短09/10）",
+        "LocalizedString": "エスカペイド戦後タルタロス139F　（最短09/10）"
+      }
+    },
+    "7": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "7_Name",
+        "SourceString": "인공섬 계획 문서 07",
+        "LocalizedString": "인공섬 계획 문서 07"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "7_Comment",
+        "SourceString": "フォーチュン・ストレングス戦後タルタロス164F　（最短10/07）",
+        "LocalizedString": "フォーチュン・ストレングス戦後タルタロス164F　（最短10/07）"
+      }
+    },
+    "8": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "8_Name",
+        "SourceString": "인공섬 계획 문서 08",
+        "LocalizedString": "인공섬 계획 문서 08"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "8_Comment",
+        "SourceString": "ムーンライトブリッジ戦後タルタロス214F　（最短11/06）",
+        "LocalizedString": "ムーンライトブリッジ戦後タルタロス214F　（最短11/06）"
+      }
+    },
+    "9": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "9_Name",
+        "SourceString": "월광관 고등학교",
+        "LocalizedString": "월광관 고등학교"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "9_Comment",
+        "SourceString": "04月06日　Event_Main_100_090_M＿ゆかりと初登校",
+        "LocalizedString": "04月06日　Event_Main_100_090_M＿ゆかりと初登校"
+      }
+    },
+    "10": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "10_Name",
+        "SourceString": "월광관 고등학교",
+        "LocalizedString": "월광관 고등학교"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "10_Comment",
+        "SourceString": "04月21日　Event_Main_110_050_C＿順平が入隊、全員でタルタロスへ",
+        "LocalizedString": "04月21日　Event_Main_110_050_C＿順平が入隊、全員でタルタロスへ"
+      }
+    },
+    "11": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "11_Name",
+        "SourceString": "월광관 고등학교",
+        "LocalizedString": "월광관 고등학교"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "11_Comment",
+        "SourceString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる",
+        "LocalizedString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる"
+      }
+    },
+    "12": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "12_Name",
+        "SourceString": "이와토다이 기숙사",
+        "LocalizedString": "이와토다이 기숙사"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "12_Comment",
+        "SourceString": "04月06日　Event_Main_100_060_C＿美鶴とゆかりの自己紹介",
+        "LocalizedString": "04月06日　Event_Main_100_060_C＿美鶴とゆかりの自己紹介"
+      }
+    },
+    "13": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "13_Name",
+        "SourceString": "이와토다이 기숙사",
+        "LocalizedString": "이와토다이 기숙사"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "13_Comment",
+        "SourceString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる",
+        "LocalizedString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる"
+      }
+    },
+    "14": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "14_Name",
+        "SourceString": "계약",
+        "LocalizedString": "계약"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "14_Comment",
+        "SourceString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム",
+        "LocalizedString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム"
+      }
+    },
+    "15": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "15_Name",
+        "SourceString": "계약",
+        "LocalizedString": "계약"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "15_Comment",
+        "SourceString": "06月12日　Event_Main_130_040_C＿ファルロスからの啓示",
+        "LocalizedString": "06月12日　Event_Main_130_040_C＿ファルロスからの啓示"
+      }
+    },
+    "16": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "16_Name",
+        "SourceString": "벨벳 룸",
+        "LocalizedString": "벨벳 룸"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "16_Comment",
+        "SourceString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム",
+        "LocalizedString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム"
+      }
+    },
+    "17": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "17_Name",
+        "SourceString": "계약자의 열쇠",
+        "LocalizedString": "계약자의 열쇠"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "17_Comment",
+        "SourceString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム",
+        "LocalizedString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム"
+      }
+    },
+    "18": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "18_Name",
+        "SourceString": "무기력증",
+        "LocalizedString": "무기력증"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "18_Comment",
+        "SourceString": "04月07日　Event_Main_100_150_C＿美鶴と赤いベストの少年、真田明彦の会話",
+        "LocalizedString": "04月07日　Event_Main_100_150_C＿美鶴と赤いベストの少年、真田明彦の会話"
+      }
+    },
+    "19": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "19_Name",
+        "SourceString": "무기력증",
+        "LocalizedString": "무기력증"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "19_Comment",
+        "SourceString": "06月08日　Event_Main_120_100_C＿山岸風花についての真相",
+        "LocalizedString": "06月08日　Event_Main_120_100_C＿山岸風花についての真相"
+      }
+    },
+    "20": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "20_Name",
+        "SourceString": "섀도 타임",
+        "LocalizedString": "섀도 타임"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "20_Comment",
+        "SourceString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観",
+        "LocalizedString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観"
+      }
+    },
+    "21": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "21_Name",
+        "SourceString": "섀도 타임",
+        "LocalizedString": "섀도 타임"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "21_Comment",
+        "SourceString": "05月09日　Event_Main_110_230_C＿美鶴から作戦を聞き、モノレールに向かう",
+        "LocalizedString": "05月09日　Event_Main_110_230_C＿美鶴から作戦を聞き、モノレールに向かう"
+      }
+    },
+    "22": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "22_Name",
+        "SourceString": "섀도 타임",
+        "LocalizedString": "섀도 타임"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "22_Comment",
+        "SourceString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる",
+        "LocalizedString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる"
+      }
+    },
+    "23": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "23_Name",
+        "SourceString": "섀도 타임",
+        "LocalizedString": "섀도 타임"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "23_Comment",
+        "SourceString": "11月04日　Event_Main_190_080_B＿幾月の狂気",
+        "LocalizedString": "11月04日　Event_Main_190_080_B＿幾月の狂気"
+      }
+    },
+    "24": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "24_Name",
+        "SourceString": "상징화",
+        "LocalizedString": "상징화"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "24_Comment",
+        "SourceString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観",
+        "LocalizedString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観"
+      }
+    },
+    "25": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "25_Name",
+        "SourceString": "적성",
+        "LocalizedString": "적성"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "25_Comment",
+        "SourceString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観を見たら追加",
+        "LocalizedString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観を見たら追加"
+      }
+    },
+    "26": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "26_Name",
+        "SourceString": "페르소나",
+        "LocalizedString": "페르소나"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "26_Comment",
+        "SourceString": "04月09日　Event_Main_100_320_C＿イゴールにコミュを築くよう示唆される",
+        "LocalizedString": "04月09日　Event_Main_100_320_C＿イゴールにコミュを築くよう示唆される"
+      }
+    },
+    "27": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "27_Name",
+        "SourceString": "커뮤니티",
+        "LocalizedString": "커뮤니티"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "27_Comment",
+        "SourceString": "04月09日　Event_Main_100_320_C＿イゴールにコミュを築くよう示唆される",
+        "LocalizedString": "04月09日　Event_Main_100_320_C＿イゴールにコミュを築くよう示唆される"
+      }
+    },
+    "28": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "28_Name",
+        "SourceString": "섀도",
+        "LocalizedString": "섀도"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "28_Comment",
+        "SourceString": "04月17日　Event_Main_110_010_C＿病院にて目覚める主人公、ゆかりと話す",
+        "LocalizedString": "04月17日　Event_Main_110_010_C＿病院にて目覚める主人公、ゆかりと話す"
+      }
+    },
+    "29": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "29_Name",
+        "SourceString": "섀도",
+        "LocalizedString": "섀도"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "29_Comment",
+        "SourceString": "06月20日　Event_Main_130_070_C＿幾月によるボスシャドウについての説明",
+        "LocalizedString": "06月20日　Event_Main_130_070_C＿幾月によるボスシャドウについての説明"
+      }
+    },
+    "30": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "30_Name",
+        "SourceString": "특별과외활동부",
+        "LocalizedString": "특별과외활동부"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "30_Comment",
+        "SourceString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる",
+        "LocalizedString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる"
+      }
+    },
+    "31": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "31_Name",
+        "SourceString": "소환기",
+        "LocalizedString": "소환기"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "31_Comment",
+        "SourceString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる",
+        "LocalizedString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる"
+      }
+    },
+    "32": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "32_Name",
+        "SourceString": "타르타로스",
+        "LocalizedString": "타르타로스"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "32_Comment",
+        "SourceString": "04月18日　Event_Main_110_050_C＿順平が入隊、全員でタルタロスへ",
+        "LocalizedString": "04月18日　Event_Main_110_050_C＿順平が入隊、全員でタルタロスへ"
+      }
+    },
+    "33": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "33_Name",
+        "SourceString": "키리조 그룹",
+        "LocalizedString": "키리조 그룹"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "33_Comment",
+        "SourceString": "04月21日　Event_Main_110_140_C＿美鶴の生徒会長就任あいさつ",
+        "LocalizedString": "04月21日　Event_Main_110_140_C＿美鶴の生徒会長就任あいさつ"
+      }
+    },
+    "34": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "34_Name",
+        "SourceString": "보름달",
+        "LocalizedString": "보름달"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "34_Comment",
+        "SourceString": "05月02日　Event_Main_110_200_C＿ファルロスの満月予告",
+        "LocalizedString": "05月02日　Event_Main_110_200_C＿ファルロスの満月予告"
+      }
+    },
+    "35": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "35_Name",
+        "SourceString": "보름달",
+        "LocalizedString": "보름달"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "35_Comment",
+        "SourceString": "06月11日　Event_Main_130_040_C＿ファルロスからの啓示",
+        "LocalizedString": "06月11日　Event_Main_130_040_C＿ファルロスからの啓示"
+      }
+    },
+    "36": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "36_Name",
+        "SourceString": "목소리",
+        "LocalizedString": "목소리"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "36_Comment",
+        "SourceString": "06月08日　Event_Main_120_100_C＿山岸風花についての真相",
+        "LocalizedString": "06月08日　Event_Main_120_100_C＿山岸風花についての真相"
+      }
+    },
+    "37": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "37_Name",
+        "SourceString": "테우르기아",
+        "LocalizedString": "테우르기아"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "37_Comment",
+        "SourceString": "06月13日　Event_Extr_410_030_C＿メイン追加／テウルギア解禁・幾月から新装備を渡される",
+        "LocalizedString": "06月13日　Event_Extr_410_030_C＿メイン追加／テウルギア解禁・幾月から新装備を渡される"
+      }
+    },
+    "38": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "38_Name",
+        "SourceString": "신전투복",
+        "LocalizedString": "신전투복"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "38_Comment",
+        "SourceString": "06月13日　Event_Extr_410_030_C＿メイン追加／テウルギア解禁・幾月から新装備を渡される",
+        "LocalizedString": "06月13日　Event_Extr_410_030_C＿メイン追加／テウルギア解禁・幾月から新装備を渡される"
+      }
+    },
+    "39": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "39_Name",
+        "SourceString": "10년 전의 사고",
+        "LocalizedString": "10년 전의 사고"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "39_Comment",
+        "SourceString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる",
+        "LocalizedString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる"
+      }
+    },
+    "40": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "40_Name",
+        "SourceString": "난조와 키리조",
+        "LocalizedString": "난조와 키리조"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "40_Comment",
+        "SourceString": "07月20日　Event_Main_140_190_C＿武治が美鶴に皆を集めろと指示",
+        "LocalizedString": "07月20日　Event_Main_140_190_C＿武治が美鶴に皆を集めろと指示"
+      }
+    },
+    "41": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "41_Name",
+        "SourceString": "시간을 조종하는 신기",
+        "LocalizedString": "시간을 조종하는 신기"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "41_Comment",
+        "SourceString": "07月20日　Event_Main_140_200_C＿桐条の実験について明かされる",
+        "LocalizedString": "07月20日　Event_Main_140_200_C＿桐条の実験について明かされる"
+      }
+    },
+    "42": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "42_Name",
+        "SourceString": "아이기스",
+        "LocalizedString": "아이기스"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "42_Comment",
+        "SourceString": "07月21日　Event_Main_140_330_C＿アイギスの自己紹介",
+        "LocalizedString": "07月21日　Event_Main_140_330_C＿アイギスの自己紹介"
+      }
+    },
+    "43": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "43_Name",
+        "SourceString": "섀도에 대항하는 병기",
+        "LocalizedString": "섀도에 대항하는 병기"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "43_Comment",
+        "SourceString": "07月21日　Event_Main_140_330_C＿アイギスの自己紹介",
+        "LocalizedString": "07月21日　Event_Main_140_330_C＿アイギスの自己紹介"
+      }
+    },
+    "44": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "44_Name",
+        "SourceString": "스트레가",
+        "LocalizedString": "스트레가"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "44_Comment",
+        "SourceString": "08月06日　Event_Main_150_090_C＿ストレガ初対面、閉じ込められる",
+        "LocalizedString": "08月06日　Event_Main_150_090_C＿ストレガ初対面、閉じ込められる"
+      }
+    },
+    "45": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "45_Name",
+        "SourceString": "스트레가",
+        "LocalizedString": "스트레가"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "45_Comment",
+        "SourceString": "09月06日　Event_Main_170_010_C＿チドリの取り調べ１、黙秘",
+        "LocalizedString": "09月06日　Event_Main_170_010_C＿チドリの取り調べ１、黙秘"
+      }
+    },
+    "46": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "46_Name",
+        "SourceString": "스트레가",
+        "LocalizedString": "스트레가"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "46_Comment",
+        "SourceString": "11月03日　Event_Main_180_150_B＿橋から身を投げるストレガ",
+        "LocalizedString": "11月03日　Event_Main_180_150_B＿橋から身を投げるストレガ"
+      }
+    },
+    "47": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "47_Name",
+        "SourceString": "스트레가",
+        "LocalizedString": "스트레가"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "47_Comment",
+        "SourceString": "11月22日　Event_Main_200_070_A＿順平復活とチドリの死",
+        "LocalizedString": "11月22日　Event_Main_200_070_A＿順平復活とチドリの死"
+      }
+    },
+    "48": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "48_Name",
+        "SourceString": "스트레가",
+        "LocalizedString": "스트레가"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "48_Comment",
+        "SourceString": "01月21日　Event_Main_210_100_C＿チドリ蘇生イベント４、チドリ、前向きに",
+        "LocalizedString": "01月21日　Event_Main_210_100_C＿チドリ蘇生イベント４、チドリ、前向きに"
+      }
+    },
+    "49": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "49_Name",
+        "SourceString": "스트레가",
+        "LocalizedString": "스트레가"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "49_Comment",
+        "SourceString": "01月21日　Event_Main_210_070_C＿はがくれで食事、ストレガの情報",
+        "LocalizedString": "01月21日　Event_Main_210_070_C＿はがくれで食事、ストレガの情報"
+      }
+    },
+    "50": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "50_Name",
+        "SourceString": "1기 경과 관찰 보고서",
+        "LocalizedString": "1기 경과 관찰 보고서"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "50_Comment",
+        "SourceString": "12月 デス覚醒後ハラバ後半・最上階　(最短獲得12月)",
+        "LocalizedString": "12月 デス覚醒後ハラバ後半・最上階　(最短獲得12月)"
+      }
+    },
+    "51": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "51_Name",
+        "SourceString": "타카야에게 받은 종이",
+        "LocalizedString": "타카야에게 받은 종이"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "51_Comment",
+        "SourceString": "08月20日　Event_Extr_400_037_C＿メイン追加／ストレガ・8月２０日_３_３",
+        "LocalizedString": "08月20日　Event_Extr_400_037_C＿メイン追加／ストレガ・8月２０日_３_３"
+      }
+    },
+    "52": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "52_Name",
+        "SourceString": "제어제",
+        "LocalizedString": "제어제"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "52_Comment",
+        "SourceString": "09月10日　Event_Main_170_040_C＿荒垣の制御剤使用が真田に発覚",
+        "LocalizedString": "09月10日　Event_Main_170_040_C＿荒垣の制御剤使用が真田に発覚"
+      }
+    },
+    "53": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "53_Name",
+        "SourceString": "2년 전의 사고",
+        "LocalizedString": "2년 전의 사고"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "53_Comment",
+        "SourceString": "10月04日　Event_Main_170_150_C＿２年前の事件を話す美鶴",
+        "LocalizedString": "10月04日　Event_Main_170_150_C＿２年前の事件を話す美鶴"
+      }
+    },
+    "54": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "54_Name",
+        "SourceString": "데스",
+        "LocalizedString": "데스"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "54_Comment",
+        "SourceString": "11月04日　Event_Main_190_060_C＿幾月の正体",
+        "LocalizedString": "11月04日　Event_Main_190_060_C＿幾月の正体"
+      }
+    },
+    "55": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "55_Name",
+        "SourceString": "데스",
+        "LocalizedString": "데스"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "55_Comment",
+        "SourceString": "12月03日　Event_Main_200_130_M＿対峙するアイギスと綾時　Event_Main_200_150_C＿破損したアイギスと綾時の正体",
+        "LocalizedString": "12月03日　Event_Main_200_130_M＿対峙するアイギスと綾時　Event_Main_200_150_C＿破損したアイギスと綾時の正体"
+      }
+    },
+    "56": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "56_Name",
+        "SourceString": "닉스",
+        "LocalizedString": "닉스"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "56_Comment",
+        "SourceString": "12月03日　Event_Main_200_170_C＿綾時、滅びについて説明",
+        "LocalizedString": "12月03日　Event_Main_200_170_C＿綾時、滅びについて説明"
+      }
+    },
+    "57": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "57_Name",
+        "SourceString": "섣달그믐",
+        "LocalizedString": "섣달그믐"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "57_Comment",
+        "SourceString": "12月03日　Event_Main_200_170_C＿綾時、滅びについて説明",
+        "LocalizedString": "12月03日　Event_Main_200_170_C＿綾時、滅びについて説明"
+      }
+    },
+    "58": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "58_Name",
+        "SourceString": "세계가 끝나는 날",
+        "LocalizedString": "세계가 끝나는 날"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "58_Comment",
+        "SourceString": "12月31日　Event_Main_200_260_C＿ニュクスの元へ行く方法",
+        "LocalizedString": "12月31日　Event_Main_200_260_C＿ニュクスの元へ行く方法"
+      }
+    },
+    "59": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "59_Name",
+        "SourceString": "졸업식",
+        "LocalizedString": "졸업식"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "59_Comment",
+        "SourceString": "01月31日　Event_Main_210_130_C＿決戦の日、またみんなで会う。",
+        "LocalizedString": "01月31日　Event_Main_210_130_C＿決戦の日、またみんなで会う。"
+      }
+    },
+    "60": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "60_Name",
+        "SourceString": "단편적인 수기 01",
+        "LocalizedString": "단편적인 수기 01"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "60_Comment",
+        "SourceString": "配布時期：ツイア前半　研究の動機",
+        "LocalizedString": "配布時期：ツイア前半　研究の動機"
+      }
+    },
+    "61": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "61_Name",
+        "SourceString": "단편적인 수기 02",
+        "LocalizedString": "단편적인 수기 02"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "61_Comment",
+        "SourceString": "配布時期：ヤバザ前半　モナドに強敵シャドウがいる原因",
+        "LocalizedString": "配布時期：ヤバザ前半　モナドに強敵シャドウがいる原因"
+      }
+    },
+    "62": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "62_Name",
+        "SourceString": "단편적인 수기 03",
+        "LocalizedString": "단편적인 수기 03"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "62_Comment",
+        "SourceString": "配布時期：ヤバザ後半　シャドウの真実",
+        "LocalizedString": "配布時期：ヤバザ後半　シャドウの真実"
+      }
+    },
+    "63": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "63_Name",
+        "SourceString": "단편적인 수기 04",
+        "LocalizedString": "단편적인 수기 04"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "63_Comment",
+        "SourceString": "配布時期：ハラバ前半　滅びの考察１/研究続行の悩み",
+        "LocalizedString": "配布時期：ハラバ前半　滅びの考察１/研究続行の悩み"
+      }
+    },
+    "64": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "64_Name",
+        "SourceString": "단편적인 수기 05",
+        "LocalizedString": "단편적인 수기 05"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "64_Comment",
+        "SourceString": "配布時期：ハラバ後半　滅びの考察２/決断",
+        "LocalizedString": "配布時期：ハラバ後半　滅びの考察２/決断"
+      }
+    },
+    "65": {
+      "Name": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "65_Name",
+        "SourceString": "단편적인 수기 06",
+        "LocalizedString": "단편적인 수기 06"
+      },
+      "Comment": {
+        "Namespace": "DT_DictionaryTable_Name",
+        "Key": "65_Comment",
+        "SourceString": "配布時期：ツイア後半　１０年前の事件前日",
+        "LocalizedString": "配布時期：ツイア後半　１０年前の事件前日"
+      }
+    }
+  }
+}

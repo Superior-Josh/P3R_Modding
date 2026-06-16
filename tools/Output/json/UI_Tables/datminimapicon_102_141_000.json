@@ -1,0 +1,19 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_102_141_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "コンソールデッキ",
+        "SprType": 0,
+        "SprNo": 42,
+        "X": 10.0,
+        "Y": -28.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

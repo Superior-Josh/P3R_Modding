@@ -1,0 +1,205 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_UIPoetry",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'PoetryParamTable'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "1": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_Appearance01_Blur.T_UI_Community_Appearance01_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_Appearance01_Ef.T_UI_Community_Appearance01_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_Appearance01.T_UI_Community_Appearance01"
+      },
+      "posX": 334.0,
+      "posY": 110.0,
+      "drawPoint": 0,
+      "TextureNum": 1,
+      "scale": 1.0
+    },
+    "2": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_Appearance02_Blur.T_UI_Community_Appearance02_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_Appearance02_Ef.T_UI_Community_Appearance02_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_Appearance02.T_UI_Community_Appearance02"
+      },
+      "posX": 1538.0,
+      "posY": 518.0,
+      "drawPoint": 8,
+      "TextureNum": 1,
+      "scale": 1.0
+    },
+    "3": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_Appearance03_L_Blur.T_UI_Community_Appearance03_L_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_Appearance03_L_Ef.T_UI_Community_Appearance03_L_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_Appearance03_L.T_UI_Community_Appearance03_L"
+      },
+      "posX": 212.0,
+      "posY": 446.0,
+      "drawPoint": 0,
+      "TextureNum": 3,
+      "scale": 1.0
+    },
+    "4": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_Appearance03_R_Blur.T_UI_Community_Appearance03_R_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_Appearance03_R_Ef.T_UI_Community_Appearance03_R_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_Appearance03_R.T_UI_Community_Appearance03_R"
+      },
+      "posX": 212.0,
+      "posY": 446.0,
+      "drawPoint": 0,
+      "TextureNum": 3,
+      "scale": 1.0
+    },
+    "5": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_Appearance04_Blur.T_UI_Community_Appearance04_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_Appearance04_Ef.T_UI_Community_Appearance04_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_Appearance04.T_UI_Community_Appearance04"
+      },
+      "posX": 1690.0,
+      "posY": 878.0,
+      "drawPoint": 8,
+      "TextureNum": 1,
+      "scale": 1.0
+    },
+    "6": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_Appearance01_Blur.T_UI_Community_Appearance01_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_Appearance01_Ef.T_UI_Community_Appearance01_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_Appearance01.T_UI_Community_Appearance01"
+      },
+      "posX": 304.0,
+      "posY": 130.0,
+      "drawPoint": 0,
+      "TextureNum": 1,
+      "scale": 0.8
+    },
+    "7": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_MAX02_Blur.T_UI_Community_MAX02_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_MAX02_Ef.T_UI_Community_MAX02_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_MAX02.T_UI_Community_MAX02"
+      },
+      "posX": 1542.0,
+      "posY": 410.0,
+      "drawPoint": 8,
+      "TextureNum": 1,
+      "scale": 1.0
+    },
+    "8": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_MAX03_L_Blur.T_UI_Community_MAX03_L_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_MAX03_L_Ef.T_UI_Community_MAX03_L_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_MAX03_L.T_UI_Community_MAX03_L"
+      },
+      "posX": 1700.0,
+      "posY": 554.0,
+      "drawPoint": 8,
+      "TextureNum": 3,
+      "scale": 0.8
+    },
+    "9": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_MAX03_R_Blur.T_UI_Community_MAX03_R_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_MAX03_R_Ef.T_UI_Community_MAX03_R_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_MAX03_R.T_UI_Community_MAX03_R"
+      },
+      "posX": 1700.0,
+      "posY": 554.0,
+      "drawPoint": 8,
+      "TextureNum": 3,
+      "scale": 0.8
+    },
+    "10": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_MAX04_Blur.T_UI_Community_MAX04_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_MAX04_Ef.T_UI_Community_MAX04_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_MAX04.T_UI_Community_MAX04"
+      },
+      "posX": 202.0,
+      "posY": 510.0,
+      "drawPoint": 0,
+      "TextureNum": 1,
+      "scale": 1.0
+    },
+    "11": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_MAX05_C_Blur.T_UI_Community_MAX05_C_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_MAX05_C_Ef.T_UI_Community_MAX05_C_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_MAX05_C.T_UI_Community_MAX05_C"
+      },
+      "posX": 1602.0,
+      "posY": 902.0,
+      "drawPoint": 8,
+      "TextureNum": 3,
+      "scale": 0.8
+    },
+    "12": {
+      "type": {
+        "Blur": "/Game/Xrd777/UI/Community/Poetry/Blur/T_UI_Community_MAX05_R_Blur.T_UI_Community_MAX05_R_Blur",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_Community_MAX05_R_Ef.T_UI_Community_MAX05_R_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_Community_MAX05_R.T_UI_Community_MAX05_R"
+      },
+      "posX": 1602.0,
+      "posY": 902.0,
+      "drawPoint": 8,
+      "TextureNum": 3,
+      "scale": 0.8
+    },
+    "13": {
+      "type": {
+        "Blur": "",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_GameOver_01_Ef.T_UI_GameOver_01_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_GameOver_01.T_UI_GameOver_01"
+      },
+      "posX": 553.0,
+      "posY": 57.0,
+      "drawPoint": 0,
+      "TextureNum": 1,
+      "scale": 1.0
+    },
+    "14": {
+      "type": {
+        "Blur": "",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_GameOver_02_Ef.T_UI_GameOver_02_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_GameOver_02.T_UI_GameOver_02"
+      },
+      "posX": 398.0,
+      "posY": 233.0,
+      "drawPoint": 0,
+      "TextureNum": 1,
+      "scale": 1.0
+    },
+    "15": {
+      "type": {
+        "Blur": "",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_GameOver_03_Ef.T_UI_GameOver_03_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_GameOver_03.T_UI_GameOver_03"
+      },
+      "posX": 782.0,
+      "posY": 450.0,
+      "drawPoint": 0,
+      "TextureNum": 1,
+      "scale": 1.0
+    },
+    "16": {
+      "type": {
+        "Blur": "",
+        "Ef": "/Game/Xrd777/UI/Community/Poetry/Ef/T_UI_GameOver_04_Ef.T_UI_GameOver_04_Ef",
+        "Normal": "/Game/Xrd777/UI/Community/Poetry/Normal/T_UI_GameOver_04.T_UI_GameOver_04"
+      },
+      "posX": 540.0,
+      "posY": 698.0,
+      "drawPoint": 0,
+      "TextureNum": 1,
+      "scale": 1.0
+    }
+  }
+}

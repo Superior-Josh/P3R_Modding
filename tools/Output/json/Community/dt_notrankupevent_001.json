@@ -1,0 +1,25 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_NotRankUpEvent_001",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'NotRankUpEventRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "NotRankUpEvent_00": {
+      "Rank": 0,
+      "Major": 0,
+      "Minor": 0,
+      "Comment": "Brank"
+    },
+    "NotRankUpEvent_01": {
+      "Rank": 0,
+      "Major": 0,
+      "Minor": 0,
+      "Comment": "未使用"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Type": "TownMapDetailTextDataAsset",
+  "Name": "TownMapDetailTextDataAsset",
+  "Class": "UScriptClass'TownMapDetailTextDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "DetailText": "ポートアイランド北部の広大なショッピングエリアに\nある巨大月光館学園\nポートアイランド北部にある"
+      },
+      {
+        "DetailText": "ポートアイランド北部の広大なショッピングエリアに\nある巨大学生寮\nポートアイランド北部にある"
+      },
+      {
+        "DetailText": "ポートアイランド北部の広大なショッピングエリアに\nある巨大ショッピングモール\nポートアイランド北部にある"
+      },
+      {
+        "DetailText": "ポートアイランド北部の広大なショッピングエリアに\nある巨大ポートアイランド\nポートアイランド北部にある"
+      },
+      {
+        "DetailText": "ポートアイランド北部の広大なショッピングエリアに\nある巨大巌戸台\nポートアイランド北部にある"
+      },
+      {
+        "DetailText": "ポートアイランド北部の広大なショッピングエリアに\nある巨大長鳴神社\nポートアイランド北部にある"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Type": "DatShuffleCommonItemdropArcanaTable",
+  "Name": "DatShuffleHangedmanArcanaDataAsset",
+  "Class": "UScriptClass'DatShuffleCommonItemdropArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 12,
+        "ItemtID": 16484
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 16485
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 12,
+        "ItemtID": 16488
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 16489
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 12,
+        "ItemtID": 16492
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 16493
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 12,
+        "ItemtID": 16496
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 16497
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 12,
+        "ItemtID": 16490
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 16494
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 16498
+      }
+    ]
+  }
+}

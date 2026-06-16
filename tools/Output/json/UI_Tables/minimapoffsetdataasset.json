@@ -1,0 +1,144 @@
+{
+  "Type": "MiniMapOffsetDataAsset",
+  "Name": "MiniMapOffsetDataAsset",
+  "Class": "UScriptClass'MiniMapOffsetDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "FieldID": "101_101_000",
+        "OffsetX": 2000,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "101_102_002",
+        "OffsetX": 4200,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "101_103_001",
+        "OffsetX": 0,
+        "OffsetY": -3000
+      },
+      {
+        "FieldID": "101_103_002",
+        "OffsetX": 0,
+        "OffsetY": -3000
+      },
+      {
+        "FieldID": "101_121_000",
+        "OffsetX": -250,
+        "OffsetY": -700
+      },
+      {
+        "FieldID": "102_102_004",
+        "OffsetX": 0,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "102_102_005",
+        "OffsetX": 0,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "302_102_001",
+        "OffsetX": -700,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "302_102_002",
+        "OffsetX": 1400,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "302_102_003",
+        "OffsetX": 7000,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "302_102_004",
+        "OffsetX": 10200,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "302_102_005",
+        "OffsetX": 13800,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "302_102_006",
+        "OffsetX": 16200,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "302_101_000",
+        "OffsetX": -6950,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "305_101_002",
+        "OffsetX": 0,
+        "OffsetY": -7178
+      },
+      {
+        "FieldID": "305_101_003",
+        "OffsetX": 0,
+        "OffsetY": -12847
+      },
+      {
+        "FieldID": "305_101_004",
+        "OffsetX": 0,
+        "OffsetY": -18600
+      },
+      {
+        "FieldID": "305_101_005",
+        "OffsetX": 0,
+        "OffsetY": -27053
+      },
+      {
+        "FieldID": "207_102_000",
+        "OffsetX": 0,
+        "OffsetY": -7000
+      },
+      {
+        "FieldID": "308_101_000",
+        "OffsetX": 0,
+        "OffsetY": -7400
+      },
+      {
+        "FieldID": "107_101_002",
+        "OffsetX": 5500,
+        "OffsetY": -10500
+      },
+      {
+        "FieldID": "304_104_000",
+        "OffsetX": 0,
+        "OffsetY": 2000
+      },
+      {
+        "FieldID": "304_106_000",
+        "OffsetX": -2000,
+        "OffsetY": 0
+      },
+      {
+        "FieldID": "304_108_000",
+        "OffsetX": 0,
+        "OffsetY": 2000
+      },
+      {
+        "FieldID": "304_110_000",
+        "OffsetX": 0,
+        "OffsetY": 2000
+      },
+      {
+        "FieldID": "304_112_000",
+        "OffsetX": 0,
+        "OffsetY": 2000
+      },
+      {
+        "FieldID": "304_114_000",
+        "OffsetX": -2000,
+        "OffsetY": 0
+      }
+    ]
+  }
+}

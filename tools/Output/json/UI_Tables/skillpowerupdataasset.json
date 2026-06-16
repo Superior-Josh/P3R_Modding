@@ -1,0 +1,884 @@
+{
+  "Type": "SkillPowerUpDataAsset",
+  "Name": "SkillPowerUpDataAsset",
+  "Class": "UScriptClass'SkillPowerUpDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "OldSkill": 0,
+        "NewSkill": 0,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 10,
+        "NewSkill": 13,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 13,
+        "NewSkill": 11,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 11,
+        "NewSkill": 14,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 14,
+        "NewSkill": 12,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 12,
+        "NewSkill": 15,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 20,
+        "NewSkill": 23,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 23,
+        "NewSkill": 21,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 21,
+        "NewSkill": 24,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 24,
+        "NewSkill": 22,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 22,
+        "NewSkill": 25,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 30,
+        "NewSkill": 33,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 33,
+        "NewSkill": 31,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 31,
+        "NewSkill": 34,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 34,
+        "NewSkill": 32,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 32,
+        "NewSkill": 35,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 40,
+        "NewSkill": 43,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 43,
+        "NewSkill": 41,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 41,
+        "NewSkill": 44,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 44,
+        "NewSkill": 42,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 42,
+        "NewSkill": 45,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 50,
+        "NewSkill": 52,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 52,
+        "NewSkill": 51,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 51,
+        "NewSkill": 53,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 56,
+        "NewSkill": 59,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 59,
+        "NewSkill": 57,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 57,
+        "NewSkill": 60,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 60,
+        "NewSkill": 58,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 58,
+        "NewSkill": 61,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 64,
+        "NewSkill": 66,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 66,
+        "NewSkill": 65,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 65,
+        "NewSkill": 67,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 70,
+        "NewSkill": 73,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 73,
+        "NewSkill": 71,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 71,
+        "NewSkill": 74,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 74,
+        "NewSkill": 72,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 72,
+        "NewSkill": 75,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 85,
+        "NewSkill": 86,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 87,
+        "NewSkill": 88,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 89,
+        "NewSkill": 90,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 91,
+        "NewSkill": 92,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 93,
+        "NewSkill": 94,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 95,
+        "NewSkill": 96,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 101,
+        "NewSkill": 102,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 78,
+        "NewSkill": 79,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 79,
+        "NewSkill": 80,
+        "LevelLimit": 50
+      },
+      {
+        "OldSkill": 155,
+        "NewSkill": 160,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 160,
+        "NewSkill": 156,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 156,
+        "NewSkill": 161,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 161,
+        "NewSkill": 157,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 157,
+        "NewSkill": 162,
+        "LevelLimit": 50
+      },
+      {
+        "OldSkill": 162,
+        "NewSkill": 163,
+        "LevelLimit": 65
+      },
+      {
+        "OldSkill": 165,
+        "NewSkill": 166,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 170,
+        "NewSkill": 171,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 172,
+        "NewSkill": 173,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 171,
+        "NewSkill": 177,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 173,
+        "NewSkill": 177,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 177,
+        "NewSkill": 176,
+        "LevelLimit": 40
+      },
+      {
+        "OldSkill": 180,
+        "NewSkill": 185,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 181,
+        "NewSkill": 186,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 182,
+        "NewSkill": 187,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 190,
+        "NewSkill": 195,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 191,
+        "NewSkill": 196,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 192,
+        "NewSkill": 197,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 210,
+        "NewSkill": 211,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 779,
+        "NewSkill": 780,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 780,
+        "NewSkill": 781,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 835,
+        "NewSkill": 836,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 765,
+        "NewSkill": 766,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 767,
+        "NewSkill": 768,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 769,
+        "NewSkill": 770,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 771,
+        "NewSkill": 772,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 773,
+        "NewSkill": 774,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 775,
+        "NewSkill": 776,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 759,
+        "NewSkill": 760,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 761,
+        "NewSkill": 762,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 763,
+        "NewSkill": 764,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 798,
+        "NewSkill": 799,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 800,
+        "NewSkill": 801,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 802,
+        "NewSkill": 803,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 804,
+        "NewSkill": 805,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 806,
+        "NewSkill": 807,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 808,
+        "NewSkill": 809,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 792,
+        "NewSkill": 793,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 794,
+        "NewSkill": 795,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 796,
+        "NewSkill": 797,
+        "LevelLimit": 20
+      },
+      {
+        "OldSkill": 863,
+        "NewSkill": 864,
+        "LevelLimit": 40
+      },
+      {
+        "OldSkill": 784,
+        "NewSkill": 785,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 785,
+        "NewSkill": 786,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 788,
+        "NewSkill": 789,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 789,
+        "NewSkill": 790,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 845,
+        "NewSkill": 846,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 846,
+        "NewSkill": 847,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 712,
+        "NewSkill": 713,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 716,
+        "NewSkill": 717,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 720,
+        "NewSkill": 721,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 724,
+        "NewSkill": 725,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 728,
+        "NewSkill": 729,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 732,
+        "NewSkill": 733,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 700,
+        "NewSkill": 701,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 704,
+        "NewSkill": 705,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 708,
+        "NewSkill": 709,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 738,
+        "NewSkill": 739,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 740,
+        "NewSkill": 741,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 742,
+        "NewSkill": 743,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 744,
+        "NewSkill": 745,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 746,
+        "NewSkill": 747,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 748,
+        "NewSkill": 749,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 750,
+        "NewSkill": 751,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 752,
+        "NewSkill": 753,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 754,
+        "NewSkill": 755,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 713,
+        "NewSkill": 714,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 717,
+        "NewSkill": 718,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 721,
+        "NewSkill": 722,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 725,
+        "NewSkill": 726,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 729,
+        "NewSkill": 730,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 733,
+        "NewSkill": 734,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 701,
+        "NewSkill": 702,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 705,
+        "NewSkill": 706,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 709,
+        "NewSkill": 710,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 714,
+        "NewSkill": 715,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 718,
+        "NewSkill": 719,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 722,
+        "NewSkill": 723,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 726,
+        "NewSkill": 727,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 730,
+        "NewSkill": 731,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 734,
+        "NewSkill": 735,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 702,
+        "NewSkill": 703,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 706,
+        "NewSkill": 707,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 710,
+        "NewSkill": 711,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 15,
+        "NewSkill": 16,
+        "LevelLimit": 60
+      },
+      {
+        "OldSkill": 25,
+        "NewSkill": 26,
+        "LevelLimit": 60
+      },
+      {
+        "OldSkill": 35,
+        "NewSkill": 36,
+        "LevelLimit": 60
+      },
+      {
+        "OldSkill": 45,
+        "NewSkill": 46,
+        "LevelLimit": 60
+      },
+      {
+        "OldSkill": 67,
+        "NewSkill": 76,
+        "LevelLimit": 60
+      },
+      {
+        "OldSkill": 75,
+        "NewSkill": 76,
+        "LevelLimit": 60
+      },
+      {
+        "OldSkill": 53,
+        "NewSkill": 62,
+        "LevelLimit": 60
+      },
+      {
+        "OldSkill": 61,
+        "NewSkill": 62,
+        "LevelLimit": 60
+      },
+      {
+        "OldSkill": 185,
+        "NewSkill": 188,
+        "LevelLimit": 65
+      },
+      {
+        "OldSkill": 186,
+        "NewSkill": 188,
+        "LevelLimit": 65
+      },
+      {
+        "OldSkill": 187,
+        "NewSkill": 188,
+        "LevelLimit": 65
+      },
+      {
+        "OldSkill": 195,
+        "NewSkill": 198,
+        "LevelLimit": 65
+      },
+      {
+        "OldSkill": 196,
+        "NewSkill": 198,
+        "LevelLimit": 65
+      },
+      {
+        "OldSkill": 197,
+        "NewSkill": 198,
+        "LevelLimit": 65
+      },
+      {
+        "OldSkill": 120,
+        "NewSkill": 119,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 110,
+        "NewSkill": 111,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 111,
+        "NewSkill": 112,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 112,
+        "NewSkill": 116,
+        "LevelLimit": 50
+      },
+      {
+        "OldSkill": 113,
+        "NewSkill": 121,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 121,
+        "NewSkill": 114,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 114,
+        "NewSkill": 115,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 115,
+        "NewSkill": 117,
+        "LevelLimit": 50
+      },
+      {
+        "OldSkill": 125,
+        "NewSkill": 133,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 133,
+        "NewSkill": 126,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 126,
+        "NewSkill": 127,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 127,
+        "NewSkill": 131,
+        "LevelLimit": 50
+      },
+      {
+        "OldSkill": 128,
+        "NewSkill": 129,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 129,
+        "NewSkill": 130,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 130,
+        "NewSkill": 132,
+        "LevelLimit": 50
+      },
+      {
+        "OldSkill": 139,
+        "NewSkill": 140,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 140,
+        "NewSkill": 141,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 141,
+        "NewSkill": 145,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 145,
+        "NewSkill": 142,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 142,
+        "NewSkill": 146,
+        "LevelLimit": 50
+      },
+      {
+        "OldSkill": 143,
+        "NewSkill": 144,
+        "LevelLimit": 50
+      },
+      {
+        "OldSkill": 884,
+        "NewSkill": 885,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 893,
+        "NewSkill": 894,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 891,
+        "NewSkill": 892,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 869,
+        "NewSkill": 870,
+        "LevelLimit": 50
+      },
+      {
+        "OldSkill": 825,
+        "NewSkill": 828,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 826,
+        "NewSkill": 829,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 827,
+        "NewSkill": 830,
+        "LevelLimit": 30
+      },
+      {
+        "OldSkill": 850,
+        "NewSkill": 851,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 852,
+        "NewSkill": 853,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 851,
+        "NewSkill": 854,
+        "LevelLimit": 0
+      },
+      {
+        "OldSkill": 853,
+        "NewSkill": 854,
+        "LevelLimit": 0
+      }
+    ]
+  }
+}

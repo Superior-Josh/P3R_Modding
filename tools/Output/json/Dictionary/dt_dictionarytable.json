@@ -1,0 +1,739 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_DictionaryTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'DictionarySortTableRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "0": {
+      "SortID": 0,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_0380",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "0_Comment",
+        "SourceString": "未使用",
+        "LocalizedString": "未使用"
+      }
+    },
+    "1": {
+      "SortID": 1,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_OLDDOCUMENT_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "1_Comment",
+        "SourceString": "タルタロス16F　（最短04/22）",
+        "LocalizedString": "タルタロス16F　（最短04/22）"
+      }
+    },
+    "2": {
+      "SortID": 2,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_OLDDOCUMENT_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "2_Comment",
+        "SourceString": "モノレール戦後タルタロス40F　（最短05/11）",
+        "LocalizedString": "モノレール戦後タルタロス40F　（最短05/11）"
+      }
+    },
+    "3": {
+      "SortID": 3,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_OLDDOCUMENT_03",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "3_Comment",
+        "SourceString": "風花救出戦後タルタロス64F　（最短06/13）",
+        "LocalizedString": "風花救出戦後タルタロス64F　（最短06/13）"
+      }
+    },
+    "4": {
+      "SortID": 4,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_OLDDOCUMENT_04",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "4_Comment",
+        "SourceString": "ハイエロファント戦後タルタロス89F　（最短07/09）",
+        "LocalizedString": "ハイエロファント戦後タルタロス89F　（最短07/09）"
+      }
+    },
+    "5": {
+      "SortID": 5,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_OLDDOCUMENT_05",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "5_Comment",
+        "SourceString": "地下施設戦後タルタロス114F　（最短08/08）",
+        "LocalizedString": "地下施設戦後タルタロス114F　（最短08/08）"
+      }
+    },
+    "6": {
+      "SortID": 6,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_OLDDOCUMENT_06",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "6_Comment",
+        "SourceString": "エスカペイド戦後タルタロス139F　（最短09/10）",
+        "LocalizedString": "エスカペイド戦後タルタロス139F　（最短09/10）"
+      }
+    },
+    "7": {
+      "SortID": 7,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_OLDDOCUMENT_07",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "7_Comment",
+        "SourceString": "フォーチュン・ストレングス戦後タルタロス164F　（最短10/07）",
+        "LocalizedString": "フォーチュン・ストレングス戦後タルタロス164F　（最短10/07）"
+      }
+    },
+    "8": {
+      "SortID": 8,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_OLDDOCUMENT_08",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "8_Comment",
+        "SourceString": "ムーンライトブリッジ戦後タルタロス214F　（最短11/06）",
+        "LocalizedString": "ムーンライトブリッジ戦後タルタロス214F　（最短11/06）"
+      }
+    },
+    "9": {
+      "SortID": 15,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_SCHOOL_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "9_Comment",
+        "SourceString": "04月06日　Event_Main_100_090_M＿ゆかりと初登校",
+        "LocalizedString": "04月06日　Event_Main_100_090_M＿ゆかりと初登校"
+      }
+    },
+    "10": {
+      "SortID": 16,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_SCHOOL_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "10_Comment",
+        "SourceString": "04月21日　Event_Main_110_050_C＿順平が入隊、全員でタルタロスへ",
+        "LocalizedString": "04月21日　Event_Main_110_050_C＿順平が入隊、全員でタルタロスへ"
+      }
+    },
+    "11": {
+      "SortID": 17,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_SCHOOL_03",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "11_Comment",
+        "SourceString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる",
+        "LocalizedString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる"
+      }
+    },
+    "12": {
+      "SortID": 18,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_DORM_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "12_Comment",
+        "SourceString": "04月06日　Event_Main_100_060_C＿美鶴とゆかりの自己紹介",
+        "LocalizedString": "04月06日　Event_Main_100_060_C＿美鶴とゆかりの自己紹介"
+      }
+    },
+    "13": {
+      "SortID": 19,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_DORM_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "13_Comment",
+        "SourceString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる",
+        "LocalizedString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる"
+      }
+    },
+    "14": {
+      "SortID": 20,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_CONTRACT_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "14_Comment",
+        "SourceString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム",
+        "LocalizedString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム"
+      }
+    },
+    "15": {
+      "SortID": 21,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_CONTRACT_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "15_Comment",
+        "SourceString": "06月12日　Event_Main_130_040_C＿ファルロスからの啓示",
+        "LocalizedString": "06月12日　Event_Main_130_040_C＿ファルロスからの啓示"
+      }
+    },
+    "16": {
+      "SortID": 22,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_VELVETROOM",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "16_Comment",
+        "SourceString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム",
+        "LocalizedString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム"
+      }
+    },
+    "17": {
+      "SortID": 23,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_VELVETKEY",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "17_Comment",
+        "SourceString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム",
+        "LocalizedString": "04月08日　Event_Main_100_210_B＿初めてのベルベットルーム"
+      }
+    },
+    "18": {
+      "SortID": 24,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_APATHYSYNDROME_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "18_Comment",
+        "SourceString": "04月07日　Event_Main_100_150_C＿美鶴と赤いベストの少年、真田明彦の会話",
+        "LocalizedString": "04月07日　Event_Main_100_150_C＿美鶴と赤いベストの少年、真田明彦の会話"
+      }
+    },
+    "19": {
+      "SortID": 25,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_APATHYSYNDROME_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "19_Comment",
+        "SourceString": "06月08日　Event_Main_120_100_C＿山岸風花についての真相",
+        "LocalizedString": "06月08日　Event_Main_120_100_C＿山岸風花についての真相"
+      }
+    },
+    "20": {
+      "SortID": 26,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_DARKHOUR_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "20_Comment",
+        "SourceString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観",
+        "LocalizedString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観"
+      }
+    },
+    "21": {
+      "SortID": 27,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_DARKHOUR_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "21_Comment",
+        "SourceString": "05月09日　Event_Main_110_230_C＿美鶴から作戦を聞き、モノレールに向かう",
+        "LocalizedString": "05月09日　Event_Main_110_230_C＿美鶴から作戦を聞き、モノレールに向かう"
+      }
+    },
+    "22": {
+      "SortID": 28,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_DARKHOUR_03",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "22_Comment",
+        "SourceString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる",
+        "LocalizedString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる"
+      }
+    },
+    "23": {
+      "SortID": 29,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_DARKHOUR_04",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "23_Comment",
+        "SourceString": "11月04日　Event_Main_190_080_B＿幾月の狂気",
+        "LocalizedString": "11月04日　Event_Main_190_080_B＿幾月の狂気"
+      }
+    },
+    "24": {
+      "SortID": 30,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_TRANSMOGRIFY",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "24_Comment",
+        "SourceString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観",
+        "LocalizedString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観"
+      }
+    },
+    "25": {
+      "SortID": 31,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_POTENTIAL",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "25_Comment",
+        "SourceString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観を見たら追加",
+        "LocalizedString": "04月08日　Event_Main_100_200_C＿監視されている主人公２、明かされる世界観を見たら追加"
+      }
+    },
+    "26": {
+      "SortID": 32,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_PERSONA",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "26_Comment",
+        "SourceString": "04月09日　Event_Main_100_320_C＿イゴールにコミュを築くよう示唆される",
+        "LocalizedString": "04月09日　Event_Main_100_320_C＿イゴールにコミュを築くよう示唆される"
+      }
+    },
+    "27": {
+      "SortID": 33,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_SOCIALLINK",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "27_Comment",
+        "SourceString": "04月09日　Event_Main_100_320_C＿イゴールにコミュを築くよう示唆される",
+        "LocalizedString": "04月09日　Event_Main_100_320_C＿イゴールにコミュを築くよう示唆される"
+      }
+    },
+    "28": {
+      "SortID": 34,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_SHADOWS_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "28_Comment",
+        "SourceString": "04月17日　Event_Main_110_010_C＿病院にて目覚める主人公、ゆかりと話す",
+        "LocalizedString": "04月17日　Event_Main_110_010_C＿病院にて目覚める主人公、ゆかりと話す"
+      }
+    },
+    "29": {
+      "SortID": 35,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_SHADOWS_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "29_Comment",
+        "SourceString": "06月20日　Event_Main_130_070_C＿幾月によるボスシャドウについての説明",
+        "LocalizedString": "06月20日　Event_Main_130_070_C＿幾月によるボスシャドウについての説明"
+      }
+    },
+    "30": {
+      "SortID": 36,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_SEES",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "30_Comment",
+        "SourceString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる",
+        "LocalizedString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる"
+      }
+    },
+    "31": {
+      "SortID": 37,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_EVOKER",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "31_Comment",
+        "SourceString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる",
+        "LocalizedString": "04月18日　Event_Main_110_020_C＿影時間とＳＥＥＳについて明かされる"
+      }
+    },
+    "32": {
+      "SortID": 38,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_TARTARUS",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "32_Comment",
+        "SourceString": "04月18日　Event_Main_110_050_C＿順平が入隊、全員でタルタロスへ",
+        "LocalizedString": "04月18日　Event_Main_110_050_C＿順平が入隊、全員でタルタロスへ"
+      }
+    },
+    "33": {
+      "SortID": 39,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_KIRIJOGROUP",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "33_Comment",
+        "SourceString": "04月21日　Event_Main_110_140_C＿美鶴の生徒会長就任あいさつ",
+        "LocalizedString": "04月21日　Event_Main_110_140_C＿美鶴の生徒会長就任あいさつ"
+      }
+    },
+    "34": {
+      "SortID": 40,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_FULLMOON_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "34_Comment",
+        "SourceString": "05月02日　Event_Main_110_200_C＿ファルロスの満月予告",
+        "LocalizedString": "05月02日　Event_Main_110_200_C＿ファルロスの満月予告"
+      }
+    },
+    "35": {
+      "SortID": 41,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_FULLMOON_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "35_Comment",
+        "SourceString": "06月11日　Event_Main_130_040_C＿ファルロスからの啓示",
+        "LocalizedString": "06月11日　Event_Main_130_040_C＿ファルロスからの啓示"
+      }
+    },
+    "36": {
+      "SortID": 42,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_CALLOFSHADOWS",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "36_Comment",
+        "SourceString": "06月08日　Event_Main_120_100_C＿山岸風花についての真相",
+        "LocalizedString": "06月08日　Event_Main_120_100_C＿山岸風花についての真相"
+      }
+    },
+    "37": {
+      "SortID": 43,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_THEURGY",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "37_Comment",
+        "SourceString": "06月13日　Event_Extr_410_030_C＿メイン追加／テウルギア解禁・幾月から新装備を渡される",
+        "LocalizedString": "06月13日　Event_Extr_410_030_C＿メイン追加／テウルギア解禁・幾月から新装備を渡される"
+      }
+    },
+    "38": {
+      "SortID": 44,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_NEWCOSTUME",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "38_Comment",
+        "SourceString": "06月13日　Event_Extr_410_030_C＿メイン追加／テウルギア解禁・幾月から新装備を渡される",
+        "LocalizedString": "06月13日　Event_Extr_410_030_C＿メイン追加／テウルギア解禁・幾月から新装備を渡される"
+      }
+    },
+    "39": {
+      "SortID": 45,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_INCIDENT",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "39_Comment",
+        "SourceString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる",
+        "LocalizedString": "07月11日　Event_Main_140_040_C＿満月ボスを倒せば影時間が消せる"
+      }
+    },
+    "40": {
+      "SortID": 46,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_NANJOKIRIJO",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "40_Comment",
+        "SourceString": "07月20日　Event_Main_140_190_C＿武治が美鶴に皆を集めろと指示",
+        "LocalizedString": "07月20日　Event_Main_140_190_C＿武治が美鶴に皆を集めろと指示"
+      }
+    },
+    "41": {
+      "SortID": 47,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_TIMEDEVICE",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "41_Comment",
+        "SourceString": "07月20日　Event_Main_140_200_C＿桐条の実験について明かされる",
+        "LocalizedString": "07月20日　Event_Main_140_200_C＿桐条の実験について明かされる"
+      }
+    },
+    "42": {
+      "SortID": 48,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_AEGIS",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "42_Comment",
+        "SourceString": "07月21日　Event_Main_140_330_C＿アイギスの自己紹介",
+        "LocalizedString": "07月21日　Event_Main_140_330_C＿アイギスの自己紹介"
+      }
+    },
+    "43": {
+      "SortID": 49,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_ANTISHADOWWEAPON",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "43_Comment",
+        "SourceString": "07月21日　Event_Main_140_330_C＿アイギスの自己紹介",
+        "LocalizedString": "07月21日　Event_Main_140_330_C＿アイギスの自己紹介"
+      }
+    },
+    "44": {
+      "SortID": 50,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_STREGA_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "44_Comment",
+        "SourceString": "08月06日　Event_Main_150_090_C＿ストレガ初対面、閉じ込められる",
+        "LocalizedString": "08月06日　Event_Main_150_090_C＿ストレガ初対面、閉じ込められる"
+      }
+    },
+    "45": {
+      "SortID": 51,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_STREGA_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "45_Comment",
+        "SourceString": "09月06日　Event_Main_170_010_C＿チドリの取り調べ１、黙秘",
+        "LocalizedString": "09月06日　Event_Main_170_010_C＿チドリの取り調べ１、黙秘"
+      }
+    },
+    "46": {
+      "SortID": 52,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_STREGA_03",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "46_Comment",
+        "SourceString": "11月03日　Event_Main_180_150_B＿橋から身を投げるストレガ",
+        "LocalizedString": "11月03日　Event_Main_180_150_B＿橋から身を投げるストレガ"
+      }
+    },
+    "47": {
+      "SortID": 53,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_STREGA_04",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "47_Comment",
+        "SourceString": "11月22日　Event_Main_200_070_A＿順平復活とチドリの死",
+        "LocalizedString": "11月22日　Event_Main_200_070_A＿順平復活とチドリの死"
+      }
+    },
+    "48": {
+      "SortID": 54,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_STREGA_CHIDORIALIVE",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "48_Comment",
+        "SourceString": "01月21日　Event_Main_210_100_C＿チドリ蘇生イベント４、チドリ、前向きに",
+        "LocalizedString": "01月21日　Event_Main_210_100_C＿チドリ蘇生イベント４、チドリ、前向きに"
+      }
+    },
+    "49": {
+      "SortID": 55,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_STREGA_CHIDORIDEAD",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "49_Comment",
+        "SourceString": "01月21日　Event_Main_210_070_C＿はがくれで食事、ストレガの情報",
+        "LocalizedString": "01月21日　Event_Main_210_070_C＿はがくれで食事、ストレガの情報"
+      }
+    },
+    "50": {
+      "SortID": 56,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_TAKAYASLETTER_00",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "50_Comment",
+        "SourceString": "12月 デス覚醒後ハラバ後半・最上階　(最短獲得12月)",
+        "LocalizedString": "12月 デス覚醒後ハラバ後半・最上階　(最短獲得12月)"
+      }
+    },
+    "51": {
+      "SortID": 57,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_TAKAYASLETTER_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "51_Comment",
+        "SourceString": "08月20日　Event_Extr_400_037_C＿メイン追加／ストレガ・8月２０日_３_３",
+        "LocalizedString": "08月20日　Event_Extr_400_037_C＿メイン追加／ストレガ・8月２０日_３_３"
+      }
+    },
+    "52": {
+      "SortID": 58,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_SUPPRESSANT",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "52_Comment",
+        "SourceString": "09月10日　Event_Main_170_040_C＿荒垣の制御剤使用が真田に発覚",
+        "LocalizedString": "09月10日　Event_Main_170_040_C＿荒垣の制御剤使用が真田に発覚"
+      }
+    },
+    "53": {
+      "SortID": 59,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_ACCIDENT",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "53_Comment",
+        "SourceString": "10月04日　Event_Main_170_150_C＿２年前の事件を話す美鶴",
+        "LocalizedString": "10月04日　Event_Main_170_150_C＿２年前の事件を話す美鶴"
+      }
+    },
+    "54": {
+      "SortID": 60,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_DEATH_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "54_Comment",
+        "SourceString": "11月04日　Event_Main_190_060_C＿幾月の正体",
+        "LocalizedString": "11月04日　Event_Main_190_060_C＿幾月の正体"
+      }
+    },
+    "55": {
+      "SortID": 61,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_DEATH_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "55_Comment",
+        "SourceString": "12月03日　Event_Main_200_130_M＿対峙するアイギスと綾時　Event_Main_200_150_C＿破損したアイギスと綾時の正体",
+        "LocalizedString": "12月03日　Event_Main_200_130_M＿対峙するアイギスと綾時　Event_Main_200_150_C＿破損したアイギスと綾時の正体"
+      }
+    },
+    "56": {
+      "SortID": 62,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_Nyx",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "56_Comment",
+        "SourceString": "12月03日　Event_Main_200_170_C＿綾時、滅びについて説明",
+        "LocalizedString": "12月03日　Event_Main_200_170_C＿綾時、滅びについて説明"
+      }
+    },
+    "57": {
+      "SortID": 63,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_NEWYEARSEVE",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "57_Comment",
+        "SourceString": "12月03日　Event_Main_200_170_C＿綾時、滅びについて説明",
+        "LocalizedString": "12月03日　Event_Main_200_170_C＿綾時、滅びについて説明"
+      }
+    },
+    "58": {
+      "SortID": 64,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_ENDOFWORLD",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "58_Comment",
+        "SourceString": "12月31日　Event_Main_200_260_C＿ニュクスの元へ行く方法",
+        "LocalizedString": "12月31日　Event_Main_200_260_C＿ニュクスの元へ行く方法"
+      }
+    },
+    "59": {
+      "SortID": 65,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_GRADUATIONCEREMONY",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "59_Comment",
+        "SourceString": "01月31日　Event_Main_210_130_C＿決戦の日、またみんなで会う。",
+        "LocalizedString": "01月31日　Event_Main_210_130_C＿決戦の日、またみんなで会う。"
+      }
+    },
+    "60": {
+      "SortID": 9,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_MONADO_NOTE_01",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "60_Comment",
+        "SourceString": "配布時期：ツイア前半　研究の動機",
+        "LocalizedString": "配布時期：ツイア前半　研究の動機"
+      }
+    },
+    "61": {
+      "SortID": 10,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_MONADO_NOTE_02",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "61_Comment",
+        "SourceString": "配布時期：ヤバザ前半　モナドに強敵シャドウがいる原因",
+        "LocalizedString": "配布時期：ヤバザ前半　モナドに強敵シャドウがいる原因"
+      }
+    },
+    "62": {
+      "SortID": 11,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_MONADO_NOTE_03",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "62_Comment",
+        "SourceString": "配布時期：ヤバザ後半　シャドウの真実",
+        "LocalizedString": "配布時期：ヤバザ後半　シャドウの真実"
+      }
+    },
+    "63": {
+      "SortID": 12,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_MONADO_NOTE_04",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "63_Comment",
+        "SourceString": "配布時期：ハラバ前半　滅びの考察１/研究続行の悩み",
+        "LocalizedString": "配布時期：ハラバ前半　滅びの考察１/研究続行の悩み"
+      }
+    },
+    "64": {
+      "SortID": 13,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_MONADO_NOTE_05",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "64_Comment",
+        "SourceString": "配布時期：ハラバ後半　滅びの考察２/決断",
+        "LocalizedString": "配布時期：ハラバ後半　滅びの考察２/決断"
+      }
+    },
+    "65": {
+      "SortID": 14,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_DICTIONARY_MONADO_NOTE_06",
+      "Comment": {
+        "Namespace": "DT_DictionaryTable",
+        "Key": "65_Comment",
+        "SourceString": "配布時期：ツイア後半　１０年前の事件前日",
+        "LocalizedString": "配布時期：ツイア後半　１０年前の事件前日"
+      }
+    }
+  }
+}

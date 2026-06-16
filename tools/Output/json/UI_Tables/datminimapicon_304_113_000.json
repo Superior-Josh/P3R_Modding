@@ -1,0 +1,69 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_304_113_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "DOWN",
+        "SprType": 1,
+        "SprNo": 12,
+        "X": -154.0,
+        "Y": 215.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "下り階段",
+        "SprType": 0,
+        "SprNo": 45,
+        "X": -48.0,
+        "Y": 213.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": -113.0,
+        "Y": 72.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_3F_MISS_FLOOR_ICON_ON",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": 16.0,
+        "Y": -31.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_3F_MISS_FLOOR_ICON_ON",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": 162.0,
+        "Y": -28.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_GOAL_IS_BREAK_3F",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": 43.0,
+        "Y": 117.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_3F_MISS_FLOOR_ICON_ON",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

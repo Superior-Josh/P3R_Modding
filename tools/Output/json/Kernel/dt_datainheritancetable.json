@@ -1,0 +1,2589 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_DataInheritanceTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'GlobalGameDataInheritanceTableRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "KIN_00000001": {
+      "Type": 0,
+      "Parameter": 1073741873
+    },
+    "KIN_00000002": {
+      "Type": 0,
+      "Parameter": 1073741870
+    },
+    "KIN_00000003": {
+      "Type": 0,
+      "Parameter": 1073741871
+    },
+    "KIN_00000004": {
+      "Type": 0,
+      "Parameter": 1073741872
+    },
+    "KIN_00000005": {
+      "Type": 0,
+      "Parameter": 1073741887
+    },
+    "KIN_00000006": {
+      "Type": 0,
+      "Parameter": 1342177439
+    },
+    "KIN_00000007": {
+      "Type": 0,
+      "Parameter": 1342177440
+    },
+    "KIN_00000008": {
+      "Type": 0,
+      "Parameter": 1342177441
+    },
+    "KIN_00000009": {
+      "Type": 0,
+      "Parameter": 1342177442
+    },
+    "KIN_00000010": {
+      "Type": 0,
+      "Parameter": 1342177443
+    },
+    "KIN_00000011": {
+      "Type": 0,
+      "Parameter": 1342177444
+    },
+    "KIN_00000012": {
+      "Type": 0,
+      "Parameter": 1342177445
+    },
+    "KIN_00000013": {
+      "Type": 0,
+      "Parameter": 1342177446
+    },
+    "KIN_00000014": {
+      "Type": 0,
+      "Parameter": 1342177447
+    },
+    "KIN_00000015": {
+      "Type": 0,
+      "Parameter": 1342177448
+    },
+    "KIN_00000016": {
+      "Type": 0,
+      "Parameter": 1342177449
+    },
+    "KIN_00000017": {
+      "Type": 0,
+      "Parameter": 1342177450
+    },
+    "KIN_00000018": {
+      "Type": 0,
+      "Parameter": 1342177451
+    },
+    "KIN_00000019": {
+      "Type": 0,
+      "Parameter": 1342177452
+    },
+    "KIN_01000001": {
+      "Type": 1,
+      "Parameter": 1073741888
+    },
+    "KIN_01000002": {
+      "Type": 1,
+      "Parameter": 1073741889
+    },
+    "KIN_01000003": {
+      "Type": 1,
+      "Parameter": 1073741890
+    },
+    "KIN_01000004": {
+      "Type": 1,
+      "Parameter": 1073741989
+    },
+    "KIN_01000005": {
+      "Type": 1,
+      "Parameter": 268436288
+    },
+    "KIN_01000006": {
+      "Type": 1,
+      "Parameter": 268436289
+    },
+    "KIN_01000007": {
+      "Type": 1,
+      "Parameter": 268436290
+    },
+    "KIN_01000008": {
+      "Type": 1,
+      "Parameter": 268436291
+    },
+    "KIN_01000009": {
+      "Type": 1,
+      "Parameter": 268436292
+    },
+    "KIN_01000010": {
+      "Type": 1,
+      "Parameter": 268436293
+    },
+    "KIN_01000011": {
+      "Type": 1,
+      "Parameter": 268436294
+    },
+    "KIN_01000012": {
+      "Type": 1,
+      "Parameter": 268436295
+    },
+    "KIN_01000013": {
+      "Type": 1,
+      "Parameter": 268436296
+    },
+    "KIN_01000014": {
+      "Type": 1,
+      "Parameter": 268436297
+    },
+    "KIN_01000015": {
+      "Type": 1,
+      "Parameter": 268436298
+    },
+    "KIN_01000016": {
+      "Type": 1,
+      "Parameter": 268436299
+    },
+    "KIN_01000017": {
+      "Type": 1,
+      "Parameter": 268436300
+    },
+    "KIN_01000018": {
+      "Type": 1,
+      "Parameter": 268436301
+    },
+    "KIN_01000019": {
+      "Type": 1,
+      "Parameter": 268436302
+    },
+    "KIN_01000020": {
+      "Type": 1,
+      "Parameter": 268436303
+    },
+    "KIN_01000021": {
+      "Type": 1,
+      "Parameter": 268436304
+    },
+    "KIN_01000022": {
+      "Type": 1,
+      "Parameter": 268436305
+    },
+    "KIN_01000023": {
+      "Type": 1,
+      "Parameter": 268436306
+    },
+    "KIN_01000024": {
+      "Type": 1,
+      "Parameter": 268436307
+    },
+    "KIN_01000025": {
+      "Type": 1,
+      "Parameter": 268436308
+    },
+    "KIN_01000026": {
+      "Type": 1,
+      "Parameter": 268436309
+    },
+    "KIN_01000027": {
+      "Type": 1,
+      "Parameter": 536874385
+    },
+    "KIN_11000001": {
+      "Type": 11,
+      "Parameter": 16385
+    },
+    "KIN_11000002": {
+      "Type": 11,
+      "Parameter": 16386
+    },
+    "KIN_11000003": {
+      "Type": 11,
+      "Parameter": 16387
+    },
+    "KIN_11000004": {
+      "Type": 11,
+      "Parameter": 16388
+    },
+    "KIN_11000005": {
+      "Type": 11,
+      "Parameter": 16389
+    },
+    "KIN_11000006": {
+      "Type": 11,
+      "Parameter": 16390
+    },
+    "KIN_11000007": {
+      "Type": 11,
+      "Parameter": 16391
+    },
+    "KIN_11000008": {
+      "Type": 11,
+      "Parameter": 16392
+    },
+    "KIN_11000009": {
+      "Type": 11,
+      "Parameter": 16393
+    },
+    "KIN_11000010": {
+      "Type": 11,
+      "Parameter": 16394
+    },
+    "KIN_11000011": {
+      "Type": 11,
+      "Parameter": 16395
+    },
+    "KIN_11000012": {
+      "Type": 11,
+      "Parameter": 16396
+    },
+    "KIN_11000013": {
+      "Type": 11,
+      "Parameter": 16397
+    },
+    "KIN_11000014": {
+      "Type": 11,
+      "Parameter": 16398
+    },
+    "KIN_11000015": {
+      "Type": 11,
+      "Parameter": 16399
+    },
+    "KIN_11000016": {
+      "Type": 11,
+      "Parameter": 16400
+    },
+    "KIN_11000017": {
+      "Type": 11,
+      "Parameter": 16401
+    },
+    "KIN_11000018": {
+      "Type": 11,
+      "Parameter": 16402
+    },
+    "KIN_11000019": {
+      "Type": 11,
+      "Parameter": 16403
+    },
+    "KIN_11000020": {
+      "Type": 11,
+      "Parameter": 16404
+    },
+    "KIN_11000021": {
+      "Type": 11,
+      "Parameter": 16405
+    },
+    "KIN_11000022": {
+      "Type": 11,
+      "Parameter": 16406
+    },
+    "KIN_11000023": {
+      "Type": 11,
+      "Parameter": 16407
+    },
+    "KIN_11000024": {
+      "Type": 11,
+      "Parameter": 16408
+    },
+    "KIN_11000025": {
+      "Type": 11,
+      "Parameter": 16409
+    },
+    "KIN_11000026": {
+      "Type": 11,
+      "Parameter": 16410
+    },
+    "KIN_11000027": {
+      "Type": 11,
+      "Parameter": 16411
+    },
+    "KIN_11000028": {
+      "Type": 11,
+      "Parameter": 16412
+    },
+    "KIN_11000029": {
+      "Type": 11,
+      "Parameter": 16413
+    },
+    "KIN_11000030": {
+      "Type": 11,
+      "Parameter": 16414
+    },
+    "KIN_11000031": {
+      "Type": 11,
+      "Parameter": 16415
+    },
+    "KIN_11000032": {
+      "Type": 11,
+      "Parameter": 16416
+    },
+    "KIN_11000033": {
+      "Type": 11,
+      "Parameter": 16417
+    },
+    "KIN_11000034": {
+      "Type": 11,
+      "Parameter": 16418
+    },
+    "KIN_11000035": {
+      "Type": 11,
+      "Parameter": 16419
+    },
+    "KIN_11000036": {
+      "Type": 11,
+      "Parameter": 16420
+    },
+    "KIN_11000037": {
+      "Type": 11,
+      "Parameter": 16421
+    },
+    "KIN_11000038": {
+      "Type": 11,
+      "Parameter": 16422
+    },
+    "KIN_11000039": {
+      "Type": 11,
+      "Parameter": 16423
+    },
+    "KIN_11000040": {
+      "Type": 11,
+      "Parameter": 16424
+    },
+    "KIN_11000041": {
+      "Type": 11,
+      "Parameter": 16425
+    },
+    "KIN_11000042": {
+      "Type": 11,
+      "Parameter": 16426
+    },
+    "KIN_11000043": {
+      "Type": 11,
+      "Parameter": 16427
+    },
+    "KIN_11000044": {
+      "Type": 11,
+      "Parameter": 16428
+    },
+    "KIN_11000045": {
+      "Type": 11,
+      "Parameter": 16429
+    },
+    "KIN_11000046": {
+      "Type": 11,
+      "Parameter": 16430
+    },
+    "KIN_11000047": {
+      "Type": 11,
+      "Parameter": 16431
+    },
+    "KIN_11000048": {
+      "Type": 11,
+      "Parameter": 16432
+    },
+    "KIN_11000049": {
+      "Type": 11,
+      "Parameter": 16433
+    },
+    "KIN_11000050": {
+      "Type": 11,
+      "Parameter": 16434
+    },
+    "KIN_11000051": {
+      "Type": 11,
+      "Parameter": 16435
+    },
+    "KIN_11000052": {
+      "Type": 11,
+      "Parameter": 16436
+    },
+    "KIN_11000053": {
+      "Type": 11,
+      "Parameter": 16437
+    },
+    "KIN_11000054": {
+      "Type": 11,
+      "Parameter": 16438
+    },
+    "KIN_11000055": {
+      "Type": 11,
+      "Parameter": 16439
+    },
+    "KIN_11000056": {
+      "Type": 11,
+      "Parameter": 16440
+    },
+    "KIN_11000057": {
+      "Type": 11,
+      "Parameter": 16441
+    },
+    "KIN_11000058": {
+      "Type": 11,
+      "Parameter": 16442
+    },
+    "KIN_11000059": {
+      "Type": 11,
+      "Parameter": 16443
+    },
+    "KIN_11000060": {
+      "Type": 11,
+      "Parameter": 16444
+    },
+    "KIN_11000061": {
+      "Type": 11,
+      "Parameter": 16445
+    },
+    "KIN_11000062": {
+      "Type": 11,
+      "Parameter": 16447
+    },
+    "KIN_11000063": {
+      "Type": 11,
+      "Parameter": 16448
+    },
+    "KIN_11000064": {
+      "Type": 11,
+      "Parameter": 16449
+    },
+    "KIN_11000065": {
+      "Type": 11,
+      "Parameter": 16450
+    },
+    "KIN_11000066": {
+      "Type": 11,
+      "Parameter": 16451
+    },
+    "KIN_11000067": {
+      "Type": 11,
+      "Parameter": 16452
+    },
+    "KIN_11000068": {
+      "Type": 11,
+      "Parameter": 16453
+    },
+    "KIN_11000069": {
+      "Type": 11,
+      "Parameter": 16454
+    },
+    "KIN_11000070": {
+      "Type": 11,
+      "Parameter": 16455
+    },
+    "KIN_11000071": {
+      "Type": 11,
+      "Parameter": 16457
+    },
+    "KIN_11000072": {
+      "Type": 11,
+      "Parameter": 16458
+    },
+    "KIN_11000073": {
+      "Type": 11,
+      "Parameter": 16459
+    },
+    "KIN_11000074": {
+      "Type": 11,
+      "Parameter": 16460
+    },
+    "KIN_11000075": {
+      "Type": 11,
+      "Parameter": 16461
+    },
+    "KIN_11000076": {
+      "Type": 11,
+      "Parameter": 16462
+    },
+    "KIN_11000077": {
+      "Type": 11,
+      "Parameter": 16463
+    },
+    "KIN_11000078": {
+      "Type": 11,
+      "Parameter": 16464
+    },
+    "KIN_11000079": {
+      "Type": 11,
+      "Parameter": 16465
+    },
+    "KIN_11000080": {
+      "Type": 11,
+      "Parameter": 16466
+    },
+    "KIN_11000081": {
+      "Type": 11,
+      "Parameter": 16467
+    },
+    "KIN_11000082": {
+      "Type": 11,
+      "Parameter": 16469
+    },
+    "KIN_11000083": {
+      "Type": 11,
+      "Parameter": 16471
+    },
+    "KIN_11000084": {
+      "Type": 11,
+      "Parameter": 16472
+    },
+    "KIN_11000085": {
+      "Type": 11,
+      "Parameter": 16473
+    },
+    "KIN_11000086": {
+      "Type": 11,
+      "Parameter": 16474
+    },
+    "KIN_11000087": {
+      "Type": 11,
+      "Parameter": 16475
+    },
+    "KIN_11000088": {
+      "Type": 11,
+      "Parameter": 16478
+    },
+    "KIN_11000089": {
+      "Type": 11,
+      "Parameter": 16479
+    },
+    "KIN_11000090": {
+      "Type": 11,
+      "Parameter": 16480
+    },
+    "KIN_11000091": {
+      "Type": 11,
+      "Parameter": 16481
+    },
+    "KIN_11000092": {
+      "Type": 11,
+      "Parameter": 16483
+    },
+    "KIN_11000093": {
+      "Type": 11,
+      "Parameter": 16484
+    },
+    "KIN_11000094": {
+      "Type": 11,
+      "Parameter": 16485
+    },
+    "KIN_11000095": {
+      "Type": 11,
+      "Parameter": 16486
+    },
+    "KIN_11000096": {
+      "Type": 11,
+      "Parameter": 16487
+    },
+    "KIN_11000097": {
+      "Type": 11,
+      "Parameter": 16488
+    },
+    "KIN_11000098": {
+      "Type": 11,
+      "Parameter": 16489
+    },
+    "KIN_11000099": {
+      "Type": 11,
+      "Parameter": 16490
+    },
+    "KIN_11000100": {
+      "Type": 11,
+      "Parameter": 16491
+    },
+    "KIN_11000101": {
+      "Type": 11,
+      "Parameter": 16492
+    },
+    "KIN_11000102": {
+      "Type": 11,
+      "Parameter": 16493
+    },
+    "KIN_11000103": {
+      "Type": 11,
+      "Parameter": 16494
+    },
+    "KIN_11000104": {
+      "Type": 11,
+      "Parameter": 16495
+    },
+    "KIN_11000105": {
+      "Type": 11,
+      "Parameter": 16496
+    },
+    "KIN_11000106": {
+      "Type": 11,
+      "Parameter": 16497
+    },
+    "KIN_11000107": {
+      "Type": 11,
+      "Parameter": 16498
+    },
+    "KIN_11000108": {
+      "Type": 11,
+      "Parameter": 16499
+    },
+    "KIN_11000109": {
+      "Type": 11,
+      "Parameter": 16500
+    },
+    "KIN_11000110": {
+      "Type": 11,
+      "Parameter": 16501
+    },
+    "KIN_11000111": {
+      "Type": 11,
+      "Parameter": 16502
+    },
+    "KIN_11000112": {
+      "Type": 11,
+      "Parameter": 16503
+    },
+    "KIN_11000113": {
+      "Type": 11,
+      "Parameter": 16504
+    },
+    "KIN_11000114": {
+      "Type": 11,
+      "Parameter": 16505
+    },
+    "KIN_11000115": {
+      "Type": 11,
+      "Parameter": 16506
+    },
+    "KIN_11000116": {
+      "Type": 11,
+      "Parameter": 16507
+    },
+    "KIN_11000117": {
+      "Type": 11,
+      "Parameter": 16508
+    },
+    "KIN_11000118": {
+      "Type": 11,
+      "Parameter": 16509
+    },
+    "KIN_11000119": {
+      "Type": 11,
+      "Parameter": 16510
+    },
+    "KIN_11000120": {
+      "Type": 11,
+      "Parameter": 16511
+    },
+    "KIN_11000121": {
+      "Type": 11,
+      "Parameter": 16512
+    },
+    "KIN_11000122": {
+      "Type": 11,
+      "Parameter": 16513
+    },
+    "KIN_11000123": {
+      "Type": 11,
+      "Parameter": 16514
+    },
+    "KIN_11000124": {
+      "Type": 11,
+      "Parameter": 16515
+    },
+    "KIN_11000125": {
+      "Type": 11,
+      "Parameter": 16516
+    },
+    "KIN_11000126": {
+      "Type": 11,
+      "Parameter": 16517
+    },
+    "KIN_11000127": {
+      "Type": 11,
+      "Parameter": 16518
+    },
+    "KIN_11000128": {
+      "Type": 11,
+      "Parameter": 16519
+    },
+    "KIN_11000129": {
+      "Type": 11,
+      "Parameter": 16520
+    },
+    "KIN_11000130": {
+      "Type": 11,
+      "Parameter": 16521
+    },
+    "KIN_11000131": {
+      "Type": 11,
+      "Parameter": 16522
+    },
+    "KIN_11000132": {
+      "Type": 11,
+      "Parameter": 16524
+    },
+    "KIN_11000133": {
+      "Type": 11,
+      "Parameter": 16528
+    },
+    "KIN_11000134": {
+      "Type": 11,
+      "Parameter": 16529
+    },
+    "KIN_11000135": {
+      "Type": 11,
+      "Parameter": 16530
+    },
+    "KIN_11000136": {
+      "Type": 11,
+      "Parameter": 16531
+    },
+    "KIN_11000137": {
+      "Type": 11,
+      "Parameter": 16532
+    },
+    "KIN_11000138": {
+      "Type": 11,
+      "Parameter": 16533
+    },
+    "KIN_11000139": {
+      "Type": 11,
+      "Parameter": 16534
+    },
+    "KIN_11000140": {
+      "Type": 11,
+      "Parameter": 16535
+    },
+    "KIN_11000141": {
+      "Type": 11,
+      "Parameter": 16536
+    },
+    "KIN_11000142": {
+      "Type": 11,
+      "Parameter": 16537
+    },
+    "KIN_11000143": {
+      "Type": 11,
+      "Parameter": 16538
+    },
+    "KIN_11000144": {
+      "Type": 11,
+      "Parameter": 16546
+    },
+    "KIN_11000145": {
+      "Type": 11,
+      "Parameter": 16547
+    },
+    "KIN_11000146": {
+      "Type": 11,
+      "Parameter": 16548
+    },
+    "KIN_11000147": {
+      "Type": 11,
+      "Parameter": 16549
+    },
+    "KIN_11000148": {
+      "Type": 11,
+      "Parameter": 16550
+    },
+    "KIN_11000149": {
+      "Type": 11,
+      "Parameter": 16551
+    },
+    "KIN_11000150": {
+      "Type": 11,
+      "Parameter": 16553
+    },
+    "KIN_11000151": {
+      "Type": 11,
+      "Parameter": 16554
+    },
+    "KIN_11000152": {
+      "Type": 11,
+      "Parameter": 16555
+    },
+    "KIN_11000153": {
+      "Type": 11,
+      "Parameter": 16556
+    },
+    "KIN_11000154": {
+      "Type": 11,
+      "Parameter": 16557
+    },
+    "KIN_11000155": {
+      "Type": 11,
+      "Parameter": 16558
+    },
+    "KIN_11000156": {
+      "Type": 11,
+      "Parameter": 16559
+    },
+    "KIN_11000157": {
+      "Type": 11,
+      "Parameter": 16560
+    },
+    "KIN_11000158": {
+      "Type": 11,
+      "Parameter": 16561
+    },
+    "KIN_11000159": {
+      "Type": 11,
+      "Parameter": 16562
+    },
+    "KIN_11000160": {
+      "Type": 11,
+      "Parameter": 16563
+    },
+    "KIN_11000161": {
+      "Type": 11,
+      "Parameter": 16564
+    },
+    "KIN_11000162": {
+      "Type": 11,
+      "Parameter": 16565
+    },
+    "KIN_11000163": {
+      "Type": 11,
+      "Parameter": 16566
+    },
+    "KIN_11000164": {
+      "Type": 11,
+      "Parameter": 16567
+    },
+    "KIN_11000165": {
+      "Type": 11,
+      "Parameter": 16568
+    },
+    "KIN_11000166": {
+      "Type": 11,
+      "Parameter": 16569
+    },
+    "KIN_11000167": {
+      "Type": 11,
+      "Parameter": 16570
+    },
+    "KIN_11000168": {
+      "Type": 11,
+      "Parameter": 16571
+    },
+    "KIN_11000169": {
+      "Type": 11,
+      "Parameter": 16572
+    },
+    "KIN_11000170": {
+      "Type": 11,
+      "Parameter": 16573
+    },
+    "KIN_11000171": {
+      "Type": 11,
+      "Parameter": 16574
+    },
+    "KIN_11000172": {
+      "Type": 11,
+      "Parameter": 16575
+    },
+    "KIN_11000173": {
+      "Type": 11,
+      "Parameter": 16576
+    },
+    "KIN_11000174": {
+      "Type": 11,
+      "Parameter": 16577
+    },
+    "KIN_11000175": {
+      "Type": 11,
+      "Parameter": 16578
+    },
+    "KIN_11000176": {
+      "Type": 11,
+      "Parameter": 16579
+    },
+    "KIN_11000177": {
+      "Type": 11,
+      "Parameter": 16580
+    },
+    "KIN_11000178": {
+      "Type": 11,
+      "Parameter": 16581
+    },
+    "KIN_11000179": {
+      "Type": 11,
+      "Parameter": 16582
+    },
+    "KIN_11000180": {
+      "Type": 11,
+      "Parameter": 16583
+    },
+    "KIN_11000181": {
+      "Type": 11,
+      "Parameter": 16584
+    },
+    "KIN_11000182": {
+      "Type": 11,
+      "Parameter": 16585
+    },
+    "KIN_11000183": {
+      "Type": 11,
+      "Parameter": 16586
+    },
+    "KIN_11000184": {
+      "Type": 11,
+      "Parameter": 16587
+    },
+    "KIN_11000185": {
+      "Type": 11,
+      "Parameter": 16588
+    },
+    "KIN_11000186": {
+      "Type": 11,
+      "Parameter": 16589
+    },
+    "KIN_11000187": {
+      "Type": 11,
+      "Parameter": 16590
+    },
+    "KIN_11000188": {
+      "Type": 11,
+      "Parameter": 16591
+    },
+    "KIN_11000189": {
+      "Type": 11,
+      "Parameter": 16592
+    },
+    "KIN_11000190": {
+      "Type": 11,
+      "Parameter": 16593
+    },
+    "KIN_11000191": {
+      "Type": 11,
+      "Parameter": 16594
+    },
+    "KIN_11000192": {
+      "Type": 11,
+      "Parameter": 16595
+    },
+    "KIN_11000193": {
+      "Type": 11,
+      "Parameter": 16596
+    },
+    "KIN_11000194": {
+      "Type": 11,
+      "Parameter": 16597
+    },
+    "KIN_11000195": {
+      "Type": 11,
+      "Parameter": 16598
+    },
+    "KIN_11000196": {
+      "Type": 11,
+      "Parameter": 16599
+    },
+    "KIN_11000197": {
+      "Type": 11,
+      "Parameter": 16600
+    },
+    "KIN_11000198": {
+      "Type": 11,
+      "Parameter": 16601
+    },
+    "KIN_11000199": {
+      "Type": 11,
+      "Parameter": 16622
+    },
+    "KIN_11000200": {
+      "Type": 11,
+      "Parameter": 16623
+    },
+    "KIN_11000201": {
+      "Type": 11,
+      "Parameter": 16624
+    },
+    "KIN_11000202": {
+      "Type": 11,
+      "Parameter": 16625
+    },
+    "KIN_11000203": {
+      "Type": 11,
+      "Parameter": 16626
+    },
+    "KIN_11000204": {
+      "Type": 11,
+      "Parameter": 16627
+    },
+    "KIN_11000205": {
+      "Type": 11,
+      "Parameter": 16628
+    },
+    "KIN_11000206": {
+      "Type": 11,
+      "Parameter": 16629
+    },
+    "KIN_11000207": {
+      "Type": 11,
+      "Parameter": 16630
+    },
+    "KIN_11000208": {
+      "Type": 11,
+      "Parameter": 16631
+    },
+    "KIN_11000209": {
+      "Type": 11,
+      "Parameter": 16632
+    },
+    "KIN_11000210": {
+      "Type": 11,
+      "Parameter": 16633
+    },
+    "KIN_11000211": {
+      "Type": 11,
+      "Parameter": 16634
+    },
+    "KIN_11000212": {
+      "Type": 11,
+      "Parameter": 16635
+    },
+    "KIN_11000213": {
+      "Type": 11,
+      "Parameter": 16636
+    },
+    "KIN_11000214": {
+      "Type": 11,
+      "Parameter": 16637
+    },
+    "KIN_11000215": {
+      "Type": 11,
+      "Parameter": 16657
+    },
+    "KIN_11000216": {
+      "Type": 11,
+      "Parameter": 16658
+    },
+    "KIN_11000217": {
+      "Type": 11,
+      "Parameter": 16659
+    },
+    "KIN_11000218": {
+      "Type": 11,
+      "Parameter": 16660
+    },
+    "KIN_11000219": {
+      "Type": 11,
+      "Parameter": 16661
+    },
+    "KIN_11000220": {
+      "Type": 11,
+      "Parameter": 16662
+    },
+    "KIN_11000221": {
+      "Type": 11,
+      "Parameter": 16667
+    },
+    "KIN_11000222": {
+      "Type": 11,
+      "Parameter": 16684
+    },
+    "KIN_11000223": {
+      "Type": 11,
+      "Parameter": 16685
+    },
+    "KIN_11000224": {
+      "Type": 11,
+      "Parameter": 16686
+    },
+    "KIN_11000225": {
+      "Type": 11,
+      "Parameter": 16687
+    },
+    "KIN_11000226": {
+      "Type": 11,
+      "Parameter": 16688
+    },
+    "KIN_11000227": {
+      "Type": 11,
+      "Parameter": 16689
+    },
+    "KIN_11000228": {
+      "Type": 11,
+      "Parameter": 16690
+    },
+    "KIN_11000229": {
+      "Type": 11,
+      "Parameter": 16691
+    },
+    "KIN_11000230": {
+      "Type": 11,
+      "Parameter": 16692
+    },
+    "KIN_11000231": {
+      "Type": 11,
+      "Parameter": 16693
+    },
+    "KIN_11000232": {
+      "Type": 11,
+      "Parameter": 16694
+    },
+    "KIN_11000233": {
+      "Type": 11,
+      "Parameter": 16695
+    },
+    "KIN_11000234": {
+      "Type": 11,
+      "Parameter": 16696
+    },
+    "KIN_11000235": {
+      "Type": 11,
+      "Parameter": 16697
+    },
+    "KIN_11000236": {
+      "Type": 11,
+      "Parameter": 16698
+    },
+    "KIN_11000237": {
+      "Type": 11,
+      "Parameter": 16699
+    },
+    "KIN_11000238": {
+      "Type": 11,
+      "Parameter": 16700
+    },
+    "KIN_11000239": {
+      "Type": 11,
+      "Parameter": 16701
+    },
+    "KIN_11000240": {
+      "Type": 11,
+      "Parameter": 16702
+    },
+    "KIN_11000241": {
+      "Type": 11,
+      "Parameter": 16703
+    },
+    "KIN_11000242": {
+      "Type": 11,
+      "Parameter": 16704
+    },
+    "KIN_11000243": {
+      "Type": 11,
+      "Parameter": 16705
+    },
+    "KIN_11000244": {
+      "Type": 11,
+      "Parameter": 24593
+    },
+    "KIN_11000245": {
+      "Type": 11,
+      "Parameter": 24594
+    },
+    "KIN_11000246": {
+      "Type": 11,
+      "Parameter": 24595
+    },
+    "KIN_11000247": {
+      "Type": 11,
+      "Parameter": 24596
+    },
+    "KIN_11000248": {
+      "Type": 11,
+      "Parameter": 24597
+    },
+    "KIN_11000249": {
+      "Type": 11,
+      "Parameter": 24598
+    },
+    "KIN_11000250": {
+      "Type": 11,
+      "Parameter": 24599
+    },
+    "KIN_11000251": {
+      "Type": 11,
+      "Parameter": 24609
+    },
+    "KIN_11000252": {
+      "Type": 11,
+      "Parameter": 24618
+    },
+    "KIN_11000253": {
+      "Type": 11,
+      "Parameter": 24619
+    },
+    "KIN_11000254": {
+      "Type": 11,
+      "Parameter": 24620
+    },
+    "KIN_11000255": {
+      "Type": 11,
+      "Parameter": 24621
+    },
+    "KIN_11000256": {
+      "Type": 11,
+      "Parameter": 24622
+    },
+    "KIN_11000257": {
+      "Type": 11,
+      "Parameter": 24623
+    },
+    "KIN_11000258": {
+      "Type": 11,
+      "Parameter": 24637
+    },
+    "KIN_11000259": {
+      "Type": 11,
+      "Parameter": 24639
+    },
+    "KIN_11000260": {
+      "Type": 11,
+      "Parameter": 24640
+    },
+    "KIN_11000261": {
+      "Type": 11,
+      "Parameter": 24641
+    },
+    "KIN_11000262": {
+      "Type": 11,
+      "Parameter": 24642
+    },
+    "KIN_11000263": {
+      "Type": 11,
+      "Parameter": 24644
+    },
+    "KIN_11000264": {
+      "Type": 11,
+      "Parameter": 24645
+    },
+    "KIN_11000265": {
+      "Type": 11,
+      "Parameter": 24646
+    },
+    "KIN_11000266": {
+      "Type": 11,
+      "Parameter": 24648
+    },
+    "KIN_11000267": {
+      "Type": 11,
+      "Parameter": 24649
+    },
+    "KIN_11000268": {
+      "Type": 11,
+      "Parameter": 24651
+    },
+    "KIN_11000269": {
+      "Type": 11,
+      "Parameter": 24652
+    },
+    "KIN_11000270": {
+      "Type": 11,
+      "Parameter": 24653
+    },
+    "KIN_11000271": {
+      "Type": 11,
+      "Parameter": 24657
+    },
+    "KIN_11000272": {
+      "Type": 11,
+      "Parameter": 24658
+    },
+    "KIN_11000273": {
+      "Type": 11,
+      "Parameter": 24659
+    },
+    "KIN_11000274": {
+      "Type": 11,
+      "Parameter": 24660
+    },
+    "KIN_11000275": {
+      "Type": 11,
+      "Parameter": 24661
+    },
+    "KIN_11000276": {
+      "Type": 11,
+      "Parameter": 24662
+    },
+    "KIN_11000277": {
+      "Type": 11,
+      "Parameter": 24663
+    },
+    "KIN_11000278": {
+      "Type": 11,
+      "Parameter": 24664
+    },
+    "KIN_11000279": {
+      "Type": 11,
+      "Parameter": 24665
+    },
+    "KIN_11000280": {
+      "Type": 11,
+      "Parameter": 24666
+    },
+    "KIN_11000281": {
+      "Type": 11,
+      "Parameter": 24667
+    },
+    "KIN_11000282": {
+      "Type": 11,
+      "Parameter": 24668
+    },
+    "KIN_11000283": {
+      "Type": 11,
+      "Parameter": 24669
+    },
+    "KIN_11000284": {
+      "Type": 11,
+      "Parameter": 24670
+    },
+    "KIN_11000285": {
+      "Type": 11,
+      "Parameter": 24671
+    },
+    "KIN_11000286": {
+      "Type": 11,
+      "Parameter": 24672
+    },
+    "KIN_11000287": {
+      "Type": 11,
+      "Parameter": 24673
+    },
+    "KIN_11000288": {
+      "Type": 11,
+      "Parameter": 24677
+    },
+    "KIN_11000289": {
+      "Type": 11,
+      "Parameter": 24693
+    },
+    "KIN_11000290": {
+      "Type": 11,
+      "Parameter": 24695
+    },
+    "KIN_11000291": {
+      "Type": 11,
+      "Parameter": 24700
+    },
+    "KIN_11000292": {
+      "Type": 11,
+      "Parameter": 24705
+    },
+    "KIN_11000293": {
+      "Type": 11,
+      "Parameter": 24707
+    },
+    "KIN_11000294": {
+      "Type": 11,
+      "Parameter": 24708
+    },
+    "KIN_11000295": {
+      "Type": 11,
+      "Parameter": 24709
+    },
+    "KIN_11000296": {
+      "Type": 11,
+      "Parameter": 24710
+    },
+    "KIN_11000297": {
+      "Type": 11,
+      "Parameter": 24711
+    },
+    "KIN_11000298": {
+      "Type": 11,
+      "Parameter": 24712
+    },
+    "KIN_11000299": {
+      "Type": 11,
+      "Parameter": 24713
+    },
+    "KIN_11000300": {
+      "Type": 11,
+      "Parameter": 24714
+    },
+    "KIN_11000301": {
+      "Type": 11,
+      "Parameter": 24715
+    },
+    "KIN_11000302": {
+      "Type": 11,
+      "Parameter": 24716
+    },
+    "KIN_11000303": {
+      "Type": 11,
+      "Parameter": 24717
+    },
+    "KIN_11000304": {
+      "Type": 11,
+      "Parameter": 24718
+    },
+    "KIN_11000305": {
+      "Type": 11,
+      "Parameter": 24719
+    },
+    "KIN_11000306": {
+      "Type": 11,
+      "Parameter": 24720
+    },
+    "KIN_11000307": {
+      "Type": 11,
+      "Parameter": 24721
+    },
+    "KIN_11000308": {
+      "Type": 11,
+      "Parameter": 24722
+    },
+    "KIN_11000309": {
+      "Type": 11,
+      "Parameter": 24723
+    },
+    "KIN_11000310": {
+      "Type": 11,
+      "Parameter": 24724
+    },
+    "KIN_11000311": {
+      "Type": 11,
+      "Parameter": 24725
+    },
+    "KIN_11000312": {
+      "Type": 11,
+      "Parameter": 24726
+    },
+    "KIN_11000313": {
+      "Type": 11,
+      "Parameter": 24727
+    },
+    "KIN_11000314": {
+      "Type": 11,
+      "Parameter": 24728
+    },
+    "KIN_11000315": {
+      "Type": 11,
+      "Parameter": 24729
+    },
+    "KIN_11000316": {
+      "Type": 11,
+      "Parameter": 24730
+    },
+    "KIN_11000317": {
+      "Type": 11,
+      "Parameter": 24731
+    },
+    "KIN_11000318": {
+      "Type": 11,
+      "Parameter": 24732
+    },
+    "KIN_11000319": {
+      "Type": 11,
+      "Parameter": 24733
+    },
+    "KIN_11000320": {
+      "Type": 11,
+      "Parameter": 24734
+    },
+    "KIN_11000321": {
+      "Type": 11,
+      "Parameter": 24735
+    },
+    "KIN_11000322": {
+      "Type": 11,
+      "Parameter": 24736
+    },
+    "KIN_11000323": {
+      "Type": 11,
+      "Parameter": 24737
+    },
+    "KIN_11000324": {
+      "Type": 11,
+      "Parameter": 24738
+    },
+    "KIN_11000325": {
+      "Type": 11,
+      "Parameter": 24739
+    },
+    "KIN_11000326": {
+      "Type": 11,
+      "Parameter": 24740
+    },
+    "KIN_11000327": {
+      "Type": 11,
+      "Parameter": 24741
+    },
+    "KIN_11000328": {
+      "Type": 11,
+      "Parameter": 24742
+    },
+    "KIN_11000329": {
+      "Type": 11,
+      "Parameter": 24743
+    },
+    "KIN_11000330": {
+      "Type": 11,
+      "Parameter": 24744
+    },
+    "KIN_11000331": {
+      "Type": 11,
+      "Parameter": 24745
+    },
+    "KIN_11000332": {
+      "Type": 11,
+      "Parameter": 24746
+    },
+    "KIN_11000333": {
+      "Type": 11,
+      "Parameter": 24747
+    },
+    "KIN_11000334": {
+      "Type": 11,
+      "Parameter": 24748
+    },
+    "KIN_11000335": {
+      "Type": 11,
+      "Parameter": 24749
+    },
+    "KIN_11000336": {
+      "Type": 11,
+      "Parameter": 24750
+    },
+    "KIN_11000337": {
+      "Type": 11,
+      "Parameter": 24751
+    },
+    "KIN_11000338": {
+      "Type": 11,
+      "Parameter": 24752
+    },
+    "KIN_11000339": {
+      "Type": 11,
+      "Parameter": 24753
+    },
+    "KIN_11000340": {
+      "Type": 11,
+      "Parameter": 24754
+    },
+    "KIN_11000341": {
+      "Type": 11,
+      "Parameter": 24755
+    },
+    "KIN_11000342": {
+      "Type": 11,
+      "Parameter": 24756
+    },
+    "KIN_11000343": {
+      "Type": 11,
+      "Parameter": 24757
+    },
+    "KIN_11000344": {
+      "Type": 11,
+      "Parameter": 24758
+    },
+    "KIN_11000345": {
+      "Type": 11,
+      "Parameter": 24759
+    },
+    "KIN_11000346": {
+      "Type": 11,
+      "Parameter": 24760
+    },
+    "KIN_11000347": {
+      "Type": 11,
+      "Parameter": 24761
+    },
+    "KIN_11000348": {
+      "Type": 11,
+      "Parameter": 24762
+    },
+    "KIN_11000349": {
+      "Type": 11,
+      "Parameter": 24763
+    },
+    "KIN_11000350": {
+      "Type": 11,
+      "Parameter": 24764
+    },
+    "KIN_11000351": {
+      "Type": 11,
+      "Parameter": 24765
+    },
+    "KIN_11000352": {
+      "Type": 11,
+      "Parameter": 24766
+    },
+    "KIN_11000353": {
+      "Type": 11,
+      "Parameter": 24767
+    },
+    "KIN_11000354": {
+      "Type": 11,
+      "Parameter": 24768
+    },
+    "KIN_11000355": {
+      "Type": 11,
+      "Parameter": 24769
+    },
+    "KIN_11000356": {
+      "Type": 11,
+      "Parameter": 24770
+    },
+    "KIN_11000357": {
+      "Type": 11,
+      "Parameter": 24771
+    },
+    "KIN_11000358": {
+      "Type": 11,
+      "Parameter": 24772
+    },
+    "KIN_11000359": {
+      "Type": 11,
+      "Parameter": 24773
+    },
+    "KIN_11000360": {
+      "Type": 11,
+      "Parameter": 24774
+    },
+    "KIN_11000361": {
+      "Type": 11,
+      "Parameter": 24775
+    },
+    "KIN_11000362": {
+      "Type": 11,
+      "Parameter": 24776
+    },
+    "KIN_11000363": {
+      "Type": 11,
+      "Parameter": 24777
+    },
+    "KIN_11000364": {
+      "Type": 11,
+      "Parameter": 24778
+    },
+    "KIN_11000365": {
+      "Type": 11,
+      "Parameter": 24779
+    },
+    "KIN_11000366": {
+      "Type": 11,
+      "Parameter": 24780
+    },
+    "KIN_11000367": {
+      "Type": 11,
+      "Parameter": 24781
+    },
+    "KIN_11000368": {
+      "Type": 11,
+      "Parameter": 24782
+    },
+    "KIN_11000369": {
+      "Type": 11,
+      "Parameter": 24783
+    },
+    "KIN_11000370": {
+      "Type": 11,
+      "Parameter": 24784
+    },
+    "KIN_11000371": {
+      "Type": 11,
+      "Parameter": 24785
+    },
+    "KIN_11000372": {
+      "Type": 11,
+      "Parameter": 24786
+    },
+    "KIN_11000373": {
+      "Type": 11,
+      "Parameter": 24787
+    },
+    "KIN_11000374": {
+      "Type": 11,
+      "Parameter": 24788
+    },
+    "KIN_11000375": {
+      "Type": 11,
+      "Parameter": 24789
+    },
+    "KIN_11000376": {
+      "Type": 11,
+      "Parameter": 24790
+    },
+    "KIN_11000377": {
+      "Type": 11,
+      "Parameter": 24791
+    },
+    "KIN_11000378": {
+      "Type": 11,
+      "Parameter": 24792
+    },
+    "KIN_11000379": {
+      "Type": 11,
+      "Parameter": 24793
+    },
+    "KIN_11000380": {
+      "Type": 11,
+      "Parameter": 24794
+    },
+    "KIN_11000381": {
+      "Type": 11,
+      "Parameter": 24795
+    },
+    "KIN_11000382": {
+      "Type": 11,
+      "Parameter": 24796
+    },
+    "KIN_11000383": {
+      "Type": 11,
+      "Parameter": 24797
+    },
+    "KIN_11000384": {
+      "Type": 11,
+      "Parameter": 24798
+    },
+    "KIN_11000385": {
+      "Type": 11,
+      "Parameter": 24799
+    },
+    "KIN_11000386": {
+      "Type": 11,
+      "Parameter": 24800
+    },
+    "KIN_11000387": {
+      "Type": 11,
+      "Parameter": 24801
+    },
+    "KIN_11000388": {
+      "Type": 11,
+      "Parameter": 24802
+    },
+    "KIN_11000389": {
+      "Type": 11,
+      "Parameter": 24803
+    },
+    "KIN_11000390": {
+      "Type": 11,
+      "Parameter": 24804
+    },
+    "KIN_11000391": {
+      "Type": 11,
+      "Parameter": 24805
+    },
+    "KIN_11000392": {
+      "Type": 11,
+      "Parameter": 24806
+    },
+    "KIN_11000393": {
+      "Type": 11,
+      "Parameter": 24807
+    },
+    "KIN_11000394": {
+      "Type": 11,
+      "Parameter": 24808
+    },
+    "KIN_11000395": {
+      "Type": 11,
+      "Parameter": 24809
+    },
+    "KIN_11000396": {
+      "Type": 11,
+      "Parameter": 24810
+    },
+    "KIN_11000397": {
+      "Type": 11,
+      "Parameter": 24811
+    },
+    "KIN_11000398": {
+      "Type": 11,
+      "Parameter": 24812
+    },
+    "KIN_11000399": {
+      "Type": 11,
+      "Parameter": 24813
+    },
+    "KIN_11000400": {
+      "Type": 11,
+      "Parameter": 24814
+    },
+    "KIN_11000401": {
+      "Type": 11,
+      "Parameter": 24815
+    },
+    "KIN_11000402": {
+      "Type": 11,
+      "Parameter": 24816
+    },
+    "KIN_11000403": {
+      "Type": 11,
+      "Parameter": 24817
+    },
+    "KIN_11000404": {
+      "Type": 11,
+      "Parameter": 24818
+    },
+    "KIN_11000405": {
+      "Type": 11,
+      "Parameter": 24819
+    },
+    "KIN_11000406": {
+      "Type": 11,
+      "Parameter": 24820
+    },
+    "KIN_11000407": {
+      "Type": 11,
+      "Parameter": 24821
+    },
+    "KIN_11000408": {
+      "Type": 11,
+      "Parameter": 24822
+    },
+    "KIN_11000409": {
+      "Type": 11,
+      "Parameter": 24823
+    },
+    "KIN_11000410": {
+      "Type": 11,
+      "Parameter": 24824
+    },
+    "KIN_11000411": {
+      "Type": 11,
+      "Parameter": 24825
+    },
+    "KIN_11000412": {
+      "Type": 11,
+      "Parameter": 24826
+    },
+    "KIN_11000413": {
+      "Type": 11,
+      "Parameter": 24827
+    },
+    "KIN_11000414": {
+      "Type": 11,
+      "Parameter": 24828
+    },
+    "KIN_11000415": {
+      "Type": 11,
+      "Parameter": 24829
+    },
+    "KIN_11000416": {
+      "Type": 11,
+      "Parameter": 24830
+    },
+    "KIN_11000417": {
+      "Type": 11,
+      "Parameter": 24831
+    },
+    "KIN_11000418": {
+      "Type": 11,
+      "Parameter": 24832
+    },
+    "KIN_11000419": {
+      "Type": 11,
+      "Parameter": 24833
+    },
+    "KIN_11000420": {
+      "Type": 11,
+      "Parameter": 24834
+    },
+    "KIN_11000421": {
+      "Type": 11,
+      "Parameter": 24835
+    },
+    "KIN_11000422": {
+      "Type": 11,
+      "Parameter": 24836
+    },
+    "KIN_11000423": {
+      "Type": 11,
+      "Parameter": 24837
+    },
+    "KIN_11000424": {
+      "Type": 11,
+      "Parameter": 24838
+    },
+    "KIN_11000425": {
+      "Type": 11,
+      "Parameter": 24839
+    },
+    "KIN_11000426": {
+      "Type": 11,
+      "Parameter": 24840
+    },
+    "KIN_11000427": {
+      "Type": 11,
+      "Parameter": 24841
+    },
+    "KIN_11000428": {
+      "Type": 11,
+      "Parameter": 24842
+    },
+    "KIN_11000429": {
+      "Type": 11,
+      "Parameter": 24843
+    },
+    "KIN_11000430": {
+      "Type": 11,
+      "Parameter": 24844
+    },
+    "KIN_11000431": {
+      "Type": 11,
+      "Parameter": 24845
+    },
+    "KIN_11000432": {
+      "Type": 11,
+      "Parameter": 24846
+    },
+    "KIN_11000433": {
+      "Type": 11,
+      "Parameter": 24847
+    },
+    "KIN_11000434": {
+      "Type": 11,
+      "Parameter": 24848
+    },
+    "KIN_11000435": {
+      "Type": 11,
+      "Parameter": 24849
+    },
+    "KIN_11000436": {
+      "Type": 11,
+      "Parameter": 24850
+    },
+    "KIN_11000437": {
+      "Type": 11,
+      "Parameter": 24851
+    },
+    "KIN_11000438": {
+      "Type": 11,
+      "Parameter": 24852
+    },
+    "KIN_11000439": {
+      "Type": 11,
+      "Parameter": 24853
+    },
+    "KIN_11000440": {
+      "Type": 11,
+      "Parameter": 24854
+    },
+    "KIN_11000441": {
+      "Type": 11,
+      "Parameter": 24855
+    },
+    "KIN_11000442": {
+      "Type": 11,
+      "Parameter": 24856
+    },
+    "KIN_11000443": {
+      "Type": 11,
+      "Parameter": 24857
+    },
+    "KIN_11000444": {
+      "Type": 11,
+      "Parameter": 24858
+    },
+    "KIN_11000445": {
+      "Type": 11,
+      "Parameter": 24859
+    },
+    "KIN_11000446": {
+      "Type": 11,
+      "Parameter": 24860
+    },
+    "KIN_11000447": {
+      "Type": 11,
+      "Parameter": 24861
+    },
+    "KIN_11000448": {
+      "Type": 11,
+      "Parameter": 24862
+    },
+    "KIN_11000449": {
+      "Type": 11,
+      "Parameter": 24865
+    },
+    "KIN_11000450": {
+      "Type": 11,
+      "Parameter": 24866
+    },
+    "KIN_11000451": {
+      "Type": 11,
+      "Parameter": 24867
+    },
+    "KIN_11000452": {
+      "Type": 11,
+      "Parameter": 24869
+    },
+    "KIN_11000453": {
+      "Type": 11,
+      "Parameter": 24870
+    },
+    "KIN_11000454": {
+      "Type": 11,
+      "Parameter": 24872
+    },
+    "KIN_11000455": {
+      "Type": 11,
+      "Parameter": 24873
+    },
+    "KIN_11000456": {
+      "Type": 11,
+      "Parameter": 24875
+    },
+    "KIN_11000457": {
+      "Type": 11,
+      "Parameter": 24878
+    },
+    "KIN_11000458": {
+      "Type": 11,
+      "Parameter": 24879
+    },
+    "KIN_11000459": {
+      "Type": 11,
+      "Parameter": 24881
+    },
+    "KIN_11000460": {
+      "Type": 11,
+      "Parameter": 24882
+    },
+    "KIN_11000461": {
+      "Type": 11,
+      "Parameter": 24884
+    },
+    "KIN_11000462": {
+      "Type": 11,
+      "Parameter": 24887
+    },
+    "KIN_11000463": {
+      "Type": 11,
+      "Parameter": 24888
+    },
+    "KIN_11000464": {
+      "Type": 11,
+      "Parameter": 24890
+    },
+    "KIN_11000465": {
+      "Type": 11,
+      "Parameter": 24891
+    },
+    "KIN_11000466": {
+      "Type": 11,
+      "Parameter": 24893
+    },
+    "KIN_11000467": {
+      "Type": 11,
+      "Parameter": 24896
+    },
+    "KIN_11000468": {
+      "Type": 11,
+      "Parameter": 24897
+    },
+    "KIN_11000469": {
+      "Type": 11,
+      "Parameter": 24899
+    },
+    "KIN_11000470": {
+      "Type": 11,
+      "Parameter": 24900
+    },
+    "KIN_11000471": {
+      "Type": 11,
+      "Parameter": 24902
+    },
+    "KIN_11000472": {
+      "Type": 11,
+      "Parameter": 24905
+    },
+    "KIN_11000473": {
+      "Type": 11,
+      "Parameter": 24906
+    },
+    "KIN_11000474": {
+      "Type": 11,
+      "Parameter": 24908
+    },
+    "KIN_11000475": {
+      "Type": 11,
+      "Parameter": 24909
+    },
+    "KIN_11000476": {
+      "Type": 11,
+      "Parameter": 24911
+    },
+    "KIN_11000477": {
+      "Type": 11,
+      "Parameter": 24914
+    },
+    "KIN_11000478": {
+      "Type": 11,
+      "Parameter": 24915
+    },
+    "KIN_11000479": {
+      "Type": 11,
+      "Parameter": 24917
+    },
+    "KIN_11000480": {
+      "Type": 11,
+      "Parameter": 24918
+    },
+    "KIN_11000481": {
+      "Type": 11,
+      "Parameter": 24920
+    },
+    "KIN_11000482": {
+      "Type": 11,
+      "Parameter": 24923
+    },
+    "KIN_11000483": {
+      "Type": 11,
+      "Parameter": 24924
+    },
+    "KIN_11000484": {
+      "Type": 11,
+      "Parameter": 24926
+    },
+    "KIN_11000485": {
+      "Type": 11,
+      "Parameter": 24927
+    },
+    "KIN_11000486": {
+      "Type": 11,
+      "Parameter": 24929
+    },
+    "KIN_11000487": {
+      "Type": 11,
+      "Parameter": 24932
+    },
+    "KIN_11000488": {
+      "Type": 11,
+      "Parameter": 24933
+    },
+    "KIN_11000489": {
+      "Type": 11,
+      "Parameter": 24935
+    },
+    "KIN_11000490": {
+      "Type": 11,
+      "Parameter": 24936
+    },
+    "KIN_11000491": {
+      "Type": 11,
+      "Parameter": 24938
+    },
+    "KIN_11000492": {
+      "Type": 11,
+      "Parameter": 24941
+    },
+    "KIN_11000493": {
+      "Type": 11,
+      "Parameter": 24942
+    },
+    "KIN_11000494": {
+      "Type": 11,
+      "Parameter": 24944
+    },
+    "KIN_11000495": {
+      "Type": 11,
+      "Parameter": 24945
+    },
+    "KIN_11000496": {
+      "Type": 11,
+      "Parameter": 24947
+    },
+    "KIN_11000497": {
+      "Type": 11,
+      "Parameter": 24950
+    },
+    "KIN_11000498": {
+      "Type": 11,
+      "Parameter": 24951
+    },
+    "KIN_11000499": {
+      "Type": 11,
+      "Parameter": 24953
+    },
+    "KIN_11000500": {
+      "Type": 11,
+      "Parameter": 24954
+    },
+    "KIN_11000501": {
+      "Type": 11,
+      "Parameter": 24956
+    },
+    "KIN_11000502": {
+      "Type": 11,
+      "Parameter": 24977
+    },
+    "KIN_11000503": {
+      "Type": 11,
+      "Parameter": 24978
+    },
+    "KIN_11000504": {
+      "Type": 11,
+      "Parameter": 24979
+    },
+    "KIN_11000505": {
+      "Type": 11,
+      "Parameter": 24980
+    },
+    "KIN_11000506": {
+      "Type": 11,
+      "Parameter": 24981
+    },
+    "KIN_11000507": {
+      "Type": 11,
+      "Parameter": 24982
+    },
+    "KIN_11000508": {
+      "Type": 11,
+      "Parameter": 24983
+    },
+    "KIN_11000509": {
+      "Type": 11,
+      "Parameter": 24985
+    },
+    "KIN_11000510": {
+      "Type": 11,
+      "Parameter": 24987
+    },
+    "KIN_11000511": {
+      "Type": 11,
+      "Parameter": 24988
+    },
+    "KIN_11000512": {
+      "Type": 11,
+      "Parameter": 24989
+    },
+    "KIN_11000513": {
+      "Type": 11,
+      "Parameter": 24990
+    },
+    "KIN_11000514": {
+      "Type": 11,
+      "Parameter": 24991
+    },
+    "KIN_11000515": {
+      "Type": 11,
+      "Parameter": 24992
+    },
+    "KIN_11000516": {
+      "Type": 11,
+      "Parameter": 24993
+    },
+    "KIN_11000517": {
+      "Type": 11,
+      "Parameter": 24994
+    },
+    "KIN_11000518": {
+      "Type": 11,
+      "Parameter": 24995
+    },
+    "KIN_11000519": {
+      "Type": 11,
+      "Parameter": 24996
+    },
+    "KIN_11000520": {
+      "Type": 11,
+      "Parameter": 24997
+    },
+    "KIN_11000521": {
+      "Type": 11,
+      "Parameter": 24998
+    },
+    "KIN_11000522": {
+      "Type": 11,
+      "Parameter": 24999
+    },
+    "KIN_11000523": {
+      "Type": 11,
+      "Parameter": 25000
+    },
+    "KIN_11000524": {
+      "Type": 11,
+      "Parameter": 25001
+    },
+    "KIN_11000525": {
+      "Type": 11,
+      "Parameter": 25002
+    },
+    "KIN_11000526": {
+      "Type": 11,
+      "Parameter": 25003
+    },
+    "KIN_11000527": {
+      "Type": 11,
+      "Parameter": 25004
+    },
+    "KIN_11000528": {
+      "Type": 11,
+      "Parameter": 25005
+    },
+    "KIN_11000529": {
+      "Type": 11,
+      "Parameter": 25006
+    },
+    "KIN_11000530": {
+      "Type": 11,
+      "Parameter": 25007
+    },
+    "KIN_11000531": {
+      "Type": 11,
+      "Parameter": 25008
+    },
+    "KIN_11000532": {
+      "Type": 11,
+      "Parameter": 25009
+    },
+    "KIN_11000533": {
+      "Type": 11,
+      "Parameter": 25010
+    },
+    "KIN_11000534": {
+      "Type": 11,
+      "Parameter": 25011
+    },
+    "KIN_11000535": {
+      "Type": 11,
+      "Parameter": 25012
+    },
+    "KIN_11000536": {
+      "Type": 11,
+      "Parameter": 25013
+    },
+    "KIN_11000537": {
+      "Type": 11,
+      "Parameter": 25014
+    },
+    "KIN_11000538": {
+      "Type": 11,
+      "Parameter": 25015
+    },
+    "KIN_11000539": {
+      "Type": 11,
+      "Parameter": 25016
+    },
+    "KIN_20000001": {
+      "Type": 20,
+      "Parameter": 20489
+    },
+    "KIN_20000002": {
+      "Type": 20,
+      "Parameter": 20484
+    },
+    "KIN_21000001": {
+      "Type": 21,
+      "Parameter": 20513
+    },
+    "KIN_21000002": {
+      "Type": 21,
+      "Parameter": 20514
+    },
+    "KIN_21000003": {
+      "Type": 21,
+      "Parameter": 20515
+    },
+    "KIN_21000004": {
+      "Type": 21,
+      "Parameter": 20516
+    },
+    "KIN_21000005": {
+      "Type": 21,
+      "Parameter": 20517
+    },
+    "KIN_21000006": {
+      "Type": 21,
+      "Parameter": 20518
+    },
+    "KIN_21000007": {
+      "Type": 21,
+      "Parameter": 20519
+    },
+    "KIN_21000008": {
+      "Type": 21,
+      "Parameter": 20520
+    },
+    "KIN_21000009": {
+      "Type": 21,
+      "Parameter": 20521
+    },
+    "KIN_21000010": {
+      "Type": 21,
+      "Parameter": 20522
+    },
+    "KIN_21000011": {
+      "Type": 21,
+      "Parameter": 20524
+    },
+    "KIN_21000012": {
+      "Type": 21,
+      "Parameter": 20578
+    },
+    "KIN_21000013": {
+      "Type": 21,
+      "Parameter": 20579
+    },
+    "KIN_21000014": {
+      "Type": 21,
+      "Parameter": 20580
+    },
+    "KIN_21000015": {
+      "Type": 21,
+      "Parameter": 20581
+    },
+    "KIN_21000016": {
+      "Type": 21,
+      "Parameter": 20582
+    },
+    "KIN_21000017": {
+      "Type": 21,
+      "Parameter": 20583
+    },
+    "KIN_21000018": {
+      "Type": 21,
+      "Parameter": 20491
+    },
+    "KIN_21000019": {
+      "Type": 21,
+      "Parameter": 20492
+    },
+    "KIN_21000020": {
+      "Type": 21,
+      "Parameter": 20493
+    },
+    "KIN_21000021": {
+      "Type": 21,
+      "Parameter": 20494
+    },
+    "KIN_21000022": {
+      "Type": 21,
+      "Parameter": 20495
+    },
+    "KIN_21000023": {
+      "Type": 21,
+      "Parameter": 20496
+    },
+    "KIN_21000024": {
+      "Type": 21,
+      "Parameter": 20497
+    },
+    "KIN_21000025": {
+      "Type": 21,
+      "Parameter": 20498
+    },
+    "KIN_21000026": {
+      "Type": 21,
+      "Parameter": 20499
+    },
+    "KIN_21000027": {
+      "Type": 21,
+      "Parameter": 20500
+    },
+    "KIN_21000028": {
+      "Type": 21,
+      "Parameter": 20501
+    },
+    "KIN_21000029": {
+      "Type": 21,
+      "Parameter": 20502
+    },
+    "KIN_21000030": {
+      "Type": 21,
+      "Parameter": 20503
+    },
+    "KIN_21000031": {
+      "Type": 21,
+      "Parameter": 20504
+    },
+    "KIN_21000032": {
+      "Type": 21,
+      "Parameter": 20505
+    },
+    "KIN_21000033": {
+      "Type": 21,
+      "Parameter": 20506
+    },
+    "KIN_21000034": {
+      "Type": 21,
+      "Parameter": 20507
+    },
+    "KIN_21000035": {
+      "Type": 21,
+      "Parameter": 20508
+    },
+    "KIN_21000036": {
+      "Type": 21,
+      "Parameter": 20509
+    },
+    "KIN_40000001": {
+      "Type": 40,
+      "Parameter": 86
+    },
+    "KIN_40000002": {
+      "Type": 40,
+      "Parameter": 87
+    },
+    "KIN_40000003": {
+      "Type": 40,
+      "Parameter": 88
+    },
+    "KIN_40000004": {
+      "Type": 40,
+      "Parameter": 89
+    },
+    "KIN_40000005": {
+      "Type": 40,
+      "Parameter": 90
+    },
+    "KIN_40000006": {
+      "Type": 40,
+      "Parameter": 91
+    },
+    "KIN_40000007": {
+      "Type": 40,
+      "Parameter": 92
+    },
+    "KIN_40000008": {
+      "Type": 40,
+      "Parameter": 93
+    },
+    "KIN_40000009": {
+      "Type": 40,
+      "Parameter": 94
+    },
+    "KIN_40000010": {
+      "Type": 40,
+      "Parameter": 95
+    },
+    "KIN_40000011": {
+      "Type": 40,
+      "Parameter": 96
+    },
+    "KIN_50000001": {
+      "Type": 50,
+      "Parameter": 32779
+    },
+    "KIN_50000002": {
+      "Type": 50,
+      "Parameter": 32780
+    },
+    "KIN_50000003": {
+      "Type": 50,
+      "Parameter": 32781
+    },
+    "KIN_50000004": {
+      "Type": 50,
+      "Parameter": 32782
+    },
+    "KIN_50000005": {
+      "Type": 50,
+      "Parameter": 32783
+    },
+    "KIN_50000006": {
+      "Type": 50,
+      "Parameter": 32784
+    },
+    "KIN_50000007": {
+      "Type": 50,
+      "Parameter": 32785
+    },
+    "KIN_50000008": {
+      "Type": 50,
+      "Parameter": 32786
+    },
+    "KIN_50000009": {
+      "Type": 50,
+      "Parameter": 32787
+    },
+    "KIN_50000010": {
+      "Type": 50,
+      "Parameter": 32788
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_UIPoetryRippleTable",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'PoetryRipplesParam'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "1": {
+      "posX": 407.0,
+      "posY": 210.0
+    },
+    "2": {
+      "posX": 645.0,
+      "posY": 296.0
+    },
+    "3": {
+      "posX": 1396.0,
+      "posY": 400.0
+    },
+    "4": {
+      "posX": 530.0,
+      "posY": 580.0
+    },
+    "5": {
+      "posX": 1554.0,
+      "posY": 766.0
+    },
+    "6": {
+      "posX": 375.0,
+      "posY": 231.0
+    },
+    "7": {
+      "posX": 1459.0,
+      "posY": 288.0
+    },
+    "8": {
+      "posX": 736.0,
+      "posY": 429.0
+    },
+    "9": {
+      "posX": 880.0,
+      "posY": 540.0
+    },
+    "10": {
+      "posX": 1605.0,
+      "posY": 471.0
+    },
+    "11": {
+      "posX": 257.0,
+      "posY": 628.0
+    },
+    "12": {
+      "posX": 420.0,
+      "posY": 797.0
+    },
+    "13": {
+      "posX": 1438.0,
+      "posY": 830.0
+    }
+  }
+}

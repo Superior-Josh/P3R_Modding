@@ -1,0 +1,1746 @@
+{
+  "Type": "DatSupportInfoTable",
+  "Name": "DatSupportInfoCommonDataAsset",
+  "Class": "UScriptClass'DatSupportInfoTable'",
+  "Properties": {
+    "Data": [
+      {
+        "defineId": 0,
+        "majorId": 0,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 1,
+        "majorId": 1,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 2,
+        "majorId": 2,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 3,
+        "majorId": 3,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 4,
+        "majorId": 4,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 5,
+        "majorId": 5,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 6,
+        "majorId": 6,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 7,
+        "majorId": 7,
+        "minorId": 0,
+        "characterId": 3,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 8,
+        "majorId": 8,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 9,
+        "majorId": 9,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 10,
+        "majorId": 10,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 11,
+        "majorId": 11,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 12,
+        "majorId": 12,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 13,
+        "majorId": 13,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 14,
+        "majorId": 14,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 15,
+        "majorId": 15,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 16,
+        "majorId": 16,
+        "minorId": 0,
+        "characterId": 4,
+        "show": 1,
+        "face": 1,
+        "window": 0
+      },
+      {
+        "defineId": 17,
+        "majorId": 17,
+        "minorId": 0,
+        "characterId": 5,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 18,
+        "majorId": 18,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 19,
+        "majorId": 19,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 20,
+        "majorId": 20,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 21,
+        "majorId": 21,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 22,
+        "majorId": 22,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 23,
+        "majorId": 23,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 24,
+        "majorId": 24,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 25,
+        "majorId": 25,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 26,
+        "majorId": 26,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 27,
+        "majorId": 27,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 28,
+        "majorId": 28,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 29,
+        "majorId": 29,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 30,
+        "majorId": 30,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 31,
+        "majorId": 31,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 32,
+        "majorId": 32,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 33,
+        "majorId": 33,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 34,
+        "majorId": 34,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 35,
+        "majorId": 35,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 36,
+        "majorId": 36,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 37,
+        "majorId": 37,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 38,
+        "majorId": 38,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 39,
+        "majorId": 39,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 40,
+        "majorId": 40,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 41,
+        "majorId": 41,
+        "minorId": 0,
+        "characterId": 3,
+        "show": 1,
+        "face": 5,
+        "window": 0
+      },
+      {
+        "defineId": 42,
+        "majorId": 42,
+        "minorId": 0,
+        "characterId": 7,
+        "show": 1,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 43,
+        "majorId": 43,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 44,
+        "majorId": 44,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 45,
+        "majorId": 45,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 46,
+        "majorId": 46,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 47,
+        "majorId": 47,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 48,
+        "majorId": 48,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 49,
+        "majorId": 49,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 50,
+        "majorId": 50,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 51,
+        "majorId": 51,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 52,
+        "majorId": 52,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 53,
+        "majorId": 53,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 54,
+        "majorId": 54,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 55,
+        "majorId": 55,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 56,
+        "majorId": 56,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 57,
+        "majorId": 57,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 58,
+        "majorId": 58,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 59,
+        "majorId": 59,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 60,
+        "majorId": 60,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 61,
+        "majorId": 61,
+        "minorId": 0,
+        "characterId": 3,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 62,
+        "majorId": 62,
+        "minorId": 0,
+        "characterId": 5,
+        "show": 1,
+        "face": 5,
+        "window": 0
+      },
+      {
+        "defineId": 63,
+        "majorId": 63,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 64,
+        "majorId": 64,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 65,
+        "majorId": 65,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 66,
+        "majorId": 66,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 67,
+        "majorId": 67,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 68,
+        "majorId": 68,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 69,
+        "majorId": 69,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 70,
+        "majorId": 70,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 71,
+        "majorId": 71,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 5,
+        "window": 0
+      },
+      {
+        "defineId": 72,
+        "majorId": 72,
+        "minorId": 0,
+        "characterId": 7,
+        "show": 1,
+        "face": 5,
+        "window": 0
+      },
+      {
+        "defineId": 73,
+        "majorId": 73,
+        "minorId": 0,
+        "characterId": 5,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 74,
+        "majorId": 74,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 75,
+        "majorId": 75,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 76,
+        "majorId": 76,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 77,
+        "majorId": 77,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 78,
+        "majorId": 78,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 79,
+        "majorId": 79,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 80,
+        "majorId": 80,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 81,
+        "majorId": 81,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 82,
+        "majorId": 82,
+        "minorId": 0,
+        "characterId": 3,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 83,
+        "majorId": 83,
+        "minorId": 0,
+        "characterId": 4,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 84,
+        "majorId": 84,
+        "minorId": 0,
+        "characterId": 5,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 85,
+        "majorId": 85,
+        "minorId": 0,
+        "characterId": 8,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 86,
+        "majorId": 86,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 87,
+        "majorId": 87,
+        "minorId": 0,
+        "characterId": 7,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 88,
+        "majorId": 88,
+        "minorId": 0,
+        "characterId": 3,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 89,
+        "majorId": 89,
+        "minorId": 0,
+        "characterId": 9,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 90,
+        "majorId": 90,
+        "minorId": 0,
+        "characterId": 7,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 91,
+        "majorId": 91,
+        "minorId": 0,
+        "characterId": 8,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 92,
+        "majorId": 92,
+        "minorId": 0,
+        "characterId": 4,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 93,
+        "majorId": 93,
+        "minorId": 0,
+        "characterId": 5,
+        "show": 1,
+        "face": 5,
+        "window": 0
+      },
+      {
+        "defineId": 94,
+        "majorId": 94,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 95,
+        "majorId": 95,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 96,
+        "majorId": 96,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 97,
+        "majorId": 97,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 98,
+        "majorId": 98,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 99,
+        "majorId": 99,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 100,
+        "majorId": 100,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 101,
+        "majorId": 101,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 102,
+        "majorId": 102,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 103,
+        "majorId": 103,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 104,
+        "majorId": 104,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 105,
+        "majorId": 105,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 106,
+        "majorId": 106,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 107,
+        "majorId": 107,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 108,
+        "majorId": 108,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 109,
+        "majorId": 109,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 110,
+        "majorId": 110,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 111,
+        "majorId": 111,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 112,
+        "majorId": 112,
+        "minorId": 0,
+        "characterId": 6,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 113,
+        "majorId": 113,
+        "minorId": 0,
+        "characterId": 4,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 114,
+        "majorId": 114,
+        "minorId": 0,
+        "characterId": 3,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 115,
+        "majorId": 115,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 116,
+        "majorId": 116,
+        "minorId": 0,
+        "characterId": 5,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 117,
+        "majorId": 117,
+        "minorId": 0,
+        "characterId": 7,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 118,
+        "majorId": 118,
+        "minorId": 0,
+        "characterId": 8,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 119,
+        "majorId": 119,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 120,
+        "majorId": 120,
+        "minorId": 0,
+        "characterId": 3,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 121,
+        "majorId": 121,
+        "minorId": 0,
+        "characterId": 5,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 122,
+        "majorId": 122,
+        "minorId": 0,
+        "characterId": 4,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 123,
+        "majorId": 123,
+        "minorId": 0,
+        "characterId": 6,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 124,
+        "majorId": 124,
+        "minorId": 0,
+        "characterId": 6,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 125,
+        "majorId": 125,
+        "minorId": 0,
+        "characterId": 8,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 126,
+        "majorId": 126,
+        "minorId": 0,
+        "characterId": 4,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 127,
+        "majorId": 127,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 128,
+        "majorId": 128,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 129,
+        "majorId": 129,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 130,
+        "majorId": 130,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 131,
+        "majorId": 131,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 132,
+        "majorId": 132,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 133,
+        "majorId": 133,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 134,
+        "majorId": 134,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 135,
+        "majorId": 135,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 136,
+        "majorId": 136,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 137,
+        "majorId": 137,
+        "minorId": 0,
+        "characterId": 2,
+        "show": 1,
+        "face": 4,
+        "window": 0
+      },
+      {
+        "defineId": 138,
+        "majorId": 138,
+        "minorId": 1,
+        "characterId": 2,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 139,
+        "majorId": 138,
+        "minorId": 2,
+        "characterId": 2,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 140,
+        "majorId": 138,
+        "minorId": 3,
+        "characterId": 2,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 141,
+        "majorId": 139,
+        "minorId": 1,
+        "characterId": 3,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 142,
+        "majorId": 139,
+        "minorId": 2,
+        "characterId": 3,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 143,
+        "majorId": 139,
+        "minorId": 3,
+        "characterId": 3,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 144,
+        "majorId": 140,
+        "minorId": 1,
+        "characterId": 4,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 145,
+        "majorId": 140,
+        "minorId": 2,
+        "characterId": 4,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 146,
+        "majorId": 140,
+        "minorId": 3,
+        "characterId": 4,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 147,
+        "majorId": 141,
+        "minorId": 1,
+        "characterId": 5,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 148,
+        "majorId": 141,
+        "minorId": 2,
+        "characterId": 5,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 149,
+        "majorId": 141,
+        "minorId": 3,
+        "characterId": 5,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 150,
+        "majorId": 142,
+        "minorId": 1,
+        "characterId": 6,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 151,
+        "majorId": 142,
+        "minorId": 2,
+        "characterId": 6,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 152,
+        "majorId": 142,
+        "minorId": 3,
+        "characterId": 6,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 153,
+        "majorId": 143,
+        "minorId": 1,
+        "characterId": 7,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 154,
+        "majorId": 143,
+        "minorId": 2,
+        "characterId": 7,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 155,
+        "majorId": 143,
+        "minorId": 3,
+        "characterId": 7,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 156,
+        "majorId": 144,
+        "minorId": 1,
+        "characterId": 8,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 157,
+        "majorId": 144,
+        "minorId": 2,
+        "characterId": 8,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 158,
+        "majorId": 144,
+        "minorId": 3,
+        "characterId": 8,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 159,
+        "majorId": 145,
+        "minorId": 1,
+        "characterId": 9,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 160,
+        "majorId": 145,
+        "minorId": 2,
+        "characterId": 9,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 161,
+        "majorId": 145,
+        "minorId": 3,
+        "characterId": 9,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 162,
+        "majorId": 146,
+        "minorId": 1,
+        "characterId": 10,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 163,
+        "majorId": 146,
+        "minorId": 2,
+        "characterId": 10,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 164,
+        "majorId": 146,
+        "minorId": 3,
+        "characterId": 10,
+        "show": 0,
+        "face": 0,
+        "window": 0
+      },
+      {
+        "defineId": 165,
+        "majorId": 147,
+        "minorId": 1,
+        "characterId": 2,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 166,
+        "majorId": 147,
+        "minorId": 2,
+        "characterId": 2,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 167,
+        "majorId": 147,
+        "minorId": 3,
+        "characterId": 2,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 168,
+        "majorId": 148,
+        "minorId": 1,
+        "characterId": 3,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 169,
+        "majorId": 148,
+        "minorId": 2,
+        "characterId": 3,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 170,
+        "majorId": 148,
+        "minorId": 3,
+        "characterId": 3,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 171,
+        "majorId": 149,
+        "minorId": 1,
+        "characterId": 4,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 172,
+        "majorId": 149,
+        "minorId": 2,
+        "characterId": 4,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 173,
+        "majorId": 149,
+        "minorId": 3,
+        "characterId": 4,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 174,
+        "majorId": 150,
+        "minorId": 1,
+        "characterId": 5,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 175,
+        "majorId": 150,
+        "minorId": 2,
+        "characterId": 5,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 176,
+        "majorId": 150,
+        "minorId": 3,
+        "characterId": 5,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 177,
+        "majorId": 151,
+        "minorId": 1,
+        "characterId": 6,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 178,
+        "majorId": 151,
+        "minorId": 2,
+        "characterId": 6,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 179,
+        "majorId": 151,
+        "minorId": 3,
+        "characterId": 6,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 180,
+        "majorId": 152,
+        "minorId": 1,
+        "characterId": 7,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 181,
+        "majorId": 152,
+        "minorId": 2,
+        "characterId": 7,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 182,
+        "majorId": 153,
+        "minorId": 1,
+        "characterId": 7,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 183,
+        "majorId": 154,
+        "minorId": 1,
+        "characterId": 7,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 184,
+        "majorId": 155,
+        "minorId": 1,
+        "characterId": 8,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 185,
+        "majorId": 155,
+        "minorId": 2,
+        "characterId": 8,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 186,
+        "majorId": 155,
+        "minorId": 3,
+        "characterId": 8,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 187,
+        "majorId": 156,
+        "minorId": 1,
+        "characterId": 9,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 188,
+        "majorId": 156,
+        "minorId": 2,
+        "characterId": 9,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 189,
+        "majorId": 156,
+        "minorId": 3,
+        "characterId": 9,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 190,
+        "majorId": 157,
+        "minorId": 1,
+        "characterId": 10,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 191,
+        "majorId": 157,
+        "minorId": 2,
+        "characterId": 10,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      },
+      {
+        "defineId": 192,
+        "majorId": 157,
+        "minorId": 3,
+        "characterId": 10,
+        "show": 1,
+        "face": 2,
+        "window": 0
+      }
+    ]
+  }
+}

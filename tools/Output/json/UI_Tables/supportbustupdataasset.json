@@ -1,0 +1,239 @@
+{
+  "Type": "SupportBustupDataAsset",
+  "Name": "SupportBustupDataAsset",
+  "Class": "UScriptClass'SupportBustupDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "CharaID": 1,
+        "Pose": "PoseA",
+        "OffsetLeft_X": 0.0,
+        "OffsetLeft_Y": 0.0,
+        "MaskOffsetLeft_Y": 0.0,
+        "OffsetRight_X": 0.0,
+        "OffsetRight_Y": 0.0,
+        "MaskOffsetRight_Y": 0.0
+      },
+      {
+        "CharaID": 2,
+        "Pose": "PoseA",
+        "OffsetLeft_X": -1.5,
+        "OffsetLeft_Y": 1.0,
+        "MaskOffsetLeft_Y": -7.0,
+        "OffsetRight_X": 6.0,
+        "OffsetRight_Y": -5.0,
+        "MaskOffsetRight_Y": -11.0
+      },
+      {
+        "CharaID": 2,
+        "Pose": "PoseB",
+        "OffsetLeft_X": -5.5,
+        "OffsetLeft_Y": 0.0,
+        "MaskOffsetLeft_Y": -10.0,
+        "OffsetRight_X": -1.0,
+        "OffsetRight_Y": -5.0,
+        "MaskOffsetRight_Y": -8.0
+      },
+      {
+        "CharaID": 3,
+        "Pose": "PoseA",
+        "OffsetLeft_X": -26.0,
+        "OffsetLeft_Y": 1.0,
+        "MaskOffsetLeft_Y": -17.0,
+        "OffsetRight_X": -5.0,
+        "OffsetRight_Y": -1.0,
+        "MaskOffsetRight_Y": -3.0
+      },
+      {
+        "CharaID": 3,
+        "Pose": "PoseB",
+        "OffsetLeft_X": -26.5,
+        "OffsetLeft_Y": -11.0,
+        "MaskOffsetLeft_Y": -29.0,
+        "OffsetRight_X": -12.0,
+        "OffsetRight_Y": -22.0,
+        "MaskOffsetRight_Y": -21.0
+      },
+      {
+        "CharaID": 3,
+        "Pose": "PoseC",
+        "OffsetLeft_X": -0.5,
+        "OffsetLeft_Y": 14.0,
+        "MaskOffsetLeft_Y": 6.5,
+        "OffsetRight_X": 11.0,
+        "OffsetRight_Y": -2.0,
+        "MaskOffsetRight_Y": -10.0
+      },
+      {
+        "CharaID": 3,
+        "Pose": "PoseD",
+        "OffsetLeft_X": -21.0,
+        "OffsetLeft_Y": 3.0,
+        "MaskOffsetLeft_Y": -13.0,
+        "OffsetRight_X": -10.5,
+        "OffsetRight_Y": -2.0,
+        "MaskOffsetRight_Y": -1.0
+      },
+      {
+        "CharaID": 4,
+        "Pose": "PoseA",
+        "OffsetLeft_X": -21.5,
+        "OffsetLeft_Y": -2.0,
+        "MaskOffsetLeft_Y": -18.0,
+        "OffsetRight_X": -9.0,
+        "OffsetRight_Y": -2.0,
+        "MaskOffsetRight_Y": -2.0
+      },
+      {
+        "CharaID": 4,
+        "Pose": "PoseB",
+        "OffsetLeft_X": -34.0,
+        "OffsetLeft_Y": 8.0,
+        "MaskOffsetLeft_Y": -13.0,
+        "OffsetRight_X": -18.0,
+        "OffsetRight_Y": -6.0,
+        "MaskOffsetRight_Y": -2.0
+      },
+      {
+        "CharaID": 5,
+        "Pose": "PoseA",
+        "OffsetLeft_X": -32.0,
+        "OffsetLeft_Y": 0.0,
+        "MaskOffsetLeft_Y": -20.0,
+        "OffsetRight_X": -22.0,
+        "OffsetRight_Y": -1.0,
+        "MaskOffsetRight_Y": 4.5
+      },
+      {
+        "CharaID": 5,
+        "Pose": "PoseB",
+        "OffsetLeft_X": -26.5,
+        "OffsetLeft_Y": 0.0,
+        "MaskOffsetLeft_Y": -18.0,
+        "OffsetRight_X": -9.0,
+        "OffsetRight_Y": 0.5,
+        "MaskOffsetRight_Y": 1.0
+      },
+      {
+        "CharaID": 6,
+        "Pose": "PoseA",
+        "OffsetLeft_X": -2.0,
+        "OffsetLeft_Y": 0.0,
+        "MaskOffsetLeft_Y": -8.0,
+        "OffsetRight_X": 18.5,
+        "OffsetRight_Y": -9.5,
+        "MaskOffsetRight_Y": -20.0
+      },
+      {
+        "CharaID": 6,
+        "Pose": "PoseB",
+        "OffsetLeft_X": -2.0,
+        "OffsetLeft_Y": 0.0,
+        "MaskOffsetLeft_Y": -8.0,
+        "OffsetRight_X": 18.5,
+        "OffsetRight_Y": -9.5,
+        "MaskOffsetRight_Y": -20.0
+      },
+      {
+        "CharaID": 7,
+        "Pose": "PoseA",
+        "OffsetLeft_X": -16.0,
+        "OffsetLeft_Y": 1.0,
+        "MaskOffsetLeft_Y": -13.0,
+        "OffsetRight_X": -8.0,
+        "OffsetRight_Y": -9.0,
+        "MaskOffsetRight_Y": -9.0
+      },
+      {
+        "CharaID": 7,
+        "Pose": "PoseB",
+        "OffsetLeft_X": -24.0,
+        "OffsetLeft_Y": 2.0,
+        "MaskOffsetLeft_Y": -15.0,
+        "OffsetRight_X": -11.0,
+        "OffsetRight_Y": -9.0,
+        "MaskOffsetRight_Y": -8.0
+      },
+      {
+        "CharaID": 8,
+        "Pose": "PoseA",
+        "OffsetLeft_X": 1.0,
+        "OffsetLeft_Y": -2.0,
+        "MaskOffsetLeft_Y": -9.0,
+        "OffsetRight_X": -2.0,
+        "OffsetRight_Y": -12.0,
+        "MaskOffsetRight_Y": -15.0
+      },
+      {
+        "CharaID": 8,
+        "Pose": "PoseB",
+        "OffsetLeft_X": 3.0,
+        "OffsetLeft_Y": -5.0,
+        "MaskOffsetLeft_Y": -11.0,
+        "OffsetRight_X": 4.0,
+        "OffsetRight_Y": -29.0,
+        "MaskOffsetRight_Y": -34.0
+      },
+      {
+        "CharaID": 9,
+        "Pose": "PoseA",
+        "OffsetLeft_X": -8.0,
+        "OffsetLeft_Y": -1.0,
+        "MaskOffsetLeft_Y": -12.0,
+        "OffsetRight_X": -1.0,
+        "OffsetRight_Y": 3.0,
+        "MaskOffsetRight_Y": 0.0
+      },
+      {
+        "CharaID": 9,
+        "Pose": "PoseB",
+        "OffsetLeft_X": -22.0,
+        "OffsetLeft_Y": -18.0,
+        "MaskOffsetLeft_Y": -34.0,
+        "OffsetRight_X": -15.5,
+        "OffsetRight_Y": -10.0,
+        "MaskOffsetRight_Y": -7.0
+      },
+      {
+        "CharaID": 9,
+        "Pose": "PoseC",
+        "OffsetLeft_X": -25.0,
+        "OffsetLeft_Y": -24.0,
+        "MaskOffsetLeft_Y": -42.0,
+        "OffsetRight_X": -6.5,
+        "OffsetRight_Y": -17.0,
+        "MaskOffsetRight_Y": -18.0
+      },
+      {
+        "CharaID": 9,
+        "Pose": "PoseD",
+        "OffsetLeft_X": -1.0,
+        "OffsetLeft_Y": 0.0,
+        "MaskOffsetLeft_Y": -8.0,
+        "OffsetRight_X": 1.0,
+        "OffsetRight_Y": -1.0,
+        "MaskOffsetRight_Y": -5.0
+      },
+      {
+        "CharaID": 10,
+        "Pose": "PoseA",
+        "OffsetLeft_X": -36.0,
+        "OffsetLeft_Y": -3.0,
+        "MaskOffsetLeft_Y": -25.0,
+        "OffsetRight_X": -29.0,
+        "OffsetRight_Y": -9.0,
+        "MaskOffsetRight_Y": -1.0
+      },
+      {
+        "CharaID": 10,
+        "Pose": "PoseB",
+        "OffsetLeft_X": 1.0,
+        "OffsetLeft_Y": 3.0,
+        "MaskOffsetLeft_Y": -4.0,
+        "OffsetRight_X": 4.0,
+        "OffsetRight_Y": -7.0,
+        "MaskOffsetRight_Y": -12.0
+      }
+    ]
+  }
+}

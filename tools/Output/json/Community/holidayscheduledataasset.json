@@ -1,0 +1,184 @@
+{
+  "Type": "HolidayScheduleDataAsset",
+  "Name": "HolidayScheduleDataAsset",
+  "Class": "UScriptClass'HolidayScheduleDataAsset'",
+  "Properties": {
+    "Table": [
+      {
+        "Month": 4,
+        "Day": 26,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 5,
+        "Day": 4,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 5,
+        "Day": 5,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 5,
+        "Day": 24,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 5,
+        "Day": 31,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 6,
+        "Day": 7,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 6,
+        "Day": 14,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 6,
+        "Day": 21,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 6,
+        "Day": 28,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 7,
+        "Day": 5,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 7,
+        "Day": 26,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 8,
+        "Day": 3,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 8,
+        "Day": 4,
+        "ArcanaID": 12
+      },
+      {
+        "Month": 8,
+        "Day": 5,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 8,
+        "Day": 7,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 8,
+        "Day": 9,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 8,
+        "Day": 26,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 8,
+        "Day": 27,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 9,
+        "Day": 13,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 9,
+        "Day": 22,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 9,
+        "Day": 23,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 9,
+        "Day": 27,
+        "ArcanaID": 9
+      },
+      {
+        "Month": 10,
+        "Day": 18,
+        "ArcanaID": 8
+      },
+      {
+        "Month": 10,
+        "Day": 25,
+        "ArcanaID": 7
+      },
+      {
+        "Month": 11,
+        "Day": 8,
+        "ArcanaID": 8
+      },
+      {
+        "Month": 11,
+        "Day": 15,
+        "ArcanaID": 12
+      },
+      {
+        "Month": 11,
+        "Day": 29,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 1,
+        "Day": 4,
+        "ArcanaID": 11
+      },
+      {
+        "Month": 1,
+        "Day": 5,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 1,
+        "Day": 6,
+        "ArcanaID": 9
+      },
+      {
+        "Month": 1,
+        "Day": 7,
+        "ArcanaID": 0
+      },
+      {
+        "Month": 1,
+        "Day": 10,
+        "ArcanaID": 7
+      },
+      {
+        "Month": 1,
+        "Day": 11,
+        "ArcanaID": 11
+      },
+      {
+        "Month": 1,
+        "Day": 17,
+        "ArcanaID": 12
+      },
+      {
+        "Month": 1,
+        "Day": 24,
+        "ArcanaID": 3
+      }
+    ]
+  }
+}

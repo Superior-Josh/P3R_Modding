@@ -1,0 +1,29 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_101_103_002",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "矢印",
+        "SprType": 0,
+        "SprNo": 0,
+        "X": 0.0,
+        "Y": 32.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "グラウンド扉",
+        "SprType": 0,
+        "SprNo": 15,
+        "X": 0.0,
+        "Y": -116.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

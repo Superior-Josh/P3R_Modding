@@ -1,0 +1,79 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_TutorialTable_SYSTEM",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'TutorialSortTableRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "1": {
+      "SortID": 1,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_SYS_TUTORIAL",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_SYSTEM",
+        "Key": "1_Comment",
+        "SourceString": "チュートリアル",
+        "LocalizedString": "チュートリアル"
+      }
+    },
+    "2": {
+      "SortID": 2,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_SYS_SAVE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_SYSTEM",
+        "Key": "2_Comment",
+        "SourceString": "セーブ",
+        "LocalizedString": "セーブ"
+      }
+    },
+    "3": {
+      "SortID": 4,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_SYS_ROLLBACK",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_SYSTEM",
+        "Key": "3_Comment",
+        "SourceString": "ロールバック",
+        "LocalizedString": "ロールバック"
+      }
+    },
+    "4": {
+      "SortID": 6,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_SYS_DICTIONARY",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_SYSTEM",
+        "Key": "4_Comment",
+        "SourceString": "用語辞典",
+        "LocalizedString": "用語辞典"
+      }
+    },
+    "5": {
+      "SortID": 5,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_SYS_MENU",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_SYSTEM",
+        "Key": "5_Comment",
+        "SourceString": "メニュー",
+        "LocalizedString": "メニュー"
+      }
+    },
+    "6": {
+      "SortID": 3,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_SYS_NETWORKSAVE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_SYSTEM",
+        "Key": "6_Comment",
+        "SourceString": "ネットワークセーブ",
+        "LocalizedString": "ネットワークセーブ"
+      }
+    }
+  }
+}

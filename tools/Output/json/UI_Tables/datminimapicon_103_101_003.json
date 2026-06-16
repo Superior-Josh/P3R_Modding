@@ -1,0 +1,149 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_103_101_003",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "矢印アイコン白抜き",
+        "SprType": 0,
+        "SprNo": 49,
+        "X": 122.0,
+        "Y": 52.0,
+        "DegreeAngle": 112.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "矢印アイコン白抜き",
+        "SprType": 0,
+        "SprNo": 49,
+        "X": 0.0,
+        "Y": 132.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "矢印アイコン白抜き",
+        "SprType": 0,
+        "SprNo": 49,
+        "X": -122.0,
+        "Y": 52.0,
+        "DegreeAngle": -112.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "上り階段",
+        "SprType": 0,
+        "SprNo": 44,
+        "X": 10.0,
+        "Y": -97.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "クラブ",
+        "SprType": 0,
+        "SprNo": 1,
+        "X": -110.0,
+        "Y": -5.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "喫茶店",
+        "SprType": 0,
+        "SprNo": 2,
+        "X": -101.0,
+        "Y": -46.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "ヒーリングショップ",
+        "SprType": 0,
+        "SprNo": 3,
+        "X": -78.0,
+        "Y": -85.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "掲示板",
+        "SprType": 0,
+        "SprNo": 5,
+        "X": -45.0,
+        "Y": -68.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "武器屋",
+        "SprType": 0,
+        "SprNo": 4,
+        "X": -45.0,
+        "Y": -107.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "ベルベットルーム",
+        "SprType": 10,
+        "SprNo": 4,
+        "X": 64.0,
+        "Y": -146.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_MOON_HIDDEN_VDOOR",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "骨董屋",
+        "SprType": 0,
+        "SprNo": 7,
+        "X": 47.0,
+        "Y": -109.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "道具屋",
+        "SprType": 0,
+        "SprNo": 8,
+        "X": 86.0,
+        "Y": -83.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "ゲームセンター",
+        "SprType": 0,
+        "SprNo": 9,
+        "X": 115.0,
+        "Y": -8.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "UFOキャッチャー",
+        "SprType": 0,
+        "SprNo": 10,
+        "X": 80.0,
+        "Y": -17.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

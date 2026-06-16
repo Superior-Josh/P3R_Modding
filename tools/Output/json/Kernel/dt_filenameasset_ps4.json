@@ -1,0 +1,789 @@
+{
+  "Type": "FileNameListAssets",
+  "Name": "DT_FileNameAsset_PS4",
+  "Class": "UScriptClass'FileNameListAssets'",
+  "Properties": {
+    "Data": [
+      {
+        "Path": "Xrd777/CriData/CueSheet/BGM",
+        "Name": "bgm",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/CriData/CueSheet",
+        "Name": "system",
+        "chunk": 0
+      },
+      {
+        "Path": "UNUSED",
+        "Name": "UNUSED",
+        "chunk": 0
+      },
+      {
+        "Path": "UNUSED",
+        "Name": "UNUSED",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Events/Data/DataAsset",
+        "Name": "EvtDataOffTableAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Events/Data/DataAsset",
+        "Name": "EvtFadeOutTableAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Events/Data/DataAsset",
+        "Name": "EvtAssetOverWriteAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Characters/Data/DataTable",
+        "Name": "DT_Costume",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Blueprints/Characters",
+        "Name": "BP_AppCharacter",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "DatWeaponShopLineupDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Maps/UI",
+        "Name": "LV_WeaponShop",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "NormalSpreadDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility",
+        "Name": "BF_WeaponShop",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility",
+        "Name": "BMD_WeaponShop",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "DatItemShopLineupDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Maps/UI",
+        "Name": "LV_ItemShop",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility",
+        "Name": "BF_ItemShop",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility",
+        "Name": "BMD_ItemShop",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Common/ItemIcon/Platforms/_PS4",
+        "Name": "SPR_UI_ItemIcon_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Common/2D/BaseMaterials",
+        "Name": "MB_UI_Bustup",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Common/2D/BaseMaterials",
+        "Name": "MB_UI_BustupFill",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "BustupExistDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Camp",
+        "Name": "BMD_CampSystem",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_SkillHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemAccsHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemArmorHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemCommonHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemCostumeHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemEvitemHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemMaterialHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemShoesHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemSkillcardHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemWeaponHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "PersonaLiftDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "SkillAffinityDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "SkillLimitDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "SpecialSpreadDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "MailIncomingDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Mail/Texture",
+        "Name": "SPR_UI_Mail",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "DisappearDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "PersonaConfigDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "CommunityRankDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "CombineCounterDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "VelvetRoomQuestDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility",
+        "Name": "BMD_Quest",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/SimpleShop",
+        "Name": "SimpleShopDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/CutIn/Texture",
+        "Name": "PLG_UI_CutIn_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/KeyHelp",
+        "Name": "SPR_UI_Keyhelp_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/KeyHelp",
+        "Name": "SPR_UI_Keyhelp_Battle",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/KeyHelp",
+        "Name": "SPR_UI_Keyhelp_Camp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/KeyHelp",
+        "Name": "SPR_UI_Keyhelp_Facility",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "BustupEnvironmentDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "BustupGradationDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Message",
+        "Name": "SPR_UI_Message",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Message",
+        "Name": "PLG_UI_Message_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility",
+        "Name": "BF_VelvetRoom",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility",
+        "Name": "BMD_VelvetRoom",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Message/Assist",
+        "Name": "SPR_UI_Support_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_DisappearHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "BustupAnimDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Community/Help",
+        "Name": "BMD_CmmOutlineHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Community/Help",
+        "Name": "BMD_CmmProfileHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "CmmProfileHelpDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/KeyHelp",
+        "Name": "PLG_UI_Keyhelp_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "DatAntiqueShopLineupDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility",
+        "Name": "BF_AntiqueShop",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility",
+        "Name": "BMD_AntiqueShop",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Maps/UI",
+        "Name": "LV_AntiqueShop",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/DAY_WAVE/Material",
+        "Name": "MM_UI_Wave",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/DAY_WAVE/Material",
+        "Name": "MM_UI_WaveBack",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Common/2D/BaseMaterials",
+        "Name": "MB_UI_BustupSupport",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "MoonAgeProbabilityDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "SkillChangeDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "SkillPackDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "SkillPowerUpDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "CombineMiscDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Blueprints/UI",
+        "Name": "BP_CombineCalc",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "PersonaStatusLayoutDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/GenericSelect/ItemSelect",
+        "Name": "GenSelItemLineupDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/GenericSelect/ItemSelect",
+        "Name": "GenSelItemDefineDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Blueprints/UI",
+        "Name": "BP_PersonaPreviewWorldUpdater",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Characters/Common/MasterMaterials",
+        "Name": "MPC_LightSource",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "PersonaListLayoutDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Field/Data/DataAsset/Bf/Dungeon/ExploreNPC/",
+        "Name": "BF_FldShortCut",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Field/Data/DataAsset/Bf/Dungeon/ExploreNPC/",
+        "Name": "BMD_FldShortCut",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_PersonaHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Network",
+        "Name": "BMD_ActionRecord",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/CriData/CueSheet/SingleWord",
+        "Name": "voice_singleword",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Schedule/Data",
+        "Name": "BMD_CalendarDateMessages",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Schedule/Data/DataAsset",
+        "Name": "CldDateMessageDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ArbeitHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Schedule/Data/DataAsset",
+        "Name": "ArbeitInfoDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Schedule/Data/DataAsset",
+        "Name": "HiddenArbeitDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/NameEntry",
+        "Name": "BF_NameEntry",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/NameEntry",
+        "Name": "BMD_NameEntry",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_Common_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_01",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_02",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_03",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_04",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_05",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_06",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_07",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_08",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "PLG_UI_SimpleShop_06",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "PLG_UI_SimpleShop_01",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "PLG_UI_SimpleShop_02",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "PLG_UI_SimpleShop_03",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "PLG_UI_SimpleShop_04",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "PLG_UI_SimpleShop_05",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Money/",
+        "Name": "SPR_UI_Money_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "NameEntryCnvCharDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "SupportBustupDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/WeaponShop",
+        "Name": "SPR_UI_Facility_WeaponShop_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/WeaponShop",
+        "Name": "PLG_UI_Facility_WeaponShop_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Events/Data/DataAsset",
+        "Name": "EvtAssetOverWriteEventAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/WeaponShop",
+        "Name": "BP_WeaponShopDraw",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "CombineBirthDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Help",
+        "Name": "BMD_ItemAddEffectHelp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables/Combine",
+        "Name": "WordSortDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/Common/Texture",
+        "Name": "SPR_UI_Facility_Common_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/Common/Texture",
+        "Name": "PLG_UI_Facility_Common_00",
+        "chunk": 0
+      },
+      {
+        "Path": "UNUSED",
+        "Name": "UNUSED",
+        "chunk": 0
+      },
+      {
+        "Path": "UNUSED",
+        "Name": "UNUSED",
+        "chunk": 0
+      },
+      {
+        "Path": "UNUSED",
+        "Name": "UNUSED",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/SimpleShop",
+        "Name": "SPR_UI_ShimpleShop_09",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/AntiqueShop",
+        "Name": "SPR_UI_Facility_AntiqueShop_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/AntiqueShop",
+        "Name": "PLG_UI_Facility_AntiqueShop_00",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Facility/AntiqueShop",
+        "Name": "BP_AntiqueShopDraw",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Camp/Root/Texture",
+        "Name": "SPR_UI_Camp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Camp/Root/Plg",
+        "Name": "PLG_UI_Camp",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Activity",
+        "Name": "ActivityDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "AddContentDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/AddContent",
+        "Name": "BMD_AddContent_Message",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "AddContentBundleNameDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "AddContentDispNameDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Sound/Table",
+        "Name": "DlcBgmAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Blueprints/UI/PersonaStatus",
+        "Name": "BP_PersonaStatusDraw",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Kernel/Tables",
+        "Name": "DT_DataInheritanceTable",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/DataInheritance",
+        "Name": "BMD_DataInheritance",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/ClearSave",
+        "Name": "BMD_ClearSavePS4",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Common/2D/BaseMaterials",
+        "Name": "MB_UI_BustupYko",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Common/2D/BaseMaterials",
+        "Name": "MB_UI_BustupUniverse",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Common/2D/BaseMaterials",
+        "Name": "MB_UI_BustupYkoUniverse",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Events/Data/DataAsset/",
+        "Name": "EvtPreLoadDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Events/Data/DataAsset/",
+        "Name": "EvtBagEnableTableAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Events/Data/DataAsset/",
+        "Name": "EvtPreDataAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Events/Data/DataAsset/",
+        "Name": "EvtPersonaCombineAdjustTableAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/KeyHelp/Platforms/_PS4",
+        "Name": "SPR_UI_Keyhelp_00_Button",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/KeyHelp/Platforms/_PS4",
+        "Name": "SPR_UI_Keyhelp_Battle_Button",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/KeyHelp/Platforms/_PS4",
+        "Name": "SPR_UI_Keyhelp_Camp_Button",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/KeyHelp/Platforms/_PS4",
+        "Name": "SPR_UI_Keyhelp_Facility_Button",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Events/Data/DataAsset",
+        "Name": "EvtObjectVisibleAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/CriData/CueSheet/Configure",
+        "Name": "voice_configue",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/Sound/Table/DungeonBgm",
+        "Name": "DlcDungeonBgmAsset",
+        "chunk": 0
+      },
+      {
+        "Path": "Xrd777/UI/Tables",
+        "Name": "AddContentEntitlementNameDataAsset",
+        "chunk": 0
+      }
+    ]
+  }
+}

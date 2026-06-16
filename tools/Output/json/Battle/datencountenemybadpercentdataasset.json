@@ -1,0 +1,72 @@
+{
+  "Type": "DatEncountEnemyBadPercentTable",
+  "Name": "DatEncountEnemyBadPercentDataAsset",
+  "Class": "UScriptClass'DatEncountEnemyBadPercentTable'",
+  "Properties": {
+    "Data": [
+      {
+        "Num1": 0,
+        "Num2": 0,
+        "Num3": 0,
+        "Num4": 0,
+        "NumOver5": 0
+      },
+      {
+        "Num1": 50,
+        "Num2": 20,
+        "Num3": 10,
+        "Num4": 10,
+        "NumOver5": 10
+      },
+      {
+        "Num1": 50,
+        "Num2": 20,
+        "Num3": 15,
+        "Num4": 10,
+        "NumOver5": 5
+      },
+      {
+        "Num1": 70,
+        "Num2": 15,
+        "Num3": 10,
+        "Num4": 4,
+        "NumOver5": 1
+      },
+      {
+        "Num1": 100,
+        "Num2": 0,
+        "Num3": 0,
+        "Num4": 0,
+        "NumOver5": 0
+      },
+      {
+        "Num1": 80,
+        "Num2": 20,
+        "Num3": 0,
+        "Num4": 0,
+        "NumOver5": 0
+      },
+      {
+        "Num1": 50,
+        "Num2": 20,
+        "Num3": 10,
+        "Num4": 10,
+        "NumOver5": 10
+      },
+      {
+        "Num1": 50,
+        "Num2": 20,
+        "Num3": 10,
+        "Num4": 10,
+        "NumOver5": 10
+      },
+      {
+        "Num1": 50,
+        "Num2": 20,
+        "Num3": 10,
+        "Num4": 10,
+        "NumOver5": 10
+      }
+    ]
+  }
+}

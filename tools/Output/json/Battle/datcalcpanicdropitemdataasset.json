@@ -1,0 +1,27 @@
+{
+  "Type": "DatCalcPANICDropItemTable",
+  "Name": "DatCalcPANICDropItemDataAsset",
+  "Class": "UScriptClass'DatCalcPANICDropItemTable'",
+  "Properties": {
+    "Data": [
+      {
+        "item": {
+          "id": 24649,
+          "prob": 15
+        }
+      },
+      {
+        "item": {
+          "id": 24646,
+          "prob": 15
+        }
+      },
+      {
+        "item": {
+          "id": 24642,
+          "prob": 25
+        }
+      }
+    ]
+  }
+}

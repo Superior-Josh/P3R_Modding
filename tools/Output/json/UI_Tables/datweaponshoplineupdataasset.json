@@ -1,0 +1,1515 @@
+{
+  "Type": "WeaponShopLineUpListTable",
+  "Name": "DatWeaponShopLineupDataAsset",
+  "Class": "UScriptClass'WeaponShopLineUpListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "Value": 0,
+        "SaleMonth": 3,
+        "SaleDay": 31,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 3,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 37,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 40,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 72,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 73,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 6,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 7,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 39,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 38,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 74,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 75,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 107,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 108,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 9,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 42,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 77,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 110,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 142,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 13,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 45,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 41,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 80,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 81,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 113,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 114,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 147,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 148,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 177,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 178,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 32,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 48,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 49,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 82,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 76,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 116,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 117,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 149,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 150,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 179,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 180,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 203,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 204,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 228,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 229,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 252,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 253,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 15,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 17,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 50,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 51,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 84,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 92,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 118,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 119,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 151,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 146,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 181,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 182,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 205,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 206,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 230,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 231,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 255,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 256,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 18,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 21,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 52,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 53,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 86,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 87,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 120,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 121,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 153,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 154,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 183,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 184,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 207,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 208,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 233,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 234,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 20,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 19,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 54,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 55,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 88,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 89,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 122,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 123,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 156,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 155,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 186,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 187,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 209,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 210,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 236,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 237,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 33,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 34,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 64,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 65,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 101,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 102,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 132,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 133,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 169,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 152,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 193,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 194,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 211,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 220,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 247,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 248,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 22,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 31,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 56,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 57,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 90,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 91,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 124,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 125,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 157,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 170,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 189,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 188,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 212,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 213,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 238,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 239,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4107,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4108,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4110,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4111,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4112,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4113,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4214,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4119,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4162,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4163,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4180,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4181,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4123,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4122,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4164,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4165,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4126,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4125,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4166,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4167,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4182,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4183,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4131,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4128,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4168,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4169,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4184,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4185,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4135,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4134,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4170,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4171,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4186,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4187,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4148,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4149,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4176,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4177,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4192,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4193,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4138,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4136,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4172,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4173,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4189,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 4190,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8203,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8204,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8206,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8207,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8208,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8209,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8211,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8212,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8264,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8267,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8215,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8245,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8266,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8265,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8219,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8218,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8268,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8269,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8222,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8221,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8270,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8271,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8226,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8225,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8272,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8273,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8246,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8247,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8276,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8277,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8231,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8230,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8281,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 8282,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12427,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12421,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12299,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12302,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12305,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12308,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12311,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12422,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12458,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12455,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12457,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12459,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12454,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12456,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12452,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12453,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12469,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12471,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12468,
+        "SaleMonth": 6,
+        "SaleDay": 14,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12428,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12353,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12355,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12359,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12357,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12364,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12366,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12347,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12349,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12351,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12378,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12379,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12314,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12497,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12518,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12407,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12406,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12394,
+        "SaleMonth": 11,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12345,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 12346,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,1479 @@
+{
+  "Type": "DatShuffleCommonItemdropArcanaTable",
+  "Name": "DatShuffleSwordArcanaDataAsset",
+  "Class": "UScriptClass'DatShuffleCommonItemdropArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 20,
+        "ItemtID": 28761
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 20,
+        "ItemtID": 28741
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 20,
+        "ItemtID": 28768
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 20,
+        "ItemtID": 28766
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 10,
+        "ItemtID": 28778
+      },
+      {
+        "RankID": 0,
+        "Num": 1,
+        "Prob": 10,
+        "ItemtID": 28789
+      },
+      {
+        "RankID": 1,
+        "Num": 1,
+        "Prob": 16,
+        "ItemtID": 28673
+      },
+      {
+        "RankID": 1,
+        "Num": 1,
+        "Prob": 16,
+        "ItemtID": 28686
+      },
+      {
+        "RankID": 1,
+        "Num": 1,
+        "Prob": 16,
+        "ItemtID": 28692
+      },
+      {
+        "RankID": 1,
+        "Num": 1,
+        "Prob": 16,
+        "ItemtID": 28680
+      },
+      {
+        "RankID": 1,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28701
+      },
+      {
+        "RankID": 1,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28712
+      },
+      {
+        "RankID": 1,
+        "Num": 1,
+        "Prob": 20,
+        "ItemtID": 28778
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28734
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28723
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28725
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28727
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28729
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28732
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28739
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28740
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28708
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28719
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28803
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28807
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28805
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28796
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28800
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28798
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28816
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28982
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28737
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28738
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28915
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28924
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28762
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28744
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28770
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28781
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 28785
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28789
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28818
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28819
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28821
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28820
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28883
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28885
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28889
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28887
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28985
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28987
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28877
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28879
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28881
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28918
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28921
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28954
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28955
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28676
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28689
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28695
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28683
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28704
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28715
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28709
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28720
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28698
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28893
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28895
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28897
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28899
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28901
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28903
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28905
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28907
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28909
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28953
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28751
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28742
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28769
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28752
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28753
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28674
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28687
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28693
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28681
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28702
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28713
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28710
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28721
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28779
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28794
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28792
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28973
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28974
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28975
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28976
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28965
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28916
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28932
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28931
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28925
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28878
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28880
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28882
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28884
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28886
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28890
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28888
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28986
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28988
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28927
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28928
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28929
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28968
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28919
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28922
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28983
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28984
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28899
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28901
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28903
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28905
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28907
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28909
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28965
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28932
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28925
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28939
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28756
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28754
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28764
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28771
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28777
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 28677
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 28690
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 28696
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 7,
+        "ItemtID": 28684
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28705
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28716
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28735
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28736
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28724
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28726
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28728
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28730
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28733
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28699
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28813
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28802
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28826
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28830
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28834
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28838
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28842
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28846
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28850
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28854
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 28857
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 9,
+        "ItemtID": 28804
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 9,
+        "ItemtID": 28808
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 9,
+        "ItemtID": 28806
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 9,
+        "ItemtID": 28797
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 9,
+        "ItemtID": 28801
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 9,
+        "ItemtID": 28799
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28817
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28782
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28786
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28790
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28917
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28926
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28940
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28972
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28920
+      },
+      {
+        "RankID": 8,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28923
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28758
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28747
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28775
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28675
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28688
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28694
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28682
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28703
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28714
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28711
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28722
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28731
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28780
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28795
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28814
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28815
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28983
+      },
+      {
+        "RankID": 9,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28984
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28757
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28746
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28776
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28678
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28691
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28697
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28685
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28706
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28717
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28707
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28718
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28892
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28967
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28855
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28858
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28966
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28963
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28945
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28944
+      },
+      {
+        "RankID": 10,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28946
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28763
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28749
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28772
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28773
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 4,
+        "ItemtID": 28748
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28700
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28811
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 6,
+        "ItemtID": 28812
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 3,
+        "ItemtID": 28783
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28793
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28894
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28896
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28898
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28900
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28902
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28904
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28906
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28908
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 28910
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28828
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28832
+      },
+      {
+        "RankID": 11,
+        "Num": 1,
+        "Prob": 2,
+        "ItemtID": 28836
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 13,
+        "ItemtID": 28811
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 13,
+        "ItemtID": 28812
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 12,
+        "ItemtID": 28783
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28841
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28845
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28849
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 28853
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 10,
+        "ItemtID": 28941
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 10,
+        "ItemtID": 28936
+      },
+      {
+        "RankID": 12,
+        "Num": 1,
+        "Prob": 10,
+        "ItemtID": 28935
+      }
+    ]
+  }
+}

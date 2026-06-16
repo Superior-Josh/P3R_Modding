@@ -1,0 +1,5287 @@
+{
+  "Type": "AntiqueShopLineUpListTable",
+  "Name": "DatAntiqueShopLineupDataAsset",
+  "Class": "UScriptClass'AntiqueShopLineUpListTable'",
+  "Properties": {
+    "TradeData": [
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 0,
+        "SaleMonth": 3,
+        "SaleDay": 31,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24645,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16387,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16388,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 1
+          }
+        ],
+        "Value": 16472,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16422,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16422,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16423,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16423,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 1
+          }
+        ],
+        "Value": 16424,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24645,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16463,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24645,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16452,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24645,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16561,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16562,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16565,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16567,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16566,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16628,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16630,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16631,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16632,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16629,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16549,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16550,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16547,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16548,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24645,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16546,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16551,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16507,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16508,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16509,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16510,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16525,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 536874394
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 25014,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 25015,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 25016,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 24651,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 24652,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 24652,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 24653,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 536872489
+      },
+      {
+        "Type": 0,
+        "TradeItems": [
+          {
+            "ItemID": 24644,
+            "ItemNum": 4
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 24653,
+        "SaleMonth": 1,
+        "SaleDay": 1,
+        "OpenFLG": 536872489
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16484,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16492,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16488,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16496,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16490,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24644,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16485,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24644,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16493,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24644,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16489,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16497,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 16494,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28919,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28920,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28922,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24645,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28923,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24645,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28924,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28925,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28926,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24645,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28939,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24645,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28980,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24645,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28969,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28953,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28956,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28957,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28973,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28974,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28975,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28976,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28972,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28977,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28978,
+        "SaleMonth": 10,
+        "SaleDay": 6,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28963,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28959,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28838,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28842,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28846,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28850,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 7
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 7
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28936,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 7
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 7
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28935,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 1
+          }
+        ],
+        "Value": 28700,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24648,
+            "ItemNum": 7
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28961,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Type": 1,
+        "TradeItems": [
+          {
+            "ItemID": 24648,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 28933,
+        "SaleMonth": 12,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      }
+    ],
+    "CombineSources": [
+      {
+        "Value": 0,
+        "SaleMonth": 3,
+        "SaleDay": 31,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 24673,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073742006
+      },
+      {
+        "Value": 24668,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073742001
+      },
+      {
+        "Value": 24669,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073742002
+      },
+      {
+        "Value": 24672,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073742005
+      },
+      {
+        "Value": 24659,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073741992
+      },
+      {
+        "Value": 24662,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073741995
+      },
+      {
+        "Value": 24665,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073741998
+      },
+      {
+        "Value": 24667,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073742000
+      },
+      {
+        "Value": 24658,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073741991
+      },
+      {
+        "Value": 24661,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073741994
+      },
+      {
+        "Value": 24664,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073741997
+      },
+      {
+        "Value": 24666,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073741999
+      },
+      {
+        "Value": 24671,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 1073742004
+      },
+      {
+        "Value": 24657,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 24670,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 24660,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 24663,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      }
+    ],
+    "CombineResults": [
+      {
+        "BaseItemID": 0,
+        "TradeItems": [
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 0,
+        "SaleMonth": 3,
+        "SaleDay": 31,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24657,
+        "TradeItems": [
+          {
+            "ItemID": 24649,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 27,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24657,
+        "TradeItems": [
+          {
+            "ItemID": 24649,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24651,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 5,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24657,
+        "TradeItems": [
+          {
+            "ItemID": 24649,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 25014,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 29,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24670,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 292,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24670,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 61,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24670,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 97,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24670,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24651,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 129,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24670,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24651,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 143,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24660,
+        "TradeItems": [
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4156,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24660,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4154,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24660,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4155,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24660,
+        "TradeItems": [
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8249,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24660,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8252,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24660,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8250,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12380,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12383,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12381,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12384,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12382,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12385,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12443,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12330,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12332,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12334,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24663,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12336,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24671,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 197,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24671,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 260,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24671,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4246,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24671,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4179,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24671,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12528,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24671,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12530,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24671,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12532,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24671,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12534,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24671,
+        "TradeItems": [
+          {
+            "ItemID": 24651,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12536,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 68,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 103,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 135,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 145,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 250,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 223,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 24978,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 265,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 24677,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24651,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          }
+        ],
+        "Value": 4221,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4222,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24651,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8251,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4178,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24666,
+        "TradeItems": [
+          {
+            "ItemID": 25014,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24651,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8278,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24658,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 293,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24658,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 43,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24658,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 85,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24658,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 109,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24658,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 162,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24658,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 195,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24658,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 216,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24658,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 271,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24658,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 263,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24661,
+        "TradeItems": [
+          {
+            "ItemID": 24637,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4157,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24661,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4216,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24661,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4116,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24661,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4124,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24661,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4247,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24661,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4188,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24661,
+        "TradeItems": [
+          {
+            "ItemID": 24640,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8216,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24661,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8254,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24661,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8253,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12327,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12328,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12329,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12343,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12548,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12549,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12550,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12551,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12331,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12333,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12335,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24664,
+        "TradeItems": [
+          {
+            "ItemID": 24652,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12337,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 25016,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 294,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 24700,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 70,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 24693,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24677,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          }
+        ],
+        "Value": 136,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 173,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 24695,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 241,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 24980,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4160,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 24700,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8259,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4248,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8279,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 24983,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          }
+        ],
+        "Value": 12552,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24667,
+        "TradeItems": [
+          {
+            "ItemID": 24979,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          }
+        ],
+        "Value": 12557,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24659,
+        "TradeItems": [
+          {
+            "ItemID": 24653,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 14,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24659,
+        "TradeItems": [
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 58,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24659,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 104,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24659,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 126,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24659,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 158,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24659,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 200,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24659,
+        "TradeItems": [
+          {
+            "ItemID": 24641,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 225,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24659,
+        "TradeItems": [
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 240,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24659,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 264,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24662,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4223,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24662,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24652,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4217,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24662,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4220,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24662,
+        "TradeItems": [
+          {
+            "ItemID": 24642,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4194,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24662,
+        "TradeItems": [
+          {
+            "ItemID": 24646,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8255,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24662,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8217,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24662,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8256,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24662,
+        "TradeItems": [
+          {
+            "ItemID": 24639,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8275,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 25016,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12340,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 25016,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12341,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 25016,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12342,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12408,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 25015,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12473,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 24653,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12533,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 24653,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12535,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 24653,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12537,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 24653,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12529,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24665,
+        "TradeItems": [
+          {
+            "ItemID": 24653,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12531,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 24705,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 94,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 24985,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 127,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 24987,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 161,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 25016,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 196,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 25016,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 222,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 24987,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4218,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 25016,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4219,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 25016,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4249,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 24977,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 4195,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 25016,
+            "ItemNum": 2
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 3
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 8274,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 25013,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24649,
+            "ItemNum": 20
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12426,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 25001,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24637,
+            "ItemNum": 20
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12361,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 25008,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24640,
+            "ItemNum": 20
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12362,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 24998,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24646,
+            "ItemNum": 20
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12386,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24672,
+        "TradeItems": [
+          {
+            "ItemID": 24996,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24639,
+            "ItemNum": 20
+          },
+          {
+            "ItemID": 0,
+            "ItemNum": 0
+          }
+        ],
+        "Value": 12405,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 24988,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 24,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 25007,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 60,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 25000,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 59,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 24982,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 93,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 25011,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          }
+        ],
+        "Value": 4140,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 25011,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          }
+        ],
+        "Value": 8236,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 25013,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 4191,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 24997,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12372,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 24985,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12373,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 24993,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12369,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 24989,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12370,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24668,
+        "TradeItems": [
+          {
+            "ItemID": 25012,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12371,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 24991,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 128,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 25004,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 243,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 24994,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 242,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 25003,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 266,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 25002,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          }
+        ],
+        "Value": 4141,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 25002,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24642,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          }
+        ],
+        "Value": 8235,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 24999,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 4174,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 24992,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 3
+          }
+        ],
+        "Value": 8280,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 24978,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12374,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 24990,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12375,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 24981,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12376,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 24999,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12377,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24669,
+        "TradeItems": [
+          {
+            "ItemID": 24995,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 10
+          }
+        ],
+        "Value": 12432,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25009,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 10
+          }
+        ],
+        "Value": 25,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25001,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 5
+          }
+        ],
+        "Value": 95,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25005,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 5
+          }
+        ],
+        "Value": 160,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25008,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 10
+          }
+        ],
+        "Value": 191,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25006,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24653,
+            "ItemNum": 5
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 10
+          }
+        ],
+        "Value": 215,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25010,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 5
+          }
+        ],
+        "Value": 4142,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25010,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 10
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 5
+          }
+        ],
+        "Value": 8237,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25004,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 7
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12414,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25006,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24641,
+            "ItemNum": 7
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12415,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "BaseItemID": 24673,
+        "TradeItems": [
+          {
+            "ItemID": 25007,
+            "ItemNum": 1
+          },
+          {
+            "ItemID": 24644,
+            "ItemNum": 7
+          },
+          {
+            "ItemID": 24648,
+            "ItemNum": 2
+          }
+        ],
+        "Value": 12363,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      }
+    ]
+  }
+}

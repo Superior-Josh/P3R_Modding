@@ -1,0 +1,545 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_Tutorial_DUNGEON_Name",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'DatNameTable'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "1": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "1_Name",
+        "SourceString": "보물 상자",
+        "LocalizedString": "보물 상자"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "1_Comment",
+        "SourceString": "宝箱",
+        "LocalizedString": "宝箱"
+      }
+    },
+    "2": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "2_Name",
+        "SourceString": "아이템과 스킬 사용",
+        "LocalizedString": "아이템과 스킬 사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "2_Comment",
+        "SourceString": "アイテムとスキルの使用",
+        "LocalizedString": "アイテムとスキルの使用"
+      }
+    },
+    "3": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "3_Name",
+        "SourceString": "어택과 인카운트 종류",
+        "LocalizedString": "어택과 인카운트 종류"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "3_Comment",
+        "SourceString": "アタックとエンカウントの種類",
+        "LocalizedString": "アタックとエンカウントの種類"
+      }
+    },
+    "4": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "4_Name",
+        "SourceString": "귀환 장치",
+        "LocalizedString": "귀환 장치"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "4_Comment",
+        "SourceString": "帰還装置",
+        "LocalizedString": "帰還装置"
+      }
+    },
+    "5": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "5_Name",
+        "SourceString": "타르타로스에서의 귀환",
+        "LocalizedString": "타르타로스에서의 귀환"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "5_Comment",
+        "SourceString": "タルタロスからの帰還",
+        "LocalizedString": "タルタロスからの帰還"
+      }
+    },
+    "6": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "6_Name",
+        "SourceString": "타르타로스에서의 저장",
+        "LocalizedString": "타르타로스에서의 저장"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "6_Comment",
+        "SourceString": "タルタロスでのセーブ",
+        "LocalizedString": "タルタロスでのセーブ"
+      }
+    },
+    "7": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "7_Name",
+        "SourceString": "대시로 이동",
+        "LocalizedString": "대시로 이동"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "7_Comment",
+        "SourceString": "ダッシュでの移動",
+        "LocalizedString": "ダッシュでの移動"
+      }
+    },
+    "8": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "8_Name",
+        "SourceString": "오토 리커버",
+        "LocalizedString": "오토 리커버"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "8_Comment",
+        "SourceString": "オートリカバー",
+        "LocalizedString": "オートリカバー"
+      }
+    },
+    "9": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "9_Name",
+        "SourceString": "잠금 해제가 필요한 보물 상자",
+        "LocalizedString": "잠금 해제가 필요한 보물 상자"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "9_Comment",
+        "SourceString": "解錠が必要な宝箱",
+        "LocalizedString": "解錠が必要な宝箱"
+      }
+    },
+    "10": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "10_Name",
+        "SourceString": "파티 편성의 변경",
+        "LocalizedString": "파티 편성의 변경"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "10_Comment",
+        "SourceString": "パーティ編成の変更",
+        "LocalizedString": "パーティ編成の変更"
+      }
+    },
+    "11": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "11_Name",
+        "SourceString": "시계",
+        "LocalizedString": "시계"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "11_Comment",
+        "SourceString": "時計",
+        "LocalizedString": "時計"
+      }
+    },
+    "12": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "12_Name",
+        "SourceString": "미니맵과 이동 숏컷",
+        "LocalizedString": "미니맵과 이동 숏컷"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "12_Comment",
+        "SourceString": "ミニマップと移動のショートカット",
+        "LocalizedString": "ミニマップと移動のショートカット"
+      }
+    },
+    "13": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "13_Name",
+        "SourceString": "전송 장치",
+        "LocalizedString": "전송 장치"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "13_Comment",
+        "SourceString": "転送装置",
+        "LocalizedString": "転送装置"
+      }
+    },
+    "14": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "14_Name",
+        "SourceString": "레어 섀도",
+        "LocalizedString": "레어 섀도"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "14_Comment",
+        "SourceString": "レアシャドウ",
+        "LocalizedString": "レアシャドウ"
+      }
+    },
+    "15": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "15_Name",
+        "SourceString": "강적 섀도",
+        "LocalizedString": "강적 섀도"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "15_Comment",
+        "SourceString": "強敵シャドウ",
+        "LocalizedString": "強敵シャドウ"
+      }
+    },
+    "16": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "16_Name",
+        "SourceString": "의상 변경",
+        "LocalizedString": "의상 변경"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "16_Comment",
+        "SourceString": "衣装の変更",
+        "LocalizedString": "衣装の変更"
+      }
+    },
+    "17": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "17_Name",
+        "SourceString": "사신의 출현",
+        "LocalizedString": "사신의 출현"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "17_Comment",
+        "SourceString": "死神の出現",
+        "LocalizedString": "死神の出現"
+      }
+    },
+    "18": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "18_Name",
+        "SourceString": "정찰",
+        "LocalizedString": "정찰"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "18_Comment",
+        "SourceString": "偵察",
+        "LocalizedString": "偵察"
+      }
+    },
+    "19": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "19_Name",
+        "SourceString": "도망치는 적",
+        "LocalizedString": "도망치는 적"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "19_Comment",
+        "SourceString": "逃げ出す敵",
+        "LocalizedString": "逃げ出す敵"
+      }
+    },
+    "20": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "20_Name",
+        "SourceString": "경계의 플로어",
+        "LocalizedString": "경계의 플로어"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "20_Comment",
+        "SourceString": "境界のフロア",
+        "LocalizedString": "境界のフロア"
+      }
+    },
+    "21": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "21_Name",
+        "SourceString": "실종자",
+        "LocalizedString": "실종자"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "21_Comment",
+        "SourceString": "失踪者",
+        "LocalizedString": "失踪者"
+      }
+    },
+    "22": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "22_Name",
+        "SourceString": "모나드의 문",
+        "LocalizedString": "모나드의 문"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "22_Comment",
+        "SourceString": "モナドの扉",
+        "LocalizedString": "モナドの扉"
+      }
+    },
+    "23": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "23_Name",
+        "SourceString": "모나드 통로",
+        "LocalizedString": "모나드 통로"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "23_Comment",
+        "SourceString": "モナド通路",
+        "LocalizedString": "モナド通路"
+      }
+    },
+    "24": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "24_Name",
+        "SourceString": "후카의 스킬",
+        "LocalizedString": "후카의 스킬"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "24_Comment",
+        "SourceString": "風花のスキル",
+        "LocalizedString": "風花のスキル"
+      }
+    },
+    "25": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "25_Name",
+        "SourceString": "후카의 스킬 “재밍”",
+        "LocalizedString": "후카의 스킬 “재밍”"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "25_Comment",
+        "SourceString": "風花のスキル『ジャミング』",
+        "LocalizedString": "風花のスキル『ジャミング』"
+      }
+    },
+    "26": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "26_Name",
+        "SourceString": "후카의 스킬 “실피드 오라”",
+        "LocalizedString": "후카의 스킬 “실피드 오라”"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "26_Comment",
+        "SourceString": "風花のスキル『シルフィードオーラ』",
+        "LocalizedString": "風花のスキル『シルフィードオーラ』"
+      }
+    },
+    "27": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "27_Name",
+        "SourceString": "후카의 스킬 “쇼크 노이즈”",
+        "LocalizedString": "후카의 스킬 “쇼크 노이즈”"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "27_Comment",
+        "SourceString": "風花のスキル『ショックノイズ』",
+        "LocalizedString": "風花のスキル『ショックノイズ』"
+      }
+    },
+    "28": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "28_Name",
+        "SourceString": "후카의 스킬 “이스케이프 로드”",
+        "LocalizedString": "후카의 스킬 “이스케이프 로드”"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "28_Comment",
+        "SourceString": "風花のスキル『エスケープロード』",
+        "LocalizedString": "風花のスキル『エスケープロード』"
+      }
+    },
+    "29": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "29_Name",
+        "SourceString": "후카의 스킬 “타르타로스 서치”",
+        "LocalizedString": "후카의 스킬 “타르타로스 서치”"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "29_Comment",
+        "SourceString": "風花のスキル『タルタロスサーチ』",
+        "LocalizedString": "風花のスキル『タルタロスサーチ』"
+      }
+    },
+    "30": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "30_Name",
+        "SourceString": "강습 어택",
+        "LocalizedString": "강습 어택"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "30_Comment",
+        "SourceString": "強襲アタック",
+        "LocalizedString": "強襲アタック"
+      }
+    },
+    "31": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "31_Name",
+        "SourceString": "상태 이상에 걸린 섀도",
+        "LocalizedString": "상태 이상에 걸린 섀도"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "31_Comment",
+        "SourceString": "状態異常にかかったシャドウ",
+        "LocalizedString": "状態異常にかかったシャドウ"
+      }
+    },
+    "32": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "32_Name",
+        "SourceString": "상태 이상: 자포자기",
+        "LocalizedString": "상태 이상: 자포자기"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "32_Comment",
+        "SourceString": "状態異常：ヤケクソ",
+        "LocalizedString": "状態異常：ヤケクソ"
+      }
+    },
+    "33": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "33_Name",
+        "SourceString": "상태 이상: 혼란",
+        "LocalizedString": "상태 이상: 혼란"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "33_Comment",
+        "SourceString": "状態異常：混乱",
+        "LocalizedString": "状態異常：混乱"
+      }
+    },
+    "34": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "34_Name",
+        "SourceString": "상태 이상: 공포",
+        "LocalizedString": "상태 이상: 공포"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "34_Comment",
+        "SourceString": "状態異常：恐怖",
+        "LocalizedString": "状態異常：恐怖"
+      }
+    },
+    "35": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "35_Name",
+        "SourceString": "대시계로 가는 입구",
+        "LocalizedString": "대시계로 가는 입구"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "35_Comment",
+        "SourceString": "大時計への入り口",
+        "LocalizedString": "大時計への入り口"
+      }
+    },
+    "36": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "36_Name",
+        "SourceString": "다크 존",
+        "LocalizedString": "다크 존"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "36_Comment",
+        "SourceString": "ダークゾーン",
+        "LocalizedString": "ダークゾーン"
+      }
+    },
+    "37": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "37_Name",
+        "SourceString": "거대한 레어 섀도",
+        "LocalizedString": "거대한 레어 섀도"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "37_Comment",
+        "SourceString": "巨大なレアシャドウ",
+        "LocalizedString": "巨大なレアシャドウ"
+      }
+    },
+    "38": {
+      "Name": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "38_Name",
+        "SourceString": "파괴 오브젝트",
+        "LocalizedString": "파괴 오브젝트"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_DUNGEON_Name",
+        "Key": "38_Comment",
+        "SourceString": "破壊オブジェクト",
+        "LocalizedString": "破壊オブジェクト"
+      }
+    }
+  }
+}

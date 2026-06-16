@@ -1,0 +1,174 @@
+{
+  "Type": "MoviesEventDataAsset",
+  "Name": "MoviesDataAsset",
+  "Class": "UScriptClass'MoviesEventDataAsset'",
+  "Properties": {
+    "Table": [
+      {
+        "Month": 8,
+        "Day": 17,
+        "ArcanaID": 2,
+        "MailID": 10,
+        "Major": 101,
+        "Minor": 600,
+        "CommunityRankMin": 1,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 18,
+        "ArcanaID": 15,
+        "MailID": 202,
+        "Major": 112,
+        "Minor": 600,
+        "CommunityRankMin": 2,
+        "CommunityRankMax": 9,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 19,
+        "ArcanaID": 11,
+        "MailID": 154,
+        "Major": 108,
+        "Minor": 600,
+        "CommunityRankMin": 2,
+        "CommunityRankMax": 9,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 21,
+        "ArcanaID": 12,
+        "MailID": 173,
+        "Major": 106,
+        "Minor": 600,
+        "CommunityRankMin": 2,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 22,
+        "ArcanaID": 8,
+        "MailID": 106,
+        "Major": 105,
+        "Minor": 600,
+        "CommunityRankMin": 1,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 23,
+        "ArcanaID": 9,
+        "MailID": 125,
+        "Major": 109,
+        "Minor": 600,
+        "CommunityRankMin": 2,
+        "CommunityRankMax": 10,
+        "OffFlag": 268435528
+      },
+      {
+        "Month": 8,
+        "Day": 24,
+        "ArcanaID": 7,
+        "MailID": 93,
+        "Major": 2,
+        "Minor": 600,
+        "CommunityRankMin": 0,
+        "CommunityRankMax": 10,
+        "OffFlag": 268435526
+      },
+      {
+        "Month": 8,
+        "Day": 25,
+        "ArcanaID": 0,
+        "MailID": 326,
+        "Major": 4,
+        "Minor": 600,
+        "CommunityRankMin": 0,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 26,
+        "ArcanaID": 0,
+        "MailID": -1,
+        "Major": 9,
+        "Minor": 600,
+        "CommunityRankMin": 0,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 27,
+        "ArcanaID": 0,
+        "MailID": 310,
+        "Major": 3,
+        "Minor": 600,
+        "CommunityRankMin": 0,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 28,
+        "ArcanaID": 22,
+        "MailID": 300,
+        "Major": 7,
+        "Minor": 600,
+        "CommunityRankMin": 0,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 29,
+        "ArcanaID": 3,
+        "MailID": 29,
+        "Major": 6,
+        "Minor": 600,
+        "CommunityRankMin": 0,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 30,
+        "ArcanaID": 4,
+        "MailID": 45,
+        "Major": 5,
+        "Minor": 600,
+        "CommunityRankMin": 0,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 8,
+        "Day": 31,
+        "ArcanaID": 0,
+        "MailID": 342,
+        "Major": 8,
+        "Minor": 600,
+        "CommunityRankMin": 0,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      },
+      {
+        "Month": 9,
+        "Day": 23,
+        "ArcanaID": 0,
+        "MailID": 358,
+        "Major": 10,
+        "Minor": 600,
+        "CommunityRankMin": 0,
+        "CommunityRankMax": 10,
+        "OffFlag": 0
+      }
+    ]
+  }
+}

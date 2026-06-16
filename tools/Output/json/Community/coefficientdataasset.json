@@ -1,0 +1,117 @@
+{
+  "Type": "CoefficientDataAsset",
+  "Name": "CoefficientDataAsset",
+  "Class": "UScriptClass'CoefficientDataAsset'",
+  "Properties": {
+    "GeneralTable": [
+      {
+        "Value": 268435695,
+        "Coefficient": 1.51
+      },
+      {
+        "Value": 50,
+        "Coefficient": 1.51
+      },
+      {
+        "Value": 51,
+        "Coefficient": 1.21
+      },
+      {
+        "Value": 268435694,
+        "Coefficient": 1.51
+      }
+    ],
+    "UniqTables": [
+      {
+        "DataMap": [
+          {
+            "Key": "0",
+            "Value": {
+              "Value": -1,
+              "Coefficient": 1.51
+            }
+          },
+          {
+            "Key": "1",
+            "Value": {
+              "Value": 50,
+              "Coefficient": 1.51
+            }
+          }
+        ]
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      },
+      {
+        "DataMap": []
+      }
+    ]
+  }
+}

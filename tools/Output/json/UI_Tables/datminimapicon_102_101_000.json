@@ -1,0 +1,39 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_102_101_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "寮(建物)",
+        "SprType": 0,
+        "SprNo": 50,
+        "X": 2.0,
+        "Y": -75.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "矢印アイコン白抜き",
+        "SprType": 0,
+        "SprNo": 49,
+        "X": 122.0,
+        "Y": -15.0,
+        "DegreeAngle": 90.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "矢印アイコン白抜き",
+        "SprType": 0,
+        "SprNo": 49,
+        "X": -122.0,
+        "Y": -15.0,
+        "DegreeAngle": -90.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

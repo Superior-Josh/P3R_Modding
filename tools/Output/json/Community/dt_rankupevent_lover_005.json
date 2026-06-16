@@ -1,0 +1,41 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_RankUpEvent_Lover_005",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'RankUpEventRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "RankUpEvent_Lover_00": {
+      "Rank": 0,
+      "Point": 0,
+      "Major": 0,
+      "Minor": 0,
+      "Brain": 0,
+      "Charm": 0,
+      "Courage": 0,
+      "Flag0": "FLG_NULL",
+      "Flag1": "FLG_NULL",
+      "Flag2": "FLG_NULL",
+      "Flag3": "FLG_NULL",
+      "Comment": "Brank"
+    },
+    "RankUpEvent_Lover_01": {
+      "Rank": 0,
+      "Point": 0,
+      "Major": 0,
+      "Minor": 0,
+      "Brain": 0,
+      "Charm": 0,
+      "Courage": 0,
+      "Flag0": "FLG_NULL",
+      "Flag1": "FLG_NULL",
+      "Flag2": "FLG_NULL",
+      "Flag3": "FLG_NULL",
+      "Comment": "未使用"
+    }
+  }
+}

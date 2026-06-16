@@ -1,0 +1,19 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_101_121_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "矢印",
+        "SprType": 0,
+        "SprNo": 0,
+        "X": 9999.0,
+        "Y": 9999.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

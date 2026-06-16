@@ -1,0 +1,596 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_TutorialTable_DAILY",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'TutorialSortTableRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "0": {
+      "SortID": 0,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_NOT_USE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "0_Comment",
+        "SourceString": "未使用",
+        "LocalizedString": "未使用"
+      }
+    },
+    "1": {
+      "SortID": 1,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_DLC_RECEIPT",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "1_Comment",
+        "SourceString": "DLCがここで受け取れるよ。",
+        "LocalizedString": "DLCがここで受け取れるよ。"
+      }
+    },
+    "2": {
+      "SortID": 2,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_BED",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "2_Comment",
+        "SourceString": "ベッドを使用すると寝れるよ。\n夜に寝ると時間が経過して、翌日になるよ",
+        "LocalizedString": "ベッドを使用すると寝れるよ。\n夜に寝ると時間が経過して、翌日になるよ"
+      }
+    },
+    "3": {
+      "SortID": 3,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_CAMERA_OPERATION",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "3_Comment",
+        "SourceString": "スティックでカメラの操作ができるよ\nでもフィールドによってはパスカメラ",
+        "LocalizedString": "スティックでカメラの操作ができるよ\nでもフィールドによってはパスカメラ"
+      }
+    },
+    "4": {
+      "SortID": 4,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_SHORTCUT",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "4_Comment",
+        "SourceString": "マップを開ける\nショートカットで好きなところに飛べる",
+        "LocalizedString": "マップを開ける\nショートカットで好きなところに飛べる"
+      }
+    },
+    "5": {
+      "SortID": 33,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_DESK",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "5_Comment",
+        "SourceString": "机を調べると勉強ができる\n時間経過して学力アップ",
+        "LocalizedString": "机を調べると勉強ができる\n時間経過して学力アップ"
+      }
+    },
+    "6": {
+      "SortID": 6,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_FREE_ACTION",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "6_Comment",
+        "SourceString": "この後は自由時間のチュートリアル",
+        "LocalizedString": "この後は自由時間のチュートリアル"
+      }
+    },
+    "7": {
+      "SortID": 7,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_SPEND_TIME",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "7_Comment",
+        "SourceString": "街中の施設を利用すると時間経過する\nその代わりに色々恩恵があるよ",
+        "LocalizedString": "街中の施設を利用すると時間経過する\nその代わりに色々恩恵があるよ"
+      }
+    },
+    "8": {
+      "SortID": 19,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_OMIKUJI",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "8_Comment",
+        "SourceString": "一緒に時間を過ごさなくてもコミュポイント入手\nランクアップはできないよ、時間経過するよ",
+        "LocalizedString": "一緒に時間を過ごさなくてもコミュポイント入手\nランクアップはできないよ、時間経過するよ"
+      }
+    },
+    "9": {
+      "SortID": 26,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_INARI",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "9_Comment",
+        "SourceString": "スキルカードの複製ができるよ\n日数経過ナシで即受け取れる（P3Pからの変更点）",
+        "LocalizedString": "スキルカードの複製ができるよ\n日数経過ナシで即受け取れる（P3Pからの変更点）"
+      }
+    },
+    "10": {
+      "SortID": 35,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_OFFERING",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "10_Comment",
+        "SourceString": "好きな額をお賽銭に供えられるよ\n学力アップ\n額次第で結果が変わるかも…！",
+        "LocalizedString": "好きな額をお賽銭に供えられるよ\n学力アップ\n額次第で結果が変わるかも…！"
+      }
+    },
+    "11": {
+      "SortID": 36,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_KARAOKE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "11_Comment",
+        "SourceString": "1人でカラオケに行って勇気上昇",
+        "LocalizedString": "1人でカラオケに行って勇気上昇"
+      }
+    },
+    "12": {
+      "SortID": 37,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_CAFE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "12_Comment",
+        "SourceString": "コーヒーを飲んで魅力アップできるよ\n月～水はアルバイトも可能",
+        "LocalizedString": "コーヒーを飲んで魅力アップできるよ\n月～水はアルバイトも可能"
+      }
+    },
+    "13": {
+      "SortID": 38,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_BURGER",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "13_Comment",
+        "SourceString": "人パラアップ\n裏メニューがあるらしい…？",
+        "LocalizedString": "人パラアップ\n裏メニューがあるらしい…？"
+      }
+    },
+    "14": {
+      "SortID": 39,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_DINER",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "14_Comment",
+        "SourceString": "人パラアップ\n裏メニューがあるらしい…？",
+        "LocalizedString": "人パラアップ\n裏メニューがあるらしい…？"
+      }
+    },
+    "15": {
+      "SortID": 40,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_RAMEN",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "15_Comment",
+        "SourceString": "人パラアップ\n裏メニューがあるらしい…？",
+        "LocalizedString": "人パラアップ\n裏メニューがあるらしい…？"
+      }
+    },
+    "16": {
+      "SortID": 41,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_MOVIE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "16_Comment",
+        "SourceString": "人パラアップ\nタイトルは時期によって変わる",
+        "LocalizedString": "人パラアップ\nタイトルは時期によって変わる"
+      }
+    },
+    "17": {
+      "SortID": 34,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_VELVET_DOOR",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "17_Comment",
+        "SourceString": "ベルベットルームにつながっているようだ…",
+        "LocalizedString": "ベルベットルームにつながっているようだ…"
+      }
+    },
+    "18": {
+      "SortID": 42,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_GAMEC",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "18_Comment",
+        "SourceString": "人パラや装備ペルソナのステータスアップ\n遊べるゲームは曜日によって変化",
+        "LocalizedString": "人パラや装備ペルソナのステータスアップ\n遊べるゲームは曜日によって変化"
+      }
+    },
+    "19": {
+      "SortID": 9,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_INTO_DORMITORY",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "19_Comment",
+        "SourceString": "時間経過して夜になる",
+        "LocalizedString": "時間経過して夜になる"
+      }
+    },
+    "20": {
+      "SortID": 10,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_SORTIE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "20_Comment",
+        "SourceString": "今日からダンジョン自由潜入。\nナビ担当員から行ける",
+        "LocalizedString": "今日からダンジョン自由潜入。\nナビ担当員から行ける"
+      }
+    },
+    "21": {
+      "SortID": 10,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_OUT_DORMITORY",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "21_Comment",
+        "SourceString": "夜施設の解禁\nショートカットも使えるよ",
+        "LocalizedString": "夜施設の解禁\nショートカットも使えるよ"
+      }
+    },
+    "22": {
+      "SortID": 30,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_ESCAPADE_SUSPICIOUS",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "22_Comment",
+        "SourceString": "WEBサイトの情報を買える\n買った情報は寮ラウンジのパソコンで確認可能",
+        "LocalizedString": "WEBサイトの情報を買える\n買った情報は寮ラウンジのパソコンで確認可能"
+      }
+    },
+    "23": {
+      "SortID": 17,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_MAIL",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "23_Comment",
+        "SourceString": "知り合った人や行った店からメールが届く\n誘いに乗るかは自由",
+        "LocalizedString": "知り合った人や行った店からメールが届く\n誘いに乗るかは自由"
+      }
+    },
+    "24": {
+      "SortID": 16,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_COMMUNITY",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "24_Comment",
+        "SourceString": "コミュとは",
+        "LocalizedString": "コミュとは"
+      }
+    },
+    "25": {
+      "SortID": 17,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_HOLODAY_HANGOUT",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "25_Comment",
+        "SourceString": "休日に誘いメールを受信するタイミングで\nメールを受けるときに\nその誘いを受けるとどうなるか、\nどんなイベントが始まるかの説明",
+        "LocalizedString": "休日に誘いメールを受信するタイミングで\nメールを受けるときに\nその誘いを受けるとどうなるか、\nどんなイベントが始まるかの説明"
+      }
+    },
+    "26": {
+      "SortID": 19,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_PC",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "26_Comment",
+        "SourceString": "パソコンで出来る事の軽い説明チュートリアル",
+        "LocalizedString": "パソコンで出来る事の軽い説明チュートリアル"
+      }
+    },
+    "27": {
+      "SortID": 31,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_COMICCAFE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "27_Comment",
+        "SourceString": "販売物等の軽い説明をチュートリアルで",
+        "LocalizedString": "販売物等の軽い説明をチュートリアルで"
+      }
+    },
+    "28": {
+      "SortID": 20,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_NET_CMM",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "28_Comment",
+        "SourceString": "ネットコミュに関して",
+        "LocalizedString": "ネットコミュに関して"
+      }
+    },
+    "29": {
+      "SortID": 32,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_TVSHOP",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "29_Comment",
+        "SourceString": "毎週日曜の午後に通販ができる\nアイテムは数日後に届くよ",
+        "LocalizedString": "毎週日曜の午後に通販ができる\nアイテムは数日後に届くよ"
+      }
+    },
+    "30": {
+      "SortID": 23,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_FUKABORI",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "30_Comment",
+        "SourceString": "コミュの無い仲間とも絆を深めることができる\n時期を逃すと話ができなくなるので注意",
+        "LocalizedString": "コミュの無い仲間とも絆を深めることができる\n時期を逃すと話ができなくなるので注意"
+      }
+    },
+    "31": {
+      "SortID": 24,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_STUDY_GROUP",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "31_Comment",
+        "SourceString": "テスト前に寮の仲間と勉強することができる\n1人で勉強するよりも効率が良さそう",
+        "LocalizedString": "テスト前に寮の仲間と勉強することができる\n1人で勉強するよりも効率が良さそう"
+      }
+    },
+    "32": {
+      "SortID": 25,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_GARDEN",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "32_Comment",
+        "SourceString": "屋上菜園で野菜などを育てられる\n収穫した食べ物はバトル中に使用可能",
+        "LocalizedString": "屋上菜園で野菜などを育てられる\n収穫した食べ物はバトル中に使用可能"
+      }
+    },
+    "33": {
+      "SortID": 21,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_DORMITORY_NPC",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "33_Comment",
+        "SourceString": "仲間と寮の施設を利用して交流を深めることができる\n一緒に時間を過ごす中で、戦闘で役立つスキルを入手",
+        "LocalizedString": "仲間と寮の施設を利用して交流を深めることができる\n一緒に時間を過ごす中で、戦闘で役立つスキルを入手"
+      }
+    },
+    "34": {
+      "SortID": 22,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_GARDEN_NPC",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "34_Comment",
+        "SourceString": "仲間と屋上菜園の世話をできる\n事前に植えておいた作物の効果がアップ",
+        "LocalizedString": "仲間と屋上菜園の世話をできる\n事前に植えておいた作物の効果がアップ"
+      }
+    },
+    "35": {
+      "SortID": 27,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_SKILLSHOP",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "35_Comment",
+        "SourceString": "仲間を施設に呼び、スキル付け替え（思い出し）ができる",
+        "LocalizedString": "仲間を施設に呼び、スキル付け替え（思い出し）ができる"
+      }
+    },
+    "36": {
+      "SortID": 18,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_RANKUP",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "36_Comment",
+        "SourceString": "相手と時間を過ごすことでランクアップする\nコミュを育てていくうちに他のコミュが見つかる",
+        "LocalizedString": "相手と時間を過ごすことでランクアップする\nコミュを育てていくうちに他のコミュが見つかる"
+      }
+    },
+    "37": {
+      "SortID": 28,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_FORTUNETELLER",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "37_Comment",
+        "SourceString": "満月の日は占いができない\nその日中に効果が切れてしまう",
+        "LocalizedString": "満月の日は占いができない\nその日中に効果が切れてしまう"
+      }
+    },
+    "38": {
+      "SortID": 12,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_FRAGMENT",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "38_Comment",
+        "SourceString": "薄明の欠片は大切なもの。あちこちで見つかります。",
+        "LocalizedString": "薄明の欠片は大切なもの。あちこちで見つかります。"
+      }
+    },
+    "39": {
+      "SortID": 8,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_ACTION_RECORD",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "39_Comment",
+        "SourceString": "タッチパッド押すと他プレイヤーの行動記録が見れます",
+        "LocalizedString": "タッチパッド押すと他プレイヤーの行動記録が見れます"
+      }
+    },
+    "40": {
+      "SortID": 15,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_HUMAN_PARAMETER",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "40_Comment",
+        "SourceString": "人間パラメータの説明と鍛え方",
+        "LocalizedString": "人間パラメータの説明と鍛え方"
+      }
+    },
+    "41": {
+      "SortID": 13,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_FRAGMENT_ELIZABETH",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "41_Comment",
+        "SourceString": "エリザベスから貰える薄明の欠片の説明",
+        "LocalizedString": "エリザベスから貰える薄明の欠片の説明"
+      }
+    },
+    "42": {
+      "SortID": 5,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_TOWNMAP",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "42_Comment",
+        "SourceString": "kfev175で表示するタウンマップのチュートリアル",
+        "LocalizedString": "kfev175で表示するタウンマップのチュートリアル"
+      }
+    },
+    "43": {
+      "SortID": 43,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_FCL_WEAPON_SHOP",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "43_Comment",
+        "SourceString": "交番初入店時に説明",
+        "LocalizedString": "交番初入店時に説明"
+      }
+    },
+    "44": {
+      "SortID": 44,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_FCL_EQUIPMENT",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "44_Comment",
+        "SourceString": "交番初入店時に説明",
+        "LocalizedString": "交番初入店時に説明"
+      }
+    },
+    "45": {
+      "SortID": 45,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_FCL_ITEM_SHOP",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "45_Comment",
+        "SourceString": "道具屋初入店時に説明",
+        "LocalizedString": "道具屋初入店時に説明"
+      }
+    },
+    "46": {
+      "SortID": 46,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_FCL_SALE_DAY",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "46_Comment",
+        "SourceString": "セール日に青ひげ・交番に入店した時に説明",
+        "LocalizedString": "セール日に青ひげ・交番に入店した時に説明"
+      }
+    },
+    "47": {
+      "SortID": 47,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_FCL_ANTIQUE_SHOP",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "47_Comment",
+        "SourceString": "眞宵堂初入店時に説明",
+        "LocalizedString": "眞宵堂初入店時に説明"
+      }
+    },
+    "48": {
+      "SortID": 48,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_FCL_REQUEST",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "48_Comment",
+        "SourceString": "エリザベスの依頼解禁時に説明",
+        "LocalizedString": "エリザベスの依頼解禁時に説明"
+      }
+    },
+    "49": {
+      "SortID": 49,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_FCL_ELIZ_DATE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "49_Comment",
+        "SourceString": "お出かけ解禁のメッセージ表示時に説明",
+        "LocalizedString": "お出かけ解禁のメッセージ表示時に説明"
+      }
+    },
+    "50": {
+      "SortID": 50,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_ATTRIBUTE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "50_Comment",
+        "SourceString": "仲間の特性解禁時に説明",
+        "LocalizedString": "仲間の特性解禁時に説明"
+      }
+    },
+    "51": {
+      "SortID": 51,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_D_INFO",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "51_Comment",
+        "SourceString": "失踪者説明、掲示板で詳細が判明する説明",
+        "LocalizedString": "失踪者説明、掲示板で詳細が判明する説明"
+      }
+    },
+    "52": {
+      "SortID": -1,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_DIR_DLC_RECEIPT",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DAILY",
+        "Key": "52_Comment",
+        "SourceString": "DLCがここで受け取れるよ。(MSプラットフォーム用語)",
+        "LocalizedString": "DLCがここで受け取れるよ。(MSプラットフォーム用語)"
+      }
+    }
+  }
+}

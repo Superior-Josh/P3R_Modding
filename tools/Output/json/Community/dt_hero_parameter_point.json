@@ -1,0 +1,48 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_Hero_Parameter_Point",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'HeroParameterPointRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "調整枠": {
+      "BrainPoint": 0,
+      "CharmPoint": 0,
+      "CouragePoint": 0
+    },
+    "Level1": {
+      "BrainPoint": 0,
+      "CharmPoint": 0,
+      "CouragePoint": 0
+    },
+    "Level2": {
+      "BrainPoint": 20,
+      "CharmPoint": 15,
+      "CouragePoint": 15
+    },
+    "Level3": {
+      "BrainPoint": 35,
+      "CharmPoint": 15,
+      "CouragePoint": 15
+    },
+    "Level4": {
+      "BrainPoint": 45,
+      "CharmPoint": 15,
+      "CouragePoint": 15
+    },
+    "Level5": {
+      "BrainPoint": 55,
+      "CharmPoint": 25,
+      "CouragePoint": 15
+    },
+    "Level6": {
+      "BrainPoint": 75,
+      "CharmPoint": 30,
+      "CouragePoint": 20
+    }
+  }
+}

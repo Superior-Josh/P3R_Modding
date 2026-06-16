@@ -1,0 +1,289 @@
+{
+  "Type": "ChristmasEventDataAsset",
+  "Name": "ChristmasEventDataAsset",
+  "Class": "UScriptClass'ChristmasEventDataAsset'",
+  "Properties": {
+    "Table": [
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": 30,
+          "Rank": 9,
+          "Flag": 268435792
+        },
+        "Events": [
+          {
+            "Major": 6,
+            "Minor": 650,
+            "Flag": 268435814
+          },
+          {
+            "Major": 6,
+            "Minor": 653,
+            "Flag": 268435814
+          },
+          {
+            "Major": 6,
+            "Minor": 657,
+            "Flag": 268435815
+          }
+        ]
+      },
+      {
+        "Mail": {
+          "ID": 46,
+          "Rank": 9,
+          "Flag": 268435793
+        },
+        "Events": [
+          {
+            "Major": 5,
+            "Minor": 650,
+            "Flag": 268435814
+          },
+          {
+            "Major": 5,
+            "Minor": 653,
+            "Flag": 268435814
+          },
+          {
+            "Major": 5,
+            "Minor": 657,
+            "Flag": 268435815
+          }
+        ]
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": 94,
+          "Rank": 9,
+          "Flag": 268435794
+        },
+        "Events": [
+          {
+            "Major": 2,
+            "Minor": 650,
+            "Flag": 268435814
+          },
+          {
+            "Major": 2,
+            "Minor": 653,
+            "Flag": 268435814
+          },
+          {
+            "Major": 2,
+            "Minor": 657,
+            "Flag": 268435815
+          }
+        ]
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": 126,
+          "Rank": 10,
+          "Flag": 268435795
+        },
+        "Events": [
+          {
+            "Major": 109,
+            "Minor": 650,
+            "Flag": 268435814
+          },
+          {
+            "Major": 109,
+            "Minor": 653,
+            "Flag": 268435814
+          },
+          {
+            "Major": 109,
+            "Minor": 657,
+            "Flag": 268435815
+          }
+        ]
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": 174,
+          "Rank": 10,
+          "Flag": 268435796
+        },
+        "Events": [
+          {
+            "Major": 106,
+            "Minor": 650,
+            "Flag": 268435814
+          },
+          {
+            "Major": 106,
+            "Minor": 653,
+            "Flag": 268435814
+          },
+          {
+            "Major": 106,
+            "Minor": 657,
+            "Flag": 268435815
+          }
+        ]
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      },
+      {
+        "Mail": {
+          "ID": -1,
+          "Rank": -1,
+          "Flag": 0
+        },
+        "Events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Type": "SkillChangeDataAsset",
+  "Name": "SkillChangeDataAsset",
+  "Class": "UScriptClass'SkillChangeDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "SkillPack": 0
+      },
+      {
+        "SkillPack": 3
+      },
+      {
+        "SkillPack": 4
+      },
+      {
+        "SkillPack": 6
+      },
+      {
+        "SkillPack": 5
+      },
+      {
+        "SkillPack": 2
+      },
+      {
+        "SkillPack": 5
+      },
+      {
+        "SkillPack": 2
+      },
+      {
+        "SkillPack": 3
+      },
+      {
+        "SkillPack": 1
+      },
+      {
+        "SkillPack": 5
+      },
+      {
+        "SkillPack": 6
+      },
+      {
+        "SkillPack": 2
+      },
+      {
+        "SkillPack": 4
+      },
+      {
+        "SkillPack": 4
+      },
+      {
+        "SkillPack": 1
+      },
+      {
+        "SkillPack": 6
+      },
+      {
+        "SkillPack": 4
+      },
+      {
+        "SkillPack": 1
+      },
+      {
+        "SkillPack": 3
+      },
+      {
+        "SkillPack": 2
+      },
+      {
+        "SkillPack": 3
+      },
+      {
+        "SkillPack": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_TutorialTable_DUNGEON",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'TutorialSortTableRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "1": {
+      "SortID": 0,
+      "TextureNames": [
+        "C",
+        "F"
+      ],
+      "OpenFlagName": "FLD_TUTO_01",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "1_Comment",
+        "SourceString": "宝箱",
+        "LocalizedString": "宝箱"
+      }
+    },
+    "2": {
+      "SortID": 1,
+      "TextureNames": [
+        "C",
+        "F"
+      ],
+      "OpenFlagName": "FLD_TUTO_02",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "2_Comment",
+        "SourceString": "アイテムとスキルの使用",
+        "LocalizedString": "アイテムとスキルの使用"
+      }
+    },
+    "3": {
+      "SortID": 2,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_03",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "3_Comment",
+        "SourceString": "アタックとエンカウントの種類",
+        "LocalizedString": "アタックとエンカウントの種類"
+      }
+    },
+    "4": {
+      "SortID": 3,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_04",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "4_Comment",
+        "SourceString": "帰還装置",
+        "LocalizedString": "帰還装置"
+      }
+    },
+    "5": {
+      "SortID": 4,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_05",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "5_Comment",
+        "SourceString": "タルタロスからの帰還",
+        "LocalizedString": "タルタロスからの帰還"
+      }
+    },
+    "6": {
+      "SortID": 5,
+      "TextureNames": [
+        "C",
+        "F",
+        "R"
+      ],
+      "OpenFlagName": "FLD_TUTO_06",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "6_Comment",
+        "SourceString": "タルタロスでのセーブ",
+        "LocalizedString": "タルタロスでのセーブ"
+      }
+    },
+    "7": {
+      "SortID": 6,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_07",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "7_Comment",
+        "SourceString": "ダッシュでの移動",
+        "LocalizedString": "ダッシュでの移動"
+      }
+    },
+    "8": {
+      "SortID": 7,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_08",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "8_Comment",
+        "SourceString": "オートリカバー",
+        "LocalizedString": "オートリカバー"
+      }
+    },
+    "9": {
+      "SortID": 8,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_09",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "9_Comment",
+        "SourceString": "解錠が必要な宝箱",
+        "LocalizedString": "解錠が必要な宝箱"
+      }
+    },
+    "10": {
+      "SortID": 9,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_10",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "10_Comment",
+        "SourceString": "パーティ編成の変更",
+        "LocalizedString": "パーティ編成の変更"
+      }
+    },
+    "11": {
+      "SortID": 10,
+      "TextureNames": [
+        "A",
+        "B"
+      ],
+      "OpenFlagName": "FLD_TUTO_11",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "11_Comment",
+        "SourceString": "時計",
+        "LocalizedString": "時計"
+      }
+    },
+    "12": {
+      "SortID": 11,
+      "TextureNames": [
+        "C",
+        "F"
+      ],
+      "OpenFlagName": "FLD_TUTO_12",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "12_Comment",
+        "SourceString": "ミニマップと移動のショートカット",
+        "LocalizedString": "ミニマップと移動のショートカット"
+      }
+    },
+    "13": {
+      "SortID": 12,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_13",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "13_Comment",
+        "SourceString": "転送装置",
+        "LocalizedString": "転送装置"
+      }
+    },
+    "14": {
+      "SortID": 13,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_14",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "14_Comment",
+        "SourceString": "レアシャドウ",
+        "LocalizedString": "レアシャドウ"
+      }
+    },
+    "15": {
+      "SortID": 14,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_15",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "15_Comment",
+        "SourceString": "強敵シャドウ",
+        "LocalizedString": "強敵シャドウ"
+      }
+    },
+    "16": {
+      "SortID": 15,
+      "TextureNames": [
+        "C",
+        "F",
+        "R"
+      ],
+      "OpenFlagName": "FLD_TUTO_16",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "16_Comment",
+        "SourceString": "衣装の変更",
+        "LocalizedString": "衣装の変更"
+      }
+    },
+    "17": {
+      "SortID": 16,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_17",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "17_Comment",
+        "SourceString": "死神の出現",
+        "LocalizedString": "死神の出現"
+      }
+    },
+    "18": {
+      "SortID": 17,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_18",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "18_Comment",
+        "SourceString": "偵察",
+        "LocalizedString": "偵察"
+      }
+    },
+    "19": {
+      "SortID": 18,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_19",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "19_Comment",
+        "SourceString": "逃げ出す敵",
+        "LocalizedString": "逃げ出す敵"
+      }
+    },
+    "20": {
+      "SortID": 19,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_20",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "20_Comment",
+        "SourceString": "境界のフロア",
+        "LocalizedString": "境界のフロア"
+      }
+    },
+    "21": {
+      "SortID": 20,
+      "TextureNames": [
+        "A",
+        "B"
+      ],
+      "OpenFlagName": "FLD_TUTO_21",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "21_Comment",
+        "SourceString": "失踪者",
+        "LocalizedString": "失踪者"
+      }
+    },
+    "22": {
+      "SortID": 21,
+      "TextureNames": [
+        "C",
+        "F"
+      ],
+      "OpenFlagName": "FLD_TUTO_22",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "22_Comment",
+        "SourceString": "モナドの扉",
+        "LocalizedString": "モナドの扉"
+      }
+    },
+    "23": {
+      "SortID": 22,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_23",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "23_Comment",
+        "SourceString": "モナド通路",
+        "LocalizedString": "モナド通路"
+      }
+    },
+    "24": {
+      "SortID": 23,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_24",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "24_Comment",
+        "SourceString": "風花のスキル",
+        "LocalizedString": "風花のスキル"
+      }
+    },
+    "25": {
+      "SortID": 24,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_25",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "25_Comment",
+        "SourceString": "風花のスキル『ジャミング』",
+        "LocalizedString": "風花のスキル『ジャミング』"
+      }
+    },
+    "26": {
+      "SortID": 25,
+      "TextureNames": [
+        "C",
+        "F",
+        "R"
+      ],
+      "OpenFlagName": "FLD_TUTO_26",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "26_Comment",
+        "SourceString": "風花のスキル『シルフィードオーラ』",
+        "LocalizedString": "風花のスキル『シルフィードオーラ』"
+      }
+    },
+    "27": {
+      "SortID": 26,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_27",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "27_Comment",
+        "SourceString": "風花のスキル『ショックノイズ』",
+        "LocalizedString": "風花のスキル『ショックノイズ』"
+      }
+    },
+    "28": {
+      "SortID": 27,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_28",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "28_Comment",
+        "SourceString": "風花のスキル『エスケープロード』",
+        "LocalizedString": "風花のスキル『エスケープロード』"
+      }
+    },
+    "29": {
+      "SortID": 28,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_29",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "29_Comment",
+        "SourceString": "風花のスキル『タルタロスサーチ』",
+        "LocalizedString": "風花のスキル『タルタロスサーチ』"
+      }
+    },
+    "30": {
+      "SortID": 29,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_30",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "30_Comment",
+        "SourceString": "強襲アタック",
+        "LocalizedString": "強襲アタック"
+      }
+    },
+    "31": {
+      "SortID": 30,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_31",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "31_Comment",
+        "SourceString": "状態異常にかかったシャドウ",
+        "LocalizedString": "状態異常にかかったシャドウ"
+      }
+    },
+    "32": {
+      "SortID": 31,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_32",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "32_Comment",
+        "SourceString": "状態異常：ヤケクソ",
+        "LocalizedString": "状態異常：ヤケクソ"
+      }
+    },
+    "33": {
+      "SortID": 32,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_33",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "33_Comment",
+        "SourceString": "状態異常：混乱",
+        "LocalizedString": "状態異常：混乱"
+      }
+    },
+    "34": {
+      "SortID": 33,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_34",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "34_Comment",
+        "SourceString": "状態異常：恐怖",
+        "LocalizedString": "状態異常：恐怖"
+      }
+    },
+    "35": {
+      "SortID": 34,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_35",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "35_Comment",
+        "SourceString": "大時計への入り口",
+        "LocalizedString": "大時計への入り口"
+      }
+    },
+    "36": {
+      "SortID": 35,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_36",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "36_Comment",
+        "SourceString": "ダークゾーン",
+        "LocalizedString": "ダークゾーン"
+      }
+    },
+    "37": {
+      "SortID": 36,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_37",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "37_Comment",
+        "SourceString": "巨大なレアシャドウ",
+        "LocalizedString": "巨大なレアシャドウ"
+      }
+    },
+    "38": {
+      "SortID": 37,
+      "TextureNames": [],
+      "OpenFlagName": "FLD_TUTO_38",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_DUNGEON",
+        "Key": "38_Comment",
+        "SourceString": "破壊オブジェクト",
+        "LocalizedString": "破壊オブジェクト"
+      }
+    }
+  }
+}

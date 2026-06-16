@@ -1,0 +1,1464 @@
+{
+  "Type": "DatShufflePersonaArcanaTable",
+  "Name": "DatShufflePersonaArcanaDataAsset",
+  "Class": "UScriptClass'DatShufflePersonaArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "RankId": 0,
+        "PersonaId": 43,
+        "Prob": 100
+      },
+      {
+        "RankId": 1,
+        "PersonaId": 156,
+        "Prob": 50
+      },
+      {
+        "RankId": 1,
+        "PersonaId": 43,
+        "Prob": 20
+      },
+      {
+        "RankId": 1,
+        "PersonaId": 56,
+        "Prob": 30
+      },
+      {
+        "RankId": 2,
+        "PersonaId": 156,
+        "Prob": 25
+      },
+      {
+        "RankId": 2,
+        "PersonaId": 43,
+        "Prob": 25
+      },
+      {
+        "RankId": 2,
+        "PersonaId": 56,
+        "Prob": 35
+      },
+      {
+        "RankId": 2,
+        "PersonaId": 111,
+        "Prob": 15
+      },
+      {
+        "RankId": 3,
+        "PersonaId": 156,
+        "Prob": 15
+      },
+      {
+        "RankId": 3,
+        "PersonaId": 43,
+        "Prob": 15
+      },
+      {
+        "RankId": 3,
+        "PersonaId": 56,
+        "Prob": 15
+      },
+      {
+        "RankId": 3,
+        "PersonaId": 45,
+        "Prob": 20
+      },
+      {
+        "RankId": 3,
+        "PersonaId": 111,
+        "Prob": 20
+      },
+      {
+        "RankId": 3,
+        "PersonaId": 161,
+        "Prob": 15
+      },
+      {
+        "RankId": 4,
+        "PersonaId": 62,
+        "Prob": 5
+      },
+      {
+        "RankId": 4,
+        "PersonaId": 161,
+        "Prob": 15
+      },
+      {
+        "RankId": 4,
+        "PersonaId": 67,
+        "Prob": 10
+      },
+      {
+        "RankId": 4,
+        "PersonaId": 203,
+        "Prob": 10
+      },
+      {
+        "RankId": 4,
+        "PersonaId": 108,
+        "Prob": 15
+      },
+      {
+        "RankId": 4,
+        "PersonaId": 76,
+        "Prob": 15
+      },
+      {
+        "RankId": 4,
+        "PersonaId": 35,
+        "Prob": 15
+      },
+      {
+        "RankId": 4,
+        "PersonaId": 192,
+        "Prob": 15
+      },
+      {
+        "RankId": 5,
+        "PersonaId": 62,
+        "Prob": 10
+      },
+      {
+        "RankId": 5,
+        "PersonaId": 203,
+        "Prob": 10
+      },
+      {
+        "RankId": 5,
+        "PersonaId": 67,
+        "Prob": 15
+      },
+      {
+        "RankId": 5,
+        "PersonaId": 76,
+        "Prob": 15
+      },
+      {
+        "RankId": 5,
+        "PersonaId": 35,
+        "Prob": 20
+      },
+      {
+        "RankId": 5,
+        "PersonaId": 52,
+        "Prob": 20
+      },
+      {
+        "RankId": 5,
+        "PersonaId": 192,
+        "Prob": 10
+      },
+      {
+        "RankId": 6,
+        "PersonaId": 76,
+        "Prob": 10
+      },
+      {
+        "RankId": 6,
+        "PersonaId": 192,
+        "Prob": 15
+      },
+      {
+        "RankId": 6,
+        "PersonaId": 35,
+        "Prob": 15
+      },
+      {
+        "RankId": 6,
+        "PersonaId": 48,
+        "Prob": 15
+      },
+      {
+        "RankId": 6,
+        "PersonaId": 52,
+        "Prob": 20
+      },
+      {
+        "RankId": 6,
+        "PersonaId": 116,
+        "Prob": 15
+      },
+      {
+        "RankId": 6,
+        "PersonaId": 142,
+        "Prob": 10
+      },
+      {
+        "RankId": 7,
+        "PersonaId": 48,
+        "Prob": 10
+      },
+      {
+        "RankId": 7,
+        "PersonaId": 116,
+        "Prob": 20
+      },
+      {
+        "RankId": 7,
+        "PersonaId": 142,
+        "Prob": 15
+      },
+      {
+        "RankId": 7,
+        "PersonaId": 129,
+        "Prob": 15
+      },
+      {
+        "RankId": 7,
+        "PersonaId": 167,
+        "Prob": 15
+      },
+      {
+        "RankId": 7,
+        "PersonaId": 85,
+        "Prob": 15
+      },
+      {
+        "RankId": 7,
+        "PersonaId": 122,
+        "Prob": 10
+      },
+      {
+        "RankId": 8,
+        "PersonaId": 142,
+        "Prob": 10
+      },
+      {
+        "RankId": 8,
+        "PersonaId": 129,
+        "Prob": 12
+      },
+      {
+        "RankId": 8,
+        "PersonaId": 167,
+        "Prob": 13
+      },
+      {
+        "RankId": 8,
+        "PersonaId": 85,
+        "Prob": 13
+      },
+      {
+        "RankId": 8,
+        "PersonaId": 122,
+        "Prob": 13
+      },
+      {
+        "RankId": 8,
+        "PersonaId": 109,
+        "Prob": 15
+      },
+      {
+        "RankId": 8,
+        "PersonaId": 195,
+        "Prob": 12
+      },
+      {
+        "RankId": 8,
+        "PersonaId": 61,
+        "Prob": 12
+      },
+      {
+        "RankId": 9,
+        "PersonaId": 122,
+        "Prob": 12
+      },
+      {
+        "RankId": 9,
+        "PersonaId": 195,
+        "Prob": 15
+      },
+      {
+        "RankId": 9,
+        "PersonaId": 109,
+        "Prob": 15
+      },
+      {
+        "RankId": 9,
+        "PersonaId": 61,
+        "Prob": 16
+      },
+      {
+        "RankId": 9,
+        "PersonaId": 164,
+        "Prob": 18
+      },
+      {
+        "RankId": 9,
+        "PersonaId": 138,
+        "Prob": 12
+      },
+      {
+        "RankId": 9,
+        "PersonaId": 143,
+        "Prob": 12
+      },
+      {
+        "RankId": 10,
+        "PersonaId": 85,
+        "Prob": 10
+      },
+      {
+        "RankId": 10,
+        "PersonaId": 195,
+        "Prob": 12
+      },
+      {
+        "RankId": 10,
+        "PersonaId": 109,
+        "Prob": 12
+      },
+      {
+        "RankId": 10,
+        "PersonaId": 61,
+        "Prob": 13
+      },
+      {
+        "RankId": 10,
+        "PersonaId": 164,
+        "Prob": 13
+      },
+      {
+        "RankId": 10,
+        "PersonaId": 138,
+        "Prob": 15
+      },
+      {
+        "RankId": 10,
+        "PersonaId": 143,
+        "Prob": 15
+      },
+      {
+        "RankId": 10,
+        "PersonaId": 186,
+        "Prob": 10
+      },
+      {
+        "RankId": 11,
+        "PersonaId": 61,
+        "Prob": 5
+      },
+      {
+        "RankId": 11,
+        "PersonaId": 164,
+        "Prob": 5
+      },
+      {
+        "RankId": 11,
+        "PersonaId": 138,
+        "Prob": 10
+      },
+      {
+        "RankId": 11,
+        "PersonaId": 143,
+        "Prob": 15
+      },
+      {
+        "RankId": 11,
+        "PersonaId": 186,
+        "Prob": 20
+      },
+      {
+        "RankId": 11,
+        "PersonaId": 127,
+        "Prob": 20
+      },
+      {
+        "RankId": 11,
+        "PersonaId": 149,
+        "Prob": 15
+      },
+      {
+        "RankId": 11,
+        "PersonaId": 201,
+        "Prob": 10
+      },
+      {
+        "RankId": 12,
+        "PersonaId": 127,
+        "Prob": 10
+      },
+      {
+        "RankId": 12,
+        "PersonaId": 149,
+        "Prob": 15
+      },
+      {
+        "RankId": 12,
+        "PersonaId": 201,
+        "Prob": 20
+      },
+      {
+        "RankId": 12,
+        "PersonaId": 181,
+        "Prob": 20
+      },
+      {
+        "RankId": 12,
+        "PersonaId": 102,
+        "Prob": 15
+      },
+      {
+        "RankId": 12,
+        "PersonaId": 126,
+        "Prob": 10
+      },
+      {
+        "RankId": 12,
+        "PersonaId": 140,
+        "Prob": 10
+      },
+      {
+        "RankId": 13,
+        "PersonaId": 149,
+        "Prob": 5
+      },
+      {
+        "RankId": 13,
+        "PersonaId": 201,
+        "Prob": 10
+      },
+      {
+        "RankId": 13,
+        "PersonaId": 181,
+        "Prob": 15
+      },
+      {
+        "RankId": 13,
+        "PersonaId": 102,
+        "Prob": 15
+      },
+      {
+        "RankId": 13,
+        "PersonaId": 126,
+        "Prob": 15
+      },
+      {
+        "RankId": 13,
+        "PersonaId": 140,
+        "Prob": 20
+      },
+      {
+        "RankId": 13,
+        "PersonaId": 182,
+        "Prob": 10
+      },
+      {
+        "RankId": 13,
+        "PersonaId": 190,
+        "Prob": 10
+      },
+      {
+        "RankId": 14,
+        "PersonaId": 126,
+        "Prob": 8
+      },
+      {
+        "RankId": 14,
+        "PersonaId": 140,
+        "Prob": 8
+      },
+      {
+        "RankId": 14,
+        "PersonaId": 182,
+        "Prob": 10
+      },
+      {
+        "RankId": 14,
+        "PersonaId": 190,
+        "Prob": 15
+      },
+      {
+        "RankId": 14,
+        "PersonaId": 155,
+        "Prob": 15
+      },
+      {
+        "RankId": 14,
+        "PersonaId": 191,
+        "Prob": 12
+      },
+      {
+        "RankId": 14,
+        "PersonaId": 199,
+        "Prob": 12
+      },
+      {
+        "RankId": 14,
+        "PersonaId": 105,
+        "Prob": 10
+      },
+      {
+        "RankId": 14,
+        "PersonaId": 206,
+        "Prob": 10
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 190,
+        "Prob": 8
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 182,
+        "Prob": 8
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 155,
+        "Prob": 10
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 191,
+        "Prob": 10
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 199,
+        "Prob": 10
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 105,
+        "Prob": 12
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 206,
+        "Prob": 12
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 63,
+        "Prob": 10
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 80,
+        "Prob": 10
+      },
+      {
+        "RankId": 15,
+        "PersonaId": 83,
+        "Prob": 10
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 105,
+        "Prob": 8
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 206,
+        "Prob": 8
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 63,
+        "Prob": 11
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 80,
+        "Prob": 10
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 83,
+        "Prob": 10
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 94,
+        "Prob": 13
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 120,
+        "Prob": 13
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 88,
+        "Prob": 12
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 55,
+        "Prob": 5
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 60,
+        "Prob": 5
+      },
+      {
+        "RankId": 16,
+        "PersonaId": 152,
+        "Prob": 5
+      },
+      {
+        "RankId": 17,
+        "PersonaId": 88,
+        "Prob": 10
+      },
+      {
+        "RankId": 17,
+        "PersonaId": 55,
+        "Prob": 13
+      },
+      {
+        "RankId": 17,
+        "PersonaId": 60,
+        "Prob": 13
+      },
+      {
+        "RankId": 17,
+        "PersonaId": 152,
+        "Prob": 13
+      },
+      {
+        "RankId": 17,
+        "PersonaId": 50,
+        "Prob": 13
+      },
+      {
+        "RankId": 17,
+        "PersonaId": 97,
+        "Prob": 10
+      },
+      {
+        "RankId": 17,
+        "PersonaId": 189,
+        "Prob": 10
+      },
+      {
+        "RankId": 17,
+        "PersonaId": 151,
+        "Prob": 10
+      },
+      {
+        "RankId": 17,
+        "PersonaId": 98,
+        "Prob": 8
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 60,
+        "Prob": 5
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 152,
+        "Prob": 5
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 50,
+        "Prob": 10
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 97,
+        "Prob": 10
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 189,
+        "Prob": 10
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 151,
+        "Prob": 10
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 98,
+        "Prob": 10
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 91,
+        "Prob": 9
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 86,
+        "Prob": 8
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 124,
+        "Prob": 8
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 49,
+        "Prob": 5
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 51,
+        "Prob": 5
+      },
+      {
+        "RankId": 18,
+        "PersonaId": 119,
+        "Prob": 5
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 98,
+        "Prob": 5
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 91,
+        "Prob": 8
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 86,
+        "Prob": 10
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 49,
+        "Prob": 10
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 124,
+        "Prob": 10
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 51,
+        "Prob": 10
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 119,
+        "Prob": 10
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 66,
+        "Prob": 9
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 78,
+        "Prob": 9
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 81,
+        "Prob": 7
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 41,
+        "Prob": 7
+      },
+      {
+        "RankId": 19,
+        "PersonaId": 73,
+        "Prob": 5
+      },
+      {
+        "RankId": 20,
+        "PersonaId": 109,
+        "Prob": 100
+      },
+      {
+        "RankId": 21,
+        "PersonaId": 108,
+        "Prob": 100
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 78,
+        "Prob": 6
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 66,
+        "Prob": 6
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 81,
+        "Prob": 7
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 41,
+        "Prob": 7
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 73,
+        "Prob": 9
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 59,
+        "Prob": 9
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 74,
+        "Prob": 10
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 136,
+        "Prob": 10
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 139,
+        "Prob": 10
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 57,
+        "Prob": 8
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 197,
+        "Prob": 8
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 87,
+        "Prob": 5
+      },
+      {
+        "RankId": 22,
+        "PersonaId": 104,
+        "Prob": 5
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 59,
+        "Prob": 5
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 74,
+        "Prob": 5
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 136,
+        "Prob": 5
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 139,
+        "Prob": 6
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 57,
+        "Prob": 9
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 197,
+        "Prob": 9
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 87,
+        "Prob": 10
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 104,
+        "Prob": 10
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 84,
+        "Prob": 11
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 173,
+        "Prob": 11
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 92,
+        "Prob": 7
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 166,
+        "Prob": 7
+      },
+      {
+        "RankId": 23,
+        "PersonaId": 153,
+        "Prob": 5
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 87,
+        "Prob": 5
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 104,
+        "Prob": 5
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 84,
+        "Prob": 9
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 173,
+        "Prob": 9
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 92,
+        "Prob": 12
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 166,
+        "Prob": 12
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 153,
+        "Prob": 13
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 180,
+        "Prob": 13
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 131,
+        "Prob": 8
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 132,
+        "Prob": 8
+      },
+      {
+        "RankId": 24,
+        "PersonaId": 200,
+        "Prob": 6
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 92,
+        "Prob": 8
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 153,
+        "Prob": 8
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 180,
+        "Prob": 10
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 131,
+        "Prob": 12
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 132,
+        "Prob": 12
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 200,
+        "Prob": 15
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 69,
+        "Prob": 10
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 89,
+        "Prob": 10
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 123,
+        "Prob": 10
+      },
+      {
+        "RankId": 25,
+        "PersonaId": 170,
+        "Prob": 5
+      },
+      {
+        "RankId": 26,
+        "PersonaId": 132,
+        "Prob": 5
+      },
+      {
+        "RankId": 26,
+        "PersonaId": 200,
+        "Prob": 8
+      },
+      {
+        "RankId": 26,
+        "PersonaId": 69,
+        "Prob": 10
+      },
+      {
+        "RankId": 26,
+        "PersonaId": 89,
+        "Prob": 10
+      },
+      {
+        "RankId": 26,
+        "PersonaId": 123,
+        "Prob": 15
+      },
+      {
+        "RankId": 26,
+        "PersonaId": 170,
+        "Prob": 17
+      },
+      {
+        "RankId": 26,
+        "PersonaId": 101,
+        "Prob": 15
+      },
+      {
+        "RankId": 26,
+        "PersonaId": 107,
+        "Prob": 10
+      },
+      {
+        "RankId": 26,
+        "PersonaId": 114,
+        "Prob": 10
+      },
+      {
+        "RankId": 27,
+        "PersonaId": 123,
+        "Prob": 11
+      },
+      {
+        "RankId": 27,
+        "PersonaId": 170,
+        "Prob": 13
+      },
+      {
+        "RankId": 27,
+        "PersonaId": 101,
+        "Prob": 14
+      },
+      {
+        "RankId": 27,
+        "PersonaId": 107,
+        "Prob": 14
+      },
+      {
+        "RankId": 27,
+        "PersonaId": 114,
+        "Prob": 13
+      },
+      {
+        "RankId": 27,
+        "PersonaId": 39,
+        "Prob": 11
+      },
+      {
+        "RankId": 27,
+        "PersonaId": 150,
+        "Prob": 11
+      },
+      {
+        "RankId": 27,
+        "PersonaId": 130,
+        "Prob": 9
+      },
+      {
+        "RankId": 27,
+        "PersonaId": 137,
+        "Prob": 4
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 101,
+        "Prob": 5
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 107,
+        "Prob": 7
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 114,
+        "Prob": 7
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 39,
+        "Prob": 9
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 150,
+        "Prob": 9
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 130,
+        "Prob": 9
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 137,
+        "Prob": 10
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 125,
+        "Prob": 10
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 158,
+        "Prob": 9
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 198,
+        "Prob": 9
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 75,
+        "Prob": 8
+      },
+      {
+        "RankId": 28,
+        "PersonaId": 82,
+        "Prob": 8
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 150,
+        "Prob": 5
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 130,
+        "Prob": 7
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 137,
+        "Prob": 9
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 125,
+        "Prob": 9
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 158,
+        "Prob": 11
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 198,
+        "Prob": 11
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 75,
+        "Prob": 10
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 82,
+        "Prob": 10
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 71,
+        "Prob": 8
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 121,
+        "Prob": 8
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 154,
+        "Prob": 5
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 68,
+        "Prob": 5
+      },
+      {
+        "RankId": 29,
+        "PersonaId": 72,
+        "Prob": 2
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 137,
+        "Prob": 4
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 125,
+        "Prob": 4
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 158,
+        "Prob": 8
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 198,
+        "Prob": 8
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 75,
+        "Prob": 10
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 82,
+        "Prob": 10
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 71,
+        "Prob": 12
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 121,
+        "Prob": 12
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 154,
+        "Prob": 11
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 68,
+        "Prob": 11
+      },
+      {
+        "RankId": 30,
+        "PersonaId": 72,
+        "Prob": 10
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 198,
+        "Prob": 6
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 75,
+        "Prob": 6
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 82,
+        "Prob": 8
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 71,
+        "Prob": 10
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 121,
+        "Prob": 10
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 154,
+        "Prob": 10
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 68,
+        "Prob": 12
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 72,
+        "Prob": 14
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 118,
+        "Prob": 10
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 113,
+        "Prob": 8
+      },
+      {
+        "RankId": 31,
+        "PersonaId": 208,
+        "Prob": 6
+      },
+      {
+        "RankId": 32,
+        "PersonaId": 71,
+        "Prob": 10
+      },
+      {
+        "RankId": 32,
+        "PersonaId": 121,
+        "Prob": 10
+      },
+      {
+        "RankId": 32,
+        "PersonaId": 154,
+        "Prob": 12
+      },
+      {
+        "RankId": 32,
+        "PersonaId": 68,
+        "Prob": 12
+      },
+      {
+        "RankId": 32,
+        "PersonaId": 72,
+        "Prob": 14
+      },
+      {
+        "RankId": 32,
+        "PersonaId": 118,
+        "Prob": 14
+      },
+      {
+        "RankId": 32,
+        "PersonaId": 113,
+        "Prob": 14
+      },
+      {
+        "RankId": 32,
+        "PersonaId": 208,
+        "Prob": 10
+      },
+      {
+        "RankId": 32,
+        "PersonaId": 147,
+        "Prob": 4
+      },
+      {
+        "RankId": 33,
+        "PersonaId": 121,
+        "Prob": 10
+      },
+      {
+        "RankId": 33,
+        "PersonaId": 154,
+        "Prob": 12
+      },
+      {
+        "RankId": 33,
+        "PersonaId": 68,
+        "Prob": 12
+      },
+      {
+        "RankId": 33,
+        "PersonaId": 72,
+        "Prob": 15
+      },
+      {
+        "RankId": 33,
+        "PersonaId": 113,
+        "Prob": 16
+      },
+      {
+        "RankId": 33,
+        "PersonaId": 208,
+        "Prob": 16
+      },
+      {
+        "RankId": 33,
+        "PersonaId": 147,
+        "Prob": 13
+      },
+      {
+        "RankId": 33,
+        "PersonaId": 42,
+        "Prob": 6
+      },
+      {
+        "RankId": 34,
+        "PersonaId": 68,
+        "Prob": 10
+      },
+      {
+        "RankId": 34,
+        "PersonaId": 72,
+        "Prob": 11
+      },
+      {
+        "RankId": 34,
+        "PersonaId": 113,
+        "Prob": 15
+      },
+      {
+        "RankId": 34,
+        "PersonaId": 208,
+        "Prob": 20
+      },
+      {
+        "RankId": 34,
+        "PersonaId": 147,
+        "Prob": 20
+      },
+      {
+        "RankId": 34,
+        "PersonaId": 42,
+        "Prob": 18
+      },
+      {
+        "RankId": 34,
+        "PersonaId": 175,
+        "Prob": 6
+      }
+    ]
+  }
+}

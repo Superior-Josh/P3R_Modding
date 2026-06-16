@@ -1,0 +1,159 @@
+{
+  "Type": "MoonAgeProbabilityDataAsset",
+  "Name": "MoonAgeProbabilityDataAsset",
+  "Class": "UScriptClass'MoonAgeProbabilityDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 140
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 130
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 120
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 110
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 105,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 110,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 115,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 120,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 130,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 140,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 150,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 150,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 150,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 140,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 130,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 120,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 115,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 110,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 105,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 100
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 110
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 120
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 130
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 140
+      },
+      {
+        "ConceptionRate": 100,
+        "SkillChangeRate": 100,
+        "AccidentRate": 150
+      }
+    ]
+  }
+}

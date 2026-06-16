@@ -1,0 +1,28 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_ChristmasEvent_007",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'ChristmasEventRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "1": {
+      "Major": 2,
+      "Minor": 650,
+      "Flag": "CMM_CHRISTMAS_AFTERSCHOOL"
+    },
+    "2": {
+      "Major": 2,
+      "Minor": 653,
+      "Flag": "CMM_CHRISTMAS_AFTERSCHOOL"
+    },
+    "3": {
+      "Major": 2,
+      "Minor": 657,
+      "Flag": "CMM_CHRISTMAS_NIGHT"
+    }
+  }
+}

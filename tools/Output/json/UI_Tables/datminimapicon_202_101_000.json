@@ -1,0 +1,49 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_202_101_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "UP",
+        "SprType": 1,
+        "SprNo": 11,
+        "X": 0.0,
+        "Y": -174.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "上り階段",
+        "SprType": 0,
+        "SprNo": 44,
+        "X": 0.0,
+        "Y": -110.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "脱出ポイント",
+        "SprType": 1,
+        "SprNo": 4,
+        "X": -43.0,
+        "Y": 21.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "侵入負荷",
+        "SprType": 1,
+        "SprNo": 16,
+        "X": 0.0,
+        "Y": -48.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_TAR_ENDGATE_STOP_ICON_ON",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "Type": "DatShuffleCommonItemdropArcanaTable",
+  "Name": "DatShuffleMagicianArcanaDataAsset",
+  "Class": "UScriptClass'DatShuffleCommonItemdropArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "RankID": 0,
+        "Num": 2,
+        "Prob": 25,
+        "ItemtID": 16554
+      },
+      {
+        "RankID": 0,
+        "Num": 2,
+        "Prob": 10,
+        "ItemtID": 16556
+      },
+      {
+        "RankID": 0,
+        "Num": 2,
+        "Prob": 40,
+        "ItemtID": 16558
+      },
+      {
+        "RankID": 0,
+        "Num": 2,
+        "Prob": 25,
+        "ItemtID": 16560
+      },
+      {
+        "RankID": 1,
+        "Num": 1,
+        "Prob": 30,
+        "ItemtID": 16551
+      },
+      {
+        "RankID": 1,
+        "Num": 1,
+        "Prob": 10,
+        "ItemtID": 16422
+      },
+      {
+        "RankID": 1,
+        "Num": 3,
+        "Prob": 40,
+        "ItemtID": 16623
+      },
+      {
+        "RankID": 1,
+        "Num": 3,
+        "Prob": 20,
+        "ItemtID": 16625
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 10,
+        "ItemtID": 16387
+      },
+      {
+        "RankID": 2,
+        "Num": 3,
+        "Prob": 20,
+        "ItemtID": 16565
+      },
+      {
+        "RankID": 2,
+        "Num": 3,
+        "Prob": 20,
+        "ItemtID": 16567
+      },
+      {
+        "RankID": 2,
+        "Num": 3,
+        "Prob": 20,
+        "ItemtID": 16566
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 25,
+        "ItemtID": 16551
+      },
+      {
+        "RankID": 2,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 16423
+      },
+      {
+        "RankID": 3,
+        "Num": 2,
+        "Prob": 30,
+        "ItemtID": 16417
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 20,
+        "ItemtID": 16452
+      },
+      {
+        "RankID": 3,
+        "Num": 2,
+        "Prob": 20,
+        "ItemtID": 16628
+      },
+      {
+        "RankID": 3,
+        "Num": 2,
+        "Prob": 20,
+        "ItemtID": 16629
+      },
+      {
+        "RankID": 3,
+        "Num": 1,
+        "Prob": 10,
+        "ItemtID": 16423
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 30,
+        "ItemtID": 16424
+      },
+      {
+        "RankID": 4,
+        "Num": 2,
+        "Prob": 20,
+        "ItemtID": 16551
+      },
+      {
+        "RankID": 4,
+        "Num": 1,
+        "Prob": 20,
+        "ItemtID": 16452
+      },
+      {
+        "RankID": 4,
+        "Num": 2,
+        "Prob": 15,
+        "ItemtID": 16548
+      },
+      {
+        "RankID": 4,
+        "Num": 2,
+        "Prob": 15,
+        "ItemtID": 16547
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 25,
+        "ItemtID": 16388
+      },
+      {
+        "RankID": 5,
+        "Num": 1,
+        "Prob": 25,
+        "ItemtID": 16424
+      },
+      {
+        "RankID": 5,
+        "Num": 2,
+        "Prob": 20,
+        "ItemtID": 16551
+      },
+      {
+        "RankID": 5,
+        "Num": 2,
+        "Prob": 30,
+        "ItemtID": 16452
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 1,
+        "ItemtID": 16425
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 19,
+        "ItemtID": 16388
+      },
+      {
+        "RankID": 6,
+        "Num": 1,
+        "Prob": 30,
+        "ItemtID": 16424
+      },
+      {
+        "RankID": 6,
+        "Num": 2,
+        "Prob": 25,
+        "ItemtID": 16551
+      },
+      {
+        "RankID": 6,
+        "Num": 2,
+        "Prob": 25,
+        "ItemtID": 16452
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 8,
+        "ItemtID": 16472
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 5,
+        "ItemtID": 16425
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 24,
+        "ItemtID": 16388
+      },
+      {
+        "RankID": 7,
+        "Num": 1,
+        "Prob": 30,
+        "ItemtID": 16424
+      },
+      {
+        "RankID": 7,
+        "Num": 2,
+        "Prob": 33,
+        "ItemtID": 16551
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Type": "DatShuffleChoiceMajorArcanaTable",
+  "Name": "DatShuffleChoiceMajorArcanaDataAsset",
+  "Class": "UScriptClass'DatShuffleChoiceMajorArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "ArcanaID": 1,
+        "RankInPhase": 7
+      },
+      {
+        "ArcanaID": 2,
+        "RankInPhase": 7
+      },
+      {
+        "ArcanaID": 13,
+        "RankInPhase": 0
+      }
+    ]
+  }
+}

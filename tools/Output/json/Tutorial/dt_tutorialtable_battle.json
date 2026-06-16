@@ -1,0 +1,588 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_TutorialTable_BATTLE",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'TutorialSortTableRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "0": {
+      "SortID": 0,
+      "TextureNames": [],
+      "OpenFlagName": "BTL_0511",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "0_Comment",
+        "SourceString": "未使用",
+        "LocalizedString": "未使用"
+      }
+    },
+    "1": {
+      "SortID": 1,
+      "TextureNames": [
+        "A",
+        "B"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_ATTACK_SKILL",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "1_Comment",
+        "SourceString": "アタックとスキル",
+        "LocalizedString": "アタックとスキル"
+      }
+    },
+    "2": {
+      "SortID": 2,
+      "TextureNames": [
+        "C",
+        "F"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_WEAK_1MORE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "2_Comment",
+        "SourceString": "弱点と１MORE",
+        "LocalizedString": "弱点と１MORE"
+      }
+    },
+    "3": {
+      "SortID": 41,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_AFFINITY",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "3_Comment",
+        "SourceString": "属性の相性について",
+        "LocalizedString": "属性の相性について"
+      }
+    },
+    "4": {
+      "SortID": 3,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_BOKOSUKA",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "4_Comment",
+        "SourceString": "総攻撃",
+        "LocalizedString": "総攻撃"
+      }
+    },
+    "5": {
+      "SortID": 4,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_CHANGE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "5_Comment",
+        "SourceString": "ペルソナチェンジ",
+        "LocalizedString": "ペルソナチェンジ"
+      }
+    },
+    "6": {
+      "SortID": 5,
+      "TextureNames": [
+        "C",
+        "F",
+        "R"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_ANALYZE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "6_Comment",
+        "SourceString": "アナライズ",
+        "LocalizedString": "アナライズ"
+      }
+    },
+    "7": {
+      "SortID": 6,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_CHANCE_ENC",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "7_Comment",
+        "SourceString": "先制について",
+        "LocalizedString": "先制について"
+      }
+    },
+    "8": {
+      "SortID": 7,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_SHUFFLETIME",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "8_Comment",
+        "SourceString": "シャッフルタイム",
+        "LocalizedString": "シャッフルタイム"
+      }
+    },
+    "9": {
+      "SortID": 8,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_ALL_GET_BONUS",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "9_Comment",
+        "SourceString": "大アルカナカード",
+        "LocalizedString": "大アルカナカード"
+      }
+    },
+    "10": {
+      "SortID": 9,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_ARCANA",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "10_Comment",
+        "SourceString": "大アルカナカードの追加",
+        "LocalizedString": "大アルカナカードの追加"
+      }
+    },
+    "11": {
+      "SortID": 42,
+      "TextureNames": [
+        "A",
+        "B"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_SKILLCARD",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "11_Comment",
+        "SourceString": "スキルカード",
+        "LocalizedString": "スキルカード"
+      }
+    },
+    "12": {
+      "SortID": 27,
+      "TextureNames": [
+        "C",
+        "F"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_SHIFT",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "12_Comment",
+        "SourceString": "シフト",
+        "LocalizedString": "シフト"
+      }
+    },
+    "13": {
+      "SortID": 28,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_RUSH",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "13_Comment",
+        "SourceString": "ラッシュ",
+        "LocalizedString": "ラッシュ"
+      }
+    },
+    "14": {
+      "SortID": 29,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_ASSIST",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "14_Comment",
+        "SourceString": "アシスト",
+        "LocalizedString": "アシスト"
+      }
+    },
+    "15": {
+      "SortID": 43,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_TURN",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "15_Comment",
+        "SourceString": "行動順",
+        "LocalizedString": "行動順"
+      }
+    },
+    "16": {
+      "SortID": 30,
+      "TextureNames": [
+        "C",
+        "F",
+        "R"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_GUARD",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "16_Comment",
+        "SourceString": "ガード",
+        "LocalizedString": "ガード"
+      }
+    },
+    "17": {
+      "SortID": 32,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_BADSTATUS",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "17_Comment",
+        "SourceString": "状態異常",
+        "LocalizedString": "状態異常"
+      }
+    },
+    "18": {
+      "SortID": 31,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_ESCAPE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "18_Comment",
+        "SourceString": "逃走",
+        "LocalizedString": "逃走"
+      }
+    },
+    "19": {
+      "SortID": 44,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_KIZETU",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "19_Comment",
+        "SourceString": "気絶",
+        "LocalizedString": "気絶"
+      }
+    },
+    "20": {
+      "SortID": 33,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_CRITICAL",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "20_Comment",
+        "SourceString": "クリティカルを発生させるコツ",
+        "LocalizedString": "クリティカルを発生させるコツ"
+      }
+    },
+    "21": {
+      "SortID": 45,
+      "TextureNames": [
+        "A",
+        "B"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_SUPPORT_SKILL",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "21_Comment",
+        "SourceString": "補助スキルの活用",
+        "LocalizedString": "補助スキルの活用"
+      }
+    },
+    "22": {
+      "SortID": 34,
+      "TextureNames": [
+        "C",
+        "F"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_HIGH_ANALYZE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "22_Comment",
+        "SourceString": "ハイ・アナライズ",
+        "LocalizedString": "ハイ・アナライズ"
+      }
+    },
+    "23": {
+      "SortID": 35,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_THEURGIA_ATK",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "23_Comment",
+        "SourceString": "テウルギアの発動",
+        "LocalizedString": "テウルギアの発動"
+      }
+    },
+    "24": {
+      "SortID": 36,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_THEURGIA_GAUGE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "24_Comment",
+        "SourceString": "テウルギアゲージ",
+        "LocalizedString": "テウルギアゲージ"
+      }
+    },
+    "25": {
+      "SortID": 46,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_TOKUSEI",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "25_Comment",
+        "SourceString": "特性",
+        "LocalizedString": "特性"
+      }
+    },
+    "26": {
+      "SortID": 37,
+      "TextureNames": [
+        "C",
+        "F",
+        "R"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MIXRAID",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "26_Comment",
+        "SourceString": "主人公のテウルギア",
+        "LocalizedString": "主人公のテウルギア"
+      }
+    },
+    "27": {
+      "SortID": 47,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_HERO_TOKUSEI",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "27_Comment",
+        "SourceString": "主人公の特性",
+        "LocalizedString": "主人公の特性"
+      }
+    },
+    "28": {
+      "SortID": 38,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_ORACLE",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "28_Comment",
+        "SourceString": "風花のテウルギア",
+        "LocalizedString": "風花のテウルギア"
+      }
+    },
+    "29": {
+      "SortID": 39,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_ORGIAM",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "29_Comment",
+        "SourceString": "オルギアモード",
+        "LocalizedString": "オルギアモード"
+      }
+    },
+    "30": {
+      "SortID": 40,
+      "TextureNames": [
+        "A",
+        "B"
+      ],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_PEACEFUL",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "30_Comment",
+        "SourceString": "難易度PEACEFULのリトライ",
+        "LocalizedString": "難易度PEACEFULのリトライ"
+      }
+    },
+    "31": {
+      "SortID": 10,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_SHUFFLE_PERSONA",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "31_Comment",
+        "SourceString": "所持済みのペルソナカード",
+        "LocalizedString": "所持済みのペルソナカード"
+      }
+    },
+    "32": {
+      "SortID": 26,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_TACTICS",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "32_Comment",
+        "SourceString": "作戦指示",
+        "LocalizedString": "作戦指示"
+      }
+    },
+    "33": {
+      "SortID": 11,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_ARCANA_BURST",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "33_Comment",
+        "SourceString": "アルカナバースト",
+        "LocalizedString": "アルカナバースト"
+      }
+    },
+    "34": {
+      "SortID": 12,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_A_01",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "34_Comment",
+        "SourceString": "大アルカナの効果１_初期",
+        "LocalizedString": "大アルカナの効果１_初期"
+      }
+    },
+    "35": {
+      "SortID": 13,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_A_02",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "35_Comment",
+        "SourceString": "大アルカナの効果１_女教皇まで",
+        "LocalizedString": "大アルカナの効果１_女教皇まで"
+      }
+    },
+    "36": {
+      "SortID": 14,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_A_03",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "36_Comment",
+        "SourceString": "大アルカナの効果１_皇帝まで",
+        "LocalizedString": "大アルカナの効果１_皇帝まで"
+      }
+    },
+    "37": {
+      "SortID": 15,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_A_04",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "37_Comment",
+        "SourceString": "大アルカナの効果１_恋愛まで",
+        "LocalizedString": "大アルカナの効果１_恋愛まで"
+      }
+    },
+    "38": {
+      "SortID": 16,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_A_05",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "38_Comment",
+        "SourceString": "大アルカナの効果１_正義まで",
+        "LocalizedString": "大アルカナの効果１_正義まで"
+      }
+    },
+    "39": {
+      "SortID": 17,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_A_06",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "39_Comment",
+        "SourceString": "大アルカナの効果１_隠者まで",
+        "LocalizedString": "大アルカナの効果１_隠者まで"
+      }
+    },
+    "40": {
+      "SortID": 18,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_A_07",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "40_Comment",
+        "SourceString": "大アルカナの効果１_剛毅まで",
+        "LocalizedString": "大アルカナの効果１_剛毅まで"
+      }
+    },
+    "41": {
+      "SortID": 19,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_A_08",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "41_Comment",
+        "SourceString": "大アルカナの効果１_刑死者まで",
+        "LocalizedString": "大アルカナの効果１_刑死者まで"
+      }
+    },
+    "42": {
+      "SortID": 20,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_B_01",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "42_Comment",
+        "SourceString": "大アルカナの効果２_節制",
+        "LocalizedString": "大アルカナの効果２_節制"
+      }
+    },
+    "43": {
+      "SortID": 21,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_B_02",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "43_Comment",
+        "SourceString": "大アルカナの効果２_悪魔まで",
+        "LocalizedString": "大アルカナの効果２_悪魔まで"
+      }
+    },
+    "44": {
+      "SortID": 22,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_B_03",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "44_Comment",
+        "SourceString": "大アルカナの効果２_塔まで",
+        "LocalizedString": "大アルカナの効果２_塔まで"
+      }
+    },
+    "45": {
+      "SortID": 23,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_B_04",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "45_Comment",
+        "SourceString": "大アルカナの効果２_星まで",
+        "LocalizedString": "大アルカナの効果２_星まで"
+      }
+    },
+    "46": {
+      "SortID": 24,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_B_05",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "46_Comment",
+        "SourceString": "大アルカナの効果２_月まで",
+        "LocalizedString": "大アルカナの効果２_月まで"
+      }
+    },
+    "47": {
+      "SortID": 25,
+      "TextureNames": [],
+      "OpenFlagName": "SYS_TUTORIAL_BTL_MAJOR_EFFECT_B_06",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "47_Comment",
+        "SourceString": "大アルカナの効果２_審判まで",
+        "LocalizedString": "大アルカナの効果２_審判まで"
+      }
+    },
+    "48": {
+      "SortID": 48,
+      "TextureNames": [
+        "A",
+        "B"
+      ],
+      "OpenFlagName": "BTL_0511",
+      "Comment": {
+        "Namespace": "DT_TutorialTable_BATTLE",
+        "Key": "48_Comment",
+        "SourceString": "テスト用",
+        "LocalizedString": "テスト用"
+      }
+    }
+  }
+}

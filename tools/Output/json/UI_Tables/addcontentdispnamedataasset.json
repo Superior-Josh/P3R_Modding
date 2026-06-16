@@ -1,0 +1,159 @@
+{
+  "Type": "AddContentNameDispTableDataAsset",
+  "Name": "AddContentDispNameDataAsset",
+  "Class": "UScriptClass'AddContentNameDispTableDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "ItemID": 32858,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32859,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32860,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32861,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32862,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32863,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32864,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32865,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32866,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32867,
+        "Category": 0,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32868,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32869,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32870,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32871,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32872,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32873,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32874,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32875,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32876,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32877,
+        "Category": 1,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32969,
+        "Category": 2,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32970,
+        "Category": 2,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32971,
+        "Category": 2,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32972,
+        "Category": 2,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32973,
+        "Category": 2,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32974,
+        "Category": 2,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32975,
+        "Category": 2,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32976,
+        "Category": 2,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32977,
+        "Category": 2,
+        "Comment": ""
+      },
+      {
+        "ItemID": 32978,
+        "Category": 2,
+        "Comment": ""
+      }
+    ]
+  }
+}

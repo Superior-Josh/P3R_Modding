@@ -1,0 +1,117 @@
+{
+  "Type": "ItemShopLineUpListTable",
+  "Name": "DatItemShopLineupDataAsset",
+  "Class": "UScriptClass'ItemShopLineUpListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "Value": 0,
+        "SaleMonth": 3,
+        "SaleDay": 31,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16385,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16386,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16419,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 536874375
+      },
+      {
+        "Value": 16414,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16415,
+        "SaleMonth": 5,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16420,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 536874375
+      },
+      {
+        "Value": 16389,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16469,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16449,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16447,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16448,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16460,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16474,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16461,
+        "SaleMonth": 7,
+        "SaleDay": 18,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16475,
+        "SaleMonth": 9,
+        "SaleDay": 10,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16464,
+        "SaleMonth": 4,
+        "SaleDay": 1,
+        "OpenFLG": 0
+      },
+      {
+        "Value": 16471,
+        "SaleMonth": 8,
+        "SaleDay": 8,
+        "OpenFLG": 0
+      }
+    ]
+  }
+}

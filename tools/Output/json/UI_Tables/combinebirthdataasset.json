@@ -1,0 +1,97 @@
+{
+  "Type": "DLCPersonaCombineBirthDataAsset",
+  "Name": "CombineBirthDataAsset",
+  "Class": "UScriptClass'DLCPersonaCombineBirthDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "Value": 0,
+        "Flag": 0
+      },
+      {
+        "Value": 300,
+        "Flag": 1342177540
+      },
+      {
+        "Value": 301,
+        "Flag": 1342177541
+      },
+      {
+        "Value": 302,
+        "Flag": 1342177542
+      },
+      {
+        "Value": 303,
+        "Flag": 1342177543
+      },
+      {
+        "Value": 304,
+        "Flag": 1342177544
+      },
+      {
+        "Value": 305,
+        "Flag": 1342177545
+      },
+      {
+        "Value": 306,
+        "Flag": 1342177546
+      },
+      {
+        "Value": 307,
+        "Flag": 1342177547
+      },
+      {
+        "Value": 308,
+        "Flag": 1342177548
+      },
+      {
+        "Value": 309,
+        "Flag": 1342177555
+      },
+      {
+        "Value": 310,
+        "Flag": 1342177556
+      },
+      {
+        "Value": 311,
+        "Flag": 1342177557
+      },
+      {
+        "Value": 312,
+        "Flag": 1342177558
+      },
+      {
+        "Value": 313,
+        "Flag": 1342177559
+      },
+      {
+        "Value": 314,
+        "Flag": 1342177560
+      },
+      {
+        "Value": 315,
+        "Flag": 1342177561
+      },
+      {
+        "Value": 316,
+        "Flag": 1342177562
+      },
+      {
+        "Value": 317,
+        "Flag": 1342177563
+      },
+      {
+        "Value": 318,
+        "Flag": 1342177570
+      },
+      {
+        "Value": 319,
+        "Flag": 1342177571
+      },
+      {
+        "Value": 320,
+        "Flag": 1342177572
+      }
+    ]
+  }
+}

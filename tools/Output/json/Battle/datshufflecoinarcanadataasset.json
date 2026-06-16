@@ -1,0 +1,61 @@
+{
+  "Type": "DatShuffleCoinArcanaTable",
+  "Name": "DatShuffleCoinArcanaDataAsset",
+  "Class": "UScriptClass'DatShuffleCoinArcanaTable'",
+  "Properties": {
+    "Data": [
+      {
+        "Max": 1100,
+        "Min": 500
+      },
+      {
+        "Max": 1900,
+        "Min": 1000
+      },
+      {
+        "Max": 2400,
+        "Min": 1500
+      },
+      {
+        "Max": 3000,
+        "Min": 2000
+      },
+      {
+        "Max": 3800,
+        "Min": 2500
+      },
+      {
+        "Max": 4700,
+        "Min": 3400
+      },
+      {
+        "Max": 5600,
+        "Min": 4300
+      },
+      {
+        "Max": 6700,
+        "Min": 5400
+      },
+      {
+        "Max": 8000,
+        "Min": 6500
+      },
+      {
+        "Max": 14000,
+        "Min": 7700
+      },
+      {
+        "Max": 22000,
+        "Min": 15000
+      },
+      {
+        "Max": 50000,
+        "Min": 35000
+      },
+      {
+        "Max": 90000,
+        "Min": 70000
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "Type": "TownMapRestrictionsDataAsset",
+  "Name": "TownMapRestrictionsDataAsset",
+  "Class": "UScriptClass'TownMapRestrictionsDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "KeyFreeEventID": 150,
+        "CloseLMap": true,
+        "DestinationA": 1,
+        "DestinationB": 1,
+        "DestinationC": 1,
+        "DestinationD": 1,
+        "DestinationE": 1,
+        "DestinationF": 1,
+        "AfterMove": "NOTHING"
+      },
+      {
+        "KeyFreeEventID": 300,
+        "CloseLMap": false,
+        "DestinationA": 0,
+        "DestinationB": 0,
+        "DestinationC": 0,
+        "DestinationD": 0,
+        "DestinationE": 0,
+        "DestinationF": 0,
+        "AfterMove": "NOTHING"
+      },
+      {
+        "KeyFreeEventID": 350,
+        "CloseLMap": true,
+        "DestinationA": 1,
+        "DestinationB": 1,
+        "DestinationC": 1,
+        "DestinationD": 1,
+        "DestinationE": 1,
+        "DestinationF": 1,
+        "AfterMove": "NOTHING"
+      },
+      {
+        "KeyFreeEventID": 400,
+        "CloseLMap": true,
+        "DestinationA": 1,
+        "DestinationB": 0,
+        "DestinationC": 1,
+        "DestinationD": 0,
+        "DestinationE": 1,
+        "DestinationF": 1,
+        "AfterMove": "D"
+      },
+      {
+        "KeyFreeEventID": 450,
+        "CloseLMap": true,
+        "DestinationA": 1,
+        "DestinationB": 1,
+        "DestinationC": 1,
+        "DestinationD": 1,
+        "DestinationE": 1,
+        "DestinationF": 1,
+        "AfterMove": "NOTHING"
+      },
+      {
+        "KeyFreeEventID": 550,
+        "CloseLMap": true,
+        "DestinationA": 1,
+        "DestinationB": 1,
+        "DestinationC": 1,
+        "DestinationD": 1,
+        "DestinationE": 1,
+        "DestinationF": 1,
+        "AfterMove": "NOTHING"
+      },
+      {
+        "KeyFreeEventID": 600,
+        "CloseLMap": false,
+        "DestinationA": 0,
+        "DestinationB": 0,
+        "DestinationC": 0,
+        "DestinationD": 0,
+        "DestinationE": 0,
+        "DestinationF": 0,
+        "AfterMove": "NOTHING"
+      },
+      {
+        "KeyFreeEventID": 900,
+        "CloseLMap": true,
+        "DestinationA": 1,
+        "DestinationB": 1,
+        "DestinationC": 1,
+        "DestinationD": 1,
+        "DestinationE": 1,
+        "DestinationF": 1,
+        "AfterMove": "NOTHING"
+      },
+      {
+        "KeyFreeEventID": 175,
+        "CloseLMap": false,
+        "DestinationA": 0,
+        "DestinationB": 0,
+        "DestinationC": 1,
+        "DestinationD": 0,
+        "DestinationE": 0,
+        "DestinationF": 1,
+        "AfterMove": "NOTHING"
+      }
+    ]
+  }
+}

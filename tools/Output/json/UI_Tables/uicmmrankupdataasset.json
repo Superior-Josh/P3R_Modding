@@ -1,0 +1,17 @@
+{
+  "Type": "UIDataAsset",
+  "Name": "UICmmRankUpDataAsset",
+  "Class": "UScriptClass'UIDataAsset'",
+  "Properties": {
+    "Assets": [
+      {
+        "ObjectName": "SprAsset'SPR_UI_Community'",
+        "ObjectPath": "/Game/L10N/fr/Xrd777/UI/Community/RankUp/SPR_UI_Community.0"
+      },
+      {
+        "ObjectName": "PlgAsset'PLG_UI_Community'",
+        "ObjectPath": "/Game/L10N/ru/Xrd777/UI/Community/RankUp/PLG_UI_Community.0"
+      }
+    ]
+  }
+}

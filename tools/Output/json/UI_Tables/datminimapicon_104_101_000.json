@@ -1,0 +1,69 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_104_101_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "矢印アイコン白抜き",
+        "SprType": 0,
+        "SprNo": 49,
+        "X": 15.0,
+        "Y": 153.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "矢印",
+        "SprType": 0,
+        "SprNo": 0,
+        "X": 208.0,
+        "Y": -5.0,
+        "DegreeAngle": 90.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "矢印アイコン白抜き",
+        "SprType": 0,
+        "SprNo": 49,
+        "X": 82.0,
+        "Y": -130.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "自動販売機",
+        "SprType": 0,
+        "SprNo": 22,
+        "X": -32.0,
+        "Y": 33.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "花屋",
+        "SprType": 0,
+        "SprNo": 29,
+        "X": 55.0,
+        "Y": 62.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "映画館",
+        "SprType": 0,
+        "SprNo": 28,
+        "X": -111.0,
+        "Y": 60.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_304_101_003",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "DOWN",
+        "SprType": 1,
+        "SprNo": 12,
+        "X": -227.0,
+        "Y": 74.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "下り階段",
+        "SprType": 0,
+        "SprNo": 45,
+        "X": -121.0,
+        "Y": 72.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": -170.0,
+        "Y": -60.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_3F_MISS_FLOOR_ICON_ON",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": -65.0,
+        "Y": -140.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_3F_MISS_FLOOR_ICON_ON",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": 70.0,
+        "Y": -165.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_GOAL_IS_BREAK_3F",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "目的地",
+        "SprType": 1,
+        "SprNo": 2,
+        "X": -55.0,
+        "Y": -40.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_3F_MISS_FLOOR_ICON_ON",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "侵入負荷",
+        "SprType": 1,
+        "SprNo": 16,
+        "X": -100.0,
+        "Y": -30.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_301_BROKEN_ICON",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "侵入負荷",
+        "SprType": 1,
+        "SprNo": 16,
+        "X": -125.0,
+        "Y": -50.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_302_BROKEN_ICON",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "侵入負荷",
+        "SprType": 1,
+        "SprNo": 16,
+        "X": -78.0,
+        "Y": -102.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "FLD_HOTEL_303_BROKEN_ICON",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

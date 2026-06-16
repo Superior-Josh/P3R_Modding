@@ -1,0 +1,12 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_UniqueCoefficient_016",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'UniqCoefficientRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {}
+}

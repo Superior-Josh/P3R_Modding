@@ -1,0 +1,23 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_UniqueCoefficient_000",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'UniqCoefficientRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "アイテムを持っていたら": {
+      "Type": "アイテム",
+      "Flag": "IT_EVI_EVENT_10_",
+      "Coefficient": 1.51
+    },
+    "フラグが立っていたら": {
+      "Type": "フラグ",
+      "Flag": "EVT_EXAM_RESULT_TOP",
+      "Coefficient": 1.51
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "Type": "AddContentBundleNameTableDataAsset",
+  "Name": "AddContentBundleNameDataAsset",
+  "Class": "UScriptClass'AddContentBundleNameTableDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "Name": "P4G 야소가미 고등학교 의상 세트"
+      },
+      {
+        "Name": "P5R 슈진 고등학교 의상 세트"
+      },
+      {
+        "Name": "P5R 괴도단 의상 세트"
+      },
+      {
+        "Name": "P5R 페르소나 세트 1"
+      },
+      {
+        "Name": "P5R 페르소나 세트 2"
+      },
+      {
+        "Name": "P4G 페르소나 세트"
+      },
+      {
+        "Name": "P4G BGM 세트"
+      },
+      {
+        "Name": "P5R BGM 세트"
+      },
+      {
+        "Name": "탐색에 유용한 아이템 세트"
+      },
+      {
+        "Name": "P4G EX BGM 세트"
+      },
+      {
+        "Name": "P5R EX BGM 세트"
+      },
+      {
+        "Name": "군청색 의상&BGM 세트(의상)"
+      },
+      {
+        "Name": "군청색 의상&BGM 세트(BGM)"
+      },
+      {
+        "Name": "Episode Aegis(BGM)"
+      }
+    ]
+  }
+}

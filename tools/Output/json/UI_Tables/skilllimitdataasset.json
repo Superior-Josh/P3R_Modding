@@ -1,0 +1,49 @@
+{
+  "Type": "SkillLimitDataAsset",
+  "Name": "SkillLimitDataAsset",
+  "Class": "UScriptClass'SkillLimitDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "TotalSkillNum": 0,
+        "InheritanceSkillNum": 0
+      },
+      {
+        "TotalSkillNum": 0,
+        "InheritanceSkillNum": 1
+      },
+      {
+        "TotalSkillNum": 2,
+        "InheritanceSkillNum": 1
+      },
+      {
+        "TotalSkillNum": 4,
+        "InheritanceSkillNum": 1
+      },
+      {
+        "TotalSkillNum": 6,
+        "InheritanceSkillNum": 2
+      },
+      {
+        "TotalSkillNum": 9,
+        "InheritanceSkillNum": 3
+      },
+      {
+        "TotalSkillNum": 12,
+        "InheritanceSkillNum": 4
+      },
+      {
+        "TotalSkillNum": 24,
+        "InheritanceSkillNum": 5
+      },
+      {
+        "TotalSkillNum": 32,
+        "InheritanceSkillNum": 6
+      },
+      {
+        "TotalSkillNum": 42,
+        "InheritanceSkillNum": 8
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "Type": "AddContentTableDataAsset",
+  "Name": "AddContentDataAsset",
+  "Class": "UScriptClass'AddContentTableDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "CategoryID": 0,
+        "ItemID": 32866,
+        "ItemNum": 1,
+        "ActiveFlag": 1342177409,
+        "GetFlag": 1342177469,
+        "NewFlag": 1342177439,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 0,
+        "ItemID": 32876,
+        "ItemNum": 1,
+        "ActiveFlag": 1342177410,
+        "GetFlag": 1342177470,
+        "NewFlag": 1342177440,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 0,
+        "ItemID": 32886,
+        "ItemNum": 1,
+        "ActiveFlag": 1342177411,
+        "GetFlag": 1342177471,
+        "NewFlag": 1342177441,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 1,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177412,
+        "GetFlag": 1342177472,
+        "NewFlag": 1342177442,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 1,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177413,
+        "GetFlag": 1342177473,
+        "NewFlag": 1342177443,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 1,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177414,
+        "GetFlag": 1342177474,
+        "NewFlag": 1342177444,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 2,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177415,
+        "GetFlag": 1342177475,
+        "NewFlag": 1342177445,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 2,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177416,
+        "GetFlag": 1342177476,
+        "NewFlag": 1342177446,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 3,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177417,
+        "GetFlag": 1342177477,
+        "NewFlag": 1342177447,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 2,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177418,
+        "GetFlag": 1342177478,
+        "NewFlag": 1342177448,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 2,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177419,
+        "GetFlag": 1342177479,
+        "NewFlag": 1342177449,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 0,
+        "ItemID": 32977,
+        "ItemNum": 1,
+        "ActiveFlag": 1342177420,
+        "GetFlag": 1342177480,
+        "NewFlag": 1342177450,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 2,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177421,
+        "GetFlag": 1342177481,
+        "NewFlag": 1342177451,
+        "GdkStoreId": ""
+      },
+      {
+        "CategoryID": 2,
+        "ItemID": 0,
+        "ItemNum": 0,
+        "ActiveFlag": 1342177422,
+        "GetFlag": 1342177482,
+        "NewFlag": 1342177452,
+        "GdkStoreId": ""
+      }
+    ]
+  }
+}

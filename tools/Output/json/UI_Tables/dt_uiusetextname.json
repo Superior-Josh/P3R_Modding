@@ -1,0 +1,433 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_UIUseTextName",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'DatNameTable'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "100": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "100_Name",
+        "SourceString": "사용 가능 스킬 없음",
+        "LocalizedString": "사용 가능 스킬 없음"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "100_Comment",
+        "SourceString": "UI_CAMP_SKILL_NONE",
+        "LocalizedString": "UI_CAMP_SKILL_NONE"
+      }
+    },
+    "101": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "101_Name",
+        "SourceString": "사용 가능 아이템 없음",
+        "LocalizedString": "사용 가능 아이템 없음"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "101_Comment",
+        "SourceString": "UI_CAMP_ITEM_NONE",
+        "LocalizedString": "UI_CAMP_ITEM_NONE"
+      }
+    },
+    "102": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "102_Name",
+        "SourceString": "입수순",
+        "LocalizedString": "입수순"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "102_Comment",
+        "SourceString": "UI_CAMP_ITEM_NEW",
+        "LocalizedString": "UI_CAMP_ITEM_NEW"
+      }
+    },
+    "103": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "103_Name",
+        "SourceString": "소비 아이템",
+        "LocalizedString": "소비 아이템"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "103_Comment",
+        "SourceString": "UI_CAMP_ITEM_CONSUM",
+        "LocalizedString": "UI_CAMP_ITEM_CONSUM"
+      }
+    },
+    "104": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "104_Name",
+        "SourceString": "스킬 카드",
+        "LocalizedString": "스킬 카드"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "104_Comment",
+        "SourceString": "UI_CAMP_ITEM_SKILLCARD",
+        "LocalizedString": "UI_CAMP_ITEM_SKILLCARD"
+      }
+    },
+    "105": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "105_Name",
+        "SourceString": "소재 & 환금 아이템",
+        "LocalizedString": "소재 & 환금 아이템"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "105_Comment",
+        "SourceString": "UI_CAMP_ITEM_MATERIAL",
+        "LocalizedString": "UI_CAMP_ITEM_MATERIAL"
+      }
+    },
+    "106": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "106_Name",
+        "SourceString": "이벤트 & 일용품",
+        "LocalizedString": "이벤트 & 일용품"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "106_Comment",
+        "SourceString": "UI_CAMP_ITEM_EVENTITEM",
+        "LocalizedString": "UI_CAMP_ITEM_EVENTITEM"
+      }
+    },
+    "107": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "107_Name",
+        "SourceString": "장비할 것이 없습니다",
+        "LocalizedString": "장비할 것이 없습니다"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "107_Comment",
+        "SourceString": "UI_CAMP_EQUIP_NONE",
+        "LocalizedString": "UI_CAMP_EQUIP_NONE"
+      }
+    },
+    "108": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "108_Name",
+        "SourceString": "스테이터스 확인",
+        "LocalizedString": "스테이터스 확인"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "108_Comment",
+        "SourceString": "UI_CAMP_STATUS_CHECK",
+        "LocalizedString": "UI_CAMP_STATUS_CHECK"
+      }
+    },
+    "109": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "109_Name",
+        "SourceString": "작전 지시",
+        "LocalizedString": "작전 지시"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "109_Comment",
+        "SourceString": "UI_CAMP_STATUS_TACTICS",
+        "LocalizedString": "UI_CAMP_STATUS_TACTICS"
+      }
+    },
+    "110": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "110_Name",
+        "SourceString": "오류",
+        "LocalizedString": "오류"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "110_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_ERROR",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_ERROR"
+      }
+    },
+    "111": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "111_Name",
+        "SourceString": "참격",
+        "LocalizedString": "참격"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "111_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_SLASH",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_SLASH"
+      }
+    },
+    "112": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "112_Name",
+        "SourceString": "타격",
+        "LocalizedString": "타격"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "112_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_STRIKE",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_STRIKE"
+      }
+    },
+    "113": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "113_Name",
+        "SourceString": "관통",
+        "LocalizedString": "관통"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "113_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_PIERCE",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_PIERCE"
+      }
+    },
+    "114": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "114_Name",
+        "SourceString": "화염",
+        "LocalizedString": "화염"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "114_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_FLAME",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_FLAME"
+      }
+    },
+    "115": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "115_Name",
+        "SourceString": "빙결",
+        "LocalizedString": "빙결"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "115_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_FREEZE",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_FREEZE"
+      }
+    },
+    "116": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "116_Name",
+        "SourceString": "질풍",
+        "LocalizedString": "질풍"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "116_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_GALE",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_GALE"
+      }
+    },
+    "117": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "117_Name",
+        "SourceString": "전격",
+        "LocalizedString": "전격"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "117_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_ELECTRIC",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_ELECTRIC"
+      }
+    },
+    "118": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "118_Name",
+        "SourceString": "빛",
+        "LocalizedString": "빛"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "118_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_LIGHT",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_LIGHT"
+      }
+    },
+    "119": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "119_Name",
+        "SourceString": "어둠",
+        "LocalizedString": "어둠"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "119_Comment",
+        "SourceString": "UI_CAMP_STATUS_ATK_DARK",
+        "LocalizedString": "UI_CAMP_STATUS_ATK_DARK"
+      }
+    },
+    "120": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "120_Name",
+        "SourceString": "팔 물건이 아무것도 없습니다",
+        "LocalizedString": "팔 물건이 아무것도 없습니다"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "120_Comment",
+        "SourceString": "UI_FACILITY_NOTHING_SELL_ITEM",
+        "LocalizedString": "UI_FACILITY_NOTHING_SELL_ITEM"
+      }
+    },
+    "121": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "121_Name",
+        "SourceString": "환금 아이템을 전부 판다",
+        "LocalizedString": "환금 아이템을 전부 판다"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "121_Comment",
+        "SourceString": "UI_FACILITY_SELL_ALL_CASH_ITEM",
+        "LocalizedString": "UI_FACILITY_SELL_ALL_CASH_ITEM"
+      }
+    },
+    "122": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "122_Name",
+        "SourceString": "모두의 작전을 변경",
+        "LocalizedString": "모두의 작전을 변경"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "122_Comment",
+        "SourceString": "UI_CAMP_TACTICS_ALL_CHANGE",
+        "LocalizedString": "UI_CAMP_TACTICS_ALL_CHANGE"
+      }
+    },
+    "123": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "123_Name",
+        "SourceString": "환금 아이템",
+        "LocalizedString": "환금 아이템"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "123_Comment",
+        "SourceString": "UI_FACILITY_CATEGORY_MATERIAL",
+        "LocalizedString": "UI_FACILITY_CATEGORY_MATERIAL"
+      }
+    },
+    "124": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "124_Name",
+        "SourceString": "무기",
+        "LocalizedString": "무기"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "124_Comment",
+        "SourceString": "UI_FACILITY_CATEGORY_WEAPON",
+        "LocalizedString": "UI_FACILITY_CATEGORY_WEAPON"
+      }
+    },
+    "125": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "125_Name",
+        "SourceString": "몸통 방어구",
+        "LocalizedString": "몸통 방어구"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "125_Comment",
+        "SourceString": "UI_FACILITY_CATEGORY_ARMOR",
+        "LocalizedString": "UI_FACILITY_CATEGORY_ARMOR"
+      }
+    },
+    "126": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "126_Name",
+        "SourceString": "다리 방어구",
+        "LocalizedString": "다리 방어구"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "126_Comment",
+        "SourceString": "UI_FACILITY_CATEGORY_SHOES",
+        "LocalizedString": "UI_FACILITY_CATEGORY_SHOES"
+      }
+    },
+    "127": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "127_Name",
+        "SourceString": "액세서리",
+        "LocalizedString": "액세서리"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "127_Comment",
+        "SourceString": "UI_FACILITY_CATEGORY_ACCESSORIES",
+        "LocalizedString": "UI_FACILITY_CATEGORY_ACCESSORIES"
+      }
+    },
+    "128": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "128_Name",
+        "SourceString": "소모품",
+        "LocalizedString": "소모품"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "128_Comment",
+        "SourceString": "UI_FACILITY_CATEGORY_COMMON_ITEM",
+        "LocalizedString": "UI_FACILITY_CATEGORY_COMMON_ITEM"
+      }
+    },
+    "129": {
+      "Name": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "129_Name",
+        "SourceString": "입구",
+        "LocalizedString": "입구"
+      },
+      "Comment": {
+        "Namespace": "DT_UIUseTextName",
+        "Key": "129_Comment",
+        "SourceString": "UI_DUNGEONTRANSFER_ENTRANCE",
+        "LocalizedString": "UI_DUNGEONTRANSFER_ENTRANCE"
+      }
+    }
+  }
+}

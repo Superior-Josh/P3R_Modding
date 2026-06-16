@@ -1,0 +1,25 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_VeveMessage_Name",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'VeveMessage'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "1": {
+      "Message": "またね"
+    },
+    "2": {
+      "Message": "アバヨ"
+    },
+    "3": {
+      "Message": "これにて御免"
+    },
+    "4": {
+      "Message": "アイルビーバック"
+    }
+  }
+}

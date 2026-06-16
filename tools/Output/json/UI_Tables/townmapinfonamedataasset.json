@@ -1,0 +1,224 @@
+{
+  "Type": "TownMapInfoNameDataAsset",
+  "Name": "TownMapInfoNameDataAsset",
+  "Class": "UScriptClass'TownMapInfoNameDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "TextLabel": "SCHOOL_1",
+        "Text": "매점",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_2",
+        "Text": "강당",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_3",
+        "Text": "운동장",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_4",
+        "Text": "천문대",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_5",
+        "Text": "체육관",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_6",
+        "Text": "음악실",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_7",
+        "Text": "화학 실험실",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_8",
+        "Text": "가정과실",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_9",
+        "Text": "학생회실",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_10",
+        "Text": "교무실",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_11",
+        "Text": "도서실",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_12",
+        "Text": "양호실",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SCHOOL_13",
+        "Text": "미술실",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "IWATODAI_1",
+        "Text": "헌책방 책벌레",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "IWATODAI_2",
+        "Text": "화과자점 아즈키아라이",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "IWATODAI_3",
+        "Text": "소고기 덮밥집 우미우시",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "IWATODAI_4",
+        "Text": "타코야키 옥토퍼시",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "IWATODAI_5",
+        "Text": "정식 식당 와카츠",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "IWATODAI_6",
+        "Text": "나베시마 라멘 하가쿠레",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "IWATODAI_7",
+        "Text": "카페 만화의 별",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "IWATODAI_8",
+        "Text": "와일덕 버거",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SHRINE_1",
+        "Text": "신목",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SHRINE_2",
+        "Text": "손 씻는 곳",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SHRINE_3",
+        "Text": "사당",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SHRINE_4",
+        "Text": "나가나키 신사 배전",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "SHRINE_5",
+        "Text": "인연의 운세 뽑기",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "MALL_1",
+        "Text": "푸른 수염 약국",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "MALL_2",
+        "Text": "고미술점 마요이당",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "MALL_3",
+        "Text": "Be blue V",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "MALL_4",
+        "Text": "케네스 아놀드",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "MALL_5",
+        "Text": "카페 샤갈",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "MALL_6",
+        "Text": "노래방 만드라고라",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "MALL_7",
+        "Text": "게임 퍼레이드",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "MALL_8",
+        "Text": "클럽 에스카페이드",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "MALL_9",
+        "Text": "타츠미 동쪽 파출소",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "PORTISLAND_1",
+        "Text": "라플레시아",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "PORTISLAND_2",
+        "Text": "Que sera sera",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "PORTISLAND_3",
+        "Text": "영화관 스크린샷",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "PORTISLAND_4",
+        "Text": "마작장 붉은 매",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "NONE",
+        "Text": "NONE",
+        "Comment": ""
+      },
+      {
+        "TextLabel": "___1",
+        "Text": "블랭크1",
+        "Comment": "余白"
+      },
+      {
+        "TextLabel": "___2",
+        "Text": "블랭크2",
+        "Comment": "余白"
+      },
+      {
+        "TextLabel": "___3",
+        "Text": "블랭크3",
+        "Comment": "余白"
+      }
+    ]
+  }
+}

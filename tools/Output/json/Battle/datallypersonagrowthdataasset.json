@@ -1,0 +1,298 @@
+{
+  "Type": "DatAllyPersonaGrowthTable",
+  "Name": "DatAllyPersonaGrowthDataAsset",
+  "Class": "UScriptClass'DatAllyPersonaGrowthTable'",
+  "Properties": {
+    "Data": [
+      {
+        "playerId": 0,
+        "levelMax": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 0,
+          "MAT": 0,
+          "DEF": 0,
+          "SPD": 0,
+          "LUK": 0
+        },
+        "exp": 0
+      },
+      {
+        "playerId": 2,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 0,
+          "MAT": 1,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 2,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 0,
+          "MAT": 1,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 3,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 1,
+          "MAT": 0,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 3,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 1,
+          "MAT": 0,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 4,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 1,
+          "MAT": 1,
+          "DEF": 0,
+          "SPD": 0,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 4,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 1,
+          "MAT": 1,
+          "DEF": 0,
+          "SPD": 0,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 5,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 1,
+          "MAT": 0,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 5,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 1,
+          "MAT": 0,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 6,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 0,
+          "MAT": 1,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 1
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 6,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 0,
+          "MAT": 1,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 1
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 7,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 1,
+          "MAT": 0,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 7,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 1,
+          "MAT": 0,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 8,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 0,
+          "MAT": 1,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 8,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 0,
+          "MAT": 1,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 10,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 1,
+          "MAT": 0,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      },
+      {
+        "playerId": 9,
+        "levelMax": 99,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        },
+        "paramsUp": {
+          "ATK": 0,
+          "MAT": 1,
+          "DEF": 0,
+          "SPD": 1,
+          "LUK": 0
+        },
+        "exp": 1358429
+      }
+    ]
+  }
+}

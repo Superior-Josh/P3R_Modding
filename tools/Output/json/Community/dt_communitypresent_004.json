@@ -1,0 +1,139 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_CommunityPresent_004",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'CommunityPresentRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "バラの花束": {
+      "ItemID": "IT_COM_GIFT_01__",
+      "AddCommunityPoint": 0,
+      "ReactionMessageLabel": "MSG_110_0_0",
+      "HeroMessageLabel": "MND_104_0_0",
+      "ChristmasReactionMessageLabel": "MSG_110_1_0"
+    },
+    "赤松の盆栽": {
+      "ItemID": "IT_COM_GIFT_02__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    },
+    "ミニサボテン": {
+      "ItemID": "IT_COM_GIFT_03__",
+      "AddCommunityPoint": 0,
+      "ReactionMessageLabel": "MSG_110_0_0",
+      "HeroMessageLabel": "MND_104_0_0",
+      "ChristmasReactionMessageLabel": "MSG_110_1_0"
+    },
+    "ガラスの一輪挿し": {
+      "ItemID": "IT_COM_GIFT_04__",
+      "AddCommunityPoint": 0,
+      "ReactionMessageLabel": "MSG_110_0_0",
+      "HeroMessageLabel": "MND_104_0_0",
+      "ChristmasReactionMessageLabel": "MSG_110_1_0"
+    },
+    "香水": {
+      "ItemID": "IT_COM_GIFT_05__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    },
+    "ブランド物の財布": {
+      "ItemID": "IT_COM_GIFT_06__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    },
+    "ブランド物の時計": {
+      "ItemID": "IT_COM_GIFT_07__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    },
+    "ブランド物のバッグ": {
+      "ItemID": "IT_COM_GIFT_08__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    },
+    "テディベア": {
+      "ItemID": "IT_COM_GIFT_09__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    },
+    "日本人形": {
+      "ItemID": "IT_COM_GIFT_10__",
+      "AddCommunityPoint": 50,
+      "ReactionMessageLabel": "MSG_112_0_0",
+      "HeroMessageLabel": "MND_106_0_0",
+      "ChristmasReactionMessageLabel": "MSG_112_1_0"
+    },
+    "カレイドスコープ": {
+      "ItemID": "IT_COM_GIFT_11__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    },
+    "遮光器土偶": {
+      "ItemID": "IT_COM_GIFT_12__",
+      "AddCommunityPoint": 50,
+      "ReactionMessageLabel": "MSG_112_0_0",
+      "HeroMessageLabel": "MND_106_0_0",
+      "ChristmasReactionMessageLabel": "MSG_112_1_0"
+    },
+    "フロスト人形": {
+      "ItemID": "IT_COM_GIFT_14__",
+      "AddCommunityPoint": 0,
+      "ReactionMessageLabel": "MSG_110_0_0",
+      "HeroMessageLabel": "MND_104_0_0",
+      "ChristmasReactionMessageLabel": "MSG_110_1_0"
+    },
+    "ガネーシャ貯金箱": {
+      "ItemID": "IT_COM_GIFT_13__",
+      "AddCommunityPoint": 0,
+      "ReactionMessageLabel": "MSG_110_0_0",
+      "HeroMessageLabel": "MND_104_0_0",
+      "ChristmasReactionMessageLabel": "MSG_110_1_0"
+    },
+    "ブックカバー": {
+      "ItemID": "IT_COM_GIFT_15__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    },
+    "大吉のお守り": {
+      "ItemID": "IT_COM_GIFT_16__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    },
+    "超合金ロボ": {
+      "ItemID": "IT_COM_GIFT_26__",
+      "AddCommunityPoint": 0,
+      "ReactionMessageLabel": "MSG_110_0_0",
+      "HeroMessageLabel": "MND_104_0_0",
+      "ChristmasReactionMessageLabel": "MSG_110_1_0"
+    },
+    "年代物の薬研": {
+      "ItemID": "IT_COM_GIFT_27__",
+      "AddCommunityPoint": 10,
+      "ReactionMessageLabel": "MSG_111_0_0",
+      "HeroMessageLabel": "MND_105_0_0",
+      "ChristmasReactionMessageLabel": "MSG_111_1_0"
+    }
+  }
+}

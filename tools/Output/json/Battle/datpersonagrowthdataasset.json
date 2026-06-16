@@ -1,0 +1,3721 @@
+{
+  "Type": "DatPersonaGrowthTable",
+  "Name": "DatPersonaGrowthDataAsset",
+  "Class": "UScriptClass'DatPersonaGrowthTable'",
+  "Properties": {
+    "Data": [
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 20,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 15,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 20,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 13,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 20,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 26,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 13,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 20,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 20,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 20,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 15,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 34,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 13,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 20,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 18,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 17,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 20,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 25,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 14,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 16,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      },
+      {
+        "paramsUp": 0,
+        "skillEvent": {
+          "level": 0,
+          "eventId": 0,
+          "skillId": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_ChristmasEvent_Mail",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'ChristmasEventMailRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "00ブランク": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "01愚者": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "02魔術師": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "03女教皇": {
+      "MailID": 30,
+      "Rank": 9,
+      "Flag": "CMM_02POPESS___KOIBITO"
+    },
+    "04女帝": {
+      "MailID": 46,
+      "Rank": 9,
+      "Flag": "CMM_03EMPRESS__KOIBITO"
+    },
+    "05皇帝": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "06法王": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "07恋愛": {
+      "MailID": 94,
+      "Rank": 9,
+      "Flag": "CMM_06LOVERS___KOIBITO"
+    },
+    "08戦車": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "09正義": {
+      "MailID": 126,
+      "Rank": 10,
+      "Flag": "CMM_08JUSTICE__KOIBITO"
+    },
+    "10隠者": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "11運命": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "12剛毅": {
+      "MailID": 174,
+      "Rank": 10,
+      "Flag": "CMM_11STRENGTH_KOIBITO"
+    },
+    "13刑死者": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "14死神": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "15節制": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "16悪魔": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "17塔": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "18星": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "19月": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "20太陽": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "21審判": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "22永劫": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "23その他": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    },
+    "24世界": {
+      "MailID": -1,
+      "Rank": -1,
+      "Flag": "FLG_NULL"
+    }
+  }
+}

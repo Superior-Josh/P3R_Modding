@@ -1,0 +1,53 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_HolidayEvent_008",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'HolidayEventRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "1": {
+      "Major": 105,
+      "Minor": 320
+    },
+    "2": {
+      "Major": 105,
+      "Minor": 320
+    },
+    "3": {
+      "Major": 105,
+      "Minor": 330
+    },
+    "4": {
+      "Major": 105,
+      "Minor": 340
+    },
+    "5": {
+      "Major": 105,
+      "Minor": 350
+    },
+    "6": {
+      "Major": 105,
+      "Minor": 360
+    },
+    "7": {
+      "Major": 105,
+      "Minor": 370
+    },
+    "8": {
+      "Major": 105,
+      "Minor": 380
+    },
+    "9": {
+      "Major": 105,
+      "Minor": 390
+    },
+    "10": {
+      "Major": 105,
+      "Minor": 390
+    }
+  }
+}

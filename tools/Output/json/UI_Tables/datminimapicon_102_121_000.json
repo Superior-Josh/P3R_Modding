@@ -1,0 +1,49 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_102_121_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "パソコン",
+        "SprType": 0,
+        "SprNo": 35,
+        "X": -13.0,
+        "Y": 9.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "テレビ",
+        "SprType": 0,
+        "SprNo": 34,
+        "X": -10.0,
+        "Y": -20.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "ベッド",
+        "SprType": 0,
+        "SprNo": 46,
+        "X": 6.0,
+        "Y": -13.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "カレンダー",
+        "SprType": 0,
+        "SprNo": 47,
+        "X": 20.0,
+        "Y": -3.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

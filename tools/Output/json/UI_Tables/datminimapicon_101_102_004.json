@@ -1,0 +1,139 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_101_102_004",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "上り階段",
+        "SprType": 0,
+        "SprNo": 44,
+        "X": 118.0,
+        "Y": -65.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "UP",
+        "SprType": 1,
+        "SprNo": 11,
+        "X": 112.0,
+        "Y": -70.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "矢印",
+        "SprType": 0,
+        "SprNo": 0,
+        "X": 400.0,
+        "Y": -63.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "上り階段",
+        "SprType": 0,
+        "SprNo": 44,
+        "X": 445.0,
+        "Y": -40.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "UP",
+        "SprType": 1,
+        "SprNo": 11,
+        "X": 459.0,
+        "Y": 59.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "購買部",
+        "SprType": 0,
+        "SprNo": 11,
+        "X": -55.0,
+        "Y": -17.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "職員室",
+        "SprType": 0,
+        "SprNo": 12,
+        "X": -116.0,
+        "Y": 76.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "保健室",
+        "SprType": 0,
+        "SprNo": 14,
+        "X": -190.0,
+        "Y": 76.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "図書室",
+        "SprType": 0,
+        "SprNo": 13,
+        "X": -180.0,
+        "Y": -22.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "男子トイレ",
+        "SprType": 0,
+        "SprNo": 20,
+        "X": -100.0,
+        "Y": -18.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "男子トイレ",
+        "SprType": 0,
+        "SprNo": 20,
+        "X": 217.0,
+        "Y": 76.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "家庭科室",
+        "SprType": 0,
+        "SprNo": 16,
+        "X": 111.0,
+        "Y": -22.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "美術室",
+        "SprType": 0,
+        "SprNo": 17,
+        "X": 324.0,
+        "Y": 76.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

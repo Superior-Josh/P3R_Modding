@@ -1,0 +1,97 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_Tutorial_SYSTEM_Name",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'DatNameTable'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "1": {
+      "Name": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "1_Name",
+        "SourceString": "튜토리얼 확인 방법",
+        "LocalizedString": "튜토리얼 확인 방법"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "1_Comment",
+        "SourceString": "チュートリアル",
+        "LocalizedString": "チュートリアル"
+      }
+    },
+    "2": {
+      "Name": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "2_Name",
+        "SourceString": "지금까지의 내용을 저장한다",
+        "LocalizedString": "지금까지의 내용을 저장한다"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "2_Comment",
+        "SourceString": "セーブ",
+        "LocalizedString": "セーブ"
+      }
+    },
+    "3": {
+      "Name": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "3_Name",
+        "SourceString": "조금 전으로 되돌린다",
+        "LocalizedString": "조금 전으로 되돌린다"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "3_Comment",
+        "SourceString": "ロールバック",
+        "LocalizedString": "ロールバック"
+      }
+    },
+    "4": {
+      "Name": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "4_Name",
+        "SourceString": "용어 확인 방법",
+        "LocalizedString": "용어 확인 방법"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "4_Comment",
+        "SourceString": "用語辞典",
+        "LocalizedString": "用語辞典"
+      }
+    },
+    "5": {
+      "Name": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "5_Name",
+        "SourceString": "메뉴를 활용한다",
+        "LocalizedString": "메뉴를 활용한다"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "5_Comment",
+        "SourceString": "メニュー",
+        "LocalizedString": "メニュー"
+      }
+    },
+    "6": {
+      "Name": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "6_Name",
+        "SourceString": "저장 데이터를 업로드한다",
+        "LocalizedString": "저장 데이터를 업로드한다"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_SYSTEM_Name",
+        "Key": "6_Comment",
+        "SourceString": "ネットワークセーブ",
+        "LocalizedString": "ネットワークセーブ"
+      }
+    }
+  }
+}

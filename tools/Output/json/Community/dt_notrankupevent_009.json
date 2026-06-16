@@ -1,0 +1,79 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_NotRankUpEvent_009",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'NotRankUpEventRow'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "NotRankUpEvent_00": {
+      "Rank": 0,
+      "Major": 0,
+      "Minor": 0,
+      "Comment": "Brank"
+    },
+    "NotRankUpEvent_01": {
+      "Rank": 1,
+      "Major": 109,
+      "Minor": 510,
+      "Comment": "汎用イベント_1"
+    },
+    "NotRankUpEvent_02": {
+      "Rank": 2,
+      "Major": 109,
+      "Minor": 510,
+      "Comment": "汎用イベント_2"
+    },
+    "NotRankUpEvent_03": {
+      "Rank": 3,
+      "Major": 109,
+      "Minor": 510,
+      "Comment": "汎用イベント_3"
+    },
+    "NotRankUpEvent_04": {
+      "Rank": 4,
+      "Major": 109,
+      "Minor": 510,
+      "Comment": "汎用イベント_4"
+    },
+    "NotRankUpEvent_05": {
+      "Rank": 5,
+      "Major": 109,
+      "Minor": 510,
+      "Comment": "汎用イベント_5"
+    },
+    "NotRankUpEvent_06": {
+      "Rank": 6,
+      "Major": 109,
+      "Minor": 510,
+      "Comment": "汎用イベント_6"
+    },
+    "NotRankUpEvent_07": {
+      "Rank": 7,
+      "Major": 109,
+      "Minor": 510,
+      "Comment": "汎用イベント_7"
+    },
+    "NotRankUpEvent_08": {
+      "Rank": 8,
+      "Major": 109,
+      "Minor": 510,
+      "Comment": "汎用イベント_8"
+    },
+    "NotRankUpEvent_09": {
+      "Rank": 9,
+      "Major": 109,
+      "Minor": 510,
+      "Comment": "汎用イベント_9"
+    },
+    "NotRankUpEvent_10": {
+      "Rank": 10,
+      "Major": 109,
+      "Minor": 520,
+      "Comment": "汎用イベント_10"
+    }
+  }
+}

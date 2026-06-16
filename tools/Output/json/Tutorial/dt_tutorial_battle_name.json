@@ -1,0 +1,699 @@
+{
+  "Type": "DataTable",
+  "Name": "DT_Tutorial_BATTLE_Name",
+  "Class": "UScriptClass'DataTable'",
+  "Properties": {
+    "RowStruct": {
+      "ObjectName": "Class'DatNameTable'",
+      "ObjectPath": "/Script/xrd777"
+    }
+  },
+  "Rows": {
+    "0": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "0_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "0_Comment",
+        "SourceString": "未使用",
+        "LocalizedString": "未使用"
+      }
+    },
+    "1": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "1_Name",
+        "SourceString": "어택과 스킬",
+        "LocalizedString": "어택과 스킬"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "1_Comment",
+        "SourceString": "アタックとスキル",
+        "LocalizedString": "アタックとスキル"
+      }
+    },
+    "2": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "2_Name",
+        "SourceString": "약점과 1MORE",
+        "LocalizedString": "약점과 1MORE"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "2_Comment",
+        "SourceString": "弱点と１MORE",
+        "LocalizedString": "弱点と１MORE"
+      }
+    },
+    "3": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "3_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "3_Comment",
+        "SourceString": "属性の相性について",
+        "LocalizedString": "属性の相性について"
+      }
+    },
+    "4": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "4_Name",
+        "SourceString": "총공격",
+        "LocalizedString": "총공격"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "4_Comment",
+        "SourceString": "総攻撃",
+        "LocalizedString": "総攻撃"
+      }
+    },
+    "5": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "5_Name",
+        "SourceString": "페르소나 체인지",
+        "LocalizedString": "페르소나 체인지"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "5_Comment",
+        "SourceString": "ペルソナチェンジ",
+        "LocalizedString": "ペルソナチェンジ"
+      }
+    },
+    "6": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "6_Name",
+        "SourceString": "애널라이즈",
+        "LocalizedString": "애널라이즈"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "6_Comment",
+        "SourceString": "アナライズ",
+        "LocalizedString": "アナライズ"
+      }
+    },
+    "7": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "7_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "7_Comment",
+        "SourceString": "先制について",
+        "LocalizedString": "先制について"
+      }
+    },
+    "8": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "8_Name",
+        "SourceString": "셔플 타임",
+        "LocalizedString": "셔플 타임"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "8_Comment",
+        "SourceString": "シャッフルタイム",
+        "LocalizedString": "シャッフルタイム"
+      }
+    },
+    "9": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "9_Name",
+        "SourceString": "메이저 아르카나 카드",
+        "LocalizedString": "메이저 아르카나 카드"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "9_Comment",
+        "SourceString": "大アルカナカード",
+        "LocalizedString": "大アルカナカード"
+      }
+    },
+    "10": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "10_Name",
+        "SourceString": "메이저 아르카나 카드 추가",
+        "LocalizedString": "메이저 아르카나 카드 추가"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "10_Comment",
+        "SourceString": "大アルカナカードの追加",
+        "LocalizedString": "大アルカナカードの追加"
+      }
+    },
+    "11": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "11_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "11_Comment",
+        "SourceString": "スキルカード",
+        "LocalizedString": "スキルカード"
+      }
+    },
+    "12": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "12_Name",
+        "SourceString": "시프트",
+        "LocalizedString": "시프트"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "12_Comment",
+        "SourceString": "シフト",
+        "LocalizedString": "シフト"
+      }
+    },
+    "13": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "13_Name",
+        "SourceString": "러시",
+        "LocalizedString": "러시"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "13_Comment",
+        "SourceString": "ラッシュ",
+        "LocalizedString": "ラッシュ"
+      }
+    },
+    "14": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "14_Name",
+        "SourceString": "어시스트",
+        "LocalizedString": "어시스트"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "14_Comment",
+        "SourceString": "アシスト",
+        "LocalizedString": "アシスト"
+      }
+    },
+    "15": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "15_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "15_Comment",
+        "SourceString": "行動順",
+        "LocalizedString": "行動順"
+      }
+    },
+    "16": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "16_Name",
+        "SourceString": "가드",
+        "LocalizedString": "가드"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "16_Comment",
+        "SourceString": "ガード",
+        "LocalizedString": "ガード"
+      }
+    },
+    "17": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "17_Name",
+        "SourceString": "상태 이상의 종류",
+        "LocalizedString": "상태 이상의 종류"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "17_Comment",
+        "SourceString": "状態異常",
+        "LocalizedString": "状態異常"
+      }
+    },
+    "18": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "18_Name",
+        "SourceString": "도주",
+        "LocalizedString": "도주"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "18_Comment",
+        "SourceString": "逃走",
+        "LocalizedString": "逃走"
+      }
+    },
+    "19": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "19_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "19_Comment",
+        "SourceString": "気絶",
+        "LocalizedString": "気絶"
+      }
+    },
+    "20": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "20_Name",
+        "SourceString": "크리티컬",
+        "LocalizedString": "크리티컬"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "20_Comment",
+        "SourceString": "クリティカルを発生させるコツ",
+        "LocalizedString": "クリティカルを発生させるコツ"
+      }
+    },
+    "21": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "21_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "21_Comment",
+        "SourceString": "補助スキルの活用",
+        "LocalizedString": "補助スキルの活用"
+      }
+    },
+    "22": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "22_Name",
+        "SourceString": "하이 애널라이즈",
+        "LocalizedString": "하이 애널라이즈"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "22_Comment",
+        "SourceString": "ハイ・アナライズ",
+        "LocalizedString": "ハイ・アナライズ"
+      }
+    },
+    "23": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "23_Name",
+        "SourceString": "테우르기아 발동",
+        "LocalizedString": "테우르기아 발동"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "23_Comment",
+        "SourceString": "テウルギアの発動",
+        "LocalizedString": "テウルギアの発動"
+      }
+    },
+    "24": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "24_Name",
+        "SourceString": "테우르기아 게이지",
+        "LocalizedString": "테우르기아 게이지"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "24_Comment",
+        "SourceString": "テウルギアゲージ",
+        "LocalizedString": "テウルギアゲージ"
+      }
+    },
+    "25": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "25_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "25_Comment",
+        "SourceString": "特性",
+        "LocalizedString": "特性"
+      }
+    },
+    "26": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "26_Name",
+        "SourceString": "믹스 레이드",
+        "LocalizedString": "믹스 레이드"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "26_Comment",
+        "SourceString": "主人公のテウルギア",
+        "LocalizedString": "主人公のテウルギア"
+      }
+    },
+    "27": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "27_Name",
+        "SourceString": "미사용",
+        "LocalizedString": "미사용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "27_Comment",
+        "SourceString": "主人公の特性",
+        "LocalizedString": "主人公の特性"
+      }
+    },
+    "28": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "28_Name",
+        "SourceString": "오라클",
+        "LocalizedString": "오라클"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "28_Comment",
+        "SourceString": "風花のテウルギア",
+        "LocalizedString": "風花のテウルギア"
+      }
+    },
+    "29": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "29_Name",
+        "SourceString": "오르기아 모드",
+        "LocalizedString": "오르기아 모드"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "29_Comment",
+        "SourceString": "オルギアモード",
+        "LocalizedString": "オルギアモード"
+      }
+    },
+    "30": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "30_Name",
+        "SourceString": "전투 중 재도전",
+        "LocalizedString": "전투 중 재도전"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "30_Comment",
+        "SourceString": "難易度PEACEFULのリトライ",
+        "LocalizedString": "難易度PEACEFULのリトライ"
+      }
+    },
+    "31": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "31_Name",
+        "SourceString": "소지 중인 페르소나 카드",
+        "LocalizedString": "소지 중인 페르소나 카드"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "31_Comment",
+        "SourceString": "所持済みのペルソナカード",
+        "LocalizedString": "所持済みのペルソナカード"
+      }
+    },
+    "32": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "32_Name",
+        "SourceString": "작전 지시",
+        "LocalizedString": "작전 지시"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "32_Comment",
+        "SourceString": "作戦指示",
+        "LocalizedString": "作戦指示"
+      }
+    },
+    "33": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "33_Name",
+        "SourceString": "아르카나 버스트",
+        "LocalizedString": "아르카나 버스트"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "33_Comment",
+        "SourceString": "アルカナバースト",
+        "LocalizedString": "アルカナバースト"
+      }
+    },
+    "34": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "34_Name",
+        "SourceString": "메이저 아르카나의 효과 1",
+        "LocalizedString": "메이저 아르카나의 효과 1"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "34_Comment",
+        "SourceString": "大アルカナの効果１_初期",
+        "LocalizedString": "大アルカナの効果１_初期"
+      }
+    },
+    "35": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "35_Name",
+        "SourceString": "메이저 아르카나의 효과 1",
+        "LocalizedString": "메이저 아르카나의 효과 1"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "35_Comment",
+        "SourceString": "大アルカナの効果１_女教皇まで",
+        "LocalizedString": "大アルカナの効果１_女教皇まで"
+      }
+    },
+    "36": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "36_Name",
+        "SourceString": "메이저 아르카나의 효과 1",
+        "LocalizedString": "메이저 아르카나의 효과 1"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "36_Comment",
+        "SourceString": "大アルカナの効果１_皇帝まで",
+        "LocalizedString": "大アルカナの効果１_皇帝まで"
+      }
+    },
+    "37": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "37_Name",
+        "SourceString": "메이저 아르카나의 효과 1",
+        "LocalizedString": "메이저 아르카나의 효과 1"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "37_Comment",
+        "SourceString": "大アルカナの効果１_恋愛まで",
+        "LocalizedString": "大アルカナの効果１_恋愛まで"
+      }
+    },
+    "38": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "38_Name",
+        "SourceString": "메이저 아르카나의 효과 1",
+        "LocalizedString": "메이저 아르카나의 효과 1"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "38_Comment",
+        "SourceString": "大アルカナの効果１_正義まで",
+        "LocalizedString": "大アルカナの効果１_正義まで"
+      }
+    },
+    "39": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "39_Name",
+        "SourceString": "메이저 아르카나의 효과 1",
+        "LocalizedString": "메이저 아르카나의 효과 1"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "39_Comment",
+        "SourceString": "大アルカナの効果１_隠者まで",
+        "LocalizedString": "大アルカナの効果１_隠者まで"
+      }
+    },
+    "40": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "40_Name",
+        "SourceString": "메이저 아르카나의 효과 1",
+        "LocalizedString": "메이저 아르카나의 효과 1"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "40_Comment",
+        "SourceString": "大アルカナの効果１_剛毅まで",
+        "LocalizedString": "大アルカナの効果１_剛毅まで"
+      }
+    },
+    "41": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "41_Name",
+        "SourceString": "메이저 아르카나의 효과 1",
+        "LocalizedString": "메이저 아르카나의 효과 1"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "41_Comment",
+        "SourceString": "大アルカナの効果１_刑死者まで",
+        "LocalizedString": "大アルカナの効果１_刑死者まで"
+      }
+    },
+    "42": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "42_Name",
+        "SourceString": "메이저 아르카나의 효과 2",
+        "LocalizedString": "메이저 아르카나의 효과 2"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "42_Comment",
+        "SourceString": "大アルカナの効果２_節制",
+        "LocalizedString": "大アルカナの効果２_節制"
+      }
+    },
+    "43": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "43_Name",
+        "SourceString": "메이저 아르카나의 효과 2",
+        "LocalizedString": "메이저 아르카나의 효과 2"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "43_Comment",
+        "SourceString": "大アルカナの効果２_悪魔まで",
+        "LocalizedString": "大アルカナの効果２_悪魔まで"
+      }
+    },
+    "44": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "44_Name",
+        "SourceString": "메이저 아르카나의 효과 2",
+        "LocalizedString": "메이저 아르카나의 효과 2"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "44_Comment",
+        "SourceString": "大アルカナの効果２_塔まで",
+        "LocalizedString": "大アルカナの効果２_塔まで"
+      }
+    },
+    "45": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "45_Name",
+        "SourceString": "메이저 아르카나의 효과 2",
+        "LocalizedString": "메이저 아르카나의 효과 2"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "45_Comment",
+        "SourceString": "大アルカナの効果２_星まで",
+        "LocalizedString": "大アルカナの効果２_星まで"
+      }
+    },
+    "46": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "46_Name",
+        "SourceString": "메이저 아르카나의 효과 2",
+        "LocalizedString": "메이저 아르카나의 효과 2"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "46_Comment",
+        "SourceString": "大アルカナの効果２_月まで",
+        "LocalizedString": "大アルカナの効果２_月まで"
+      }
+    },
+    "47": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "47_Name",
+        "SourceString": "메이저 아르카나의 효과 2",
+        "LocalizedString": "메이저 아르카나의 효과 2"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "47_Comment",
+        "SourceString": "大アルカナの効果２_審判まで",
+        "LocalizedString": "大アルカナの効果２_審判まで"
+      }
+    },
+    "48": {
+      "Name": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "48_Name",
+        "SourceString": "테스트용",
+        "LocalizedString": "테스트용"
+      },
+      "Comment": {
+        "Namespace": "DT_Tutorial_BATTLE_Name",
+        "Key": "48_Comment",
+        "SourceString": "テスト用",
+        "LocalizedString": "テスト用"
+      }
+    }
+  }
+}

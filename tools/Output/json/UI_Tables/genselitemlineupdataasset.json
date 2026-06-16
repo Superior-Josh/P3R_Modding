@@ -1,0 +1,1400 @@
+{
+  "Type": "GenSelItemLineupDataAsset",
+  "Name": "GenSelItemLineupDataAsset",
+  "Class": "UScriptClass'GenSelItemLineupDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "Data": []
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16499,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16500,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16501,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16502,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16503,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16504,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16505,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16506,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16507,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16508,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16509,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16510,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16511,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16512,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16513,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16514,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16524,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16525,
+            "VisibleFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16657,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16658,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16659,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16660,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16661,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16662,
+            "VisibleFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 28761,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28751,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28758,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28763,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28752,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28753,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28762,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28756,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28754,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28757,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28773,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28741,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28745,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28742,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28747,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28749,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28744,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28764,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28746,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28748,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28766,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28768,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28769,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28775,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28777,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28776,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28772,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28770,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28771,
+            "VisibleFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 28673,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28674,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28675,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28676,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28677,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28678,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28686,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28687,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28688,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28689,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28690,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28691,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28692,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28693,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28694,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28695,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28696,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28697,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28680,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28681,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28682,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28683,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28684,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28685,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28708,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28709,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28710,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28711,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28701,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28702,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28703,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28704,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28705,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28706,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28707,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28719,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28720,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28721,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28722,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28712,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28713,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28714,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28715,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28716,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28717,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28718,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28698,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28699,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28700,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28736,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28739,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28740,
+            "VisibleFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 28734,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28735,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28723,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28724,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28725,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28726,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28727,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28728,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28729,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28730,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28732,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28733,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28731,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28737,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28738,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28778,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28779,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28780,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28781,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28782,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28783,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28784,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28785,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28786,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28789,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28790,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28792,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28793,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28794,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28795,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28823,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28803,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28807,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28805,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28804,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28808,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28806,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28809,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28796,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28800,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28798,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28797,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28801,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28799,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28810,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28813,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28802,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28811,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28812,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28816,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28817,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28814,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28815,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28818,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28819,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28821,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28820,
+            "VisibleFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 28961,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28826,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28827,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28828,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28829,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28830,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28831,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28832,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28833,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28834,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28835,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28836,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28837,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28838,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28839,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28840,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28841,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28842,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28843,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28844,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28845,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28846,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28847,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28848,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28849,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28850,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28851,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28852,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28853,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28854,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28855,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28856,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28911,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28857,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28858,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28859,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28912,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28874,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28875,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28860,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28861,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28862,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28863,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28864,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28865,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28866,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28867,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28868,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28869,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28870,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28871,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28872,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28873,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28963,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28876,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28965,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28966,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28877,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28878,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28879,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28880,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28881,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28882,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28883,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28884,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28885,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28886,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28889,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28890,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28887,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28888,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28985,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28986,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28987,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28988,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28967,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28892,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28933,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28934,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28942,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28943,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28956,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28957,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28972,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28940,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28941,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28893,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28894,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28895,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28896,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28897,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28898,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28899,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28900,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28901,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28902,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28903,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28904,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28905,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28906,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28907,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28908,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28909,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28910,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28989,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28980,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28981,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28983,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28984,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28953,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28954,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28955,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28969,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28970,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28932,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28931,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28927,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28928,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28929,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28968,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28945,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28944,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28946,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28973,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28974,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28975,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28976,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28915,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28916,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28917,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28918,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28919,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28920,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28921,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28922,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28923,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28977,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28978,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28979,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28936,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28935,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28939,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28982,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28924,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28925,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28926,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 28959,
+            "VisibleFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16734,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16735,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16736,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16737,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16738,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16739,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16740,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16741,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16742,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16745,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16746,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16747,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16748,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16749,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16750,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16751,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16758,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16759,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16760,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16744,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16755,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16752,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16753,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16754,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16756,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16757,
+            "VisibleFlag": 0
+          }
+        ]
+      },
+      {
+        "Data": [
+          {
+            "ItemID": 16402,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16403,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16401,
+            "VisibleFlag": 0
+          },
+          {
+            "ItemID": 16400,
+            "VisibleFlag": 0
+          }
+        ]
+      }
+    ]
+  }
+}

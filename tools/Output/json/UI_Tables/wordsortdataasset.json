@@ -1,0 +1,793 @@
+{
+  "Type": "WordSortDataAsset",
+  "Name": "WordSortDataAsset",
+  "Class": "UScriptClass'WordSortDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "PersonaID": 0,
+        "value": 0
+      },
+      {
+        "PersonaID": 35,
+        "value": 6
+      },
+      {
+        "PersonaID": 36,
+        "value": 75
+      },
+      {
+        "PersonaID": 37,
+        "value": 5
+      },
+      {
+        "PersonaID": 38,
+        "value": 78
+      },
+      {
+        "PersonaID": 39,
+        "value": 77
+      },
+      {
+        "PersonaID": 40,
+        "value": 80
+      },
+      {
+        "PersonaID": 41,
+        "value": 74
+      },
+      {
+        "PersonaID": 42,
+        "value": 73
+      },
+      {
+        "PersonaID": 43,
+        "value": 98
+      },
+      {
+        "PersonaID": 44,
+        "value": 109
+      },
+      {
+        "PersonaID": 45,
+        "value": 108
+      },
+      {
+        "PersonaID": 46,
+        "value": 150
+      },
+      {
+        "PersonaID": 47,
+        "value": 85
+      },
+      {
+        "PersonaID": 48,
+        "value": 22
+      },
+      {
+        "PersonaID": 49,
+        "value": 57
+      },
+      {
+        "PersonaID": 50,
+        "value": 3
+      },
+      {
+        "PersonaID": 51,
+        "value": 116
+      },
+      {
+        "PersonaID": 52,
+        "value": 9
+      },
+      {
+        "PersonaID": 53,
+        "value": 90
+      },
+      {
+        "PersonaID": 54,
+        "value": 16
+      },
+      {
+        "PersonaID": 55,
+        "value": 100
+      },
+      {
+        "PersonaID": 56,
+        "value": 14
+      },
+      {
+        "PersonaID": 57,
+        "value": 7
+      },
+      {
+        "PersonaID": 58,
+        "value": 148
+      },
+      {
+        "PersonaID": 59,
+        "value": 175
+      },
+      {
+        "PersonaID": 60,
+        "value": 114
+      },
+      {
+        "PersonaID": 61,
+        "value": 149
+      },
+      {
+        "PersonaID": 62,
+        "value": 88
+      },
+      {
+        "PersonaID": 63,
+        "value": 174
+      },
+      {
+        "PersonaID": 64,
+        "value": 82
+      },
+      {
+        "PersonaID": 65,
+        "value": 83
+      },
+      {
+        "PersonaID": 66,
+        "value": 173
+      },
+      {
+        "PersonaID": 67,
+        "value": 130
+      },
+      {
+        "PersonaID": 68,
+        "value": 95
+      },
+      {
+        "PersonaID": 69,
+        "value": 142
+      },
+      {
+        "PersonaID": 70,
+        "value": 72
+      },
+      {
+        "PersonaID": 71,
+        "value": 24
+      },
+      {
+        "PersonaID": 72,
+        "value": 97
+      },
+      {
+        "PersonaID": 73,
+        "value": 99
+      },
+      {
+        "PersonaID": 74,
+        "value": 96
+      },
+      {
+        "PersonaID": 75,
+        "value": 140
+      },
+      {
+        "PersonaID": 76,
+        "value": 63
+      },
+      {
+        "PersonaID": 77,
+        "value": 48
+      },
+      {
+        "PersonaID": 78,
+        "value": 115
+      },
+      {
+        "PersonaID": 79,
+        "value": 186
+      },
+      {
+        "PersonaID": 80,
+        "value": 53
+      },
+      {
+        "PersonaID": 81,
+        "value": 104
+      },
+      {
+        "PersonaID": 82,
+        "value": 158
+      },
+      {
+        "PersonaID": 83,
+        "value": 64
+      },
+      {
+        "PersonaID": 84,
+        "value": 177
+      },
+      {
+        "PersonaID": 85,
+        "value": 12
+      },
+      {
+        "PersonaID": 86,
+        "value": 26
+      },
+      {
+        "PersonaID": 87,
+        "value": 47
+      },
+      {
+        "PersonaID": 88,
+        "value": 30
+      },
+      {
+        "PersonaID": 89,
+        "value": 169
+      },
+      {
+        "PersonaID": 90,
+        "value": 144
+      },
+      {
+        "PersonaID": 91,
+        "value": 68
+      },
+      {
+        "PersonaID": 92,
+        "value": 10
+      },
+      {
+        "PersonaID": 93,
+        "value": 171
+      },
+      {
+        "PersonaID": 94,
+        "value": 101
+      },
+      {
+        "PersonaID": 95,
+        "value": 188
+      },
+      {
+        "PersonaID": 96,
+        "value": 187
+      },
+      {
+        "PersonaID": 97,
+        "value": 54
+      },
+      {
+        "PersonaID": 98,
+        "value": 111
+      },
+      {
+        "PersonaID": 99,
+        "value": 154
+      },
+      {
+        "PersonaID": 100,
+        "value": 161
+      },
+      {
+        "PersonaID": 101,
+        "value": 168
+      },
+      {
+        "PersonaID": 102,
+        "value": 151
+      },
+      {
+        "PersonaID": 103,
+        "value": 184
+      },
+      {
+        "PersonaID": 104,
+        "value": 38
+      },
+      {
+        "PersonaID": 105,
+        "value": 89
+      },
+      {
+        "PersonaID": 106,
+        "value": 59
+      },
+      {
+        "PersonaID": 107,
+        "value": 61
+      },
+      {
+        "PersonaID": 108,
+        "value": 132
+      },
+      {
+        "PersonaID": 109,
+        "value": 131
+      },
+      {
+        "PersonaID": 110,
+        "value": 110
+      },
+      {
+        "PersonaID": 111,
+        "value": 55
+      },
+      {
+        "PersonaID": 112,
+        "value": 136
+      },
+      {
+        "PersonaID": 113,
+        "value": 138
+      },
+      {
+        "PersonaID": 114,
+        "value": 40
+      },
+      {
+        "PersonaID": 115,
+        "value": 143
+      },
+      {
+        "PersonaID": 116,
+        "value": 129
+      },
+      {
+        "PersonaID": 117,
+        "value": 137
+      },
+      {
+        "PersonaID": 118,
+        "value": 166
+      },
+      {
+        "PersonaID": 119,
+        "value": 81
+      },
+      {
+        "PersonaID": 120,
+        "value": 152
+      },
+      {
+        "PersonaID": 121,
+        "value": 185
+      },
+      {
+        "PersonaID": 122,
+        "value": 160
+      },
+      {
+        "PersonaID": 123,
+        "value": 103
+      },
+      {
+        "PersonaID": 124,
+        "value": 123
+      },
+      {
+        "PersonaID": 125,
+        "value": 8
+      },
+      {
+        "PersonaID": 126,
+        "value": 87
+      },
+      {
+        "PersonaID": 127,
+        "value": 86
+      },
+      {
+        "PersonaID": 128,
+        "value": 147
+      },
+      {
+        "PersonaID": 129,
+        "value": 146
+      },
+      {
+        "PersonaID": 130,
+        "value": 13
+      },
+      {
+        "PersonaID": 131,
+        "value": 56
+      },
+      {
+        "PersonaID": 132,
+        "value": 155
+      },
+      {
+        "PersonaID": 133,
+        "value": 133
+      },
+      {
+        "PersonaID": 134,
+        "value": 159
+      },
+      {
+        "PersonaID": 135,
+        "value": 39
+      },
+      {
+        "PersonaID": 136,
+        "value": 23
+      },
+      {
+        "PersonaID": 137,
+        "value": 52
+      },
+      {
+        "PersonaID": 138,
+        "value": 102
+      },
+      {
+        "PersonaID": 139,
+        "value": 128
+      },
+      {
+        "PersonaID": 140,
+        "value": 106
+      },
+      {
+        "PersonaID": 141,
+        "value": 27
+      },
+      {
+        "PersonaID": 142,
+        "value": 62
+      },
+      {
+        "PersonaID": 143,
+        "value": 181
+      },
+      {
+        "PersonaID": 144,
+        "value": 180
+      },
+      {
+        "PersonaID": 145,
+        "value": 65
+      },
+      {
+        "PersonaID": 146,
+        "value": 179
+      },
+      {
+        "PersonaID": 147,
+        "value": 17
+      },
+      {
+        "PersonaID": 148,
+        "value": 67
+      },
+      {
+        "PersonaID": 149,
+        "value": 112
+      },
+      {
+        "PersonaID": 150,
+        "value": 66
+      },
+      {
+        "PersonaID": 151,
+        "value": 84
+      },
+      {
+        "PersonaID": 152,
+        "value": 19
+      },
+      {
+        "PersonaID": 153,
+        "value": 141
+      },
+      {
+        "PersonaID": 154,
+        "value": 20
+      },
+      {
+        "PersonaID": 155,
+        "value": 107
+      },
+      {
+        "PersonaID": 156,
+        "value": 33
+      },
+      {
+        "PersonaID": 157,
+        "value": 120
+      },
+      {
+        "PersonaID": 158,
+        "value": 91
+      },
+      {
+        "PersonaID": 159,
+        "value": 31
+      },
+      {
+        "PersonaID": 160,
+        "value": 163
+      },
+      {
+        "PersonaID": 161,
+        "value": 50
+      },
+      {
+        "PersonaID": 162,
+        "value": 153
+      },
+      {
+        "PersonaID": 163,
+        "value": 49
+      },
+      {
+        "PersonaID": 164,
+        "value": 195
+      },
+      {
+        "PersonaID": 165,
+        "value": 164
+      },
+      {
+        "PersonaID": 166,
+        "value": 43
+      },
+      {
+        "PersonaID": 167,
+        "value": 21
+      },
+      {
+        "PersonaID": 168,
+        "value": 36
+      },
+      {
+        "PersonaID": 169,
+        "value": 51
+      },
+      {
+        "PersonaID": 170,
+        "value": 58
+      },
+      {
+        "PersonaID": 171,
+        "value": 165
+      },
+      {
+        "PersonaID": 172,
+        "value": 122
+      },
+      {
+        "PersonaID": 173,
+        "value": 32
+      },
+      {
+        "PersonaID": 174,
+        "value": 194
+      },
+      {
+        "PersonaID": 175,
+        "value": 18
+      },
+      {
+        "PersonaID": 176,
+        "value": 28
+      },
+      {
+        "PersonaID": 177,
+        "value": 170
+      },
+      {
+        "PersonaID": 178,
+        "value": 113
+      },
+      {
+        "PersonaID": 179,
+        "value": 44
+      },
+      {
+        "PersonaID": 180,
+        "value": 118
+      },
+      {
+        "PersonaID": 181,
+        "value": 117
+      },
+      {
+        "PersonaID": 182,
+        "value": 45
+      },
+      {
+        "PersonaID": 183,
+        "value": 183
+      },
+      {
+        "PersonaID": 184,
+        "value": 119
+      },
+      {
+        "PersonaID": 185,
+        "value": 182
+      },
+      {
+        "PersonaID": 186,
+        "value": 134
+      },
+      {
+        "PersonaID": 187,
+        "value": 15
+      },
+      {
+        "PersonaID": 188,
+        "value": 127
+      },
+      {
+        "PersonaID": 189,
+        "value": 29
+      },
+      {
+        "PersonaID": 190,
+        "value": 2
+      },
+      {
+        "PersonaID": 191,
+        "value": 1
+      },
+      {
+        "PersonaID": 192,
+        "value": 178
+      },
+      {
+        "PersonaID": 193,
+        "value": 37
+      },
+      {
+        "PersonaID": 194,
+        "value": 94
+      },
+      {
+        "PersonaID": 195,
+        "value": 190
+      },
+      {
+        "PersonaID": 196,
+        "value": 35
+      },
+      {
+        "PersonaID": 197,
+        "value": 69
+      },
+      {
+        "PersonaID": 198,
+        "value": 70
+      },
+      {
+        "PersonaID": 199,
+        "value": 71
+      },
+      {
+        "PersonaID": 200,
+        "value": 193
+      },
+      {
+        "PersonaID": 201,
+        "value": 139
+      },
+      {
+        "PersonaID": 202,
+        "value": 125
+      },
+      {
+        "PersonaID": 203,
+        "value": 124
+      },
+      {
+        "PersonaID": 204,
+        "value": 156
+      },
+      {
+        "PersonaID": 205,
+        "value": 157
+      },
+      {
+        "PersonaID": 206,
+        "value": 135
+      },
+      {
+        "PersonaID": 207,
+        "value": 41
+      },
+      {
+        "PersonaID": 208,
+        "value": 92
+      },
+      {
+        "PersonaID": 300,
+        "value": 60
+      },
+      {
+        "PersonaID": 301,
+        "value": 121
+      },
+      {
+        "PersonaID": 302,
+        "value": 192
+      },
+      {
+        "PersonaID": 303,
+        "value": 25
+      },
+      {
+        "PersonaID": 304,
+        "value": 11
+      },
+      {
+        "PersonaID": 305,
+        "value": 189
+      },
+      {
+        "PersonaID": 306,
+        "value": 46
+      },
+      {
+        "PersonaID": 307,
+        "value": 191
+      },
+      {
+        "PersonaID": 308,
+        "value": 42
+      },
+      {
+        "PersonaID": 309,
+        "value": 172
+      },
+      {
+        "PersonaID": 310,
+        "value": 167
+      },
+      {
+        "PersonaID": 311,
+        "value": 126
+      },
+      {
+        "PersonaID": 312,
+        "value": 145
+      },
+      {
+        "PersonaID": 313,
+        "value": 105
+      },
+      {
+        "PersonaID": 314,
+        "value": 76
+      },
+      {
+        "PersonaID": 315,
+        "value": 79
+      },
+      {
+        "PersonaID": 316,
+        "value": 93
+      },
+      {
+        "PersonaID": 317,
+        "value": 4
+      },
+      {
+        "PersonaID": 318,
+        "value": 34
+      },
+      {
+        "PersonaID": 319,
+        "value": 162
+      },
+      {
+        "PersonaID": 320,
+        "value": 176
+      }
+    ]
+  }
+}

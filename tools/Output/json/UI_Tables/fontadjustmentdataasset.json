@@ -1,0 +1,2511 @@
+{
+  "Type": "FontAdjustmentListTable",
+  "Name": "FontAdjustmentDataAsset",
+  "Class": "UScriptClass'FontAdjustmentListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "Key": "12289",
+        "Value": {
+          "Code": 12289,
+          "Font": "､",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 9.0
+        }
+      },
+      {
+        "Key": "12290",
+        "Value": {
+          "Code": 12290,
+          "Font": "｡",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 9.0
+        }
+      },
+      {
+        "Key": "12300",
+        "Value": {
+          "Code": 12300,
+          "Font": "｢",
+          "Left_Adjustment": 15.0,
+          "Right_Adjustment": -8.0
+        }
+      },
+      {
+        "Key": "12301",
+        "Value": {
+          "Code": 12301,
+          "Font": "｣",
+          "Left_Adjustment": -6.0,
+          "Right_Adjustment": 13.0
+        }
+      },
+      {
+        "Key": "12302",
+        "Value": {
+          "Code": 12302,
+          "Font": "『",
+          "Left_Adjustment": 12.0,
+          "Right_Adjustment": -5.0
+        }
+      },
+      {
+        "Key": "12303",
+        "Value": {
+          "Code": 12303,
+          "Font": "』",
+          "Left_Adjustment": -8.0,
+          "Right_Adjustment": 13.0
+        }
+      },
+      {
+        "Key": "12353",
+        "Value": {
+          "Code": 12353,
+          "Font": "ぁ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12354",
+        "Value": {
+          "Code": 12354,
+          "Font": "あ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12355",
+        "Value": {
+          "Code": 12355,
+          "Font": "ぃ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12356",
+        "Value": {
+          "Code": 12356,
+          "Font": "い",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12357",
+        "Value": {
+          "Code": 12357,
+          "Font": "ぅ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12358",
+        "Value": {
+          "Code": 12358,
+          "Font": "う",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12359",
+        "Value": {
+          "Code": 12359,
+          "Font": "ぇ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12360",
+        "Value": {
+          "Code": 12360,
+          "Font": "え",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12361",
+        "Value": {
+          "Code": 12361,
+          "Font": "ぉ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12362",
+        "Value": {
+          "Code": 12362,
+          "Font": "お",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12363",
+        "Value": {
+          "Code": 12363,
+          "Font": "か",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12364",
+        "Value": {
+          "Code": 12364,
+          "Font": "が",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12365",
+        "Value": {
+          "Code": 12365,
+          "Font": "き",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12366",
+        "Value": {
+          "Code": 12366,
+          "Font": "ぎ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12367",
+        "Value": {
+          "Code": 12367,
+          "Font": "く",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12368",
+        "Value": {
+          "Code": 12368,
+          "Font": "ぐ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12369",
+        "Value": {
+          "Code": 12369,
+          "Font": "け",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12370",
+        "Value": {
+          "Code": 12370,
+          "Font": "げ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12371",
+        "Value": {
+          "Code": 12371,
+          "Font": "こ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12372",
+        "Value": {
+          "Code": 12372,
+          "Font": "ご",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12373",
+        "Value": {
+          "Code": 12373,
+          "Font": "さ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12374",
+        "Value": {
+          "Code": 12374,
+          "Font": "ざ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12375",
+        "Value": {
+          "Code": 12375,
+          "Font": "し",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12376",
+        "Value": {
+          "Code": 12376,
+          "Font": "じ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12377",
+        "Value": {
+          "Code": 12377,
+          "Font": "す",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12378",
+        "Value": {
+          "Code": 12378,
+          "Font": "ず",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12379",
+        "Value": {
+          "Code": 12379,
+          "Font": "せ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12380",
+        "Value": {
+          "Code": 12380,
+          "Font": "ぜ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12381",
+        "Value": {
+          "Code": 12381,
+          "Font": "そ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12382",
+        "Value": {
+          "Code": 12382,
+          "Font": "ぞ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12383",
+        "Value": {
+          "Code": 12383,
+          "Font": "た",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12384",
+        "Value": {
+          "Code": 12384,
+          "Font": "だ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12385",
+        "Value": {
+          "Code": 12385,
+          "Font": "ち",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12386",
+        "Value": {
+          "Code": 12386,
+          "Font": "ぢ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12387",
+        "Value": {
+          "Code": 12387,
+          "Font": "っ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12388",
+        "Value": {
+          "Code": 12388,
+          "Font": "つ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12389",
+        "Value": {
+          "Code": 12389,
+          "Font": "づ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12390",
+        "Value": {
+          "Code": 12390,
+          "Font": "て",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12391",
+        "Value": {
+          "Code": 12391,
+          "Font": "で",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12392",
+        "Value": {
+          "Code": 12392,
+          "Font": "と",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12393",
+        "Value": {
+          "Code": 12393,
+          "Font": "ど",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12394",
+        "Value": {
+          "Code": 12394,
+          "Font": "な",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12395",
+        "Value": {
+          "Code": 12395,
+          "Font": "に",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12396",
+        "Value": {
+          "Code": 12396,
+          "Font": "ぬ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12397",
+        "Value": {
+          "Code": 12397,
+          "Font": "ね",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12398",
+        "Value": {
+          "Code": 12398,
+          "Font": "の",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12399",
+        "Value": {
+          "Code": 12399,
+          "Font": "は",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12400",
+        "Value": {
+          "Code": 12400,
+          "Font": "ば",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12401",
+        "Value": {
+          "Code": 12401,
+          "Font": "ぱ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12402",
+        "Value": {
+          "Code": 12402,
+          "Font": "ひ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12403",
+        "Value": {
+          "Code": 12403,
+          "Font": "び",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12404",
+        "Value": {
+          "Code": 12404,
+          "Font": "ぴ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12405",
+        "Value": {
+          "Code": 12405,
+          "Font": "ふ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12406",
+        "Value": {
+          "Code": 12406,
+          "Font": "ぶ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12407",
+        "Value": {
+          "Code": 12407,
+          "Font": "ぷ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12408",
+        "Value": {
+          "Code": 12408,
+          "Font": "へ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12409",
+        "Value": {
+          "Code": 12409,
+          "Font": "べ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12410",
+        "Value": {
+          "Code": 12410,
+          "Font": "ぺ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12411",
+        "Value": {
+          "Code": 12411,
+          "Font": "ほ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12412",
+        "Value": {
+          "Code": 12412,
+          "Font": "ぼ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12413",
+        "Value": {
+          "Code": 12413,
+          "Font": "ぽ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12414",
+        "Value": {
+          "Code": 12414,
+          "Font": "ま",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12415",
+        "Value": {
+          "Code": 12415,
+          "Font": "み",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12416",
+        "Value": {
+          "Code": 12416,
+          "Font": "む",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12417",
+        "Value": {
+          "Code": 12417,
+          "Font": "め",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12418",
+        "Value": {
+          "Code": 12418,
+          "Font": "も",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12419",
+        "Value": {
+          "Code": 12419,
+          "Font": "ゃ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12420",
+        "Value": {
+          "Code": 12420,
+          "Font": "や",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12421",
+        "Value": {
+          "Code": 12421,
+          "Font": "ゅ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12422",
+        "Value": {
+          "Code": 12422,
+          "Font": "ゆ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12423",
+        "Value": {
+          "Code": 12423,
+          "Font": "ょ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12424",
+        "Value": {
+          "Code": 12424,
+          "Font": "よ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12425",
+        "Value": {
+          "Code": 12425,
+          "Font": "ら",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12426",
+        "Value": {
+          "Code": 12426,
+          "Font": "り",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12427",
+        "Value": {
+          "Code": 12427,
+          "Font": "る",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12428",
+        "Value": {
+          "Code": 12428,
+          "Font": "れ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12429",
+        "Value": {
+          "Code": 12429,
+          "Font": "ろ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12430",
+        "Value": {
+          "Code": 12430,
+          "Font": "ゎ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12431",
+        "Value": {
+          "Code": 12431,
+          "Font": "わ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12432",
+        "Value": {
+          "Code": 12432,
+          "Font": "ゐ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12433",
+        "Value": {
+          "Code": 12433,
+          "Font": "ゑ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12434",
+        "Value": {
+          "Code": 12434,
+          "Font": "を",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12435",
+        "Value": {
+          "Code": 12435,
+          "Font": "ん",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12449",
+        "Value": {
+          "Code": 12449,
+          "Font": "ァ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12450",
+        "Value": {
+          "Code": 12450,
+          "Font": "ア",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12451",
+        "Value": {
+          "Code": 12451,
+          "Font": "ィ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12452",
+        "Value": {
+          "Code": 12452,
+          "Font": "イ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12453",
+        "Value": {
+          "Code": 12453,
+          "Font": "ゥ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12454",
+        "Value": {
+          "Code": 12454,
+          "Font": "ウ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12455",
+        "Value": {
+          "Code": 12455,
+          "Font": "ェ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12456",
+        "Value": {
+          "Code": 12456,
+          "Font": "エ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12457",
+        "Value": {
+          "Code": 12457,
+          "Font": "ォ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12458",
+        "Value": {
+          "Code": 12458,
+          "Font": "オ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12459",
+        "Value": {
+          "Code": 12459,
+          "Font": "カ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12460",
+        "Value": {
+          "Code": 12460,
+          "Font": "ガ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12461",
+        "Value": {
+          "Code": 12461,
+          "Font": "キ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12462",
+        "Value": {
+          "Code": 12462,
+          "Font": "ギ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12463",
+        "Value": {
+          "Code": 12463,
+          "Font": "ク",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12464",
+        "Value": {
+          "Code": 12464,
+          "Font": "グ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12465",
+        "Value": {
+          "Code": 12465,
+          "Font": "ケ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12466",
+        "Value": {
+          "Code": 12466,
+          "Font": "ゲ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12467",
+        "Value": {
+          "Code": 12467,
+          "Font": "コ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12468",
+        "Value": {
+          "Code": 12468,
+          "Font": "ゴ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12469",
+        "Value": {
+          "Code": 12469,
+          "Font": "サ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12470",
+        "Value": {
+          "Code": 12470,
+          "Font": "ザ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12471",
+        "Value": {
+          "Code": 12471,
+          "Font": "シ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12472",
+        "Value": {
+          "Code": 12472,
+          "Font": "ジ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12473",
+        "Value": {
+          "Code": 12473,
+          "Font": "ス",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12474",
+        "Value": {
+          "Code": 12474,
+          "Font": "ズ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12475",
+        "Value": {
+          "Code": 12475,
+          "Font": "セ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12476",
+        "Value": {
+          "Code": 12476,
+          "Font": "ゼ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12477",
+        "Value": {
+          "Code": 12477,
+          "Font": "ソ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12478",
+        "Value": {
+          "Code": 12478,
+          "Font": "ゾ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12479",
+        "Value": {
+          "Code": 12479,
+          "Font": "タ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12480",
+        "Value": {
+          "Code": 12480,
+          "Font": "ダ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12481",
+        "Value": {
+          "Code": 12481,
+          "Font": "チ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12482",
+        "Value": {
+          "Code": 12482,
+          "Font": "ヂ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12483",
+        "Value": {
+          "Code": 12483,
+          "Font": "ッ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12484",
+        "Value": {
+          "Code": 12484,
+          "Font": "ツ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12485",
+        "Value": {
+          "Code": 12485,
+          "Font": "ヅ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12486",
+        "Value": {
+          "Code": 12486,
+          "Font": "テ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12487",
+        "Value": {
+          "Code": 12487,
+          "Font": "デ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12488",
+        "Value": {
+          "Code": 12488,
+          "Font": "ト",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12489",
+        "Value": {
+          "Code": 12489,
+          "Font": "ド",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12490",
+        "Value": {
+          "Code": 12490,
+          "Font": "ナ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12491",
+        "Value": {
+          "Code": 12491,
+          "Font": "ニ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12492",
+        "Value": {
+          "Code": 12492,
+          "Font": "ヌ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12493",
+        "Value": {
+          "Code": 12493,
+          "Font": "ネ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12494",
+        "Value": {
+          "Code": 12494,
+          "Font": "ノ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12495",
+        "Value": {
+          "Code": 12495,
+          "Font": "ハ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12496",
+        "Value": {
+          "Code": 12496,
+          "Font": "バ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12497",
+        "Value": {
+          "Code": 12497,
+          "Font": "パ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12498",
+        "Value": {
+          "Code": 12498,
+          "Font": "ヒ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12499",
+        "Value": {
+          "Code": 12499,
+          "Font": "ビ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12500",
+        "Value": {
+          "Code": 12500,
+          "Font": "ピ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12501",
+        "Value": {
+          "Code": 12501,
+          "Font": "フ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12502",
+        "Value": {
+          "Code": 12502,
+          "Font": "ブ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12503",
+        "Value": {
+          "Code": 12503,
+          "Font": "プ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12504",
+        "Value": {
+          "Code": 12504,
+          "Font": "ヘ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12505",
+        "Value": {
+          "Code": 12505,
+          "Font": "ベ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12506",
+        "Value": {
+          "Code": 12506,
+          "Font": "ペ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12507",
+        "Value": {
+          "Code": 12507,
+          "Font": "ホ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12508",
+        "Value": {
+          "Code": 12508,
+          "Font": "ボ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12509",
+        "Value": {
+          "Code": 12509,
+          "Font": "ポ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12510",
+        "Value": {
+          "Code": 12510,
+          "Font": "マ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12511",
+        "Value": {
+          "Code": 12511,
+          "Font": "ミ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12512",
+        "Value": {
+          "Code": 12512,
+          "Font": "ム",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12513",
+        "Value": {
+          "Code": 12513,
+          "Font": "メ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12514",
+        "Value": {
+          "Code": 12514,
+          "Font": "モ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12515",
+        "Value": {
+          "Code": 12515,
+          "Font": "ャ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12516",
+        "Value": {
+          "Code": 12516,
+          "Font": "ヤ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12517",
+        "Value": {
+          "Code": 12517,
+          "Font": "ュ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12518",
+        "Value": {
+          "Code": 12518,
+          "Font": "ユ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12519",
+        "Value": {
+          "Code": 12519,
+          "Font": "ョ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12520",
+        "Value": {
+          "Code": 12520,
+          "Font": "ヨ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12521",
+        "Value": {
+          "Code": 12521,
+          "Font": "ラ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12522",
+        "Value": {
+          "Code": 12522,
+          "Font": "リ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12523",
+        "Value": {
+          "Code": 12523,
+          "Font": "ル",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12524",
+        "Value": {
+          "Code": 12524,
+          "Font": "レ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12525",
+        "Value": {
+          "Code": 12525,
+          "Font": "ロ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12526",
+        "Value": {
+          "Code": 12526,
+          "Font": "ヮ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "12527",
+        "Value": {
+          "Code": 12527,
+          "Font": "ワ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12528",
+        "Value": {
+          "Code": 12528,
+          "Font": "ヰ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12529",
+        "Value": {
+          "Code": 12529,
+          "Font": "ヱ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12530",
+        "Value": {
+          "Code": 12530,
+          "Font": "ヲ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "12531",
+        "Value": {
+          "Code": 12531,
+          "Font": "ン",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "65280",
+        "Value": {
+          "Code": 65280,
+          "Font": "?",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65281",
+        "Value": {
+          "Code": 65281,
+          "Font": "!",
+          "Left_Adjustment": 7.0,
+          "Right_Adjustment": 4.0
+        }
+      },
+      {
+        "Key": "65296",
+        "Value": {
+          "Code": 65296,
+          "Font": "0",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65297",
+        "Value": {
+          "Code": 65297,
+          "Font": "1",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 6.0
+        }
+      },
+      {
+        "Key": "65298",
+        "Value": {
+          "Code": 65298,
+          "Font": "2",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65299",
+        "Value": {
+          "Code": 65299,
+          "Font": "3",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65300",
+        "Value": {
+          "Code": 65300,
+          "Font": "4",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65301",
+        "Value": {
+          "Code": 65301,
+          "Font": "5",
+          "Left_Adjustment": 3.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65302",
+        "Value": {
+          "Code": 65302,
+          "Font": "6",
+          "Left_Adjustment": 3.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65303",
+        "Value": {
+          "Code": 65303,
+          "Font": "7",
+          "Left_Adjustment": 5.0,
+          "Right_Adjustment": 4.0
+        }
+      },
+      {
+        "Key": "65304",
+        "Value": {
+          "Code": 65304,
+          "Font": "8",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65305",
+        "Value": {
+          "Code": 65305,
+          "Font": "9",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65313",
+        "Value": {
+          "Code": 65313,
+          "Font": "A",
+          "Left_Adjustment": -1.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65314",
+        "Value": {
+          "Code": 65314,
+          "Font": "B",
+          "Left_Adjustment": 1.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65315",
+        "Value": {
+          "Code": 65315,
+          "Font": "C",
+          "Left_Adjustment": 1.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65316",
+        "Value": {
+          "Code": 65316,
+          "Font": "D",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": -2.0
+        }
+      },
+      {
+        "Key": "65317",
+        "Value": {
+          "Code": 65317,
+          "Font": "E",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65318",
+        "Value": {
+          "Code": 65318,
+          "Font": "F",
+          "Left_Adjustment": 3.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "65319",
+        "Value": {
+          "Code": 65319,
+          "Font": "G",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65320",
+        "Value": {
+          "Code": 65320,
+          "Font": "H",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": -1.0
+        }
+      },
+      {
+        "Key": "65321",
+        "Value": {
+          "Code": 65321,
+          "Font": "I",
+          "Left_Adjustment": 9.0,
+          "Right_Adjustment": 9.0
+        }
+      },
+      {
+        "Key": "65322",
+        "Value": {
+          "Code": 65322,
+          "Font": "J",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 5.0
+        }
+      },
+      {
+        "Key": "65323",
+        "Value": {
+          "Code": 65323,
+          "Font": "K",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "65324",
+        "Value": {
+          "Code": 65324,
+          "Font": "L",
+          "Left_Adjustment": 3.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65325",
+        "Value": {
+          "Code": 65325,
+          "Font": "M",
+          "Left_Adjustment": -2.0,
+          "Right_Adjustment": -3.0
+        }
+      },
+      {
+        "Key": "65326",
+        "Value": {
+          "Code": 65326,
+          "Font": "N",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": -1.0
+        }
+      },
+      {
+        "Key": "65327",
+        "Value": {
+          "Code": 65327,
+          "Font": "O",
+          "Left_Adjustment": -1.0,
+          "Right_Adjustment": -1.0
+        }
+      },
+      {
+        "Key": "65328",
+        "Value": {
+          "Code": 65328,
+          "Font": "P",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": -1.0
+        }
+      },
+      {
+        "Key": "65329",
+        "Value": {
+          "Code": 65329,
+          "Font": "Q",
+          "Left_Adjustment": -2.0,
+          "Right_Adjustment": -2.0
+        }
+      },
+      {
+        "Key": "65330",
+        "Value": {
+          "Code": 65330,
+          "Font": "R",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": -1.0
+        }
+      },
+      {
+        "Key": "65331",
+        "Value": {
+          "Code": 65331,
+          "Font": "S",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65332",
+        "Value": {
+          "Code": 65332,
+          "Font": "T",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65333",
+        "Value": {
+          "Code": 65333,
+          "Font": "U",
+          "Left_Adjustment": 1.0,
+          "Right_Adjustment": -1.0
+        }
+      },
+      {
+        "Key": "65334",
+        "Value": {
+          "Code": 65334,
+          "Font": "V",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": -2.0
+        }
+      },
+      {
+        "Key": "65335",
+        "Value": {
+          "Code": 65335,
+          "Font": "W",
+          "Left_Adjustment": -1.0,
+          "Right_Adjustment": -4.0
+        }
+      },
+      {
+        "Key": "65336",
+        "Value": {
+          "Code": 65336,
+          "Font": "X",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": -1.0
+        }
+      },
+      {
+        "Key": "65337",
+        "Value": {
+          "Code": 65337,
+          "Font": "Y",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": -1.0
+        }
+      },
+      {
+        "Key": "65338",
+        "Value": {
+          "Code": 65338,
+          "Font": "Z",
+          "Left_Adjustment": 1.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65345",
+        "Value": {
+          "Code": 65345,
+          "Font": "a",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 3.0
+        }
+      },
+      {
+        "Key": "65346",
+        "Value": {
+          "Code": 65346,
+          "Font": "b",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65347",
+        "Value": {
+          "Code": 65347,
+          "Font": "c",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 3.0
+        }
+      },
+      {
+        "Key": "65348",
+        "Value": {
+          "Code": 65348,
+          "Font": "d",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65349",
+        "Value": {
+          "Code": 65349,
+          "Font": "e",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 3.0
+        }
+      },
+      {
+        "Key": "65350",
+        "Value": {
+          "Code": 65350,
+          "Font": "f",
+          "Left_Adjustment": 6.0,
+          "Right_Adjustment": 5.0
+        }
+      },
+      {
+        "Key": "65351",
+        "Value": {
+          "Code": 65351,
+          "Font": "g",
+          "Left_Adjustment": 3.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65352",
+        "Value": {
+          "Code": 65352,
+          "Font": "h",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 3.0
+        }
+      },
+      {
+        "Key": "65353",
+        "Value": {
+          "Code": 65353,
+          "Font": "i",
+          "Left_Adjustment": 9.0,
+          "Right_Adjustment": 8.0
+        }
+      },
+      {
+        "Key": "65354",
+        "Value": {
+          "Code": 65354,
+          "Font": "j",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 7.0
+        }
+      },
+      {
+        "Key": "65355",
+        "Value": {
+          "Code": 65355,
+          "Font": "k",
+          "Left_Adjustment": 5.0,
+          "Right_Adjustment": 3.0
+        }
+      },
+      {
+        "Key": "65356",
+        "Value": {
+          "Code": 65356,
+          "Font": "l",
+          "Left_Adjustment": 9.0,
+          "Right_Adjustment": 9.0
+        }
+      },
+      {
+        "Key": "65357",
+        "Value": {
+          "Code": 65357,
+          "Font": "m",
+          "Left_Adjustment": -1.0,
+          "Right_Adjustment": -3.0
+        }
+      },
+      {
+        "Key": "65358",
+        "Value": {
+          "Code": 65358,
+          "Font": "n",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 3.0
+        }
+      },
+      {
+        "Key": "65359",
+        "Value": {
+          "Code": 65359,
+          "Font": "o",
+          "Left_Adjustment": 3.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65360",
+        "Value": {
+          "Code": 65360,
+          "Font": "p",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65361",
+        "Value": {
+          "Code": 65361,
+          "Font": "q",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65362",
+        "Value": {
+          "Code": 65362,
+          "Font": "r",
+          "Left_Adjustment": 7.0,
+          "Right_Adjustment": 4.0
+        }
+      },
+      {
+        "Key": "65363",
+        "Value": {
+          "Code": 65363,
+          "Font": "s",
+          "Left_Adjustment": 6.0,
+          "Right_Adjustment": 5.0
+        }
+      },
+      {
+        "Key": "65364",
+        "Value": {
+          "Code": 65364,
+          "Font": "t",
+          "Left_Adjustment": 7.0,
+          "Right_Adjustment": 6.0
+        }
+      },
+      {
+        "Key": "65365",
+        "Value": {
+          "Code": 65365,
+          "Font": "u",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65366",
+        "Value": {
+          "Code": 65366,
+          "Font": "v",
+          "Left_Adjustment": 5.0,
+          "Right_Adjustment": 1.0
+        }
+      },
+      {
+        "Key": "65367",
+        "Value": {
+          "Code": 65367,
+          "Font": "w",
+          "Left_Adjustment": -1.0,
+          "Right_Adjustment": -4.0
+        }
+      },
+      {
+        "Key": "65368",
+        "Value": {
+          "Code": 65368,
+          "Font": "x",
+          "Left_Adjustment": 3.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "65369",
+        "Value": {
+          "Code": 65369,
+          "Font": "y",
+          "Left_Adjustment": 3.0,
+          "Right_Adjustment": 3.0
+        }
+      },
+      {
+        "Key": "65370",
+        "Value": {
+          "Code": 65370,
+          "Font": "z",
+          "Left_Adjustment": 3.0,
+          "Right_Adjustment": 2.0
+        }
+      },
+      {
+        "Key": "32",
+        "Value": {
+          "Code": 32,
+          "Font": "半角スペース",
+          "Left_Adjustment": 4.0,
+          "Right_Adjustment": 4.0
+        }
+      },
+      {
+        "Key": "12288",
+        "Value": {
+          "Code": 12288,
+          "Font": "全角スペース",
+          "Left_Adjustment": 8.0,
+          "Right_Adjustment": 8.0
+        }
+      },
+      {
+        "Key": "39",
+        "Value": {
+          "Code": 39,
+          "Font": "アポストロフィ",
+          "Left_Adjustment": 2.0,
+          "Right_Adjustment": 4.0
+        }
+      },
+      {
+        "Key": "192",
+        "Value": {
+          "Code": 192,
+          "Font": "À",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "194",
+        "Value": {
+          "Code": 194,
+          "Font": "Â",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "196",
+        "Value": {
+          "Code": 196,
+          "Font": "Ä",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "198",
+        "Value": {
+          "Code": 198,
+          "Font": "Æ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "199",
+        "Value": {
+          "Code": 199,
+          "Font": "Ç",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "200",
+        "Value": {
+          "Code": 200,
+          "Font": "È",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "201",
+        "Value": {
+          "Code": 201,
+          "Font": "É",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "202",
+        "Value": {
+          "Code": 202,
+          "Font": "Ê",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "203",
+        "Value": {
+          "Code": 203,
+          "Font": "Ë",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "206",
+        "Value": {
+          "Code": 206,
+          "Font": "Î",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "207",
+        "Value": {
+          "Code": 207,
+          "Font": "Ï",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "209",
+        "Value": {
+          "Code": 209,
+          "Font": "Ñ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "212",
+        "Value": {
+          "Code": 212,
+          "Font": "Ô",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "214",
+        "Value": {
+          "Code": 214,
+          "Font": "Ö",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "217",
+        "Value": {
+          "Code": 217,
+          "Font": "Ù",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "219",
+        "Value": {
+          "Code": 219,
+          "Font": "Û",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "220",
+        "Value": {
+          "Code": 220,
+          "Font": "Ü",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "223",
+        "Value": {
+          "Code": 223,
+          "Font": "ß",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "224",
+        "Value": {
+          "Code": 224,
+          "Font": "à",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "226",
+        "Value": {
+          "Code": 226,
+          "Font": "â",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "228",
+        "Value": {
+          "Code": 228,
+          "Font": "ä",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "230",
+        "Value": {
+          "Code": 230,
+          "Font": "æ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "231",
+        "Value": {
+          "Code": 231,
+          "Font": "ç",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "232",
+        "Value": {
+          "Code": 232,
+          "Font": "è",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "233",
+        "Value": {
+          "Code": 233,
+          "Font": "é",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "234",
+        "Value": {
+          "Code": 234,
+          "Font": "ê",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "235",
+        "Value": {
+          "Code": 235,
+          "Font": "ë",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "238",
+        "Value": {
+          "Code": 238,
+          "Font": "î",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "239",
+        "Value": {
+          "Code": 239,
+          "Font": "ï",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "241",
+        "Value": {
+          "Code": 241,
+          "Font": "ñ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "244",
+        "Value": {
+          "Code": 244,
+          "Font": "ô",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "246",
+        "Value": {
+          "Code": 246,
+          "Font": "ö",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "249",
+        "Value": {
+          "Code": 249,
+          "Font": "ù",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "251",
+        "Value": {
+          "Code": 251,
+          "Font": "û",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "252",
+        "Value": {
+          "Code": 252,
+          "Font": "ü",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "376",
+        "Value": {
+          "Code": 376,
+          "Font": "Ÿ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "255",
+        "Value": {
+          "Code": 255,
+          "Font": "ÿ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "338",
+        "Value": {
+          "Code": 338,
+          "Font": "Œ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      },
+      {
+        "Key": "339",
+        "Value": {
+          "Code": 339,
+          "Font": "œ",
+          "Left_Adjustment": 0.0,
+          "Right_Adjustment": 0.0
+        }
+      }
+    ]
+  }
+}

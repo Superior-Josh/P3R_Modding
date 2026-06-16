@@ -1,0 +1,42 @@
+{
+  "Type": "DatEnemyAnalyzeSyncTable",
+  "Name": "DatEnemyAnalyzeSyncDataAsset",
+  "Class": "UScriptClass'DatEnemyAnalyzeSyncTable'",
+  "Properties": {
+    "Data": [
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      },
+      {
+        "enemyID": 0
+      }
+    ]
+  }
+}

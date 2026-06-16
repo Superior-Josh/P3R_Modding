@@ -1,0 +1,53 @@
+{
+  "Type": "CommunityRankDataAsset",
+  "Name": "CommunityRankDataAsset",
+  "Class": "UScriptClass'CommunityRankDataAsset'",
+  "Properties": {
+    "Data": [
+      {
+        "Bonus": 0,
+        "HighBonus": 0
+      },
+      {
+        "Bonus": 130,
+        "HighBonus": 230
+      },
+      {
+        "Bonus": 180,
+        "HighBonus": 280
+      },
+      {
+        "Bonus": 200,
+        "HighBonus": 300
+      },
+      {
+        "Bonus": 250,
+        "HighBonus": 350
+      },
+      {
+        "Bonus": 300,
+        "HighBonus": 400
+      },
+      {
+        "Bonus": 350,
+        "HighBonus": 450
+      },
+      {
+        "Bonus": 400,
+        "HighBonus": 500
+      },
+      {
+        "Bonus": 430,
+        "HighBonus": 530
+      },
+      {
+        "Bonus": 480,
+        "HighBonus": 580
+      },
+      {
+        "Bonus": 500,
+        "HighBonus": 600
+      }
+    ]
+  }
+}

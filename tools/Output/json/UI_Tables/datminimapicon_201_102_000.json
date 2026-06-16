@@ -1,0 +1,49 @@
+{
+  "Type": "MiniMapIconListTable",
+  "Name": "DatMiniMapIcon_201_102_000",
+  "Class": "UScriptClass'MiniMapIconListTable'",
+  "Properties": {
+    "Data": [
+      {
+        "IconName": "矢印",
+        "SprType": 0,
+        "SprNo": 0,
+        "X": 0.0,
+        "Y": 133.0,
+        "DegreeAngle": 180.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "転送装置",
+        "SprType": 1,
+        "SprNo": 4,
+        "X": 100.0,
+        "Y": -28.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "時計",
+        "SprType": 1,
+        "SprNo": 23,
+        "X": -50.0,
+        "Y": -36.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      },
+      {
+        "IconName": "ベルベットルーム",
+        "SprType": 10,
+        "SprNo": 4,
+        "X": -78.0,
+        "Y": 18.0,
+        "DegreeAngle": 0.0,
+        "VisibleFlag": "",
+        "DisableFlag": ""
+      }
+    ]
+  }
+}

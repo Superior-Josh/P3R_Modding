@@ -1,0 +1,25 @@
+{
+  "Type": "CombineMiscDataAsset",
+  "Name": "CombineMiscDataAsset",
+  "Class": "UScriptClass'CombineMiscDataAsset'",
+  "Properties": {
+    "AccidentBaseRate": 0.015625,
+    "FoolAccidentRate": 0.5,
+    "AccidentMinLv": -10,
+    "AccidentMaxLv": 1,
+    "SkillChangeBaseRate": 0.125,
+    "SkillBuildUpRate": 0.3,
+    "SkillChanges": [
+      0.7,
+      0.25,
+      0.05
+    ],
+    "SkillWeights": [
+      1.0,
+      0.8,
+      0.965,
+      0.13,
+      0.03
+    ]
+  }
+}
