@@ -81,17 +81,6 @@
 5. **Event Flags** — 剧情触发条件标志位
 6. **BGM** — 背景音乐 ID
 
-## 与 DataTable 的对应关系
+## 完整资产映射
 
-Amicitia Wiki 中的 ID 表对应游戏中的 DataTable 资产（`IoStore/P3R/Content/Xrd777/Battle/Tables/` 和 `UI/Tables/`）：
-
-| Wiki 页面 | 对应 DataTable |
-|------|------|
-| Skills | `DatSkillDataAsset.uasset` + `DatSkillNormalDataAsset.uasset` |
-| Personas | `DatPersonaDataAsset.uasset` + `DatPersonaGrowthDataAsset.uasset` |
-| Enemies | `DatEnemyDataAsset.uasset` |
-| Items | `DatItemCommonDataAsset.uasset` |
-| Weapons | `DatItemWeaponDataAsset.uasset` |
-| Armor | `DatItemArmorDataAsset.uasset` |
-| Accessories | `DatItemAccsDataAsset.uasset` |
-| Encounters | `DatEncountTableDataAsset.uasset` |
+➡ **[DATA_MAPPING.md](DATA_MAPPING.md)** — 所有 37 个 Wiki 页面与 Extracted/ 中游戏文件的精确对应关系，包含完整路径和文件说明。
