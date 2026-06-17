@@ -1,9 +1,11 @@
-# P3R Full Mod Pipeline: Read → Modify → Generate → Pack
+# P3R Full Mod Pipeline: Read -> Modify -> Create .uasset/.uexp -> Pack
+# Sprint 1: Fully automated, no manual steps
 param(
     [string]$TableKey,              # Config key: Skills, Personas, Items, etc.
     [string]$VirtualPath,           # Or direct virtual path to the .uasset
     [string]$ModScript,             # Path to PowerShell script that modifies the JSON
-    [string]$ModName = "MyMod"      # Output PAK name (without _P suffix)
+    [string]$ModName = "MyMod",     # Output PAK name (without _P suffix)
+    [switch]$NoPack                 # Skip PAK packing (just create .uasset+.uexp)
 )
 
 . "$PSScriptRoot\Config.ps1"
@@ -15,7 +17,7 @@ $vpath = if ($VirtualPath) { $VirtualPath }
 
 $assetName = [System.IO.Path]::GetFileNameWithoutExtension($vpath)
 $workDir = "$ModOutput\$assetName"
-$modPakDir = "$ProjectRoot\ModOutput"
+$modPakDir = "$ProjectRoot\tools\Output\mod"
 New-Item -ItemType Directory -Force -Path $workDir, $modPakDir | Out-Null
 
 Write-Host "============================================" -ForegroundColor Cyan
@@ -26,7 +28,7 @@ Write-Host "Work dir:     $workDir"
 Write-Host ""
 
 # Step 1: Read original asset to JSON
-Write-Host "[1/3] Reading original DataTable..." -ForegroundColor Yellow
+Write-Host "[1/4] Reading original DataTable..." -ForegroundColor Yellow
 $originalJson = "$workDir\$assetName`_original.json"
 & $DataTools read $vpath $originalJson 2>&1 | Select-Object -Last 2
 if (-not (Test-Path $originalJson)) {
@@ -37,46 +39,65 @@ Write-Host "  Original: $originalJson ($([math]::Round((Get-Item $originalJson).
 Write-Host ""
 
 # Step 2: Apply modifications
-Write-Host "[2/3] Applying modifications..." -ForegroundColor Yellow
+Write-Host "[2/4] Applying modifications..." -ForegroundColor Yellow
 $modifiedJson = "$workDir\$assetName`_modified.json"
-Copy-Item $originalJson $modifiedJson -Force
 
 if ($ModScript -and (Test-Path $ModScript)) {
+    # ModScript receives -JsonPath and modifies the file in-place
     Write-Host "  Running mod script: $ModScript"
+    Copy-Item $originalJson $modifiedJson -Force
     & $ModScript -JsonPath $modifiedJson
 } else {
+    # No script: copy original to modified, user edits manually
+    Copy-Item $originalJson $modifiedJson -Force
     Write-Host "  No mod script provided. Edit the JSON manually:"
     Write-Host "    $modifiedJson"
 }
 Write-Host ""
 
-# Step 3: Generate manifest and pack instructions
-Write-Host "[3/3] Preparing mod PAK..." -ForegroundColor Yellow
+# Step 3: Create .uasset + .uexp from modified JSON
+Write-Host "[3/4] Creating .uasset+.uexp from modified JSON..." -ForegroundColor Yellow
+& $DataTools create $modifiedJson $workDir 2>&1 | Select-Object -Last 5
+if (-not (Test-Path "$workDir\$assetName.uasset")) {
+    Write-Error "Failed to create .uasset+.uexp"
+    exit 1
+}
+Write-Host ""
 
-# Generate manifest.txt
-$manifestFile = "$workDir\manifest.txt"
-$mountBase = "../../../$vpath"
-@"
-"$assetName.uasset" "$mountBase"
-"$assetName.uexp" "$($mountBase -replace '\.uasset$','.uexp')"
-"@ | Out-File $manifestFile -Encoding utf8
-Write-Host "  Manifest: $manifestFile"
+# Step 4: Pack with UnrealPak
+Write-Host "[4/4] Packing PAK..." -ForegroundColor Yellow
+if ($NoPack) {
+    Write-Host "  Skipped (--NoPack). Files ready in: $workDir" -ForegroundColor DarkYellow
+} elseif (Test-Path $UnrealPak) {
+    $pakFile = "$modPakDir\$ModName`_P.pak"
+    $manifestFile = "$workDir\manifest.txt"
 
-# Output summary
+    Push-Location $workDir
+    $null = & $UnrealPak $pakFile -Create="$manifestFile" -compress 2>&1
+    Pop-Location
+
+    if ($LASTEXITCODE -eq 0 -and (Test-Path $pakFile)) {
+        $pakSize = [math]::Round((Get-Item $pakFile).Length / 1KB, 1)
+        Write-Host "  PAK created: $pakFile ($pakSize KB)" -ForegroundColor Green
+    } else {
+        Write-Host "  PAK packing may have failed. Check output above." -ForegroundColor Yellow
+        Write-Host "  Manifest: $manifestFile" -ForegroundColor DarkYellow
+    }
+} else {
+    Write-Host "  UnrealPak not found. Manual pack:" -ForegroundColor DarkYellow
+    Write-Host "    cd $workDir"
+    Write-Host "    UnrealPak.exe `"../$ModName`_P.pak`" -Create=`"manifest.txt`" -compress"
+}
+
+# Summary
 Write-Host ""
 Write-Host "============================================" -ForegroundColor Green
-Write-Host " JSON files ready" -ForegroundColor Green
+Write-Host " Pipeline Complete" -ForegroundColor Green
 Write-Host "============================================" -ForegroundColor Green
 Write-Host ""
-Write-Host "Modified JSON: $modifiedJson"
-Write-Host "Manifest:      $manifestFile"
-Write-Host ""
-Write-Host "MANUAL STEP (one-time): Convert JSON to .uasset + .uexp"
-Write-Host "  Use UAssetGUI or FModel to create the .uasset/.uexp pair from the modified JSON."
-Write-Host "  Place the resulting .uasset and .uexp files in: $workDir"
-Write-Host ""
-Write-Host "Then pack with UnrealPak:"
-Write-Host "  cd $workDir"
-Write-Host "  $UnrealPak `"$modPakDir\$ModName`_P.pak`" -Create=`"$manifestFile`" -compress"
-Write-Host ""
-Write-Host "Install: Copy $ModName`_P.pak to the game's Content\Paks\ directory"
+Write-Host "Output files in: $workDir"
+Get-ChildItem $workDir | ForEach-Object { Write-Host "  $($_.Name) ($([math]::Round($_.Length/1KB,1)) KB)" }
+if (-not $NoPack -and (Test-Path $UnrealPak)) {
+    Write-Host ""
+    Write-Host "Install: Copy $ModName_P.pak to game Paks/ directory"
+}

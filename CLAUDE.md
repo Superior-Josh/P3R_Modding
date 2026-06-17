@@ -106,10 +106,10 @@ P3R_Modding/
 |------|------|------|
 | `read <vpath> [out.json]` | 导出 DataTable 为 JSON | `read "P3R/Content/.../DatSkillNormalDataAsset.uasset" skills.json` |
 | `batch <filter> <dir>` | 批量导出 | `batch "Xrd777/Battle/Tables" .\json\Battle\` |
-| `create-template <vpath> <outDir>` | **生成传统格式模板** (Sprint 0) | `create-template "P3R/.../Skills.uasset" .\templates\` |
-| `quick <vpath> <jsonPath> <value> <dir>` | 修改单属性 + manifest | `quick "P3R/.../Skills.uasset" "Properties.Data[0].Power" 999 .\mod\` |
-| `modify <vpath> <jsonFile> <dir>` | 应用 JSON 修改 + manifest | `modify "P3R/.../Skills.uasset" modified.json .\mod\` |
-| `create <vpath> <jsonFile> <dir>` | **模板法写回 → .uasset+.uexp** (Sprint 1) | `create "P3R/.../Skills.uasset" modified.json .\mod\` |
+| `create-template <vpath> <outDir>` | 生成传统格式模板 (Sprint 0) | `create-template "P3R/.../Skills.uasset" .\templates\` |
+| `create <jsonFile> <outDir>` | **JSON → .uasset+.uexp + manifest** (Sprint 1) | `create skills_modified.json .\mod\` |
+| `modify <vpath> <jsonFile> <dir>` | 读取 IoStore + 应用修改 → .uasset+.uexp | `modify "P3R/.../Skills.uasset" modified.json .\mod\` |
+| `quick <vpath> <jsonPath> <value> <dir>` | 读取 IoStore + 单值修改 → .uasset+.uexp | `quick "P3R/.../Skills.uasset" "Properties.Data[0].Power" 999 .\mod\` |
 
 虚拟路径格式：`P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset`
 
@@ -152,7 +152,7 @@ P3R_Modding/
 
 - **Xrd777 > Astrea**：同名资产以 Xrd777 为准
 - **IoStore .uasset 文件头全为零**：无法直接用 UAssetAPI 编辑，需通过 CUE4Parse 读取
-- **写回方案**：模板法 — P3RDataTools `create-template` 自动生成传统格式模板 + UAssetAPI 修改 (见 `docs/SYSTEM_ARCHITECTURE.md`)
+- **写回方案**：直接二进制序列化 — P3RDataTools `create` 从 JSON 生成传统格式 .uasset+.uexp（TemplateCreator.cs），无需 UAssetAPI 中间步骤
 
 ## 工具链详情
 
@@ -182,19 +182,23 @@ P3R_Modding/
 # 2. 读取原始表
 & $DataTools read "P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset" skills.json
 
-# 3. 编辑 skills.json
+# 3. 编辑 skills.json，然后直接生成 .uasset+.uexp
+& $DataTools create skills_modified.json .\mod\
 
-# 4. 模板法写回 + 打包 (Sprint 1 实现)
+# 4. 或使用全自动编排脚本
 .\tools\scripts\modify-and-repack.ps1 -TableKey Skills -ModScript .\my-changes.ps1 -ModName "MyMod"
 ```
 
 ### 编排脚本
 ```powershell
-# 使用已知别名
-.\tools\scripts\modify-and-repack.ps1 -TableKey Skills
+# 使用已知别名 (read -> modify -> create .uasset+.uexp -> pack .pak)
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills -ModName "MyMod"
 
 # 直接指定虚拟路径
-.\tools\scripts\modify-and-repack.ps1 -VirtualPath "P3R/Content/Xrd777/..."
+.\tools\scripts\modify-and-repack.ps1 -VirtualPath "P3R/Content/Xrd777/..." -ModName "MyMod"
+
+# 只生成 .uasset+.uexp, 不打包 PAK
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills -NoPack
 ```
 
 ## 关键约束
@@ -204,7 +208,7 @@ P3R_Modding/
 - **CUE4Parse = 1.1.1**：不要升级到 1.2.2（Zlib 初始化失败）
 - **Mod PAK 命名**：`_P` 后缀 = 最高优先级
 - **Crypto.json 必须简化**（不含 `$types` 字典）
-- **IoStore 写回**：通过模板法解决 (见 `docs/SYSTEM_ARCHITECTURE.md`)
+- **IoStore 写回**：通过 TemplateCreator.cs 直接二进制序列化解决
 
 ## 常见问题排查
 

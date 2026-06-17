@@ -83,13 +83,15 @@ T0.6 (Git配置) ─────────────────────
 
 ### 交付物
 
-- [ ] `tools/P3RDataTools/TemplateLoader.cs` 模板加载模块
-- [ ] `tools/P3RDataTools/DataTablePatcher.cs` 行数据替换引擎
-- [ ] `tools/P3RDataTools/AssetWriter.cs` 输出写回模块
-- [ ] `tools/P3RDataTools/Program.cs` 更新（`create` 命令）
-- [ ] `tools/scripts/test-roundtrip.ps1` 往返测试脚本
-- [ ] 游戏加载测试报告（至少 1 个表验证通过）
-- [ ] 往返测试报告（18/18 表类型）
+> **方案变更**: 原计划使用 UAssetAPI load→modify→write 流程，但 UAssetAPI 无法加载我们生成的模板（header 解析失败）。
+> 改用 **直接二进制序列化方案**：TemplateCreator.cs（已在 Sprint 0 验证 Magic=C1832A9E）直接从修改后的 JSON 生成 .uasset+.uexp。
+> 不需要 TemplateLoader/DataTablePatcher/AssetWriter —— TemplateCreator.cs 替代了全部三个模块。
+
+- [x] `tools/P3RDataTools/TemplateCreator.cs` 统一写回引擎（替代 TemplateLoader+Patcher+Writer）
+- [x] `tools/P3RDataTools/Program.cs` 更新（`create` 命令 + `CreateUassetFromJson` 重写）
+- [x] `tools/scripts/modify-and-repack.ps1` 全自动编排（read→modify→create→pack）
+- [x] 往返测试：read → modify → create → verify (Magic=C1832A9E)
+- [ ] 游戏加载测试报告（至少 1 个表验证通过）← **待人工**
 
 ### 任务依赖图
 

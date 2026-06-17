@@ -15,7 +15,8 @@ if (args.Length < 2)
     Console.WriteLine("  batch   <pathFilter> <outputDir>      Batch export to JSON");
     Console.WriteLine();
     Console.WriteLine("WRITE commands:");
-    Console.WriteLine("  modify  <virtualPath> <jsonFile> <outDir>   Apply JSON changes → new .uasset");
+    Console.WriteLine("  create  <jsonFile> <outDir>                JSON → .uasset+.uexp + manifest");
+    Console.WriteLine("  modify  <virtualPath> <jsonFile> <outDir>   Read IoStore, apply changes → .uasset+.uexp");
     Console.WriteLine("  quick   <virtualPath> <rowProperty> <value> <outDir>  Quick single-value modify");
     Console.WriteLine();
     Console.WriteLine("TEMPLATE commands:");
@@ -23,9 +24,9 @@ if (args.Length < 2)
     Console.WriteLine();
     Console.WriteLine("Examples:");
     Console.WriteLine("  P3RDataTools read \"P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset\" skills.json");
+    Console.WriteLine("  P3RDataTools create skills_modified.json .\\mod\\");
     Console.WriteLine("  P3RDataTools modify \"P3R/Content/.../DatSkillNormalDataAsset.uasset\" modified.json .\\mod\\");
     Console.WriteLine("  P3RDataTools quick \"P3R/Content/.../DatSkillNormalDataAsset.uasset\" \"Data[0].Power\" 999 .\\mod\\");
-    Console.WriteLine("  P3RDataTools create-template \"P3R/Content/.../DatSkillNormalDataAsset.uasset\" .\\templates\\");
     return 1;
 }
 
@@ -54,6 +55,15 @@ try
                 var provider = CreateProvider(gameDir, aesKey);
                 var outDir = command == "modify" ? (args.Length > 3 ? args[3] : "./mod") : (args.Length > 4 ? args[4] : "./mod");
                 ModifyAsset(provider, input, args[2], args.Length > 3 ? args[3] : null, outDir, command == "quick");
+                break;
+            }
+        case "create":
+            {
+                // create <jsonFile> <outDir>
+                // Takes a modified JSON file and generates .uasset+.uexp
+                var jsonPath = input;
+                var outDir = args.Length > 2 ? args[2] : "./mod";
+                CreateFromJsonFile(jsonPath, outDir);
                 break;
             }
         case "create-template":
@@ -211,24 +221,22 @@ void ModifyAsset(DefaultFileProvider provider, string virtualPath, string jsonOr
 
 void CreateUassetFromJson(JToken jsonData, string exportType, string outDir, string assetName, string originalVPath)
 {
-    // Save modified JSON, schema, and manifest for manual/scripted .uasset creation
-    var modPath = Path.Combine(outDir, assetName + "_modified.json");
-    File.WriteAllText(modPath, jsonData.ToString(Formatting.Indented));
+    // Use TemplateCreator to generate traditional-format .uasset+.uexp from JSON data
+    TemplateCreator.CreateFromJson(jsonData, outDir, assetName);
 
+    // Generate manifest.txt for UnrealPak
     var manifestPath = Path.Combine(outDir, "manifest.txt");
     var mountPath = $"../../../{originalVPath}";
     var manifestContent = $"\"{assetName}.uasset\" \"{mountPath}\"\n" +
                           $"\"{assetName}.uexp\" \"{mountPath.Replace(".uasset", ".uexp")}\"\n";
     File.WriteAllText(manifestPath, manifestContent);
 
-    Console.WriteLine($"Modified JSON: {modPath}");
     Console.WriteLine($"Manifest: {manifestPath}");
-    Console.WriteLine($"Mount path: {mountPath}");
+    Console.WriteLine($"Mount point: {mountPath}");
     Console.WriteLine();
-    Console.WriteLine("NOTE: .uasset+.uexp creation requires a traditional UE package template.");
-    Console.WriteLine("P3R uses IoStore format exclusively for game DataTables.");
-    Console.WriteLine("To create the .uasset: use FModel GUI to re-export the original asset");
-    Console.WriteLine("in traditional format, then use UAssetGUI to merge changes.");
+    Console.WriteLine("Next: pack with UnrealPak");
+    Console.WriteLine($"  cd {outDir}");
+    Console.WriteLine($"  UnrealPak.exe \"MyMod_P.pak\" -Create=\"manifest.txt\" -compress");
 }
 
 void CreateTemplate(DefaultFileProvider provider, string virtualPath, string outDir)
@@ -270,4 +278,66 @@ void CreateTemplate(DefaultFileProvider provider, string virtualPath, string out
         Console.Error.WriteLine("Falling back to JSON-only output.");
         Console.Error.WriteLine("You can manually convert using UAssetGUI.");
     }
+}
+
+void CreateFromJsonFile(string jsonPath, string outDir)
+{
+    if (!File.Exists(jsonPath))
+    {
+        Console.Error.WriteLine($"JSON file not found: {jsonPath}");
+        return;
+    }
+
+    Directory.CreateDirectory(outDir);
+
+    var jsonData = JToken.Parse(File.ReadAllText(jsonPath));
+    var assetName = jsonData["Name"]?.Value<string>()
+                    ?? Path.GetFileNameWithoutExtension(jsonPath);
+
+    Console.Error.WriteLine($"Creating .uasset+.uexp from: {jsonPath}");
+    Console.Error.WriteLine($"Asset: {assetName}, Type: {jsonData["Type"]}");
+
+    try
+    {
+        TemplateCreator.CreateFromJson(jsonData, outDir, assetName);
+
+        // Generate manifest.txt
+        var manifestPath = Path.Combine(outDir, "manifest.txt");
+        // Try to determine mount path from the JSON's Type field or from asset name
+        var vpath = GuessVirtualPath(assetName);
+        var mountPath = $"../../../{vpath}";
+        var manifestContent = $"\"{assetName}.uasset\" \"{mountPath}\"\n" +
+                              $"\"{assetName}.uexp\" \"{mountPath.Replace(".uasset", ".uexp")}\"\n";
+        File.WriteAllText(manifestPath, manifestContent);
+        Console.WriteLine($"Manifest: {manifestPath}");
+    }
+    catch (Exception ex)
+    {
+        Console.Error.WriteLine($"Create failed: {ex}");
+    }
+}
+
+string GuessVirtualPath(string assetName)
+{
+    // Map common asset names to their virtual paths
+    var lower = assetName.ToLower();
+    if (lower.Contains("skillnormal")) return "P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset";
+    if (lower.Contains("skilldata")) return "P3R/Content/Xrd777/Battle/Tables/DatSkillDataAsset.uasset";
+    if (lower.Contains("personagrowth")) return "P3R/Content/Xrd777/Battle/Tables/DatPersonaGrowthDataAsset.uasset";
+    if (lower.Contains("personaaffinity")) return "P3R/Content/Xrd777/Battle/Tables/DatPersonaAffinityDataAsset.uasset";
+    if (lower.Contains("personadata")) return "P3R/Content/Xrd777/Battle/Tables/DatPersonaDataAsset.uasset";
+    if (lower.Contains("enemyaffinity")) return "P3R/Content/Xrd777/Battle/Tables/DatEnemyAffinityDataAsset.uasset";
+    if (lower.Contains("enemydata")) return "P3R/Content/Xrd777/Battle/Tables/DatEnemyDataAsset.uasset";
+    if (lower.Contains("encounttable")) return "P3R/Content/Xrd777/Battle/Tables/DatEncountTableDataAsset.uasset";
+    if (lower.Contains("itemcommon")) return "P3R/Content/Xrd777/UI/Tables/DatItemCommonDataAsset.uasset";
+    if (lower.Contains("itemweapon")) return "P3R/Content/Xrd777/UI/Tables/DatItemWeaponDataAsset.uasset";
+    if (lower.Contains("itemarmor")) return "P3R/Content/Xrd777/UI/Tables/DatItemArmorDataAsset.uasset";
+    if (lower.Contains("itemaccs")) return "P3R/Content/Xrd777/UI/Tables/DatItemAccsDataAsset.uasset";
+    if (lower.Contains("itemskillcard")) return "P3R/Content/Xrd777/UI/Tables/DatItemSkillcardDataAsset.uasset";
+    if (lower.Contains("itemmaterial")) return "P3R/Content/Xrd777/UI/Tables/DatItemMaterialDataAsset.uasset";
+    if (lower.Contains("itemcostume")) return "P3R/Content/Xrd777/UI/Tables/DatItemCostumeDataAsset.uasset";
+    if (lower.Contains("itemshoes")) return "P3R/Content/Xrd777/UI/Tables/DatItemShoesDataAsset.uasset";
+    if (lower.Contains("playerlevelup")) return "P3R/Content/Xrd777/Battle/Tables/DatPlayerLevelupDataAsset.uasset";
+    if (lower.Contains("playermaxhpsp")) return "P3R/Content/Xrd777/Battle/Tables/DatPlayerMaxHPSPDataAsset.uasset";
+    return $"P3R/Content/Xrd777/{assetName}.uasset";
 }
