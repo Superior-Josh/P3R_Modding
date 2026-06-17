@@ -10,11 +10,29 @@
 
 构建 **自然语言驱动的 P3R Mod 制作 AI Agent**，对 P3R 进行 Mod 制作，涵盖：数值（技能/Persona/道具）、敌人 AI、文本/本地化、音乐/音频。
 
+### Mod 交付机制
+
+P3R 使用 **Reloaded II + File Emulation Framework** 加载 Mod PAK。不能直接把 .pak 丢进 `Content/Paks/`——游戏只从 IoStore 容器加载 DataTable，传统 PAK 需通过 Reloaded II 的 File Emulation Framework 模拟加载。
+
+```
+P3RDataTools create → .uasset+.uexp → UnrealPak → .pak
+                                                       │
+Reloaded II ← File Emulation Framework ←───────────────┘
+    │
+P3R.exe (Inaba EXE Patcher 解锁 mod 支持)
+```
+
 ## 快速开始
 
 ```powershell
 # 首次使用: 初始化项目
 .\setup.ps1
+
+# 安装 Reloaded II (一次性)
+# 1. 下载: https://github.com/Reloaded-Project/Reloaded-II/releases
+# 2. 解压到任意目录，运行 Reloaded-II.exe
+# 3. 添加 P3R.exe 为应用程序
+# 4. 首次启动会自动安装 P3R Essentials + Inaba EXE Patcher
 
 # 每日使用: 启动 Claude Code
 claude
@@ -143,16 +161,17 @@ P3R_Modding/
 
 ## 资产格式
 
-游戏使用 UE 4.27，资产以两种容器并存：
+游戏使用 UE 4.27，资产以 IoStore 为主要容器，传统 PAK 为辅助：
 
-| 格式 | 文件 | 提取工具 | 状态 |
+| 格式 | 文件 | 提取工具 | 用途 |
 |------|------|---------|------|
-| IoStore | `.utoc` + `.ucas` | FModel (GUI) | 已导出至 `Extracted/IoStore/` |
-| 传统 PAK | `.pak` | UnrealPak (CLI) | 已提取至 `Extracted/pakchunk*/` |
+| IoStore | `.utoc` + `.ucas` | CUE4Parse / FModel | 游戏原生 DataTable 来源（读取） |
+| 传统 PAK | `.pak` | UnrealPak (CLI) | Mod 输出格式（写入，通过 Reloaded II 加载） |
 
 - **Xrd777 > Astrea**：同名资产以 Xrd777 为准
-- **IoStore .uasset 文件头全为零**：无法直接用 UAssetAPI 编辑，需通过 CUE4Parse 读取
-- **写回方案**：直接二进制序列化 — P3RDataTools `create` 从 JSON 生成传统格式 .uasset+.uexp（TemplateCreator.cs），无需 UAssetAPI 中间步骤
+- **IoStore 只读**：游戏从 IoStore 加载 DataTable，无法通过传统 PAK 直接覆盖
+- **Mod 加载链**：P3RDataTools `create` → TemplateCreator 二进制序列化 → UnrealPak 打包 `.pak` → **Reloaded II + File Emulation Framework** → 游戏加载
+- **P3R 不能直接加载 Paks/ 下的 .pak**：必须通过 Reloaded II 的 File Emulation Framework 模拟传统 PAK 挂载
 
 ## 工具链详情
 
@@ -182,11 +201,14 @@ P3R_Modding/
 # 2. 读取原始表
 & $DataTools read "P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset" skills.json
 
-# 3. 编辑 skills.json，然后直接生成 .uasset+.uexp
+# 3. 编辑 skills.json，然后生成 .uasset+.uexp + .pak
 & $DataTools create skills_modified.json .\mod\
 
-# 4. 或使用全自动编排脚本
+# 4. 全自动编排 (read -> modify -> create -> pack)
 .\tools\scripts\modify-and-repack.ps1 -TableKey Skills -ModScript .\my-changes.ps1 -ModName "MyMod"
+
+# 5. 安装: 将 .pak 放入 Reloaded II mod 目录
+#    <Reloaded-II>/Mods/<MyMod>/FEmulator/PAK/<MyMod>.pak
 ```
 
 ### 编排脚本
@@ -197,18 +219,33 @@ P3R_Modding/
 # 直接指定虚拟路径
 .\tools\scripts\modify-and-repack.ps1 -VirtualPath "P3R/Content/Xrd777/..." -ModName "MyMod"
 
-# 只生成 .uasset+.uexp, 不打包 PAK
+# 只生成 .uasset+.uexp + manifest, 不打包 PAK
 .\tools\scripts\modify-and-repack.ps1 -TableKey Skills -NoPack
 ```
+
+### Mod 安装（Reloaded II）
+
+```
+Reloaded-II/
+└── Mods/
+    └── <ModName>/
+        ├── ModConfig.json              ← Mod 元数据
+        └── FEmulator/
+            └── PAK/
+                └── <ModName>.pak       ← 我们的产物
+```
+
+Mod 通过 Reloaded II 启动游戏后生效。File Emulation Framework 自动模拟传统 PAK 挂载，将 .pak 中的资产注入游戏。
 
 ## 关键约束
 
 - **UE 版本**：4.27（pak version 11），UnrealPak 和 CUE4Parse 均需匹配
 - **Xrd777 > Astrea**：同名资产以 Xrd777 为准
 - **CUE4Parse = 1.1.1**：不要升级到 1.2.2（Zlib 初始化失败）
-- **Mod PAK 命名**：`_P` 后缀 = 最高优先级
+- **P3R 不直接加载 Paks/ 下的 .pak**：必须通过 Reloaded II + File Emulation Framework 加载
+- **Mod PAK 不加密**（UnrealPak 不需要 `-encrypt`）
+- **IoStore 只读**：DataTable 从 IoStore 读取（CUE4Parse），修改后通过 Reloaded II 以传统 PAK 形式注入
 - **Crypto.json 必须简化**（不含 `$types` 字典）
-- **IoStore 写回**：通过 TemplateCreator.cs 直接二进制序列化解决
 
 ## 常见问题排查
 
@@ -216,15 +253,33 @@ P3R_Modding/
 
 ```
 检查清单:
-□ PAK 文件名是否以 _P.pak 结尾
-□ PAK 是否放在正确的 Paks/ 目录
-□ 是否有其他同名资产覆盖了你的 Mod
-□ 文件系统是否为 NTFS (大小写敏感)
+□ 是否通过 Reloaded II 启动游戏（不是 Steam/快捷方式）
+□ PAK 是否放在 <Reloaded-II>/Mods/<ModName>/FEmulator/PAK/ 下
+□ ModConfig.json 是否包含 reloaded.universal.fileemulationframework.pak 依赖
+□ .uasset+.uexp 成对打包
+□ Manifest mount point 路径是否正确: "../../../P3R/Content/..."
 
 调试方法:
+  Reloaded II → 右键 Mod → 查看日志
   用 FModel 加载你的 Mod PAK → 检查内部路径是否正确
-  游戏启动参数加 -log → 搜索 "MountPak" → 确认 PAK 被加载
-  log 中搜索你的资产路径 → 确认加载来源
+  确认 Inaba EXE Patcher 已安装并启用
+```
+
+### 游戏崩溃（通过 Reloaded II 启动时）
+
+```
+症状: Reloaded II 启动游戏后崩溃
+原因:
+  1. UnrealPak 版本不匹配 (必须 UE 4.27)
+  2. .uasset 版本号不兼容（TemplateCreator 二进制格式问题）
+  3. 缺少 .uexp (只打包了 .uasset)
+  4. 资产引用路径错误 (manifest mount point)
+
+解决:
+  - 运行 setup.ps1 验证 UnrealPak 版本
+  - 确保 .uasset + .uexp 成对发布
+  - 检查 manifest.txt: "../../../P3R/Content/..."
+  - 暂时禁用 Mod → 确认游戏本身正常 → 逐个启用排查
 ```
 
 ### 游戏崩溃

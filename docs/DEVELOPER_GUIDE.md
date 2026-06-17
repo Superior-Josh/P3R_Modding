@@ -287,36 +287,57 @@ dotnet publish -c Release --self-contained -r win-x64 -o publish
 
 ## 八、调试指南
 
+## 九、Mod 安装指南 (Reloaded II)
+
+P3R **不支持**直接把 .pak 丢进 `Content/Paks/` 加载。所有 Mod 必须通过 **Reloaded II** 模组管理器加载。
+
+### 一次性安装 Reloaded II
+
+1. 下载 Reloaded II: https://github.com/Reloaded-Project/Reloaded-II/releases
+2. 解压到任意目录（如 `C:\Reloaded-II\`）
+3. 运行 `Reloaded-II.exe`，点击 "Add Application" → 选择 `P3R.exe`
+4. 首次启动会自动安装 **P3R Essentials** + **Inaba EXE Patcher**
+5. 确认 File Emulation Framework (`reloaded.universal.fileemulationframework.pak`) 已安装
+
+### 安装 Mod PAK
+
+将我们生成的 .pak 放入 Reloaded II 目录结构：
+
+```
+<Reloaded-II>/
+└── Mods/
+    └── <ModName>/
+        ├── ModConfig.json              ← 需手动创建
+        └── FEmulator/
+            └── PAK/
+                └── <ModName>.pak       ← 我们的产物
+```
+
+`ModConfig.json` 示例：
+
+```json
+{
+  "ModId": "MyMod",
+  "ModName": "My P3R Mod",
+  "ModVersion": "1.0.0",
+  "ModDependencies": ["reloaded.universal.fileemulationframework.pak"]
+}
+```
+
+### 启动
+
+通过 Reloaded II 启动游戏 → Mod 自动生效。**不能用 Steam 快捷方式启动**。
+
 ### Mod 不生效
 
 ```
 检查清单:
-□ PAK 文件名是否以 _P.pak 结尾
-□ PAK 是否放在正确的 Paks/ 目录 (~mods/ 或 Content/Paks/)
-□ 是否有其他同名资产覆盖了你的 Mod (Xrd777 > Astrea)
-□ 文件系统是否为 NTFS (大小写敏感)
-
-调试方法:
-  用 FModel 加载你的 Mod PAK → 检查内部路径是否正确
-  游戏启动参数加 -log → 搜索 "MountPak" → 确认 PAK 被加载
-  log 中搜索你的资产路径 → 确认加载来源
+□ 是否通过 Reloaded II 启动游戏（不是 Steam/快捷方式）
+□ PAK 是否放在 FEmulator/PAK/ 下
+□ ModConfig.json 是否包含 File Emulation Framework 依赖
+□ Inaba EXE Patcher 是否已安装并启用
+□ .uasset+.uexp 成对打包
 ```
-
-### 游戏崩溃
-
-```
-症状: 打包 Mod PAK 后游戏崩溃在启动时
-
-原因:
-  1. UnrealPak 版本不匹配 (必须 UE 4.27)
-  2. .uasset 版本号不兼容 (检查 UE4 Package Version)
-  3. 缺少 .uexp (只打包了 .uasset)
-  4. 资产引用路径错误 (manifest mount point 格式不对)
-
-解决:
-  - 运行 setup.ps1 验证 UnrealPak 版本
-  - 确保 .uasset + .uexp 成对发布
-  - 检查 manifest.txt: "../../../P3R/Content/..."
   - 用 -log -verbose 启动游戏定位崩溃资产
 ```
 

@@ -91,7 +91,9 @@ T0.6 (Git配置) ─────────────────────
 - [x] `tools/P3RDataTools/Program.cs` 更新（`create` 命令 + `CreateUassetFromJson` 重写）
 - [x] `tools/scripts/modify-and-repack.ps1` 全自动编排（read→modify→create→pack）
 - [x] 往返测试：read → modify → create → verify (Magic=C1832A9E)
-- [ ] 游戏加载测试报告（至少 1 个表验证通过）← **待人工**
+- [x] 游戏加载测试：**P3R 不能直接加载 Paks/ 下的 .pak**（IoStore 优先）
+- [x] 解决方案：**Reloaded II + File Emulation Framework**（P3R mod 社区标准方案）
+- [ ] T1.6 最终验证：通过 Reloaded II 加载 TestLoad_P.pak 并确认数据生效 ← **待人工**
 
 ### 任务依赖图
 
