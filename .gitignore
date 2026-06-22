@@ -20,12 +20,10 @@ tools/FModel.exe
 tools/UAssetGUI/
 tools/UnrealPakTool/
 
-# ── P3RDataTools 构建产物 ─────────────────────────────────
-tools/P3RDataTools/bin/
-tools/P3RDataTools/obj/
-tools/P3RDataTools/publish/
+# ── Reloaded II 模组加载器 (大型二进制分布, 不提交) ─────────
+tools/Reloaded II/
 
-# ── Mod 产物 (生成文件, 不提交) ────────────────────────────
+# ── Mod 安装产物 (在 Reloaded II mods 目录下, 不提交) ────────
 tools/Output/mod/
 tools/Output/.backup/
 tools/Output/.data/

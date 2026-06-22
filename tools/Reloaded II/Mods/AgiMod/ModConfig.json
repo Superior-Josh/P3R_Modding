@@ -1,8 +1,0 @@
-﻿{
-  "ModId": "AgiMod",
-  "ModName": "Agi Power 1000",
-  "ModVersion": "1.0.0",
-  "ModDescription": "Changes Agi base damage from 15 to 1000",
-  "SupportedAppId": ["p3r.exe"],
-  "ModDependencies": ["reloaded.universal.fileemulationframework.pak"]
-}
