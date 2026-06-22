@@ -72,16 +72,40 @@ if ($NoPack) {
     $pakFile = "$modPakDir\$ModName`_P.pak"
     $manifestFile = "$workDir\manifest.txt"
 
-    Push-Location $workDir
-    $null = & $UnrealPak $pakFile -Create="$manifestFile" -compress 2>&1
+    # UnrealPak resolves source file paths relative to its EXE directory,
+    # NOT the current working directory. We need absolute source paths.
+    # Strategy: create a temp manifest with absolute paths, pack from UnrealPak dir.
+    $absManifestFile = "$workDir\manifest_abs.txt"
+    $absUasset = (Resolve-Path "$workDir\$assetName.uasset").Path
+    $absUexp = (Resolve-Path "$workDir\$assetName.uexp").Path
+    # Extract mount path from the original manifest (it has the right format)
+    $mountLines = Get-Content $manifestFile
+    $mountUasset = ($mountLines[0] -split '"')[3]
+    $mountUexp = ($mountLines[1] -split '"')[3]
+    @"
+"$absUasset" "$mountUasset"
+"$absUexp" "$mountUexp"
+"@ | Out-File $absManifestFile -Encoding ASCII
+
+    $unrealPakDir = Split-Path $UnrealPak -Parent
+    Push-Location $unrealPakDir
+    $result = & $UnrealPak $pakFile "-Create=$absManifestFile" -compress 2>&1
     Pop-Location
 
     if ($LASTEXITCODE -eq 0 -and (Test-Path $pakFile)) {
         $pakSize = [math]::Round((Get-Item $pakFile).Length / 1KB, 1)
-        Write-Host "  PAK created: $pakFile ($pakSize KB)" -ForegroundColor Green
+        # Empty PAK is ~0.4 KB (header only). A real PAK with data is > 5 KB.
+        if ($pakSize -lt 1) {
+            Write-Host "  WARNING: PAK is suspiciously small ($pakSize KB) — may be empty!" -ForegroundColor Red
+            Write-Host "  UnrealPak likely couldn't find the source files." -ForegroundColor Red
+            Write-Host "  Check that .uasset and .uexp exist: $workDir" -ForegroundColor DarkYellow
+        } else {
+            Write-Host "  PAK created: $pakFile ($pakSize KB)" -ForegroundColor Green
+        }
     } else {
         Write-Host "  PAK packing may have failed. Check output above." -ForegroundColor Yellow
         Write-Host "  Manifest: $manifestFile" -ForegroundColor DarkYellow
+        Write-Host "  UnrealPak output: $result" -ForegroundColor DarkYellow
     }
 } else {
     Write-Host "  UnrealPak not found. Manual pack:" -ForegroundColor DarkYellow
@@ -97,10 +121,14 @@ $reloadedPakDir = "$reloadedModDir\FEmulator\PAK"
 if (Test-Path $reloadedModDir) { Remove-Item -Recurse -Force $reloadedModDir }
 New-Item -ItemType Directory -Force $reloadedPakDir | Out-Null
 
-# Copy PAK
+# Copy PAK only if it has meaningful content (>1KB)
 $srcPak = "$modPakDir\$ModName`_P.pak"
-if (Test-Path $srcPak) {
+if ((Test-Path $srcPak) -and ((Get-Item $srcPak).Length -gt 1024)) {
     Copy-Item $srcPak -Destination "$reloadedPakDir\$ModName.pak" -Force
+    Write-Host "  FEmulator/PAK/$ModName.pak ($([math]::Round((Get-Item "$reloadedPakDir\$ModName.pak").Length/1KB,1)) KB)"
+} elseif (Test-Path $srcPak) {
+    Write-Host "  WARNING: PAK too small, skipping Reloaded II install" -ForegroundColor Red
+    Write-Host "  Manual pack required: cd $workDir; UnrealPak.exe ..." -ForegroundColor Red
 }
 
 # Write canonical ModConfig.json

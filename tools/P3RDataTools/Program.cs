@@ -80,7 +80,7 @@ try
 }
 catch (Exception ex)
 {
-    Console.Error.WriteLine($"FATAL: {ex}");
+    Console.Error.WriteLine($"FATAL: {ex.Message}");
     return 1;
 }
 
@@ -98,24 +98,35 @@ DefaultFileProvider CreateProvider(string dir, string key)
 void ReadToJson(DefaultFileProvider provider, string virtualPath, string? outputPath)
 {
     Console.Error.WriteLine($"Loading: {virtualPath}");
-    var exports = provider.LoadAllObjects(virtualPath);
-    var result = new JArray();
-    foreach (var obj in exports)
+    try
     {
-        try
+        var exports = provider.LoadAllObjects(virtualPath);
+        var result = new JArray();
+        foreach (var obj in exports)
         {
-            var json = JsonConvert.SerializeObject(obj, new JsonSerializerSettings
+            try
             {
-                ReferenceLoopHandling = ReferenceLoopHandling.Ignore, MaxDepth = 8,
-                Error = (_, e) => e.ErrorContext.Handled = true
-            });
-            result.Add(JToken.Parse(json));
+                var json = JsonConvert.SerializeObject(obj, new JsonSerializerSettings
+                {
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore, MaxDepth = 8,
+                    Error = (_, e) => e.ErrorContext.Handled = true
+                });
+                result.Add(JToken.Parse(json));
+            }
+            catch (Exception ex) { result.Add(new JObject { ["error"] = ex.Message, ["name"] = obj.Name }); }
         }
-        catch (Exception ex) { result.Add(new JObject { ["error"] = ex.Message, ["name"] = obj.Name }); }
+        var final = result.Count == 1 ? result[0].ToString(Formatting.Indented) : result.ToString(Formatting.Indented);
+        if (outputPath != null) { File.WriteAllText(outputPath, final); Console.WriteLine($"Saved: {outputPath} ({final.Length} chars)"); }
+        else Console.WriteLine(final);
     }
-    var final = result.Count == 1 ? result[0].ToString(Formatting.Indented) : result.ToString(Formatting.Indented);
-    if (outputPath != null) { File.WriteAllText(outputPath, final); Console.WriteLine($"Saved: {outputPath} ({final.Length} chars)"); }
-    else Console.WriteLine(final);
+    catch (Exception ex)
+    {
+        Console.Error.WriteLine($"ERROR: Asset not found or failed to load: {virtualPath}");
+        Console.Error.WriteLine($"  Reason: {ex.GetBaseException().Message}");
+        Console.Error.WriteLine($"  Hint: Check the virtual path. Example valid path:");
+        Console.Error.WriteLine($"    P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset");
+        throw;
+    }
 }
 
 void BatchExport(DefaultFileProvider provider, string filter, string outDir)
@@ -158,7 +169,20 @@ void ModifyAsset(DefaultFileProvider provider, string virtualPath, string jsonOr
 
     // Step 1: Read the original asset to get the schema
     Console.Error.WriteLine($"Reading original: {virtualPath}");
-    var exports = provider.LoadAllObjects(virtualPath).ToList();
+    List<CUE4Parse.UE4.Assets.Exports.UObject> exports;
+    try
+    {
+        exports = provider.LoadAllObjects(virtualPath).ToList();
+    }
+    catch (Exception ex)
+    {
+        Console.Error.WriteLine($"ERROR: Asset not found or failed to load: {virtualPath}");
+        Console.Error.WriteLine($"  Reason: {ex.GetBaseException().Message}");
+        Console.Error.WriteLine($"  Hint: Check the virtual path. Example valid path:");
+        Console.Error.WriteLine($"    P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset");
+        return;
+    }
+
     if (!exports.Any()) { Console.Error.WriteLine("No exports found"); return; }
 
     var originalObj = exports[0];
@@ -224,19 +248,23 @@ void CreateUassetFromJson(JToken jsonData, string exportType, string outDir, str
     // Use TemplateCreator to generate traditional-format .uasset+.uexp from JSON data
     TemplateCreator.CreateFromJson(jsonData, outDir, assetName);
 
-    // Generate manifest.txt for UnrealPak
+    // Generate manifest.txt for UnrealPak with absolute source paths
+    // UnrealPak resolves source file paths relative to its EXE directory,
+    // so we use absolute paths to ensure it always finds the files.
     var manifestPath = Path.Combine(outDir, "manifest.txt");
+    var absUasset = Path.GetFullPath(Path.Combine(outDir, $"{assetName}.uasset"));
+    var absUexp = Path.GetFullPath(Path.Combine(outDir, $"{assetName}.uexp"));
     var mountPath = $"../../../{originalVPath}";
-    var manifestContent = $"\"{assetName}.uasset\" \"{mountPath}\"\n" +
-                          $"\"{assetName}.uexp\" \"{mountPath.Replace(".uasset", ".uexp")}\"\n";
+    var manifestContent = $"\"{absUasset}\" \"{mountPath}\"\n" +
+                          $"\"{absUexp}\" \"{mountPath.Replace(".uasset", ".uexp")}\"\n";
     File.WriteAllText(manifestPath, manifestContent);
 
     Console.WriteLine($"Manifest: {manifestPath}");
     Console.WriteLine($"Mount point: {mountPath}");
     Console.WriteLine();
     Console.WriteLine("Next: pack with UnrealPak");
-    Console.WriteLine($"  cd {outDir}");
-    Console.WriteLine($"  UnrealPak.exe \"MyMod_P.pak\" -Create=\"manifest.txt\" -compress");
+    Console.WriteLine($"  cd {Path.GetFullPath(outDir)}");
+    Console.WriteLine($"  UnrealPak.exe \"MyMod_P.pak\" -Create=\"{manifestPath}\" -compress");
 }
 
 void CreateTemplate(DefaultFileProvider provider, string virtualPath, string outDir)
@@ -301,13 +329,15 @@ void CreateFromJsonFile(string jsonPath, string outDir)
     {
         TemplateCreator.CreateFromJson(jsonData, outDir, assetName);
 
-        // Generate manifest.txt
+        // Generate manifest.txt with absolute source paths
+        // UnrealPak resolves source file paths relative to its EXE directory
         var manifestPath = Path.Combine(outDir, "manifest.txt");
-        // Try to determine mount path from the JSON's Type field or from asset name
+        var absUasset = Path.GetFullPath(Path.Combine(outDir, $"{assetName}.uasset"));
+        var absUexp = Path.GetFullPath(Path.Combine(outDir, $"{assetName}.uexp"));
         var vpath = GuessVirtualPath(assetName);
         var mountPath = $"../../../{vpath}";
-        var manifestContent = $"\"{assetName}.uasset\" \"{mountPath}\"\n" +
-                              $"\"{assetName}.uexp\" \"{mountPath.Replace(".uasset", ".uexp")}\"\n";
+        var manifestContent = $"\"{absUasset}\" \"{mountPath}\"\n" +
+                              $"\"{absUexp}\" \"{mountPath.Replace(".uasset", ".uexp")}\"\n";
         File.WriteAllText(manifestPath, manifestContent);
         Console.WriteLine($"Manifest: {manifestPath}");
     }
