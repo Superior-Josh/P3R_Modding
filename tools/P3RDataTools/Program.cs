@@ -209,7 +209,14 @@ void ModifyAsset(DefaultFileProvider provider, string virtualPath, string jsonOr
         if (token == null) { Console.Error.WriteLine($"Path not found: {jsonOrProperty}"); return; }
         if (double.TryParse(value, out var d)) token.Replace(d);
         else if (int.TryParse(value, out var i)) token.Replace(i);
-        else token.Replace(value);
+        else if (token.Type == JTokenType.String)
+            token.Replace(value);
+        else
+        {
+            Console.Error.WriteLine($"ERROR: Cannot assign non-numeric value '{value}' to field '{jsonOrProperty}' (type: {token.Type}).");
+            Console.Error.WriteLine("  This DataTable field expects a number. Use a numeric value.");
+            return;
+        }
         Console.Error.WriteLine($"Modified {jsonOrProperty}: {value}");
     }
     else
@@ -272,7 +279,20 @@ void CreateTemplate(DefaultFileProvider provider, string virtualPath, string out
     Directory.CreateDirectory(outDir);
 
     Console.Error.WriteLine($"Reading IoStore DataTable: {virtualPath}");
-    var exports = provider.LoadAllObjects(virtualPath).ToList();
+    List<CUE4Parse.UE4.Assets.Exports.UObject> exports;
+    try
+    {
+        exports = provider.LoadAllObjects(virtualPath).ToList();
+    }
+    catch (Exception ex)
+    {
+        Console.Error.WriteLine($"ERROR: Asset not found or failed to load: {virtualPath}");
+        Console.Error.WriteLine($"  Reason: {ex.GetBaseException().Message}");
+        Console.Error.WriteLine($"  Hint: Check the virtual path. Example valid path:");
+        Console.Error.WriteLine($"    P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset");
+        return;
+    }
+
     if (!exports.Any())
     {
         Console.Error.WriteLine("No exports found");

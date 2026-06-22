@@ -37,9 +37,13 @@ Write-Host "Original: $Original"
 Write-Host "Modified: $Modified"
 Write-Host ""
 
-# Load both JSONs
-$orig = Get-Content $Original -Raw -Encoding UTF8 | ConvertFrom-Json -Depth 100
-$mod = Get-Content $Modified -Raw -Encoding UTF8 | ConvertFrom-Json -Depth 100
+# Load both JSONs. PowerShell 5.1 ConvertFrom-Json doesn't support -Depth, so we
+# parse the raw JSON strings and diff them directly for known DataTable shape.
+$origContent = Get-Content $Original -Raw -Encoding UTF8
+$modContent = Get-Content $Modified -Raw -Encoding UTF8
+
+try { $orig = $origContent | ConvertFrom-Json } catch { Write-Error "Failed to parse original JSON: $_"; exit 1 }
+try { $mod = $modContent | ConvertFrom-Json } catch { Write-Error "Failed to parse modified JSON: $_"; exit 1 }
 
 # Compare Data arrays if they exist
 $origData = $orig.Properties.Data
