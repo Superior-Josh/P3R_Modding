@@ -89,7 +89,32 @@ if ($NoPack) {
     Write-Host "    UnrealPak.exe `"../$ModName`_P.pak`" -Create=`"manifest.txt`" -compress"
 }
 
-# Summary
+# Summary + Install to Reloaded II
+$reloadedModDir = "$ProjectRoot\tools\Reloaded II\Mods\$ModName"
+$reloadedPakDir = "$reloadedModDir\FEmulator\PAK"
+
+# Create Reloaded II Mod directory
+if (Test-Path $reloadedModDir) { Remove-Item -Recurse -Force $reloadedModDir }
+New-Item -ItemType Directory -Force $reloadedPakDir | Out-Null
+
+# Copy PAK
+$srcPak = "$modPakDir\$ModName`_P.pak"
+if (Test-Path $srcPak) {
+    Copy-Item $srcPak -Destination "$reloadedPakDir\$ModName.pak" -Force
+}
+
+# Write canonical ModConfig.json
+@"
+{
+  "ModId": "$ModName",
+  "ModName": "$ModName",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Auto-generated mod for $assetName",
+  "SupportedAppId": ["p3r.exe"],
+  "ModDependencies": ["reloaded.universal.fileemulationframework.pak"]
+}
+"@ | Out-File "$reloadedModDir\ModConfig.json" -Encoding UTF8
+
 Write-Host ""
 Write-Host "============================================" -ForegroundColor Green
 Write-Host " Pipeline Complete" -ForegroundColor Green
@@ -99,5 +124,8 @@ Write-Host "Output files in: $workDir"
 Get-ChildItem $workDir | ForEach-Object { Write-Host "  $($_.Name) ($([math]::Round($_.Length/1KB,1)) KB)" }
 if (-not $NoPack -and (Test-Path $UnrealPak)) {
     Write-Host ""
-    Write-Host "Install: Copy $ModName_P.pak to game Paks/ directory"
+    Write-Host "Reloaded II Mod installed: $reloadedModDir"
+    Write-Host "  FEmulator/PAK/$ModName.pak ($([math]::Round((Get-Item "$reloadedPakDir\$ModName.pak").Length/1KB,1)) KB)"
+    Write-Host ""
+    Write-Host "Install: Copy $ModName_P.pak to Reloaded II Mods/$ModName/FEmulator/PAK/"
 }

@@ -229,11 +229,30 @@ P3R_Modding/
 Reloaded-II/
 └── Mods/
     └── <ModName>/
-        ├── ModConfig.json              ← Mod 元数据
+        ├── ModConfig.json              ← Mod 元数据 (含 SupportedAppId)
         └── FEmulator/
             └── PAK/
                 └── <ModName>.pak       ← 我们的产物
 ```
+
+### ModConfig.json 模板
+
+Reloaded II 的 ModConfig.json 必须包含以下字段：
+
+```json
+{
+  "ModId": "<唯一ID>",
+  "ModName": "<显示名称>",
+  "ModVersion": "1.0.0",
+  "ModDescription": "<描述>",
+  "SupportedAppId": ["p3r.exe"],
+  "ModDependencies": ["reloaded.universal.fileemulationframework.pak"]
+}
+```
+
+- **`SupportedAppId`**: 必须包含 `"p3r.exe"`，否则 Reloaded II 不会为 P3R 加载此 Mod
+- **`ModDependencies`**: 依赖 File Emulation Framework 的 PAK 模拟层
+- **`ModId`**: 唯一标识符，不可与其他 Mod 重复
 
 Mod 通过 Reloaded II 启动游戏后生效。File Emulation Framework 自动模拟传统 PAK 挂载，将 .pak 中的资产注入游戏。
 

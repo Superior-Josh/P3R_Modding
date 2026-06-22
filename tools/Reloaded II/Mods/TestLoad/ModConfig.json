@@ -1,0 +1,8 @@
+﻿{
+  "ModId": "TestLoad",
+  "ModName": "P3R TestLoad - Flat Leveling",
+  "ModVersion": "1.0.0",
+  "ModDescription": "T1.6 game loading test: all levels require 1 EXP",
+  "SupportedAppId": ["p3r.exe"],
+  "ModDependencies": ["reloaded.universal.fileemulationframework.pak"]
+}
