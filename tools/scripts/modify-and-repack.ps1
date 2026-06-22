@@ -108,6 +108,7 @@ if (Test-Path $srcPak) {
 {
   "ModId": "$ModName",
   "ModName": "$ModName",
+  "ModAuthor": "claude",
   "ModVersion": "1.0.0",
   "ModDescription": "Auto-generated mod for $assetName",
   "SupportedAppId": ["p3r.exe"],
