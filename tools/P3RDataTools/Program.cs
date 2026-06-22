@@ -207,10 +207,10 @@ void ModifyAsset(DefaultFileProvider provider, string virtualPath, string jsonOr
         modifiedData = originalJson.DeepClone();
         var token = modifiedData.SelectToken(jsonOrProperty);
         if (token == null) { Console.Error.WriteLine($"Path not found: {jsonOrProperty}"); return; }
-        if (double.TryParse(value, out var d)) token.Replace(d);
-        else if (int.TryParse(value, out var i)) token.Replace(i);
-        else if (token.Type == JTokenType.String)
+        if (token.Type == JTokenType.String)
             token.Replace(value);
+        else if (double.TryParse(value, out var d)) token.Replace(d);
+        else if (int.TryParse(value, out var i)) token.Replace(i);
         else
         {
             Console.Error.WriteLine($"ERROR: Cannot assign non-numeric value '{value}' to field '{jsonOrProperty}' (type: {token.Type}).");

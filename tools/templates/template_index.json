@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "description": "P3R DataTable 传统格式模板索引 — Sprint 0 T0.1 产物",
+  "version": "1.1",
+  "description": "P3R DataTable 传统格式模板索引 — Sprint 0 T0.1 产物 (sampleFields 已由实际 JSON 结构更新)",
   "exportDate": null,
   "exportTool": "FModel (GUI) → Export Folder's Packages Raw",
   "instructions": "用 FModel GUI 打开 IoStore 容器 → 右键 DataTable → Export Folder's Packages Raw → 获取 .uasset+.uexp 对 → 按此索引命名存入 templates/",
@@ -14,9 +14,10 @@
       "category": "Battle",
       "description": "技能数值 — 伤害倍率、SP消耗、命中率、状态异常几率",
       "rowCount": 1632,
-      "sampleFields": ["flag", "use", "koukatype", "costtype", "cost", "costbase", "targettype", "targetarea", "targetrule", "hitratio", "targetcntmin", "targetcntmax", "hptype", "hpn", "sptype", "spn", "badtype", "badratio", "badstatus", "support", "program", "criticalratio", "swoonratio"],
+      "sampleFields": ["flag", "use", "koukatype", "costtype", "cost", "costbase", "targettype", "targetarea", "targetrule", "untargetbadstat", "hitratio", "targetcntmin", "targetcntmax", "hptype", "hpn", "sptype", "spn", "badtype", "badratio", "badstatus", "support", "program", "criticalratio", "swoonratio"],
       "hasBMDText": true,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "skillMeta",
@@ -26,9 +27,10 @@
       "category": "Battle",
       "description": "技能元数据 — 名称、属性类型、图标、描述",
       "rowCount": 1633,
-      "sampleFields": ["ID", "Name", "Attr", "Type", "Icon", "EffectType"],
+      "sampleFields": ["attr", "type", "targetLv"],
       "hasBMDText": true,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "personas",
@@ -38,9 +40,10 @@
       "category": "Battle",
       "description": "Persona 基础数据 — 种族、初始等级、初始五维属性",
       "rowCount": 228,
-      "sampleFields": ["ID", "Race", "Level", "Stats"],
+      "sampleFields": ["flag", "race", "level", "params", "breakage", "succession", "conception", "message"],
       "hasBMDText": false,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "personaGrowth",
@@ -50,9 +53,10 @@
       "category": "Battle",
       "description": "Persona 成长数据 — 等级→习得技能、属性成长值",
       "rowCount": 228,
-      "sampleFields": ["ID", "SkillList", "StatusGrowth"],
+      "sampleFields": ["paramsUp", "skillEvent"],
       "hasBMDText": false,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "personaAffinity",
@@ -62,9 +66,10 @@
       "category": "Battle",
       "description": "Persona 耐性 — 斩/打/贯/火/冰/雷/风/光/暗的耐/弱/反/吸",
       "rowCount": 228,
-      "sampleFields": ["ID", "Slash", "Strike", "Pierce", "Fire", "Ice", "Electric", "Wind", "Light", "Dark"],
+      "sampleFields": ["attr"],
       "hasBMDText": false,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "enemies",
@@ -74,9 +79,10 @@
       "category": "Battle",
       "description": "敌人基础数据 — HP、等级、掉落道具、经验/金钱",
       "rowCount": 544,
-      "sampleFields": ["ID", "Name", "Level", "Race", "Hp", "Sp", "Exp", "Gold", "DropItem"],
+      "sampleFields": ["flags", "race", "level", "maxhp", "maxsp", "params", "skill", "exp", "money", "item", "eventitem", "attack"],
       "hasBMDText": true,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "enemyAffinity",
@@ -86,9 +92,10 @@
       "category": "Battle",
       "description": "敌人耐性 — 属性相性、异常状态耐性",
       "rowCount": 544,
-      "sampleFields": ["ID", "Slash", "Strike", "Pierce", "Fire", "Ice", "Electric", "Wind", "Light", "Dark", "Ailment"],
+      "sampleFields": ["attr"],
       "hasBMDText": false,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "encounters",
@@ -98,9 +105,10 @@
       "category": "Battle",
       "description": "遇敌表 — 楼层→敌人组合、出现概率",
       "rowCount": 1200,
-      "sampleFields": ["ID", "Stage", "EnemyGroup", "Rate", "Flag"],
+      "sampleFields": ["flags", "party_item", "party_item_num", "id", "major", "minor", "sound", "shuffleLevel"],
       "hasBMDText": false,
-      "priority": "P1"
+      "priority": "P1",
+      "structure": "flat"
     },
     {
       "id": "items",
@@ -112,7 +120,8 @@
       "rowCount": 496,
       "sampleFields": ["ItemDef", "SortNum", "BtlSortNum", "ItemType", "UsePlaceID", "Rarity", "Tier", "HP", "SP", "Strength", "Magic", "Endurance", "Agility", "Luck", "SkillID", "Price", "SellPrice", "GetFLG"],
       "hasBMDText": true,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "weapons",
@@ -122,9 +131,10 @@
       "category": "UI_Tables",
       "description": "武器 — 攻击力、命中、适用角色",
       "rowCount": 320,
-      "sampleFields": ["ItemDef", "SortNum", "BtlSortNum", "ItemType", "Equip", "Rarity", "Tier", "HP", "SP", "Strength", "Magic", "Endurance", "Agility", "Luck", "SkillID", "Attack", "Accuracy", "Price", "SellPrice"],
+      "sampleFields": ["ItemDef", "SortNum", "WeaponType", "EquipID", "AttrID", "Rarity", "Tier", "Attack", "Accuracy", "Strength", "Magic", "Endurance", "Agility", "Luck", "SkillID", "Price", "SellPrice", "GetFLG", "ModelID", "Flags"],
       "hasBMDText": true,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "armor",
@@ -134,9 +144,10 @@
       "category": "UI_Tables",
       "description": "防具 — 防御力、回避、适用角色",
       "rowCount": 192,
-      "sampleFields": ["ItemDef", "SortNum", "BtlSortNum", "ItemType", "Equip", "Rarity", "Tier", "HP", "SP", "Strength", "Magic", "Endurance", "Agility", "Luck", "SkillID", "Defense", "Evasion", "Price", "SellPrice"],
+      "sampleFields": ["ItemDef", "SortNum", "ItemType", "EquipID", "Rarity", "Tier", "Defence", "Strength", "Magic", "Endurance", "Agility", "Luck", "SkillID", "Price", "SellPrice", "GetFLG"],
       "hasBMDText": true,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "accessories",
@@ -146,9 +157,10 @@
       "category": "UI_Tables",
       "description": "饰品 — 附加属性、技能效果",
       "rowCount": 256,
-      "sampleFields": ["ItemDef", "SortNum", "BtlSortNum", "ItemType", "Equip", "Rarity", "Tier", "HP", "SP", "Strength", "Magic", "Endurance", "Agility", "Luck", "SkillID", "Price", "SellPrice"],
+      "sampleFields": ["ItemDef", "SortNum", "ItemType", "EquipID", "Rarity", "Tier", "Strength", "Magic", "Endurance", "Agility", "Luck", "SkillID", "Price", "SellPrice", "GetFLG"],
       "hasBMDText": true,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "skillCards",
@@ -158,9 +170,10 @@
       "category": "UI_Tables",
       "description": "技能卡 — 包含技能ID、价格",
       "rowCount": 188,
-      "sampleFields": ["ItemDef", "SortNum", "BtlSortNum", "ItemType", "Rarity", "Tier", "SkillID", "Price", "SellPrice"],
+      "sampleFields": ["ItemDef", "SortNum", "ItemType", "Rarity", "Tier", "SkillID", "Price", "SellPrice", "GetFLG"],
       "hasBMDText": true,
-      "priority": "P0"
+      "priority": "P0",
+      "structure": "flat"
     },
     {
       "id": "material",
@@ -170,9 +183,10 @@
       "category": "UI_Tables",
       "description": "交换材料 — 稀有度、价格",
       "rowCount": 128,
-      "sampleFields": ["ItemDef", "SortNum", "BtlSortNum", "ItemType", "Rarity", "Tier", "Price", "SellPrice"],
+      "sampleFields": ["ItemDef", "SortNum", "ItemType", "Rarity", "Price", "SellPrice", "GetFLG"],
       "hasBMDText": true,
-      "priority": "P1"
+      "priority": "P1",
+      "structure": "flat"
     },
     {
       "id": "costume",
@@ -182,9 +196,10 @@
       "category": "UI_Tables",
       "description": "服装 — 外观ID、适用角色",
       "rowCount": 96,
-      "sampleFields": ["ItemDef", "SortNum", "ItemType", "Equip", "CostumeID", "Price"],
+      "sampleFields": ["ItemDef", "SortNum", "ItemType", "EquipID", "Price", "SellPrice", "GetFLG", "ReflectType", "CostumeID"],
       "hasBMDText": true,
-      "priority": "P2"
+      "priority": "P2",
+      "structure": "flat"
     },
     {
       "id": "shoes",
@@ -194,9 +209,10 @@
       "category": "UI_Tables",
       "description": "鞋子 — 防御力、适用角色",
       "rowCount": 128,
-      "sampleFields": ["ItemDef", "SortNum", "BtlSortNum", "ItemType", "Equip", "Rarity", "Tier", "Defense", "Evasion", "Price"],
+      "sampleFields": ["ItemDef", "SortNum", "ItemType", "EquipID", "Rarity", "Tier", "Evasion", "Strength", "Magic", "Endurance", "Agility", "Luck", "SkillID", "Price", "SellPrice", "GetFLG"],
       "hasBMDText": true,
-      "priority": "P2"
+      "priority": "P2",
+      "structure": "flat"
     },
     {
       "id": "playerLevelup",
@@ -206,9 +222,10 @@
       "category": "Battle",
       "description": "玩家升级曲线 — 每级所需经验值",
       "rowCount": 99,
-      "sampleFields": ["Level", "Exp"],
+      "sampleFields": ["Exp"],
       "hasBMDText": false,
-      "priority": "P1"
+      "priority": "P1",
+      "structure": "scalar"
     },
     {
       "id": "playerMaxHP",
@@ -218,9 +235,10 @@
       "category": "Battle",
       "description": "主角 HP/SP 上限曲线 — 每级最大 HP/SP",
       "rowCount": 99,
-      "sampleFields": ["Level", "HP", "SP"],
+      "sampleFields": ["EachPlayerData"],
       "hasBMDText": false,
-      "priority": "P1"
+      "priority": "P1",
+      "structure": "nested"
     }
   ],
   "extendedTemplates": [
