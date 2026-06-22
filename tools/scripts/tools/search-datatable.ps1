@@ -21,7 +21,7 @@ $jsonFiles = if ($Table) {
 }
 
 Write-Host "Searching $($jsonFiles.Count) JSON files for '$Query'..." -ForegroundColor Cyan
-$matches = @()
+$foundList = New-Object System.Collections.ArrayList
 
 foreach ($file in $jsonFiles) {
     $content = Get-Content $file.FullName -Raw -Encoding UTF8 -ErrorAction SilentlyContinue
@@ -29,17 +29,20 @@ foreach ($file in $jsonFiles) {
 
     if ($Regex) {
         if ($content -match $Query) {
-            $matches += [PSCustomObject]@{ File = $file.Name; Match = "regex match" }
+            $null = $foundList.Add([PSCustomObject]@{ File = $file.Name; Match = "regex: $Query" })
         }
     } else {
-        if ($content -ccontains $Query) {
-            $matches += [PSCustomObject]@{ File = $file.Name; Match = "contains: $Query" }
+        $escaped = [regex]::Escape($Query)
+        if ($content -match $escaped) {
+            $null = $foundList.Add([PSCustomObject]@{ File = $file.Name; Match = "match: $Query" })
         }
     }
 
-    if ($Quick -and $matches.Count -ge 5) { break }
+    if ($Quick -and $foundList.Count -ge 5) { break }
 }
 
 $elapsed = [math]::Round(((Get-Date) - $start).TotalSeconds, 2)
-Write-Host "Found $($matches.Count) matches in $elapsed s"
-$matches | Format-Table -AutoSize
+Write-Host "Found $($foundList.Count) matches in $elapsed s"
+if ($foundList.Count -gt 0) {
+    $foundList | Format-Table File, Match -AutoSize
+}

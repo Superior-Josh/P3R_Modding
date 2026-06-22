@@ -10,7 +10,7 @@ param(
 
 . "$PSScriptRoot\..\Config.ps1"
 
-$sourceDir = if ($Path) { $Path } else { "$ModOutput\$ModName" }
+$sourceDir = if ($Path) { (Resolve-Path $Path).Path } else { "$ModOutput\$ModName" }
 if (-not (Test-Path $sourceDir)) {
     Write-Error "Source directory not found: $sourceDir"
     exit 1
@@ -24,16 +24,15 @@ New-Item -ItemType Directory -Force $destDir | Out-Null
 
 Copy-Item "$sourceDir\*" $destDir -Recurse -Force
 
-# Save metadata
-@"
-{
-  "backupDate": "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')",
-  "modName": "$name",
-  "description": "$Description",
-  "sourcePath": "$sourceDir",
-  "files": $( (Get-ChildItem $destDir -Recurse | Where-Object { -not $_.PSIsContainer } | Measure-Object).Count )
+# Save metadata using ConvertTo-Json (handles escaping correctly)
+$meta = @{
+    backupDate  = Get-Date -Format 'yyyy-MM-dd HH:mm:ss'
+    modName     = $name
+    description = $Description
+    sourcePath  = $sourceDir
+    files       = (Get-ChildItem $destDir -Recurse | Where-Object { -not $_.PSIsContainer } | Measure-Object).Count
 }
-"@ | Out-File "$destDir\backup_metadata.json" -Encoding UTF8
+$meta | ConvertTo-Json -Depth 3 | Out-File "$destDir\backup_metadata.json" -Encoding UTF8
 
 $size = [math]::Round(((Get-ChildItem $destDir -Recurse | Measure-Object -Property Length -Sum).Sum) / 1KB, 1)
 Write-Host "Backup saved: $destDir ($size KB)" -ForegroundColor Green
@@ -43,6 +42,8 @@ Write-Host ""
 Write-Host "Recent backups for '$name':" -ForegroundColor Cyan
 Get-ChildItem $backupDir -Directory | Sort-Object Name -Descending | Select-Object -First 5 | ForEach-Object {
     $metaFile = Join-Path $_.FullName "backup_metadata.json"
-    $desc = if (Test-Path $metaFile) { (Get-Content $metaFile -Raw | ConvertFrom-Json).description } else { "" }
+    $desc = if (Test-Path $metaFile) {
+        try { (Get-Content $metaFile -Raw -Encoding UTF8 | ConvertFrom-Json).description } catch { "" }
+    } else { "" }
     Write-Host "  $($_.Name) — $desc"
 }
