@@ -17,7 +17,7 @@ if (args.Length < 2)
     Console.WriteLine("WRITE commands:");
     Console.WriteLine("  create  <jsonFile> <outDir>                JSON → .uasset+.uexp + manifest");
     Console.WriteLine("  modify  <virtualPath> <jsonFile> <outDir>   Read IoStore, apply changes → .uasset+.uexp");
-    Console.WriteLine("  quick   <virtualPath> <rowProperty> <value> <outDir>  Quick single-value modify");
+    Console.WriteLine("  quick   <virtualPath> <jsonPath> <value> <outDir>  Quick single-value modify (jsonPath must start with 'Properties.')");
     Console.WriteLine();
     Console.WriteLine("TEMPLATE commands:");
     Console.WriteLine("  create-template <virtualPath> <outDir>    Create traditional-format .uasset+.uexp template from IoStore");
@@ -26,7 +26,7 @@ if (args.Length < 2)
     Console.WriteLine("  P3RDataTools read \"P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset\" skills.json");
     Console.WriteLine("  P3RDataTools create skills_modified.json .\\mod\\");
     Console.WriteLine("  P3RDataTools modify \"P3R/Content/.../DatSkillNormalDataAsset.uasset\" modified.json .\\mod\\");
-    Console.WriteLine("  P3RDataTools quick \"P3R/Content/.../DatSkillNormalDataAsset.uasset\" \"Data[0].Power\" 999 .\\mod\\");
+    Console.WriteLine("  P3RDataTools quick \"P3R/Content/.../DatSkillNormalDataAsset.uasset\" \"Properties.Data[0].hpn\" 999 .\\mod\\");
     return 1;
 }
 
@@ -203,10 +203,16 @@ void ModifyAsset(DefaultFileProvider provider, string virtualPath, string jsonOr
     JToken modifiedData;
     if (isQuick)
     {
-        // Quick mode: jsonOrProperty = "Data[0].Power", value = "999"
+        // Quick mode: jsonOrProperty = "Properties.Data[0].Power", value = "999"
         modifiedData = originalJson.DeepClone();
         var token = modifiedData.SelectToken(jsonOrProperty);
-        if (token == null) { Console.Error.WriteLine($"Path not found: {jsonOrProperty}"); return; }
+        if (token == null)
+        {
+            Console.Error.WriteLine($"Path not found: {jsonOrProperty}");
+            if (!jsonOrProperty.StartsWith("Properties."))
+                Console.Error.WriteLine("Hint: jsonPath must start with 'Properties.' (e.g. \"Properties.Data[0].hpn\")");
+            return;
+        }
         if (token.Type == JTokenType.String)
             token.Replace(value);
         else if (double.TryParse(value, out var d)) token.Replace(d);
