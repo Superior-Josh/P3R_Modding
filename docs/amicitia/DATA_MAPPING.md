@@ -18,6 +18,7 @@
 - `DatSkillDataAsset`: 技能元数据（ID、名称、属性类型、图标引用）
 - `DatSkillNormalDataAsset`: 技能数值（伤害倍率、SP消耗、命中率、效果ID）
 - Astrea 有同名副本，以 Xrd777 为准
+- ⚠ **`Properties.Data[]` 的数组下标 == Skill ID**。`Data[0]..Data[9]` 多为占位/未使用，**Agi = Data[10]**。详见 [MODDING_PITFALLS.md#P-001](../MODDING_PITFALLS.md#p-001-datatable-数组索引--资产-id不要默认改-data0)
 
 ### Skill Cards（技能卡）
 | Wiki 页面 | 提取资产 | 路径 |

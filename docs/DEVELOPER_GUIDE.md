@@ -174,6 +174,8 @@ CUE4Parse 1.2.2 → 依赖 Zlib-ng.NET → System.TypeInitializationException on
 
 ### 修改并打包 Mod (Sprint 1+)
 
+> ⚠ **写 ModScript 前先读 [MODDING_PITFALLS.md](MODDING_PITFALLS.md)**：DataTable 数组下标 == 资产 ID，`Data[0]` 通常是引擎占位行，不是任何真实技能/Persona/道具。改错下标会导致 PAK 看似成功但游戏内无效果。
+
 ```powershell
 .\tools\scripts\modify-and-repack.ps1 -TableKey Skills -ModScript .\my-changes.ps1 -ModName "MyMod"
 ```
