@@ -130,6 +130,16 @@
     "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatEncountTableDataAsset.uasset",
     "fileSize":  401964,
     "regressionReason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\"",
+    "reason":  "Same encountTable shuffleLevel mismatch as p3re_encountTable.",
+    "disposition":  "needsManualReview",
+    "fieldReviewStatus":  [
+                              {
+                                  "status":  "needsManualReview",
+                                  "reason":  "JSON value does not match raw ushort at template offset",
+                                  "fields":  "shuffleLevel"
+                              }
+                          ],
+    "guardPolicy":  "fieldLevelReview",
     "regressionStatus":  "partial",
     "regressionPassRate":  90.6,
     "regressionFieldsChecked":  32,

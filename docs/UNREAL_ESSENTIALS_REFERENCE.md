@@ -61,20 +61,18 @@ P3R 的例子（上游 README 截图原话）：
 
 ### 那我们项目当前的 `P3RDataTools.create` 产物属于哪种？
 
-短答：**传统 `.uasset+.uexp` 格式**（首字节 `C1 83 2A 9E`）。
+短答：**传统 `.uasset+.uexp` 格式**（首字节 `C1 83 2A 9E`），**已被 P3R 实测证伪，不再作为主写回产物**。
 
-> 已实测：[`tools/Reloaded II/Mods/AgiMod/.../DatSkillNormalDataAsset.uasset`](../tools/Reloaded%20II/Mods/AgiMod/UnrealEssentials/P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset) 首 4 字节为 `C1 83 2A 9E`，配套一个 492 KB 的 `.uexp`。
+> 历史记录：Sprint 1 曾生成过传统 `.uasset+.uexp` 形态的 AgiMod；但 2026-06-24 后复测确认这类产物在 P3R DataTable 覆盖中会 boot-crash（详见 [MODDING_PITFALLS.md P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件)）。早期“已工作”的判断已被后续人工验证推翻。
 
-上游 README 严格按字面读，**理论上不应该工作**——但项目内 AgiMod / `p3r.qol.arkemultiplier`（同样是 `.uasset+.uexp` 形态）都已在 P3R 上跑通过。两种解释：
+上游 README 的严格警告与当前实测结论一致：P3R 这种 IoStore 游戏，散文件替换应使用来自 UTOC/IoStore 的 **Zen 单 `.uasset`**，而不是传统 cooked `.uasset+.uexp`。
 
-1. UnrealEssentials 2.0 + UE 4.27 对 DataTable 类资产容忍传统 `.uasset+.uexp` 替换 Zen 资产；
-2. 上游 README 的严格警告主要针对**不在 4.25–4.27 里的**资产 / 不在 4.27 里**带依赖元数据**的资产，对 DataTable 这种 self-contained 行表类有例外。
+**结论（当前策略）**：
 
-**结论（我们当前的策略）**：
-
-- ✅ **优先维持现状**：`P3RDataTools.create` → 传统 `.uasset+.uexp` 散文件挂载（已工作）。
-- 🟡 **新表如果遇到注入不生效**（[Mod 不生效自查清单](../CLAUDE.md#mod-不生效)走完仍失败），按上游建议**改走 Zen 单文件**：用 `utoc-extractor`（见下文 §4）从 IoStore 里把目标资产以 Zen 格式拆出来，**直接覆盖**部署（无 `.uexp`）。
-- 🟡 同时考虑生成 **`.uassetmeta`** / **`.utocmeta`** 元数据（见下文 §5），UE 4.27 是 *optional but recommended*，能避免运行时根据残缺依赖信息错误重建 imports/exports。
+- ✅ **默认主路径**：`Extracted/IoStore` Zen 原件 → `Invoke-ZenPatch.ps1` / `modify-and-repack.ps1` byte-patch → `<Mod>/UnrealEssentials/P3R/Content/.../<Asset>.uasset`。
+- ✅ 产物必须保持 Zen 形态：首字节 `00 00 00 00`、**无 `.uexp`**、输出大小与原件一致。
+- ⊘ `P3RDataTools.create` / TemplateCreator 传统 `.uasset+.uexp` 仅保留为历史/fallback/未来完整序列化研究材料，不用于新 DataTable Mod。
+- 🟡 对尚未提取到 `Extracted/IoStore` 的资产，可按上游建议使用 `utoc-extractor`（见下文 §4）拆出 Zen 单文件；但项目当前已优先使用现有 `Extracted/IoStore` 原件。
 
 ---
 

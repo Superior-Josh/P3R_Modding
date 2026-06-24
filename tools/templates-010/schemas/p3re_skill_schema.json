@@ -58,10 +58,6 @@
     "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatSkillDataAsset.uasset",
     "fileSize":  88844,
     "regressionReason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\"",
-    "regressionStatus":  "partial",
-    "regressionPassRate":  83.3,
-    "regressionFieldsChecked":  12,
-    "regressionFieldsMatched":  10,
     "regressionMismatches":  [
                                  {
                                      "row":  512,
@@ -77,5 +73,13 @@
                                      "zenVal":  "255",
                                      "field":  "attr"
                                  }
-                             ]
+                             ],
+    "reason":  "1-byte enum sentinel: CUE4Parse displays raw 0xFF as -1 for attr.",
+    "normalizationRule":  "size=1 \u0026\u0026 json=-1 \u0026\u0026 raw=255",
+    "disposition":  "safeWithNormalization",
+    "guardPolicy":  "allowAfterSignedByteSentinelNormalization",
+    "regressionStatus":  "pass",
+    "regressionPassRate":  100,
+    "regressionFieldsChecked":  12,
+    "regressionFieldsMatched":  12
 }

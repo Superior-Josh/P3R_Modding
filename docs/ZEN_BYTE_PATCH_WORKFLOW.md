@@ -10,7 +10,7 @@
 > | T1.5.1 | `tools/templates-010/` — 41 个 p3re `.bt` 模板 | ✅ |
 > | T1.5.2 | `Parse-BtTemplate.ps1` — `.bt` 解析器，38/41 schema | ✅ |
 > | T1.5.3 | `Calibrate-SchemaHeaders.ps1` — Header 校准，34/38 ok | ✅ |
-> | T1.5.4 | `Test-SchemaRegression.ps1` — Schema 回归，18/30 PASS | ✅ |
+> | T1.5.4 | `Test-SchemaRegression.ps1` — Schema 回归，2026-06-25 复跑 `20 PASS / 9 PARTIAL / 2 FAIL / 7 SKIP` | ✅ |
 > | T1.5.5 | [`Invoke-ZenPatch.ps1`](../tools/scripts/Invoke-ZenPatch.ps1) — schema-driven 字节写回引擎 | ✅ |
 > | T1.5.6 | [`P3RModDSL.psm1`](../tools/scripts/dsl/P3RModDSL.psm1) — 12 个 DSL helper | ✅ |
 > | T1.5.7 | [`modify-and-repack.ps1`](../tools/scripts/modify-and-repack.ps1) — 全流程管道（Zen patch 默认）| ✅ |
@@ -125,7 +125,7 @@ Set-DifficultyParam -Difficulty easy -Field ExpRate -Value 3.0 -OutputDir .\my-d
 
 ### 3.4 Schema 回归
 
-`Test-SchemaRegression.ps1`（T1.5.4 ✅）回归 18/30 PASS，`p3re_skillNormal` 120/120 字段全对。
+`Test-SchemaRegression.ps1`（T1.5.4 ✅）已建立回归框架；2026-06-25 复跑结果为 `20 PASS / 9 PARTIAL / 2 FAIL / 7 SKIP`，golden anchor 仍 PASS。`p3re_skillNormal` 120/120 字段全对。
 
 ### 3.5 已验证的 DataTable
 
@@ -211,7 +211,7 @@ $check = [System.IO.File]::ReadAllBytes($dst)
 
 | 限制 | 影响 |
 |---|---|
-| 模板未覆盖的表 | 武器/防具/饰品无模板，无法 patch |
+| 无已验证/可用 010 schema 的表 | 不能自动 patch；需先补 schema、校准 header 并跑 regression |
 | 3 个模板未解析 | `combineBirth` / `datitemskillcard` / `HeroParameterDataAsset`，详见 [SPRINT_1_5_TODO.md](SPRINT_1_5_TODO.md) |
 | PARTIAL/FAIL/SKIP schema | 首次使用前需人工核查或修复，详见 [SPRINT_1_5_TODO.md](SPRINT_1_5_TODO.md) |
 | union / struct-with-union | 直接 byte-patch 可能崩溃（P-010），详见 [SPRINT_1_5_TODO.md](SPRINT_1_5_TODO.md) |
@@ -230,5 +230,7 @@ $check = [System.IO.File]::ReadAllBytes($dst)
 | [MODDING_PITFALLS.md P-007](MODDING_PITFALLS.md#p-007) | 传统格式崩游戏的论据 |
 | [MODDING_PITFALLS.md P-009](MODDING_PITFALLS.md#p-009) | hpn 平方语义 |
 | [DEVELOPMENT_PLAN.md Sprint 1.5](DEVELOPMENT_PLAN.md#sprint-15-zen-byte-patch-写回引擎-2026-06-24-起替代-sprint-1-传统格式写回) | 工程化进度 |
+| [SECURITY.md](SECURITY.md) | Sprint 3 安全协议：备份、回滚预览、冲突分级、审计、紧急恢复 |
+| [SPRINT_3_TEST_REPORT.md](SPRINT_3_TEST_REPORT.md) | Sprint 3 非破坏性复验记录与剩余人工项 |
 | [SPRINT_1_5_TODO.md](SPRINT_1_5_TODO.md) | 剩余限制 / 后续待办 / Sprint 2 guard 输入 |
 | [agi_regression_report.md](../tools/templates-010/schemas/agi_regression_report.md) | T1.5.8 详细回归数据 |

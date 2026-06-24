@@ -3,6 +3,12 @@
 > 生成日期：2026-06-14
 > 资产来源：`Paks/` 目录下的 PAK 文件 + IoStore 容器
 
+### 1.1 当前写回与安全基线（2026-06-25）
+
+- **主写回路径**：`Extracted/IoStore` Zen 单文件 `.uasset` → `Invoke-ZenPatch.ps1` 字节级 patch → `<Mod>/UnrealEssentials/P3R/Content/...` 散文件挂载。
+- **传统 `.uasset+.uexp` / `P3RDataTools create` 路线已弃用**：P3R 实测 boot-crash，详见 [MODDING_PITFALLS.md P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件)。
+- **安全系统已完成**：`modify-and-repack.ps1` 默认执行 diff/guard/conflict/Git pre-mod backup/文件备份/post-patch guard，并写入 `mod.json` / `history.json` / `.data/mod_registry.json`；详见 [SECURITY.md](SECURITY.md) 与 [SPRINT_3_TEST_REPORT.md](SPRINT_3_TEST_REPORT.md)。
+
 ---
 
 ## 一、总体概览
@@ -406,24 +412,30 @@ IoStore/
 
 ## 五、Mod 制作关键路径速查
 
-### DataTable 修改流程（P3RDataTools 自动化路径）
+### DataTable 修改流程（Sprint 1.5 Zen byte-patch 主路径）
 
 ```powershell
 # 1. 加载配置
 . .\tools\scripts\Config.ps1
 
-# 2. 读取原始表
+# 2. 可选：读取/确认原始表（通常优先使用 tools/Output/json 缓存）
 & $DataTools read "P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset" skills.json
 
-# 3. 编辑 JSON → 模板法写回 + 打包
-.\tools\scripts\modify-and-repack.ps1 -TableKey Skills -ModScript .\my-changes.ps1 -ModName "MyMod"
+# 3. 推荐：直接用 Zen byte-patch 管道生成 UnrealEssentials 散文件 Mod
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills `
+  -Changes @(@{target='Data[10].hpn'; value=999}) -ModName "AgiMod"
 
-# 或手动:
-P3RDataTools.exe create <vPath> <modified.json> <outDir>
-UnrealPak.exe "MyMod_P.pak" -Create="manifest.txt" -compress
+# 4. DryRun 预览 offset / 值 / schema，不写字节
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills `
+  -Changes @(@{target='Data[10].hpn'; value=999}) -DryRun
+
+# 5. 复杂逻辑可走 DSL 脚本
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills -ModScript .\my-changes.ps1 -ModName "MyMod"
 ```
 
-详见 [CLAUDE.md](../CLAUDE.md) 和 [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md)。
+主路径产物是 Zen 单 `.uasset`，部署到 `<Mod>/UnrealEssentials/P3R/Content/...`；**不生成 `.uexp`，不要求 PAK 打包**。详见 [CLAUDE.md](../CLAUDE.md)、[ZEN_BYTE_PATCH_WORKFLOW.md](ZEN_BYTE_PATCH_WORKFLOW.md) 和 [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md)。
+
+> 传统 `P3RDataTools.exe create <vPath> <modified.json> <outDir>` + `UnrealPak.exe` 路线已被 P-007 证伪，保留为历史/fallback 说明，不用于新 DataTable Mod。
 
 ### 常用 DataTable 快速路径
 
@@ -438,31 +450,39 @@ UnrealPak.exe "MyMod_P.pak" -Create="manifest.txt" -compress
 | 文本 | `L10N/zh-Hans/` |
 | BGM/音频 | `Xrd777/CriData/CueSheet/` |
 
-### 打包命令
+### PAK 打包命令（fallback，仅排查时使用）
+
+```powershell
+# 99% 情况不需要。仅当 UnrealEssentials 散文件路径需要 fallback 排查时使用：
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills -Changes @(...) -ModName "MyMod" -PackPak
+```
+
+手动 UnrealPak manifest 仍可用于历史排查，但不是 P3R DataTable 主路径：
 
 ```powershell
 # 在 tools/UnrealPakTool/ 目录下执行
 .\UnrealPak.exe "MyMod_P.pak" -Create="manifest.txt" -compress
 ```
 
-### manifest.txt 格式
+### manifest.txt 格式（传统/fallback）
 
 ```
 "相对路径/文件.uasset" "../../../目标挂载路径/文件.uasset"
 "相对路径/文件.uexp"   "../../../目标挂载路径/文件.uexp"
 ```
 
-> **注意**: P3R 使用 UE 4.27 IoStore 格式，Mod PAK 以传统格式打包，`_P` 后缀 = 最高优先级，游戏同时从 IoStore 和 PAK 加载，Mod PAK 中的传统格式资产可覆盖 IoStore 中的同名资产。
+> **注意**: P3R 的 DataTable 主路径偏好 IoStore Zen 单文件。传统格式 `.uasset+.uexp` / `_P.pak` 覆盖同名 IoStore DataTable 已被实测证伪，可能 boot-crash 或不生效。当前默认交付是 UnrealEssentials 散文件 Zen `.uasset`。
 
 ---
 
 ## 六、注意事项
 
-1. **UE 版本必须匹配**：本游戏为 UE 4.27，UnrealPak 需使用同版本
-2. **修改需同时打包** `.uasset` + `.uexp`（如涉及 BulkData 还需 `.ubulk`）
+1. **UE 版本必须匹配**：本游戏为 UE 4.27；UnrealPak 仅在 fallback PAK 路径使用
+2. **DataTable 默认部署 Zen 单 `.uasset`**：从 `Extracted/IoStore` 复制原件后 byte-patch，文件大小必须不变，同目录无 `.uexp`
 3. **Xrd777 优先于 Astrea**：同名资产 Xrd777 中的版本会覆盖 Astrea
-4. **PAK 加载优先级**：`_P` 后缀 > 字母序靠后 > 数字编号
-5. **IoStore 与 PAK 共存**：游戏同时从两种容器加载，Mod PAK 可覆盖两者
-6. **音频为 CRIWARE ADX2**（.awb），非标准 UE 音频格式，修改需要专用工具
-7. **视频为 CRIWARE USM**（.usm），同样需要 CRIWARE 工具链
-8. **加密范围**：uasset/uexp/ini/index 均加密，但 FullAsset 未加密（便于 FModel 提取）
+4. **UnrealEssentials 路径必须完整镜像虚拟路径**：`<Mod>/UnrealEssentials/P3R/Content/.../<Asset>.uasset`
+5. **PAK/FEmulator 只作 fallback**：传统 `.uasset+.uexp` PAK 覆盖 IoStore DataTable 已被 P-007 证伪
+6. **schema guard 必须启用**：PASS + flat scalar 才自动写回；PARTIAL/FAIL/SKIP/union/nested/变长字段需人工核查或拒绝
+7. **音频为 CRIWARE ADX2**（.awb），非标准 UE 音频格式，修改需要专用工具
+8. **视频为 CRIWARE USM**（.usm），同样需要 CRIWARE 工具链
+9. **加密范围**：uasset/uexp/ini/index 均加密，但 FullAsset 未加密（便于 FModel 提取）

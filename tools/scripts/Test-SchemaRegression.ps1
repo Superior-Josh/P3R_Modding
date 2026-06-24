@@ -79,7 +79,83 @@ $Script:SkipKeys = @(
     'p3re_datpersonagrowthdataasset'
     'p3re_datallypersonagrowthdataasset'
     'p3re_datbtltheurgiaboostdataasset'
+    'p3re_datpersonadataasset'
 )
+
+# Schema treatment metadata persisted into schema JSON for guard/resolver use.
+$Script:SchemaTreatments = @{
+    'p3re_skill' = @{
+        disposition = 'safeWithNormalization'
+        reason = '1-byte enum sentinel: CUE4Parse displays raw 0xFF as -1 for attr.'
+        guardPolicy = 'allowAfterSignedByteSentinelNormalization'
+        normalizationRule = 'size=1 && json=-1 && raw=255'
+    }
+    'p3re_datskilldataasset' = @{
+        disposition = 'safeWithNormalization'
+        reason = 'Duplicate spelling of p3re_skill; same 1-byte enum sentinel normalization applies.'
+        guardPolicy = 'allowAfterSignedByteSentinelNormalization'
+        normalizationRule = 'size=1 && json=-1 && raw=255'
+    }
+    'p3re_datpersonadataasset' = @{
+        disposition = 'deprecatedDuplicate'
+        reason = 'Non-canonical duplicate with unreliable layout/header; p3re_persona_schema.json covers the same asset and passes regression.'
+        guardPolicy = 'skipInResolver'
+        canonicalSchema = 'p3re_persona_schema.json'
+    }
+    'p3re_specialSpread' = @{
+        disposition = 'needsManualReview'
+        reason = '010 template exposes sourceID..sourceID6 with the same display name SourceID; CUE4Parse JSON folds them into one SourceID key.'
+        guardPolicy = 'manualOnly'
+        fieldReviewStatus = @(@{ fields='sourceID,sourceID2,sourceID3,sourceID4,sourceID5,sourceID6'; status='needsManualReview'; reason='slot mapping cannot be verified from current JSON' })
+    }
+    'p3re_specialspreaddataasset' = @{
+        disposition = 'needsManualReview'
+        reason = 'Same SpecialSpread sourceID slot folding as p3re_specialSpread.'
+        guardPolicy = 'manualOnly'
+        fieldReviewStatus = @(@{ fields='sourceID,sourceID2,sourceID3,sourceID4,sourceID5,sourceID6'; status='needsManualReview'; reason='slot mapping cannot be verified from current JSON' })
+    }
+    'p3re_encountTable' = @{
+        disposition = 'needsManualReview'
+        reason = 'Only shuffleLevel mismatches; other sampled fields mostly verify.'
+        guardPolicy = 'fieldLevelReview'
+        fieldReviewStatus = @(@{ fields='shuffleLevel'; status='needsManualReview'; reason='JSON value does not match raw ushort at template offset' })
+    }
+    'p3re_datencounttabledataasset' = @{
+        disposition = 'needsManualReview'
+        reason = 'Same encountTable shuffleLevel mismatch as p3re_encountTable.'
+        guardPolicy = 'fieldLevelReview'
+        fieldReviewStatus = @(@{ fields='shuffleLevel'; status='needsManualReview'; reason='JSON value does not match raw ushort at template offset' })
+    }
+    'p3re_enemy' = @{
+        disposition = 'needsManualReview'
+        reason = '010 template exposes skill..skill8, but CUE4Parse JSON usually reports skill=0 and cannot represent actual enemy skill slots.'
+        guardPolicy = 'manualOnlyForSkillSlots'
+        fieldReviewStatus = @(@{ fields='skill,skill2,skill3,skill4,skill5,skill6,skill7,skill8'; status='needsManualReview'; reason='enemy skill feature requires separate reverse engineering' })
+    }
+    'p3re_datenemydataasset' = @{
+        disposition = 'needsManualReview'
+        reason = 'Same enemy skill slot issue as p3re_enemy.'
+        guardPolicy = 'manualOnlyForSkillSlots'
+        fieldReviewStatus = @(@{ fields='skill,skill2,skill3,skill4,skill5,skill6,skill7,skill8'; status='needsManualReview'; reason='enemy skill feature requires separate reverse engineering' })
+    }
+    'p3re_enemyAffinity' = @{
+        disposition = 'needsManualReview'
+        reason = '010 template exposes 19 AffinityStatus slots; CUE4Parse JSON exposes one attr key, likely folding slot/bit semantics.'
+        guardPolicy = 'manualOnly'
+        fieldReviewStatus = @(@{ fields='attr..attr19'; status='needsManualReview'; reason='confirm 19-slot affinity mapping and bit/enum semantics before patching' })
+    }
+    'p3re_enemyAnalyzeSync' = @{
+        disposition = 'needsManualReview'
+        reason = '010 template exposes enemyID..enemyID10 with the same display name; CUE4Parse JSON folds them into one enemyID key.'
+        guardPolicy = 'manualOnly'
+        fieldReviewStatus = @(@{ fields='enemyID..enemyID10'; status='needsManualReview'; reason='slot mapping cannot be verified from current JSON' })
+    }
+    'p3re_DatItemShopLineupDataAsset' = @{
+        disposition = 'unsupportedUntilSchemaFix'
+        reason = 'Template has DataSize headers and a non-standard layout; current indexed_rows schema/header/tableShape do not match the Zen file.'
+        guardPolicy = 'blockUntilSchemaFix'
+    }
+}
 
 # Golden anchors — (templateKey, rowIndex, fieldName, expectedValue)
 # These MUST pass or the whole regression run is considered failed.
@@ -162,7 +238,10 @@ function Read-ZenValue {
 }
 
 function Compare-Values {
-    param($Expected, $Actual)
+    param($Expected, $Actual, [int] $Size = 0)
+    # CUE4Parse may display 1-byte enum sentinels as signed -1 while the
+    # raw Zen byte is the unsigned 0xFF sentinel.
+    if ($Size -eq 1 -and [int]$Expected -eq -1 -and [int]$Actual -eq 255) { return $true }
     # Float tolerance
     if ($Expected -is [double] -or $Actual -is [double] -or $Expected -is [single] -or $Actual -is [single]) {
         $ed = [double]$Expected; $ad = [double]$Actual
@@ -176,7 +255,7 @@ function Compare-Values {
         if ($Actual -isnot [System.Collections.IList]) { return $false }
         if ($Expected.Count -ne $Actual.Count) { return $false }
         for ($i = 0; $i -lt $Expected.Count; $i++) {
-            if (-not (Compare-Values -Expected $Expected[$i] -Actual $Actual[$i])) { return $false }
+            if (-not (Compare-Values -Expected $Expected[$i] -Actual $Actual[$i] -Size $Size)) { return $false }
         }
         return $true
     }
@@ -307,7 +386,7 @@ function Test-IndexedRows {
             }
 
             $totalFieldsChecked++
-            if (Compare-Values -Expected $jsonVal -Actual $zenVal) {
+            if (Compare-Values -Expected $jsonVal -Actual $zenVal -Size ([int]$f.size)) {
                 $totalFieldsMatched++
             } else {
                 $mismatches.Add(@{
@@ -368,7 +447,7 @@ function Test-NamedRows {
                 continue
             }
             $totalFieldsChecked++
-            if (Compare-Values -Expected $jsonVal -Actual $zenVal) {
+            if (Compare-Values -Expected $jsonVal -Actual $zenVal -Size ([int]$f.size)) {
                 $totalFieldsMatched++
             } else {
                 $mismatches.Add(@{
@@ -421,7 +500,7 @@ function Test-SingleRecord {
             continue
         }
         $totalFieldsChecked++
-        if (Compare-Values -Expected $jsonVal -Actual $zenVal) { $totalFieldsMatched++ }
+        if (Compare-Values -Expected $jsonVal -Actual $zenVal -Size ([int]$f.size)) { $totalFieldsMatched++ }
         else {
             $mismatches.Add(@{
                 field = $f.name; offset = $absOffset
@@ -470,7 +549,7 @@ function Test-SingleRecordArray {
             $zenVal = Read-ZenValue -Bytes $Bytes -Offset $absOffset -Type $f.type -Count 1 -Size ([int]$f.size) -EnumSizes $EnumSizes
             $jsonVal = $jsonValueArr[$fi]
             $totalFieldsChecked++
-            if (Compare-Values -Expected $jsonVal -Actual $zenVal) { $totalFieldsMatched++ }
+            if (Compare-Values -Expected $jsonVal -Actual $zenVal -Size ([int]$f.size)) { $totalFieldsMatched++ }
             else {
                 $mismatches.Add(@{
                     repIdx = $repIdx; field = $f.name; offset = $absOffset
@@ -488,6 +567,15 @@ function Test-SingleRecordArray {
     else { $Result.status = 'partial' }
 }
 
+function Add-SchemaTreatment {
+    param([pscustomobject] $Schema, [string] $Key)
+    if (-not $Script:SchemaTreatments.ContainsKey($Key)) { return }
+    $t = $Script:SchemaTreatments[$Key]
+    foreach ($name in $t.Keys) {
+        $Schema | Add-Member -NotePropertyName $name -NotePropertyValue $t[$name] -Force
+    }
+}
+
 # --------------------------------------------------------------------------------------
 # Main
 # --------------------------------------------------------------------------------------
@@ -502,6 +590,7 @@ $goldenFailures = @()
 foreach ($sf in $schemaFiles) {
     $key = $sf.BaseName -replace '_schema$',''
     $schema = Get-Content $sf.FullName -Raw -Encoding UTF8 | ConvertFrom-Json
+    Add-SchemaTreatment -Schema $schema -Key $key
 
     $result = @{
         template   = $sf.Name

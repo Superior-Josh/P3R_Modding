@@ -1,18 +1,14 @@
 # P3R Modding AI Agent — 系统架构设计
 
-> **版本**: v1.0 | **日期**: 2026-06-17 | **目标**: MVP 阶段
+> **版本**: v1.1 | **日期**: 2026-06-25 | **目标**: MVP 阶段
 >
-> ## ⚠️ 2026-06-24 重大架构调整（顶部状态横幅）
+> ## ✅ 2026-06-25 架构基线
 >
-> 本文档详细描述的写回路径——**P3RDataTools `create` / TemplateCreator.cs / UAssetAPI 重新序列化 / 传统 `.uasset+.uexp` 模板法**——已被实测证伪：产物在 P3R 上启动崩游戏（详见 [`docs/MODDING_PITFALLS.md` P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件)）。
+> 本文档已按 Sprint 1.5 后事实更新：**传统 `P3RDataTools create` / TemplateCreator.cs / UAssetAPI 重新序列化 / 传统 `.uasset+.uexp` 模板法已降级为弃用 fallback**。该路线已被实测证伪：产物在 P3R 上启动崩游戏（详见 [`docs/MODDING_PITFALLS.md` P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件)）。
 >
-> **新写回路径**（已通过 AgiMod PoC 端到端验证）：从 [`Extracted/IoStore/`](../Extracted/) 复制 Zen 单文件原件 → 用 [godofknife/010-Editor-Templates](https://github.com/godofknife/010-Editor-Templates) 的 41 个 p3re 模板算字段偏移 → 字节级 in-place patch → 部署到 `<Mod>/UnrealEssentials/<虚拟路径>/`。
+> **当前主写回路径**：从 [`Extracted/IoStore/`](../Extracted/) 复制 Zen 单文件原件 → 用 [godofknife/010-Editor-Templates](https://github.com/godofknife/010-Editor-Templates) 的 p3re schema 算字段偏移 → `Invoke-ZenPatch.ps1` 字节级 in-place patch → 部署到 `<Mod>/UnrealEssentials/P3R/Content/...`。
 >
-> **完整新工作流**：[`docs/ZEN_BYTE_PATCH_WORKFLOW.md`](ZEN_BYTE_PATCH_WORKFLOW.md)
->
-> **工程化进度**：[`docs/DEVELOPMENT_PLAN.md` Sprint 1.5](DEVELOPMENT_PLAN.md#sprint-15-zen-byte-patch-写回引擎-2026-06-24-起替代-sprint-1-传统格式写回)
->
-> **本文档其它部分**（分层架构、Claude Code 工具链、自然语言解析、备份/回滚/冲突检测、目录结构等）**仍然成立**——只需要把"写回组件"那一层从 `TemplateLoader + DataTablePatcher + AssetWriter` 替换成 `BtParser + ZenPatcher`，输入从"传统 `.uasset+.uexp` 模板"换成"`Extracted/IoStore/` Zen 原件 + 010 `.bt` schema"。完整重写本文档已排入 Sprint 1.5 之后。
+> **完整新工作流**：[`docs/ZEN_BYTE_PATCH_WORKFLOW.md`](ZEN_BYTE_PATCH_WORKFLOW.md)；后续 Sprint 2+ 的重点是自然语言工具、schema/field guard、备份/回滚/冲突检测，而不是恢复传统 `.uasset+.uexp` 写回。
 
 ---
 
@@ -33,9 +29,9 @@
 │             │         交付层 (Delivery)      │                   │
 │             │                               │                   │
 │   ┌─────────▼───────────────────────────────▼───────────────┐   │
-│   │              Reloaded II + File Emulation Framework       │   │
-│   │            P3R 官方 Mod 加载器 — PAK 注入游戏              │   │
-│   │            依赖: P3R Essentials + Inaba EXE Patcher       │   │
+│   │        Reloaded II + UnrealEssentials / p3rpc.essentials  │   │
+│   │        Zen loose file mirror: UnrealEssentials/P3R/Content │   │
+│   │        fallback: FEmulator/PAK (仅排查)                    │   │
 │   └─────────┬───────────────────────────────┬───────────────┘   │
 │             │                               │                   │
 ├─────────────┼───────────────────────────────┼───────────────────┤
@@ -43,14 +39,14 @@
 │             │                               │                   │
 │   ┌─────────▼───────────────────────────────▼───────────────┐   │
 │   │                  modify-and-repack.ps1                    │   │
-│   │              全流程编排: 读 → 改 → 预览 → 写 → 打包       │   │
+│   │    解析 TableKey/SchemaKey → DryRun → guard → patch → install │
 │   └─────────┬───────────────────────────────┬───────────────┘   │
 │             │                               │                   │
 ├─────────────┼───────────────────────────────┼───────────────────┤
 │             │         工具层 (Tools)         │                   │
 │             │                               │                   │
 │   ┌─────────▼──────────┐  ┌─────────────────▼──────────────┐    │
-│   │  search-datatable  │  │  diff-changes                  │    │
+│   │  search-datatable  │  │  diff-changes / DryRun preview │    │
 │   │  search-wiki       │  │  backup / rollback / conflict  │    │
 │   │  guard-modify      │  │  batch-modify                  │    │
 │   └─────────┬──────────┘  └─────────────────┬──────────────┘    │
@@ -59,31 +55,25 @@
 │             │         核心层 (Core)          │                   │
 │             │                               │                   │
 │   ┌─────────▼───────────────────────────────▼───────────────┐   │
-│   │                    P3RDataTools.exe                       │   │
+│   │  P3RDataTools.exe read/batch (CUE4Parse) + PowerShell Zen patch │
 │   │                                                          │   │
 │   │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐   │   │
-│   │  │  Reader       │  │  Writer         │  │  CLI Router  │   │   │
-│   │  │  (CUE4Parse)  │  │  (TemplateCreat)│  │  (Commands)  │   │   │
-│   │  │  IoStore→JSON │  │  二进制序列化→pak│  │              │   │   │
-│   │  └──────┬───────┘  └──────┬───────┘  └──────────────┘   │   │
-│   └─────────┼──────────────────┼────────────────────────────┘   │
-│             │                  │                                 │
-├─────────────┼──────────────────┼─────────────────────────────────┤
-│             │    数据层 (Data) │                                 │
-│             │                  │                                 │
-│   ┌─────────▼──────────────────▼───────────────────────────┐    │
-│   │                                                          │    │
-│   │  ┌──────────┐  ┌───────────┐  ┌──────────┐  ┌────────┐ │    │
-│   │  │ Paks/    │  │ Output/   │  │ templates│  │ docs/  │ │    │
-│   │  │ (20GB)   │  │ json/     │  │ (.uasset │  │ amicitia│ │    │
-│   │  │ 只读容器  │  │ mod/      │  │ +.uexp)  │  │ (37 MD) │ │    │
-│   │  │          │  │ .backup/  │  │ 模板库   │  │ 知识库   │ │    │
-│   │  └──────────┘  └───────────┘  └──────────┘  └────────┘ │    │
+│   │  │  Reader       │  │  Schema       │  │  ZenPatcher  │   │   │
+│   │  │  IoStore→JSON │  │  010→offset   │  │  byte patch  │   │   │
+│   │  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘   │   │
+│   └─────────┼──────────────────┼──────────────────┼─────────┘   │
+│             │                  │                  │             │
+├─────────────┼──────────────────┼──────────────────┼─────────────┤
+│             │    数据层 (Data) │                  │             │
+│             │                  │                  │             │
+│   ┌─────────▼──────────────────▼──────────────────▼────────┐    │
+│   │  Paks/ 只读容器 │ Extracted/IoStore Zen 原件 │ templates-010 │
+│   │  Output/json 缓存 │ Output/mod 产物/备份 │ docs 知识库       │
 │   └──────────────────────────────────────────────────────────┘    │
 │                                                                 │
 │   ┌──────────────────────────────────────────────────────────┐   │
 │   │              外部工具 (External Tools)                     │   │
-│   │  UnrealPak.exe  │  FModel.exe (一次性)  │  Git           │   │
+│   │  FModel.exe (浏览/提取) │ Reloaded II │ Git │ UnrealPak fallback │
 │   └──────────────────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -105,26 +95,32 @@
 ### 2.1 模块架构
 
 ```
+当前主路径（Sprint 1.5+）
+
 P3RDataTools.exe
 │
-├── Program.cs                    ← 入口: CLI 路由 + 参数解析
+├── Program.cs                    ← CLI 路由 + 参数解析
 │
-├── Reader/                        ← 读取模块 (已有)
+├── Reader/                        ← 读取模块
 │   ├── ProviderFactory.cs        ← DefaultFileProvider 工厂 (AES + UE4.27)
 │   └── DataTableReader.cs        ← LoadAllObjects → JSON 序列化
 │       ├── ReadToJson()          ← 单文件导出
 │       └── BatchExport()         ← 批量导出
 │
-├── Writer/                        ← 写入模块 (新增)
-│   ├── TemplateLoader.cs         ← 模板加载与管理
-│   ├── DataTablePatcher.cs       ← 行数据替换引擎
-│   └── AssetWriter.cs            ← UAssetAPI 写回 + manifest 生成
+└── Legacy Writer/                 ← 弃用 fallback
+    └── TemplateCreator.cs        ← 传统 .uasset+.uexp 输出；P3R 主路径禁用
+
+PowerShell Zen patch layer
 │
-└── Common/                        ← 公共工具
-    ├── VirtualPathResolver.cs    ← 虚拟路径 ↔ 本地路径转换
-    └── JsonHelper.cs             ← JSON 深度克隆 / 路径解析 / 合并
+├── Parse-BtTemplate.ps1           ← 010 .bt → schema JSON
+├── Calibrate-SchemaHeaders.ps1    ← headerSize 校准
+├── Test-SchemaRegression.ps1      ← Zen bytes ↔ CUE4Parse JSON 回归
+├── Invoke-ZenPatch.ps1            ← schema-driven byte-patch 引擎
+├── dsl/P3RModDSL.psm1             ← DSL helper
+└── modify-and-repack.ps1          ← TableKey/SchemaKey 解析 + patch + UnrealEssentials 部署
 ```
 
+> 旧设计中的 `TemplateLoader.cs` / `DataTablePatcher.cs` / `AssetWriter.cs` 未成为主路径；如需重新研究完整资产重写，应以 IoStore/Zen-aware writer 为目标，而不是恢复传统 `.uasset+.uexp`。
 ### 2.2 `Reader/DataTableReader.cs`（已有，重构）
 
 ```
@@ -148,132 +144,82 @@ P3RDataTools.exe
 └─────────────────────┘
 ```
 
-### 2.3 `Writer/TemplateLoader.cs`（新增）
+### 2.3 `Parse-BtTemplate.ps1` / schema registry
 
 ```
-职责: 管理传统格式模板，根据 JSON 类型匹配对应模板
+职责: 把 010 `.bt` 模板转换成 Zen byte-patch 可消费的 schema
 
 ┌──────────────────────────────────────┐
-│  TemplateLoader                       │
+│  Schema JSON                          │
 ├──────────────────────────────────────┤
+│ Metadata:                             │
+│   - schemaKey: p3re_skillNormal       │
+│   - sourceAssetPath: P3R/Content/...  │
+│   - tableShape: indexed_rows          │
+│   - rowSize / rowCount / headerSize   │
+│   - regressionStatus: PASS/PARTIAL/...│
+│                                      │
 │ Fields:                               │
-│   - _templateDir: string              │  → "tools/templates/"
-│   - _index: TemplateIndex             │  → 模板索引 (从 template_index.json)
-│                                       │
-│ Methods:                              │
-│   + LoadIndex(): void                 │  → 读取 template_index.json
-│   + FindTemplate(jsonType): Template  │  → 根据 DataTable Type 字段匹配模板
-│   + LoadAsset(template): UAsset       │  → UAssetAPI.UAsset.Load(path)
-│   + ValidateTemplate(template): bool  │  → 检查文件头 / Export 完整性
-│                                       │
-│ Template (data class):                │
-│   - Type: string          ← "DatSkillNormalTable"   │
-│   - UassetPath: string    ← "templates/DatSkillNormalTable.uasset" │
-│   - UexpPath: string      ← "templates/DatSkillNormalTable.uexp"   │
-│   - AssetName: string     ← 资产内部名称                           │
-│   - ExportIndex: int      ← DataTableExport 在 Export 列表中的索引 │
+│   - name: hpn                         │
+│   - offsetInRow: 458                  │
+│   - byteSize: 2                       │
+│   - type: ushort                      │
+│   - guardPolicy: safe / review / deny │
 └──────────────────────────────────────┘
 
-匹配逻辑:
-  jsonData.Properties.Data 的每一行 { "Type": "DatSkillNormalTable", ... }
-                                         ↓
-  在 template_index.json 中查找 Type == "DatSkillNormalTable" 的模板
-                                         ↓
-  返回 Template 对象 (含 .uasset/.uexp 路径)
+支持 tableShape:
+  - indexed_rows: Data[N].field
+  - named_rows: Rows.normal.ExpRate
+  - single_record: bareField
+  - single_record_array: Record[N].field
 ```
 
-### 2.4 `Writer/DataTablePatcher.cs`（新增）
+### 2.4 `Invoke-ZenPatch.ps1`
 
 ```
-职责: 将修改后的 JSON 数据写回 UAsset 的 DataTableExport 中
+职责: 复制 Zen 原件并按 schema 进行定长标量 in-place patch
 
-┌──────────────────────────────────────────────────┐
-│  DataTablePatcher                                 │
-├──────────────────────────────────────────────────┤
-│ Fields:                                           │
-│   - _asset: UAsset                                │
-│                                                   │
-│ Methods:                                          │
-│   + LoadAsset(template): void                     │
-│   + PatchData(modifiedJson, originalJson): void   │
-│   + ValidateRowCount(newCount, oldCount): bool    │
-│                                                   │
-│ Private:                                          │
-│   - FindDataTableExport(): NormalExport           │
-│   - ReplaceRowData(rowIndex, oldRow, newRow)      │
-│   - CloneRow(templateRow): StructPropertyData     │
-│   - RemoveExtraRows(count): void                  │
-│   - RecalculateSize(): void                       │
-└──────────────────────────────────────────────────┘
+输入:
+  - InputUasset: Extracted/IoStore/.../<Asset>.uasset
+  - OutputUasset: <Mod>/UnrealEssentials/P3R/Content/.../<Asset>.uasset
+  - Schema: tools/templates-010/schemas/*_schema.json
+  - Changes: [{ target: "Data[10].hpn", value: 999 }]
 
-数据流:
-  modified.json (JToken)
-       │
-       ▼
-  ① LoadAsset(template.uasset)          → UAsset 对象 (NameMap + Imports + Exports)
-       │
-       ▼
-  ② FindDataTableExport()               → NormalExport (含 DataTableExport.Table.Data)
-       │                                   遍历 Exports, 找到 ExportType == "DataTable"
-       ▼
-  ③ 遍历 modified.Data[]                 → 对每一行:
-     - 定位 Table.Data[rowIndex]
-     - 遍历该行的 StructPropertyData.Properties
-     - 找到 fieldPath 对应的 Property
-     - 替换 Property.Value = newValue
-       │
-       ▼
-  ④ 行数变化处理:
-     - 新增: CloneRow(最后一行) → 修改值 → 追加到 Table.Data
-     - 删除: RemoveAt(rowIndex) → 调整后续索引
-       │
-       ▼
-  ⑤ RecalculateSize()                   → 更新 Export.Size + 文件头偏移
+流程:
+  ① 校验 schema 状态 / tableShape / target 语法
+  ② 计算 fileOffset = headerSize + rowIndex × rowSize + offsetInRow
+  ③ 读取旧值并做类型/范围检查
+  ④ 写入 little-endian bytes
+  ⑤ 断言 output file size == input file size
+  ⑥ 输出 writes[] 供 diff / history / 审计使用
 ```
 
-### 2.5 `Writer/AssetWriter.cs`（新增）
+### 2.5 `P3RModDSL.psm1`
 
 ```
-职责: 将修改后的 UAsset 写出为 .uasset + .uexp 文件对
+职责: 把常见 Mod 意图封装成安全 changes
 
-┌─────────────────────────────────────┐
-│  AssetWriter                         │
-├─────────────────────────────────────┤
-│ Methods:                             │
-│   + Write(asset, outDir, name): void │
-│   + GenerateManifest(outDir, name,   │
-│       vPath): string                 │
-│                                     │
-│ 输出:                                │
-│   outDir/                            │
-│     ├── AssetName.uasset             │
-│     ├── AssetName.uexp               │
-│     └── manifest.txt                 │
-│                                     │
-│ 验证:                                │
-│   - .uasset 文件头 = C1 83 2A 9E    │
-│   - .uexp 大小 > 0                   │
-│   - .uasset 能被 UAssetAPI 重新加载  │
-└─────────────────────────────────────┘
+示例:
+  Set-SkillHpn -SkillId 10 -DamageMultiplier 5.0
+    → 自动读取旧 hpn=40，按 P-009 写入 40×5²=1000 附近的目标值
 
-manifest.txt 格式:
-  "AssetName.uasset" "../../../P3R/Content/Xrd777/Battle/Tables/AssetName.uasset"
-  "AssetName.uexp" "../../../P3R/Content/Xrd777/Battle/Tables/AssetName.uexp"
-
-  挂载路径 = ../../../ + 原始虚拟路径去掉 P3R/ 前缀的相对路径
+  Set-DifficultyParam -Difficulty normal -Field ExpRate -Value 100.0
+    → Rows.normal.ExpRate = 100.0
 ```
 
 ### 2.6 CLI 命令映射
 
 ```
-P3RDataTools.exe
-│
-├── read    <vPath> [out.json]         ← DataTableReader.ReadToJson()
-├── batch   <filter> <outDir>          ← DataTableReader.BatchExport()
-├── quick   <vPath> <jPath> <val> <dir> ← ModifyAsset(isQuick=true)
-├── modify  <vPath> <json>    <dir>    ← ModifyAsset(isQuick=false)
-└── create  <vPath> <json>    <dir>    ← TemplateLoader + DataTablePatcher + AssetWriter
-                                          ↑ 新增命令, Sprint 1 实现
+读取:
+  P3RDataTools.exe read <vPath> [out.json]
+  P3RDataTools.exe batch <filter> <outDir>
+
+写回主路径:
+  Invoke-ZenPatch.ps1 -InputUasset ... -OutputUasset ... -Schema ... -ChangesJson ... [-DryRun]
+  modify-and-repack.ps1 -TableKey Skills -Changes @(...) -ModName MyMod [-DryRun] [-NoInstall]
+
+弃用命令:
+  P3RDataTools.exe create/modify/quick  ← 输出传统 .uasset+.uexp；不用于 P3R 主写回
 ```
 
 ---
@@ -283,24 +229,29 @@ P3RDataTools.exe
 ### 3.1 脚本关系图
 
 ```
-Config.ps1 ──────────────────────────────── 共享配置 (源)
+Config.ps1 ──────────────────────────────── 共享配置 / registry / history / snapshot helper (源)
     │
     ├── modify-and-repack.ps1 ───────────── 主编排脚本 (消费者)
     │       │
-    │       ├──→ P3RDataTools.exe read ───── 读取
-    │       ├──→ P3RDataTools.exe create ─── 写回
-    │       ├──→ guard-modify.ps1 ───────── 安全屏障
-    │       ├──→ UnrealPak.exe ───────────── 打包
-    │       └──→ backup-mod.ps1 ─────────── 自动备份
+    │       ├──→ TableKey/VirtualPath/SchemaKey resolver
+    │       ├──→ diff-changes.ps1 ───────── 人类可读预览 + offset
+    │       ├──→ guard-modify.ps1 ───────── schema/field/value 安全屏障
+    │       ├──→ conflict-check.ps1 ─────── target 冲突分级 (error/warning/info)
+    │       ├──→ Git pre-mod backup ─────── 工作区干净才自动 checkpoint，脏工作区安全跳过
+    │       ├──→ backup-mod.ps1 ─────────── 命名备份 / snapshot hash / backup.json
+    │       ├──→ Invoke-ZenPatch.ps1 ────── Zen byte-patch 写回
+    │       ├──→ post-patch guard ───────── 输出大小不变 / 禁 .uexp
+    │       ├──→ UnrealEssentials install ─ 镜像到 <Mod>/UnrealEssentials/P3R/Content/...
+    │       └──→ mod.json + history.json + mod_registry.json
     │
     ├── search-datatable.ps1 ────────────── 独立工具 (只读)
-    │       └──→ DATA_MAPPING.md + Wiki MD
+    │       └──→ DATA_MAPPING.md + docs/zh-cn + Wiki MD + JSON 缓存
     │
     ├── search-wiki.ps1 ─────────────────── 独立工具 (只读)
-    │       └──→ docs/amicitia/md/
+    │       └──→ docs/amicitia/md/ + docs/zh-cn/
     │
     ├── diff-changes.ps1 ────────────────── 独立工具 (只读)
-    │       └──→ search-datatable.ps1 (ID→名称翻译)
+    │       └──→ changes.json + schema offset + ID→名称翻译
     │
     ├── backup-mod.ps1 ──────────────────── 安全工具
     │       └──→ tools/Output/.backup/
@@ -310,9 +261,11 @@ Config.ps1 ───────────────────────
     │       └──→ mod.json (注册表)
     │
     ├── conflict-check.ps1 ──────────────── 安全工具
-    │       └──→ tools/Output/mod/*/mod.json
+    │       └──→ tools/Output/mod/*/mod.json / changes.json
     │
     └── guard-modify.ps1 ────────────────── 安全屏障
+            ├──→ schema regression metadata (PASS/PARTIAL/FAIL/SKIP)
+            ├──→ field-level status (safe/needsManualReview/unsupported)
             ├──→ conflict-check.ps1
             └──→ backup-mod.ps1
 
@@ -413,89 +366,109 @@ tools/Output/
 │
 ├── mod/                               ← Mod 产物 (Git 忽略)
 │   └── <ModName>/
-│       ├── mod.json                   ← 元数据 (名称/描述/修改列表/时间)
-│       ├── history.json               ← 操作审计
-│       ├── <AssetName>.uasset         ← 写回产物
-│       ├── <AssetName>.uexp           ← 批量数据
-│       ├── manifest.txt               ← PAK 文件清单
-│       └── <ModName>_P.pak            ← 最终 PAK (可选输出位置)
+│       ├── mod.json                   ← schemaVersion=2 元数据 / changes / assets / safety hash
+│       ├── history.json               ← 当前运行审计（backup + modify/rollback）；长期历史保存在 .backup 中
+│       ├── changes.json               ← schemaKey + target/value 修改计划
+│       └── UnrealEssentials/
+│           └── P3R/
+│               └── Content/
+│                   └── Xrd777/...
+│                       └── <AssetName>.uasset  ← Zen 单文件，无 .uexp
 │
 ├── .backup/                           ← 时间点备份 (Git 忽略)
-│   └── <YYYY-MM-DD_HHmm>_<label>/
-│       ├── backup.json                ← 备份元数据
-│       └── *_original.json            ← 修改前的原始 JSON
+│   └── <ModName>/
+│       └── <YYYY-MM-DD_HHmmss_label>/
+│           ├── backup.json            ← 备份元数据 / snapshotHash / 文件 hash
+│           ├── mod.json               ← 备份时的 Mod 元数据（如存在）
+│           ├── history.json           ← 备份时的审计日志（如存在）
+│           ├── changes.json           ← 当次修改计划
+│           └── *.uasset               ← 修改前 Zen 产物副本（如存在）
 │
 └── .data/                             ← 运行时缓存 (Git 忽略)
-    ├── template_index.json            ← 模板索引 (从 tools/templates/ 生成)
+    ├── schema_registry.json           ← Schema 状态/字段 allowlist 缓存
     └── mod_registry.json              ← Mod 注册表 (扁平索引，加速查询)
 
-tools/templates/                       ← 模板库 (Git 跟踪)
-├── template_index.json                ← 索引: { types: { "DatSkillNormalTable": {...}, ... } }
-├── DatSkillNormalTable.uasset         ← 技能数值模板
-├── DatSkillNormalTable.uexp
-├── DatSkillTable.uasset               ← 技能元数据模板
-├── DatSkillTable.uexp
-├── DatPersonaTable.uasset             ← Persona 基础模板
-├── DatPersonaTable.uexp
-├── ... (18 种类型, 每类一对)
+tools/templates-010/                   ← 010 schema 主路径 (Git 跟踪)
+├── *.bt                               ← 上游 010-Editor 模板
+└── schemas/
+    ├── *_schema.json                  ← 解析/校准后的 rowSize/headerSize/fields
+    ├── calibration-report.md
+    └── regression-report.md
+
+tools/templates/                       ← 传统模板库 (Git 跟踪，已弃用/fallback)
+├── template_index.json
+└── *.uasset + *.uexp
 ```
 
-### 4.2 mod.json 格式
+### 4.2 mod.json 格式（Sprint 3 schemaVersion=2）
 
 ```json
 {
-  "name": "SuperAgi",
-  "version": "1.0.0",
+  "schemaVersion": 2,
+  "modName": "SuperAgi",
+  "displayName": "SuperAgi",
+  "author": "claude",
   "description": "亚基伤害增强",
-  "author": "user",
-  "created": "2026-06-17T14:30:00+08:00",
-  "updated": "2026-06-17T14:30:00+08:00",
-  "gameVersion": "1.0",
-  "tables": [
+  "createdAt": "2026-06-25 14:30:00",
+  "updatedAt": "2026-06-25 14:30:00",
+  "tableKey": "Skills",
+  "schemaKey": "p3re_skillNormal",
+  "virtualPath": "P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset",
+  "installMode": "UnrealEssentials",
+  "workDir": "tools/Output/mod/SuperAgi",
+  "installedDir": "tools/Reloaded II/Mods/SuperAgi",
+  "changesJson": "tools/Output/mod/SuperAgi/changes.json",
+  "changes": [
     {
-      "virtualPath": "P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset",
-      "assetName": "DatSkillNormalDataAsset",
-      "template": "DatSkillNormalTable",
-      "changes": [
-        {
-          "rowIndex": 10,
-          "wikiName": "亚基 (Agi)",
-          "fields": {
-            "hpn": { "from": 40, "to": 500 },
-            "cost": { "from": 3, "to": 2 }
-          }
-        }
-      ]
+      "target": "Data[10].hpn",
+      "value": 999,
+      "row": 10,
+      "field": "hpn",
+      "type": "ushort",
+      "byteSize": 2,
+      "offsetHex": "0x246A",
+      "displayName": "亚基 / Agi"
     }
   ],
-  "pakFile": "SuperAgi_P.pak",
-  "gitCommit": "a1b2c3d",
-  "backupRef": ".backup/2026-06-17_1430_SuperAgi/"
+  "assets": [
+    {
+      "path": "tools/Output/mod/SuperAgi/DatSkillNormalDataAsset.uasset",
+      "name": "DatSkillNormalDataAsset.uasset",
+      "length": 539474,
+      "sha256": "..."
+    }
+  ],
+  "safety": {
+    "beforeHash": "...",
+    "afterHash": "...",
+    "gitBackup": {
+      "attempted": false,
+      "committed": false,
+      "skipped": true,
+      "reason": "working tree has existing changes; refusing to auto-commit unrelated work"
+    },
+    "workSnapshot": [],
+    "installedSnapshot": []
+  }
 }
 ```
 
-### 4.3 template_index.json 格式
+### 4.3 schema registry 格式（运行时缓存）
 
 ```json
 {
   "version": "1.0",
-  "created": "2026-06-17",
-  "templates": {
-    "DatSkillNormalTable": {
-      "uasset": "tools/templates/DatSkillNormalTable.uasset",
-      "uexp": "tools/templates/DatSkillNormalTable.uexp",
-      "sourceAsset": "DatSkillNormalDataAsset.uasset",
-      "rowCount": 435,
-      "fields": ["flag", "use", "koukatype", "costtype", "cost", "costbase", "targettype", "targetarea", "targetrule", "untargetbadstat", "hitratio", "targetcntmin", "targetcntmax", "hptype", "hpn", "sptype", "spn", "badtype", "badratio", "badstatus", "support", "program", "criticalratio", "swoonratio"],
-      "verified": true
-    },
-    "DatSkillTable": {
-      "uasset": "tools/templates/DatSkillTable.uasset",
-      "uexp": "tools/templates/DatSkillTable.uexp",
-      "sourceAsset": "DatSkillDataAsset.uasset",
-      "rowCount": 435,
-      "fields": ["SkillID", "Name", "Description", "Icon", "Category", "SkillType"],
-      "verified": true
+  "generatedFrom": "tools/templates-010/schemas/regression-report.md",
+  "schemas": {
+    "p3re_skillNormal": {
+      "schemaPath": "tools/templates-010/schemas/p3re_skillNormal_schema.json",
+      "virtualPath": "P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset",
+      "status": "PASS",
+      "tableShape": "indexed_rows",
+      "rowSize": 769,
+      "headerSize": 1174,
+      "safeFields": ["hpn", "cost", "hitratio"],
+      "deniedReasons": []
     }
   }
 }
@@ -543,39 +516,37 @@ Phase 2: 预览 (工具层)
   │ 4. Claude Code 等待用户确认                              │
   └─────────────────────────────────────────────────────────┘
 
-Phase 3: 执行 (编排层 + 核心层)
+Phase 3: 执行 (编排层 + Zen patch 核心)
   ┌─────────────────────────────────────────────────────────┐
   │ [用户确认 Y]                                            │
   │                                                        │
   │ 5. 调用 guard-modify.ps1 "SuperAgi"                    │
+  │    ├── 检查 schema=PASS / field=flat scalar ✓           │
+  │    ├── 检查非 union / 非 nested / 非变长 ✓               │
   │    ├── 检查备份存在? ✓                                   │
   │    ├── 检查无冲突? ✓                                     │
   │    └── 检查值合法? ✓                                     │
   │                                                        │
   │ 6. 调用 backup-mod.ps1 "SuperAgi"                      │
-  │    └── 复制原始 JSON → .backup/2026-06-17_1430_SuperAgi/ │
+  │    └── 复制当前 workdir/installed dir → .backup/<Mod>/  │
+  │       写 backup.json + snapshotHash                     │
   │                                                        │
   │ 7. 调用 modify-and-repack.ps1                          │
-  │    ├── P3RDataTools.exe read → skills_original.json     │
-  │    ├── 克隆原始 JSON → 修改 Data[10].hpn = 999          │
-  │    ├── P3RDataTools.exe create →                        │
-  │    │   ├── TemplateLoader.FindTemplate("DatSkillNormalTable") │
-  │    │   ├── UAssetAPI.LoadAsset(template.uasset)         │
-  │    │   ├── DataTablePatcher.PatchData(modifiedJson)     │
-  │    │   └── AssetWriter.Write(asset, outDir, name)       │
-  │    │       → DatSkillNormalDataAsset.uasset              │
-  │    │       → DatSkillNormalDataAsset.uexp                │
-  │    │       → manifest.txt                                │
-  │    └── UnrealPak "SuperAgi_P.pak" -Create=manifest.txt  │
+  │    ├── 解析 TableKey=Skills → VirtualPath + SchemaKey   │
+  │    ├── DryRun: Data[10].hpn @ 0x246A: 40 → 999          │
+  │    ├── 复制 Extracted/IoStore 原始 Zen .uasset           │
+  │    ├── Invoke-ZenPatch.ps1 写入 ushort 999              │
+  │    ├── 断言 output size == original size                │
+  │    └── 部署到 UnrealEssentials/P3R/Content/...          │
   └─────────────────────────────────────────────────────────┘
 
 Phase 4: 完成
   ┌─────────────────────────────────────────────────────────┐
-  │ 8. 写入 mod.json + history.json                          │
+  │ 8. 写入 mod.json + history.json + mod_registry.json        │
   │                                                        │
   │ 9. Claude Code 展示结果                                  │
-  │    ✅ SuperAgi_P.pak (3.2 KB)                           │
-  │    位置: tools/Output/mod/SuperAgi/                     │
+  │    ✅ SuperAgi Zen loose file Mod                         │
+  │    位置: tools/Output/mod/SuperAgi/UnrealEssentials/...   │
   └─────────────────────────────────────────────────────────┘
 ```
 
@@ -596,7 +567,7 @@ Phase 4: 完成
                      → 查 Wiki 翻译 ID → 名称
                      → 格式化输出
 
-  ❌ 不经过: guard-modify → backup → modify → UnrealPak
+  ❌ 不经过: guard-modify → backup → modify/patch
   ✅ 直接返回, 无需确认
 ```
 
@@ -604,33 +575,35 @@ Phase 4: 完成
 
 ## 六、接口定义
 
-### 6.1 P3RDataTools CLI 接口
+### 6.1 P3RDataTools 与 Zen patch CLI 接口
 
 ```
-命令: read
+命令: P3RDataTools read
   输入: P3RDataTools.exe read <virtualPath> [outputPath]
   输出: stdout = JSON 字符串 | 文件 = JSON 文件
   退出码: 0=成功, 1=加载失败, 2=序列化失败
 
-命令: create
-  输入: P3RDataTools.exe create <virtualPath> <modifiedJson> <outDir>
+命令: P3RDataTools batch
+  输入: P3RDataTools.exe batch <filter> <outputDir>
+  输出: DataTable JSON 缓存
+
+命令: Invoke-ZenPatch.ps1
+  输入: -InputUasset <Zen原件> -OutputUasset <目标> -Schema <schema.json> -ChangesJson <changes.json> [-DryRun]
   输入文件:
-    <modifiedJson>: 修改后的完整 JSON (与原始结构一致, 仅数值不同)
+    <changes.json>: [{ target: "Data[10].hpn", value: 999 }, ...]
   输出:
-    stdout = { success: true, assetName, uassetPath, uexpPath }
+    stdout = { success: true, schemaKey, writes:[{target, offset, oldValue, newValue, byteSize}] }
     stdout = { success: false, error: { code, message, suggestion } }
   输出文件:
-    <outDir>/<AssetName>.uasset
-    <outDir>/<AssetName>.uexp
-    <outDir>/manifest.txt
-  退出码: 0=成功, 1=模板未找到, 2=数据替换失败, 3=写入失败
+    <OutputUasset>，大小必须等于 <InputUasset>，同目录无 .uexp
+  退出码: 0=成功, 非0=schema/target/value/IO 失败
 
-命令: quick
-  输入: P3RDataTools.exe quick <virtualPath> <jsonPath> <value> <outDir>
-  行为: 自动调用 read → 修改 → create (单字段快捷方式)
-  输出: 同 create
+命令: modify-and-repack.ps1
+  输入: -TableKey/-SchemaKey/-VirtualPath + -Changes/-ChangesJson/-ModScript + -ModName [-DryRun] [-NoInstall] [-PackPak]
+  行为: 解析路径 → guard → Invoke-ZenPatch → UnrealEssentials 部署；-PackPak 仅 fallback
 ```
 
+> `P3RDataTools create/modify/quick` 仍存在于 CLI 中，但输出传统 `.uasset+.uexp`，已弃用，不作为 P3R DataTable 主写回接口。
 ### 6.2 PowerShell 工具接口
 
 ```
@@ -692,7 +665,9 @@ Phase 4: 完成
        ▼
 ┌──────────────┐
 │ guard-modify │  ← 2. 安全屏障
-│ .ps1         │     ├─ 备份存在性检查
+│ .ps1         │     ├─ schema 状态检查 (PASS/PARTIAL/FAIL/SKIP)
+│              │     ├─ field-level 检查 (flat scalar / union / nested / 变长)
+│              │     ├─ 备份存在性检查
 │              │     ├─ 冲突检测 (调用 conflict-check)
 │              │     └─ 值合法性检查 (范围/引用)
 └──────┬───────┘
@@ -700,12 +675,12 @@ Phase 4: 完成
        ▼
 ┌──────────────┐
 │ backup-mod   │  ← 3. 创建备份
-│ .ps1         │     └─ 复制原始 JSON → .backup/
+│ .ps1         │     └─ 复制原始 Zen .uasset + changes.json → .backup/
 └──────┬───────┘
        ▼
 ┌──────────────┐
-│ modify +     │  ← 4. 执行修改 (见 5.1 数据流)
-│ pack         │
+│ modify +     │  ← 4. 执行 Zen byte-patch (见 5.1 数据流)
+│ install      │
 └──────┬───────┘
        ▼
 ┌──────────────┐
@@ -729,11 +704,11 @@ rollback_mod("SuperAgi")
          │是
          ▼
 ┌─────────────────┐
-│ 删除 PAK 文件    │  ← Remove-Item SuperAgi_P.pak
+│ 删除 Mod 目录    │  ← Remove-Item <Mod>/UnrealEssentials/... 或整个 Mod 目录
 └────────┬────────┘
          ▼
 ┌─────────────────┐
-│ 清理产物         │  ← Remove-Item *.uasset, *.uexp, manifest.txt
+│ 清理产物         │  ← Remove-Item Zen .uasset / changes.json / generated metadata
 └────────┬────────┘
          ▼
 ┌─────────────────┐
@@ -760,19 +735,23 @@ FATAL   — 系统无法继续, 需人工介入
   └─ CUE4Parse 初始化失败
 
 ERROR   — 操作失败, 但系统可恢复
-  ├─ 模板未找到 (需补充模板)
+  ├─ schema 未找到或未校准
+  ├─ schema 状态为 FAIL/SKIP
+  ├─ target 指向 union / nested struct array / 变长字段
   ├─ 虚拟路径无效 (需确认文件名)
-  ├─ JSON 格式不匹配 (需修正修改内容)
-  └─ UnrealPak 打包失败
+  ├─ output file size mismatch
+  └─ UnrealEssentials 路径/ModConfig 生成失败
 
 WARN    — 操作成功, 但有风险提示
   ├─ 修改值超出常见范围 (> 正常值 10 倍)
   ├─ 引用了不存在的技能 ID
+  ├─ schema 为 PARTIAL，需要人工复核
   └─ 与已有 Mod 冲突 (但继续执行)
 
 INFO    — 正常操作信息
   ├─ 读取耗时
-  ├─ 打包大小
+  ├─ patch offset / byteSize
+  ├─ UnrealEssentials 输出路径
   └─ 备份位置
 ```
 
@@ -801,12 +780,14 @@ C# 层异常
 
 ```
 步骤:
-  1. FModel 导出该类型传统格式 .uasset+.uexp → tools/templates/
-  2. 更新 template_index.json: 添加类型条目
-  3. 更新 Config.ps1 $DataTables: 添加虚拟路径别名
-  4. 更新 DATA_MAPPING.md: 添加该表的功能描述
+  1. 导入或修复对应 010 `.bt` schema → tools/templates-010/
+  2. 运行 Parse-BtTemplate.ps1 生成 schema JSON
+  3. 运行 Calibrate-SchemaHeaders.ps1 校准 headerSize
+  4. 运行 Test-SchemaRegression.ps1 对照 Zen bytes 与 CUE4Parse JSON
+  5. 只有 PASS + flat scalar 字段进入自动 allowlist；PARTIAL/FAIL/SKIP 写入 guard metadata
+  6. 更新 Config.ps1 $DataTables / $SchemaMap 与 DATA_MAPPING.md
 
-无需修改任何 C# 或 PS 代码。模板加载器自动扫描 template_index.json。
+无需修改 C# 写回模块；Zen patch 主路径由 schema + PowerShell 引擎驱动。
 ```
 
 ### 9.2 新增 Claude Code 工具
@@ -839,13 +820,14 @@ C# 层异常
 |----|------|------|
 | **AI** | Claude Code (Anthropic) | 原生 tool_use / 会话管理 / 权限系统 / Git 集成, 无需自己实现 Agent 框架 |
 | **读取** | CUE4Parse 1.1.1 (C#) | 唯一支持 IoStore 的 .NET 库, 已验证 140K 文件挂载 |
-| **写入** | UAssetAPI 1.1.0 (C#) | 唯一支持 .NET 的 UE4 Package 读写库, 模板法绕过 IoStore 限制 |
-| **打包** | UnrealPak 4.27 (C++) | UE4 官方打包工具, 必须匹配游戏版本 |
+| **写入** | Zen byte-patch + 010 schema (PowerShell) | P3R 已验证可工作；复制 IoStore Zen 原件并定长标量 in-place patch，避免传统重序列化崩溃 |
+| **交付** | Reloaded II + UnrealEssentials 散文件 | 默认加载链；镜像 `<Mod>/UnrealEssentials/P3R/Content/...`，无 `.uexp` |
+| **打包 fallback** | UnrealPak 4.27 / FEmulator | 仅排查或备份路径；不作为 DataTable 主交付方式 |
 | **编排** | PowerShell 5.1 | Windows 原生, 已有 Config.ps1 + modify-and-repack.ps1 基础 |
 | **数据交换** | JSON (Newtonsoft.Json) | 人可读 / LLM 可解析 / diff 友好 / 无 schema 依赖 |
 | **版本管理** | Git | 仓库已配置, 天然适合 mod 版本追踪 |
 | **知识库** | Markdown 文件系统 | 37 个 Wiki MD 已就绪, 无需向量数据库即可被 grep/LLM 检索 |
-| **模板** | 传统 .uasset+.uexp | 一次性 FModel 导出, 存储在仓库中, 不需要运行时生成 |
+| **模板/schema** | 010 `.bt` schema + regression metadata | 提供 rowSize/headerSize/field offset；guard 按 PASS/PARTIAL/FAIL/SKIP 控制开放范围 |
 
 ### 10.1 不推荐的替代方案
 
@@ -866,7 +848,7 @@ Claude Code 负责:                     Claude Code 不负责:
 ✅ 决定调用哪些工具及顺序                ❌ 写入二进制数据
 ✅ 格式化输出给用户看                    ❌ 直接操作 Paks/ 目录
 ✅ 判断操作是否需要用户确认              ❌ 管理 AES 密钥 (内置在 P3RDataTools)
-✅ 从 Wiki MD 检索游戏知识              ❌ 执行 PAK 打包 (交给 UnrealPak)
+✅ 从 Wiki MD 检索游戏知识              ❌ 直接手写二进制 offset（交给 Invoke-ZenPatch）
 ✅ 识别异常并给出修复建议                ❌ 验证 .uasset 文件格式有效性
 ✅ 管理多轮对话上下文                   ❌ 维护 Git 历史 (交给 git 命令)
 ```

@@ -1,42 +1,54 @@
-# P3R search-wiki.ps1 — Search Amicitia Wiki reference docs
-# Usage:
-#   .\search-wiki.ps1 -Query "SkillNormal"
-#   .\search-wiki.ps1 -Query "Agi" -NameOnly
+# P3R search-wiki.ps1 — 搜索 Amicitia Wiki / zh-cn 标准译名 / DATA_MAPPING
+
 param(
     [Parameter(Mandatory=$true)]
-    [string]$Query,
-    [switch]$NameOnly
+    [string] $Query,
+    [int] $Context = 1,
+    [switch] $NameOnly,
+    [switch] $Json
 )
 
+$ErrorActionPreference = 'Stop'
 . "$PSScriptRoot\..\Config.ps1"
 
-if (-not (Test-Path $WikiDir)) {
-    Write-Error "Wiki directory not found: $WikiDir"
-    exit 1
-}
+$results = New-Object System.Collections.ArrayList
+$escaped = [regex]::Escape($Query)
 
-Write-Host "Searching Wiki docs for '$Query'..." -ForegroundColor Cyan
-$files = Get-ChildItem $WikiDir -Filter "*.md" -ErrorAction SilentlyContinue
-$foundList = New-Object System.Collections.ArrayList
-$escapedQuery = [regex]::Escape($Query)
-
-foreach ($file in $files) {
-    $content = Get-Content $file.FullName -Raw -Encoding UTF8 -ErrorAction SilentlyContinue
-    if (-not $content) { continue }
-
-    if ($content -match $escapedQuery) {
+function Add-MatchesFromFile {
+    param([string] $Path, [string] $Source)
+    if (-not (Test-Path $Path)) { return }
+    $lines = Get-Content $Path -Encoding UTF8
+    for ($i = 0; $i -lt $lines.Count; $i++) {
+        if ($lines[$i] -notmatch $escaped) { continue }
         if ($NameOnly) {
-            $null = $foundList.Add([PSCustomObject]@{ Name = $file.Name; Path = $file.FullName })
+            $snippet = Split-Path $Path -Leaf
         } else {
-            $lines = $content -split "`n" | Where-Object { $_ -match $escapedQuery } | Select-Object -First 3
-            $snippet = ($lines -join " | ")
-            $snippet = $snippet.Substring(0, [Math]::Min(200, $snippet.Length))
-            $null = $foundList.Add([PSCustomObject]@{ File = $file.Name; Snippets = $snippet })
+            $from = [Math]::Max(0, $i - $Context)
+            $to = [Math]::Min($lines.Count - 1, $i + $Context)
+            $snippet = (($from..$to | ForEach-Object { "L$($_ + 1): $($lines[$_])" }) -join "`n")
         }
+        $null = $results.Add([PSCustomObject]@{
+            source = $Source
+            file   = $Path.Replace($ProjectRoot, '').TrimStart('\')
+            line   = $i + 1
+            text   = $snippet
+        })
+        break
     }
 }
 
-Write-Host "Found $($foundList.Count) matching files:"
-if ($foundList.Count -gt 0) {
-    $foundList | Format-List
+Add-MatchesFromFile -Path $DataMappingFile -Source 'DATA_MAPPING'
+Get-ChildItem $ZhCnDir -Filter '*.md' -ErrorAction SilentlyContinue | ForEach-Object {
+    Add-MatchesFromFile -Path $_.FullName -Source 'zh-cn'
+}
+Get-ChildItem $WikiDir -Filter '*.md' -ErrorAction SilentlyContinue | ForEach-Object {
+    Add-MatchesFromFile -Path $_.FullName -Source 'amicitia'
+}
+
+if ($Json) {
+    $results | ConvertTo-Json -Depth 5
+} else {
+    Write-Host "Found $($results.Count) wiki/reference file(s) for '$Query'" -ForegroundColor Cyan
+    if ($NameOnly) { $results | Format-Table source, file, line -AutoSize }
+    else { $results | Format-List source, file, line, text }
 }

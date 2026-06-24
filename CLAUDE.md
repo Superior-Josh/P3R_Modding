@@ -179,6 +179,49 @@ Set-DifficultyParam -Difficulty easy -Field ExpRate -Value 3.0 -OutputDir .\my-d
   -Changes @(@{target='Data[10].hpn'; value=999}) -NoInstall
 ```
 
+### Sprint 2/3 工具链与安全系统（定位 → 预览 → guard → 备份/冲突 → 注册表/审计）
+
+`modify-and-repack.ps1` 已接入 Sprint 2/3 工具：自动写入 `changes.json` / `mod.json` / `history.json`，更新 `$ModRegistry`，并在写回前执行 diff、schema/field guard、冲突检测、Git pre-mod backup（脏工作区安全跳过）与文件备份；写回后再执行 Zen 输出大小/`.uexp` 安全检查。完整协议见 [`docs/SECURITY.md`](docs/SECURITY.md)，复验记录见 [`docs/SPRINT_3_TEST_REPORT.md`](docs/SPRINT_3_TEST_REPORT.md)。
+
+```powershell
+# 1) 中文译名 / ID / TableKey / SchemaKey 定位
+.\tools\scripts\tools\search-datatable.ps1 -Query "亚基" -Field hpn
+.\tools\scripts\tools\search-wiki.ps1 -Query "Agi"
+
+# 2) 人类可读 diff（显示中文名、旧值→新值、offset）
+.\tools\scripts\tools\diff-changes.ps1 -TableKey Skills `
+  -Changes @(@{target='Data[10].hpn'; value=999})
+
+# 3) schema/field guard：PASS + flat scalar 才自动放行；PARTIAL 风险字段会拦截
+.\tools\scripts\tools\guard-modify.ps1 -TableKey Skills `
+  -Changes @(@{target='Data[10].hpn'; value=999})
+
+# 4) 备份 / 回滚 / 冲突检测
+.\tools\scripts\tools\backup-mod.ps1 -ModName "AgiMod" -Description "before tweak"
+.\tools\scripts\tools\backup-mod.ps1 -ModName "AgiMod" -List
+.\tools\scripts\tools\backup-mod.ps1 -ModName "AgiMod" -Compare <backupId>
+.\tools\scripts\tools\rollback-mod.ps1 -ModName "AgiMod" -Preview
+.\tools\scripts\tools\rollback-mod.ps1 -ModName "AgiMod" -Timestamp <backupId> -Force
+.\tools\scripts\tools\conflict-check.ps1 -All
+```
+
+**Sprint 3 安全约束（Agent 必须遵守）**：
+
+- 默认先 `-DryRun` 或 `diff-changes.ps1` 预览；真实写回前必须通过 guard + conflict check。
+- `rollback-mod.ps1` / `-RemoveInstalled` / 覆盖 Reloaded II 已安装目录等破坏性动作，必须先 `-Preview` 并获得明确授权后才加 `-Force`。
+- Git pre-mod backup 只在工作区干净时自动提交；若工作区已有用户改动，会安全跳过，不得为了触发备份而擅自提交/丢弃用户改动。
+- `history.json` 记录当前运行的 backup + modify/rollback 审计；长期历史以 `.backup/<ModName>/<backupId>/` 中保存的前序 `history.json` 为准。
+- 冲突分级：`error` 阻断；`warning`/`info` 可继续但需在回复中说明。
+
+
+**Guard 规则（自然语言 Agent 必须遵守）**：
+
+- `regressionStatus=pass` 且字段为 flat scalar（1/2/4/8 字节）→ 可自动写回。
+- `disposition=safeWithNormalization` → 仅按 schema 标注的归一化规则放行。
+- `regressionStatus=partial` / `disposition=needsManualReview` → 只允许已复核字段；被 `fieldReviewStatus` 标记的字段必须拒绝自动写回并提示人工 offset 复核。
+- `fail` / `skip` / `deprecatedDuplicate` / `unsupportedUntilSchemaFix`、union、nested struct array、string/TArray/变长字段 → 默认拒绝自动写回。
+- 用户要求跳过 guard / 冲突时，只有明确授权才能使用 `-SkipGuard` / `-SkipConflictCheck` / `-Force`。
+
 ### 读取 DataTable (无需 GUI)
 
 ```powershell
@@ -512,6 +555,8 @@ Mod 通过 Reloaded II 启动游戏后生效。无论哪种挂载方式，都必
 | `docs/MODDING_PITFALLS.md` | **Mod 制作避坑指南（写脚本前必读）**：DataTable 索引陷阱、空 PAK、加载链等已踩坑及修复 |
 | `docs/UNREAL_ESSENTIALS_REFERENCE.md` | **UnrealEssentials 能力速查**：上游 README 提炼，含整包/散文件路径、Zen 资产、`utoc-extractor`、元数据格式、依赖链 |
 | `docs/P3RPC_ESSENTIALS_REFERENCE.md` | **Persona 3 Reload Essentials (p3rpc.essentials) 能力速查**：依赖关系、5 个运行时配置项（去焦点暂停 / 跳开场 / 快速菜单）、与 UnrealEssentials 的关系、何时该依赖它 |
+| `docs/SECURITY.md` | **Sprint 3 安全协议**：四层安全架构、`mod.json` / `history.json` / registry、备份/回滚/冲突命令、紧急恢复指南 |
+| `docs/SPRINT_3_TEST_REPORT.md` | **Sprint 3 验收复验报告**：非破坏性 CLI smoke、冲突阻断、重复运行备份/审计修复、剩余人工项 |
 | `docs/ZEN_BYTE_PATCH_WORKFLOW.md` | **★ Zen Byte-Patch 写回工作流（P3R 当前唯一可工作路径，Sprint 1.5 已工程化）**：`Invoke-ZenPatch.ps1` 引擎 + `P3RModDSL.psm1` DSL + `modify-and-repack.ps1` 全流程管道 |
 | `docs/zh-cn/README.md` | **中文用户译名（biligame WIKI）**：技能/Persona/敌人/Arcana/角色/系统术语三语对照 |
 | `docs/amicitia/DATA_MAPPING.md` | Amicitia WIKI ↔ 提取资产文件精确映射（英文 ID 权威源） |

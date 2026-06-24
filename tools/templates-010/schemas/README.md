@@ -2,17 +2,18 @@
 
 This directory holds the JSON output of [`Parse-BtTemplate.ps1`](../../scripts/Parse-BtTemplate.ps1) (one `_schema.json` per `.bt` template) **and** the overlay from [`Calibrate-SchemaHeaders.ps1`](../../scripts/Calibrate-SchemaHeaders.ps1) + [`Test-SchemaRegression.ps1`](../../scripts/Test-SchemaRegression.ps1) that adds `headerSize` and regression fields.
 
-**Status (2026-06-24)**:
+**Status (2026-06-25)**:
 
 - ✅ **38 / 41 templates parsed** (T1.5.2 + T1.5.2b)
 - ✅ **34 / 38 schemas calibrated** with real `headerSize` (T1.5.3)
-- ✅ **18 / 30 testable schemas pass regression** against CUE4Parse JSON (T1.5.4)
+- ✅ **20 / 29 testable schemas pass regression** against CUE4Parse JSON (T1.5.4 + PARTIAL treatment update)
 - ✅ Golden anchor: `p3re_skillNormal 120/120 fields match` (Agi.hpn=40 exact)
 - ✅ Second anchor: `DT_BtlDIfficultyParam 50/50 fields match` (`Easy.ExpRate` exact)
+- ✅ PARTIAL treatment metadata added: `safeWithNormalization` / `needsManualReview` / `deprecatedDuplicate` / `unsupportedUntilSchemaFix`
 
 **Calibration result**: 34 OK / 3 DEP / 1 NOT_FOUND. Full report: [calibration-report.md](calibration-report.md).
 
-**Regression result (T1.5.4)**: 18 PASS / 12 PARTIAL / 2 FAIL / 6 SKIP. Full report: [regression-report.md](regression-report.md).
+**Regression result (T1.5.4 + PARTIAL treatment update)**: 20 PASS / 9 PARTIAL / 2 FAIL / 7 SKIP. Full report: [regression-report.md](regression-report.md).
 
 ## Schema format — 4 table shapes
 

@@ -70,7 +70,7 @@ function Write-LittleEndian {
 # 2. Target parser — "Data[10].hpn" into shape and coordinates
 # --------------------------------------------------------------------------------------
 
-function Parse-Target {
+function ConvertFrom-P3RTarget {
     param([string] $Target, [pscustomobject] $Schema)
     # Returns: @{ fileOffset = int; byteSize = int; type = string }
     $headerSize = [int]$Schema.headerSize
@@ -190,7 +190,7 @@ $origSize  = $origBytes.Length
 # Compute patch coordinates for all changes (dry-run safe, no writes yet)
 $resolved = New-Object System.Collections.Generic.List[hashtable]
 foreach ($c in $changes) {
-    $coord = Parse-Target -Target $c.target -Schema $schema
+    $coord = ConvertFrom-P3RTarget -Target $c.target -Schema $schema
     # Range check
     if ($coord.fileOffset -lt 0 -or ($coord.fileOffset + $coord.byteSize) -gt $origSize) {
         throw "Change '$($c.target)' resolves to offset $($coord.fileOffset) (size $($coord.byteSize)) — out of bounds for file ($origSize bytes)"
@@ -232,7 +232,7 @@ foreach ($r in $resolved) {
 }
 
 if ($DryRun) {
-    Write-Host "Dry run — no bytes written." -ForegroundColor DarkYellow
+    Write-Host "Dry run - no bytes written." -ForegroundColor DarkYellow
     return
 }
 
