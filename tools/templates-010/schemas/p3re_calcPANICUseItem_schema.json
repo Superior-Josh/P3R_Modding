@@ -1,0 +1,46 @@
+{
+    "templateFile":  "p3re_calcPANICUseItem.bt",
+    "asset":  "calcPANICUseItem.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "PanicUse",
+    "rowCount":  20,
+    "rowSize":  35,
+    "fields":  [
+                   {
+                       "name":  "itemID",
+                       "type":  "ItemList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  13,
+                       "size":  2
+                   }
+               ],
+    "headerSize":  710,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatCalcPANICUseItemDataAsset.uasset",
+    "fileSize":  1410,
+    "regressionStatus":  "skip",
+    "regressionReason":  "no CUE4Parse JSON available for p3re_calcPANICUseItem"
+}

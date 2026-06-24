@@ -1,0 +1,549 @@
+{
+    "templateFile":  "p3re_DT_BtlDIfficultyParam.bt",
+    "asset":  "DT_BtlDIfficultyParam.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  62,
+    "enumSizes":  {
+
+                  },
+    "tableShape":  "named_rows",
+    "rowKeys":  [
+                    "safety",
+                    "easy",
+                    "normal",
+                    "hard",
+                    "risky"
+                ],
+    "rows":  [
+                 {
+                     "name":  "safety",
+                     "type":  "diffParam1",
+                     "offset":  0,
+                     "size":  306,
+                     "fields":  [
+                                    {
+                                        "name":  "DamageRateToEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  16,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  45,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "ExpRate",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  74,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  103,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  132,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  161,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  190,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "MoneyRateToMaterials",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  219,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  248,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  277,
+                                        "size":  4
+                                    }
+                                ]
+                 },
+                 {
+                     "name":  "easy",
+                     "type":  "diffParam2",
+                     "offset":  306,
+                     "size":  306,
+                     "fields":  [
+                                    {
+                                        "name":  "DamageRateToEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  16,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  45,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "ExpRate",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  74,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  103,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  132,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  161,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  190,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "MoneyRateToMaterials",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  219,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  248,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  277,
+                                        "size":  4
+                                    }
+                                ]
+                 },
+                 {
+                     "name":  "normal",
+                     "type":  "diffParam3",
+                     "offset":  612,
+                     "size":  306,
+                     "fields":  [
+                                    {
+                                        "name":  "DamageRateToEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  16,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  45,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "ExpRate",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  74,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  103,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  132,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  161,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  190,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "MoneyRateToMaterials",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  219,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  248,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  277,
+                                        "size":  4
+                                    }
+                                ]
+                 },
+                 {
+                     "name":  "hard",
+                     "type":  "diffParam4",
+                     "offset":  918,
+                     "size":  306,
+                     "fields":  [
+                                    {
+                                        "name":  "DamageRateToEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  16,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  45,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "ExpRate",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  74,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  103,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  132,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  161,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  190,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "MoneyRateToMaterials",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  219,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  248,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  277,
+                                        "size":  4
+                                    }
+                                ]
+                 },
+                 {
+                     "name":  "risky",
+                     "type":  "diffParam5",
+                     "offset":  1224,
+                     "size":  289,
+                     "fields":  [
+                                    {
+                                        "name":  "DamageRateToEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  16,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  45,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "ExpRate",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  74,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  103,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerWeak",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  132,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToEnemyCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  161,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "DamageRateToPlayerCritical",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  190,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "MoneyRateToMaterials",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  219,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromEnemy",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  248,
+                                        "size":  4
+                                    },
+                                    {
+                                        "name":  "BadStatusHitRateFromPlayer",
+                                        "type":  "float",
+                                        "kind":  "scalar",
+                                        "count":  1,
+                                        "offset":  277,
+                                        "size":  4
+                                    }
+                                ]
+                 }
+             ],
+    "fields":  [
+                   {
+                       "name":  "DamageRateToEnemy",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  16,
+                       "size":  4
+                   },
+                   {
+                       "name":  "DamageRateToPlayer",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  45,
+                       "size":  4
+                   },
+                   {
+                       "name":  "ExpRate",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  74,
+                       "size":  4
+                   },
+                   {
+                       "name":  "DamageRateToEnemyWeak",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  103,
+                       "size":  4
+                   },
+                   {
+                       "name":  "DamageRateToPlayerWeak",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  132,
+                       "size":  4
+                   },
+                   {
+                       "name":  "DamageRateToEnemyCritical",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  161,
+                       "size":  4
+                   },
+                   {
+                       "name":  "DamageRateToPlayerCritical",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  190,
+                       "size":  4
+                   },
+                   {
+                       "name":  "MoneyRateToMaterials",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  219,
+                       "size":  4
+                   },
+                   {
+                       "name":  "BadStatusHitRateFromEnemy",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  248,
+                       "size":  4
+                   },
+                   {
+                       "name":  "BadStatusHitRateFromPlayer",
+                       "type":  "float",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  277,
+                       "size":  4
+                   }
+               ],
+    "headerSize":  1470,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Blueprints/Battle/Calculations/DT_BtlDIfficultyParam.uasset",
+    "fileSize":  2983,
+    "regressionStatus":  "pass",
+    "regressionPassRate":  100,
+    "regressionFieldsChecked":  50,
+    "regressionFieldsMatched":  50
+}

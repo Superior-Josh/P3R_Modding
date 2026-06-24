@@ -1,0 +1,213 @@
+{
+    "templateFile":  "p3re_personaAffinity.bt",
+    "asset":  "personaAffinity.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "affinityData",
+    "rowCount":  464,
+    "rowSize":  521,
+    "fields":  [
+                   {
+                       "name":  "attr",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  13,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr2",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  40,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr3",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  67,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr4",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  94,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr5",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  121,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr6",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  148,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr7",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  175,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr8",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  202,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr9",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  229,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr10",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  256,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr11",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  283,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr12",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  310,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr13",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  337,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr14",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  364,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr15",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  391,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr16",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  418,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr17",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  445,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr18",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  472,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attr19",
+                       "type":  "AffinityStatus",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  499,
+                       "size":  2
+                   }
+               ],
+    "headerSize":  686,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatPersonaAffinityDataAsset.uasset",
+    "fileSize":  242430,
+    "regressionReason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\"",
+    "regressionStatus":  "pass",
+    "regressionPassRate":  100,
+    "regressionFieldsChecked":  4,
+    "regressionFieldsMatched":  4,
+    "regressionNotInJson":  [
+                                "attr2[attr2]",
+                                "attr3[attr3]",
+                                "attr4[attr4]",
+                                "attr5[attr5]",
+                                "attr6[attr6]",
+                                "attr7[attr7]",
+                                "attr8[attr8]",
+                                "attr9[attr9]",
+                                "attr10[attr10]",
+                                "attr11[attr11]",
+                                "attr12[attr12]",
+                                "attr13[attr13]",
+                                "attr14[attr14]",
+                                "attr15[attr15]",
+                                "attr16[attr16]",
+                                "attr17[attr17]",
+                                "attr18[attr18]",
+                                "attr19[attr19]"
+                            ]
+}

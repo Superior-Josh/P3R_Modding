@@ -1,0 +1,857 @@
+{
+    "templateFile":  "p3re_datskillnormaldataasset.bt",
+    "asset":  "Datskillnormaldataasset.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "skillData",
+    "rowCount":  700,
+    "rowSize":  769,
+    "fields":  [
+                   {
+                       "name":  "FlagList1",
+                       "type":  "bitfield_group",
+                       "kind":  "bitfield_group",
+                       "count":  1,
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  0,
+                       "name":  "FlagList1.unkFlag",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  1,
+                       "name":  "FlagList1.BasicAttackAnim",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  2,
+                       "name":  "FlagList1.Summon",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  3,
+                       "name":  "FlagList1.unkFlag4",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  4,
+                       "name":  "FlagList1.unkFlag5",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  5,
+                       "name":  "FlagList1.unkFlag6",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  6,
+                       "name":  "FlagList1.unkFlag7",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  7,
+                       "name":  "FlagList1.unkFlag8",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "name":  "FlagList2",
+                       "type":  "bitfield_group",
+                       "kind":  "bitfield_group",
+                       "count":  1,
+                       "offset":  14,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  0,
+                       "name":  "FlagList2.UsePastHP",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  14,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  1,
+                       "name":  "FlagList2.unkFlag10",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  14,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  2,
+                       "name":  "FlagList2.Hpto1",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  14,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  3,
+                       "name":  "FlagList2.SPto1",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  14,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  4,
+                       "name":  "FlagList2.unkFlag13",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  14,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  5,
+                       "name":  "FlagList2.unkFlag14",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  14,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  6,
+                       "name":  "FlagList2.unkFlag15",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  14,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  7,
+                       "name":  "FlagList2.unkFlag16",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  14,
+                       "size":  1
+                   },
+                   {
+                       "name":  "FlagList3",
+                       "type":  "bitfield_group",
+                       "kind":  "bitfield_group",
+                       "count":  1,
+                       "offset":  15,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  0,
+                       "name":  "FlagList3.unkFlag17",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  15,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  1,
+                       "name":  "FlagList3.unkFlag18",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  15,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  2,
+                       "name":  "FlagList3.unkFlag19",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  15,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  3,
+                       "name":  "FlagList3.unkFlag20",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  15,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  4,
+                       "name":  "FlagList3.unkFlag21",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  15,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  5,
+                       "name":  "FlagList3.Thuergy",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  15,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  6,
+                       "name":  "FlagList3.HPtoFull",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  15,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  7,
+                       "name":  "FlagList3.unkFlag24",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  15,
+                       "size":  1
+                   },
+                   {
+                       "name":  "FlagList4",
+                       "type":  "bitfield_group",
+                       "kind":  "bitfield_group",
+                       "count":  1,
+                       "offset":  16,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  0,
+                       "name":  "FlagList4.unkFlag25",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  16,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  1,
+                       "name":  "FlagList4.unkFlag26",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  16,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  2,
+                       "name":  "FlagList4.unkFlag27",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  16,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  3,
+                       "name":  "FlagList4.unkFlag28",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  16,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  4,
+                       "name":  "FlagList4.unkFlag29",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  16,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  5,
+                       "name":  "FlagList4.unkFlag30",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  16,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  6,
+                       "name":  "FlagList4.unkFlag31",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  16,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  7,
+                       "name":  "FlagList4.unkFlag32",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  16,
+                       "size":  1
+                   },
+                   {
+                       "name":  "use",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  42,
+                       "size":  1
+                   },
+                   {
+                       "name":  "koukatype",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  77,
+                       "size":  1
+                   },
+                   {
+                       "name":  "costtype",
+                       "type":  "CostType",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  111,
+                       "size":  1
+                   },
+                   {
+                       "name":  "cost",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  137,
+                       "size":  1
+                   },
+                   {
+                       "name":  "costbase",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  164,
+                       "size":  1
+                   },
+                   {
+                       "name":  "targettype",
+                       "type":  "TargetTypeList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  199,
+                       "size":  1
+                   },
+                   {
+                       "name":  "targetarea",
+                       "type":  "SkillTargets",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  233,
+                       "size":  1
+                   },
+                   {
+                       "name":  "targetrule",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  267,
+                       "size":  1
+                   },
+                   {
+                       "name":  "untargetbadstat",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  293,
+                       "size":  4
+                   },
+                   {
+                       "name":  "hitratio",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  330,
+                       "size":  1
+                   },
+                   {
+                       "name":  "targetcntmin",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  364,
+                       "size":  1
+                   },
+                   {
+                       "name":  "targetcntmax",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  398,
+                       "size":  1
+                   },
+                   {
+                       "name":  "hptype",
+                       "type":  "HPTypeList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  432,
+                       "size":  1
+                   },
+                   {
+                       "name":  "hpn",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  458,
+                       "size":  2
+                   },
+                   {
+                       "name":  "sptype",
+                       "type":  "SPTypeList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  493,
+                       "size":  1
+                   },
+                   {
+                       "name":  "spn",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  519,
+                       "size":  2
+                   },
+                   {
+                       "name":  "badtype",
+                       "type":  "EffectType",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  554,
+                       "size":  1
+                   },
+                   {
+                       "name":  "badratio",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  588,
+                       "size":  1
+                   },
+                   {
+                       "name":  "EffectList1",
+                       "type":  "bitfield_group",
+                       "kind":  "bitfield_group",
+                       "count":  1,
+                       "offset":  614,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  0,
+                       "name":  "EffectList1.Dizzy",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  614,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  1,
+                       "name":  "EffectList1.CharmEffect",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  614,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  2,
+                       "name":  "EffectList1.DistressEffect",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  614,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  3,
+                       "name":  "EffectList1.ConfuseEffect",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  614,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  4,
+                       "name":  "EffectList1.FearEffect",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  614,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  5,
+                       "name":  "EffectList1.RageEffect",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  614,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  6,
+                       "name":  "EffectList1.FreezeEffect",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  614,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  7,
+                       "name":  "EffectList1.ShockEffect",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  614,
+                       "size":  1
+                   },
+                   {
+                       "name":  "EffectList2",
+                       "type":  "bitfield_group",
+                       "kind":  "bitfield_group",
+                       "count":  1,
+                       "offset":  615,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  0,
+                       "name":  "EffectList2.PoisonEffect",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  615,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  1,
+                       "name":  "EffectList2.unkEffect10",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  615,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  2,
+                       "name":  "EffectList2.unkEffect11",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  615,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  3,
+                       "name":  "EffectList2.unkEffect12",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  615,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  4,
+                       "name":  "EffectList2.unkEffect13",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  615,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  5,
+                       "name":  "EffectList2.unkEffect14",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  615,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  6,
+                       "name":  "EffectList2.unkEffect15",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  615,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  7,
+                       "name":  "EffectList2.unkEffect16",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  615,
+                       "size":  1
+                   },
+                   {
+                       "name":  "EffectList3",
+                       "type":  "bitfield_group",
+                       "kind":  "bitfield_group",
+                       "count":  1,
+                       "offset":  616,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  0,
+                       "name":  "EffectList3.unkEffect17",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  616,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  1,
+                       "name":  "EffectList3.unkEffect18",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  616,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  2,
+                       "name":  "EffectList3.unkEffect19",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  616,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  3,
+                       "name":  "EffectList3.KO",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  616,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  4,
+                       "name":  "EffectList3.Down",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  616,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  5,
+                       "name":  "EffectList3.unkEffect22",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  616,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  6,
+                       "name":  "EffectList3.unkEffect23",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  616,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  7,
+                       "name":  "EffectList3.unkEffect24",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  616,
+                       "size":  1
+                   },
+                   {
+                       "name":  "EffectList4",
+                       "type":  "bitfield_group",
+                       "kind":  "bitfield_group",
+                       "count":  1,
+                       "offset":  617,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  0,
+                       "name":  "EffectList4.unkEffect25",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  617,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  1,
+                       "name":  "EffectList4.unkEffect26",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  617,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  2,
+                       "name":  "EffectList4.unkEffect27",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  617,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  3,
+                       "name":  "EffectList4.unkEffect28",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  617,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  4,
+                       "name":  "EffectList4.unkEffect29",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  617,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  5,
+                       "name":  "EffectList4.unkEffect30",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  617,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  6,
+                       "name":  "EffectList4.unkEffect31",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  617,
+                       "size":  1
+                   },
+                   {
+                       "bitOffset":  7,
+                       "name":  "EffectList4.unkEffect32",
+                       "bitWidth":  1,
+                       "type":  "bit",
+                       "kind":  "bitfield",
+                       "offset":  617,
+                       "size":  1
+                   },
+                   {
+                       "name":  "support",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  643,
+                       "size":  1
+                   },
+                   {
+                       "name":  "program",
+                       "type":  "ProgramEffect",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  680,
+                       "size":  1
+                   },
+                   {
+                       "name":  "criticalratio",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  714,
+                       "size":  1
+                   },
+                   {
+                       "name":  "swoonratio",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  748,
+                       "size":  1
+                   }
+               ],
+    "headerSize":  1174,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset",
+    "fileSize":  539474,
+    "regressionReason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\"",
+    "regressionStatus":  "pass",
+    "regressionPassRate":  100,
+    "regressionFieldsChecked":  88,
+    "regressionFieldsMatched":  88
+}

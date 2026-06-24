@@ -1,0 +1,39 @@
+{
+    "templateFile":  "p3re_skillLimit.bt",
+    "asset":  "skillLimit.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "limitData",
+    "rowCount":  10,
+    "rowSize":  76,
+    "fields":  [
+                   {
+                       "name":  "totalskillnum",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  21,
+                       "size":  1
+                   },
+                   {
+                       "name":  "inheritanceskillnum",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  55,
+                       "size":  1
+                   }
+               ],
+    "headerSize":  686,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/UI/Tables/Combine/SkillLimitDataAsset.uasset",
+    "fileSize":  1446,
+    "regressionStatus":  "pass",
+    "regressionPassRate":  100,
+    "regressionFieldsChecked":  8,
+    "regressionFieldsMatched":  8
+}

@@ -1,0 +1,121 @@
+{
+    "templateFile":  "p3re_btlTheurgiaBoost_astrea.bt",
+    "asset":  "btlTheurgiaBoost_astrea.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+
+                  },
+    "tableShape":  "single_record_array",
+    "recordType":  "theurgyBoostData",
+    "recordName":  "theurgyboostData",
+    "recordSize":  1242,
+    "fields":  [
+                   {
+                       "name":  "value",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  25,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value2",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  27,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value3",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  29,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value4",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  31,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value5",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  33,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value6",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  35,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value7",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  37,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value8",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  39,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value9",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  41,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value10",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  43,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value11",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  45,
+                       "size":  2
+                   },
+                   {
+                       "name":  "value12",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  47,
+                       "size":  2
+                   }
+               ],
+    "repeatCount":  18,
+    "repeatStride":  69,
+    "headerSize":  710,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Astrea/Battle/Tables/DatBtlTheurgiaBoostDataAsset.uasset",
+    "fileSize":  1952,
+    "regressionStatus":  "pass",
+    "regressionPassRate":  100,
+    "regressionFieldsChecked":  40,
+    "regressionFieldsMatched":  40
+}

@@ -1,0 +1,62 @@
+{
+    "templateFile":  "p3re_calcPANICDropItem.bt",
+    "asset":  "calcPANICDropItem.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  106,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "single_record",
+    "recordType":  "PanicDrop",
+    "recordName":  "PANICDrop",
+    "recordSize":  1681,
+    "fields":  [
+                   {
+                       "name":  "item",
+                       "type":  "itemStruct",
+                       "kind":  "struct",
+                       "count":  5,
+                       "offset":  0,
+                       "size":  555
+                   },
+                   {
+                       "name":  "item2",
+                       "type":  "itemStruct",
+                       "kind":  "struct",
+                       "count":  5,
+                       "offset":  563,
+                       "size":  555
+                   },
+                   {
+                       "name":  "item3",
+                       "type":  "itemStruct",
+                       "kind":  "struct",
+                       "count":  5,
+                       "offset":  1126,
+                       "size":  555
+                   }
+               ],
+    "headerSize":  774,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatCalcPANICDropItemDataAsset.uasset",
+    "fileSize":  2455,
+    "regressionStatus":  "skip",
+    "regressionReason":  "no CUE4Parse JSON available for p3re_calcPANICDropItem"
+}

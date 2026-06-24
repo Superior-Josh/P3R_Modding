@@ -1,0 +1,86 @@
+{
+    "templateFile":  "p3re_datallypersonagrowthdataasset.bt",
+    "asset":  "Datallypersonagrowthdataasset.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "allyPersona",
+    "rowCount":  17,
+    "rowSize":  26996,
+    "fields":  [
+                   {
+                       "name":  "playerId",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  21,
+                       "size":  1
+                   },
+                   {
+                       "name":  "levelMax",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  55,
+                       "size":  1
+                   },
+                   {
+                       "name":  "skillevent",
+                       "type":  "allySkillEventStruct",
+                       "kind":  "struct",
+                       "count":  32,
+                       "offset":  74,
+                       "size":  4640
+                   },
+                   {
+                       "name":  "paramsup",
+                       "type":  "paramsUpStruct",
+                       "kind":  "struct",
+                       "count":  98,
+                       "offset":  4721,
+                       "size":  22246
+                   },
+                   {
+                       "name":  "expstruct",
+                       "type":  "ExpStruct",
+                       "kind":  "struct",
+                       "count":  1,
+                       "offset":  26967,
+                       "size":  29
+                   },
+                   {
+                       "name":  "expstruct.exp",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  26972,
+                       "size":  4
+                   }
+               ],
+    "headerSize":  98,
+    "calibrationStatus":  "deprecated: prefer canonical schema (non-dat name)",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatAllyPersonaGrowthDataAsset.uasset",
+    "fileSize":  507682,
+    "regressionStatus":  "skip",
+    "regressionReason":  "deprecated dat-* duplicate (canonical sibling covers it)"
+}

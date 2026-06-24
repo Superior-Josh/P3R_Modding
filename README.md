@@ -15,7 +15,7 @@ Persona 3 Reload (P3R) 是基于 UE 4.27 的 JRPG。它的资产以加密 IoStor
 
 本项目提供一条 **端到端的程序化 Mod 制作管线**，让 AI Agent（或 Power User）只需一条自然语言指令：
 
-> *"把阿耆尼（Agi）的伤害改成 999"*
+> *"把亚基（Agi）的伤害改成 999"*
 
 就能自动完成：
 

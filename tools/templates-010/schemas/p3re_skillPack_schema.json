@@ -1,0 +1,121 @@
+{
+    "templateFile":  "p3re_skillPack.bt",
+    "asset":  "skillPack.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  286,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "single_record",
+    "recordType":  "SkillPack",
+    "recordName":  "skillpack",
+    "recordSize":  178846,
+    "fields":  [
+                   {
+                       "name":  "packstruct",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  0,
+                       "size":  17800
+                   },
+                   {
+                       "name":  "packstruct2",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  17894,
+                       "size":  17800
+                   },
+                   {
+                       "name":  "packstruct3",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  35788,
+                       "size":  17800
+                   },
+                   {
+                       "name":  "packstruct4",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  53682,
+                       "size":  17800
+                   },
+                   {
+                       "name":  "packstruct5",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  71576,
+                       "size":  17800
+                   },
+                   {
+                       "name":  "packstruct6",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  89470,
+                       "size":  17800
+                   },
+                   {
+                       "name":  "packstruct7",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  107364,
+                       "size":  17800
+                   },
+                   {
+                       "name":  "packstruct8",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  125258,
+                       "size":  17800
+                   },
+                   {
+                       "name":  "packstruct9",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  143152,
+                       "size":  17800
+                   },
+                   {
+                       "name":  "packstruct10",
+                       "type":  "PackStruct",
+                       "kind":  "struct",
+                       "count":  200,
+                       "offset":  161046,
+                       "size":  17800
+                   }
+               ],
+    "headerSize":  898,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/UI/Tables/Combine/SkillPackDataAsset.uasset",
+    "fileSize":  179744,
+    "regressionStatus":  "fail",
+    "regressionPassRate":  0,
+    "regressionFieldsChecked":  0,
+    "regressionFieldsMatched":  0,
+    "regressionReason":  "No fields checked"
+}

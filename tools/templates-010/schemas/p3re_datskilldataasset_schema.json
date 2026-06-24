@@ -1,0 +1,81 @@
+{
+    "templateFile":  "p3re_datskilldataasset.bt",
+    "asset":  "Datskilldataasset.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "skillData",
+    "rowCount":  1025,
+    "rowSize":  86,
+    "fields":  [
+                   {
+                       "name":  "attr",
+                       "type":  "ElementalType",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "name":  "type",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  39,
+                       "size":  1
+                   },
+                   {
+                       "name":  "targetLv",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  65,
+                       "size":  1
+                   }
+               ],
+    "headerSize":  694,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatSkillDataAsset.uasset",
+    "fileSize":  88844,
+    "regressionReason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\"",
+    "regressionStatus":  "partial",
+    "regressionPassRate":  83.3,
+    "regressionFieldsChecked":  12,
+    "regressionFieldsMatched":  10,
+    "regressionMismatches":  [
+                                 {
+                                     "row":  512,
+                                     "offset":  44739,
+                                     "jsonVal":  "-1",
+                                     "zenVal":  "255",
+                                     "field":  "attr"
+                                 },
+                                 {
+                                     "row":  1024,
+                                     "offset":  88771,
+                                     "jsonVal":  "-1",
+                                     "zenVal":  "255",
+                                     "field":  "attr"
+                                 }
+                             ]
+}

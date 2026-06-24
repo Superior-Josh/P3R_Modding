@@ -3,6 +3,8 @@
 > 全部路径相对于 `Extracted/IoStore/P3R/Content/`
 > Xrd777 为主容器（优先），Astrea 为基础层（补充）
 > ⚠ 标记表示该 Wiki 页面内容对应的游戏数据存在于多个文件中
+>
+> 🇨🇳 **中文用户译名见 [`docs/zh-cn/`](../zh-cn/README.md)**（biligame WIKI 三语对照表）。本文件提供英文 ID 权威映射；中文输入识别/输出请走 `docs/zh-cn/`。
 
 ---
 

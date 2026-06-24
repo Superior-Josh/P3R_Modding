@@ -1,6 +1,18 @@
 # P3R Modding AI Agent — 系统架构设计
 
 > **版本**: v1.0 | **日期**: 2026-06-17 | **目标**: MVP 阶段
+>
+> ## ⚠️ 2026-06-24 重大架构调整（顶部状态横幅）
+>
+> 本文档详细描述的写回路径——**P3RDataTools `create` / TemplateCreator.cs / UAssetAPI 重新序列化 / 传统 `.uasset+.uexp` 模板法**——已被实测证伪：产物在 P3R 上启动崩游戏（详见 [`docs/MODDING_PITFALLS.md` P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件)）。
+>
+> **新写回路径**（已通过 AgiMod PoC 端到端验证）：从 [`Extracted/IoStore/`](../Extracted/) 复制 Zen 单文件原件 → 用 [godofknife/010-Editor-Templates](https://github.com/godofknife/010-Editor-Templates) 的 41 个 p3re 模板算字段偏移 → 字节级 in-place patch → 部署到 `<Mod>/UnrealEssentials/<虚拟路径>/`。
+>
+> **完整新工作流**：[`docs/ZEN_BYTE_PATCH_WORKFLOW.md`](ZEN_BYTE_PATCH_WORKFLOW.md)
+>
+> **工程化进度**：[`docs/DEVELOPMENT_PLAN.md` Sprint 1.5](DEVELOPMENT_PLAN.md#sprint-15-zen-byte-patch-写回引擎-2026-06-24-起替代-sprint-1-传统格式写回)
+>
+> **本文档其它部分**（分层架构、Claude Code 工具链、自然语言解析、备份/回滚/冲突检测、目录结构等）**仍然成立**——只需要把"写回组件"那一层从 `TemplateLoader + DataTablePatcher + AssetWriter` 替换成 `BtParser + ZenPatcher`，输入从"传统 `.uasset+.uexp` 模板"换成"`Extracted/IoStore/` Zen 原件 + 010 `.bt` schema"。完整重写本文档已排入 Sprint 1.5 之后。
 
 ---
 
@@ -434,7 +446,7 @@ tools/templates/                       ← 模板库 (Git 跟踪)
 {
   "name": "SuperAgi",
   "version": "1.0.0",
-  "description": "阿耆尼伤害增强",
+  "description": "亚基伤害增强",
   "author": "user",
   "created": "2026-06-17T14:30:00+08:00",
   "updated": "2026-06-17T14:30:00+08:00",
@@ -446,11 +458,11 @@ tools/templates/                       ← 模板库 (Git 跟踪)
       "template": "DatSkillNormalTable",
       "changes": [
         {
-          "rowIndex": 0,
-          "wikiName": "阿耆尼 (Agi)",
+          "rowIndex": 10,
+          "wikiName": "亚基 (Agi)",
           "fields": {
-            "Power": { "from": 15, "to": 500 },
-            "SPCost": { "from": 4, "to": 2 }
+            "hpn": { "from": 40, "to": 500 },
+            "cost": { "from": 3, "to": 2 }
           }
         }
       ]
@@ -474,7 +486,7 @@ tools/templates/                       ← 模板库 (Git 跟踪)
       "uexp": "tools/templates/DatSkillNormalTable.uexp",
       "sourceAsset": "DatSkillNormalDataAsset.uasset",
       "rowCount": 435,
-      "fields": ["DataID", "Power", "HPCost", "SPCost", "Element", "Target", "Accuracy", "Critical", "AttackUp", "DefenceUp", "HitUp", "AvoidUp", "AddDamage", "BadStatus", "BadStatusProbability", "Panel", "SkillSE"],
+      "fields": ["flag", "use", "koukatype", "costtype", "cost", "costbase", "targettype", "targetarea", "targetrule", "untargetbadstat", "hitratio", "targetcntmin", "targetcntmax", "hptype", "hpn", "sptype", "spn", "badtype", "badratio", "badstatus", "support", "program", "criticalratio", "swoonratio"],
       "verified": true
     },
     "DatSkillTable": {
@@ -496,28 +508,28 @@ tools/templates/                       ← 模板库 (Git 跟踪)
 ### 5.1 完整请求生命周期
 
 ```
-用户输入: "把阿耆尼的伤害改成 999"
+用户输入: "把亚基的伤害改成 999"
 ────────────────────────────────────────
 
 Phase 1: 解析 (Claude Code + 工具层)
   ┌─────────────────────────────────────────────────────────┐
   │ 1. Claude Code 理解意图                                 │
-  │    实体: 阿耆尼 → 技能                                   │
+  │    实体: 亚基 → 技能                                     │
   │    操作: 修改 → 数值                                     │
-  │    参数: 伤害 → Power 字段, value = 999                  │
+  │    参数: 伤害 → hpn 字段, value = 999                    │
   │                                                        │
-  │ 2. 调用 search-datatable.ps1 "阿耆尼" skills            │
+  │ 2. 调用 search-datatable.ps1 "亚基" skills              │
   │    ↓                                                   │
   │    读取 DATA_MAPPING.md                                 │
   │      → 技能数值 → DatSkillNormalDataAsset               │
-  │    读取 docs/amicitia/md/ 技能列表                       │
-  │      → 阿耆尼 = Agi, skill ID = 0                       │
+  │    读取 docs/zh-cn/skills.md                            │
+  │      → 亚基 = Agi, skill ID = 10                        │
   │    读取 tools/Output/json/Battle/                        │
-  │      → row[0].Power = 15                               │
+  │      → Data[10].hpn = 40                               │
   │    ↓                                                   │
   │    输出: { virtualPath: "...DatSkillNormal...",         │
-  │            rowIndex: 0, fieldPath: "Data[0].Power",     │
-  │            currentValue: 15 }                            │
+  │            rowIndex: 10, fieldPath: "Data[10].hpn",     │
+  │            currentValue: 40 }                            │
   └─────────────────────────────────────────────────────────┘
 
 Phase 2: 预览 (工具层)
@@ -526,7 +538,7 @@ Phase 2: 预览 (工具层)
   │    ↓                                                   │
   │    对比 before/after JSON → 翻译 ID → 人类可读格式       │
   │    ↓                                                   │
-  │    展示: "阿耆尼 (Agi, ID:0): Power: 15 → 999"         │
+  │    展示: "亚基 (Agi, ID:10): hpn: 40 → 999"            │
   │                                                        │
   │ 4. Claude Code 等待用户确认                              │
   └─────────────────────────────────────────────────────────┘
@@ -545,7 +557,7 @@ Phase 3: 执行 (编排层 + 核心层)
   │                                                        │
   │ 7. 调用 modify-and-repack.ps1                          │
   │    ├── P3RDataTools.exe read → skills_original.json     │
-  │    ├── 克隆原始 JSON → 修改 Data[0].Power = 999         │
+  │    ├── 克隆原始 JSON → 修改 Data[10].hpn = 999          │
   │    ├── P3RDataTools.exe create →                        │
   │    │   ├── TemplateLoader.FindTemplate("DatSkillNormalTable") │
   │    │   ├── UAssetAPI.LoadAsset(template.uasset)         │
@@ -625,7 +637,7 @@ Phase 4: 完成
 脚本调用约定:
   . .\Config.ps1                              ← 必须先加载
   $result = & .\tools\search-datatable.ps1    ← 通过 & 调用
-            -Query "阿耆尼"
+            -Query "亚基"
             -Category "skills"
   $obj = $result | ConvertFrom-Json           ← 解析 JSON 输出
 
@@ -647,8 +659,8 @@ Phase 4: 完成
   -Query    必需, 中文/日文/英文名称或描述
   -Category 可选, 限定搜索范围: skills|personas|enemies|items|weapons|armor
 返回: { virtualPath, assetName, rowIndex, fieldPath, currentValue, wikiName }
-示例: search_data_table("阿耆尼", category="skills")
-      → { virtualPath: "...DatSkillNormalDataAsset.uasset", rowIndex: 0, ... }
+示例: search_data_table("亚基", category="skills")
+      → { virtualPath: "...DatSkillNormalDataAsset.uasset", rowIndex: 10, ... }
 ```
 
 ---

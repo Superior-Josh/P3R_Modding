@@ -1,0 +1,135 @@
+{
+    "templateFile":  "p3re_specialSpread.bt",
+    "asset":  "specialSpread.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "specialSpread",
+    "rowCount":  23,
+    "rowSize":  224,
+    "fields":  [
+                   {
+                       "name":  "resultID",
+                       "type":  "PersonaID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  13,
+                       "size":  2
+                   },
+                   {
+                       "name":  "sourceID",
+                       "type":  "PersonaID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  40,
+                       "size":  2
+                   },
+                   {
+                       "name":  "sourceID2",
+                       "type":  "PersonaID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  67,
+                       "size":  2
+                   },
+                   {
+                       "name":  "sourceID3",
+                       "type":  "PersonaID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  94,
+                       "size":  2
+                   },
+                   {
+                       "name":  "sourceID4",
+                       "type":  "PersonaID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  121,
+                       "size":  2
+                   },
+                   {
+                       "name":  "sourceID5",
+                       "type":  "PersonaID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  148,
+                       "size":  2
+                   },
+                   {
+                       "name":  "sourceID6",
+                       "type":  "PersonaID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  175,
+                       "size":  2
+                   },
+                   {
+                       "name":  "index",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  202,
+                       "size":  2
+                   }
+               ],
+    "headerSize":  694,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/UI/Tables/Combine/SpecialSpreadDataAsset.uasset",
+    "fileSize":  5846,
+    "regressionReason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\"",
+    "regressionStatus":  "partial",
+    "regressionPassRate":  75,
+    "regressionFieldsChecked":  12,
+    "regressionFieldsMatched":  9,
+    "regressionMismatches":  [
+                                 {
+                                     "row":  1,
+                                     "offset":  958,
+                                     "jsonVal":  "0",
+                                     "zenVal":  "200",
+                                     "field":  "sourceID"
+                                 },
+                                 {
+                                     "row":  12,
+                                     "offset":  3422,
+                                     "jsonVal":  "0",
+                                     "zenVal":  "88",
+                                     "field":  "sourceID"
+                                 },
+                                 {
+                                     "row":  22,
+                                     "offset":  5662,
+                                     "jsonVal":  "204",
+                                     "zenVal":  "64",
+                                     "field":  "sourceID"
+                                 }
+                             ],
+    "regressionNotInJson":  [
+                                "sourceID2[sourceID2]",
+                                "sourceID3[sourceID3]",
+                                "sourceID4[sourceID4]",
+                                "sourceID5[sourceID5]",
+                                "sourceID6[sourceID6]"
+                            ]
+}

@@ -1,0 +1,245 @@
+{
+    "templateFile":  "p3re_itemSkillCard.bt",
+    "asset":  "itemSkillCard.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "single_record",
+    "recordType":  "CardData",
+    "recordName":  "carddata",
+    "recordSize":  140723,
+    "fields":  [
+                   {
+                       "name":  "cardstruct",
+                       "type":  "CardStruct",
+                       "kind":  "struct",
+                       "count":  1,
+                       "offset":  0,
+                       "size":  272
+                   },
+                   {
+                       "name":  "cardstruct.itemdef",
+                       "type":  "byte",
+                       "kind":  "scalar",
+                       "count":  42,
+                       "offset":  13,
+                       "size":  42
+                   },
+                   {
+                       "name":  "cardstruct.sortnum",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  55,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct.itemtype",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  82,
+                       "size":  4
+                   },
+                   {
+                       "name":  "cardstruct.rarity",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  111,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct.tier",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  138,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct.skillid",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  165,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct.price",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  192,
+                       "size":  4
+                   },
+                   {
+                       "name":  "cardstruct.sellprice",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  221,
+                       "size":  4
+                   },
+                   {
+                       "name":  "cardstruct.getflg",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  250,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct2",
+                       "type":  "CardStruct2",
+                       "kind":  "struct",
+                       "count":  291,
+                       "offset":  272,
+                       "size":  80316
+                   },
+                   {
+                       "name":  "cardstruct3",
+                       "type":  "CardStruct3",
+                       "kind":  "struct",
+                       "count":  1,
+                       "offset":  80588,
+                       "size":  273
+                   },
+                   {
+                       "name":  "cardstruct3.itemdef",
+                       "type":  "byte",
+                       "kind":  "scalar",
+                       "count":  43,
+                       "offset":  80601,
+                       "size":  43
+                   },
+                   {
+                       "name":  "cardstruct3.sortnum",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  80644,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct3.itemtype",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  80671,
+                       "size":  4
+                   },
+                   {
+                       "name":  "cardstruct3.rarity",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  80700,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct3.tier",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  80727,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct3.skillid",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  80754,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct3.price",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  80781,
+                       "size":  4
+                   },
+                   {
+                       "name":  "cardstruct3.sellprice",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  80810,
+                       "size":  4
+                   },
+                   {
+                       "name":  "cardstruct3.getflg",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  80839,
+                       "size":  2
+                   },
+                   {
+                       "name":  "cardstruct4",
+                       "type":  "CardStruct2",
+                       "kind":  "struct",
+                       "count":  25,
+                       "offset":  80861,
+                       "size":  6900
+                   },
+                   {
+                       "name":  "cardstruct5",
+                       "type":  "CardStruct3",
+                       "kind":  "struct",
+                       "count":  194,
+                       "offset":  87761,
+                       "size":  52962
+                   }
+               ],
+    "headerSize":  870,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/UI/Tables/DatItemSkillcardDataAsset.uasset",
+    "fileSize":  141593,
+    "regressionStatus":  "fail",
+    "regressionPassRate":  0,
+    "regressionFieldsChecked":  0,
+    "regressionFieldsMatched":  0,
+    "regressionNotInJson":  [
+                                "cardstruct.itemdef",
+                                "cardstruct.sortnum",
+                                "cardstruct.itemtype",
+                                "cardstruct.rarity",
+                                "cardstruct.tier",
+                                "cardstruct.skillid",
+                                "cardstruct.price",
+                                "cardstruct.sellprice",
+                                "cardstruct.getflg",
+                                "cardstruct3.itemdef",
+                                "cardstruct3.sortnum",
+                                "cardstruct3.itemtype",
+                                "cardstruct3.rarity",
+                                "cardstruct3.tier",
+                                "cardstruct3.skillid",
+                                "cardstruct3.price",
+                                "cardstruct3.sellprice",
+                                "cardstruct3.getflg"
+                            ],
+    "regressionReason":  "No fields checked"
+}

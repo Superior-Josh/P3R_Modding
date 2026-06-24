@@ -1,0 +1,118 @@
+{
+    "templateFile":  "p3re_datpersonagrowthdataasset.bt",
+    "asset":  "Datpersonagrowthdataasset.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "growthData",
+    "rowCount":  464,
+    "rowSize":  323,
+    "fields":  [
+                   {
+                       "name":  "paramsUp",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  21,
+                       "size":  1
+                   },
+                   {
+                       "name":  "paramsUp2",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  55,
+                       "size":  1
+                   },
+                   {
+                       "name":  "paramsUp3",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  89,
+                       "size":  1
+                   },
+                   {
+                       "name":  "paramsUp4",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  123,
+                       "size":  1
+                   },
+                   {
+                       "name":  "paramsUp5",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  157,
+                       "size":  1
+                   },
+                   {
+                       "name":  "skillEventStruct",
+                       "type":  "anon_struct",
+                       "kind":  "anon_struct",
+                       "count":  1,
+                       "offset":  178,
+                       "size":  145
+                   },
+                   {
+                       "name":  "skillEventStruct.skillEvent",
+                       "type":  "byte",
+                       "kind":  "scalar",
+                       "count":  33,
+                       "offset":  207,
+                       "size":  33
+                   },
+                   {
+                       "name":  "skillEventStruct.level",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  240,
+                       "size":  1
+                   },
+                   {
+                       "name":  "skillEventStruct.eventId",
+                       "type":  "short",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  266,
+                       "size":  2
+                   },
+                   {
+                       "name":  "skillEventStruct.skillId",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  293,
+                       "size":  2
+                   }
+               ],
+    "headerSize":  98,
+    "calibrationStatus":  "deprecated: prefer canonical schema (non-dat name)",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatPersonaGrowthDataAsset.uasset",
+    "fileSize":  1159902,
+    "regressionStatus":  "skip",
+    "regressionReason":  "deprecated dat-* duplicate (canonical sibling covers it)"
+}

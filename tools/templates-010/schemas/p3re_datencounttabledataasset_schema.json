@@ -1,0 +1,166 @@
+{
+    "templateFile":  "p3re_datencounttabledataasset.bt",
+    "asset":  "Datencounttabledataasset.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  91,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "encountData",
+    "rowCount":  1201,
+    "rowSize":  334,
+    "fields":  [
+                   {
+                       "name":  "flags",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  20,
+                       "size":  4
+                   },
+                   {
+                       "name":  "party_item",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  49,
+                       "size":  2
+                   },
+                   {
+                       "name":  "party_item_num",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  76,
+                       "size":  2
+                   },
+                   {
+                       "name":  "id",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  103,
+                       "size":  2
+                   },
+                   {
+                       "name":  "id2",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  130,
+                       "size":  2
+                   },
+                   {
+                       "name":  "id3",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  157,
+                       "size":  2
+                   },
+                   {
+                       "name":  "id4",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  184,
+                       "size":  2
+                   },
+                   {
+                       "name":  "id5",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  211,
+                       "size":  2
+                   },
+                   {
+                       "name":  "major",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  238,
+                       "size":  2
+                   },
+                   {
+                       "name":  "minor",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  265,
+                       "size":  2
+                   },
+                   {
+                       "name":  "sound",
+                       "type":  "BGMID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  292,
+                       "size":  2
+                   },
+                   {
+                       "name":  "shuffleLevel",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  319,
+                       "size":  2
+                   }
+               ],
+    "headerSize":  830,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatEncountTableDataAsset.uasset",
+    "fileSize":  401964,
+    "regressionReason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\"",
+    "regressionStatus":  "partial",
+    "regressionPassRate":  90.6,
+    "regressionFieldsChecked":  32,
+    "regressionFieldsMatched":  29,
+    "regressionMismatches":  [
+                                 {
+                                     "row":  0,
+                                     "offset":  1149,
+                                     "jsonVal":  "1",
+                                     "zenVal":  "0",
+                                     "field":  "shuffleLevel"
+                                 },
+                                 {
+                                     "row":  1,
+                                     "offset":  1483,
+                                     "jsonVal":  "1",
+                                     "zenVal":  "0",
+                                     "field":  "shuffleLevel"
+                                 },
+                                 {
+                                     "row":  600,
+                                     "offset":  201549,
+                                     "jsonVal":  "28",
+                                     "zenVal":  "0",
+                                     "field":  "shuffleLevel"
+                                 }
+                             ],
+    "regressionNotInJson":  [
+                                "id2[id2]",
+                                "id3[id3]",
+                                "id4[id4]",
+                                "id5[id5]"
+                            ]
+}

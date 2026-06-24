@@ -1,0 +1,155 @@
+{
+    "templateFile":  "p3re_enemyAnalyzeSync.bt",
+    "asset":  "enemyAnalyzeSync.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "AnalyzeSync",
+    "rowCount":  11,
+    "rowSize":  278,
+    "fields":  [
+                   {
+                       "name":  "enemyID",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  13,
+                       "size":  2
+                   },
+                   {
+                       "name":  "enemyID2",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  40,
+                       "size":  2
+                   },
+                   {
+                       "name":  "enemyID3",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  67,
+                       "size":  2
+                   },
+                   {
+                       "name":  "enemyID4",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  94,
+                       "size":  2
+                   },
+                   {
+                       "name":  "enemyID5",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  121,
+                       "size":  2
+                   },
+                   {
+                       "name":  "enemyID6",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  148,
+                       "size":  2
+                   },
+                   {
+                       "name":  "enemyID7",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  175,
+                       "size":  2
+                   },
+                   {
+                       "name":  "enemyID8",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  202,
+                       "size":  2
+                   },
+                   {
+                       "name":  "enemyID9",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  229,
+                       "size":  2
+                   },
+                   {
+                       "name":  "enemyID10",
+                       "type":  "EnemyID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  256,
+                       "size":  2
+                   }
+               ],
+    "headerSize":  718,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatEnemyAnalyzeSyncDataAsset.uasset",
+    "fileSize":  3776,
+    "regressionReason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\"",
+    "regressionStatus":  "partial",
+    "regressionPassRate":  25,
+    "regressionFieldsChecked":  4,
+    "regressionFieldsMatched":  1,
+    "regressionMismatches":  [
+                                 {
+                                     "row":  0,
+                                     "offset":  731,
+                                     "jsonVal":  "0",
+                                     "zenVal":  "13",
+                                     "field":  "enemyID"
+                                 },
+                                 {
+                                     "row":  1,
+                                     "offset":  1009,
+                                     "jsonVal":  "0",
+                                     "zenVal":  "30",
+                                     "field":  "enemyID"
+                                 },
+                                 {
+                                     "row":  6,
+                                     "offset":  2399,
+                                     "jsonVal":  "0",
+                                     "zenVal":  "22",
+                                     "field":  "enemyID"
+                                 }
+                             ],
+    "regressionNotInJson":  [
+                                "enemyID2[enemyID2]",
+                                "enemyID3[enemyID3]",
+                                "enemyID4[enemyID4]",
+                                "enemyID5[enemyID5]",
+                                "enemyID6[enemyID6]",
+                                "enemyID7[enemyID7]",
+                                "enemyID8[enemyID8]",
+                                "enemyID9[enemyID9]",
+                                "enemyID10[enemyID10]"
+                            ]
+}

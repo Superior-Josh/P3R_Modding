@@ -1,0 +1,63 @@
+{
+    "templateFile":  "p3re_encountEnemyBadPercent.bt",
+    "asset":  "encountEnemyBadPercent.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "EnemyBad",
+    "rowCount":  9,
+    "rowSize":  178,
+    "fields":  [
+                   {
+                       "name":  "Num1",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  21,
+                       "size":  1
+                   },
+                   {
+                       "name":  "Num2",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  55,
+                       "size":  1
+                   },
+                   {
+                       "name":  "Num3",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  89,
+                       "size":  1
+                   },
+                   {
+                       "name":  "Num4",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  123,
+                       "size":  1
+                   },
+                   {
+                       "name":  "NumOver5",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  157,
+                       "size":  1
+                   }
+               ],
+    "headerSize":  798,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatEncountEnemyBadPercentDataAsset.uasset",
+    "fileSize":  2400,
+    "regressionStatus":  "pass",
+    "regressionPassRate":  100,
+    "regressionFieldsChecked":  20,
+    "regressionFieldsMatched":  20
+}

@@ -203,7 +203,7 @@ void ModifyAsset(DefaultFileProvider provider, string virtualPath, string jsonOr
     JToken modifiedData;
     if (isQuick)
     {
-        // Quick mode: jsonOrProperty = "Properties.Data[0].Power", value = "999"
+        // Quick mode: jsonOrProperty = "Properties.Data[10].hpn", value = "999"
         modifiedData = originalJson.DeepClone();
         var token = modifiedData.SelectToken(jsonOrProperty);
         if (token == null)

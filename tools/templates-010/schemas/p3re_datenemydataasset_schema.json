@@ -1,0 +1,308 @@
+{
+    "templateFile":  "p3re_datenemydataasset.bt",
+    "asset":  "Datenemydataasset.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+                      "Bool":  1,
+                      "ProgramEffect":  1,
+                      "SkillList":  2,
+                      "EnemyID":  2,
+                      "ElementalType":  1,
+                      "BGMID":  2,
+                      "CostType":  1,
+                      "ItemList":  2,
+                      "RaceID":  1,
+                      "SPTypeList":  1,
+                      "EffectType":  1,
+                      "AffinityStatus":  2,
+                      "TargetTypeList":  1,
+                      "SkillTargets":  1,
+                      "PersonaID":  2,
+                      "HPTypeList":  1,
+                      "EventIDList":  2,
+                      "PersonaInherit":  2
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "enemyData",
+    "rowCount":  601,
+    "rowSize":  1336,
+    "fields":  [
+                   {
+                       "name":  "flags",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  13,
+                       "size":  1
+                   },
+                   {
+                       "name":  "race",
+                       "type":  "RaceID",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  50,
+                       "size":  1
+                   },
+                   {
+                       "name":  "level",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  76,
+                       "size":  2
+                   },
+                   {
+                       "name":  "maxhp",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  103,
+                       "size":  2
+                   },
+                   {
+                       "name":  "maxsp",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  132,
+                       "size":  1
+                   },
+                   {
+                       "name":  "params",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  169,
+                       "size":  1
+                   },
+                   {
+                       "name":  "params2",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  203,
+                       "size":  1
+                   },
+                   {
+                       "name":  "params3",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  237,
+                       "size":  1
+                   },
+                   {
+                       "name":  "params4",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  271,
+                       "size":  1
+                   },
+                   {
+                       "name":  "params5",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  305,
+                       "size":  1
+                   },
+                   {
+                       "name":  "skill",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  331,
+                       "size":  2
+                   },
+                   {
+                       "name":  "skill2",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  358,
+                       "size":  2
+                   },
+                   {
+                       "name":  "skill3",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  385,
+                       "size":  2
+                   },
+                   {
+                       "name":  "skill4",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  412,
+                       "size":  2
+                   },
+                   {
+                       "name":  "skill5",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  439,
+                       "size":  2
+                   },
+                   {
+                       "name":  "skill6",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  466,
+                       "size":  2
+                   },
+                   {
+                       "name":  "skill7",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  493,
+                       "size":  2
+                   },
+                   {
+                       "name":  "skill8",
+                       "type":  "SkillList",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  520,
+                       "size":  2
+                   },
+                   {
+                       "name":  "exp",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  547,
+                       "size":  1
+                   },
+                   {
+                       "name":  "money",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  576,
+                       "size":  1
+                   },
+                   {
+                       "name":  "item",
+                       "type":  "itemStruct",
+                       "kind":  "struct",
+                       "count":  4,
+                       "offset":  629,
+                       "size":  444
+                   },
+                   {
+                       "name":  "eventItem",
+                       "type":  "eventItemStruct",
+                       "kind":  "struct",
+                       "count":  1,
+                       "offset":  1073,
+                       "size":  140
+                   },
+                   {
+                       "name":  "eventItem.event",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  1098,
+                       "size":  4
+                   },
+                   {
+                       "name":  "eventItem.id",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  1127,
+                       "size":  2
+                   },
+                   {
+                       "name":  "eventItem.prob",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  1154,
+                       "size":  2
+                   },
+                   {
+                       "name":  "attack",
+                       "type":  "attackStruct",
+                       "kind":  "struct",
+                       "count":  1,
+                       "offset":  1213,
+                       "size":  123
+                   },
+                   {
+                       "name":  "attack.attr",
+                       "type":  "ElementalType",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  1246,
+                       "size":  1
+                   },
+                   {
+                       "name":  "attack.hit",
+                       "type":  "ubyte",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  1280,
+                       "size":  1
+                   },
+                   {
+                       "name":  "attack.power",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  1306,
+                       "size":  2
+                   }
+               ],
+    "headerSize":  1086,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatEnemyDataAsset.uasset",
+    "fileSize":  804022,
+    "regressionReason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\"",
+    "regressionStatus":  "partial",
+    "regressionPassRate":  94.4,
+    "regressionFieldsChecked":  36,
+    "regressionFieldsMatched":  34,
+    "regressionMismatches":  [
+                                 {
+                                     "row":  1,
+                                     "offset":  2753,
+                                     "jsonVal":  "0",
+                                     "zenVal":  "89",
+                                     "field":  "skill"
+                                 },
+                                 {
+                                     "row":  300,
+                                     "offset":  402217,
+                                     "jsonVal":  "0",
+                                     "zenVal":  "10",
+                                     "field":  "skill"
+                                 }
+                             ],
+    "regressionNotInJson":  [
+                                "params2[params2]",
+                                "params3[params3]",
+                                "params4[params4]",
+                                "params5[params5]",
+                                "skill2[skill2]",
+                                "skill3[skill3]",
+                                "skill4[skill4]",
+                                "skill5[skill5]",
+                                "skill6[skill6]",
+                                "skill7[skill7]",
+                                "skill8[skill8]",
+                                "eventItem.event[eventItem.event]",
+                                "eventItem.id[eventItem.id]",
+                                "eventItem.prob[eventItem.prob]",
+                                "attack.attr[attack.attr]",
+                                "attack.hit[attack.hit]",
+                                "attack.power[attack.power]"
+                            ]
+}

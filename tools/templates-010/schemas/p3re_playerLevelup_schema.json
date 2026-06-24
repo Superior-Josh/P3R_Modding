@@ -1,0 +1,31 @@
+{
+    "templateFile":  "p3re_playerLevelup.bt",
+    "asset":  "playerLevelup.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  98,
+    "enumSizes":  {
+
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "PlayerLevel",
+    "rowCount":  99,
+    "rowSize":  37,
+    "fields":  [
+                   {
+                       "name":  "exp",
+                       "type":  "uint",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  13,
+                       "size":  4
+                   }
+               ],
+    "headerSize":  702,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Battle/Tables/DatPlayerLevelupDataAsset.uasset",
+    "fileSize":  4365,
+    "regressionStatus":  "pass",
+    "regressionPassRate":  100,
+    "regressionFieldsChecked":  4,
+    "regressionFieldsMatched":  4
+}

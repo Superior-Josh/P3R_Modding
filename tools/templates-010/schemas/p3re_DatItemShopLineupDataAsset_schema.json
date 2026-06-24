@@ -1,0 +1,119 @@
+{
+    "templateFile":  "p3re_DatItemShopLineupDataAsset.bt",
+    "asset":  "DatItemShopLineupDataAsset.uasset",
+    "rootStructName":  "fileData",
+    "headerSizeHint":  0,
+    "enumSizes":  {
+
+                  },
+    "tableShape":  "indexed_rows",
+    "rowStructName":  "ItemData",
+    "rowCount":  1024,
+    "rowSize":  118,
+    "fields":  [
+                   {
+                       "name":  "ItemID",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  13,
+                       "size":  2
+                   },
+                   {
+                       "name":  "SaleMonth",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  40,
+                       "size":  2
+                   },
+                   {
+                       "name":  "SaleDay",
+                       "type":  "ushort",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  67,
+                       "size":  2
+                   },
+                   {
+                       "name":  "OpenFlag",
+                       "type":  "u32",
+                       "kind":  "scalar",
+                       "count":  1,
+                       "offset":  94,
+                       "size":  4
+                   }
+               ],
+    "headerSize":  66,
+    "calibrationStatus":  "ok",
+    "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/UI/Tables/DatItemShopLineupDataAsset.uasset",
+    "fileSize":  2898,
+    "rowCountCalibrated":  24,
+    "regressionReason":  "exception: Unsupported type: u32",
+    "regressionStatus":  "partial",
+    "regressionPassRate":  0,
+    "regressionFieldsChecked":  8,
+    "regressionFieldsMatched":  0,
+    "regressionMismatches":  [
+                                 {
+                                     "row":  0,
+                                     "offset":  106,
+                                     "jsonVal":  "3",
+                                     "zenVal":  "24900",
+                                     "field":  "SaleMonth"
+                                 },
+                                 {
+                                     "row":  0,
+                                     "offset":  133,
+                                     "jsonVal":  "31",
+                                     "zenVal":  "25445",
+                                     "field":  "SaleDay"
+                                 },
+                                 {
+                                     "row":  1,
+                                     "offset":  224,
+                                     "jsonVal":  "4",
+                                     "zenVal":  "28520",
+                                     "field":  "SaleMonth"
+                                 },
+                                 {
+                                     "row":  1,
+                                     "offset":  251,
+                                     "jsonVal":  "1",
+                                     "zenVal":  "19568",
+                                     "field":  "SaleDay"
+                                 },
+                                 {
+                                     "row":  9,
+                                     "offset":  1168,
+                                     "jsonVal":  "4",
+                                     "zenVal":  "8",
+                                     "field":  "SaleMonth"
+                                 },
+                                 {
+                                     "row":  9,
+                                     "offset":  1195,
+                                     "jsonVal":  "1",
+                                     "zenVal":  "8",
+                                     "field":  "SaleDay"
+                                 },
+                                 {
+                                     "row":  17,
+                                     "offset":  2112,
+                                     "jsonVal":  "8",
+                                     "zenVal":  "4",
+                                     "field":  "SaleMonth"
+                                 },
+                                 {
+                                     "row":  17,
+                                     "offset":  2139,
+                                     "jsonVal":  "8",
+                                     "zenVal":  "1",
+                                     "field":  "SaleDay"
+                                 }
+                             ],
+    "regressionNotInJson":  [
+                                "ItemID[ItemID]",
+                                "OpenFlag[OpenFlag]"
+                            ]
+}
