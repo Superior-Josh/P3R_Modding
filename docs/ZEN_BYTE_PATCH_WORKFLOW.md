@@ -212,6 +212,10 @@ $check = [System.IO.File]::ReadAllBytes($dst)
 | 限制 | 影响 |
 |---|---|
 | 模板未覆盖的表 | 武器/防具/饰品无模板，无法 patch |
+| 3 个模板未解析 | `combineBirth` / `datitemskillcard` / `HeroParameterDataAsset`，详见 [SPRINT_1_5_TODO.md](SPRINT_1_5_TODO.md) |
+| PARTIAL/FAIL/SKIP schema | 首次使用前需人工核查或修复，详见 [SPRINT_1_5_TODO.md](SPRINT_1_5_TODO.md) |
+| union / struct-with-union | 直接 byte-patch 可能崩溃（P-010），详见 [SPRINT_1_5_TODO.md](SPRINT_1_5_TODO.md) |
+| nested struct array target | 当前不支持 `Data[N].arr[M].field` 语法 |
 | 变长字段 | 字符串/数组改长度不行 |
 | 跨版本 | P3R 大更新后须重新校准 `headerSize`，旧 patch 可能作废 |
 
@@ -226,4 +230,5 @@ $check = [System.IO.File]::ReadAllBytes($dst)
 | [MODDING_PITFALLS.md P-007](MODDING_PITFALLS.md#p-007) | 传统格式崩游戏的论据 |
 | [MODDING_PITFALLS.md P-009](MODDING_PITFALLS.md#p-009) | hpn 平方语义 |
 | [DEVELOPMENT_PLAN.md Sprint 1.5](DEVELOPMENT_PLAN.md#sprint-15-zen-byte-patch-写回引擎-2026-06-24-起替代-sprint-1-传统格式写回) | 工程化进度 |
+| [SPRINT_1_5_TODO.md](SPRINT_1_5_TODO.md) | 剩余限制 / 后续待办 / Sprint 2 guard 输入 |
 | [agi_regression_report.md](../tools/templates-010/schemas/agi_regression_report.md) | T1.5.8 详细回归数据 |

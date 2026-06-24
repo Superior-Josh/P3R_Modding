@@ -177,6 +177,7 @@ T1.1 (模板加载)
 - [x] AgiMod 回归测试（字节级完全一致 + **人工实测通过**）：PoC 与 DSL 产物 0 diff，6 个 gold anchor 全过，亚基≈布芙 5x [→ full report](../tools/templates-010/schemas/agi_regression_report.md)
 - [x] [`docs/ZEN_BYTE_PATCH_WORKFLOW.md`](ZEN_BYTE_PATCH_WORKFLOW.md) 完善（T1.5.9 ✅ 2026-06-24：完全重写，§2 快速开始 → §3 前置条件已完成 → §4 手工 fallback）
 - [x] Sprint 1.5 评审与 2 个可验证 Mod（T1.5.10 ✅ 2026-06-24）：BufuMod 布芙 `hpn=999` + ExpMod Normal `ExpRate=100.0` 均已人工实测通过 [→ sprint-review.md](../tools/templates-010/schemas/sprint-review.md)
+- [x] Sprint 1.5 剩余限制跟踪文档已建立：[SPRINT_1_5_TODO.md](SPRINT_1_5_TODO.md)（未解析模板 / PARTIAL schema / FAIL/SKIP schema / union / nested target / 变长字段；不属于 T1.5 完成阻塞项）
 
 ### 任务依赖图
 

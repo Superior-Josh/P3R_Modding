@@ -209,6 +209,7 @@ P3R_Modding/
 | **产品需求 / 用户画像 / 验收标准** | [PRD_P3R_AI_AGENT.md](docs/PRD_P3R_AI_AGENT.md) |
 | **架构 / 模块设计 / 接口** | [SYSTEM_ARCHITECTURE.md](docs/SYSTEM_ARCHITECTURE.md) |
 | **Zen 写回工作流 / DSL / target 语法** | [ZEN_BYTE_PATCH_WORKFLOW.md](docs/ZEN_BYTE_PATCH_WORKFLOW.md) |
+| **Sprint 1.5 剩余限制 / 后续待办** | [SPRINT_1_5_TODO.md](docs/SPRINT_1_5_TODO.md) |
 | **Sprint 分解 / 里程碑** | [DEVELOPMENT_PLAN.md](docs/DEVELOPMENT_PLAN.md) |
 | **资产格式深度分析** | [P3R_ASSET_ANALYSIS.md](docs/P3R_ASSET_ANALYSIS.md) |
 | **AI Agent 工作指南** | [CLAUDE.md](CLAUDE.md) |
