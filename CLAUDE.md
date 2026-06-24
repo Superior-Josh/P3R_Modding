@@ -12,10 +12,10 @@
 
 ### Mod 交付机制
 
-P3R 使用 **Reloaded II** 加载 Mod。**默认采用 UnrealEssentials 散文件挂载**——把修改后的 `.uasset`+`.uexp` 放到 `Mods/<ModName>/UnrealEssentials/P3R/Content/...` 下，UnrealEssentials 自动注入 UE 4.27 资产加载链。**这是项目内已验证可运行的参考 mod 的真实形态**（见 [`tools/Reloaded II/Mods/p3rpc.ui.barionskillnames/`](tools/Reloaded II/Mods/p3rpc.ui.barionskillnames/)）。
+P3R 使用 **Reloaded II** 加载 Mod。**默认采用 UnrealEssentials 散文件挂载**——把修改后的 **Zen 单文件 `.uasset`** 放到 `Mods/<ModName>/UnrealEssentials/P3R/Content/...` 下，UnrealEssentials 自动注入 UE 4.27 资产加载链。Sprint 1.5 已确认：AgiMod、BufuMod（布芙 `hpn=999`）和 ExpMod（Normal `ExpRate=100.0`）均可在游戏内生效。
 
 ```
-P3RDataTools create → .uasset+.uexp
+Extracted/IoStore Zen .uasset → Invoke-ZenPatch.ps1 byte-patch → UnrealEssentials loose file
                             │
                             ↓
 Reloaded II + UnrealEssentials ← 散文件按虚拟路径镜像挂载
@@ -39,7 +39,7 @@ P3R.exe (Inaba EXE Patcher 解锁 mod 支持)
 
 > **关于 UnrealEssentials 的完整能力**（支持整包/散文件、Zen vs 传统资产、`utoc-extractor`、`.uassetmeta` 元数据、UE 版本范围、上游依赖链）：见 [`docs/UNREAL_ESSENTIALS_REFERENCE.md`](docs/UNREAL_ESSENTIALS_REFERENCE.md)。本仓库实际安装的 UnrealEssentials 版本可在 [`tools/Reloaded II/Mods/UnrealEssentials/ModConfig.json`](tools/Reloaded%20II/Mods/UnrealEssentials/ModConfig.json) 的 `ModVersion` 字段查看（当前 2.0.0）。
 >
-> ⚠️ **P3R 散文件替换的上游严格要求**：UnrealEssentials README 明确要求 *"any `.uasset` files you replace will have to come from a UTOC"*——即从 IoStore 容器直接拆出来的 **Zen 单文件**（首字节 `00 00 00 00`、无 `.uexp`）。我们项目当前用 `P3RDataTools.create` 生成的是**传统 `.uasset+.uexp`**（首字节 `C1 83 2A 9E`），在已验证的 DataTable 场景里**可工作**，但属于上游不背书的形态；新表注入失败时请参考 [`docs/MODDING_PITFALLS.md` P-007](docs/MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件) 走 Zen 路线。
+> ⚠️ **P3R 散文件替换的上游严格要求**：UnrealEssentials README 明确要求 *"any `.uasset` files you replace will have to come from a UTOC"*——即从 IoStore 容器直接拆出来的 **Zen 单文件**（首字节 `00 00 00 00`、无 `.uexp`）。项目当前唯一可工作的写回路径是 Sprint 1.5 的 Zen byte-patch；`P3RDataTools.create` 生成的传统 `.uasset+.uexp`（首字节 `C1 83 2A 9E`）已被 P-007 证伪，不要用于新 Mod。
 
 ## 快速开始
 
@@ -347,7 +347,7 @@ Set-SkillHpn -SkillId 10 -DamageMultiplier 5.0 -OutputDir .\my-mod\
 # 同时生成 FEmulator/PAK 备用产物 (可选, 99% 情况不需要)
 .\tools\scripts\modify-and-repack.ps1 -TableKey Skills -ModName "MyMod" -PackPak
 
-# 只生成 .uasset+.uexp, 不写入 Reloaded II Mods/
+# 只生成 Zen .uasset，不写入 Reloaded II Mods/
 .\tools\scripts\modify-and-repack.ps1 -TableKey Skills -NoInstall
 ```
 
@@ -365,11 +365,10 @@ Reloaded-II/
                 └── Content/
                     └── Xrd777/
                         └── Battle/Tables/          ← 与游戏内虚拟路径一一对应
-                            ├── DatSkillNormalDataAsset.uasset
-                            └── DatSkillNormalDataAsset.uexp
+                            └── DatSkillNormalDataAsset.uasset     ← Zen 单文件（无 .uexp）
 ```
 
-**目录命名规则**：把虚拟路径 `P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset` 完整镜像到 `<Mod>/UnrealEssentials/P3R/Content/Xrd777/Battle/Tables/...uasset`。`.uasset` 与 `.uexp` 文件名（不带后缀）必须与原资产严格一致。
+**目录命名规则**：把虚拟路径 `P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset` 完整镜像到 `<Mod>/UnrealEssentials/P3R/Content/Xrd777/Battle/Tables/...uasset`。Zen byte-patch 产物只有 `.uasset`，文件名必须与原资产严格一致。
 
 ### ModConfig.json 模板（UnrealEssentials 默认）
 

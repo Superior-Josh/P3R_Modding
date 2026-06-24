@@ -1,6 +1,6 @@
 # Sprint 1.5 Review Report
 
-> **Date**: 2026-06-24 | **Status**: ✅ COMPLETE | **Review Task**: T1.5.10
+> **Date**: 2026-06-24 | **Status**: ✅ COMPLETE — all T1.5 tasks and manual E2E verification passed | **Review Task**: T1.5.10
 
 ## Deliverable Audit
 
@@ -22,11 +22,12 @@
 
 | # | Test | Result | Detail |
 |---|------|--------|--------|
-| 1 | BufuMod (DamageMultiplier 7.0) | ✅ | hpn 40→1960 (N²: 40×49), 2 byte diffs |
-| 2 | AgiMod manual in-game | ✅ | Agi ≈5× Bufu damage confirmed |
-| 3 | MultiMod (Agi+Bufu 1 call) | ✅ | 2 skills, 4 byte diffs |
-| 4 | Pipeline DryRun | ✅ | Prevents write |
-| 5 | DSL Smoke (12 functions) | ✅ | All run without error |
+| 1 | BufuMod manual in-game | ✅ | 布芙 `hpn` 40→999 @ `0x4274`; 2 byte diffs; damage increase confirmed in game |
+| 2 | ExpMod manual in-game | ✅ | Normal `ExpRate` 1.0→100.0 @ `0x086C`; 2 byte diffs; 100× EXP confirmed on Normal difficulty |
+| 3 | AgiMod manual in-game | ✅ | Agi `hpn` 40→999; Agi ≈5× Bufu damage confirmed |
+| 4 | MultiMod (Agi+Bufu 1 call) | ✅ | 2 skills, 4 byte diffs |
+| 5 | Pipeline DryRun | ✅ | Prevents write |
+| 6 | DSL Smoke (12 functions) | ✅ | All run without error |
 
 **All 12 exported DSL functions verified across 5 flat-scalar schema types:**
 - `indexed_rows`: skillNormal, persona, enemy, playerLevelup
@@ -43,6 +44,8 @@
 
 ## Manual Verification
 
+- ✅ BufuMod: 布芙 `hpn=999` confirmed in-game (Skill ID 20, offset `0x4274`, 2 byte diffs)
+- ✅ ExpMod: Normal difficulty `ExpRate=100.0` confirmed in-game (offset `0x086C`, 2 byte diffs; note: only applies on Normal difficulty)
 - ✅ AgiMod: hpn=999 confirmed in-game ≈5× Bufu damage
 - ✅ Byte-identical to original PoC (539,474 bytes, 0 diffs)
 

@@ -11,7 +11,7 @@
 我们项目用它们做两件事：
 
 1. **手工 byte-level patch** —— 按 [`docs/ZEN_BYTE_PATCH_WORKFLOW.md`](../../docs/ZEN_BYTE_PATCH_WORKFLOW.md) 流程，对照 `.bt` 算字段 offset，再用 PowerShell 写字节。
-2. **自动 schema 解析器** —— Sprint 1.5 的 [`P3RDataTools.BtParser`](../P3RDataTools/) 会把 `.bt` 解析成 JSON 字段表，然后 `P3RDataTools patch` 用这些字段表做 JSON-driven byte patch。详见 [`docs/DEVELOPMENT_PLAN.md` Sprint 1.5](../../docs/DEVELOPMENT_PLAN.md#sprint-15-zen-byte-patch-写回引擎-2026-06-24-起替代-sprint-1-传统格式写回)。
+2. **自动 schema 解析器** —— Sprint 1.5 的 [`Parse-BtTemplate.ps1`](../scripts/Parse-BtTemplate.ps1) 会把 `.bt` 解析成 JSON 字段表，然后 [`Invoke-ZenPatch.ps1`](../scripts/Invoke-ZenPatch.ps1) 用这些字段表做 JSON-driven byte patch。详见 [`docs/DEVELOPMENT_PLAN.md` Sprint 1.5](../../docs/DEVELOPMENT_PLAN.md#sprint-15-zen-byte-patch-写回引擎-2026-06-24-起替代-sprint-1-传统格式写回)。
 
 ## 内容（44 个文件）
 
@@ -91,7 +91,7 @@ struct {                         // 文件根级 struct
 | `DatSkillDataAsset.uasset` | 86 | 694 | 1025 | 88,844 | `AllInherit` 字节差分实证 |
 | `DatPersonaGrowthDataAsset.uasset` | 2498 | 830 | 464 | 1,159,902 | Orpheus 11 个技能槽实证 |
 
-更多表的字段表 + header 校准在 Sprint 1.5 T1.5.4 完成后写到 `tools/templates-010/calibrated.json`（也由 `BtParser` 自动生成）。
+更多表的字段表 + header 校准已在 Sprint 1.5 完成，结果写入 `tools/templates-010/schemas/*_schema.json`，报告见 `tools/templates-010/schemas/calibration-report.md` 与 `regression-report.md`。
 
 ## 同步策略
 

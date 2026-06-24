@@ -8,7 +8,7 @@
 >
 > **Sprint 0 / Sprint 1 的"传统 `.uasset+.uexp` 模板法写回"路线在 P3R 上不可工作**——实测启用 AgiMod 会让游戏在初始化阶段静默崩溃（详见 [`docs/MODDING_PITFALLS.md` P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件)）。
 >
-> **新路线**：插入 [**Sprint 1.5: Zen Byte-Patch 写回引擎**](#sprint-15-zen-byte-patch-写回引擎-2026-06-24-起替代-sprint-1-传统格式写回)，复用 [`Extracted/IoStore/`](../Extracted/) 里的 Zen 原件 + [godofknife 010-Editor 模板](https://github.com/godofknife/010-Editor-Templates) 的字段 schema + 字节级 patch。AgiMod PoC 已端到端验证可行（亚基 hpn=999 实测约布芙 5x）。
+> **新路线**：插入 [**Sprint 1.5: Zen Byte-Patch 写回引擎**](#sprint-15-zen-byte-patch-写回引擎-2026-06-24-起替代-sprint-1-传统格式写回)，复用 [`Extracted/IoStore/`](../Extracted/) 里的 Zen 原件 + [godofknife 010-Editor 模板](https://github.com/godofknife/010-Editor-Templates) 的字段 schema + 字节级 patch。**Sprint 1.5 已全部完成**：AgiMod、BufuMod (`hpn=999`) 与 100× ExpMod (`Normal.ExpRate=100.0`) 均已人工实测通过。
 >
 > **影响**：
 > - Sprint 0 的 18 个传统格式模板 / `template_index.json` / `TemplateCreator.cs` **降级为"已弃用、保留以备 fallback"**，不再是主写回路径
@@ -24,7 +24,7 @@
 ```
 Sprint 0  ██ 基础设施补全 (12h)          ← 前置准备
 Sprint 1  ████ 写回引擎 (30h)            ← ⚠️ 路线被推翻（产物在 P3R 上崩游戏，详见 P-007）
-Sprint 1.5 ███ Zen Byte-Patch 写回 (28h) ← ★ 2026-06-24 新路线，AgiMod PoC 已验证
+Sprint 1.5 ███ Zen Byte-Patch 写回 (28h) ← ✅ 2026-06-24 全部完成：AgiMod / BufuMod / 100× ExpMod 人工实测通过
 Sprint 2  ████ 工具链集成 (26h)          ← 端到端闭环
 Sprint 3  ████ 安全系统 (24h)            ← 防护层
 Sprint 4  ██ 扩展与验证 (16h)            ← 覆盖 + 确认
@@ -141,7 +141,7 @@ T1.1 (模板加载)
 
 > **目标**: 把 AgiMod PoC 验证过的 Zen 字节级 patch 工作流工程化进 P3RDataTools；从 `Extracted/IoStore/` 取原件 → 010 模板算字段偏移 → JSON-driven byte patch → 部署到 `<Mod>/UnrealEssentials/<虚拟路径>/`。
 >
-> **工期**: 28h | **依赖**: AgiMod PoC（已完成）| **可交付物**: `P3RDataTools.exe patch` 命令 + 完整 010 模板库 + 改造后的 modify-and-repack.ps1
+> **工期**: 28h | **依赖**: AgiMod PoC（已完成）| **可交付物**: `Invoke-ZenPatch.ps1` + 完整 010 模板库 + DSL + 改造后的 `modify-and-repack.ps1`
 >
 > **背景与论据**：
 > - Sprint 1 的传统 `.uasset+.uexp` 路径会导致 P3R 启动崩溃（[P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件)）
@@ -158,24 +158,25 @@ T1.1 (模板加载)
 | **T1.5.2b** ✅ | 解析器扩展（边缘表型）| 加 3 种 root struct 类型：单命名行（`Some s;`）/ 多命名行（`DT_*` 风格 `safety/easy/normal/hard/risky`）/ intrinsic-array typedef（`}theurgyBoostData[18];`）| 3h | T1.5.2 | **已完成（2026-06-24）**：覆盖率 29 → **38/41**（92%），新增 4 种 `tableShape`：`indexed_rows`(29) / `named_rows`(1, DT_BtlDIfficultyParam) / `single_record`(5) / `single_record_array`(3, 含 Theurgy boost) | 验证 8 个新表型 |
 | **T1.5.3** ✅ | Header 自动校准 | 用 `fileSize - rowSize × rowCount = headerSize` 反推真实 header（模板里的 `unk[N]` 是估算），失败时回退到模板值并 warn | 2h | T1.5.2b | **已完成（2026-06-24）**：[`Calibrate-SchemaHeaders.ps1`](../tools/scripts/Calibrate-SchemaHeaders.ps1) 把 34/38 schema 校准到精确 `headerSize`，黄金锚点 `p3re_skillNormal=1174` 与 AgiMod PoC 完全吻合；3 个 dat-* 重复模板标记 deprecated（rowSize 与 canonical 不一致），1 个 `supportInfoNavi` 资产未提取标 not_found；`DatItemShopLineupDataAsset` 加 rowCount=1024→24 覆盖；详细数据见 [`tools/templates-010/schemas/calibration-report.md`](../tools/templates-010/schemas/calibration-report.md) | 跨核对 arkemultiplier 字节差分：`Easy.ExpRate @ 0x73A` 与 schema 计算的 file offset 完全一致 |
 | **T1.5.4** ✅ | Schema 验证回归测试 | 对每张有 010 模板的表，按 schema 从 Zen 字节解码每一行，与 CUE4Parse JSON 对比，全字段 match 才算 schema 通过 | 4h | T1.5.3 | **已完成（2026-06-24）**：[`Test-SchemaRegression.ps1`](../tools/scripts/Test-SchemaRegression.ps1) 回归全部 38 schema：18 PASS（含 skillNormal 120/120 ✓ + DT_BtlDIfficultyParam 50/50 ✓）、12 PARTIAL（5 个 CUE4Parse JSON 缺口 + 4 个待人工核对 + 1 个轻微差异）、2 FAIL（`itemSkillCard`/`skillPack`，JSON 结构不兼容），6 SKIP（3 deprecated + 2 无 JSON + 1 未校准）。黄金锚点 `Agi.hpn=40` 完全通过 | 审查 C 类 PARTIAL 的 4 个可疑表 |
-| **T1.5.5** ✅ | `patch` CLI 命令 | `Invoke-ZenPatch.ps1`（PowerShell prototype for `P3RDataTools.exe patch`），输入 changes.json，按 4 种 tableShape 定位 file offset + 大小保持标量写入 | 4h | T1.5.4 | **已完成（2026-06-24）**：[`Invoke-ZenPatch.ps1`](../tools/scripts/Invoke-ZenPatch.ps1) 消费 changes.json→schema→Zen 原件副本→字节写入→输出 .uasset；4 种 tableShape 均通过目标语法 `Data[N]` / `Rows.key` / `Record[N]` / bare field 测试；Agi hpn=999 0x246A 字节写入按预期完成 | CLI 单元测试（已完成：4/4 形状通过） |
+| **T1.5.5** ✅ | `patch` CLI 命令 | `Invoke-ZenPatch.ps1`（当前主路径的 PowerShell patch CLI），输入 changes.json，按 4 种 tableShape 定位 file offset + 大小保持标量写入 | 4h | T1.5.4 | **已完成（2026-06-24）**：[`Invoke-ZenPatch.ps1`](../tools/scripts/Invoke-ZenPatch.ps1) 消费 changes.json→schema→Zen 原件副本→字节写入→输出 .uasset；4 种 tableShape 均通过目标语法 `Data[N]` / `Rows.key` / `Record[N]` / bare field 测试；Agi hpn=999 0x246A 字节写入按预期完成 | CLI 单元测试（已完成：4/4 形状通过） |
 | **T1.5.6** ✅ | Mod-script DSL | PowerShell helper：`Set-SkillHpn -Id 10 -DamageMultiplier 5.0`（自动 N²）、`Set-PersonaLevel -PersonaId 250 -Level 99`、`Set-EnemySkill -EnemyId 100 -Slot 3 -SkillId 47` 等 | 3h | T1.5.5 | **已完成（2026-06-24）**：`tools/scripts/dsl/P3RModDSL.psm1`（~300 行），12 个导出函数覆盖 5 种 schema（skillNormal/persona/enemy/playerLevelup/DT_BtlDIfficultyParam），全部 7 项测试通过（含 AgiMod 黄金锚点 0x246A 精确命中） | 人工测试每条 helper |
 | **T1.5.7** ✅ | `modify-and-repack.ps1` 改造 | 默认走 patch 路径而不是 `P3RDataTools.create`：从 `Extracted/IoStore/` 取原件、应用 patch、部署到 `<Mod>/UnrealEssentials/`、写 ModConfig.json | 3h | T1.5.5 | **已完成（2026-06-24）**：完全重写——支持 `-SchemaKey`/`-TableKey`/`-VirtualPath` 解析 schema；`-Changes` 内联变更 / `-ChangesJson` 文件 / `-ModScript` DSL 脚本三种模式；DryRun 预览无写入；废弃重复 dat-* schema 自动跳过 | 端到端测试 |
 | **T1.5.8** ✅ | AgiMod 回归 | 用新管道重新生成 AgiMod，对比手工 PoC 的字节，应**完全一致**（hpn=999 在 0x0246A） | 1h | T1.5.7 | **已完成（2026-06-24）**：PoC AgiMod 与 DSL 产物逐字节 100% 一致（539,474 bytes, 0 diffs）；6 个 gold anchor 全部验证通过；**人工启游戏实测确认**：亚基伤害约为布芙 5 倍 ✅ | 启游戏复测亚基伤害 |
 | **T1.5.9** ✅ | 工作流文档 | 完善 [`docs/ZEN_BYTE_PATCH_WORKFLOW.md`](ZEN_BYTE_PATCH_WORKFLOW.md)：把"中期工程化"段落改为"已完成"，补充新 CLI 用法 | 1h | T1.5.7 | **已完成（2026-06-24）**：完全重写 ZEN_BYTE_PATCH_WORKFLOW.md（§2 快速开始 → §3 前置条件已交付 → §4 手工 fallback → §5 语义陷阱；DEVELOPMENT_PLAN.md/DEVELOPER_GUIDE.md/CLAUDE.md/regression-report.md 同步更新） | 审查 |
-| **T1.5.10** ✅ | Sprint 1.5 评审 | 验收所有交付物 + 端到端测试 | 3h | T1.5.1-T1.5.9 | **已完成（2026-06-24）**：17/17 交付物审计通过；E2E 全部功能正确——BufuMod（N²）、MultiMod（双表）、DSL Smoke（12/12）；**人工实测**: AgiMod 亚基≈布芙 5x ✅。**边缘发现**: personaGrowth 的 `SkillEventStruct`（含 `{SkillList\|ItemList}` union）直接 byte-patch 崩溃（P-010），`Set-PersonaGrowthSkill` 降级为 DEV-ONLY 骨架保留待逆向 | 真人启游戏验证已完成 |
+| **T1.5.10** ✅ | Sprint 1.5 评审 | 验收所有交付物 + 端到端测试 | 3h | T1.5.1-T1.5.9 | **已完成（2026-06-24）**：17/17 交付物审计通过；E2E 全部功能正确——BufuMod（布芙 `hpn` 40→999，offset `0x4274`，人工实测生效）、ExpMod（Normal `ExpRate` 1.0→100.0，offset `0x086C`，人工实测 100× 经验生效）、MultiMod（双技能）、DSL Smoke（12/12）。**边缘发现**: personaGrowth 的 `SkillEventStruct`（含 `{SkillList\|ItemList}` union）直接 byte-patch 崩溃（P-010），`Set-PersonaGrowthSkill` 降级为 DEV-ONLY 骨架保留待逆向 | 真人启游戏验证已完成 |
 
 ### 交付物
 
-- [ ] `tools/templates-010/` — 41 个 p3re `.bt` 模板（含 `p3re_structs.bt` / `p3re_enums.bt`），LICENSE 通告原作者
-- [ ] `tools/P3RDataTools/BtParser.cs` — `.bt` 模板解析器
-- [ ] `tools/P3RDataTools/ZenPatcher.cs` — 字节级 patch 引擎（含 header 校准、字段定位、写入断言）
-- [ ] `tools/P3RDataTools/Program.cs` — 新增 `patch` 命令
+- [x] `tools/templates-010/` — 41 个 p3re `.bt` 模板（含 `p3re_structs.bt` / `p3re_enums.bt`），LICENSE 通告原作者（T1.5.1 ✅）
+- [x] `tools/scripts/Parse-BtTemplate.ps1` — `.bt` 模板解析器（T1.5.2/T1.5.2b ✅；38/41 schema）
+- [x] `tools/scripts/Invoke-ZenPatch.ps1` — 字节级 patch 引擎（T1.5.5 ✅；4 种 tableShape；大小不变断言）
+- [x] `tools/P3RDataTools/Program.cs` — quick/create 等传统路径帮助文本更新，主写回路径迁移到 Zen patch 脚本
 - [x] `tools/scripts/dsl/P3RModDSL.psm1` — Mod-script DSL 模块（T1.5.6 ✅ 2026-06-24；**12 个导出函数**，覆盖 5 种平坦标量表；`Set-PersonaGrowthSkill` 因 union crash 转为 DEV-ONLY 保留骨架，见 P-010）
 - [x] `tools/scripts/modify-and-repack.ps1` — 改造默认走 Zen patch 路径（T1.5.7 ✅ 2026-06-24；支持 3 种变更输入模式 + DryRun + 废弃 schema 过滤）
 - [x] 41 张表的 schema 校验报告（CUE4Parse JSON 对照）[→ regression-report.md](../tools/templates-010/schemas/regression-report.md)（T1.5.4 完成 18/30 PASS + T1.5.8 补充 AgiMod 黄金锚点验证）
 - [x] AgiMod 回归测试（字节级完全一致 + **人工实测通过**）：PoC 与 DSL 产物 0 diff，6 个 gold anchor 全过，亚基≈布芙 5x [→ full report](../tools/templates-010/schemas/agi_regression_report.md)
 - [x] [`docs/ZEN_BYTE_PATCH_WORKFLOW.md`](ZEN_BYTE_PATCH_WORKFLOW.md) 完善（T1.5.9 ✅ 2026-06-24：完全重写，§2 快速开始 → §3 前置条件已完成 → §4 手工 fallback）
+- [x] Sprint 1.5 评审与 2 个可验证 Mod（T1.5.10 ✅ 2026-06-24）：BufuMod 布芙 `hpn=999` + ExpMod Normal `ExpRate=100.0` 均已人工实测通过 [→ sprint-review.md](../tools/templates-010/schemas/sprint-review.md)
 
 ### 任务依赖图
 
@@ -473,7 +474,7 @@ Week 8 ─ Sprint 4: 验证发布
 | `tools/P3RDataTools/DataTablePatcher.cs` | S1 ⊘ | 弃用 |
 | `tools/P3RDataTools/AssetWriter.cs` | S1 ⊘ | 弃用 |
 | `tools/P3RDataTools/TemplateCreator.cs` | S1 ⊘ | 弃用（产物在 P3R 上崩游戏）|
-| `tools/P3RDataTools/BtParser.cs` | **S1.5 ★** | **新建**（C# port 暂未做，PowerShell 原型 `tools/scripts/Parse-BtTemplate.ps1` 已交付且 29/41 表通过）|
+| `tools/P3RDataTools/BtParser.cs` | S1.5 △ | 未做 C# port；PowerShell 原型 `tools/scripts/Parse-BtTemplate.ps1` 已交付且 38/41 表 schema 生成完成 |
 | `tools/scripts/Parse-BtTemplate.ps1` | **S1.5 ★** | **已交付（T1.5.2 + T1.5.2b 完成 2026-06-24）**：PowerShell prototype，覆盖 010 语法子集 + 4 种 tableShape（indexed_rows / named_rows / single_record / single_record_array）；38/41 表 schema 已持久化到 `tools/templates-010/schemas/` |
 | `tools/templates-010/schemas/` (38 个 `_schema.json`)| **S1.5 ★** | **新建（T1.5.2 + T1.5.2b 输出）**|
 | `tools/scripts/Calibrate-SchemaHeaders.ps1` | **S1.5 ★** | **已交付（T1.5.3 完成 2026-06-24）**：把 38 schema 的 headerSizeHint 替换为校准过的真实 headerSize；产出 `tools/templates-010/schemas/calibration-report.md` |
@@ -481,10 +482,10 @@ Week 8 ─ Sprint 4: 验证发布
 | `tools/scripts/Test-SchemaRegression.ps1` | **S1.5 ★** | **已交付（T1.5.4 完成 2026-06-24）**：回归测试脚本，从 Zen 字节解析字段并与 CUE4Parse JSON 对比；产出 `tools/templates-010/schemas/regression-report.md` |
 | `tools/templates-010/schemas/regression-report.md` | **S1.5 ★** | **新建（T1.5.4 输出）**：38 schema × 详细回归结果 + 黄金锚点 |
 | `tools/scripts/Invoke-ZenPatch.ps1` | **S1.5 ★** | **已交付（T1.5.5 完成 2026-06-24）**：schema-driven Zen byte-patch CLI——输入 changes.json（schemaKey + target/values）+ 输出 patched .uasset；支持 4 种 tableShape（Data[N].field / Rows.key.field / Record[N].field / bare field）；所有标量类型 + enum；通过 AgiMod/Difficulty/combineMisc/Theurgy 全形验证 |
-| `tools/P3RDataTools/ZenPatcher.cs` | **S1.5 ★** | **新建** |
-| `tools/P3RDataTools/Program.cs` | S1/S1.5 | 修改（新增 `patch` 命令，`create` 命令降级为弃用警告）|
+| `tools/P3RDataTools/ZenPatcher.cs` | S1.5 △ | 未做 C# port；PowerShell 引擎 `tools/scripts/Invoke-ZenPatch.ps1` 已交付并作为当前主路径 |
+| `tools/P3RDataTools/Program.cs` | S1/S1.5 | 修改（quick/create 等传统路径帮助文本更新；主写回路径迁移到 Zen patch 脚本）|
 | `tools/templates-010/` (41 个 `.bt`)| **S1.5 ★** | **新建** |
-| `tools/scripts/dsl/Set-SkillHpn.ps1` 等 | **S1.5 ★** | **新建** |
+| `tools/scripts/dsl/P3RModDSL.psm1` | **S1.5 ★** | **已交付（T1.5.6 完成 2026-06-24）**：12 个导出函数，覆盖 5 种平坦标量 schema |
 | `tools/scripts/Config.ps1` | S2 | 修改 |
 | `tools/scripts/tools/search-datatable.ps1` | S2 | 新建 |
 | `tools/scripts/tools/search-wiki.ps1` | S2 | 新建 |

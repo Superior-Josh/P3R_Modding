@@ -1,6 +1,6 @@
 # Zen Byte-Patch 工作流（P3R Mod 写回的官方路径）
 
-> **状态**：2026-06-24 — Sprint 1.5 工程化完成 ✅，AgiMod 人工实测通过 ✅
+> **状态**：2026-06-24 — Sprint 1.5 全部完成 ✅；AgiMod / BufuMod / 100× ExpMod 人工实测通过 ✅
 >
 > **定位**：这是 P3R Mod 数值修改的**实际可工作路径**，替代 [`docs/MODDING_PITFALLS.md` P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件) 推翻的传统 `.uasset+.uexp` 路径。
 >
@@ -15,6 +15,8 @@
 > | T1.5.6 | [`P3RModDSL.psm1`](../tools/scripts/dsl/P3RModDSL.psm1) — 12 个 DSL helper | ✅ |
 > | T1.5.7 | [`modify-and-repack.ps1`](../tools/scripts/modify-and-repack.ps1) — 全流程管道（Zen patch 默认）| ✅ |
 > | T1.5.8 | AgiMod 回归 — PoC vs DSL 字节完全一致 + 人工实测通过 | ✅ |
+> | T1.5.9 | 文档更新 — ZEN_BYTE_PATCH_WORKFLOW / DEVELOPMENT_PLAN / DEVELOPER_GUIDE / CLAUDE.md 同步 | ✅ |
+> | T1.5.10 | Sprint 评审 — BufuMod (`hpn=999`) + ExpMod (`ExpRate=100.0`) 人工实测通过 | ✅ |
 >
 > **无需再手工执行字节 patch**。本文档保留作为参考和手工 fallback，**推荐直接看 [CLAUDE.md](../CLAUDE.md#快速路径mod-dsl推荐sprint-15) 快速开始**。
 
@@ -40,7 +42,7 @@ Extracted/IoStore/.../<Asset>.uasset (原始 Zen 字节)
 - ✅ 不重新序列化 → 文件**总字节数与原件完全相同**
 - ✅ Zen 行内字段无 property tag，可以纯靠 schema 算 offset
 - ✅ ushort / int32 / float / byte 等定长标量都能改
-- ✅ 2026-06-24 **人工实测确认**：Agi hpn=999 游戏中伤害约为布芙 5 倍
+- ✅ 2026-06-24 **人工实测确认**：Agi `hpn=999` 游戏中伤害约为布芙 5 倍；Bufu `hpn=999` 生效；Normal `ExpRate=100.0` 生效
 - ❌ 变长字段（string / TArray）暂不支持
 
 ---

@@ -20,10 +20,10 @@ Persona 3 Reload (P3R) 是基于 UE 4.27 的 JRPG。它的资产以加密 IoStor
 就能自动完成：
 
 ```
-定位 DataTable → 解密读取 → 修改 JSON → 生成 .uasset+.uexp → 打包 .pak → 部署到 Reloaded II
+定位 DataTable → 解析 010 schema → 复制 IoStore Zen 原件 → 字节级 patch → 部署到 Reloaded II
 ```
 
-并通过 **Reloaded II + File Emulation Framework** 加载进游戏（P3R 不支持原生散装 PAK 加载）。
+并通过 **Reloaded II + UnrealEssentials** 加载进游戏（P3R 不支持原生散装 PAK 加载）。
 
 ---
 
@@ -31,7 +31,8 @@ Persona 3 Reload (P3R) 是基于 UE 4.27 的 JRPG。它的资产以加密 IoStor
 
 - 🤖 **自然语言驱动** — Claude Code 作为编排层，理解需求 → 调用工具链
 - 🔓 **IoStore 直读** — 基于 CUE4Parse 1.1.1，内置 AES Key，无需手动 FModel 导出
-- 📦 **全自动打包** — `read → modify → create .uasset+.uexp → pack .pak → install` 一条命令完成
+- 🧬 **Zen byte-patch 写回** — 基于 010-Editor schema 就地修改 Zen `.uasset`，P3R 实测可运行
+- 📦 **全自动部署** — `schema → patch → UnrealEssentials loose-file install` 一条命令完成
 - 📚 **489 个 DataTable JSON 缓存** — 战斗/UI/社群/教程/字典全量快照，秒级查询
 - 🛡️ **可逆/可回滚** — 备份/差分/冲突检测脚本（Sprint 2 起）
 - 📖 **Wiki 知识库内嵌** — 37 份 Amicitia Wiki Markdown + 精确 ID 映射表
@@ -80,34 +81,24 @@ notepad .env       # 填入 P3R_PAKS_DIR (P3R 安装目录的 Content/Paks)
 
 ## 一分钟实战：做一个 Mod
 
-下面这条命令把 **Agi（火属性单体弱攻击）的基础威力从 40 改成 999**，全程自动：
+下面这条命令把 **亚基（火属性单体弱攻击）的 `hpn` 从 40 改成 999**，全程自动：
 
 ```powershell
-. .\tools\scripts\Config.ps1
-
-# 编写修改脚本
-@'
-param([Parameter(Mandatory=$true)][string]$JsonPath)
-$AgiSkillId = 10   # ⚠ Skill ID = 数组下标，详见 docs/MODDING_PITFALLS.md
-$json = Get-Content $JsonPath -Raw -Encoding UTF8 | ConvertFrom-Json
-$json.Properties.Data[$AgiSkillId].hpn = 999
-$json | ConvertTo-Json -Depth 10 | Set-Content $JsonPath -Encoding UTF8
-'@ | Set-Content .\agi-999.ps1 -Encoding UTF8
-
-# 一条命令：读 → 改 → 打包 → 部署到 Reloaded II
-.\tools\scripts\modify-and-repack.ps1 -TableKey Skills -ModScript .\agi-999.ps1 -ModName "AgiMod"
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills `
+  -Changes @(@{target='Data[10].hpn'; value=999}) `
+  -ModName "AgiMod"
 ```
 
 输出：
 ```
-[1/4] Reading original DataTable...
-[2/4] Applying modifications... Set Data[10].hpn: 40 -> 999
-[3/4] Creating .uasset+.uexp...  Type: DatSkillNormalTable, Rows: 700
-[4/4] Packing PAK... AgiMod_P.pak (11.5 KB)
-Reloaded II Mod installed: tools/Reloaded II/Mods/AgiMod
+[1/4] Schema resolved: p3re_skillNormal
+[2/4] Preparing changes... Data[10].hpn = 999
+[3/4] Executing Zen byte-patch... PATCHED Data[10].hpn 40 -> 999
+[4/4] PAK: skipped (default = UnrealEssentials loose files)
+[5/5] Installing to Reloaded II...
 ```
 
-通过 Reloaded II 启动 P3R，Agi 现在打 999 基础威力。
+通过 Reloaded II 启动 P3R，亚基现在约为原版 5 倍显示伤害（`hpn` 是显示伤害平方，详见 P-009）。Sprint 1.5 已用 AgiMod / BufuMod / 100× ExpMod 人工实测通过。
 
 > ⚠ **第一次写 Mod 脚本前务必读 [docs/MODDING_PITFALLS.md](docs/MODDING_PITFALLS.md)**。`Data[0]` **不是** 第一个真实技能，而是引擎占位行；改错下标会让 PAK 看似生效实则毫无变化。
 
@@ -129,16 +120,16 @@ Reloaded II Mod installed: tools/Reloaded II/Mods/AgiMod
                              ↓
 ┌──────────────────────────────────────────────────────────────────┐
 │ tools/scripts/modify-and-repack.ps1 (流程编排)                    │
-│  ┌────────────┐   ┌─────────┐   ┌──────────────┐   ┌─────────┐  │
-│  │P3RDataTools│ → │ModScript│ → │P3RDataTools  │ → │UnrealPak│  │
-│  │   read     │   │ (JSON)  │   │   create     │   │  pack   │  │
-│  └────────────┘   └─────────┘   └──────────────┘   └─────────┘  │
-│   (CUE4Parse)                   (TemplateCreator)                │
+│  ┌──────────┐   ┌──────────────┐   ┌────────────┐   ┌──────────┐ │
+│  │Schema/BT │ → │Invoke-ZenPatch│ → │Zen .uasset │ → │UEssentials│ │
+│  │  resolve │   │ byte writeback│   │loose file  │   │ install  │ │
+│  └──────────┘   └──────────────┘   └────────────┘   └──────────┘ │
+│   (010 schema)        (offset + LE scalar write)                 │
 └────────────────────────────┬─────────────────────────────────────┘
                              ↓
 ┌──────────────────────────────────────────────────────────────────┐
-│ .pak → Reloaded II/Mods/<Name>/FEmulator/PAK/                    │
-│         + ModConfig.json (含 fileemulationframework.pak 依赖)    │
+│ Reloaded II/Mods/<Name>/UnrealEssentials/P3R/Content/...          │
+│         + ModConfig.json (默认依赖 p3rpc.essentials)              │
 └────────────────────────────┬─────────────────────────────────────┘
                              ↓
 ┌──────────────────────────────────────────────────────────────────┐
@@ -155,10 +146,10 @@ Reloaded II Mod installed: tools/Reloaded II/Mods/AgiMod
 |---|---|
 | `read <vpath> <out.json>` | 从 IoStore 解密读取 DataTable → JSON |
 | `batch <filter> <dir>` | 按虚拟路径前缀批量导出 |
-| `create-template <vpath> <dir>` | 生成传统格式模板（一次性，Sprint 0） |
-| `create <json> <dir>` | **JSON → .uasset+.uexp+manifest**（Sprint 1） |
-| `modify <vpath> <json> <dir>` | 读 IoStore + 应用修改 → 输出 |
-| `quick <vpath> <path> <val> <dir>` | 单字段快速修改 |
+| `create-template <vpath> <dir>` | ~~生成传统格式模板~~（已弃用主路径，保留备查） |
+| `create <json> <dir>` | ~~JSON → .uasset+.uexp+manifest~~（P3R 实测崩溃，别用于新 Mod） |
+| `modify <vpath> <json> <dir>` | ~~读 IoStore + 应用修改 → 传统格式输出~~（已弃用） |
+| `quick <vpath> <path> <val> <dir>` | ~~单字段快速修改 → 传统格式输出~~（已弃用） |
 
 虚拟路径示例：`P3R/Content/Xrd777/Battle/Tables/DatSkillNormalDataAsset.uasset`
 
@@ -188,8 +179,11 @@ P3R_Modding/
 │   ├── P3RDataTools/            ← C# CLI 主工具
 │   ├── scripts/
 │   │   ├── Config.ps1           ← 共享配置（路径/AES Key/表别名）
-│   │   └── modify-and-repack.ps1 ← 全流程编排
-│   ├── templates/               ← 传统格式 .uasset 模板库
+│   │   ├── Invoke-ZenPatch.ps1  ← Zen byte-patch 写回引擎
+│   │   ├── dsl/P3RModDSL.psm1   ← Mod DSL helper
+│   │   └── modify-and-repack.ps1 ← 全流程编排（Zen 默认）
+│   ├── templates-010/            ← 010-Editor schema + 38 个 JSON schema
+│   ├── templates/                ← 传统格式模板库（已弃用主路径）
 │   ├── Output/
 │   │   ├── json/                ← 489 个 DataTable JSON 快照（已跟踪）
 │   │   ├── mod/                 ← Mod 产物（Git 忽略）
@@ -214,6 +208,7 @@ P3R_Modding/
 | **查 Skill / Persona / Item 的 ID** | [docs/amicitia/md/](docs/amicitia/md/) |
 | **产品需求 / 用户画像 / 验收标准** | [PRD_P3R_AI_AGENT.md](docs/PRD_P3R_AI_AGENT.md) |
 | **架构 / 模块设计 / 接口** | [SYSTEM_ARCHITECTURE.md](docs/SYSTEM_ARCHITECTURE.md) |
+| **Zen 写回工作流 / DSL / target 语法** | [ZEN_BYTE_PATCH_WORKFLOW.md](docs/ZEN_BYTE_PATCH_WORKFLOW.md) |
 | **Sprint 分解 / 里程碑** | [DEVELOPMENT_PLAN.md](docs/DEVELOPMENT_PLAN.md) |
 | **资产格式深度分析** | [P3R_ASSET_ANALYSIS.md](docs/P3R_ASSET_ANALYSIS.md) |
 | **AI Agent 工作指南** | [CLAUDE.md](CLAUDE.md) |

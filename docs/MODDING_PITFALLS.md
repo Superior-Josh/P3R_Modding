@@ -20,6 +20,7 @@
 - [P-008: `ModConfig.json` 默认依赖统一为 `p3rpc.essentials`](#p-008-modconfigjson-默认依赖统一为-p3rpcessentials)
 - [P-009: Skill 表的 `hpn` 字段是显示伤害的**平方**，要改 N 倍伤害得乘 N²](#p-009-skill-表的-hpn-字段是显示伤害的平方要改-n-倍伤害得乘-n²)
 - [P-010: 含 union 的 struct 不能直接 byte-patch——必崩 `Bad name index`](#p-010-含-union-的-struct-不能直接-byte-patch必崩-bad-name-index)
+- [P-011: 难度参数只影响对应难度行——确认当前游戏难度再验证](#p-011-难度参数只影响对应难度行确认当前游戏难度再验证)
 
 ---
 
@@ -752,6 +753,61 @@ UE 序列化 union 时，内部有一个 **类型判别字节（discriminator）
 | `DatPersonaGrowthDataAsset` | `SkillEventStruct` | skillevent[].data (SkillList \| ItemList) |
 
 | [CLAUDE.md](../CLAUDE.md) AgiMod 例子 | 没注释 hpn → 显示伤害的关系 | 加 P-009 链接 |
+
+---
+
+## P-011: 难度参数只影响对应难度行——确认当前游戏难度再验证
+
+### 症状
+
+`DT_BtlDIfficultyParam.uasset` 已正确 byte-patch，文件路径也正确，但游戏内看起来没有生效。
+
+### 真实案例
+
+**2026-06-24 — Sprint 1.5 T1.5.10 ExpMod**
+
+- 生成 `ExpMod`，修改 `Rows.Normal.ExpRate`：`1.0 → 100.0`
+- 字节验证通过：float `1.0` (`00 00 80 3F`) → `100.0` (`00 00 C8 42`)，仅 `0x086E` / `0x086F` 两字节变化
+- 初次人工验证反馈“100 倍经验没生效”
+- 最终确认原因：当时游戏难度不是 `Normal`
+- 切到 Normal 后 100× EXP 生效 ✅
+
+### 根因
+
+`p3re_DT_BtlDIfficultyParam` 是 `named_rows` 表，每一行只对应一个难度：
+
+| 目标 | 影响难度 |
+|---|---|
+| `Rows.Safety.ExpRate` | Safety |
+| `Rows.Easy.ExpRate` | Easy |
+| `Rows.Normal.ExpRate` | Normal |
+| `Rows.Hard.ExpRate` | Hard |
+| `Rows.Risky.ExpRate` | Risky |
+
+只改 `Rows.Normal.ExpRate` 不会影响 Easy/Hard/Risky。验证时如果当前存档难度不是 Normal，会误判为 Mod 不生效。
+
+### 修复方法
+
+1. 验证单难度 Mod 前，先确认游戏当前难度。
+2. 如果目标是“所有难度都改”，同时 patch 5 行：
+
+```powershell
+.\tools\scripts\modify-and-repack.ps1 -SchemaKey p3re_DT_BtlDIfficultyParam `
+  -Changes @(
+    @{target='Rows.Safety.ExpRate'; value=100.0},
+    @{target='Rows.Easy.ExpRate'; value=100.0},
+    @{target='Rows.Normal.ExpRate'; value=100.0},
+    @{target='Rows.Hard.ExpRate'; value=100.0},
+    @{target='Rows.Risky.ExpRate'; value=100.0}
+  ) -ModName "ExpAllDifficultyMod"
+```
+
+### 自查清单
+
+- [ ] 当前存档/游戏设置的难度是否等于你修改的 `Rows.<Difficulty>`？
+- [ ] 是否有其它 Mod 也覆盖 `DT_BtlDIfficultyParam.uasset`？
+- [ ] 部署路径是否是 `UnrealEssentials/P3R/Content/Xrd777/Blueprints/Battle/Calculations/DT_BtlDIfficultyParam.uasset`？
+- [ ] byte diff 是否符合预期（例如 `1.0 → 100.0` 为 `00 00 80 3F → 00 00 C8 42`）？
 
 ---
 
