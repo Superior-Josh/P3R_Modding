@@ -1,62 +1,56 @@
-# Parsed schemas (T1.5.2 + T1.5.2b + T1.5.3 + T1.5.4 output)
+﻿# Parsed schemas
 
-This directory holds the JSON output of [`Parse-BtTemplate.ps1`](../../scripts/Parse-BtTemplate.ps1) (one `_schema.json` per `.bt` template) **and** the overlay from [`Calibrate-SchemaHeaders.ps1`](../../scripts/Calibrate-SchemaHeaders.ps1) + [`Test-SchemaRegression.ps1`](../../scripts/Test-SchemaRegression.ps1) that adds `headerSize` and regression fields.
+> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
+>
+> 目的：说明 schema JSON 的格式、状态和再生成方式。
 
-**Status (2026-06-25)**:
+## 当前仓库快照
 
-- ✅ **38 / 41 templates parsed** (T1.5.2 + T1.5.2b)
-- ✅ **34 / 38 schemas calibrated** with real `headerSize` (T1.5.3)
-- ✅ **20 / 29 testable schemas pass regression** against CUE4Parse JSON (T1.5.4 + PARTIAL treatment update)
-- ✅ Golden anchor: `p3re_skillNormal 120/120 fields match` (Agi.hpn=40 exact)
-- ✅ Second anchor: `DT_BtlDIfficultyParam 50/50 fields match` (`Easy.ExpRate` exact)
-- ✅ PARTIAL treatment metadata added: `safeWithNormalization` / `needsManualReview` / `deprecatedDuplicate` / `unsupportedUntilSchemaFix`
+| 项 | 当前值 |
+|---|---:|
+| 重生成 Markdown 目标 | 74 |
+| tools/Output/json/**/*.json | 490 |
+| tools/templates-010/**/*.bt | 48 |
+| tools/templates-010/schemas/*_schema.json | 38 |
+| tools/scripts PowerShell 模块/脚本 | 17 |
+| Amicitia Markdown 参考页 | 37 |
+| 中文译名 Markdown 文件 | 8 |
 
-**Calibration result**: 34 OK / 3 DEP / 1 NOT_FOUND. Full report: [calibration-report.md](calibration-report.md).
+## 当前状态
 
-**Regression result (T1.5.4 + PARTIAL treatment update)**: 20 PASS / 9 PARTIAL / 2 FAIL / 7 SKIP. Full report: [regression-report.md](regression-report.md).
+- `_schema.json`：38 个。
+- 历史状态：20 PASS / 9 PARTIAL / 2 FAIL / 7 SKIP。
+- Golden anchor：`p3re_skillNormal` 中 Agi `hpn=40` 与 JSON 对齐。
 
-## Schema format — 4 table shapes
+## schema 字段
 
-Each calibrated schema has `tableShape`, `headerSize` (real), and various addressing fields. Always use `headerSize` for byte-patch math.
+| 字段 | 说明 |
+|---|---|
+| `schemaKey` | 项目内 schema 名 |
+| `tableShape` | offset 计算模型 |
+| `headerSize` | 真实数据区起点 |
+| `rowSize` / `rowCount` | indexed rows 参数 |
+| `fields` | 字段 offset/type/size |
+| `regressionStatus` | PASS/PARTIAL/FAIL/SKIP |
+| `disposition` / `guardPolicy` | 自动写回策略 |
 
-### Shape 1: `indexed_rows` (29 templates)
+## 必须遵守的项目事实
 
-`file_offset = headerSize + rowIndex * rowSize + field.offset`
+- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
+- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
+- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
+- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
+- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
+- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
 
-### Shape 2: `named_rows` (1 template: `DT_BtlDIfficultyParam`)
+## 关键入口
 
-`file_offset = headerSize + row.offset + field.offset` (lookup by `rowKeys: ["safety","easy",...]`)
-
-### Shape 3: `single_record` (5 templates)
-
-`file_offset = headerSize + field.offset` (no row indexing)
-
-### Shape 4: `single_record_array` (3 templates)
-
-`file_offset = headerSize + repIndex * repeatStride + field.offset`
-
-## Regeneration
-
-```powershell
-# Parse .bt -> schema JSON (T1.5.2 + T1.5.2b)
-Get-ChildItem tools\templates-010\p3re_*.bt | Where-Object { $_.Name -notin 'p3re_enums.bt','p3re_structs.bt' } | ForEach-Object {
-    $out = "tools\templates-010\schemas\$($_.BaseName)_schema.json"
-    try { $null = .\tools\scripts\Parse-BtTemplate.ps1 -TemplatePath $_.FullName -OutputPath $out -ErrorAction Stop 2>&1 } catch { }
-}
-# Calibrate (T1.5.3) + Regress (T1.5.4)
-.\tools\scripts\Calibrate-SchemaHeaders.ps1
-.\tools\scripts\Test-SchemaRegression.ps1
-```
-
-## Validation chain
-
-1. **AgiMod ground truth**: `p3re_skillNormal.bt` 21/21 manual fields + 120/120 regression fields match; Agi.hpn @ `0x0246A`
-2. **arkemultiplier cross-check**: `DT_BtlDIfficultyParam.Easy.ExpRate` matches known byte-diff position, 50/50 fields pass regression
-
-## 3 remaining template failures (not parser bugs)
-
-| Template | Reason | Impact |
-|---|---|---|
-| `p3re_combineBirth.bt` | Template is a literal-zero stub | Skip |
-| `p3re_datitemskillcarddataasset.bt` | Template body is empty; `p3re_itemSkillCard.bt` covers the same asset | Use `itemSkillCard` instead |
-| `p3re_HeroParameterDataAsset.bt` | Multi-section flat layout; needs new `tableShape` | Only affects Courage/Charm/Academics parameters |
+| 用途 | 文件/命令 |
+|---|---|
+| 主流程 | `tools/scripts/modify-and-repack.ps1` |
+| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
+| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
+| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
+| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
+| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
+| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |

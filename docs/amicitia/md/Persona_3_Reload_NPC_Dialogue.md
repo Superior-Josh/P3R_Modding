@@ -1,221 +1,50 @@
-﻿---
-title: NPC Dialogue
-source: https://amicitia.miraheze.org/wiki/Persona/3/Reload/NPC/Dialogue
----
-id="mw-content-text" class="mw-body-content">
-|
-| **Persona 3 Reload/NPC Dialogue**
-|
-|
-|
-| **Table **
-| P3R/Content/Xrd777/Field/Data/DataAsset/Bf/Npc
-000(dorm)
-###
-First 3 digits is the character, last 3 are what kind.
-|
-| ID
-| Description
-|
-| 002_200
-| Fuuka Yamagishi's dorm dialogue
-|
-| 002_230
-| Ask Fuuka Yamagishi to the film festival
-|
-| 002_250
-| Elizabeth's Fuuka Yamagishi request
-|
-| 002_280
-| Ask Fuuka Yamagishi to go to Tartarus
-|
-| 002_500
-| Ask Fuuka Yamagishi to do the dorm events
-|
-| 003_200
-| Mitsuru Kirijo's dorm dialogue
-|
-| 003_210
-| Mitsuru Kirijo gives a reward for doing well on exams
-|
-| 003_230
-|
-|
-| 003_250
-|
-|
-| 003_280
-|
-|
-| 003_300
-| Something about Shinjiro Aragaki's Linked Episodes
-|
-| 003_500
-|
-|
-| 006_200
-| Yukari Takeba's dorm dialogue
-|
-| 006_230
-|
-|
-| 006_250
-|
-|
-| 006_500
-|
-|
-| 021_200
-| Aigis' dorm dialogue
-|
-| 021_230
-|
-|
-| 021_250
-|
-|
-| 021_500
-|
-|
-| 030_000
-| Junpei Iori's Class 2F dialogue
-|
-| 030_200
-| Junpei Iori's dorm dialogue
-|
-| 030_201
-| Junpei Iori's dorm dialogue
-|
-| 030_230
-|
-|
-| 030_250
-|
-|
-| 030_500
-|
-|
-| 030_800
-| Some of Junpei Iori's Yakushima and Kyoto dialogue
-|
-| 031_000
-|
-|
-| 031_200
-| Akihiko Sanada's dorm dialogue
-|
-| 031_230
-|
-|
-| 031_250
-|
-|
-| 031_300
-| Ask Akihiko Sanada to do his Linked Episodes
-|
-| 031_500
-|
-|
-| 031_800
-|
-|
-| 032_200
-| Interact with Koromaru in the dorm
-|
-| 032_230
-|
-|
-| 032_250
-|
-|
-| 032_260
-| Get Akinari Kamiki's fountain pen from Koromaru
-|
-| 032_400
-| Ask Koromaru to go for a walk
-|
-| 032_500
-|
-|
-| 033_000
-| Dialogue about Ken Amada before he moves in
-|
-| 033_200
-| Ken Amada's dorm dialogue
-|
-| 033_230
-|
-|
-| 033_250
-|
-|
-| 033_300
-|
-|
-| 033_500
-|
-|
-| 034_200
-| Shinjiro Aragaki's dorm dialogue
-|
-| 033_230
-|
-|
-| 033_250
-|
-|
-| 033_300
-|
-|
-| 033_500
-|
-100(shop)
-###
-|
-| ID
-| Description
-|
-| 100_000
-| School store dialogue
-|
-| 101_000
-| Rafflesia dialogue
-|
-| 102_000
-| HARA dialogue
-|
-| 103_000
-| Octopia dialogue
-|
-| 104_000
-| Club Escapade luxury shop dialogue
-|
-| 105_000
-| Club Escapade website shop dialogue
-<!--
-NewPP limit report
-Parsed by mw172
-Cached time: 20260609022956
-Cache expiry: 1296000
-Reduced expiry: false
-Complications: []
-CPU time usage: 0.018 seconds
-Real time usage: 0.032 seconds
-Preprocessor visited node count: 17/1000000
-Revision size: 2081/2097152 bytes
-Post‐expand include size: 544/2097152 bytes
-Template argument size: 46/2097152 bytes
-Highest expansion depth: 4/100
-Expensive parser function count: 0/100
-Unstrip recursion depth: 0/20
-Unstrip post‐expand size: 0/5000000 bytes
--->
-<!--
-Transclusion expansion time report (%,ms,calls,template)
-100.00%    3.923      1 Template:Table
-100.00%    3.923      1 -total
--->
-<!-- Saved in parser cache with key amicitiawiki:pcache:1522:|#|:idhash:canonical and timestamp 20260609022956 and revision id 5793. Rendering was triggered because: page_view
- -->
-<noscript><img src="https://amicitia.miraheze.org/wiki/Special:CentralAutoLogin/start?type=1x1&usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
-<div
+﻿# Amicitia 参考 — NPC Dialogue
+
+> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
+>
+> 目的：作为英文 Wiki/ID/描述参考页，供定位 DataTable 与资产时交叉验证。
+
+## 当前仓库快照
+
+| 项 | 当前值 |
+|---|---:|
+| 重生成 Markdown 目标 | 74 |
+| tools/Output/json/**/*.json | 490 |
+| tools/templates-010/**/*.bt | 48 |
+| tools/templates-010/schemas/*_schema.json | 38 |
+| tools/scripts PowerShell 模块/脚本 | 17 |
+| Amicitia Markdown 参考页 | 37 |
+| 中文译名 Markdown 文件 | 8 |
+
+## 页面定位
+
+- 原始主题：Persona_3_Reload_NPC_Dialogue
+- 项目用途：查英文名、ID、描述、分类或相关资产线索。
+- 中文显示名：优先到 docs/zh-cn/ 查找；本页英文名不是中文回复的最终标准。
+
+## 使用提醒
+
+1. Wiki ID 只能帮助定位，写回必须确认 JSON 字段和 schema offset。
+2. 若本页内容对应模型、事件、音频或 flag，不代表当前工具链已支持自动写回。
+3. 数值类 DataTable 修改仍走 modify-and-repack.ps1 + guard。
+
+## 必须遵守的项目事实
+
+- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
+- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
+- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
+- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
+- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
+- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
+
+## 关键入口
+
+| 用途 | 文件/命令 |
+|---|---|
+| 主流程 | `tools/scripts/modify-and-repack.ps1` |
+| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
+| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
+| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
+| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
+| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
+| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |

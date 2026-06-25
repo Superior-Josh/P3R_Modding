@@ -1,8 +1,8 @@
-﻿# Amicitia 参考 — Cut-Ins
+﻿# Sprint 4 边界测试报告
 
 > 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
 >
-> 目的：作为英文 Wiki/ID/描述参考页，供定位 DataTable 与资产时交叉验证。
+> 目的：记录危险输入、边界数值与不支持字段的测试结果框架。
 
 ## 当前仓库快照
 
@@ -16,17 +16,16 @@
 | Amicitia Markdown 参考页 | 37 |
 | 中文译名 Markdown 文件 | 8 |
 
-## 页面定位
+## 边界类型
 
-- 原始主题：Persona_3_Reload_Cut-Ins
-- 项目用途：查英文名、ID、描述、分类或相关资产线索。
-- 中文显示名：优先到 docs/zh-cn/ 查找；本页英文名不是中文回复的最终标准。
-
-## 使用提醒
-
-1. Wiki ID 只能帮助定位，写回必须确认 JSON 字段和 schema offset。
-2. 若本页内容对应模型、事件、音频或 flag，不代表当前工具链已支持自动写回。
-3. 数值类 DataTable 修改仍走 modify-and-repack.ps1 + guard。
+| 类型 | 预期 |
+|---|---|
+| 超出字段类型范围 | 阻断或报错 |
+| string/TArray/union | 阻断 |
+| unknown schema/table | 报错并不写文件 |
+| conflict error | 阻断 |
+| warning/info conflict | 可继续但必须说明 |
+| DryRun | 不写入、不安装 |
 
 ## 必须遵守的项目事实
 

@@ -1,8 +1,8 @@
-﻿# Amicitia 参考 — Cut-Ins
+﻿# 人工测试待办
 
 > 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
 >
-> 目的：作为英文 Wiki/ID/描述参考页，供定位 DataTable 与资产时交叉验证。
+> 目的：记录需要用户进游戏或手动工具验证的事项。
 
 ## 当前仓库快照
 
@@ -16,17 +16,20 @@
 | Amicitia Markdown 参考页 | 37 |
 | 中文译名 Markdown 文件 | 8 |
 
-## 页面定位
+## 待验证清单
 
-- 原始主题：Persona_3_Reload_Cut-Ins
-- 项目用途：查英文名、ID、描述、分类或相关资产线索。
-- 中文显示名：优先到 docs/zh-cn/ 查找；本页英文名不是中文回复的最终标准。
+- Reloaded II 启动链是否正常。
+- 新生成 Mod 是否在 UI 中启用。
+- UnrealEssentials loose file 路径是否命中虚拟路径。
+- Skill/Persona/Enemy/Difficulty 等代表性字段在游戏内是否体现。
+- 回滚预览与实际回滚是否能恢复安装目录。
+- FEmulator/PAK fallback 仅在排障时验证，且必须检查 PAK 大小。
 
-## 使用提醒
+## 记录模板
 
-1. Wiki ID 只能帮助定位，写回必须确认 JSON 字段和 schema offset。
-2. 若本页内容对应模型、事件、音频或 flag，不代表当前工具链已支持自动写回。
-3. 数值类 DataTable 修改仍走 modify-and-repack.ps1 + guard。
+| 日期 | Mod | 修改 | 验证方式 | 结果 | 备注 |
+|---|---|---|---|---|---|
+| 2026-06-25 | 待填 | 待填 | Reloaded II 游戏内 | 待填 | 待填 |
 
 ## 必须遵守的项目事实
 

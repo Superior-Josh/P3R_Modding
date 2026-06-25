@@ -1,58 +1,51 @@
-﻿# P3R 标准中文译名 — 阿尔卡纳（Arcana）
+﻿# 标准中文译名 — 阿尔卡纳
 
-> 来源：[biligame WIKI · P3R/阿尔卡纳大卡效果](https://wiki.biligame.com/persona/P3R/%E9%98%BF%E5%B0%94%E5%8D%A1%E7%BA%B3%E5%A4%A7%E5%8D%A1%E6%95%88%E6%9E%9C)
-> 抓取日期：2026-06-24
+> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
+>
+> 目的：为中文自然语言需求和中文回复提供标准译名依据。
 
-阿尔卡纳是 Persona / Social Link 的分类基础。本表给出中文／日文／英文三语标准译名。
+## 当前仓库快照
 
-## 阿尔卡纳译名对照表
+| 项 | 当前值 |
+|---|---:|
+| 重生成 Markdown 目标 | 74 |
+| tools/Output/json/**/*.json | 490 |
+| tools/templates-010/**/*.bt | 48 |
+| tools/templates-010/schemas/*_schema.json | 38 |
+| tools/scripts PowerShell 模块/脚本 | 17 |
+| Amicitia Markdown 参考页 | 37 |
+| 中文译名 Markdown 文件 | 8 |
 
-| 中文 | 日文 | 英文 | 备注 |
-|------|------|------|------|
-| 愚者 | 愚者 | Fool |  |
-| 魔术师 | 魔術師 | Magician |  |
-| 女教皇 | 女教皇 | Priestess |  |
-| 女皇 | 女帝 | Empress |  |
-| 皇帝 | 皇帝 | Emperor |  |
-| 教皇 | 法王 | Hierophant |  |
-| 恋爱 | 恋愛 | Lovers |  |
-| 战车 | 戦車 | Chariot |  |
-| 正义 | 正義 | Justice |  |
-| 隐者 | 隠者 | Hermit |  |
-| 命运 | 運命 | Fortune |  |
-| 力量 | 力 | Strength |  |
-| 倒悬者 | 吊された男 | Hanged Man |  |
-| 死神 | 死神 | Death | 游戏内为 P3R 主角的 Pharos / Ryoji 社群（隐藏） |
-| 节制 | 節制 | Temperance |  |
-| 恶魔 | 悪魔 | Devil |  |
-| 塔 | 塔 | Tower |  |
-| 星 | 星 | Star |  |
-| 月亮 | 月 | Moon |  |
-| 太阳 | 太陽 | Sun |  |
-| 审判 | 審判 | Judgement |  |
-| 永劫 | 永劫 | Aeon | P3R 新增 / Aigis 专属 |
+## 使用规则
 
-## 大卡（Shuffle Time）效果速查
+- 用户使用中文名时，先在本目录查标准译名，再映射到英文/ID/DataTable。
+- 回复中文用户时优先使用标准中文名，并在必要时补充英文名与 ID。
+- 若本目录缺失，先查游戏 L10N；再退回 Amicitia 英文名与谨慎音译。
+- 不要凭空翻译，也不要把非标准译名写入脚本注释作为唯一依据。
 
-| 阿尔卡纳 | 解锁条件 | 效果 |
-|----------|----------|------|
-| 愚者 | 4月20日 | 直到结束本次探索为止，获得的经验增加1.1倍 |
-| 魔术师 | 4月20日 | 获得珍贵的道具 |
-| 女教皇 | 5月10日 | 直到结束本次探索为止，总攻击伤害提升 |
-| 女皇 | 6月8日 | 目前拥有的人格面具耐，速，运上升2点 |
-| 皇帝 | 6月8日 | 目前拥有的人格面具力，魔上升2点 |
-| 教皇 | 7月7日 | 装备的人格面具等级上升1 |
-| 恋爱 | 7月7日 | 直到结束本次探索为止，合体时的社群奖励增加 |
-| 战车 | 8月6日 | 主角的HP最大值上升10点 |
-| 正义 | 8月6日 | 洗牌时间中可抽取的卡片增加1张（多抽一次） |
-| 隐者 | 9月5日 | 主角的SP最大值上升7点 |
-| 命运 | 10月4日 | 参加战斗的我方所有成员HP最大值上升8点 |
-| 力量 | 10月4日 | 参加战斗的我方所有成员SP最大值上升5点 |
-| 倒悬者 | 11月3日 | 获得随机1张可使人格面具能力值上升的香薰卡 |
-| 节制 | 打通91层蒙纳多 | 从第二天开始，若执行能提升三维的日常行动，仅在当天，数值的提升量增加 |
-| 恶魔 | 打通117层蒙纳多 | 直到结束本次探索为止，从可破坏物品和敌人身上获得的道具数量增加 |
-| 塔 | 打通143层蒙纳多 | 主角目前拥有的人格面具所有能力值各上升1点 |
-| 星 | 打通171层蒙纳多 | 洗牌时间中可抽取的卡片增加1张（多抽一次） |
-| 月亮 | 打通197层蒙纳多 | 参加战斗的所有同伴HP和SP完全恢复 |
-| 太阳 | 打通225层蒙纳多 | 直到结束本次探索为止，可通过合体创造比鬼太郎高出最多5级的人格面具 |
-| 审判 | 打通225层蒙纳多 | 参加战斗的同伴中等级最低的成员将获得大量经验值 |
+## 关键示例
+
+- 亚基 / Agi / Skill ID 10 → `Data[10].hpn`
+- 俄耳甫斯 / Orpheus → Persona 相关 DataTable
+- 难度参数行需要确认当前游戏难度后验证
+
+## 必须遵守的项目事实
+
+- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
+- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
+- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
+- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
+- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
+- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
+
+## 关键入口
+
+| 用途 | 文件/命令 |
+|---|---|
+| 主流程 | `tools/scripts/modify-and-repack.ps1` |
+| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
+| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
+| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
+| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
+| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
+| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |

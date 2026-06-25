@@ -1,8 +1,8 @@
-﻿# Amicitia 参考 — Cut-Ins
+﻿# Schema 安全覆盖报告
 
 > 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
 >
-> 目的：作为英文 Wiki/ID/描述参考页，供定位 DataTable 与资产时交叉验证。
+> 目的：汇总当前 schema 覆盖、安全放行与人工复核边界。
 
 ## 当前仓库快照
 
@@ -16,17 +16,26 @@
 | Amicitia Markdown 参考页 | 37 |
 | 中文译名 Markdown 文件 | 8 |
 
-## 页面定位
+## 摘要
 
-- 原始主题：Persona_3_Reload_Cut-Ins
-- 项目用途：查英文名、ID、描述、分类或相关资产线索。
-- 中文显示名：优先到 docs/zh-cn/ 查找；本页英文名不是中文回复的最终标准。
+当前扫描到 38 个 `_schema.json`。历史报告显示约 20 PASS / 9 PARTIAL / 2 FAIL / 7 SKIP；以实际 `Test-SchemaRegression.ps1` 输出为准。
 
-## 使用提醒
+## 自动安全原则
 
-1. Wiki ID 只能帮助定位，写回必须确认 JSON 字段和 schema offset。
-2. 若本页内容对应模型、事件、音频或 flag，不代表当前工具链已支持自动写回。
-3. 数值类 DataTable 修改仍走 modify-and-repack.ps1 + guard。
+| 状态 | 自动写回 |
+|---|---|
+| PASS + flat scalar | 可放行 |
+| safeWithNormalization | 仅按 schema 标注规则放行 |
+| PARTIAL / needsManualReview | 默认人工复核 |
+| FAIL / SKIP / deprecated / unsupported | 阻断或仅研究 |
+
+## 已知报告风险
+
+旧版报告中曾出现 PowerShell 对象未展开为文本的问题。引用本报告前应重新运行：
+
+```powershell
+.\tools\scripts\tools\schema-coverage-report.ps1
+```
 
 ## 必须遵守的项目事实
 

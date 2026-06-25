@@ -1,63 +1,52 @@
-# Sprint 1.5 Review Report
+﻿# Schema 报告 — sprint-review.md
 
-> **Date**: 2026-06-24 | **Status**: ✅ COMPLETE — all T1.5 tasks and manual E2E verification passed | **Review Task**: T1.5.10
+> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
+>
+> 目的：记录模板校准、回归或审查的当前口径。
 
-## Deliverable Audit
+## 当前仓库快照
 
-| Task | Deliverable | Status |
-|------|-------------|--------|
-| T1.5.1 | `tools/templates-010/` — 41 `.bt` templates + `_enums` + `_structs` | ✅ |
-| T1.5.2 | `Parse-BtTemplate.ps1` + 38 schema JSONs | ✅ |
-| T1.5.3 | `Calibrate-SchemaHeaders.ps1` + calibration-report.md | ✅ |
-| T1.5.4 | `Test-SchemaRegression.ps1` + regression-report.md | ✅ |
-| T1.5.5 | `Invoke-ZenPatch.ps1` — schema-driven byte writeback | ✅ |
-| T1.5.6 | `P3RModDSL.psm1` — 12 DSL functions, 5 schema types | ✅ |
-| T1.5.7 | `modify-and-repack.ps1` — Zen patch default pipeline | ✅ |
-| T1.5.8 | AgiMod regression (byte-identical + manual in-game confirm) | ✅ |
-| T1.5.9 | `ZEN_BYTE_PATCH_WORKFLOW.md` + all docs updated | ✅ |
+| 项 | 当前值 |
+|---|---:|
+| 重生成 Markdown 目标 | 74 |
+| tools/Output/json/**/*.json | 490 |
+| tools/templates-010/**/*.bt | 48 |
+| tools/templates-010/schemas/*_schema.json | 38 |
+| tools/scripts PowerShell 模块/脚本 | 17 |
+| Amicitia Markdown 参考页 | 37 |
+| 中文译名 Markdown 文件 | 8 |
 
-**Score: 17/17 audit items present.**
+## 报告口径
 
-## E2E Test Results
+本报告应由实际脚本输出更新；当前重生成版本只保留项目级结论框架。
 
-| # | Test | Result | Detail |
-|---|------|--------|--------|
-| 1 | BufuMod manual in-game | ✅ | 布芙 `hpn` 40→999 @ `0x4274`; 2 byte diffs; damage increase confirmed in game |
-| 2 | ExpMod manual in-game | ✅ | Normal `ExpRate` 1.0→100.0 @ `0x086C`; 2 byte diffs; 100× EXP confirmed on Normal difficulty |
-| 3 | AgiMod manual in-game | ✅ | Agi `hpn` 40→999; Agi ≈5× Bufu damage confirmed |
-| 4 | MultiMod (Agi+Bufu 1 call) | ✅ | 2 skills, 4 byte diffs |
-| 5 | Pipeline DryRun | ✅ | Prevents write |
-| 6 | DSL Smoke (12 functions) | ✅ | All run without error |
+```powershell
+.\tools\scripts\Calibrate-SchemaHeaders.ps1
+.\tools\scripts\Test-SchemaRegression.ps1
+.\tools\scripts\tools\schema-coverage-report.ps1
+```
 
-**All 12 exported DSL functions verified across 5 flat-scalar schema types:**
-- `indexed_rows`: skillNormal, persona, enemy, playerLevelup
-- `named_rows`: DT_BtlDIfficultyParam
-- `New-ModChanges`: generic any-schema
+## 判定
 
-## Known Limitations Discovered
+PASS 字段仍需满足 flat scalar 与 guard policy 才能自动写回；PARTIAL/FAIL/SKIP 不得被文档描述为全自动安全。
 
-| Limitation | Detail | 
-|------------|--------|
-| Union struct crash (P-010) | `personaGrowth.SkillEventStruct` union `{SkillList\|ItemList}` — byte write = `Bad name index` crash. Union discriminator must match. |
-| CUE4Parse struct array gap | `personaGrowth.skillEvent[]` shows `{level:0,skillId:0}` for all rows — can't cross-validate |
-| No struct sub-field in pipeline | `Data[N].structArr[slot].subField` not supported by target parser |
+## 必须遵守的项目事实
 
-## Manual Verification
+- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
+- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
+- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
+- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
+- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
+- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
 
-- ✅ BufuMod: 布芙 `hpn=999` confirmed in-game (Skill ID 20, offset `0x4274`, 2 byte diffs)
-- ✅ ExpMod: Normal difficulty `ExpRate=100.0` confirmed in-game (offset `0x086C`, 2 byte diffs; note: only applies on Normal difficulty)
-- ✅ AgiMod: hpn=999 confirmed in-game ≈5× Bufu damage
-- ✅ Byte-identical to original PoC (539,474 bytes, 0 diffs)
+## 关键入口
 
-## Known Limitations (not blockers)
-
-- Enemy skills often share high byte → 1 byte diff instead of 2 (valid)
-- Float values may change only 1 byte depending on mantissa (valid)
-- `Set-SkillHpn -DamageMultiplier` reads current value from JSON cache; needs cache to exist
-- Each DSL call writes to a fresh Zen copy; batch writes use `New-ModChanges`
-
-## Conclusion
-
-**Sprint 1.5 is complete.** The Zen byte-patch pipeline is end-to-end functional:
-DSL / pipeline / DryRun / NoInstall all work as designed. AgiMod regression is
-byte-level verified and game-tested. Ready to proceed to Sprint 2.
+| 用途 | 文件/命令 |
+|---|---|
+| 主流程 | `tools/scripts/modify-and-repack.ps1` |
+| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
+| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
+| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
+| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
+| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
+| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |

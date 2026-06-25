@@ -1,125 +1,59 @@
-# P3R Modding 安全系统
+﻿# 安全协议
 
-> **状态**: Sprint 3（2026-06-25）  
-> **目标**: 让 Zen byte-patch Mod 操作可预览、可备份、可回滚、可审计，并在风险字段/冲突/错误产物进入游戏前拦截。
+> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
+>
+> 目的：定义修改、备份、冲突检查与回滚的最低安全要求。
 
----
+## 当前仓库快照
 
-## 1. 四层安全架构
+| 项 | 当前值 |
+|---|---:|
+| 重生成 Markdown 目标 | 74 |
+| tools/Output/json/**/*.json | 490 |
+| tools/templates-010/**/*.bt | 48 |
+| tools/templates-010/schemas/*_schema.json | 38 |
+| tools/scripts PowerShell 模块/脚本 | 17 |
+| Amicitia Markdown 参考页 | 37 |
+| 中文译名 Markdown 文件 | 8 |
 
-| 层级 | 脚本 / 文件 | 作用 |
-|---|---|---|
-| 预检层 | `tools/scripts/tools/guard-modify.ps1` | schema 回归状态、field-level review、flat scalar、值大小、Zen 输出大小、禁止 `.uexp` |
-| 冲突层 | `tools/scripts/tools/conflict-check.ps1` | 扫描 registry、`changes.json`、`mod.json`，按 `virtualPath + row + field` 分级报告冲突 |
-| 恢复层 | `tools/scripts/tools/backup-mod.ps1` / `rollback-mod.ps1` | 命名备份、列表、比较、预览回滚、选择 work/installed 回滚 |
-| 审计层 | `mod.json` / `history.json` / `mod_registry.json` / Git pre-mod backup | 记录 before/after hash、用户输入、变更目标、产物 hash、Git checkpoint 结果 |
+## 四层安全
 
-`modify-and-repack.ps1` 默认串联这些层：diff → guard → conflict → Git pre-mod backup（脏工作区安全跳过）→ 文件备份 → Zen patch → post-patch guard → 安装 → 写元数据。
+1. **预览层**：`-DryRun` / `diff-changes.ps1`。
+2. **schema guard 层**：只允许 PASS + flat scalar 或明确 safeWithNormalization。
+3. **冲突层**：检查同一 virtualPath/target/row/field 的重叠修改。
+4. **恢复层**：文件备份、Git pre-mod backup（工作区干净时）、rollback preview。
 
----
+## 破坏性动作规则
 
-## 2. 元数据格式
+- `rollback-mod.ps1 -Force`、`-RemoveInstalled`、覆盖 Reloaded II 已安装目录之前，必须先预览并获得明确授权。
+- 用户要求跳过 guard 或 conflict 时，只能在明确授权后使用 `-SkipGuard` / `-SkipConflictCheck`。
+- 不得为了触发 Git backup 擅自提交、丢弃或重置用户工作区改动。
 
-### `tools/Output/mod/<ModName>/mod.json`
+## 冲突分级
 
-关键字段：
+| 级别 | 行为 |
+|---|---|
+| error | 阻断 |
+| warning | 可继续，但回复中必须说明 |
+| info | 可继续，建议记录 |
 
-- `schemaVersion`: 当前为 `2`。
-- `modName` / `displayName` / `author` / `description`: Mod 元数据。
-- `tableKey` / `schemaKey` / `virtualPath`: 本次写回资产定位。
-- `changes`: 解析后的 target、row、field、offset、byteSize、value。
-- `assets`: 生成的 Zen `.uasset` 路径、长度、SHA256。
-- `safety.beforeHash` / `safety.afterHash`: 修改前后 workdir + installed dir 快照聚合 hash。
-- `safety.gitBackup`: 自动 Git checkpoint 的结果；工作区已有改动时会安全跳过，不会把无关改动提交。
-- `safety.workSnapshot` / `safety.installedSnapshot`: 文件级 length + SHA256。
+## 必须遵守的项目事实
 
-### `history.json`
+- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
+- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
+- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
+- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
+- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
+- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
 
-数组格式，每个条目包含：
+## 关键入口
 
-- `action`: `modify-and-repack` / `backup` / `rollback` / `remove-installed`。
-- `timestamp`: 操作时间。
-- `beforeHash` / `afterHash`: 操作前后快照 hash。
-- `virtualPath` / `schemaKey`: 涉及资产。
-- `userInput`: 自然语言或 changes/mod script 来源。
-- `details`: 变更列表、备份 ID、Git checkpoint、产物信息等。
-
-### `tools/Output/.data/mod_registry.json`
-
-全局注册表按 `(modName, virtualPath)` upsert，供冲突检测和自然语言 Agent 查询当前已生成/已安装 Mod。
-
----
-
-## 3. 常用安全命令
-
-```powershell
-# DryRun：只预览 diff/guard/conflict/offset，不部署
-.\tools\scripts\modify-and-repack.ps1 -TableKey Skills `
-  -Changes @(@{target='Data[10].hpn'; value=999}) -ModName AgiMod -DryRun
-
-# 创建命名备份
-.\tools\scripts\tools\backup-mod.ps1 -ModName AgiMod -Name before-tweak -Description 'before hpn tweak'
-
-# 列出备份
-.\tools\scripts\tools\backup-mod.ps1 -ModName AgiMod -List
-
-# 比较某个备份与当前 workdir
-.\tools\scripts\tools\backup-mod.ps1 -ModName AgiMod -Compare 2026-06-25_120000_before-tweak
-
-# 回滚预览（不改文件）
-.\tools\scripts\tools\rollback-mod.ps1 -ModName AgiMod -Preview
-
-# 执行回滚（必须显式 -Force）
-.\tools\scripts\tools\rollback-mod.ps1 -ModName AgiMod -Force
-
-# 只刷新 workdir，不动 Reloaded II 已安装目录
-.\tools\scripts\tools\rollback-mod.ps1 -ModName AgiMod -WorkOnly -Force
-
-# 冲突检测（错误会返回 exit code 3；同值重复为 warning）
-.\tools\scripts\tools\conflict-check.ps1 -All
-```
-
----
-
-## 4. Guard 放行规则
-
-自动写回必须满足：
-
-1. schema `regressionStatus=pass`，或字段有明确 `safeWithNormalization` 元数据。
-2. 字段为 flat scalar，byte size 为 1/2/4/8。
-3. 不属于 `fieldReviewStatus.needsManualReview`。
-4. 不涉及 union、nested struct array、string、TArray 或变长字段。
-5. post-patch 输出仍为 Zen 单文件 `.uasset`，大小与 `Extracted/IoStore` 原件一致，且无 `.uexp`。
-
-以下情况默认拒绝或要求人工复核：
-
-- schema `fail` / `skip` / `deprecatedDuplicate` / `unsupportedUntilSchemaFix`。
-- PARTIAL schema 上未复核字段（`-Strict` 时直接拒绝）。
-- PersonaGrowth 的 union 技能槽、敌人技能折叠字段、敌人耐性 19 槽等 Sprint 1.5 TODO 标记项。
-
----
-
-## 5. 紧急恢复流程
-
-1. **禁用 Mod**：在 Reloaded II UI 取消勾选对应 Mod。
-2. **移除已安装目录**：
-   ```powershell
-   .\tools\scripts\tools\rollback-mod.ps1 -ModName <ModName> -RemoveInstalled -Force
-   ```
-3. **回滚工作产物**：
-   ```powershell
-   .\tools\scripts\tools\rollback-mod.ps1 -ModName <ModName> -List
-   .\tools\scripts\tools\rollback-mod.ps1 -ModName <ModName> -Timestamp <backupId> -Preview
-   .\tools\scripts\tools\rollback-mod.ps1 -ModName <ModName> -Timestamp <backupId> -Force
-   ```
-4. **核查审计链**：查看 `tools/Output/mod/<ModName>/history.json`，确认最后一条 `afterHash` 与回滚后状态一致。
-5. **必要时使用 Git**：如果自动 Git checkpoint 成功，可用常规 `git log` / `git show` 查看 pre-mod 备份提交。不要在未确认的情况下执行 `git reset --hard`。
-
----
-
-## 6. 约束
-
-- Git pre-mod backup 只在工作区干净时自动提交；如果仓库已有用户改动，会记录 skipped，避免提交无关文件。
-- `history.json` 当前记录本次运行的 `backup` + `modify-and-repack` / `rollback` 审计；重复运行前的完整历史会随整个 workdir 保存到 `.backup/<ModName>/<backupId>/history.json`。如果未来需要全局 append-only 审计链，应在 Sprint 4 迁移到 `.data` 或单独审计日志。
-- `rollback-mod.ps1` 的实际删除/覆盖操作要求 `-Force`；默认建议先 `-Preview`。
-- 真实游戏生效仍需人工验证：安全系统只能保证文件级可逆和已知风险拦截，不能替代 Reloaded II + P3R 启动测试。
+| 用途 | 文件/命令 |
+|---|---|
+| 主流程 | `tools/scripts/modify-and-repack.ps1` |
+| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
+| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
+| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
+| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
+| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
+| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |
