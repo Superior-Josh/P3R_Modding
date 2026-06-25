@@ -10,6 +10,7 @@ param(
     # ── Change specification (at least one required) ──────────────────────
     [string] $ModScript,
     [string] $ChangesJson,
+    [string] $MultiChangesJson,
     [hashtable[]] $Changes,
 
     # ── Mod metadata ──────────────────────────────────────────────────────
@@ -28,6 +29,7 @@ param(
     [switch] $SkipGuard,
     [switch] $SkipConflictCheck,
     [switch] $SkipGitBackup,
+    [switch] $AppendInstall,
     [string] $UserInput
 )
 
@@ -40,6 +42,105 @@ $GuardScript     = "$ToolsDir\guard-modify.ps1"
 $DiffScript      = "$ToolsDir\diff-changes.ps1"
 $BackupScript    = "$ToolsDir\backup-mod.ps1"
 $ConflictScript  = "$ToolsDir\conflict-check.ps1"
+
+function ConvertTo-HashtableArray {
+    param($Items)
+    $result = New-Object System.Collections.ArrayList
+    foreach ($item in @($Items)) {
+        $h = @{}
+        foreach ($p in $item.PSObject.Properties) { $h[$p.Name] = $p.Value }
+        $null = $result.Add($h)
+    }
+    return @($result)
+}
+
+function Invoke-MultiTablePipeline {
+    param([string] $Path)
+
+    if (-not (Test-Path $Path)) { throw "MultiChangesJson not found: $Path" }
+    $multiObj = Get-Content $Path -Raw -Encoding UTF8 | ConvertFrom-Json
+    $tables = if ($multiObj.tables) { @($multiObj.tables) } else { @($multiObj) }
+    if ($tables.Count -eq 0) { throw 'MultiChangesJson must contain a non-empty tables array.' }
+
+    $multiWorkDir = Join-Path $ModOutput $ModName
+    New-Item -ItemType Directory -Force -Path $multiWorkDir | Out-Null
+
+    Write-Host '============================================' -ForegroundColor Cyan
+    Write-Host ' P3R Multi-Table Mod Pipeline (Sprint 4)' -ForegroundColor Cyan
+    Write-Host '============================================' -ForegroundColor Cyan
+    Write-Host "Mod    : $ModName"
+    Write-Host "Tables : $($tables.Count)"
+    Write-Host "Source : $Path"
+    Write-Host ''
+
+    $summaries = New-Object System.Collections.ArrayList
+    $i = 0
+    foreach ($t in $tables) {
+        $i++
+        $childTableKey = [string]$t.tableKey
+        $childSchemaKey = [string]$t.schemaKey
+        $childVirtualPath = [string]$t.virtualPath
+        $childCtx = Resolve-P3RTableContext -TableKey $childTableKey -SchemaKey $childSchemaKey -VirtualPath $childVirtualPath
+        $childChangesJson = [string]$t.changesJson
+        if (-not $childChangesJson) {
+            if (-not $t.changes) { throw "Table #$i must specify changes or changesJson." }
+            $safeSchema = $childCtx.SchemaKey -replace '[^A-Za-z0-9_.-]', '_'
+            $childChangesJson = Join-Path $multiWorkDir ("changes_{0:00}_{1}.json" -f $i, $safeSchema)
+            [PSCustomObject]@{ schemaKey = $childCtx.SchemaKey; changes = @($t.changes) } | ConvertTo-Json -Depth 10 | Out-File $childChangesJson -Encoding UTF8
+        }
+
+        Write-Host "[$i/$($tables.Count)] $($childCtx.TableKey) / $($childCtx.SchemaKey)" -ForegroundColor Yellow
+        $childArgs = @{
+            TableKey = $childCtx.TableKey
+            SchemaKey = $childCtx.SchemaKey
+            VirtualPath = $childCtx.VirtualPath
+            ChangesJson = $childChangesJson
+            ModName = $ModName
+            ModAuthor = $ModAuthor
+            ModDependencies = $ModDependencies
+            UserInput = if ($UserInput) { $UserInput } else { "MultiChangesJson=$Path table#$i" }
+        }
+        if ($ModDisplayName) { $childArgs.ModDisplayName = $ModDisplayName }
+        if ($ModDescription) { $childArgs.ModDescription = $ModDescription }
+        if ($PackPak) { $childArgs.PackPak = $true }
+        if ($NoInstall) { $childArgs.NoInstall = $true }
+        if ($DryRun) { $childArgs.DryRun = $true }
+        if ($KeepTemp) { $childArgs.KeepTemp = $true }
+        if ($Force) { $childArgs.Force = $true }
+        if ($SkipGuard) { $childArgs.SkipGuard = $true }
+        if ($SkipConflictCheck) { $childArgs.SkipConflictCheck = $true }
+        if ($SkipGitBackup) { $childArgs.SkipGitBackup = $true }
+        if ($i -gt 1) { $childArgs.AppendInstall = $true }
+
+        & $PSCommandPath @childArgs
+        if ($null -ne $LASTEXITCODE -and $LASTEXITCODE -ne 0) { throw "Child table pipeline failed with exit code $LASTEXITCODE" }
+
+        $null = $summaries.Add([PSCustomObject]@{
+            tableKey = $childCtx.TableKey
+            schemaKey = $childCtx.SchemaKey
+            virtualPath = $childCtx.VirtualPath
+            changesJson = $childChangesJson
+        })
+    }
+
+    if (-not $DryRun) {
+        $modJsonPath = Join-Path $multiWorkDir 'mod.json'
+        $existing = if (Test-Path $modJsonPath) { Get-Content $modJsonPath -Raw -Encoding UTF8 | ConvertFrom-Json } else { [PSCustomObject]@{} }
+        $existing | Add-Member -NotePropertyName schemaVersion -NotePropertyValue 3 -Force
+        $existing | Add-Member -NotePropertyName isMultiTable -NotePropertyValue $true -Force
+        $existing | Add-Member -NotePropertyName tables -NotePropertyValue @($summaries) -Force
+        $existing | Add-Member -NotePropertyName multiChangesJson -NotePropertyValue $Path -Force
+        $existing | ConvertTo-Json -Depth 12 | Out-File $modJsonPath -Encoding UTF8
+    }
+
+    Write-Host ''
+    Write-Host "Multi-table pipeline complete: $($tables.Count) table(s)." -ForegroundColor Green
+}
+
+if ($MultiChangesJson) {
+    Invoke-MultiTablePipeline -Path $MultiChangesJson
+    return
+}
 
 function New-ModConfigObject {
     param(
@@ -308,7 +409,9 @@ if ($NoInstall) {
 
     if (Test-Path $reloadedModDir) {
         & $BackupScript -ModName $ModName -Path $reloadedModDir -Description 'pre-install Reloaded II backup' -ChangesJson $ChangesJson -VirtualPath $vpath -SchemaKey $SchemaKey | Out-Host
-        Remove-Item -Recurse -Force -Confirm:$false $reloadedModDir
+        if (-not $AppendInstall) {
+            Remove-Item -Recurse -Force -Confirm:$false $reloadedModDir
+        }
     }
     New-Item -ItemType Directory -Force -Path $targetDir | Out-Null
 
