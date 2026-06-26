@@ -7,7 +7,7 @@
 
 - **主写回路径**：`Extracted/IoStore` Zen 单文件 `.uasset` → `Invoke-ZenPatch.ps1` 字节级 patch → `<Mod>/UnrealEssentials/P3R/Content/...` 散文件挂载。
 - **传统 `.uasset+.uexp` / `P3RDataTools create` 路线已弃用**：P3R 实测 boot-crash，详见 [MODDING_PITFALLS.md P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件)。
-- **安全系统已完成**：`modify-and-repack.ps1` 默认执行 diff/guard/conflict/Git pre-mod backup/文件备份/post-patch guard，并写入 `mod.json` / `history.json` / `.data/mod_registry.json`；详见 [SECURITY.md](SECURITY.md)（§7 含 Sprint 3 复验结论）。
+- **安全系统已完成**：`modify-and-repack.ps1` 默认执行 diff/guard/conflict/Git pre-mod backup/文件备份/post-patch guard，写入 `mod.json` / `history.json` / `.data/mod_registry.json`；详见 [SECURITY.md](SECURITY.md)（§7 含 Sprint 3 复验结论）。
 
 ---
 
@@ -79,56 +79,46 @@ IoStore/
 
 ### 3.1 数值修改
 
-> 路径：`IoStore/P3R/Content/Xrd777/Battle/Tables/`
+> 根路径：`IoStore/P3R/Content/Xrd777/`，下表「子路径」列为其后缀。
 
-| 文件名 | 大小 | 修改内容 |
-|------|------|------|
-| `DatPersonaGrowthDataAsset.uasset` | 1.1 MB | Persona 成长：等级→技能习得、属性成长曲线 |
-| `DatPersonaDataAsset.uasset` | 183 KB | Persona 基础数据：初始等级、种族、基础属性 |
-| `DatPersonaAffinityDataAsset.uasset` | 237 KB | Persona 属性相性表（斩/打/贯/火/冰/雷/风/光/暗） |
-| `DatEnemyDataAsset.uasset` | 785 KB | 敌人基础数据：HP、SP、等级、掉落 |
-| `DatEnemyAffinityDataAsset.uasset` | 307 KB | 敌人属性相性表 |
-| `DatEnemyAnalyzeSyncDataAsset.uasset` | 4 KB | 敌人分析显示同步数据 |
-| `DatSkillDataAsset.uasset` | 87 KB | 技能元数据（类型、属性、图标） |
-| `DatSkillNormalDataAsset.uasset` | 527 KB | **技能数值**：伤害倍率、SP 消耗、命中率、效果 |
-| `DatPlayerLevelupDataAsset.uasset` | 4 KB | 玩家等级经验曲线 |
-| `DatPlayerMaxHPSPDataAsset.uasset` | 76 KB | 主角 HP/SP 上限成长表 |
-| `DatEncountTableDataAsset.uasset` | 393 KB | 遇敌表（区域→敌人组→出现概率） |
-| `DatEncountEnemyBadPercentDataAsset.uasset` | 2 KB | 遇敌劣势概率 |
-| `DatSupportInfoCommonDataAsset.uasset` | 43 KB | 支援角色通用配置 |
-| `DatSupportInfoFukaDataAsset.uasset` | 156 KB | 风花支援技能数据 |
-| `DatSupportInfoMituruDataAsset.uasset` | 156 KB | 美鹤支援技能数据 |
-| `DatBtlTheurgiaBoostDataAsset.uasset` | 2 KB | 神谕 Boost 数据 |
-| `DatBtlTheurgiaBoostBossDataAsset.uasset` | 2 KB | Boss 神谕 Boost 数据 |
-| `DatBtlMixraidReleaseDataAsset.uasset` | 2 KB | 混合袭击解放条件 |
-| `DatCalcPANICDropItemDataAsset.uasset` | 2 KB | 混乱状态掉宝计算 |
-| `DatCalcPANICUseItemDataAsset.uasset` | 1 KB | 混乱状态使用道具计算 |
-
-> 路径：`IoStore/P3R/Content/Xrd777/UI/Tables/`
-
-| 文件名 | 大小 | 修改内容 |
-|------|------|------|
-| `DatItemCommonDataAsset.uasset` | 519 KB | **全消耗道具**：价格、效果值、使用条件 |
-| `DatItemWeaponDataAsset.uasset` | 290 KB | 武器：攻击力、命中、价格、装备者 |
-| `DatItemArmorDataAsset.uasset` | 118 KB | 防具：防御力、回避、价格、装备者 |
-| `DatItemAccsDataAsset.uasset` | 221 KB | 饰品：属性加成、特殊效果 |
-| `DatItemShoesDataAsset.uasset` | 118 KB | 鞋子：防御力、回避 |
-| `DatItemCostumeDataAsset.uasset` | 141 KB | 换装数据 |
-| `DatItemSkillcardDataAsset.uasset` | 138 KB | 技能卡：技能 ID、价格 |
-| `DatItemMaterialDataAsset.uasset` | 112 KB | 交换材料 |
-| `DatItemEvitemDataAsset.uasset` | 28 KB | 活动道具 |
-| `DatAntiqueShopLineupDataAsset.uasset` | 103 KB | 古董店商品列表 |
-| `DatWeaponShopLineupDataAsset.uasset` | 30 KB | 武器店商品列表 |
-| `DatItemShopLineupDataAsset.uasset` | 3 KB | 道具店商品列表 |
-| `VelvetRoomQuestDataAsset.uasset` | 102 KB | 天鹅绒房间任务 |
-
-> 路径：`IoStore/P3R/Content/Xrd777/Kernel/Tables/`
-
-| 文件名 | 大小 | 修改内容 |
-|------|------|------|
-| `DT_DataInheritanceTable.uasset` | 47 KB | 数据继承表（多周目继承） |
-| `DT_FileNameAsset.uasset` | 22 KB | 文件名映射 |
-| `DT_FileNameAsset_Win64.uasset` | 22 KB | Win64 平台文件名映射 |
+| 子路径 | 文件名 | 大小 | 修改内容 |
+|------|------|------|------|
+| `Battle/Tables/` | `DatPersonaGrowthDataAsset.uasset` | 1.1 MB | Persona 成长：等级→技能习得、属性成长曲线 |
+| `Battle/Tables/` | `DatPersonaDataAsset.uasset` | 183 KB | Persona 基础数据：初始等级、种族、基础属性 |
+| `Battle/Tables/` | `DatPersonaAffinityDataAsset.uasset` | 237 KB | Persona 属性相性表（斩/打/贯/火/冰/雷/风/光/暗） |
+| `Battle/Tables/` | `DatEnemyDataAsset.uasset` | 785 KB | 敌人基础数据：HP、SP、等级、掉落 |
+| `Battle/Tables/` | `DatEnemyAffinityDataAsset.uasset` | 307 KB | 敌人属性相性表 |
+| `Battle/Tables/` | `DatEnemyAnalyzeSyncDataAsset.uasset` | 4 KB | 敌人分析显示同步数据 |
+| `Battle/Tables/` | `DatSkillDataAsset.uasset` | 87 KB | 技能元数据（类型、属性、图标） |
+| `Battle/Tables/` | `DatSkillNormalDataAsset.uasset` | 527 KB | **技能数值**：伤害倍率、SP 消耗、命中率、效果 |
+| `Battle/Tables/` | `DatPlayerLevelupDataAsset.uasset` | 4 KB | 玩家等级经验曲线 |
+| `Battle/Tables/` | `DatPlayerMaxHPSPDataAsset.uasset` | 76 KB | 主角 HP/SP 上限成长表 |
+| `Battle/Tables/` | `DatEncountTableDataAsset.uasset` | 393 KB | 遇敌表（区域→敌人组→出现概率） |
+| `Battle/Tables/` | `DatEncountEnemyBadPercentDataAsset.uasset` | 2 KB | 遇敌劣势概率 |
+| `Battle/Tables/` | `DatSupportInfoCommonDataAsset.uasset` | 43 KB | 支援角色通用配置 |
+| `Battle/Tables/` | `DatSupportInfoFukaDataAsset.uasset` | 156 KB | 风花支援技能数据 |
+| `Battle/Tables/` | `DatSupportInfoMituruDataAsset.uasset` | 156 KB | 美鹤支援技能数据 |
+| `Battle/Tables/` | `DatBtlTheurgiaBoostDataAsset.uasset` | 2 KB | 神谕 Boost 数据 |
+| `Battle/Tables/` | `DatBtlTheurgiaBoostBossDataAsset.uasset` | 2 KB | Boss 神谕 Boost 数据 |
+| `Battle/Tables/` | `DatBtlMixraidReleaseDataAsset.uasset` | 2 KB | 混合袭击解放条件 |
+| `Battle/Tables/` | `DatCalcPANICDropItemDataAsset.uasset` | 2 KB | 混乱状态掉宝计算 |
+| `Battle/Tables/` | `DatCalcPANICUseItemDataAsset.uasset` | 1 KB | 混乱状态使用道具计算 |
+| `UI/Tables/` | `DatItemCommonDataAsset.uasset` | 519 KB | **全消耗道具**：价格、效果值、使用条件 |
+| `UI/Tables/` | `DatItemWeaponDataAsset.uasset` | 290 KB | 武器：攻击力、命中、价格、装备者 |
+| `UI/Tables/` | `DatItemArmorDataAsset.uasset` | 118 KB | 防具：防御力、回避、价格、装备者 |
+| `UI/Tables/` | `DatItemAccsDataAsset.uasset` | 221 KB | 饰品：属性加成、特殊效果 |
+| `UI/Tables/` | `DatItemShoesDataAsset.uasset` | 118 KB | 鞋子：防御力、回避 |
+| `UI/Tables/` | `DatItemCostumeDataAsset.uasset` | 141 KB | 换装数据 |
+| `UI/Tables/` | `DatItemSkillcardDataAsset.uasset` | 138 KB | 技能卡：技能 ID、价格 |
+| `UI/Tables/` | `DatItemMaterialDataAsset.uasset` | 112 KB | 交换材料 |
+| `UI/Tables/` | `DatItemEvitemDataAsset.uasset` | 28 KB | 活动道具 |
+| `UI/Tables/` | `DatAntiqueShopLineupDataAsset.uasset` | 103 KB | 古董店商品列表 |
+| `UI/Tables/` | `DatWeaponShopLineupDataAsset.uasset` | 30 KB | 武器店商品列表 |
+| `UI/Tables/` | `DatItemShopLineupDataAsset.uasset` | 3 KB | 道具店商品列表 |
+| `UI/Tables/` | `VelvetRoomQuestDataAsset.uasset` | 102 KB | 天鹅绒房间任务 |
+| `Kernel/Tables/` | `DT_DataInheritanceTable.uasset` | 47 KB | 数据继承表（多周目继承） |
+| `Kernel/Tables/` | `DT_FileNameAsset.uasset` | 22 KB | 文件名映射 |
+| `Kernel/Tables/` | `DT_FileNameAsset_Win64.uasset` | 22 KB | Win64 平台文件名映射 |
 
 ---
 
@@ -289,24 +279,26 @@ IoStore/
 
 ### 3.9 UI 系统
 
-| 路径 | 文件/子目录 | 内容 |
+> 公共前缀：`IoStore/P3R/Content/Xrd777/UI/`
+
+| 子目录 | 文件/子目录 | 内容 |
 |------|------|------|
-| `Xrd777/UI/Battle/` | — | 战斗 UI（HP/SP 条、指令菜单） |
-| `Xrd777/UI/Bustup/` | — | 角色半身立绘 |
-| `Xrd777/UI/Camp/` | 3 | 营地菜单 |
-| `Xrd777/UI/Community/` | 1 | 社群 UI |
-| `Xrd777/UI/Dialog/` | 1 | 对话框 |
-| `Xrd777/UI/Field/` | — | 场景 UI（小地图、提示） |
-| `Xrd777/UI/Mail/` | 133 | 邮件系统 |
-| `Xrd777/UI/MailTitle/` | 42 | 邮件标题 |
-| `Xrd777/UI/MiniMap/` | 25 | 小地图 |
-| `Xrd777/UI/PartyPanel/` | 10 | 队伍面板 |
-| `Xrd777/UI/SaveLoad/` | — | 存档/读档 |
-| `Xrd777/UI/StaffRoll/` | 12 | 制作人员表 |
-| `Xrd777/UI/Tables/` | 41 | UI 相关数据表 |
-| `Xrd777/UI/Title/` | 9 | 标题画面 |
-| `Xrd777/UI/Combine/` | 4 | Persona 合成 UI |
-| `Xrd777/UI/Handwriting/` | — | 手写笔迹 |
+| `Battle/` | — | 战斗 UI（HP/SP 条、指令菜单） |
+| `Bustup/` | — | 角色半身立绘 |
+| `Camp/` | 3 | 营地菜单 |
+| `Community/` | 1 | 社群 UI |
+| `Dialog/` | 1 | 对话框 |
+| `Field/` | — | 场景 UI（小地图、提示） |
+| `Mail/` | 133 | 邮件系统 |
+| `MailTitle/` | 42 | 邮件标题 |
+| `MiniMap/` | 25 | 小地图 |
+| `PartyPanel/` | 10 | 队伍面板 |
+| `SaveLoad/` | — | 存档/读档 |
+| `StaffRoll/` | 12 | 制作人员表 |
+| `Tables/` | 41 | UI 相关数据表 |
+| `Title/` | 9 | 标题画面 |
+| `Combine/` | 4 | Persona 合成 UI |
+| `Handwriting/` | — | 手写笔迹 |
 
 ---
 
@@ -435,8 +427,6 @@ IoStore/
 
 主路径产物是 Zen 单 `.uasset`，部署到 `<Mod>/UnrealEssentials/P3R/Content/...`；**不生成 `.uexp`，不要求 PAK 打包**。详见 [CLAUDE.md](../CLAUDE.md)、[ZEN_BYTE_PATCH_WORKFLOW.md](ZEN_BYTE_PATCH_WORKFLOW.md) 和 [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md)。
 
-> 传统 `P3RDataTools.exe create <vPath> <modified.json> <outDir>` + `UnrealPak.exe` 路线已被 P-007 证伪，保留为历史/fallback 说明，不用于新 DataTable Mod。
-
 ### 常用 DataTable 快速路径
 
 | 类别 | 虚拟路径 |
@@ -457,32 +447,28 @@ IoStore/
 .\tools\scripts\modify-and-repack.ps1 -TableKey Skills -Changes @(...) -ModName "MyMod" -PackPak
 ```
 
-手动 UnrealPak manifest 仍可用于历史排查，但不是 P3R DataTable 主路径：
+历史手动 UnrealPak 排查（在 `tools/UnrealPakTool/` 下执行）：
 
 ```powershell
-# 在 tools/UnrealPakTool/ 目录下执行
 .\UnrealPak.exe "MyMod_P.pak" -Create="manifest.txt" -compress
 ```
 
-### manifest.txt 格式（传统/fallback）
+`manifest.txt` 格式：
 
 ```
 "相对路径/文件.uasset" "../../../目标挂载路径/文件.uasset"
 "相对路径/文件.uexp"   "../../../目标挂载路径/文件.uexp"
 ```
 
-> **注意**: P3R 的 DataTable 主路径偏好 IoStore Zen 单文件。传统格式 `.uasset+.uexp` / `_P.pak` 覆盖同名 IoStore DataTable 已被实测证伪，可能 boot-crash 或不生效。当前默认交付是 UnrealEssentials 散文件 Zen `.uasset`。
+> **传统路线已证伪**：`P3RDataTools.exe create` + `UnrealPak` / 传统 `.uasset+.uexp` / `_P.pak` 覆盖同名 IoStore DataTable 已被 [P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件) 实测证伪（boot-crash 或不生效），仅保留为历史/fallback 说明；当前默认交付是 UnrealEssentials 散文件 Zen `.uasset`。
 
 ---
 
 ## 六、注意事项
 
 1. **UE 版本必须匹配**：本游戏为 UE 4.27；UnrealPak 仅在 fallback PAK 路径使用
-2. **DataTable 默认部署 Zen 单 `.uasset`**：从 `Extracted/IoStore` 复制原件后 byte-patch，文件大小必须不变，同目录无 `.uexp`
+2. **写回部署基线**：DataTable 默认从 `Extracted/IoStore` 复制 Zen 单 `.uasset` 后 byte-patch，文件大小必须不变、同目录无 `.uexp`；安装路径必须完整镜像虚拟路径 `<Mod>/UnrealEssentials/P3R/Content/.../<Asset>.uasset`。传统 `.uasset+.uexp` / `_P.pak` / `P3RDataTools create` 覆盖 IoStore DataTable 已被 [P-007](MODDING_PITFALLS.md#p-007-unrealessentials-iostore-资产替换偏好-zen-单文件) 证伪，仅作 fallback
 3. **Xrd777 优先于 Astrea**：同名资产 Xrd777 中的版本会覆盖 Astrea
-4. **UnrealEssentials 路径必须完整镜像虚拟路径**：`<Mod>/UnrealEssentials/P3R/Content/.../<Asset>.uasset`
-5. **PAK/FEmulator 只作 fallback**：传统 `.uasset+.uexp` PAK 覆盖 IoStore DataTable 已被 P-007 证伪
-6. **schema guard 必须启用**：PASS + flat scalar 才自动写回；PARTIAL/FAIL/SKIP/union/nested/变长字段需人工核查或拒绝
-7. **音频为 CRIWARE ADX2**（.awb），非标准 UE 音频格式，修改需要专用工具
-8. **视频为 CRIWARE USM**（.usm），同样需要 CRIWARE 工具链
-9. **加密范围**：uasset/uexp/ini/index 均加密，但 FullAsset 未加密（便于 FModel 提取）
+4. **schema guard 必须启用**：PASS + flat scalar 才自动写回；PARTIAL/FAIL/SKIP/union/nested/变长字段需人工核查或拒绝
+5. **音频为 CRIWARE ADX2**（.awb）、**视频为 CRIWARE USM**（.usm），均非标准 UE 格式，修改需专用工具链
+6. **加密范围**：uasset/uexp/ini/index 均加密，但 FullAsset 未加密（便于 FModel 提取）

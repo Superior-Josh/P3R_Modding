@@ -10,8 +10,8 @@
 |---|---:|
 | 重生成 Markdown 目标 | 74 |
 | tools/Output/json/**/*.json | 490 |
-| tools/templates-010/**/*.bt | 48 |
-| tools/templates-010/schemas/*_schema.json | 38 |
+| tools/templates-010/**/*.bt | 44 |
+| tools/templates-010/schemas/*_schema.json | 34 |
 | tools/scripts PowerShell 模块/脚本 | 17 |
 | Amicitia Markdown 参考页 | 37 |
 | 中文译名 Markdown 文件 | 8 |

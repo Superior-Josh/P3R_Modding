@@ -15,8 +15,8 @@
 | 项 | 当前状态 |
 |---|---:|
 | `tools/Output/json/**/*.json` | 约 490 个 DataTable JSON 快照 |
-| `tools/templates-010/**/*.bt` | 约 48 个 010 Editor 模板 |
-| `tools/templates-010/schemas/*_schema.json` | 38 个 schema |
+| `tools/templates-010/**/*.bt` | 44 个 010 Editor 模板 |
+| `tools/templates-010/schemas/*_schema.json` | 34 个 schema |
 | `tools/scripts/**/*.ps1` | 16 个 PowerShell 脚本 |
 | `tools/scripts/**/*.psm1` | 1 个 DSL 模块 |
 | Amicitia Markdown 参考页 | 37 页 |
@@ -279,8 +279,7 @@ Set-DifficultyParam -Difficulty normal -Field ExpRate -Value 3.0 -OutputDir .\my
 
 | 文档 | 用途 |
 |---|---|
-| `README.md` | 仓库总入口与当前能力概览 |
-| `docs/USER_GUIDE.md` | 用户视角安全 Mod 流程 |
+| `README.md` | 仓库总入口：能力概览、用户工作流、环境与初始化、安装格式 |
 | `docs/MODDING_PITFALLS.md` | 已确认坑点；写脚本前必读 |
 | `docs/ZEN_BYTE_PATCH_WORKFLOW.md` | 当前唯一推荐写回链路 |
 | `docs/SECURITY.md` | 预览、guard、冲突、备份、回滚规则 |
@@ -288,6 +287,5 @@ Set-DifficultyParam -Difficulty normal -Field ExpRate -Value 3.0 -OutputDir .\my
 | `docs/MANUAL_TEST_TODO.md` | 人工验收 / Sprint 4 验收口径 / 边界输入与危险字段测试矩阵 |
 | `docs/zh-cn/README.md` | 中文译名入口 |
 | `docs/amicitia/DATA_MAPPING.md` | Amicitia Wiki ↔ 游戏文件映射 |
-| `docs/UNREAL_ESSENTIALS_REFERENCE.md` | UnrealEssentials 能力与路径规则 |
-| `docs/P3RPC_ESSENTIALS_REFERENCE.md` | `p3rpc.essentials` 依赖说明 |
+| `docs/ESSENTIALS_REFERENCE.md` | UnrealEssentials + p3rpc.essentials 能力、依赖与路径规则 |
 | `docs/FUTURE_RESOURCE_SUPPORT.md` | 音乐/文本/模型等非 DataTable 资源未来支持路线（当前均未支持，研究方向） |

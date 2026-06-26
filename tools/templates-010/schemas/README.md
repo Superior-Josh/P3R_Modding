@@ -18,8 +18,8 @@
 
 ## 当前状态
 
-- `_schema.json`：38 个。
-- 历史状态：20 PASS / 9 PARTIAL / 2 FAIL / 7 SKIP。
+- `_schema.json`：34 个。
+- 当前回归口径：19 PASS / 9 PARTIAL / 2 FAIL / 4 SKIP（详见 `docs/SCHEMA_COVERAGE_REPORT.md`）。
 - Golden anchor：`p3re_skillNormal` 中 Agi `hpn=40` 与 JSON 对齐。
 
 ## schema 字段

@@ -19,7 +19,7 @@ output file size == original file size
 |---|---|
 | `ubyte` / `short` / `int32` / `float` / enum 底层整数 / 固定 offset flat scalar | string、TArray 变长数组、增删 row、改 NameMap/ImportMap/ExportMap、对象引用结构、union 语义结构 |
 
-文本、模型顶点、音频流本质都是**变长 / 二进制结构**。改它们会改变文件总字节数 → 破坏 size-invariant → 后续 offset 全部错位、TOC 指针失效。因此这类需求在本仓库引擎能力之外。详见 [ZEN_BYTE_PATCH_WORKFLOW.md §6.4](ZEN_BYTE_PATCH_WORKFLOW.md#64-string--tarray--变长字段)。
+文本、模型顶点、音频流本质都是**变长 / 二进制结构**。改它们会改变文件总字节数 → 破坏 size-invariant → 后续 offset 全部错位、TOC 指针失效。因此这类需求在本仓库引擎能力之外。详见 [ZEN_BYTE_PATCH_WORKFLOW.md §6.4](ZEN_BYTE_PATCH_WORKFLOW.md#54-string--tarray--变长字段)。
 
 但社区**绕开**了这个问题——不是靠 Zen byte-patch，而是走**独立的完整资产创作管线**：全文以下路线均不依赖本仓库引擎。
 
@@ -614,5 +614,5 @@ T_BU_{CharID}_F{ExpressionID}_C900_M{Frame}.uasset  # 表情帧（嘴型）
 | [AMICITIA Bustups / Outfits / Anim 页](amicitia/) | 资产 ID 映射 |
 | [P3R_ASSET_ANALYSIS.md](P3R_ASSET_ANALYSIS.md) | 资产拓扑 |
 | [MODDING_PITFALLS.md P-005](MODDING_PITFALLS.md) | L10N 散文件先例 |
-| [UNREAL_ESSENTIALS_REFERENCE.md](UNREAL_ESSENTIALS_REFERENCE.md) | 散文件/整包装载规则 |
-| [ZEN_BYTE_PATCH_WORKFLOW.md §6](ZEN_BYTE_PATCH_WORKFLOW.md#6-已知限制) | 本仓库引擎边界 |
+| [ESSENTIALS_REFERENCE.md](ESSENTIALS_REFERENCE.md) | 散文件/整包装载规则 |
+| [ZEN_BYTE_PATCH_WORKFLOW.md §6](ZEN_BYTE_PATCH_WORKFLOW.md#5-已知限制) | 本仓库引擎边界 |
