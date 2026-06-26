@@ -1,77 +1,210 @@
-﻿# 用户指南
+# P3R Modding AI Agent 用户指南
 
-> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
->
-> 目的：把中文 Mod 需求安全地转换为可预览、可回滚的 P3R DataTable 修改。
+> **版本**: Sprint 4 初稿（2026-06-25）  
+> **当前状态**: Zen byte-patch 数值类 Mod 主路径可用；真实游戏验证仍需用户通过 Reloaded II 人工执行。  
+> **安全原则**: 默认先 DryRun / diff / guard / conflict；真实覆盖和回滚必须先 Preview 并获得明确授权。
 
-## 当前仓库快照
+## 1. 适用范围
 
-| 项 | 当前值 |
-|---|---:|
-| 重生成 Markdown 目标 | 74 |
-| tools/Output/json/**/*.json | 490 |
-| tools/templates-010/**/*.bt | 48 |
-| tools/templates-010/schemas/*_schema.json | 38 |
-| tools/scripts PowerShell 模块/脚本 | 17 |
-| Amicitia Markdown 参考页 | 37 |
-| 中文译名 Markdown 文件 | 8 |
+本工具链用于制作 Persona 3 Reload 的 DataTable 数值类 Mod，默认输出为 UnrealEssentials 散文件：
 
-## 标准流程
-
-1. **定位**：用中文名、英文名或 ID 查询目标。
-2. **预览**：先跑 `-DryRun` 或 `diff-changes.ps1`，确认字段、旧值、新值、offset。
-3. **安全检查**：真实写回前必须通过 guard；冲突至少要被检查并说明。
-4. **写回**：用 Zen byte-patch 生成单文件 `.uasset`。
-5. **部署**：默认安装到 Reloaded II Mod 的 `UnrealEssentials/P3R/Content/...` 路径。
-6. **验证**：通过 Reloaded II 启动 P3R；必要时手动记录游戏内结果。
-7. **回滚**：先 `rollback-mod.ps1 -Preview`，获得授权后再 `-Force`。
-
-## 中文需求示例
-
-```powershell
-.\tools\scripts\tools\search-datatable.ps1 -Query '亚基' -Field hpn
-.\tools\scripts\tools\diff-changes.ps1 -TableKey Skills `
-  -Changes @(@{target='Data[10].hpn'; value=999})
-.\tools\scripts\tools\guard-modify.ps1 -TableKey Skills `
-  -Changes @(@{target='Data[10].hpn'; value=999})
-.\tools\scripts\modify-and-repack.ps1 -TableKey Skills `
-  -Changes @(@{target='Data[10].hpn'; value=999}) -ModName 'AgiMod'
+```text
+<ModName>/UnrealEssentials/P3R/Content/.../<Asset>.uasset
 ```
 
-## 常见修改入口
+当前已验证主路径：
 
-| 需求 | 推荐方式 |
-|---|---|
-| 技能伤害/消耗 | `TableKey Skills` 或 DSL `Set-SkillHpn` / `Set-SkillCost` |
-| Persona 等级/能力 | DSL `Set-PersonaLevel` / `Set-PersonaStat` |
-| 敌人 HP/SP/能力 | DSL `Set-EnemyHP` / `Set-EnemySP` / `Set-EnemyStat` |
-| 难度经验倍率 | `Set-DifficultyParam -Difficulty normal -Field ExpRate -Value ...` |
-| 批量调整 | `tools/scripts/tools/batch-modify.ps1` |
+- 技能数值，例如亚基 / 布芙的 `hpn`
+- Persona 基础数值，例如等级
+- 难度参数，例如 Normal `ExpRate`
+- 其它 `regressionStatus=pass` 且 flat scalar 的字段
 
-## 用户必须确认的事项
+不自动支持：
 
-- 是否通过 Reloaded II 启动，而不是 Steam/桌面快捷方式。
-- Mod 是否在 Reloaded II 中启用。
-- 当前游戏难度是否与修改的难度行一致。
-- 如果使用 `-Force`、`-SkipGuard`、`-SkipConflictCheck`，必须明确知道风险。
+- 文本 / 本地化字符串
+- `TArray` / string / 变长字段
+- union / nested struct array
+- `regressionStatus=fail/skip/partial` 且未人工复核字段
+- 传统 `.uasset+.uexp` 写回路径
 
-## 必须遵守的项目事实
+## 2. 基本流程
 
-- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
-- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
-- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
-- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
-- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
-- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
+### 2.1 预览单表修改
 
-## 关键入口
+```powershell
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills `
+  -Changes @(@{target='Data[10].hpn'; value=999}) `
+  -ModName AgiMod `
+  -DryRun
+```
 
-| 用途 | 文件/命令 |
-|---|---|
-| 主流程 | `tools/scripts/modify-and-repack.ps1` |
-| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
-| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
-| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
-| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
-| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
-| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |
+该命令只执行 diff / guard / conflict / Zen dry-run，不安装 Mod。
+
+### 2.2 只生成工作产物，不安装
+
+```powershell
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills `
+  -Changes @(@{target='Data[10].hpn'; value=999}) `
+  -ModName AgiMod `
+  -NoInstall
+```
+
+产物位于：
+
+```text
+tools/Output/mod/AgiMod/
+```
+
+### 2.3 安装到 Reloaded II
+
+确认 DryRun / NoInstall 输出无误后，去掉 `-NoInstall`：
+
+```powershell
+.\tools\scripts\modify-and-repack.ps1 -TableKey Skills `
+  -Changes @(@{target='Data[10].hpn'; value=999}) `
+  -ModName AgiMod
+```
+
+安装后需要：
+
+1. 打开 Reloaded II
+2. 启用目标 Mod
+3. 通过 Reloaded-II.exe 启动 P3R
+4. 在游戏内观察效果
+
+## 3. 中文需求注意事项
+
+用户使用中文名时，应先定位标准译名与 ID：
+
+```powershell
+.\tools\scripts\tools\search-datatable.ps1 -Query "亚基" -Field hpn
+```
+
+注意：技能表的 `hpn` 是显示伤害的平方。若需求是“把亚基伤害改成 N 倍”，应写入：
+
+```text
+新 hpn = 原 hpn × N²
+```
+
+例如亚基原 `hpn=40`，5 倍显示伤害应写 `40 × 25 = 1000`；PoC 中 `999` 约等于 5 倍。
+
+## 4. 多表 Mod
+
+Sprint 4 起支持 `-MultiChangesJson`：
+
+```json
+{
+  "tables": [
+    {
+      "tableKey": "Skills",
+      "changes": [
+        { "target": "Data[10].hpn", "value": 999 }
+      ]
+    },
+    {
+      "tableKey": "Difficulty",
+      "changes": [
+        { "target": "Rows.normal.ExpRate", "value": 2.0 }
+      ]
+    }
+  ]
+}
+```
+
+调用：
+
+```powershell
+.\tools\scripts\modify-and-repack.ps1 `
+  -MultiChangesJson .\multi-changes.json `
+  -ModName MyMultiMod `
+  -NoInstall
+```
+
+建议先 `-DryRun -NoInstall`，人工确认后再安装。
+
+## 5. 批量修改
+
+`batch-modify.ps1` 可把筛选结果转成批量 changes，再交给主 pipeline。
+
+### 5.1 按 ID 批量修改
+
+```powershell
+.\tools\scripts\tools\batch-modify.ps1 -TableKey Skills `
+  -Field hpn -Value 41 `
+  -Ids 118,119 `
+  -ModName BatchSkillMod `
+  -PreviewOnly
+```
+
+### 5.2 按字段条件筛选
+
+```powershell
+.\tools\scripts\tools\batch-modify.ps1 -TableKey Skills `
+  -Field cost -Value 1 `
+  -WhereField costtype -WhereOperator eq -WhereValue 2 `
+  -ModName LowCostSkills `
+  -DryRun -NoInstall
+```
+
+支持的 `WhereOperator`：`eq`、`ne`、`gt`、`ge`、`lt`、`le`、`match`。
+
+## 6. Schema 覆盖报告
+
+生成安全覆盖报告：
+
+```powershell
+.\tools\scripts\tools\schema-coverage-report.ps1
+```
+
+输出：
+
+- `docs/SCHEMA_COVERAGE_REPORT.md`
+- `tools/templates-010/schemas/schema-safety-coverage.json`
+
+只有 allowlist 中的 flat scalar 字段适合自动写回；denylist / PARTIAL 字段应先人工复核。
+
+## 7. 备份、冲突与回滚
+
+### 7.1 冲突检测
+
+```powershell
+.\tools\scripts\tools\conflict-check.ps1 -All
+```
+
+`error` 会阻断，`warning/info` 可继续但需要说明。
+
+### 7.2 备份
+
+```powershell
+.\tools\scripts\tools\backup-mod.ps1 -ModName AgiMod -Description "before tweak"
+.\tools\scripts\tools\backup-mod.ps1 -ModName AgiMod -List
+```
+
+### 7.3 回滚预览
+
+```powershell
+.\tools\scripts\tools\rollback-mod.ps1 -ModName AgiMod -Preview
+```
+
+真实回滚必须确认后才使用：
+
+```powershell
+.\tools\scripts\tools\rollback-mod.ps1 -ModName AgiMod -Force
+```
+
+## 8. 常见失败与处理
+
+| 症状 | 可能原因 | 处理 |
+|---|---|---|
+| guard 拒绝 | schema fail/skip/partial 或字段需人工复核 | 查看 `docs/SCHEMA_COVERAGE_REPORT.md` |
+| conflict 阻断 | 其它 Mod 修改同一字段且值不同 | 选择一个 Mod 负责该字段，或明确 `-Force` |
+| Mod 不生效 | 未通过 Reloaded II 启动、路径错误、Mod 未启用 | 检查 `UnrealEssentials/P3R/Content/...` 镜像路径 |
+| 游戏崩溃 | 改到不安全字段或用了传统 `.uasset+.uexp` | 禁用 Mod，回滚，检查 guard 与 P-007/P-010 |
+
+## 9. 人工测试暂缓清单
+
+当前暂缓的人工测试见：
+
+- [`docs/MANUAL_TEST_TODO.md`](MANUAL_TEST_TODO.md)（含 Sprint 3/4 暂缓项与 C 节边界/negative 测试矩阵）
+
+在执行真实游戏验证或破坏性回滚前，应先阅读对应条目并确认授权。

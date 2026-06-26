@@ -1,52 +1,86 @@
-﻿# Amicitia 参考资料索引
+# P3R Modding 参考数据（Amicitia Wiki）
 
-> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
->
-> 目的：说明英文 Wiki 镜像与项目 DataTable 定位的关系。
+> 来源：https://amicitia.miraheze.org/wiki/Persona_3_Reload
+> 下载日期：2026-06-15
+> 格式：Markdown（原始 HTML 备份在 `html/` 目录）
 
-## 当前仓库快照
+## 目录索引
 
-| 项 | 当前值 |
-|---|---:|
-| 重生成 Markdown 目标 | 74 |
-| tools/Output/json/**/*.json | 490 |
-| tools/templates-010/**/*.bt | 48 |
-| tools/templates-010/schemas/*_schema.json | 38 |
-| tools/scripts PowerShell 模块/脚本 | 17 |
-| Amicitia Markdown 参考页 | 37 |
-| 中文译名 Markdown 文件 | 8 |
+### ID 数据表
 
-## 用途
+| 文档 | 大小 | 内容 |
+|------|------|------|
+| [Skills](md/Persona_3_Reload_Skills.md) | 51.6 KB | 技能 ID 表（名称、描述、属性、SP 消耗） |
+| [Skill Cards](md/Persona_3_Reload_Skill_Cards.md) | 32.6 KB | 技能卡 ID 表 |
+| [Personas](md/Persona_3_Reload_Personas.md) | 13.1 KB | Persona ID 表（种族、等级、属性、技能） |
+| [Enemies](md/Persona_3_Reload_Enemies.md) | 14.2 KB | 敌人/Shadow ID 表 |
+| [Encounters](md/Persona_3_Reload_Encounters.md) | 61 KB | 遇敌表（区域→敌人组→出现条件） |
+| [Items](md/Persona_3_Reload_Items.md) | 22.3 KB | 消耗道具 ID 表 |
+| [Weapons](md/Persona_3_Reload_Weapons.md) | 11.6 KB | 武器 ID 表 |
+| [Armor](md/Persona_3_Reload_Armor.md) | 11.8 KB | 防具 ID 表 |
+| [Accessories](md/Persona_3_Reload_Accessories.md) | 11.9 KB | 饰品 ID 表 |
+| [Materials](md/Persona_3_Reload_Materials.md) | 16.9 KB | 交换材料 ID 表 |
+| [Key Items](md/Persona_3_Reload_Key_Items.md) | 6.5 KB | 关键道具 ID 表 |
+| [Outfits](md/Persona_3_Reload_Outfits.md) | 21.6 KB | 服装/换装 ID 表 |
+| [BGM](md/Persona_3_Reload_BGM.md) | 8.7 KB | BGM ID 表 |
+| [Fields](md/Persona_3_Reload_Fields.md) | 5 KB | 场景/地图 ID 表 |
 
-`docs/amicitia/md/` 保存 P3R Amicitia Wiki 的 Markdown 参考页，主要用于英文名、ID、描述和资产类型定位。中文用户交互时，显示名优先使用 `docs/zh-cn/`。
+### 模型索引
 
-## 当前页面数
+| 文档 | 大小 | 内容 |
+|------|------|------|
+| [Player](md/Persona_3_Reload_Player.md) | 1.6 KB | 主角模型列表 |
+| [Personas](md/Persona_3_Reload_Personas.md) | 13.1 KB | Persona 模型 + 数据 |
+| [EnemyModels](md/Persona_3_Reload_EnemyModels.md) | 2.5 KB | 敌人模型列表 |
+| [Mob](md/Persona_3_Reload_Mob.md) | 1.7 KB | 路人/杂兵模型 |
+| [Npc](md/Persona_3_Reload_Npc.md) | 1.6 KB | NPC 模型列表 |
+| [Sub](md/Persona_3_Reload_Sub.md) | 2.2 KB | 子角色模型 |
+| [Weapons](md/Persona_3_Reload_Weapons.md) | 11.6 KB | 武器模型 + 数据 |
+| [Anim](md/Persona_3_Reload_Anim.md) | 2.5 KB | 动画索引 |
+| [Battle](md/Persona_3_Reload_Battle.md) | 1.8 KB | 战斗相关资源索引 |
 
-本次扫描到 Amicitia Markdown 参考页 37 个。常用页面包括 Skills、Personas、Enemies、Items、Weapons、Armor、Accessories、Encounters、BGM、Flags 与 Event 系列。
+### 事件与脚本
 
-## 使用规则
+| 文档 | 大小 | 内容 |
+|------|------|------|
+| [Event Main](md/Persona_3_Reload_Event_Main.md) | 12.1 KB | 主线事件 ID 表 |
+| [Event Cmmu](md/Persona_3_Reload_Event_Cmmu.md) | 24.9 KB | 社群（Community）事件 ID |
+| [Event Extr](md/Persona_3_Reload_Event_Extr.md) | 4.4 KB | 额外事件 ID |
+| [Event Qest](md/Persona_3_Reload_Event_Qest.md) | 1.9 KB | 任务/支线事件 ID |
+| [Event](md/Persona_3_Reload_Event.md) | 1.6 KB | 事件系统概览 |
 
-1. 查英文名/ID：先看对应 `md/Persona_3_Reload_*.md`。
-2. 查虚拟路径：再看 `DATA_MAPPING.md` 与 `Config.ps1` TableKey。
-3. 写 Mod：以 ID/字段名/schema 为准，不按显示名称猜。
+### Flags（标志位）
 
-## 必须遵守的项目事实
+| 文档 | 大小 | 内容 |
+|------|------|------|
+| [Event Flags](md/Persona_3_Reload_Event_Flags.md) | 63.5 KB | 事件标志位（触发条件） |
+| [Commu Flags](md/Persona_3_Reload_Commu_Flags.md) | 70.9 KB | 社群标志位 |
+| [Field Flags](md/Persona_3_Reload_Field_Flags.md) | 161.4 KB | 场景标志位 |
+| [Battle Flags](md/Persona_3_Reload_Battle_Flags.md) | 13.7 KB | 战斗标志位 |
+| [System Flags](md/Persona_3_Reload_System_Flags.md) | 16.2 KB | 系统标志位 |
+| [Progress Flags](md/Persona_3_Reload_Progress_Flags.md) | 12.3 KB | 进度标志位 |
+| [Counters](md/Persona_3_Reload_Counters.md) | 11.6 KB | 计数器 |
 
-- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
-- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
-- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
-- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
-- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
-- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
+### 美术资源
 
-## 关键入口
+| 文档 | 大小 | 内容 |
+|------|------|------|
+| [Bustups](md/Persona_3_Reload_Bustups.md) | 2.5 KB | 角色半身立绘索引 |
+| [Cut-Ins](md/Persona_3_Reload_Cut-Ins.md) | 4 KB | Cut-in 特效索引 |
+| [NPC Dialogue](md/Persona_3_Reload_NPC_Dialogue.md) | 3.1 KB | NPC 对话资源 |
+| [Social Links](md/Persona_3_Reload_Social_Links.md) | 2.5 KB | 社群相关美术 |
 
-| 用途 | 文件/命令 |
-|---|---|
-| 主流程 | `tools/scripts/modify-and-repack.ps1` |
-| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
-| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
-| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
-| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
-| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
-| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |
+## 最常用参考数据
+
+进行 Mod 制作时，以下文档最常使用：
+
+1. **Skills** — 技能 ID、名称、描述、伤害公式
+2. **Personas** — Persona ID、种族、初始等级、耐性
+3. **Items** — 道具 ID、效果、价格
+4. **Enemies** — 敌人 ID、HP、掉落
+5. **Event Flags** — 剧情触发条件标志位
+6. **BGM** — 背景音乐 ID
+
+## 完整资产映射
+
+➡ **[DATA_MAPPING.md](DATA_MAPPING.md)** — 所有 37 个 Wiki 页面与 Extracted/ 中游戏文件的精确对应关系，包含完整路径和文件说明。

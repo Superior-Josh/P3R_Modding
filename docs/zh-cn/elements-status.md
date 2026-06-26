@@ -1,51 +1,56 @@
-﻿# 标准中文译名 — 属性与异常状态
+﻿# P3R 标准中文译名 — 属性与异常状态
 
-> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
->
-> 目的：为中文自然语言需求和中文回复提供标准译名依据。
+> 来源：[biligame WIKI · P3R/技能列表](https://wiki.biligame.com/persona/P3R/%E6%8A%80%E8%83%BD%E5%88%97%E8%A1%A8) · [P3R/异常状态效果](https://wiki.biligame.com/persona/P3R/%E5%BC%82%E5%B8%B8%E7%8A%B6%E6%80%81%E6%95%88%E6%9E%9C)
+> 抓取日期：2026-06-24
 
-## 当前仓库快照
+## 属性 / 元素译名
 
-| 项 | 当前值 |
-|---|---:|
-| 重生成 Markdown 目标 | 74 |
-| tools/Output/json/**/*.json | 490 |
-| tools/templates-010/**/*.bt | 48 |
-| tools/templates-010/schemas/*_schema.json | 38 |
-| tools/scripts PowerShell 模块/脚本 | 17 |
-| Amicitia Markdown 参考页 | 37 |
-| 中文译名 Markdown 文件 | 8 |
+与 `DatPersonaAffinityDataAsset` / `DatEnemyAffinityDataAsset` 的属性耐性字段对应。
 
-## 使用规则
+### 物理属性
 
-- 用户使用中文名时，先在本目录查标准译名，再映射到英文/ID/DataTable。
-- 回复中文用户时优先使用标准中文名，并在必要时补充英文名与 ID。
-- 若本目录缺失，先查游戏 L10N；再退回 Amicitia 英文名与谨慎音译。
-- 不要凭空翻译，也不要把非标准译名写入脚本注释作为唯一依据。
+| 中文 | 日文 | 英文 |
+|------|------|------|
+| 斩击 | 斬撃 | Slash |
+| 打击 | 打撃 | Strike |
+| 贯穿 | 貫通 | Pierce |
 
-## 关键示例
+### 魔法属性
 
-- 亚基 / Agi / Skill ID 10 → `Data[10].hpn`
-- 俄耳甫斯 / Orpheus → Persona 相关 DataTable
-- 难度参数行需要确认当前游戏难度后验证
+| 中文 | 日文 | 英文 |
+|------|------|------|
+| 火焰 | 火炎 | Fire |
+| 冰冻 | 氷結 | Ice |
+| 电击 | 電撃 | Electric |
+| 疾风 | 疾風 | Wind |
+| 神圣 | 光（光属性） | Light |
+| 暗黑 | 闇（闇属性） | Dark |
+| 万能 | 万能 | Almighty |
 
-## 必须遵守的项目事实
+### 技能类别（非伤害）
 
-- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
-- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
-- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
-- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
-- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
-- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
+| 中文 | 含义 |
+|------|------|
+| 恢复 | 恢复 HP / 复活类 |
+| 辅助 | Buff / Debuff 支援 |
+| 被动 | 被动技能 |
+| 特殊 | 神谕 / 总攻击等特殊技 |
 
-## 关键入口
+## 异常状态译名
 
-| 用途 | 文件/命令 |
-|---|---|
-| 主流程 | `tools/scripts/modify-and-repack.ps1` |
-| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
-| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
-| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
-| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
-| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
-| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |
+`DatSkillNormalDataAsset` 中赋予的状态效果使用以下译名。
+
+| 中文 | 日文 | 英文 | 效果 |
+|------|------|------|------|
+| 魅惑 | 魅惑 | Charm | 会攻击同伴，或擅自给敌人以强化、恢复 |
+| 剧毒 | 毒 | Poison | 行动结束时受到伤害，仅能用技能/道具治疗 |
+| 动摇 | 怯え | Distress | 回避率变为0，攻击力下降 |
+| 混乱 | 混乱 | Confuse | 擅自抛洒金钱或使用道具 |
+| 恐惧 | 恐怖 | Fear | 可能擅自逃离战斗，此时中亡者喟叹会即死 |
+| 暴怒 | 激怒 | Rage | 攻击力上升，但防御/命中大幅下降，强制普攻 |
+| 触电 | 感電 | Shock | 无法行动 |
+| 冻结 | 凍結 | Freeze | 无法行动；物理耐性消除，物理攻击必暴击 |
+| 倒地 | ダウン | Down | 回避率0，承伤增加；倒地受击可能昏厥 |
+| 昏厥 | ダウン（気絶） | Knockdown | 无法行动，被暴击率上升 |
+
+> 上表中文名按 biligame WIKI 标准；日文名引自 Persona 系列日文版命名；英文名对照 P3R 英文版本地化用语。

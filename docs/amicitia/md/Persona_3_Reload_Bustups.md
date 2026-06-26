@@ -1,50 +1,180 @@
-﻿# Amicitia 参考 — Bustups
-
-> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
->
-> 目的：作为英文 Wiki/ID/描述参考页，供定位 DataTable 与资产时交叉验证。
-
-## 当前仓库快照
-
-| 项 | 当前值 |
-|---|---:|
-| 重生成 Markdown 目标 | 74 |
-| tools/Output/json/**/*.json | 490 |
-| tools/templates-010/**/*.bt | 48 |
-| tools/templates-010/schemas/*_schema.json | 38 |
-| tools/scripts PowerShell 模块/脚本 | 17 |
-| Amicitia Markdown 参考页 | 37 |
-| 中文译名 Markdown 文件 | 8 |
-
-## 页面定位
-
-- 原始主题：Persona_3_Reload_Bustups
-- 项目用途：查英文名、ID、描述、分类或相关资产线索。
-- 中文显示名：优先到 docs/zh-cn/ 查找；本页英文名不是中文回复的最终标准。
-
-## 使用提醒
-
-1. Wiki ID 只能帮助定位，写回必须确认 JSON 字段和 schema offset。
-2. 若本页内容对应模型、事件、音频或 flag，不代表当前工具链已支持自动写回。
-3. 数值类 DataTable 修改仍走 modify-and-repack.ps1 + guard。
-
-## 必须遵守的项目事实
-
-- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
-- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
-- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
-- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
-- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
-- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
-
-## 关键入口
-
-| 用途 | 文件/命令 |
-|---|---|
-| 主流程 | `tools/scripts/modify-and-repack.ps1` |
-| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
-| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
-| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
-| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
-| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
-| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |
+﻿---
+title: Bustups
+source: https://amicitia.miraheze.org/wiki/Persona/3/Reload/Bustups
+---
+id="mw-content-text" class="mw-body-content">Bustup portraits are located in **P3R/Content/Xrd777/UI/Bustup/Textures/**. Each character has their own assigned subfolder for bustup textures, and textures are in UAsset format.
+Portraits List
+##
+|
+| Folder Name
+| Character
+|
+| NC1081
+| Mr. Edogawa
+|
+| NC1082
+| Mr. Ekoda
+|
+| NC1083
+| Mr. Ono
+|
+| NC1084
+| Mr. Takenozuka
+|
+| NC1085
+| Ms. Miyahara
+|
+| NC1086
+| Officer Kurosawa
+|
+| NC1087
+| Aohige Pharmacy Owner
+|
+| NC1181
+| Gekkoukan Principal
+|
+| NC1581
+| Ms. Toriumi
+|
+| NC1582
+| Ms. Ounishi
+|
+| NC1583
+| Mrs. Terauchi
+|
+| NC1586
+| Mayoido Shopkeeper
+|
+| PC0001
+| Protagonist
+|
+| PC0002
+| Yukari Takeba
+|
+| PC0003
+| Junpei Iori
+|
+| PC0004
+| Akihiko Sanada
+|
+| PC0005
+| Mitsuru Kirijo
+|
+| PC0006
+| Fuuka Yamagishi
+|
+| PC0007
+| Aigis
+|
+| PC0008
+| Ken Amada
+|
+| PC0009
+| Koromaru
+|
+| PC0010
+| Shinjiro Aragaki
+|
+| SC0101
+| Kenji Tomochika
+|
+| SC0102
+| Hidetoshi Odagiri
+|
+| SC0103
+| Bunkichi Kitamura
+|
+| SC0104
+| Mitsuko Kitamura
+|
+| SC0105
+| Kazushi Miyamoto
+|
+| SC0106
+| Yuko Nishiwaki
+|
+| SC0107
+| Maya
+|
+| SC0108
+| Keisuke Hiraga
+|
+| SC0109
+| Chihiro Fushimi
+|
+| SC0110
+| Maiko
+|
+| SC0111
+| Pharos
+|
+| SC0112
+| Bebe
+|
+| SC0113
+| President Tanaka
+|
+| SC0114
+| Mutatsu
+|
+| SC0115
+| Mamoru Hayase
+|
+| SC0116
+| Nozomi Suemitsu
+|
+| SC0117
+| Akinari Kamiki
+|
+| SC0201
+| Igor
+|
+| SC0202
+| Elizabeth
+|
+| SC0211
+| Takaya
+|
+| SC0212
+| Jin
+|
+| SC0213
+| Chidori Yoshino
+|
+| SC0221
+| Ryoji Mochizuki
+|
+| SC0222
+| Shuji Ikutsuki
+|
+| SC0223
+| Natsuki Moriyama
+|
+| SC0224
+| Takeharu Kirijo
+<!--
+NewPP limit report
+Parsed by mw191
+Cached time: 20260609054403
+Cache expiry: 1296000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.013 seconds
+Real time usage: 0.014 seconds
+Preprocessor visited node count: 4/1000000
+Revision size: 1571/2097152 bytes
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+<!-- Saved in parser cache with key amicitiawiki:pcache:1498:|#|:idhash:canonical and timestamp 20260609054403 and revision id 5570. Rendering was triggered because: page_view
+ -->
+<noscript><img src="https://amicitia.miraheze.org/wiki/Special:CentralAutoLogin/start?type=1x1&usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div

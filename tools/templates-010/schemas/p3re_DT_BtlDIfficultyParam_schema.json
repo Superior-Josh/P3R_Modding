@@ -542,8 +542,9 @@
     "calibrationStatus":  "ok",
     "sourceAssetPath":  "Extracted/IoStore/P3R/Content/Xrd777/Blueprints/Battle/Calculations/DT_BtlDIfficultyParam.uasset",
     "fileSize":  2983,
-    "regressionStatus":  "pass",
     "regressionPassRate":  100,
     "regressionFieldsChecked":  50,
-    "regressionFieldsMatched":  50
+    "regressionFieldsMatched":  50,
+    "regressionStatus":  "skip",
+    "regressionReason":  "no CUE4Parse JSON available for p3re_DT_BtlDIfficultyParam"
 }

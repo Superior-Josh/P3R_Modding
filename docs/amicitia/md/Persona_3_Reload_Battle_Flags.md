@@ -1,50 +1,1572 @@
-﻿# Amicitia 参考 — Battle Flags
-
-> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
->
-> 目的：作为英文 Wiki/ID/描述参考页，供定位 DataTable 与资产时交叉验证。
-
-## 当前仓库快照
-
-| 项 | 当前值 |
-|---|---:|
-| 重生成 Markdown 目标 | 74 |
-| tools/Output/json/**/*.json | 490 |
-| tools/templates-010/**/*.bt | 48 |
-| tools/templates-010/schemas/*_schema.json | 38 |
-| tools/scripts PowerShell 模块/脚本 | 17 |
-| Amicitia Markdown 参考页 | 37 |
-| 中文译名 Markdown 文件 | 8 |
-
-## 页面定位
-
-- 原始主题：Persona_3_Reload_Battle_Flags
-- 项目用途：查英文名、ID、描述、分类或相关资产线索。
-- 中文显示名：优先到 docs/zh-cn/ 查找；本页英文名不是中文回复的最终标准。
-
-## 使用提醒
-
-1. Wiki ID 只能帮助定位，写回必须确认 JSON 字段和 schema offset。
-2. 若本页内容对应模型、事件、音频或 flag，不代表当前工具链已支持自动写回。
-3. 数值类 DataTable 修改仍走 modify-and-repack.ps1 + guard。
-
-## 必须遵守的项目事实
-
-- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
-- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
-- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
-- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
-- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
-- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
-
-## 关键入口
-
-| 用途 | 文件/命令 |
-|---|---|
-| 主流程 | `tools/scripts/modify-and-repack.ps1` |
-| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
-| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
-| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
-| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
-| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
-| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |
+﻿---
+title: Battle Flags
+source: https://amicitia.miraheze.org/wiki/Persona/3/Reload/Battle/Flags
+---
+id="mw-content-text" class="mw-body-content">Offset: 0x30000000 (805306368)
+Battle Flags
+##
+|
+| ID
+| Flag Name
+|
+| 0
+| BTL_0000
+|
+| 1
+| BTL_NAVI_FUKA
+|
+| 2
+| BTL_SYS_BOKO_OFF
+|
+| 3
+| BTL_BATONTOUCH_OFF
+|
+| 4
+| BTL_THEURGIA_ON
+|
+| 5
+| BTL_NAVI_MITURU
+|
+| 6
+| BTL_DBG_HERO_DONT_DIE
+|
+| 7
+| BTL_DBG_RETRY
+|
+| 8
+| BTL_0008
+|
+| 9
+| BTL_SYS_BOKO_OK_FLAG
+|
+| 10
+| BTL_SHUFFLE_MAJORARCANA_APPEARFLAG_1
+|
+| 11
+| BTL_SHUFFLE_MAJORARCANA_APPEARFLAG_2
+|
+| 12
+| BTL_SHUFFLE_MAJORARCANA_APPEARFLAG_3
+|
+| 13
+| BTL_SHUFFLE_MAJORARCANA_APPEARFLAG_4
+|
+| 14
+| BTL_SHUFFLE_MAJORARCANA_APPEARFLAG_5
+|
+| 15
+| BTL_SHUFFLE_MAJORARCANA_APPEARFLAG_6
+|
+| 16
+| BTL_SHUFFLE_MAJORARCANA_APPEARFLAG_7
+|
+| 17
+| BTL_SHUFFLE_FOOL_EFFECT
+|
+| 18
+| BTL_SHUFFLE_EMPEROR_EFFECT
+|
+| 19
+| BTL_SHUFFLE_JUSTICE_EFFECT
+|
+| 20
+| BTL_SHUFFLE_CUP_TALKJA
+|
+| 21
+| BTL_SHUFFLE_CUP_RAKKJA
+|
+| 22
+| BTL_SHUFFLE_CUP_SKUKJA
+|
+| 23
+| BTL_SHUFFLE_CUP_ENGRIN
+|
+| 24
+| BTL_SHUFFLE_CUP_MTARKJ
+|
+| 25
+| BTL_SHUFFLE_CUP_MRAKKJ
+|
+| 26
+| BTL_SHUFFLE_CUP_MSKUKJ
+|
+| 27
+| BTL_SHUFFLE_CUP_CHARGE
+|
+| 28
+| BTL_SHUFFLE_CUP_CONCEN
+|
+| 29
+| BTL_SHUFFLE_CUP_TETRKN
+|
+| 30
+| BTL_SHUFFLE_CUP_MAKRKN
+|
+| 31
+| BTL_SHUFFLE_CUP_CHARGE_CONCEN
+|
+| 32
+| BTL_SHUFFLE_CUP_TETRKN_MAKRKN
+|
+| 33
+| BTL_SHUFFLE_CUP_CHARGE_CONCEN_ALL
+|
+| 34
+| BTL_0034
+|
+| 35
+| BTL_0035
+|
+| 36
+| BTL_0036
+|
+| 37
+| BTL_0037
+|
+| 38
+| BTL_0038
+|
+| 39
+| BTL_0039
+|
+| 40
+| BTL_SHUFFLE_TUTORIAL_MESSAGE_01
+|
+| 41
+| BTL_SHUFFLE_TUTORIAL_MESSAGE_02
+|
+| 42
+| BTL_0042
+|
+| 43
+| BTL_0043
+|
+| 44
+| BTL_0044
+|
+| 45
+| BTL_0045
+|
+| 46
+| BTL_SHUFFLE_LOVERS_BONUS
+|
+| 47
+| BTL_SHUFFLE_LOVERS_ELIZABETH
+|
+| 48
+| BTL_SHUFFLE_ALL_GET_BONUS_NOW
+|
+| 49
+| BTL_SHUFFLE_TEMPERANCE_BONUS
+|
+| 50
+| BTL_SHUFFLE_DEVIL_BONUS
+|
+| 51
+| BTL_SHUFFLE_SUN_BONUS
+|
+| 52
+| BTL_SHUFFLE_STAR_BONUS
+|
+| 53
+| BTL_SHUFFLE_LOVERS_ELIZABETH_FIRST
+|
+| 54
+| BTL_0054
+|
+| 55
+| BTL_0055
+|
+| 56
+| BTL_0056
+|
+| 57
+| BTL_0057
+|
+| 58
+| BTL_0058
+|
+| 59
+| BTL_MIX_GADENT
+|
+| 60
+| BTL_MIX_DBROS_
+|
+| 61
+| BTL_MIX_KING__
+|
+| 62
+| BTL_MIX_BEST_F_
+|
+| 63
+| BTL_MIX_BENIRE
+|
+| 64
+| BTL_MIX_TRIKST
+|
+| 65
+| BTL_MIX_ARMGDN
+|
+| 66
+| BTL_HERO_PERSONALITY_GET
+|
+| 67
+| BTL_HERO_PERSONALITY_POWERUP
+|
+| 68
+| BTL_0068
+|
+| 69
+| BTL_0069
+|
+| 70
+| BTL_YUKARI_FIRSTSUMMON_ON
+|
+| 71
+| BTL_JUNPEI_FIRSTSUMMON_ON
+|
+| 72
+| BTL_SANADA_FIRSTSUMMON_ON
+|
+| 73
+| BTL_MITURU_FIRSTSUMMON_ON
+|
+| 74
+| BTL_AEGIS_FIRSTSUMMON_ON
+|
+| 75
+| BTL_AMADA_FIRSTSUMMON_ON
+|
+| 76
+| BTL_KOROMARU_FIRSTSUMMON_ON
+|
+| 77
+| BTL_ARAGAKI_FIRSTSUMMON_ON
+|
+| 78
+| BTL_YUKARI_FIRSTSUMMON_END
+|
+| 79
+| BTL_JUNPEI_FIRSTSUMMON_END
+|
+| 80
+| BTL_SANADA_FIRSTSUMMON_END
+|
+| 81
+| BTL_MITURU_FIRSTSUMMON_END
+|
+| 82
+| BTL_AEGIS_FIRSTSUMMON_END
+|
+| 83
+| BTL_AMADA_FIRSTSUMMON_END
+|
+| 84
+| BTL_KOROMARU_FIRSTSUMMON_END
+|
+| 85
+| BTL_ARAGAKI_FIRSTSUMMON_END
+|
+| 86
+| BTL_0086
+|
+| 87
+| BTL_0087
+|
+| 88
+| BTL_0088
+|
+| 89
+| BTL_0089
+|
+| 90
+| BTL_THEURGIA_GAUGE_CONTROL
+|
+| 91
+| BTL_SFAURA_EFFECT
+|
+| 92
+| BTL_0092
+|
+| 93
+| BTL_0093
+|
+| 94
+| BTL_0094
+|
+| 95
+| BTL_0095
+|
+| 96
+| BTL_0096
+|
+| 97
+| BTL_0097
+|
+| 98
+| BTL_0098
+|
+| 99
+| BTL_0099
+|
+| 100
+| BTL_PRIESTESS_TIMEOVER_END
+|
+| 101
+| BTL_FUKA_PANEL_CHANGE
+|
+| 102
+| BTL_0102
+|
+| 103
+| BTL_0103
+|
+| 104
+| BTL_0104
+|
+| 105
+| BTL_0105
+|
+| 106
+| BTL_0106
+|
+| 107
+| BTL_0107
+|
+| 108
+| BTL_0108
+|
+| 109
+| BTL_0109
+|
+| 110
+| BTL_0110
+|
+| 111
+| BTL_0111
+|
+| 112
+| BTL_0112
+|
+| 113
+| BTL_0113
+|
+| 114
+| BTL_0114
+|
+| 115
+| BTL_0115
+|
+| 116
+| BTL_0116
+|
+| 117
+| BTL_0117
+|
+| 118
+| BTL_0118
+|
+| 119
+| BTL_0119
+|
+| 120
+| BTL_0120
+|
+| 121
+| BTL_0121
+|
+| 122
+| BTL_0122
+|
+| 123
+| BTL_0123
+|
+| 124
+| BTL_0124
+|
+| 125
+| BTL_0125
+|
+| 126
+| BTL_0126
+|
+| 127
+| BTL_0127
+|
+| 128
+| BTL_0128
+|
+| 129
+| BTL_0129
+|
+| 130
+| BTL_0130
+|
+| 131
+| BTL_0131
+|
+| 132
+| BTL_0132
+|
+| 133
+| BTL_0133
+|
+| 134
+| BTL_0134
+|
+| 135
+| BTL_0135
+|
+| 136
+| BTL_0136
+|
+| 137
+| BTL_0137
+|
+| 138
+| BTL_0138
+|
+| 139
+| BTL_0139
+|
+| 140
+| BTL_0140
+|
+| 141
+| BTL_0141
+|
+| 142
+| BTL_0142
+|
+| 143
+| BTL_0143
+|
+| 144
+| BTL_0144
+|
+| 145
+| BTL_0145
+|
+| 146
+| BTL_0146
+|
+| 147
+| BTL_0147
+|
+| 148
+| BTL_0148
+|
+| 149
+| BTL_0149
+|
+| 150
+| BTL_0150
+|
+| 151
+| BTL_0151
+|
+| 152
+| BTL_0152
+|
+| 153
+| BTL_0153
+|
+| 154
+| BTL_0154
+|
+| 155
+| BTL_0155
+|
+| 156
+| BTL_0156
+|
+| 157
+| BTL_0157
+|
+| 158
+| BTL_0158
+|
+| 159
+| BTL_0159
+|
+| 160
+| BTL_0160
+|
+| 161
+| BTL_0161
+|
+| 162
+| BTL_0162
+|
+| 163
+| BTL_0163
+|
+| 164
+| BTL_0164
+|
+| 165
+| BTL_0165
+|
+| 166
+| BTL_0166
+|
+| 167
+| BTL_0167
+|
+| 168
+| BTL_0168
+|
+| 169
+| BTL_0169
+|
+| 170
+| BTL_0170
+|
+| 171
+| BTL_0171
+|
+| 172
+| BTL_0172
+|
+| 173
+| BTL_0173
+|
+| 174
+| BTL_0174
+|
+| 175
+| BTL_0175
+|
+| 176
+| BTL_0176
+|
+| 177
+| BTL_0177
+|
+| 178
+| BTL_0178
+|
+| 179
+| BTL_0179
+|
+| 180
+| BTL_0180
+|
+| 181
+| BTL_0181
+|
+| 182
+| BTL_0182
+|
+| 183
+| BTL_0183
+|
+| 184
+| BTL_0184
+|
+| 185
+| BTL_0185
+|
+| 186
+| BTL_0186
+|
+| 187
+| BTL_0187
+|
+| 188
+| BTL_0188
+|
+| 189
+| BTL_0189
+|
+| 190
+| BTL_0190
+|
+| 191
+| BTL_0191
+|
+| 192
+| BTL_0192
+|
+| 193
+| BTL_0193
+|
+| 194
+| BTL_0194
+|
+| 195
+| BTL_0195
+|
+| 196
+| BTL_0196
+|
+| 197
+| BTL_0197
+|
+| 198
+| BTL_0198
+|
+| 199
+| BTL_0199
+|
+| 200
+| BTL_0200
+|
+| 201
+| BTL_0201
+|
+| 202
+| BTL_0202
+|
+| 203
+| BTL_0203
+|
+| 204
+| BTL_ELIZABETH_AFF_FIRE
+|
+| 205
+| BTL_ELIZABETH_AFF_ICE
+|
+| 206
+| BTL_ELIZABETH_AFF_ELECTRIC
+|
+| 207
+| BTL_ELIZABETH_AFF_WIND
+|
+| 208
+| BTL_ELIZABETH_AFF_LIGHT
+|
+| 209
+| BTL_ELIZABETH_AFF_DARK
+|
+| 210
+| BTL_ELIZABETH_AFF_SLASH
+|
+| 211
+| BTL_ELIZABETH_AFF_STRIKE
+|
+| 212
+| BTL_ELIZABETH_AFF_PIERCE
+|
+| 213
+| BTL_ELIZABETH_ZENNOU
+|
+| 214
+| BTL_ELIZABETH_REFLECTION
+|
+| 215
+| BTL_ELIZABETH_ARMAGEDDON
+|
+| 216
+| BTL_ELIZABETH_100_TURN
+|
+| 217
+| BTL_0217
+|
+| 218
+| BTL_0218
+|
+| 219
+| BTL_THEURGIA_NEW_YUKARI_01
+|
+| 220
+| BTL_THEURGIA_NEW_YUKARI_02
+|
+| 221
+| BTL_THEURGIA_NEW_YUKARI_03
+|
+| 222
+| BTL_THEURGIA_NEW_YUKARI_04
+|
+| 223
+| BTL_THEURGIA_NEW_JUNPEI_01
+|
+| 224
+| BTL_THEURGIA_NEW_JUNPEI_02
+|
+| 225
+| BTL_THEURGIA_NEW_JUNPEI_03
+|
+| 226
+| BTL_THEURGIA_NEW_JUNPEI_04
+|
+| 227
+| BTL_THEURGIA_NEW_SANADA_01
+|
+| 228
+| BTL_THEURGIA_NEW_SANADA_02
+|
+| 229
+| BTL_THEURGIA_NEW_SANADA_03
+|
+| 230
+| BTL_THEURGIA_NEW_SANADA_04
+|
+| 231
+| BTL_THEURGIA_NEW_MITURU_01
+|
+| 232
+| BTL_THEURGIA_NEW_MITURU_02
+|
+| 233
+| BTL_THEURGIA_NEW_MITURU_03
+|
+| 234
+| BTL_THEURGIA_NEW_MITURU_04
+|
+| 235
+| BTL_THEURGIA_NEW_FUKA_01
+|
+| 236
+| BTL_THEURGIA_NEW_FUKA_02
+|
+| 237
+| BTL_THEURGIA_NEW_FUKA_03
+|
+| 238
+| BTL_THEURGIA_NEW_FUKA_04
+|
+| 239
+| BTL_THEURGIA_NEW_AEGIS_01
+|
+| 240
+| BTL_THEURGIA_NEW_AEGIS_02
+|
+| 241
+| BTL_THEURGIA_NEW_AEGIS_03
+|
+| 242
+| BTL_THEURGIA_NEW_AEGIS_04
+|
+| 243
+| BTL_THEURGIA_NEW_AMADA_01
+|
+| 244
+| BTL_THEURGIA_NEW_AMADA_02
+|
+| 245
+| BTL_THEURGIA_NEW_AMADA_03
+|
+| 246
+| BTL_THEURGIA_NEW_AMADA_04
+|
+| 247
+| BTL_THEURGIA_NEW_KOROMARU_01
+|
+| 248
+| BTL_THEURGIA_NEW_KOROMARU_02
+|
+| 249
+| BTL_THEURGIA_NEW_KOROMARU_03
+|
+| 250
+| BTL_THEURGIA_NEW_KOROMARU_04
+|
+| 251
+| BTL_THEURGIA_NEW_ARAGAKI_01
+|
+| 252
+| BTL_THEURGIA_NEW_ARAGAKI_02
+|
+| 253
+| BTL_THEURGIA_NEW_ARAGAKI_03
+|
+| 254
+| BTL_THEURGIA_NEW_ARAGAKI_04
+|
+| 255
+| BTL_THEURGIA_NEW_HERO_01
+|
+| 256
+| BTL_THEURGIA_NEW_HERO_02
+|
+| 257
+| BTL_THEURGIA_NEW_HERO_03
+|
+| 258
+| BTL_THEURGIA_NEW_HERO_04
+|
+| 259
+| BTL_THEURGIA_NEW_HERO_05
+|
+| 260
+| BTL_THEURGIA_NEW_HERO_06
+|
+| 261
+| BTL_THEURGIA_NEW_HERO_07
+|
+| 262
+| BTL_THEURGIA_NEW_HERO_08
+|
+| 263
+| BTL_THEURGIA_NEW_HERO_09
+|
+| 264
+| BTL_THEURGIA_NEW_HERO_10
+|
+| 265
+| BTL_CAN_GET_MIX_GADENT
+|
+| 266
+| BTL_CAN_GET_MIX_DBROS_
+|
+| 267
+| BTL_CAN_GET_MIX_KING__
+|
+| 268
+| BTL_CAN_GET_MIX_BEST_F_
+|
+| 269
+| BTL_CAN_GET_MIX_BENIRE
+|
+| 270
+| BTL_CAN_GET_MIX_TRIKST
+|
+| 271
+| BTL_CAN_GET_MIX_ARMGDN
+|
+| 272
+| BTL_CAN_GET_MIX_008
+|
+| 273
+| BTL_CAN_GET_MIX_009
+|
+| 274
+| BTL_CAN_GET_MIX_010
+|
+| 275
+| BTL_0275
+|
+| 276
+| BTL_0276
+|
+| 277
+| BTL_0277
+|
+| 278
+| BTL_0278
+|
+| 279
+| BTL_0279
+|
+| 280
+| BTL_YUKARI_PERSONA_EVO_ON
+|
+| 281
+| BTL_JUNPEI_PERSONA_EVO_ON
+|
+| 282
+| BTL_SANADA_PERSONA_EVO_ON
+|
+| 283
+| BTL_MITURU_PERSONA_EVO_ON
+|
+| 284
+| BTL_FUKA_PERSONA_EVO_ON
+|
+| 285
+| BTL_AEGIS_PERSONA_EVO_ON
+|
+| 286
+| BTL_AMADA_PERSONA_EVO_ON
+|
+| 287
+| BTL_YUKARI_JOIN_AFTER
+|
+| 288
+| BTL_JUNPEI_JOIN_AFTER
+|
+| 289
+| BTL_SANADA_JOIN_AFTER
+|
+| 290
+| BTL_YUKARI_SCHOOL_TRIP_AFTER
+|
+| 291
+| BTL_MITURU_SCHOOL_TRIP_AFTER
+|
+| 292
+| BTL_THEURGIA_USE_HERO
+|
+| 293
+| BTL_THEURGIA_USE_YUKARI
+|
+| 294
+| BTL_THEURGIA_USE_JUNPEI
+|
+| 295
+| BTL_THEURGIA_USE_SANADA
+|
+| 296
+| BTL_THEURGIA_USE_MITURU
+|
+| 297
+| BTL_THEURGIA_USE_FUKA
+|
+| 298
+| BTL_THEURGIA_USE_AEGIS
+|
+| 299
+| BTL_THEURGIA_USE_AMADA
+|
+| 300
+| BTL_THEURGIA_USE_KOROMARU
+|
+| 301
+| BTL_THEURGIA_USE_ARAGAKI
+|
+| 302
+| BTL_0302
+|
+| 303
+| BTL_0303
+|
+| 304
+| BTL_SPECIAL_COMBINE_NEW_01
+|
+| 305
+| BTL_SPECIAL_COMBINE_NEW_02
+|
+| 306
+| BTL_SPECIAL_COMBINE_NEW_03
+|
+| 307
+| BTL_SPECIAL_COMBINE_NEW_04
+|
+| 308
+| BTL_SPECIAL_COMBINE_NEW_05
+|
+| 309
+| BTL_SPECIAL_COMBINE_NEW_06
+|
+| 310
+| BTL_SPECIAL_COMBINE_NEW_07
+|
+| 311
+| BTL_SPECIAL_COMBINE_NEW_08
+|
+| 312
+| BTL_SPECIAL_COMBINE_NEW_09
+|
+| 313
+| BTL_SPECIAL_COMBINE_NEW_10
+|
+| 314
+| BTL_SPECIAL_COMBINE_NEW_11
+|
+| 315
+| BTL_SPECIAL_COMBINE_NEW_12
+|
+| 316
+| BTL_SPECIAL_COMBINE_NEW_13
+|
+| 317
+| BTL_SPECIAL_COMBINE_NEW_14
+|
+| 318
+| BTL_SPECIAL_COMBINE_NEW_15
+|
+| 319
+| BTL_SPECIAL_COMBINE_NEW_16
+|
+| 320
+| BTL_SPECIAL_COMBINE_NEW_17
+|
+| 321
+| BTL_SPECIAL_COMBINE_NEW_18
+|
+| 322
+| BTL_SPECIAL_COMBINE_NEW_19
+|
+| 323
+| BTL_SPECIAL_COMBINE_NEW_20
+|
+| 324
+| BTL_SPECIAL_COMBINE_NEW_21
+|
+| 325
+| BTL_SPECIAL_COMBINE_NEW_22
+|
+| 326
+| BTL_SPECIAL_COMBINE_NEW_23
+|
+| 327
+| BTL_SPECIAL_COMBINE_NEW_24
+|
+| 328
+| BTL_SPECIAL_COMBINE_NEW_25
+|
+| 329
+| BTL_SPECIAL_COMBINE_NEW_26
+|
+| 330
+| BTL_SPECIAL_COMBINE_NEW_27
+|
+| 331
+| BTL_SPECIAL_COMBINE_NEW_28
+|
+| 332
+| BTL_SPECIAL_COMBINE_NEW_29
+|
+| 333
+| BTL_SPECIAL_COMBINE_NEW_30
+|
+| 334
+| BTL_0334
+|
+| 335
+| BTL_0335
+|
+| 336
+| BTL_0336
+|
+| 337
+| BTL_0337
+|
+| 338
+| BTL_0338
+|
+| 339
+| BTL_0339
+|
+| 340
+| BTL_DBG_START_ENEMY
+|
+| 341
+| BTL_DBG_START_HERO
+|
+| 342
+| BTL_DBG_START_MEMBER
+|
+| 343
+| BTL_DBG_DAMAGE_NOT_RAND
+|
+| 344
+| BTL_0344
+|
+| 345
+| BTL_0345
+|
+| 346
+| BTL_0346
+|
+| 347
+| BTL_0347
+|
+| 348
+| BTL_0348
+|
+| 349
+| BTL_0349
+|
+| 350
+| BTL_0350
+|
+| 351
+| BTL_0351
+|
+| 352
+| BTL_0352
+|
+| 353
+| BTL_0353
+|
+| 354
+| BTL_0354
+|
+| 355
+| BTL_0355
+|
+| 356
+| BTL_0356
+|
+| 357
+| BTL_0357
+|
+| 358
+| BTL_0358
+|
+| 359
+| BTL_0359
+|
+| 360
+| BTL_0360
+|
+| 361
+| BTL_0361
+|
+| 362
+| BTL_0362
+|
+| 363
+| BTL_0363
+|
+| 364
+| BTL_0364
+|
+| 365
+| BTL_0365
+|
+| 366
+| BTL_0366
+|
+| 367
+| BTL_0367
+|
+| 368
+| BTL_0368
+|
+| 369
+| BTL_0369
+|
+| 370
+| BTL_0370
+|
+| 371
+| BTL_0371
+|
+| 372
+| BTL_0372
+|
+| 373
+| BTL_0373
+|
+| 374
+| BTL_0374
+|
+| 375
+| BTL_0375
+|
+| 376
+| BTL_0376
+|
+| 377
+| BTL_0377
+|
+| 378
+| BTL_0378
+|
+| 379
+| BTL_0379
+|
+| 380
+| BTL_0380
+|
+| 381
+| BTL_0381
+|
+| 382
+| BTL_0382
+|
+| 383
+| BTL_0383
+|
+| 384
+| BTL_0384
+|
+| 385
+| BTL_0385
+|
+| 386
+| BTL_0386
+|
+| 387
+| BTL_0387
+|
+| 388
+| BTL_0388
+|
+| 389
+| BTL_0389
+|
+| 390
+| BTL_0390
+|
+| 391
+| BTL_0391
+|
+| 392
+| BTL_0392
+|
+| 393
+| BTL_0393
+|
+| 394
+| BTL_0394
+|
+| 395
+| BTL_0395
+|
+| 396
+| BTL_0396
+|
+| 397
+| BTL_0397
+|
+| 398
+| BTL_0398
+|
+| 399
+| BTL_0399
+|
+| 400
+| BTL_0400
+|
+| 401
+| BTL_0401
+|
+| 402
+| BTL_0402
+|
+| 403
+| BTL_0403
+|
+| 404
+| BTL_0404
+|
+| 405
+| BTL_0405
+|
+| 406
+| BTL_0406
+|
+| 407
+| BTL_0407
+|
+| 408
+| BTL_0408
+|
+| 409
+| BTL_0409
+|
+| 410
+| BTL_0410
+|
+| 411
+| BTL_0411
+|
+| 412
+| BTL_0412
+|
+| 413
+| BTL_0413
+|
+| 414
+| BTL_0414
+|
+| 415
+| BTL_0415
+|
+| 416
+| BTL_0416
+|
+| 417
+| BTL_0417
+|
+| 418
+| BTL_0418
+|
+| 419
+| BTL_0419
+|
+| 420
+| BTL_0420
+|
+| 421
+| BTL_0421
+|
+| 422
+| BTL_0422
+|
+| 423
+| BTL_0423
+|
+| 424
+| BTL_0424
+|
+| 425
+| BTL_0425
+|
+| 426
+| BTL_0426
+|
+| 427
+| BTL_0427
+|
+| 428
+| BTL_0428
+|
+| 429
+| BTL_0429
+|
+| 430
+| BTL_0430
+|
+| 431
+| BTL_0431
+|
+| 432
+| BTL_0432
+|
+| 433
+| BTL_0433
+|
+| 434
+| BTL_0434
+|
+| 435
+| BTL_0435
+|
+| 436
+| BTL_0436
+|
+| 437
+| BTL_0437
+|
+| 438
+| BTL_0438
+|
+| 439
+| BTL_0439
+|
+| 440
+| BTL_0440
+|
+| 441
+| BTL_0441
+|
+| 442
+| BTL_0442
+|
+| 443
+| BTL_0443
+|
+| 444
+| BTL_0444
+|
+| 445
+| BTL_0445
+|
+| 446
+| BTL_0446
+|
+| 447
+| BTL_0447
+|
+| 448
+| BTL_0448
+|
+| 449
+| BTL_0449
+|
+| 450
+| BTL_0450
+|
+| 451
+| BTL_0451
+|
+| 452
+| BTL_0452
+|
+| 453
+| BTL_0453
+|
+| 454
+| BTL_0454
+|
+| 455
+| BTL_0455
+|
+| 456
+| BTL_0456
+|
+| 457
+| BTL_0457
+|
+| 458
+| BTL_0458
+|
+| 459
+| BTL_0459
+|
+| 460
+| BTL_0460
+|
+| 461
+| BTL_0461
+|
+| 462
+| BTL_0462
+|
+| 463
+| BTL_0463
+|
+| 464
+| BTL_0464
+|
+| 465
+| BTL_0465
+|
+| 466
+| BTL_0466
+|
+| 467
+| BTL_0467
+|
+| 468
+| BTL_0468
+|
+| 469
+| BTL_0469
+|
+| 470
+| BTL_0470
+|
+| 471
+| BTL_0471
+|
+| 472
+| BTL_0472
+|
+| 473
+| BTL_0473
+|
+| 474
+| BTL_0474
+|
+| 475
+| BTL_0475
+|
+| 476
+| BTL_0476
+|
+| 477
+| BTL_0477
+|
+| 478
+| BTL_0478
+|
+| 479
+| BTL_0479
+|
+| 480
+| BTL_0480
+|
+| 481
+| BTL_0481
+|
+| 482
+| BTL_0482
+|
+| 483
+| BTL_0483
+|
+| 484
+| BTL_0484
+|
+| 485
+| BTL_0485
+|
+| 486
+| BTL_0486
+|
+| 487
+| BTL_0487
+|
+| 488
+| BTL_0488
+|
+| 489
+| BTL_0489
+|
+| 490
+| BTL_0490
+|
+| 491
+| BTL_0491
+|
+| 492
+| BTL_0492
+|
+| 493
+| BTL_0493
+|
+| 494
+| BTL_0494
+|
+| 495
+| BTL_0495
+|
+| 496
+| BTL_0496
+|
+| 497
+| BTL_0497
+|
+| 498
+| BTL_0498
+|
+| 499
+| BTL_0499
+|
+| 500
+| BTL_0500
+|
+| 501
+| BTL_0501
+|
+| 502
+| BTL_0502
+|
+| 503
+| BTL_0503
+|
+| 504
+| BTL_0504
+|
+| 505
+| BTL_0505
+|
+| 506
+| BTL_0506
+|
+| 507
+| BTL_0507
+|
+| 508
+| BTL_0508
+|
+| 509
+| BTL_0509
+|
+| 510
+| BTL_0510
+|
+| 511
+| BTL_0511
+<!--
+NewPP limit report
+Parsed by mw172
+Cached time: 20260608134041
+Cache expiry: 1296000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.084 seconds
+Real time usage: 0.085 seconds
+Preprocessor visited node count: 3/1000000
+Revision size: 13939/2097152 bytes
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+<!-- Saved in parser cache with key amicitiawiki:pcache:1442:|#|:idhash:canonical and timestamp 20260608134041 and revision id 5578. Rendering was triggered because: page_view
+ -->
+<noscript><img src="https://amicitia.miraheze.org/wiki/Special:CentralAutoLogin/start?type=1x1&usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div

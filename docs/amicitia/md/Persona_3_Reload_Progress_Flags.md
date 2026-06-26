@@ -1,50 +1,1572 @@
-﻿# Amicitia 参考 — Progress Flags
-
-> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
->
-> 目的：作为英文 Wiki/ID/描述参考页，供定位 DataTable 与资产时交叉验证。
-
-## 当前仓库快照
-
-| 项 | 当前值 |
-|---|---:|
-| 重生成 Markdown 目标 | 74 |
-| tools/Output/json/**/*.json | 490 |
-| tools/templates-010/**/*.bt | 48 |
-| tools/templates-010/schemas/*_schema.json | 38 |
-| tools/scripts PowerShell 模块/脚本 | 17 |
-| Amicitia Markdown 参考页 | 37 |
-| 中文译名 Markdown 文件 | 8 |
-
-## 页面定位
-
-- 原始主题：Persona_3_Reload_Progress_Flags
-- 项目用途：查英文名、ID、描述、分类或相关资产线索。
-- 中文显示名：优先到 docs/zh-cn/ 查找；本页英文名不是中文回复的最终标准。
-
-## 使用提醒
-
-1. Wiki ID 只能帮助定位，写回必须确认 JSON 字段和 schema offset。
-2. 若本页内容对应模型、事件、音频或 flag，不代表当前工具链已支持自动写回。
-3. 数值类 DataTable 修改仍走 modify-and-repack.ps1 + guard。
-
-## 必须遵守的项目事实
-
-- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
-- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
-- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
-- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
-- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
-- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
-
-## 关键入口
-
-| 用途 | 文件/命令 |
-|---|---|
-| 主流程 | `tools/scripts/modify-and-repack.ps1` |
-| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
-| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
-| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
-| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
-| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
-| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |
+﻿---
+title: Progress Flags
+source: https://amicitia.miraheze.org/wiki/Persona/3/Reload/Progress/Flags
+---
+id="mw-content-text" class="mw-body-content">Offset: 0x50000000 (1342177280)
+Progress Flags
+##
+|
+| ID
+| Flag Name
+|
+| 0
+| PRG_FLAG_FLD_ANNOUNCE
+|
+| 1
+| PRG_FLAG_GO_TO_TARTARUS
+|
+| 2
+| PRG_FLAG_KEYFREE_ROLLBACK_SAVE
+|
+| 3
+| PRG_FLAG_DAYTIMECHANGE_SKIP
+|
+| 4
+| PRG_FLAG_SCENE_CHANGE_SKIP_CORE
+|
+| 5
+| PRG_FLAG_SCRIPT_IGNORE_BMD
+|
+| 6
+| PRG_TEST_CHUNK_INSTALL
+|
+| 7
+| PRG_CLEAR_DATA_SAVE
+|
+| 8
+| PRG_NOT_CALL_CALENDAR
+|
+| 9
+| PRG_TARGET_PLAYSTATION
+|
+| 10
+| PRG_0010
+|
+| 11
+| PRG_EVT_SKIP_FAST
+|
+| 12
+| PRG_EVT_DISABLE_SKIP
+|
+| 13
+| PRG_EVT_DISABLE_LOG
+|
+| 14
+| PRG_EVT_DISABLE_AUTO
+|
+| 15
+| PRG_EVT_TO_BATTLE_WIPE
+|
+| 16
+| PRG_0016
+|
+| 17
+| PRG_0017
+|
+| 18
+| PRG_0018
+|
+| 19
+| PRG_0019
+|
+| 20
+| PRG_0020
+|
+| 21
+| PRG_0021
+|
+| 22
+| PRG_0022
+|
+| 23
+| PRG_0023
+|
+| 24
+| PRG_0024
+|
+| 25
+| PRG_0025
+|
+| 26
+| PRG_0026
+|
+| 27
+| PRG_0027
+|
+| 28
+| PRG_0028
+|
+| 29
+| PRG_0029
+|
+| 30
+| PRG_0030
+|
+| 31
+| PRG_0031
+|
+| 32
+| PRG_FLAG_FLD_EVENT_NO_WEAPON
+|
+| 33
+| PRG_0033
+|
+| 34
+| PRG_0034
+|
+| 35
+| PRG_0035
+|
+| 36
+| PRG_0036
+|
+| 37
+| PRG_0037
+|
+| 38
+| PRG_0038
+|
+| 39
+| PRG_0039
+|
+| 40
+| PRG_0040
+|
+| 41
+| PRG_0041
+|
+| 42
+| PRG_0042
+|
+| 43
+| PRG_0043
+|
+| 44
+| PRG_0044
+|
+| 45
+| PRG_0045
+|
+| 46
+| PRG_0046
+|
+| 47
+| PRG_0047
+|
+| 48
+| PRG_0048
+|
+| 49
+| PRG_0049
+|
+| 50
+| PRG_0050
+|
+| 51
+| PRG_0051
+|
+| 52
+| PRG_0052
+|
+| 53
+| PRG_0053
+|
+| 54
+| PRG_0054
+|
+| 55
+| PRG_0055
+|
+| 56
+| PRG_0056
+|
+| 57
+| PRG_0057
+|
+| 58
+| PRG_0058
+|
+| 59
+| PRG_0059
+|
+| 60
+| PRG_0060
+|
+| 61
+| PRG_0061
+|
+| 62
+| PRG_0062
+|
+| 63
+| PRG_0063
+|
+| 64
+| PRG_0064
+|
+| 65
+| PRG_0065
+|
+| 66
+| PRG_0066
+|
+| 67
+| PRG_0067
+|
+| 68
+| PRG_0068
+|
+| 69
+| PRG_0069
+|
+| 70
+| PRG_0070
+|
+| 71
+| PRG_0071
+|
+| 72
+| PRG_0072
+|
+| 73
+| PRG_0073
+|
+| 74
+| PRG_0074
+|
+| 75
+| PRG_0075
+|
+| 76
+| PRG_0076
+|
+| 77
+| PRG_0077
+|
+| 78
+| PRG_0078
+|
+| 79
+| PRG_0079
+|
+| 80
+| PRG_0080
+|
+| 81
+| PRG_0081
+|
+| 82
+| PRG_0082
+|
+| 83
+| PRG_0083
+|
+| 84
+| PRG_0084
+|
+| 85
+| PRG_0085
+|
+| 86
+| PRG_0086
+|
+| 87
+| PRG_0087
+|
+| 88
+| PRG_0088
+|
+| 89
+| PRG_0089
+|
+| 90
+| PRG_0090
+|
+| 91
+| PRG_0091
+|
+| 92
+| PRG_0092
+|
+| 93
+| PRG_0093
+|
+| 94
+| PRG_0094
+|
+| 95
+| PRG_0095
+|
+| 96
+| PRG_0096
+|
+| 97
+| PRG_0097
+|
+| 98
+| PRG_0098
+|
+| 99
+| PRG_0099
+|
+| 100
+| PRG_0100
+|
+| 101
+| PRG_0101
+|
+| 102
+| PRG_0102
+|
+| 103
+| PRG_0103
+|
+| 104
+| PRG_0104
+|
+| 105
+| PRG_0105
+|
+| 106
+| PRG_0106
+|
+| 107
+| PRG_0107
+|
+| 108
+| PRG_0108
+|
+| 109
+| PRG_0109
+|
+| 110
+| PRG_0110
+|
+| 111
+| PRG_0111
+|
+| 112
+| PRG_0112
+|
+| 113
+| PRG_0113
+|
+| 114
+| PRG_0114
+|
+| 115
+| PRG_0115
+|
+| 116
+| PRG_0116
+|
+| 117
+| PRG_0117
+|
+| 118
+| PRG_0118
+|
+| 119
+| PRG_0119
+|
+| 120
+| PRG_0120
+|
+| 121
+| PRG_0121
+|
+| 122
+| PRG_0122
+|
+| 123
+| PRG_0123
+|
+| 124
+| PRG_0124
+|
+| 125
+| PRG_0125
+|
+| 126
+| PRG_0126
+|
+| 127
+| PRG_0127
+|
+| 128
+| PRG_DLC_START
+|
+| 129
+| PRG_DLC_000_VALID
+|
+| 130
+| PRG_DLC_001_VALID
+|
+| 131
+| PRG_DLC_002_VALID
+|
+| 132
+| PRG_DLC_003_VALID
+|
+| 133
+| PRG_DLC_004_VALID
+|
+| 134
+| PRG_DLC_005_VALID
+|
+| 135
+| PRG_DLC_006_VALID
+|
+| 136
+| PRG_DLC_007_VALID
+|
+| 137
+| PRG_DLC_008_VALID
+|
+| 138
+| PRG_DLC_009_VALID
+|
+| 139
+| PRG_DLC_010_VALID
+|
+| 140
+| PRG_DLC_011_VALID
+|
+| 141
+| PRG_DLC_012_VALID
+|
+| 142
+| PRG_DLC_013_VALID
+|
+| 143
+| PRG_DLC_014_VALID
+|
+| 144
+| PRG_DLC_015_VALID
+|
+| 145
+| PRG_DLC_016_VALID
+|
+| 146
+| PRG_DLC_017_VALID
+|
+| 147
+| PRG_DLC_018_VALID
+|
+| 148
+| PRG_DLC_019_VALID
+|
+| 149
+| PRG_DLC_020
+|
+| 150
+| PRG_DLC_021
+|
+| 151
+| PRG_DLC_022
+|
+| 152
+| PRG_DLC_023
+|
+| 153
+| PRG_DLC_024
+|
+| 154
+| PRG_DLC_025
+|
+| 155
+| PRG_DLC_026
+|
+| 156
+| PRG_DLC_027
+|
+| 157
+| PRG_DLC_028
+|
+| 158
+| PRG_DLC_029
+|
+| 159
+| PRG_DLC_000_NEW
+|
+| 160
+| PRG_DLC_001_NEW
+|
+| 161
+| PRG_DLC_002_NEW
+|
+| 162
+| PRG_DLC_003_NEW
+|
+| 163
+| PRG_DLC_004_NEW
+|
+| 164
+| PRG_DLC_005_NEW
+|
+| 165
+| PRG_DLC_006_NEW
+|
+| 166
+| PRG_DLC_007_NEW
+|
+| 167
+| PRG_DLC_008_NEW
+|
+| 168
+| PRG_DLC_009_NEW
+|
+| 169
+| PRG_DLC_010_NEW
+|
+| 170
+| PRG_DLC_011_NEW
+|
+| 171
+| PRG_DLC_012_NEW
+|
+| 172
+| PRG_DLC_013_NEW
+|
+| 173
+| PRG_DLC_014_NEW
+|
+| 174
+| PRG_DLC_015_NEW
+|
+| 175
+| PRG_DLC_016_NEW
+|
+| 176
+| PRG_DLC_017_NEW
+|
+| 177
+| PRG_DLC_018_NEW
+|
+| 178
+| PRG_DLC_019_NEW
+|
+| 179
+| PRG_DLC_050
+|
+| 180
+| PRG_DLC_051
+|
+| 181
+| PRG_DLC_052
+|
+| 182
+| PRG_DLC_053
+|
+| 183
+| PRG_DLC_054
+|
+| 184
+| PRG_DLC_055
+|
+| 185
+| PRG_DLC_056
+|
+| 186
+| PRG_DLC_057
+|
+| 187
+| PRG_DLC_058
+|
+| 188
+| PRG_DLC_059
+|
+| 189
+| PRG_DLC_000_GET
+|
+| 190
+| PRG_DLC_001_GET
+|
+| 191
+| PRG_DLC_002_GET
+|
+| 192
+| PRG_DLC_003_GET
+|
+| 193
+| PRG_DLC_004_GET
+|
+| 194
+| PRG_DLC_005_GET
+|
+| 195
+| PRG_DLC_006_GET
+|
+| 196
+| PRG_DLC_007_GET
+|
+| 197
+| PRG_DLC_008_GET
+|
+| 198
+| PRG_DLC_009_GET
+|
+| 199
+| PRG_DLC_010_GET
+|
+| 200
+| PRG_DLC_011_GET
+|
+| 201
+| PRG_DLC_012_GET
+|
+| 202
+| PRG_DLC_013_GET
+|
+| 203
+| PRG_DLC_014_GET
+|
+| 204
+| PRG_DLC_015_GET
+|
+| 205
+| PRG_DLC_016_GET
+|
+| 206
+| PRG_DLC_017_GET
+|
+| 207
+| PRG_DLC_018_GET
+|
+| 208
+| PRG_DLC_019_GET
+|
+| 209
+| PRG_DLC_080
+|
+| 210
+| PRG_DLC_081
+|
+| 211
+| PRG_DLC_082
+|
+| 212
+| PRG_DLC_083
+|
+| 213
+| PRG_DLC_084
+|
+| 214
+| PRG_DLC_085
+|
+| 215
+| PRG_DLC_086
+|
+| 216
+| PRG_DLC_087
+|
+| 217
+| PRG_DLC_088
+|
+| 218
+| PRG_DLC_089
+|
+| 219
+| PRG_DLC_090
+|
+| 220
+| PRG_DLC_091
+|
+| 221
+| PRG_DLC_092
+|
+| 222
+| PRG_DLC_093
+|
+| 223
+| PRG_DLC_094
+|
+| 224
+| PRG_AUTO_PLAY_ENABLE
+|
+| 225
+| PRG_AUTO_PLAY_CHECK_ERROR_ENABLE
+|
+| 226
+| PRG_AUTO_PLAY_STORY_MODE_ENABLE
+|
+| 227
+| PRG_AUTO_PLAY_COMP_MODE_ENABLE
+|
+| 228
+| PRG_AUTO_PLAY_RESERVE4
+|
+| 229
+| PRG_AUTO_PLAY_RESERVE5
+|
+| 230
+| PRG_AUTO_PLAY_RESERVE6
+|
+| 231
+| PRG_AUTO_PLAY_RESERVE7
+|
+| 232
+| PRG_AUTO_PLAY_RESERVE8
+|
+| 233
+| PRG_AUTO_PLAY_RESERVE9
+|
+| 234
+| PRG_AUTO_PLAY_RESERVE10
+|
+| 235
+| PRG_AUTO_PLAY_RESERVE11
+|
+| 236
+| PRG_AUTO_PLAY_RESERVE12
+|
+| 237
+| PRG_AUTO_PLAY_RESERVE13
+|
+| 238
+| PRG_AUTO_PLAY_RESERVE14
+|
+| 239
+| PRG_AUTO_PLAY_RESERVE15
+|
+| 240
+| PRG_SEND_PLAYLOG
+|
+| 241
+| PRG_AUTO_SAVE
+|
+| 242
+| PRG_0242
+|
+| 243
+| PRG_0243
+|
+| 244
+| PRG_0244
+|
+| 245
+| PRG_0245
+|
+| 246
+| PRG_0246
+|
+| 247
+| PRG_0247
+|
+| 248
+| PRG_0248
+|
+| 249
+| PRG_0249
+|
+| 250
+| PRG_0250
+|
+| 251
+| PRG_0251
+|
+| 252
+| PRG_0252
+|
+| 253
+| PRG_0253
+|
+| 254
+| PRG_0254
+|
+| 255
+| PRG_FLAG_DEBUG_LOOP_TIME
+|
+| 256
+| PRG_0256
+|
+| 257
+| PRG_0257
+|
+| 258
+| PRG_0258
+|
+| 259
+| PRG_0259
+|
+| 260
+| PRG_DLC_GET_PERSONA_ARSE
+|
+| 261
+| PRG_DLC_GET_PERSONA_CAPK
+|
+| 262
+| PRG_DLC_GET_PERSONA_ZORO
+|
+| 263
+| PRG_DLC_GET_PERSONA_CARM
+|
+| 264
+| PRG_DLC_GET_PERSONA_GOEM
+|
+| 265
+| PRG_DLC_GET_PERSONA_JOHA
+|
+| 266
+| PRG_DLC_GET_PERSONA_MILA
+|
+| 267
+| PRG_DLC_GET_PERSONA_ROBI
+|
+| 268
+| PRG_DLC_GET_PERSONA_CEND
+|
+| 269
+| PRG_DLC_GET_PERSONA_010
+|
+| 270
+| PRG_DLC_GET_PERSONA_011
+|
+| 271
+| PRG_DLC_GET_PERSONA_012
+|
+| 272
+| PRG_DLC_GET_PERSONA_013
+|
+| 273
+| PRG_DLC_GET_PERSONA_014
+|
+| 274
+| PRG_DLC_GET_PERSONA_015
+|
+| 275
+| PRG_DLC_GET_PERSONA_SATA
+|
+| 276
+| PRG_DLC_GET_PERSONA_SEIT
+|
+| 277
+| PRG_DLC_GET_PERSONA_MERC
+|
+| 278
+| PRG_DLC_GET_PERSONA_HEKA
+|
+| 279
+| PRG_DLC_GET_PERSONA_KSUS
+|
+| 280
+| PRG_DLC_GET_PERSONA_ANAT
+|
+| 281
+| PRG_DLC_GET_PERSONA_ASTA
+|
+| 282
+| PRG_DLC_GET_PERSONA_ROKI
+|
+| 283
+| PRG_DLC_GET_PERSONA_VANA
+|
+| 284
+| PRG_DLC_GET_PERSONA_025
+|
+| 285
+| PRG_DLC_GET_PERSONA_026
+|
+| 286
+| PRG_DLC_GET_PERSONA_027
+|
+| 287
+| PRG_DLC_GET_PERSONA_028
+|
+| 288
+| PRG_DLC_GET_PERSONA_029
+|
+| 289
+| PRG_DLC_GET_PERSONA_030
+|
+| 290
+| PRG_DLC_GET_PERSONA_IZAN
+|
+| 291
+| PRG_DLC_GET_PERSONA_MAGA
+|
+| 292
+| PRG_DLC_GET_PERSONA_KAGU
+|
+| 293
+| PRG_DLC_GET_PERSONA_034
+|
+| 294
+| PRG_DLC_GET_PERSONA_035
+|
+| 295
+| PRG_DLC_GET_PERSONA_036
+|
+| 296
+| PRG_DLC_GET_PERSONA_037
+|
+| 297
+| PRG_DLC_GET_PERSONA_038
+|
+| 298
+| PRG_DLC_GET_PERSONA_039
+|
+| 299
+| PRG_DLC_GET_PERSONA_040
+|
+| 300
+| PRG_0300
+|
+| 301
+| PRG_0301
+|
+| 302
+| PRG_0302
+|
+| 303
+| PRG_0303
+|
+| 304
+| PRG_0304
+|
+| 305
+| PRG_0305
+|
+| 306
+| PRG_0306
+|
+| 307
+| PRG_0307
+|
+| 308
+| PRG_0308
+|
+| 309
+| PRG_0309
+|
+| 310
+| PRG_0310
+|
+| 311
+| PRG_0311
+|
+| 312
+| PRG_0312
+|
+| 313
+| PRG_0313
+|
+| 314
+| PRG_0314
+|
+| 315
+| PRG_0315
+|
+| 316
+| PRG_0316
+|
+| 317
+| PRG_0317
+|
+| 318
+| PRG_0318
+|
+| 319
+| PRG_0319
+|
+| 320
+| PRG_0320
+|
+| 321
+| PRG_0321
+|
+| 322
+| PRG_0322
+|
+| 323
+| PRG_0323
+|
+| 324
+| PRG_0324
+|
+| 325
+| PRG_0325
+|
+| 326
+| PRG_0326
+|
+| 327
+| PRG_0327
+|
+| 328
+| PRG_0328
+|
+| 329
+| PRG_0329
+|
+| 330
+| PRG_0330
+|
+| 331
+| PRG_0331
+|
+| 332
+| PRG_0332
+|
+| 333
+| PRG_0333
+|
+| 334
+| PRG_0334
+|
+| 335
+| PRG_0335
+|
+| 336
+| PRG_0336
+|
+| 337
+| PRG_0337
+|
+| 338
+| PRG_0338
+|
+| 339
+| PRG_0339
+|
+| 340
+| PRG_0340
+|
+| 341
+| PRG_0341
+|
+| 342
+| PRG_0342
+|
+| 343
+| PRG_0343
+|
+| 344
+| PRG_0344
+|
+| 345
+| PRG_0345
+|
+| 346
+| PRG_0346
+|
+| 347
+| PRG_0347
+|
+| 348
+| PRG_0348
+|
+| 349
+| PRG_0349
+|
+| 350
+| PRG_0350
+|
+| 351
+| PRG_0351
+|
+| 352
+| PRG_0352
+|
+| 353
+| PRG_0353
+|
+| 354
+| PRG_0354
+|
+| 355
+| PRG_0355
+|
+| 356
+| PRG_0356
+|
+| 357
+| PRG_0357
+|
+| 358
+| PRG_0358
+|
+| 359
+| PRG_0359
+|
+| 360
+| PRG_0360
+|
+| 361
+| PRG_0361
+|
+| 362
+| PRG_0362
+|
+| 363
+| PRG_0363
+|
+| 364
+| PRG_0364
+|
+| 365
+| PRG_0365
+|
+| 366
+| PRG_0366
+|
+| 367
+| PRG_0367
+|
+| 368
+| PRG_0368
+|
+| 369
+| PRG_0369
+|
+| 370
+| PRG_0370
+|
+| 371
+| PRG_0371
+|
+| 372
+| PRG_0372
+|
+| 373
+| PRG_0373
+|
+| 374
+| PRG_0374
+|
+| 375
+| PRG_0375
+|
+| 376
+| PRG_0376
+|
+| 377
+| PRG_0377
+|
+| 378
+| PRG_0378
+|
+| 379
+| PRG_0379
+|
+| 380
+| PRG_0380
+|
+| 381
+| PRG_0381
+|
+| 382
+| PRG_0382
+|
+| 383
+| PRG_0383
+|
+| 384
+| PRG_0384
+|
+| 385
+| PRG_0385
+|
+| 386
+| PRG_0386
+|
+| 387
+| PRG_0387
+|
+| 388
+| PRG_0388
+|
+| 389
+| PRG_0389
+|
+| 390
+| PRG_0390
+|
+| 391
+| PRG_0391
+|
+| 392
+| PRG_0392
+|
+| 393
+| PRG_0393
+|
+| 394
+| PRG_0394
+|
+| 395
+| PRG_0395
+|
+| 396
+| PRG_0396
+|
+| 397
+| PRG_0397
+|
+| 398
+| PRG_0398
+|
+| 399
+| PRG_0399
+|
+| 400
+| PRG_0400
+|
+| 401
+| PRG_0401
+|
+| 402
+| PRG_0402
+|
+| 403
+| PRG_0403
+|
+| 404
+| PRG_0404
+|
+| 405
+| PRG_0405
+|
+| 406
+| PRG_0406
+|
+| 407
+| PRG_0407
+|
+| 408
+| PRG_0408
+|
+| 409
+| PRG_0409
+|
+| 410
+| PRG_0410
+|
+| 411
+| PRG_0411
+|
+| 412
+| PRG_0412
+|
+| 413
+| PRG_0413
+|
+| 414
+| PRG_0414
+|
+| 415
+| PRG_0415
+|
+| 416
+| PRG_0416
+|
+| 417
+| PRG_0417
+|
+| 418
+| PRG_0418
+|
+| 419
+| PRG_0419
+|
+| 420
+| PRG_0420
+|
+| 421
+| PRG_0421
+|
+| 422
+| PRG_0422
+|
+| 423
+| PRG_0423
+|
+| 424
+| PRG_0424
+|
+| 425
+| PRG_0425
+|
+| 426
+| PRG_0426
+|
+| 427
+| PRG_0427
+|
+| 428
+| PRG_0428
+|
+| 429
+| PRG_0429
+|
+| 430
+| PRG_0430
+|
+| 431
+| PRG_0431
+|
+| 432
+| PRG_0432
+|
+| 433
+| PRG_0433
+|
+| 434
+| PRG_0434
+|
+| 435
+| PRG_0435
+|
+| 436
+| PRG_0436
+|
+| 437
+| PRG_0437
+|
+| 438
+| PRG_0438
+|
+| 439
+| PRG_0439
+|
+| 440
+| PRG_0440
+|
+| 441
+| PRG_0441
+|
+| 442
+| PRG_0442
+|
+| 443
+| PRG_0443
+|
+| 444
+| PRG_0444
+|
+| 445
+| PRG_0445
+|
+| 446
+| PRG_0446
+|
+| 447
+| PRG_0447
+|
+| 448
+| PRG_0448
+|
+| 449
+| PRG_0449
+|
+| 450
+| PRG_0450
+|
+| 451
+| PRG_0451
+|
+| 452
+| PRG_0452
+|
+| 453
+| PRG_0453
+|
+| 454
+| PRG_0454
+|
+| 455
+| PRG_0455
+|
+| 456
+| PRG_0456
+|
+| 457
+| PRG_0457
+|
+| 458
+| PRG_0458
+|
+| 459
+| PRG_0459
+|
+| 460
+| PRG_0460
+|
+| 461
+| PRG_0461
+|
+| 462
+| PRG_0462
+|
+| 463
+| PRG_0463
+|
+| 464
+| PRG_0464
+|
+| 465
+| PRG_0465
+|
+| 466
+| PRG_0466
+|
+| 467
+| PRG_0467
+|
+| 468
+| PRG_0468
+|
+| 469
+| PRG_0469
+|
+| 470
+| PRG_0470
+|
+| 471
+| PRG_0471
+|
+| 472
+| PRG_0472
+|
+| 473
+| PRG_0473
+|
+| 474
+| PRG_0474
+|
+| 475
+| PRG_0475
+|
+| 476
+| PRG_0476
+|
+| 477
+| PRG_0477
+|
+| 478
+| PRG_0478
+|
+| 479
+| PRG_0479
+|
+| 480
+| PRG_0480
+|
+| 481
+| PRG_0481
+|
+| 482
+| PRG_0482
+|
+| 483
+| PRG_0483
+|
+| 484
+| PRG_0484
+|
+| 485
+| PRG_0485
+|
+| 486
+| PRG_0486
+|
+| 487
+| PRG_0487
+|
+| 488
+| PRG_0488
+|
+| 489
+| PRG_0489
+|
+| 490
+| PRG_0490
+|
+| 491
+| PRG_PROMO_MODE
+|
+| 492
+| PRG_KEYHELP_INVISIBLE
+|
+| 493
+| PRG_DAYDISP_INVISIBLE
+|
+| 494
+| PRG_BUSTUP_INVISIBLE
+|
+| 495
+| PRG_MSGWINDOW_INVISIBLE
+|
+| 496
+| PRG_0496
+|
+| 497
+| PRG_0497
+|
+| 498
+| PRG_0498
+|
+| 499
+| PRG_0499
+|
+| 500
+| PRG_0500
+|
+| 501
+| PRG_0501
+|
+| 502
+| PRG_0502
+|
+| 503
+| PRG_0503
+|
+| 504
+| PRG_0504
+|
+| 505
+| PRG_0505
+|
+| 506
+| PRG_0506
+|
+| 507
+| PRG_0507
+|
+| 508
+| PRG_0508
+|
+| 509
+| PRG_0509
+|
+| 510
+| PRG_0510
+|
+| 511
+| PRG_0511
+<!--
+NewPP limit report
+Parsed by mw162
+Cached time: 20260608215527
+Cache expiry: 1296000
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.080 seconds
+Real time usage: 0.081 seconds
+Preprocessor visited node count: 3/1000000
+Revision size: 12513/2097152 bytes
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+<!-- Saved in parser cache with key amicitiawiki:pcache:1444:|#|:idhash:canonical and timestamp 20260608215527 and revision id 5580. Rendering was triggered because: page_view
+ -->
+<noscript><img src="https://amicitia.miraheze.org/wiki/Special:CentralAutoLogin/start?type=1x1&usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div
