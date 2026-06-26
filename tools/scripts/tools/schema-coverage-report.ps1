@@ -150,7 +150,7 @@ foreach ($s in @($schemas | Sort-Object regressionStatus, schema)) {
     $passRate = if ($null -ne $s.regressionPassRate) { $s.regressionPassRate } else { '-' }
     $policy = if ($s.guardPolicy) { $s.guardPolicy } elseif ($s.disposition) { $s.disposition } else { '' }
     $reason = if ($s.reason) { ([string]$s.reason).Replace('|','/') } else { '' }
-    $null = $lines.Add("| `$($s.schema)` | $($s.tableShape) | $($s.regressionStatus) | $passRate | $($s.autoSafeFields) | $($s.blockedFields) | $policy | $reason |")
+    $null = $lines.Add("| ``$($s.schema)`` | $($s.tableShape) | $($s.regressionStatus) | $passRate | $($s.autoSafeFields) | $($s.blockedFields) | $policy | $reason |")
 }
 $null = $lines.Add('')
 $null = $lines.Add('## Automatic Allowlist Excerpt')
@@ -160,7 +160,7 @@ $null = $lines.Add('')
 $null = $lines.Add('| Schema | Target pattern | Type | Size |')
 $null = $lines.Add('|---|---|---|---:|')
 foreach ($a in @($allow | Select-Object -First 80)) {
-    $null = $lines.Add("| `$($a.schema)` | `$($a.targetPattern)` | $($a.type) | $($a.size) |")
+    $null = $lines.Add("| ``$($a.schema)`` | ``$($a.targetPattern)`` | $($a.type) | $($a.size) |")
 }
 if ($allow.Count -gt 80) { $null = $lines.Add('| ... | ... | ... | ... |') }
 $null = $lines.Add('')

@@ -1,6 +1,6 @@
 ﻿{
-    "generatedAt":  "2026-06-25 04:16:42",
-    "schemaCount":  38,
+    "generatedAt":  "2026-06-26 13:55:05",
+    "schemaCount":  34,
     "statusSummary":  [
                           {
                               "status":  "fail",
@@ -16,11 +16,11 @@
                           },
                           {
                               "status":  "skip",
-                              "count":  7
+                              "count":  3
                           }
                       ],
     "autoSafeFieldCount":  213,
-    "blockedFieldCount":  392,
+    "blockedFieldCount":  354,
     "schemas":  [
                     {
                         "schema":  "p3re_allyPersonaGrowth",
@@ -143,21 +143,6 @@
                         "reason":  null
                     },
                     {
-                        "schema":  "p3re_datallypersonagrowthdataasset",
-                        "file":  "p3re_datallypersonagrowthdataasset_schema.json",
-                        "templateFile":  "p3re_datallypersonagrowthdataasset.bt",
-                        "tableShape":  "indexed_rows",
-                        "regressionStatus":  "skip",
-                        "regressionPassRate":  null,
-                        "calibrationStatus":  "deprecated: prefer canonical schema (non-dat name)",
-                        "disposition":  null,
-                        "guardPolicy":  null,
-                        "totalFields":  6,
-                        "autoSafeFields":  0,
-                        "blockedFields":  6,
-                        "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                    },
-                    {
                         "schema":  "p3re_datbtlmixraidreleasedataasset",
                         "file":  "p3re_datbtlmixraidreleasedataasset_schema.json",
                         "templateFile":  "p3re_datbtlmixraidreleasedataasset.bt",
@@ -171,21 +156,6 @@
                         "autoSafeFields":  4,
                         "blockedFields":  0,
                         "reason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\""
-                    },
-                    {
-                        "schema":  "p3re_datbtltheurgiaboostdataasset",
-                        "file":  "p3re_datbtltheurgiaboostdataasset_schema.json",
-                        "templateFile":  "p3re_datbtltheurgiaboostdataasset.bt",
-                        "tableShape":  "single_record_array",
-                        "regressionStatus":  "skip",
-                        "regressionPassRate":  null,
-                        "calibrationStatus":  "deprecated: prefer canonical schema (non-dat name)",
-                        "disposition":  null,
-                        "guardPolicy":  null,
-                        "totalFields":  10,
-                        "autoSafeFields":  0,
-                        "blockedFields":  10,
-                        "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
                     },
                     {
                         "schema":  "p3re_datencounttabledataasset",
@@ -246,36 +216,6 @@
                         "autoSafeFields":  19,
                         "blockedFields":  0,
                         "reason":  "exception: Cannot process argument transformation on parameter \u0027EnumSizes\u0027. Cannot convert value \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" to type \"System.Collections.Hashtable\". Error: \"Cannot convert the \"@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}\" value of type \"System.Management.Automation.PSCustomObject\" to type \"System.Collections.Hashtable\".\""
-                    },
-                    {
-                        "schema":  "p3re_datpersonadataasset",
-                        "file":  "p3re_datpersonadataasset_schema.json",
-                        "templateFile":  "p3re_datpersonadataasset.bt",
-                        "tableShape":  "indexed_rows",
-                        "regressionStatus":  "skip",
-                        "regressionPassRate":  37.5,
-                        "calibrationStatus":  "ok",
-                        "disposition":  "deprecatedDuplicate",
-                        "guardPolicy":  "skipInResolver",
-                        "totalFields":  12,
-                        "autoSafeFields":  0,
-                        "blockedFields":  12,
-                        "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                    },
-                    {
-                        "schema":  "p3re_datpersonagrowthdataasset",
-                        "file":  "p3re_datpersonagrowthdataasset_schema.json",
-                        "templateFile":  "p3re_datpersonagrowthdataasset.bt",
-                        "tableShape":  "indexed_rows",
-                        "regressionStatus":  "skip",
-                        "regressionPassRate":  null,
-                        "calibrationStatus":  "deprecated: prefer canonical schema (non-dat name)",
-                        "disposition":  null,
-                        "guardPolicy":  null,
-                        "totalFields":  10,
-                        "autoSafeFields":  0,
-                        "blockedFields":  10,
-                        "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
                     },
                     {
                         "schema":  "p3re_datskilldataasset",
@@ -2837,166 +2777,6 @@
                          "reason":  "schema regressionStatus=pass disposition="
                      },
                      {
-                         "schema":  "p3re_datallypersonagrowthdataasset",
-                         "targetPattern":  "Data[N].playerId",
-                         "field":  "playerId",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datallypersonagrowthdataasset",
-                         "targetPattern":  "Data[N].levelMax",
-                         "field":  "levelMax",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datallypersonagrowthdataasset",
-                         "targetPattern":  "Data[N].skillevent",
-                         "field":  "skillevent",
-                         "type":  "allySkillEventStruct",
-                         "kind":  "struct",
-                         "size":  4640,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datallypersonagrowthdataasset",
-                         "targetPattern":  "Data[N].paramsup",
-                         "field":  "paramsup",
-                         "type":  "paramsUpStruct",
-                         "kind":  "struct",
-                         "size":  22246,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datallypersonagrowthdataasset",
-                         "targetPattern":  "Data[N].expstruct",
-                         "field":  "expstruct",
-                         "type":  "ExpStruct",
-                         "kind":  "struct",
-                         "size":  29,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datallypersonagrowthdataasset",
-                         "targetPattern":  "Data[N].expstruct.exp",
-                         "field":  "expstruct.exp",
-                         "type":  "uint",
-                         "kind":  "scalar",
-                         "size":  4,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value",
-                         "field":  "value",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value2",
-                         "field":  "value2",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value3",
-                         "field":  "value3",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value4",
-                         "field":  "value4",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value5",
-                         "field":  "value5",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value6",
-                         "field":  "value6",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value7",
-                         "field":  "value7",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value8",
-                         "field":  "value8",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value9",
-                         "field":  "value9",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datbtltheurgiaboostdataasset",
-                         "targetPattern":  "Record[N].value10",
-                         "field":  "value10",
-                         "type":  "ushort",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
                          "schema":  "p3re_datencounttabledataasset",
                          "targetPattern":  "Data[N].flags",
                          "field":  "flags",
@@ -3445,226 +3225,6 @@
                          "size":  4,
                          "status":  "needsManualReview",
                          "reason":  "exception: Unsupported type: u32"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].flag",
-                         "field":  "flag",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].race",
-                         "field":  "race",
-                         "type":  "RaceID",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].level",
-                         "field":  "level",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].params",
-                         "field":  "params",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].params2",
-                         "field":  "params2",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].params3",
-                         "field":  "params3",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].params4",
-                         "field":  "params4",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].params5",
-                         "field":  "params5",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].breakage",
-                         "field":  "breakage",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].succession",
-                         "field":  "succession",
-                         "type":  "PersonaInherit",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].conception",
-                         "field":  "conception",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonadataasset",
-                         "targetPattern":  "Data[N].message",
-                         "field":  "message",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].paramsUp",
-                         "field":  "paramsUp",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].paramsUp2",
-                         "field":  "paramsUp2",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].paramsUp3",
-                         "field":  "paramsUp3",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].paramsUp4",
-                         "field":  "paramsUp4",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].paramsUp5",
-                         "field":  "paramsUp5",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].skillEventStruct",
-                         "field":  "skillEventStruct",
-                         "type":  "anon_struct",
-                         "kind":  "anon_struct",
-                         "size":  145,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].skillEventStruct.skillEvent",
-                         "field":  "skillEventStruct.skillEvent",
-                         "type":  "byte",
-                         "kind":  "scalar",
-                         "size":  33,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].skillEventStruct.level",
-                         "field":  "skillEventStruct.level",
-                         "type":  "ubyte",
-                         "kind":  "scalar",
-                         "size":  1,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].skillEventStruct.eventId",
-                         "field":  "skillEventStruct.eventId",
-                         "type":  "short",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
-                     },
-                     {
-                         "schema":  "p3re_datpersonagrowthdataasset",
-                         "targetPattern":  "Data[N].skillEventStruct.skillId",
-                         "field":  "skillEventStruct.skillId",
-                         "type":  "SkillList",
-                         "kind":  "scalar",
-                         "size":  2,
-                         "status":  "blocked",
-                         "reason":  "deprecated dat-* duplicate (canonical sibling covers it)"
                      },
                      {
                          "schema":  "p3re_datskillnormaldataasset",

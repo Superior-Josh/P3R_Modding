@@ -1,6 +1,6 @@
 ﻿# P3R Modding AI Agent
 
-> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
+> 本文档由项目目录与工具链状态重新生成（2026-06-25）。
 >
 > 目的：作为仓库总入口，说明当前可用的 P3R DataTable Mod 制作路径。
 
@@ -65,7 +65,7 @@ notepad .env
 1. 新用户：`docs/USER_GUIDE.md` → `docs/MODDING_PITFALLS.md` → `docs/ZEN_BYTE_PATCH_WORKFLOW.md`
 2. 开发者：`docs/DEVELOPER_GUIDE.md` → `docs/SYSTEM_ARCHITECTURE.md` → `tools/templates-010/schemas/README.md`
 3. 数据定位：`docs/zh-cn/README.md` → `docs/amicitia/README.md` → `docs/amicitia/DATA_MAPPING.md`
-4. 安全与回滚：`docs/SECURITY.md` → Sprint 测试/验收报告
+4. 安全与回滚：`docs/SECURITY.md` → `docs/MANUAL_TEST_TODO.md`
 
 ## 必须遵守的项目事实
 

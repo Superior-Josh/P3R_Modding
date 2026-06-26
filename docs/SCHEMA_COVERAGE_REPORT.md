@@ -1,59 +1,155 @@
-﻿# Schema 安全覆盖报告
+﻿# 010 Schema Coverage and Safety Field Report
 
-> 本文档由项目目录与工具链状态重新生成（2026-06-25）。备份位置：tools/Output/.backup/docs-regeneration-20260625-120053/。
->
-> 目的：汇总当前 schema 覆盖、安全放行与人工复核边界。
+> Generated: 2026-06-26 13:55:05  
+> Source: `tools/templates-010/schemas/*_schema.json` plus existing regression metadata.  
+> Policy: only `regressionStatus=pass` / `safeWithNormalization` flat scalar fields enter the automatic allowlist. PARTIAL schemas remain manual-review by default.
 
-## 当前仓库快照
+## Summary
 
-| 项 | 当前值 |
+| Metric | Count |
 |---|---:|
-| 重生成 Markdown 目标 | 74 |
-| tools/Output/json/**/*.json | 490 |
-| tools/templates-010/**/*.bt | 48 |
-| tools/templates-010/schemas/*_schema.json | 38 |
-| tools/scripts PowerShell 模块/脚本 | 17 |
-| Amicitia Markdown 参考页 | 37 |
-| 中文译名 Markdown 文件 | 8 |
+| Schemas | 34 |
+| fail schemas | 2 |
+| partial schemas | 9 |
+| pass schemas | 20 |
+| skip schemas | 3 |
+| Auto-safe target patterns | 213 |
+| Blocked/manual target patterns | 354 |
 
-## 摘要
+## Schema Status
 
-当前扫描到 38 个 `_schema.json`。历史报告显示约 20 PASS / 9 PARTIAL / 2 FAIL / 7 SKIP；以实际 `Test-SchemaRegression.ps1` 输出为准。
+| Schema | Shape | Regression | Pass% | Auto-safe fields | Blocked/manual fields | Policy | Reason |
+|---|---|---:|---:|---:|---:|---|---|
+| `p3re_itemSkillCard` | single_record | fail | 0 | 0 | 23 |  | No fields checked |
+| `p3re_skillPack` | single_record | fail | 0 | 0 | 10 |  | No fields checked |
+| `p3re_datencounttabledataasset` | indexed_rows | partial | 90.6 | 0 | 12 | fieldLevelReview | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_datenemydataasset` | indexed_rows | partial | 94.4 | 0 | 29 | manualOnlyForSkillSlots | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_DatItemShopLineupDataAsset` | indexed_rows | partial | 0 | 0 | 4 | blockUntilSchemaFix | exception: Unsupported type: u32 |
+| `p3re_encountTable` | indexed_rows | partial | 90.6 | 0 | 12 | fieldLevelReview | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_enemy` | indexed_rows | partial | 94.4 | 0 | 29 | manualOnlyForSkillSlots | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_enemyAffinity` | indexed_rows | partial | 75 | 0 | 19 | manualOnly | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_enemyAnalyzeSync` | indexed_rows | partial | 25 | 0 | 10 | manualOnly | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_specialSpread` | indexed_rows | partial | 75 | 0 | 8 | manualOnly | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_specialspreaddataasset` | indexed_rows | partial | 75 | 0 | 8 | manualOnly | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_allyPersonaGrowth` | indexed_rows | pass | 100 | 2 | 3 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_btlMixRaidRelease` | indexed_rows | pass | 100 | 4 | 0 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_btlTheurgiaBoost` | single_record_array | pass | 100 | 10 | 0 |  |  |
+| `p3re_btlTheurgiaBoost_astrea` | single_record_array | pass | 100 | 12 | 0 |  |  |
+| `p3re_combineMisc` | single_record | pass | 100 | 6 | 2 |  |  |
+| `p3re_combinemiscdataasset` | single_record | pass | 100 | 6 | 2 |  |  |
+| `p3re_datbtlmixraidreleasedataasset` | indexed_rows | pass | 100 | 4 | 0 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_datpersonaaffinitydataasset` | indexed_rows | pass | 100 | 19 | 0 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_datskilldataasset` | indexed_rows | pass | 100 | 3 | 0 | allowAfterSignedByteSentinelNormalization | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_datskillnormaldataasset` | indexed_rows | pass | 100 | 22 | 72 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_DT_BtlDIfficultyParam` | named_rows | pass | 100 | 50 | 0 |  |  |
+| `p3re_encountEnemyBadPercent` | indexed_rows | pass | 100 | 5 | 0 |  |  |
+| `p3re_persona` | indexed_rows | pass | 100 | 12 | 0 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_personaAffinity` | indexed_rows | pass | 100 | 19 | 0 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_personaGrowth` | indexed_rows | pass | 100 | 5 | 1 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_playerLevelup` | indexed_rows | pass | 100 | 1 | 0 |  |  |
+| `p3re_skill` | indexed_rows | pass | 100 | 3 | 0 | allowAfterSignedByteSentinelNormalization | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_skillLimit` | indexed_rows | pass | 100 | 2 | 0 |  |  |
+| `p3re_skillNormal` | indexed_rows | pass | 100 | 21 | 99 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_supportInfoCommon` | indexed_rows | pass | 100 | 7 | 0 |  | exception: Cannot process argument transformation on parameter 'EnumSizes'. Cannot convert value "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" to type "System.Collections.Hashtable". Error: "Cannot convert the "@{Bool=1; ProgramEffect=1; SkillList=2; EnemyID=2; ElementalType=1; BGMID=2; CostType=1; ItemList=2; RaceID=1; SPTypeList=1; EffectType=1; AffinityStatus=2; TargetTypeList=1; SkillTargets=1; PersonaID=2; HPTypeList=1; EventIDList=2; PersonaInherit=2}" value of type "System.Management.Automation.PSCustomObject" to type "System.Collections.Hashtable"." |
+| `p3re_calcPANICDropItem` | single_record | skip | - | 0 | 3 |  | no CUE4Parse JSON available for p3re_calcPANICDropItem |
+| `p3re_calcPANICUseItem` | indexed_rows | skip | - | 0 | 1 |  | no CUE4Parse JSON available for p3re_calcPANICUseItem |
+| `p3re_supportInfoNavi` | indexed_rows | skip | - | 0 | 7 |  | schema not calibrated (status=not_found) |
 
-## 自动安全原则
+## Automatic Allowlist Excerpt
 
-| 状态 | 自动写回 |
-|---|---|
-| PASS + flat scalar | 可放行 |
-| safeWithNormalization | 仅按 schema 标注规则放行 |
-| PARTIAL / needsManualReview | 默认人工复核 |
-| FAIL / SKIP / deprecated / unsupported | 阻断或仅研究 |
+Full JSON: `tools/templates-010/schemas/schema-safety-coverage.json`.
 
-## 已知报告风险
+| Schema | Target pattern | Type | Size |
+|---|---|---|---:|
+| `p3re_allyPersonaGrowth` | `Data[N].playerId` | ubyte | 1 |
+| `p3re_allyPersonaGrowth` | `Data[N].levelMax` | ubyte | 1 |
+| `p3re_btlMixRaidRelease` | `Data[N].personaAID` | PersonaID | 2 |
+| `p3re_btlMixRaidRelease` | `Data[N].personaBID` | PersonaID | 2 |
+| `p3re_btlMixRaidRelease` | `Data[N].flag` | uint | 4 |
+| `p3re_btlMixRaidRelease` | `Data[N].skill` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value2` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value3` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value4` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value5` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value6` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value7` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value8` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value9` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value10` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value11` | ushort | 2 |
+| `p3re_btlTheurgiaBoost_astrea` | `Record[N].value12` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value2` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value3` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value4` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value5` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value6` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value7` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value8` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value9` | ushort | 2 |
+| `p3re_btlTheurgiaBoost` | `Record[N].value10` | ushort | 2 |
+| `p3re_combineMisc` | `accidentBaseRate` | float | 4 |
+| `p3re_combineMisc` | `foolAccidentRate` | float | 4 |
+| `p3re_combineMisc` | `accidentMinLv` | short | 2 |
+| `p3re_combineMisc` | `accidentMaxLv` | ushort | 2 |
+| `p3re_combineMisc` | `skillChangeBaseRate` | float | 4 |
+| `p3re_combineMisc` | `skillBuildUpRate` | float | 4 |
+| `p3re_combinemiscdataasset` | `accidentBaseRate` | float | 4 |
+| `p3re_combinemiscdataasset` | `foolAccidentRate` | float | 4 |
+| `p3re_combinemiscdataasset` | `accidentMinLv` | short | 2 |
+| `p3re_combinemiscdataasset` | `accidentMaxLv` | ushort | 2 |
+| `p3re_combinemiscdataasset` | `skillChangeBaseRate` | float | 4 |
+| `p3re_combinemiscdataasset` | `skillBuildUpRate` | float | 4 |
+| `p3re_datbtlmixraidreleasedataasset` | `Data[N].personaAID` | PersonaID | 2 |
+| `p3re_datbtlmixraidreleasedataasset` | `Data[N].personaBID` | PersonaID | 2 |
+| `p3re_datbtlmixraidreleasedataasset` | `Data[N].flag` | uint | 4 |
+| `p3re_datbtlmixraidreleasedataasset` | `Data[N].skill` | ushort | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr2` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr3` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr4` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr5` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr6` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr7` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr8` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr9` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr10` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr11` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr12` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr13` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr14` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr15` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr16` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr17` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr18` | AffinityStatus | 2 |
+| `p3re_datpersonaaffinitydataasset` | `Data[N].attr19` | AffinityStatus | 2 |
+| `p3re_datskilldataasset` | `Data[N].attr` | ElementalType | 1 |
+| `p3re_datskilldataasset` | `Data[N].type` | ubyte | 1 |
+| `p3re_datskilldataasset` | `Data[N].targetLv` | ubyte | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].use` | ubyte | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].koukatype` | ubyte | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].costtype` | CostType | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].cost` | ubyte | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].costbase` | ubyte | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].targettype` | TargetTypeList | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].targetarea` | SkillTargets | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].targetrule` | ubyte | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].untargetbadstat` | uint | 4 |
+| `p3re_datskillnormaldataasset` | `Data[N].hitratio` | ubyte | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].targetcntmin` | ubyte | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].targetcntmax` | ubyte | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].hptype` | HPTypeList | 1 |
+| `p3re_datskillnormaldataasset` | `Data[N].hpn` | ushort | 2 |
+| ... | ... | ... | ... |
 
-旧版报告中曾出现 PowerShell 对象未展开为文本的问题。引用本报告前应重新运行：
+## Manual Review / Denylist Rules
 
-```powershell
-.\tools\scripts\tools\schema-coverage-report.ps1
-```
+- `partial` schemas are not automatically allowed, even when a field looks scalar; manually verify offsets or improve regression metadata first.
+- `fail` / `skip` / `deprecatedDuplicate` / `unsupportedUntilSchemaFix` block automatic writes.
+- `kind != scalar`, `string`, `TArray`, `struct`, `union`, and non 1/2/4/8-byte fields block automatic writes.
+- Fields with `fieldReviewStatus.status=needsManualReview` require manual review.
 
-## 必须遵守的项目事实
+## Deferred Manual Items
 
-- 当前唯一推荐写回路径是 **Zen 单文件 `.uasset` byte-patch**，再通过 Reloaded II + UnrealEssentials 散文件挂载。
-- `P3RDataTools create/modify/quick/create-template` 仍存在，但属于传统 `.uasset+.uexp` 路径；新 Mod 不应把它们当主写回方案。
-- `Data[N]` 的 N 通常就是游戏资产 ID；不要默认修改 `Data[0]`。
-- Skill 表 `hpn` 是显示伤害的平方语义；把伤害改为 N 倍时应按 N² 换算。
-- 自动写回仅面向 guard 放行的定长标量字段；string、TArray、union、nested struct array、变长字段默认拒绝自动 patch。
-- `Paks/`、`Extracted/`、`tools/Reloaded II/`、`tools/UnrealPakTool/`、`tools/Output/.data/` 是本地/生成/忽略目录，不应提交原版游戏资产或个人配置。
-
-## 关键入口
-
-| 用途 | 文件/命令 |
-|---|---|
-| 主流程 | `tools/scripts/modify-and-repack.ps1` |
-| Zen 字节写回 | `tools/scripts/Invoke-ZenPatch.ps1` |
-| DSL helper | `tools/scripts/dsl/P3RModDSL.psm1` |
-| 数据定位 | `tools/scripts/tools/search-datatable.ps1`、`search-wiki.ps1` |
-| 预览与安全 | `diff-changes.ps1`、`guard-modify.ps1`、`conflict-check.ps1` |
-| 备份/回滚 | `backup-mod.ps1`、`rollback-mod.ps1` |
-| schema 链 | `Parse-BtTemplate.ps1`、`Calibrate-SchemaHeaders.ps1`、`Test-SchemaRegression.ps1` |
+See `docs/MANUAL_TEST_TODO.md` MT-104 / MT-105. This report is static coverage analysis and does not replace in-game validation.
