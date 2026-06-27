@@ -76,13 +76,13 @@
 
 ### 1.2 设计原则
 
-| 原则 | 说明 |
-|------|------|
+| 原则                 | 说明                                                                                                  |
+| -------------------- | ----------------------------------------------------------------------------------------------------- |
 | **关注点分离** | 表示层（对话/CLI）、编排层（流程）、工具层（独立脚本）、核心层（C# 引擎）、数据层（文件系统）严格分离 |
-| **最小依赖** | 每层只依赖下层，不跨层调用。工具脚本互相独立，可单独调用 |
-| **故障隔离** | 一个工具脚本失败不影响其他脚本。C# 引擎崩溃有独立错误码和恢复路径 |
-| **降级可用** | Claude Code 不可用时，PowerShell 脚本仍可独立使用 |
-| **文件即接口** | 层间通过 JSON 文件 + 标准输出传递数据，无内部 API/网络调用 |
+| **最小依赖**   | 每层只依赖下层，不跨层调用。工具脚本互相独立，可单独调用                                              |
+| **故障隔离**   | 一个工具脚本失败不影响其他脚本。C# 引擎崩溃有独立错误码和恢复路径                                     |
+| **降级可用**   | Claude Code 不可用时，PowerShell 脚本仍可独立使用                                                     |
+| **文件即接口** | 层间通过 JSON 文件 + 标准输出传递数据，无内部 API/网络调用                                            |
 
 ---
 
@@ -161,15 +161,15 @@ Config.ps1 ───────────────────────
 
 各工具的 `data` 字段契约：
 
-| 工具 | 输入 | 输出 (data 字段) |
-|---|---|---|
-| `search-datatable` | query, category? | `{ virtualPath, assetName, rowIndex, fieldPath, currentValue, wikiName }` |
-| `search-wiki` | query, topic? | `{ entries: [{ title, snippet, relatedTable, relatedIds }] }` |
-| `diff-changes` | beforeJson, afterJson | `{ changes: [{ table, rowIndex, wikiName, field, oldValue, newValue }] }` |
-| `backup-mod` | modName, label? | `{ backupPath, timestamp, filesBackedUp }` |
-| `rollback-mod` | modName | `{ deletedFiles, verified: bool }` |
-| `conflict-check` | modName | `{ hasConflict, conflicts: [{ otherMod, table, overlappingRows, severity }] }` |
-| `guard-modify` | modName, changes | `{ passed: bool, checks: [{ name, passed, message }] }` |
+| 工具                 | 输入                  | 输出 (data 字段)                                                                 |
+| -------------------- | --------------------- | -------------------------------------------------------------------------------- |
+| `search-datatable` | query, category?      | `{ virtualPath, assetName, rowIndex, fieldPath, currentValue, wikiName }`      |
+| `search-wiki`      | query, topic?         | `{ entries: [{ title, snippet, relatedTable, relatedIds }] }`                  |
+| `diff-changes`     | beforeJson, afterJson | `{ changes: [{ table, rowIndex, wikiName, field, oldValue, newValue }] }`      |
+| `backup-mod`       | modName, label?       | `{ backupPath, timestamp, filesBackedUp }`                                     |
+| `rollback-mod`     | modName               | `{ deletedFiles, verified: bool }`                                             |
+| `conflict-check`   | modName               | `{ hasConflict, conflicts: [{ otherMod, table, overlappingRows, severity }] }` |
+| `guard-modify`     | modName, changes      | `{ passed: bool, checks: [{ name, passed, message }] }`                        |
 
 ### 2.3 接口约定
 
@@ -282,28 +282,28 @@ C# 层异常
 
 ## 六、技术选型理由
 
-| 层 | 技术 | 理由 |
-|----|------|------|
-| **AI** | Claude Code (Anthropic) | 原生 tool_use / 会话管理 / 权限系统 / Git 集成, 无需自己实现 Agent 框架 |
-| **读取** | CUE4Parse 1.1.1 (C#) | 唯一支持 IoStore 的 .NET 库, 已验证 140K 文件挂载 |
-| **写入** | Zen byte-patch + 010 schema (PowerShell) | P3R 已验证可工作；复制 IoStore Zen 原件并定长标量 in-place patch，避免传统重序列化崩溃 |
-| **交付** | Reloaded II + UnrealEssentials 散文件 | 默认加载链；镜像 `<Mod>/UnrealEssentials/P3R/Content/...`，无 `.uexp` |
-| **打包 fallback** | UnrealPak 4.27 / FEmulator | 仅排查或备份路径；不作为 DataTable 主交付方式 |
-| **编排** | PowerShell 5.1 | Windows 原生, 已有 Config.ps1 + modify-and-repack.ps1 基础 |
-| **数据交换** | JSON (Newtonsoft.Json) | 人可读 / LLM 可解析 / diff 友好 / 无 schema 依赖 |
-| **版本管理** | Git | 仓库已配置, 天然适合 mod 版本追踪 |
-| **知识库** | Markdown 文件系统 | 37 个 Wiki MD 已就绪, 无需向量数据库即可被 grep/LLM 检索 |
-| **模板/schema** | 010 `.bt` schema + regression metadata | 提供 rowSize/headerSize/field offset；guard 按 PASS/PARTIAL/FAIL/SKIP 控制开放范围 |
+| 层                      | 技术                                     | 理由                                                                                   |
+| ----------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------- |
+| **AI**            | Claude Code (Anthropic)                  | 原生 tool_use / 会话管理 / 权限系统 / Git 集成, 无需自己实现 Agent 框架                |
+| **读取**          | CUE4Parse 1.1.1 (C#)                     | 唯一支持 IoStore 的 .NET 库, 已验证 140K 文件挂载                                      |
+| **写入**          | Zen byte-patch + 010 schema (PowerShell) | P3R 已验证可工作；复制 IoStore Zen 原件并定长标量 in-place patch，避免传统重序列化崩溃 |
+| **交付**          | Reloaded II + UnrealEssentials 散文件    | 默认加载链；镜像`<Mod>/UnrealEssentials/P3R/Content/...`，无 `.uexp`               |
+| **打包 fallback** | UnrealPak 4.27 / FEmulator               | 仅排查或备份路径；不作为 DataTable 主交付方式                                          |
+| **编排**          | PowerShell 5.1                           | Windows 原生, 已有 Config.ps1 + modify-and-repack.ps1 基础                             |
+| **数据交换**      | JSON (Newtonsoft.Json)                   | 人可读 / LLM 可解析 / diff 友好 / 无 schema 依赖                                       |
+| **版本管理**      | Git                                      | 仓库已配置, 天然适合 mod 版本追踪                                                      |
+| **知识库**        | Markdown 文件系统                        | 37 个 Wiki MD 已就绪, 无需向量数据库即可被 grep/LLM 检索                               |
+| **模板/schema**   | 010`.bt` schema + regression metadata  | 提供 rowSize/headerSize/field offset；guard 按 PASS/PARTIAL/FAIL/SKIP 控制开放范围     |
 
 ### 6.1 不推荐的替代方案
 
-| 方案 | 理由 |
-|------|------|
-| **纯 CLI (无 AI)** | 用户需要记忆虚拟路径、字段名、行索引 — 丧失目标用户群 |
-| **Python + LangChain** | CUE4Parse/UAssetAPI 都是 C# 库, Python 无法直接调用; 引入 IPC 增加复杂度 |
-| **Web UI + LLM API** | 需要前端开发; Claude Code 已提供完整对话界面 |
-| **本地 LLM (Ollama/Llama)** | 推理质量不足以稳定处理「模糊自然语言 → 结构化查询」的映射 |
-| **自建 Agent 框架** | 需自行实现 function calling、会话管理、权限控制 — Claude Code 内置全部 |
+| 方案                              | 理由                                                                     |
+| --------------------------------- | ------------------------------------------------------------------------ |
+| **纯 CLI (无 AI)**          | 用户需要记忆虚拟路径、字段名、行索引 — 丧失目标用户群                   |
+| **Python + LangChain**      | CUE4Parse/UAssetAPI 都是 C# 库, Python 无法直接调用; 引入 IPC 增加复杂度 |
+| **Web UI + LLM API**        | 需要前端开发; Claude Code 已提供完整对话界面                             |
+| **本地 LLM (Ollama/Llama)** | 推理质量不足以稳定处理「模糊自然语言 → 结构化查询」的映射               |
+| **自建 Agent 框架**         | 需自行实现 function calling、会话管理、权限控制 — Claude Code 内置全部  |
 
 ### 6.2 Claude Code 职责边界
 
