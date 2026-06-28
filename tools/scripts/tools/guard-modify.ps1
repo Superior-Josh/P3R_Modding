@@ -152,3 +152,4 @@ if ($Json) {
 }
 
 if ($hasError) { exit 2 }
+exit 0

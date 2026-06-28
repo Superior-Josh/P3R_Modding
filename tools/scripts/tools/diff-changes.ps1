@@ -77,3 +77,4 @@ if ($Json) {
     Write-Host ""
     Write-Host "$($preview.Count) change(s) previewed. Run modify-and-repack.ps1 -DryRun for engine-level confirmation." -ForegroundColor Cyan
 }
+exit 0
